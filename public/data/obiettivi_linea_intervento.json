@@ -1,0 +1,31 @@
+    {
+        "data": [
+            {
+                "num_enti_obiettivi": 11020,
+                "des_linea_intervento": "Sito web istituzionale"
+            },
+            {
+                "num_enti_obiettivi": 8218,
+                "des_linea_intervento": "Formazione"
+            },
+            {
+                "num_enti_obiettivi": 6417,
+                "des_linea_intervento": "Organizzazione del lavoro"
+            },
+            {
+                "num_enti_obiettivi": 4082,
+                "des_linea_intervento": "Postazioni di lavoro"
+            },
+            {
+                "num_enti_obiettivi": 3547,
+                "des_linea_intervento": "Siti web tematici"
+            },
+            {
+                "num_enti_obiettivi": 2638,
+                "des_linea_intervento": "Sito intranet"
+            }
+        ],
+        "intestazione": {
+            "anno": 2023
+        }
+    }

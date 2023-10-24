@@ -1,0 +1,18 @@
+[
+    {
+        "des_principio": "Percepibile",
+        "perc_errore_per_principio": 49.56
+    },
+    {
+        "des_principio": "Utilizzabile",
+        "perc_errore_per_principio": 42.03
+    },
+    {
+        "des_principio": "Robusto",
+        "perc_errore_per_principio": 7.58
+    },
+    {
+        "des_principio": "Comprensibile",
+        "perc_errore_per_principio": 0.83
+    }
+]

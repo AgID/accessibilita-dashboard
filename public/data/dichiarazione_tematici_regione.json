@@ -1,0 +1,134 @@
+    {
+        "data": [
+            {
+                "des_regione": "Lombardia",
+                "num_siti_tot": 2360,
+                "num_siti_tematici_con_dich": 765,
+                "num_enti_con_dich_istituzionali": 1595
+            },
+            {
+                "des_regione": "Lazio",
+                "num_siti_tot": 1235,
+                "num_siti_tematici_con_dich": 717,
+                "num_enti_con_dich_istituzionali": 518
+            },
+            {
+                "des_regione": "Emilia-Romagna",
+                "num_siti_tot": 883,
+                "num_siti_tematici_con_dich": 350,
+                "num_enti_con_dich_istituzionali": 533
+            },
+            {
+                "des_regione": "Veneto",
+                "num_siti_tot": 1126,
+                "num_siti_tematici_con_dich": 349,
+                "num_enti_con_dich_istituzionali": 777
+            },
+            {
+                "des_regione": "Campania",
+                "num_siti_tot": 860,
+                "num_siti_tematici_con_dich": 261,
+                "num_enti_con_dich_istituzionali": 599
+            },
+            {
+                "des_regione": "Piemonte",
+                "num_siti_tot": 974,
+                "num_siti_tematici_con_dich": 228,
+                "num_enti_con_dich_istituzionali": 746
+            },
+            {
+                "des_regione": "Toscana",
+                "num_siti_tot": 568,
+                "num_siti_tematici_con_dich": 191,
+                "num_enti_con_dich_istituzionali": 377
+            },
+            {
+                "des_regione": "Puglia",
+                "num_siti_tot": 637,
+                "num_siti_tematici_con_dich": 171,
+                "num_enti_con_dich_istituzionali": 466
+            },
+            {
+                "des_regione": "Sicilia",
+                "num_siti_tot": 618,
+                "num_siti_tematici_con_dich": 151,
+                "num_enti_con_dich_istituzionali": 467
+            },
+            {
+                "des_regione": "Friuli-Venezia Giulia",
+                "num_siti_tot": 388,
+                "num_siti_tematici_con_dich": 114,
+                "num_enti_con_dich_istituzionali": 274
+            },
+            {
+                "des_regione": "Liguria",
+                "num_siti_tot": 300,
+                "num_siti_tematici_con_dich": 105,
+                "num_enti_con_dich_istituzionali": 195
+            },
+            {
+                "des_regione": "Abruzzo",
+                "num_siti_tot": 301,
+                "num_siti_tematici_con_dich": 103,
+                "num_enti_con_dich_istituzionali": 198
+            },
+            {
+                "des_regione": "Marche",
+                "num_siti_tot": 356,
+                "num_siti_tematici_con_dich": 79,
+                "num_enti_con_dich_istituzionali": 277
+            },
+            {
+                "des_regione": "Calabria",
+                "num_siti_tot": 371,
+                "num_siti_tematici_con_dich": 79,
+                "num_enti_con_dich_istituzionali": 292
+            },
+            {
+                "des_regione": "Sardegna",
+                "num_siti_tot": 433,
+                "num_siti_tematici_con_dich": 79,
+                "num_enti_con_dich_istituzionali": 354
+            },
+            {
+                "des_regione": "Umbria",
+                "num_siti_tot": 167,
+                "num_siti_tematici_con_dich": 47,
+                "num_enti_con_dich_istituzionali": 120
+            },
+            {
+                "des_regione": "Basilicata",
+                "num_siti_tot": 114,
+                "num_siti_tematici_con_dich": 22,
+                "num_enti_con_dich_istituzionali": 92
+            },
+            {
+                "des_regione": "Provincia autonoma di Bolzano",
+                "num_siti_tot": 107,
+                "num_siti_tematici_con_dich": 16,
+                "num_enti_con_dich_istituzionali": 91
+            },
+            {
+                "des_regione": "Provincia autonoma di Trento",
+                "num_siti_tot": 80,
+                "num_siti_tematici_con_dich": 15,
+                "num_enti_con_dich_istituzionali": 65
+            },
+            {
+                "des_regione": "Valle d'Aosta/Vallée d'Aoste",
+                "num_siti_tot": 85,
+                "num_siti_tematici_con_dich": 13,
+                "num_enti_con_dich_istituzionali": 72
+            },
+            {
+                "des_regione": "Molise",
+                "num_siti_tot": 80,
+                "num_siti_tematici_con_dich": 10,
+                "num_enti_con_dich_istituzionali": 70
+            }
+        ],
+        "intestazione": {
+            "periodo_dichiarazioni": "2020 - 2022",
+            "dat_ultimo_rilevamento": "2022-09-23"
+        }
+    }

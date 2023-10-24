@@ -1,0 +1,20 @@
+    {
+        "data": [
+            {
+                "valore": 2746,
+                "conformita": "parzialmente conforme"
+            },
+            {
+                "valore": 1019,
+                "conformita": "conforme"
+            },
+            {
+                "valore": 100,
+                "conformita": "non conforme"
+            }
+        ],
+        "intestazione": {
+            "periodo_dichiarazioni": "2020 - 2022",
+            "dat_ultimo_rilevamento": "2022-09-23"
+        }
+    }

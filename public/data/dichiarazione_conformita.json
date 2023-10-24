@@ -1,0 +1,17 @@
+[
+    {
+        "conformita": "parzialmente conforme",
+        "num_dichiarazioni_pub": 7275,
+        "dat_ult_agg_dichiarazione": "2022-09-23"
+    },
+    {
+        "conformita": "conforme",
+        "num_dichiarazioni_pub": 4608,
+        "dat_ult_agg_dichiarazione": "2022-09-23"
+    },
+    {
+        "conformita": "non conforme",
+        "num_dichiarazioni_pub": 172,
+        "dat_ult_agg_dichiarazione": "2022-09-23"
+    }
+]

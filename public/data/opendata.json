@@ -1,0 +1,22 @@
+[
+    {
+        "nome": "Dichiarazione di accessibilità",
+        "periodo": "Settembre 2022",
+        "descrizione": "Il file contiene i dati aggregati dell'ultimo anno, distribuiti per regione o provincia autonoma."
+    },
+    {
+        "nome": "Monitoraggio",
+        "periodo": "Giugno 2023",
+        "descrizione": "Il file contiene i dati aggregati dell'ultimo monitoraggio, distribuiti per categoria IPA e regione o provincia autonoma."
+    },
+    {
+        "nome": "Errori",
+        "periodo": "Giugno 2023",
+        "descrizione": "Il file contiene i dati aggregati dell'ultimo monitoraggio, distribuiti per principio, criterio di successo e livello di conformità."
+    },
+    {
+        "nome": "Obiettivi di accessibilità",
+        "periodo": "Anno 2023",
+        "descrizione": "Il file contiene i dati aggregati dell'ultimo anno, distribuiti per regione o provincia autonoma."
+    }
+]

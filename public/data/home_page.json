@@ -1,0 +1,27 @@
+[
+    {
+        "valore": 11225,
+        "indicatore": "num_enti_obiettivi",
+        "dat_ultimo_monitoraggio": "2023"
+    },
+    {
+        "valore": 17.20,
+        "indicatore": "incidenza_errori",
+        "dat_ultimo_monitoraggio": "2023-06-30"
+    },
+    {
+        "valore": 3424153,
+        "indicatore": "num_pagine_valutate",
+        "dat_ultimo_monitoraggio": "2023-06-30"
+    },
+    {
+        "valore": 18263,
+        "indicatore": "num_siti_monitorati",
+        "dat_ultimo_monitoraggio": "2023-06-30"
+    },
+    {
+        "valore": 31065,
+        "indicatore": "num_dichiarazioni",
+        "dat_ultimo_monitoraggio": "2022-09-23"
+    }
+]

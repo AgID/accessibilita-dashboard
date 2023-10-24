@@ -1,0 +1,33 @@
+    {
+        "intestazione": {
+            "periodo_monitoraggio": "2-2023",
+            "dat_ultimo_aggiornamento": "2023-06-30"
+        },
+        "data": [
+            {
+                "area_geografica": "Nord-ovest",
+                "num_siti_monitorati": 5545,
+                "cod_ripartizione_geografica": "1"
+            },
+            {
+                "area_geografica": "Nord-est",
+                "num_siti_monitorati": 3714,
+                "cod_ripartizione_geografica": "2"
+            },
+            {
+                "area_geografica": "Centro",
+                "num_siti_monitorati": 3441,
+                "cod_ripartizione_geografica": "3"
+            },
+            {
+                "area_geografica": "Sud",
+                "num_siti_monitorati": 3818,
+                "cod_ripartizione_geografica": "4"
+            },
+            {
+                "area_geografica": "Isole",
+                "num_siti_monitorati": 1745,
+                "cod_ripartizione_geografica": "5"
+            }
+        ]
+    }
