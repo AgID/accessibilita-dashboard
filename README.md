@@ -11,18 +11,21 @@ Il progetto ha l'obiettivo di implementare un sito dove è possibile analizzare 
 [boostrap Italia](https://github.com/italia/bootstrap-italia)
 
 ### Procedura di installazione 
- 
+
+1. installare [git](https://git-scm.com/downloads)
 2. installare [Node.js](https://nodejs.org/) (v19.4.x).
 3. installare [Yarn](https://yarnpkg.com/)(1.22.x)
 4. eseguire i seguenti comandi:
 
 $ git clone https://github.com/AgID/accessibilita-dashboard.git
 
-$ cd ../path/to/the/file
+$ cd accessibilità-dashboard
 
-$ unzip sito_progetto_monitoraggio_agid.zip
+$ aprire una shell
 
-$ aprire il progetto tramite un IDE 
+$ npm install -g yarn
+
+$ yarn dev
 
 
 
