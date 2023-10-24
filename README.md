@@ -17,16 +17,12 @@ Il progetto ha l'obiettivo di implementare un sito dove è possibile analizzare 
 3. installare [Yarn](https://yarnpkg.com/)(1.22.x)
 4. eseguire i seguenti comandi:
 
-$ git clone https://github.com/AgID/accessibilita-dashboard.git
-
-$ cd accessibilità-dashboard
-
-$ aprire una shell
-
-$ npm install -g yarn
-
-$ yarn dev
-
+```shell
+git clone https://github.com/AgID/accessibilita-dashboard.git
+cd accessibilità-dashboard
+npm install -g yarn
+yarn dev
+```
 
 
 
