@@ -1,29 +1,27 @@
-# Monitoraggio Accessibilita Dashboard
+# Dashboard Monitoraggio Accessibilità
 
-Il progetto ha l'obiettivo di implementare un sito dove è possibile analizzare i dati dei monitoraggio dei siti della pubblica amministrazione effetturato da Mauve++ e di esporre i dati delle Dichiarazioni d'accessibilità raccolte tramite il Form Agid.
-
+Il progetto ha l'obiettivo di implementare una dashboard dove è possibile
+analizzare i dati del monitoraggio dei siti della Pubblica Amministrazione
+effetturato da [Mauve++](https://mauve.isti.cnr.it/) e di esporre i dati delle
+Dichiarazioni di accessibilità raccolte tramite AGID Form.
 
 ## Tecnologie utilizzate
 
 [Node.js](https://nodejs.org/) (v19.4.x).
 [Svelte](https://kit.svelte.dev/) (3.52.x).
 [Yarn](https://yarnpkg.com/)(1.22.x)
-[boostrap Italia](https://github.com/italia/bootstrap-italia)
+[Boostrap Italia](https://italia.github.io/bootstrap-italia/)
 
-### Procedura di installazione 
+## Procedura di installazione
 
 1. installare [git](https://git-scm.com/downloads)
 2. installare [Node.js](https://nodejs.org/) (v19.4.x).
 3. installare [Yarn](https://yarnpkg.com/)(1.22.x)
-4. eseguire i seguenti comandi:
+4. eseguire i seguenti comandi da console:
 
 ```shell
 git clone https://github.com/AgID/accessibilita-dashboard.git
-cd accessibilità-dashboard
+cd accessibilita-dashboard
 npm install -g yarn
 yarn dev
 ```
-
-
-
-
