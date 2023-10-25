@@ -156,7 +156,7 @@
                     <li class="w-100 pointer">
                       <!-- svelte-ignore a11y-missing-attribute -->
                       <a
-                        href="monitoraggio"
+                        href="/monitoraggio"
                         class:selected={selectedPage == "/monitoraggio"}
                         aria-current={selectedPage == "/monitoraggio"
                           ? "true"
@@ -174,7 +174,7 @@
                     <li class="w-100 pointer">
                       <!-- svelte-ignore a11y-missing-attribute -->
                       <a
-                        href="errori"
+                        href="/errori"
                         class:selected={selectedPage == "/errori"}
                         aria-current={selectedPage == "/errori"
                           ? "true"
@@ -192,7 +192,7 @@
                     <li class="w-100 pointer">
                       <!-- svelte-ignore a11y-missing-attribute -->
                       <a
-                        href="dichiarazione"
+                        href="/dichiarazione"
                         class:selected={selectedPage == "/dichiarazione"}
                         aria-current={selectedPage == "/dichiarazione"
                           ? "true"
@@ -210,7 +210,7 @@
                     <li class="w-100 pointer">
                       <!-- svelte-ignore a11y-missing-attribute -->
                       <a
-                        href="obiettivi"
+                        href="/obiettivi"
                         class:selected={selectedPage == "/obiettivi"}
                         aria-current={selectedPage == "/obiettivi"
                           ? "true"
@@ -233,7 +233,7 @@
                     <li class="w-100 pointer">
                       <!-- svelte-ignore a11y-missing-attribute -->
                       <a
-                        href="progetto"
+                        href="/progetto"
                         class:selected={selectedPage == "/progetto"}
                         aria-current={selectedPage == "/progetto"
                           ? "true"
@@ -251,7 +251,7 @@
                     <!-- svelte-ignore a11y-missing-attribute -->
                     <li class="w-100 pointer">
                       <a
-                        href="cronologia"
+                        href="/cronologia"
                         class:selected={selectedPage == "/cronologia"}
                         aria-current={selectedPage == "/cronologia"
                           ? "true"
@@ -269,7 +269,7 @@
                     <li class="w-100 pointer" bind:this={lastElement}>
                       <!-- svelte-ignore a11y-missing-attribute -->
                       <a
-                        href="opendata"
+                        href="/opendata"
                         class:selected={selectedPage == "/opendata"}
                         aria-current={selectedPage == "/opendata"
                           ? "true"

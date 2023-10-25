@@ -1,1 +1,150 @@
-<table xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">\n\n<row>\n  <anno>2022</anno>\n  <des_regione>Lombardia</des_regione>\n  <num_enti_tot>3298</num_enti_tot>\n  <num_enti_con_dich>1734</num_enti_con_dich>\n</row>\n\n<row>\n  <anno>2022</anno>\n  <des_regione>Piemonte</des_regione>\n  <num_enti_tot>2239</num_enti_tot>\n  <num_enti_con_dich>829</num_enti_con_dich>\n</row>\n\n<row>\n  <anno>2022</anno>\n  <des_regione>Campania</des_regione>\n  <num_enti_tot>1904</num_enti_tot>\n  <num_enti_con_dich>754</num_enti_con_dich>\n</row>\n\n<row>\n  <anno>2022</anno>\n  <des_regione>Sicilia</des_regione>\n  <num_enti_tot>1812</num_enti_tot>\n  <num_enti_con_dich>582</num_enti_con_dich>\n</row>\n\n<row>\n  <anno>2022</anno>\n  <des_regione>Lazio</des_regione>\n  <num_enti_tot>1720</num_enti_tot>\n  <num_enti_con_dich>637</num_enti_con_dich>\n</row>\n\n<row>\n  <anno>2022</anno>\n  <des_regione>Veneto</des_regione>\n  <num_enti_tot>1654</num_enti_tot>\n  <num_enti_con_dich>848</num_enti_con_dich>\n</row>\n\n<row>\n  <anno>2022</anno>\n  <des_regione>Emilia-Romagna</des_regione>\n  <num_enti_tot>1297</num_enti_tot>\n  <num_enti_con_dich>608</num_enti_con_dich>\n</row>\n\n<row>\n  <anno>2022</anno>\n  <des_regione>Puglia</des_regione>\n  <num_enti_tot>1204</num_enti_tot>\n  <num_enti_con_dich>554</num_enti_con_dich>\n</row>\n\n<row>\n  <anno>2022</anno>\n  <des_regione>Toscana</des_regione>\n  <num_enti_tot>1164</num_enti_tot>\n  <num_enti_con_dich>451</num_enti_con_dich>\n</row>\n\n<row>\n  <anno>2022</anno>\n  <des_regione>Calabria</des_regione>\n  <num_enti_tot>984</num_enti_tot>\n  <num_enti_con_dich>354</num_enti_con_dich>\n</row>\n\n<row>\n  <anno>2022</anno>\n  <des_regione>Sardegna</des_regione>\n  <num_enti_tot>905</num_enti_tot>\n  <num_enti_con_dich>420</num_enti_con_dich>\n</row>\n\n<row>\n  <anno>2022</anno>\n  <des_regione>Abruzzo</des_regione>\n  <num_enti_tot>702</num_enti_tot>\n  <num_enti_con_dich>229</num_enti_con_dich>\n</row>\n\n<row>\n  <anno>2022</anno>\n  <des_regione>Marche</des_regione>\n  <num_enti_tot>683</num_enti_tot>\n  <num_enti_con_dich>303</num_enti_con_dich>\n</row>\n\n<row>\n  <anno>2022</anno>\n  <des_regione>Liguria</des_regione>\n  <num_enti_tot>606</num_enti_tot>\n  <num_enti_con_dich>229</num_enti_con_dich>\n</row>\n\n<row>\n  <anno>2022</anno>\n  <des_regione>Friuli-Venezia Giulia</des_regione>\n  <num_enti_tot>572</num_enti_tot>\n  <num_enti_con_dich>302</num_enti_con_dich>\n</row>\n\n<row>\n  <anno>2022</anno>\n  <des_regione>Provincia autonoma di Trento</des_regione>\n  <num_enti_tot>499</num_enti_tot>\n  <num_enti_con_dich>67</num_enti_con_dich>\n</row>\n\n<row>\n  <anno>2022</anno>\n  <des_regione>Provincia autonoma di Bolzano</des_regione>\n  <num_enti_tot>489</num_enti_tot>\n  <num_enti_con_dich>103</num_enti_con_dich>\n</row>\n\n<row>\n  <anno>2022</anno>\n  <des_regione>Basilicata</des_regione>\n  <num_enti_tot>354</num_enti_tot>\n  <num_enti_con_dich>112</num_enti_con_dich>\n</row>\n\n<row>\n  <anno>2022</anno>\n  <des_regione>Umbria</des_regione>\n  <num_enti_tot>347</num_enti_tot>\n  <num_enti_con_dich>136</num_enti_con_dich>\n</row>\n\n<row>\n  <anno>2022</anno>\n  <des_regione>Molise</des_regione>\n  <num_enti_tot>286</num_enti_tot>\n  <num_enti_con_dich>78</num_enti_con_dich>\n</row>\n\n<row>\n  <anno>2022</anno>\n  <des_regione>Valle d'Aosta/Vallée d'Aoste</des_regione>\n  <num_enti_tot>163</num_enti_tot>\n  <num_enti_con_dich>77</num_enti_con_dich>\n</row>\n\n</table>\n
+<table xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+
+<row>
+  <anno>2023</anno>
+  <des_regione>Lombardia</des_regione>
+  <num_enti_tot>3298</num_enti_tot>
+  <num_enti_con_dich>2018</num_enti_con_dich>
+</row>
+
+<row>
+  <anno>2023</anno>
+  <des_regione>Piemonte</des_regione>
+  <num_enti_tot>2243</num_enti_tot>
+  <num_enti_con_dich>1108</num_enti_con_dich>
+</row>
+
+<row>
+  <anno>2023</anno>
+  <des_regione>Campania</des_regione>
+  <num_enti_tot>1913</num_enti_tot>
+  <num_enti_con_dich>1031</num_enti_con_dich>
+</row>
+
+<row>
+  <anno>2023</anno>
+  <des_regione>Sicilia</des_regione>
+  <num_enti_tot>1820</num_enti_tot>
+  <num_enti_con_dich>819</num_enti_con_dich>
+</row>
+
+<row>
+  <anno>2023</anno>
+  <des_regione>Lazio</des_regione>
+  <num_enti_tot>1729</num_enti_tot>
+  <num_enti_con_dich>735</num_enti_con_dich>
+</row>
+
+<row>
+  <anno>2023</anno>
+  <des_regione>Veneto</des_regione>
+  <num_enti_tot>1656</num_enti_tot>
+  <num_enti_con_dich>1029</num_enti_con_dich>
+</row>
+
+<row>
+  <anno>2023</anno>
+  <des_regione>Emilia-Romagna</des_regione>
+  <num_enti_tot>1300</num_enti_tot>
+  <num_enti_con_dich>781</num_enti_con_dich>
+</row>
+
+<row>
+  <anno>2023</anno>
+  <des_regione>Puglia</des_regione>
+  <num_enti_tot>1211</num_enti_tot>
+  <num_enti_con_dich>657</num_enti_con_dich>
+</row>
+
+<row>
+  <anno>2023</anno>
+  <des_regione>Toscana</des_regione>
+  <num_enti_tot>1169</num_enti_tot>
+  <num_enti_con_dich>600</num_enti_con_dich>
+</row>
+
+<row>
+  <anno>2023</anno>
+  <des_regione>Calabria</des_regione>
+  <num_enti_tot>984</num_enti_tot>
+  <num_enti_con_dich>450</num_enti_con_dich>
+</row>
+
+<row>
+  <anno>2023</anno>
+  <des_regione>Sardegna</des_regione>
+  <num_enti_tot>906</num_enti_tot>
+  <num_enti_con_dich>491</num_enti_con_dich>
+</row>
+
+<row>
+  <anno>2023</anno>
+  <des_regione>Abruzzo</des_regione>
+  <num_enti_tot>702</num_enti_tot>
+  <num_enti_con_dich>260</num_enti_con_dich>
+</row>
+
+<row>
+  <anno>2023</anno>
+  <des_regione>Marche</des_regione>
+  <num_enti_tot>686</num_enti_tot>
+  <num_enti_con_dich>370</num_enti_con_dich>
+</row>
+
+<row>
+  <anno>2023</anno>
+  <des_regione>Liguria</des_regione>
+  <num_enti_tot>607</num_enti_tot>
+  <num_enti_con_dich>266</num_enti_con_dich>
+</row>
+
+<row>
+  <anno>2023</anno>
+  <des_regione>Friuli-Venezia Giulia</des_regione>
+  <num_enti_tot>573</num_enti_tot>
+  <num_enti_con_dich>364</num_enti_con_dich>
+</row>
+
+<row>
+  <anno>2023</anno>
+  <des_regione>Provincia autonoma di Trento</des_regione>
+  <num_enti_tot>499</num_enti_tot>
+  <num_enti_con_dich>119</num_enti_con_dich>
+</row>
+
+<row>
+  <anno>2023</anno>
+  <des_regione>Provincia autonoma di Bolzano</des_regione>
+  <num_enti_tot>492</num_enti_tot>
+  <num_enti_con_dich>123</num_enti_con_dich>
+</row>
+
+<row>
+  <anno>2023</anno>
+  <des_regione>Basilicata</des_regione>
+  <num_enti_tot>353</num_enti_tot>
+  <num_enti_con_dich>151</num_enti_con_dich>
+</row>
+
+<row>
+  <anno>2023</anno>
+  <des_regione>Umbria</des_regione>
+  <num_enti_tot>347</num_enti_tot>
+  <num_enti_con_dich>177</num_enti_con_dich>
+</row>
+
+<row>
+  <anno>2023</anno>
+  <des_regione>Molise</des_regione>
+  <num_enti_tot>287</num_enti_tot>
+  <num_enti_con_dich>101</num_enti_con_dich>
+</row>
+
+<row>
+  <anno>2023</anno>
+  <des_regione>Valle d'Aosta/Vallée d'Aoste</des_regione>
+  <num_enti_tot>163</num_enti_tot>
+  <num_enti_con_dich>86</num_enti_con_dich>
+</row>
+
+</table>

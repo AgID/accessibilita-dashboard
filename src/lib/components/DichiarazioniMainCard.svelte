@@ -7,7 +7,7 @@
   let numDichiarazioni;
   let year;
   let totale;
-
+  let annoRiferimento;
   let dataPagina;
   let dataPaginaFormatted;
 
@@ -30,6 +30,9 @@
     ).valore;
     dataPaginaFormatted = df(dp(dataPagina))
 
+    const riferimento = await fetch("/data/dichiarazione_intestazione.json");
+    const dataRiferimento = await riferimento.json()
+    annoRiferimento = dataRiferimento[0].dat_ult_agg_dichiarazione.substr(0, 4)
 
   });
 </script>
@@ -79,10 +82,9 @@
       caption=""
     />
     <KpiCard
-      title="Dichiarazioni di accessibilità pubblicate nel 2022"
+      title="Dichiarazioni di accessibilità pubblicate nel {annoRiferimento}"
       kpi={nf(numDichiarazioni)}
-      caption="Le dichiarazioni pubblicate entro il 23 settembre {year -
-        1} sono valide fino al 23 settembre {year}"
+      caption="Le dichiarazioni pubblicate entro il 23 settembre {annoRiferimento} sono valide fino al 23 settembre {+annoRiferimento +1}"
     />
   </div>
 </div>

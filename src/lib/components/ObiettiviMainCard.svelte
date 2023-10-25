@@ -5,9 +5,10 @@
   import Icon from "./Icon.svelte";
 
   let numObiettivi;
-  let anno;
   let dataPagina;
   let dataPaginaFormatted;
+
+  let annoRiferimento
 
   onMount(async () => {
     const rs = await fetch("/data/obiettivi_intestazione.json");
@@ -16,7 +17,7 @@
     numObiettivi = data.find(
       (d) => d.indicatore == "num_enti_obiettivi"
     ).valore;
-    anno = data.find(
+    annoRiferimento = data.find(
       (d) => d.indicatore == "num_enti_obiettivi"
     ).dat_ult_agg_obiettivi;
 
@@ -84,7 +85,7 @@
     <KpiCard
       title="Enti che hanno pubblicato un obiettivo"
       kpi={nf(numObiettivi)}
-      caption="Il numero degli enti che hanno pubblicato un obiettivo di accessibilità nel {anno}"
+      caption="Il numero degli enti che hanno pubblicato un obiettivo di accessibilità nel {annoRiferimento}"
     />
   </div>
 </div>

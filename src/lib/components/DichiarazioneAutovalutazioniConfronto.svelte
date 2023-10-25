@@ -45,7 +45,7 @@
     );
     data = await response.json();
     loading = false;
-    periodoMonitoraggio = data?.intestazione?.periodo_dichiarazioni;
+    periodoMonitoraggio = data?.intestazione?.periodo_dichiarazioni.slice(-4);
 
     conformita = data?.data?.map((r) => r.conformita);
     sitiIst = data?.data?.map((r) => r.siti_istituzionali);
@@ -113,10 +113,12 @@
         },
         series: {
           dataLabels: {
+            allowOverlap: true,
+            enabled: true,
+            crop: false,
             borderRadius: 4,
             borderWidth: 0,
             backgroundColor: "white",
-            enabled: true,
             format: "{y}%",
             style: {
               textOutline: "none",
@@ -156,7 +158,7 @@
       <CsvPdfButtons
         rows={data?.data}
         {columns}
-        title="Confronto dell'autovalutazione dei siti tematici e istituzionali delle PA"
+        title="Confronto dell’autovalutazione dei siti tematici e istituzionali delle PA"
         {periodoMonitoraggio}
       />
     {/if}
@@ -169,7 +171,7 @@
       {columns}
       rows={data?.data}
       defaultSortBy=""
-      title="Confronto dell'autovalutazione dei siti tematici e istituzionali delle PA"
+      title="Confronto dell’autovalutazione dei siti tematici e istituzionali delle PA"
       {periodoMonitoraggio}
     />
   </div>

@@ -18,12 +18,17 @@
   let loading = true;
   let linea;
   let numEnti;
+  let annoRiferimento
 
   onMount(async () => {
     const rs2 = await fetch("/data/obiettivi_linea_intervento.json");
     response = await rs2.json();
     loading = false;
     periodoMonitoraggio = response?.intestazione?.anno
+
+    const riferimento = await fetch("/data/obiettivi_intestazione.json");
+    const dataRiferimento = await riferimento.json()
+    annoRiferimento = dataRiferimento[0].dat_ult_agg_obiettivi
 
     const rs3 = await fetch("/data/obiettivi_linea_intervento.json");
     response2 = await rs3.json();
@@ -102,7 +107,7 @@
     </h2>
     <div>
       <p class="mb-0 pb-3 px-2 px-xl-3">
-        Gli interventi di accessibilità pubblicati entro il 31 marzo 2023 si
+        Gli interventi di accessibilità pubblicati entro il 31 marzo {annoRiferimento} si
         distribuiscono nelle seguenti linee di intervento.
       </p>
       {#if periodoMonitoraggio}
@@ -140,7 +145,7 @@
       periodoMonitoraggio={periodoMonitoraggio}
     >
       <div slot="didascaliaSlot" class="didascalia">
-        Gli interventi di accessibilità pubblicati entro il 31 marzo 2023 si
+        Gli interventi di accessibilità pubblicati entro il 31 marzo {annoRiferimento} si
         distribuiscono nelle seguenti linee di intervento.
       </div>
     </DataTable>

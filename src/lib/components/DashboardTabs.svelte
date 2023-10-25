@@ -20,7 +20,7 @@
             </li>
             <li class="my-auto">
               <a
-                href="monitoraggio"
+                href="/monitoraggio"
                 class:selected={selectedPage == "/monitoraggio"}
                 aria-current={selectedPage == "/monitoraggio"
                   ? "true"
@@ -30,7 +30,7 @@
             </li>
             <li class="my-auto">
               <a
-                href="errori"
+                href="/errori"
                 class:selected={selectedPage == "/errori"}
                 aria-current={selectedPage == "/errori" ? "true" : "false"}
                 class="pageChoice display6"><span>Errori</span></a
@@ -38,7 +38,7 @@
             </li>
             <li class="my-auto">
               <a
-                href="dichiarazione"
+                href="/dichiarazione"
                 class:selected={selectedPage == "/dichiarazione"}
                 aria-current={selectedPage == "/dichiarazione"
                   ? "true"
@@ -48,7 +48,7 @@
             </li>
             <li class="my-auto">
               <a
-                href="obiettivi"
+                href="/obiettivi"
                 class:selected={selectedPage == "/obiettivi"}
                 aria-current={selectedPage == "/obiettivi" ? "true" : "false"}
                 class="pageChoice display6"><span>Obiettivi</span></a
@@ -88,7 +88,7 @@
                     <li>
                       <a
                         class="dropdown-item list-item py-2 pageChoice align-middle"
-                        href="progetto"
+                        href="/progetto"
                         aria-current={selectedPage == "/progetto"
                           ? "true"
                           : "false"}><span>Il progetto</span></a
@@ -97,7 +97,7 @@
                     <li>
                       <a
                         class="dropdown-item list-item py-2 pageChoice align-middle"
-                        href="cronologia"
+                        href="/cronologia"
                         aria-current={selectedPage == "/cronologia"
                           ? "true"
                           : "false"}><span>Cronologia del progetto</span></a
@@ -106,7 +106,7 @@
                     <li>
                       <a
                         class="dropdown-item list-item py-2 pageChoice align-middle"
-                        href="opendata"
+                        href="/opendata"
                         aria-current={selectedPage == "/opendata"
                           ? "true"
                           : "false"}><span>Open Data</span></a

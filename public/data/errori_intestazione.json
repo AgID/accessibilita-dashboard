@@ -1,17 +1,17 @@
 [
     {
-        "valore": 207994,
-        "indicatore": "occorrenze criteri violati",
-        "dat_ultimo_monitoraggio": "2023-06-30"
-    },
-    {
-        "valore": 3424153,
-        "indicatore": "numero pagine valutate",
-        "dat_ultimo_monitoraggio": "2023-06-30"
-    },
-    {
         "valore": 21,
         "indicatore": "criteri violati",
-        "dat_ultimo_monitoraggio": "2023-06-30"
+        "dat_ultimo_monitoraggio": "2023-09-30"
+    },
+    {
+        "valore": 3630390,
+        "indicatore": "numero pagine valutate",
+        "dat_ultimo_monitoraggio": "2023-09-30"
+    },
+    {
+        "valore": 273914,
+        "indicatore": "occorrenze criteri violati",
+        "dat_ultimo_monitoraggio": "2023-09-30"
     }
 ]

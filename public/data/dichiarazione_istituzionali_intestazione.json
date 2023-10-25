@@ -1,18 +1,18 @@
 [
     {
-        "valore": 22879,
+        "valore": 22933,
         "indicatore": "num_enti_tot"
     },
     {
-        "valore": 11223,
+        "valore": 13039,
         "indicatore": "num_enti_con_dich_istituzionali_tutti_anni"
     },
     {
-        "valore": 8178,
+        "valore": 9901,
         "indicatore": "num_enti_con_dich_istituzionali_anno_corrente"
     },
     {
-        "valore": 35.74456925564928537100,
+        "valore": 43.17359263942789866100,
         "indicatore": "num_perc_enti_con_dich_istituzionali_su_enti_tot"
     }
 ]

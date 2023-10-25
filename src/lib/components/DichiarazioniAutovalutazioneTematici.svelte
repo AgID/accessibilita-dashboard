@@ -107,7 +107,7 @@
   {#if periodoMonitoraggio}
   <div class="caption text-start d-inline-block px-2 px-xl-3">
     Periodo monitoraggio:
-    {periodoMonitoraggio}
+    {periodoMonitoraggio.slice(-4)}
   </div>
 {/if}
   </div>
@@ -135,7 +135,7 @@
     rows={response?.data}
     defaultSortBy="valore"
     title="L’autovalutazione dei siti tematici delle PA"
-    periodoMonitoraggio={periodoMonitoraggio}
+    periodoMonitoraggio={periodoMonitoraggio.slice(-4)}
     didascalia={true}
   >
     <div slot="didascaliaSlot" class="didascalia">

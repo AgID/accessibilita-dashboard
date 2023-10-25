@@ -6,7 +6,7 @@
   let numDichiarazioniTematici;
   let date;
   let formattedDate;
-
+  let annoRiferimento
 
   onMount(async () => {
     const rs = await fetch("/data/dichiarazione_tematici_intestazione.json");
@@ -22,6 +22,10 @@
       (d) => d.indicatore == "data_ultimo_aggiornamento_pagina"
     ).valore;
     formattedDate = df(dp(date))
+
+    const riferimento = await fetch("/data/dichiarazione_intestazione.json");
+    const dataRiferimento = await riferimento.json()
+    annoRiferimento = dataRiferimento[0].dat_ult_agg_dichiarazione.substr(0, 4)
 
   });
 </script>
@@ -42,7 +46,7 @@
     </div>
     <div class="col-12 mx-lg-0 col-lg-5">
       <KpiCard
-      title="Dichiarazioni pubblicate per i siti tematici nel 2022"
+      title="Dichiarazioni pubblicate per i siti tematici nel {annoRiferimento}"
       kpi={nf(numDichiarazioniTematici)}
       imgLink="images/bookmark-star.svg"
       caption="Ultimo aggiornamento: {formattedDate}"

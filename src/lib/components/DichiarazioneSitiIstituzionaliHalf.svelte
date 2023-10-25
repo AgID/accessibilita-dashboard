@@ -4,9 +4,11 @@
   import ProgressBar from "progressbar.js";
   import { nf, nf2d } from "../utils";
 
+  let annoRiferimento
   let numIstituzionaliCorrente;
   let percentuale;
   let totale;
+  let datoXgrafico;
 
   onMount(async () => {
 
@@ -21,6 +23,12 @@
     totale =  data.find(
       (d) => d.indicatore == "num_enti_tot"
     ).valore;
+
+    datoXgrafico = Math.round(percentuale) / 100;
+
+    const riferimento = await fetch("/data/dichiarazione_intestazione.json");
+    const dataRiferimento = await riferimento.json()
+    annoRiferimento = dataRiferimento[0].dat_ult_agg_dichiarazione.substr(0, 4)
 
 
     var circle = new ProgressBar.Circle("#progress", {
@@ -53,7 +61,7 @@
       animate: true,
     });
 
-    circle.animate(0.35, {
+    circle.animate(datoXgrafico, {
       duration: 1000,
     });
   });
@@ -63,7 +71,7 @@
   <div class="container">
     <div class="mx-auto">
       <h3 class="h3 greyText pb-4 text-center">
-        Le dichiarazioni dei siti istituzionali del 2022
+        Le dichiarazioni dei siti istituzionali del {annoRiferimento}
       </h3>
 
       <div class="row justify-content-between">
@@ -91,7 +99,7 @@
               class="col-12 col-sm-5 col-lg-4 col-xl-6 mt-sm-5 px-lg-0 px-xl-2"
             >
               <p class="ps-xl-2 ps-sm-2 pe-xl-5 me-xl-5 mt-5">
-                Nel 2022 il {nf2d(percentuale)}% dei siti istituzionali censiti sul catalogo
+                Nel {annoRiferimento} il {nf2d(percentuale)}% dei siti istituzionali censiti sul catalogo
                 IPA ha pubblicato la propria dichiarazione di accessibilità.
               </p>
             </div>

@@ -2,22 +2,22 @@
   "data": [
     {
       "conformita": "Conforme",
-      "siti_istituzionali": 44,
-      "siti_tematici": 26
+      "siti_istituzionali": 48,
+      "siti_tematici": 35
     },
     {
       "conformita": "Parzialmente conforme",
-      "siti_istituzionali": 55,
-      "siti_tematici": 71
+      "siti_istituzionali": 51,
+      "siti_tematici": 63
     },
     {
       "conformita": "Non conforme",
       "siti_istituzionali": 1,
-      "siti_tematici": 3
+      "siti_tematici": 2
     }
   ],
   "intestazione": {
-    "periodo_dichiarazioni": "2020 - 2022",
-    "dat_ultimo_rilevamento": "2022-09-23"
-  }
+    "periodo_dichiarazioni": "2020 - 2023",
+    "dat_ultimo_rilevamento": "2023-09-23"
+}
 }

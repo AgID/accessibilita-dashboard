@@ -23,6 +23,8 @@
   let dichiarazioniDateFormatted;
   let obiettiviDateFormatted;
 
+  let annoRiferimento;
+
   onMount(async () => {
     const rs = await fetch("/data/home_page.json");
     const data = await rs.json();
@@ -63,6 +65,10 @@
       (d) => d.indicatore == "data_ultimo_aggiornamento_pagina"
     ).valore;
     obiettiviDateFormatted = df(dp(obiettiviDate))
+
+    const riferimento = await fetch("/data/obiettivi_intestazione.json");
+    const dataRiferimento = await riferimento.json()
+    annoRiferimento = dataRiferimento[0].dat_ult_agg_obiettivi
 
   });
 </script>
@@ -183,7 +189,7 @@
           delle PA, appartenenti ai livelli A e AA.
         </p>
         <a
-          href="errori"
+          href="/errori"
           class="button-text a-button d-none d-lg-flex"
           style="text-decoration: none;"
         >
@@ -246,7 +252,7 @@
             kpi={nf(dichiarazioniAccessibilita.valore)}
             caption="Ultimo aggiornamento: {dichiarazioniDateFormatted}"
             linkText="Scopri le dichiarazioni"
-            href="dichiarazione"
+            href="/dichiarazione"
           />
         </div>
       </div>
@@ -296,11 +302,11 @@
 
         <div class="col-lg-5 ps-0 pe-0 pt-lg-5 pb-lg-4">
           <KpiCard
-            title="Totale degli obiettivi di accessibilità dichiarati nel 2023"
+            title="Totale degli obiettivi di accessibilità dichiarati nel {annoRiferimento}"
             kpi={nf(obiettiviAccessibilità.valore)}
             caption="Ultimo aggiornamento: {obiettiviDateFormatted}"
             linkText="Scopri gli obiettivi"
-            href="obiettivi"
+            href="/obiettivi"
           />
         </div>
       </div>

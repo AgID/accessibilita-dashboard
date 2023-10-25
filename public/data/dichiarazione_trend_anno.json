@@ -6,15 +6,19 @@
             },
             {
                 "anno_dichiarazione": 2021,
-                "num_dichiarazione_pub_anno": 10269
+                "num_dichiarazione_pub_anno": 10264
             },
             {
                 "anno_dichiarazione": 2022,
-                "num_dichiarazione_pub_anno": 12055
+                "num_dichiarazione_pub_anno": 12052
+            },
+            {
+                "anno_dichiarazione": 2023,
+                "num_dichiarazione_pub_anno": 15406
             }
-        ],    
+        ],
         "intestazione": {
-            "periodo_dichiarazioni": "2020 - 2022",
-            "dat_ultimo_rilevamento": "2022-09-23"
+            "periodo_dichiarazioni": "2020 - 2023",
+            "dat_ultimo_rilevamento": "2023-09-23"
         }
     }

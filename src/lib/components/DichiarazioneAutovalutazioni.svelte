@@ -4,6 +4,7 @@
   import Icon from "./Icon.svelte";
 
   let data;
+  let annoRiferimento;
 
   let iconeConformita = {
     conforme: "it it-check-circle",
@@ -21,6 +22,11 @@
       orderedConformita.push(data.find((erp) => erp.conformita == op));
     });
     data = orderedConformita;
+
+    const riferimento = await fetch("/data/dichiarazione_intestazione.json");
+    const dataRiferimento = await riferimento.json()
+    annoRiferimento = dataRiferimento[0].dat_ult_agg_dichiarazione.substr(0, 4)
+
   });
 </script>
 
@@ -41,7 +47,7 @@
           "non conforme" se gli errori superano il 50% dei criteri di successo.
           Le dichiarazioni di accessibilità compilate dalle PA sono conformi by
           design, grazie al form predisposto da AgID, alla Direttiva UE
-          2016/2102. I seguenti dati sono relativi al 2022.
+          2016/2102. I seguenti dati sono relativi al {annoRiferimento}.
         </p>
         <div class="d-flex justify-content-center mx-5">
           {#if data}

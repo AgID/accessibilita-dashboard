@@ -1,17 +1,11 @@
 [
-    {
-        "date": "2023",
-        "title": "Nuove funzionalità  e nuovi dataset monitoraggio",
-        "details": "Applicazione del multi language - inclusione della lingua inglese. Pubblicazione dati 4° trimestre 2023. Aggiunta dei dati del monitoraggio approfondito, realizzato manualmente su un campione limitato di siti (100) e app (60) per l'anno 2023. Pubblicazione dati 4° trimestre 2023",
-        "release": "In Arrivo"
-    },
-	 {
-        "date": "Settembre 2023",
-        "title": "Pubblicazione nuovi dati",
-        "details": "Incremento del numero dei siti monitorati a seguito di inserimento nuove fonti (WAI). Pubblicazione dei nuovi dati delle dichiarazioni d'accessibilità al 24 settembre 2023. Pubblicazione dei nuovi dati del moniotraggio del 3° trimestre 2023",
-        "release": "Attuale"
-    },
-     {
+  {
+    "date": "2023",
+    "title": "Nuove funzionalità e nuovi dataset monitoraggio",
+    "details": "Incremento del numero dei siti monitorati a seguito di inserimento nuove fonti (WAI). Applicazione del multi language - inclusione della lingua inglese. Pubblicazione dati 3° trimestre 2023. Aggiunta dei dati del monitoraggio approfondito, realizzato manualmente su un campione limitato di siti (100) e app (60) per l'anno 2023. Pubblicazione dati 4° trimestre 2023",
+    "release": "In Arrivo"
+  },
+  {
     "date": "Giugno 2023",
     "title": "Introduzione di nuove informazioni",
     "details": "Nuova versione della pagina delle dichiarazioni d'accessibilità che include le nuove sezioni siti tematici e siti istituzionali. Nuova pagina dedicata all'analisi dei dati degli Obiettivi di accessibilità e nuova pagina dedicata al Progetto.",

@@ -3,6 +3,7 @@
   import { nf } from "../utils";
   import DataTable from "./DataTable.svelte";
 
+  let annoRiferimento
   let response;
   let loading = true;
   const columns = [
@@ -34,6 +35,11 @@
     const rs = await fetch("/data/dichiarazione_tematici_regione.json");
     response = await rs.json();
     loading = false;
+
+    const riferimento = await fetch("/data/dichiarazione_intestazione.json");
+    const dataRiferimento = await riferimento.json()
+    annoRiferimento = dataRiferimento[0].dat_ult_agg_dichiarazione.substr(0, 4)
+
   });
 </script>
 
@@ -42,14 +48,14 @@
     {columns}
     rows={response?.data}
     defaultSortBy="num_siti_tematici_con_dich"
-    title="Dichiarazioni di accessibilità pubblicate nel 2022"
-    periodoMonitoraggio={response?.intestazione?.periodo_dichiarazioni}
+    title="Dichiarazioni di accessibilità pubblicate nel {annoRiferimento}"
+    periodoMonitoraggio={response?.intestazione?.periodo_dichiarazioni.slice(-4)}
     didascalia={true}
   >
     <div slot="didascaliaSlot" class="didascalia">
       La tabella riporta per ciascuna regione o provincia
       autonoma il numero totale delle dichiarazioni di accessibilità pubblicate entro il
-      23 settembre 2022 (e valide fino al 23 settembre 2023) suddivise per i siti
+      23 settembre {annoRiferimento} (e valide fino al 23 settembre {+annoRiferimento + 1}) suddivise per i siti
       tematici ed istituzionali.
     </div>
   </DataTable>

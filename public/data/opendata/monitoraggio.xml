@@ -1,1 +1,444 @@
-<table xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">\n\n<row>\n  <regione>Veneto</regione>\n  <des_tipologia_ente>Altre tipologie di Enti</des_tipologia_ente>\n  <num_siti>377</num_siti>\n  <dat_monitoraggio>2023-06-30</dat_monitoraggio>\n</row>\n\n<row>\n  <regione>Veneto</regione>\n  <des_tipologia_ente>Comuni e loro Consorzi e Associazioni</des_tipologia_ente>\n  <num_siti>595</num_siti>\n  <dat_monitoraggio>2023-06-30</dat_monitoraggio>\n</row>\n\n<row>\n  <regione>Veneto</regione>\n  <des_tipologia_ente>Istituti di Istruzione Statale di Ogni Ordine e Grado</des_tipologia_ente>\n  <num_siti>487</num_siti>\n  <dat_monitoraggio>2023-06-30</dat_monitoraggio>\n</row>\n\n<row>\n  <regione>Valle d'Aosta/Vallée d'Aoste</regione>\n  <des_tipologia_ente>Altre tipologie di Enti</des_tipologia_ente>\n  <num_siti>53</num_siti>\n  <dat_monitoraggio>2023-06-30</dat_monitoraggio>\n</row>\n\n<row>\n  <regione>Valle d'Aosta/Vallée d'Aoste</regione>\n  <des_tipologia_ente>Comuni e loro Consorzi e Associazioni</des_tipologia_ente>\n  <num_siti>65</num_siti>\n  <dat_monitoraggio>2023-06-30</dat_monitoraggio>\n</row>\n\n<row>\n  <regione>Valle d'Aosta/Vallée d'Aoste</regione>\n  <des_tipologia_ente>Istituti di Istruzione Statale di Ogni Ordine e Grado</des_tipologia_ente>\n  <num_siti>31</num_siti>\n  <dat_monitoraggio>2023-06-30</dat_monitoraggio>\n</row>\n\n<row>\n  <regione>Umbria</regione>\n  <des_tipologia_ente>Altre tipologie di Enti</des_tipologia_ente>\n  <num_siti>83</num_siti>\n  <dat_monitoraggio>2023-06-30</dat_monitoraggio>\n</row>\n\n<row>\n  <regione>Umbria</regione>\n  <des_tipologia_ente>Comuni e loro Consorzi e Associazioni</des_tipologia_ente>\n  <num_siti>84</num_siti>\n  <dat_monitoraggio>2023-06-30</dat_monitoraggio>\n</row>\n\n<row>\n  <regione>Umbria</regione>\n  <des_tipologia_ente>Istituti di Istruzione Statale di Ogni Ordine e Grado</des_tipologia_ente>\n  <num_siti>119</num_siti>\n  <dat_monitoraggio>2023-06-30</dat_monitoraggio>\n</row>\n\n<row>\n  <regione>Toscana</regione>\n  <des_tipologia_ente>Altre tipologie di Enti</des_tipologia_ente>\n  <num_siti>276</num_siti>\n  <dat_monitoraggio>2023-06-30</dat_monitoraggio>\n</row>\n\n<row>\n  <regione>Toscana</regione>\n  <des_tipologia_ente>Comuni e loro Consorzi e Associazioni</des_tipologia_ente>\n  <num_siti>275</num_siti>\n  <dat_monitoraggio>2023-06-30</dat_monitoraggio>\n</row>\n\n<row>\n  <regione>Toscana</regione>\n  <des_tipologia_ente>Istituti di Istruzione Statale di Ogni Ordine e Grado</des_tipologia_ente>\n  <num_siti>331</num_siti>\n  <dat_monitoraggio>2023-06-30</dat_monitoraggio>\n</row>\n\n<row>\n  <regione>Sicilia</regione>\n  <des_tipologia_ente>Altre tipologie di Enti</des_tipologia_ente>\n  <num_siti>317</num_siti>\n  <dat_monitoraggio>2023-06-30</dat_monitoraggio>\n</row>\n\n<row>\n  <regione>Sicilia</regione>\n  <des_tipologia_ente>Comuni e loro Consorzi e Associazioni</des_tipologia_ente>\n  <num_siti>295</num_siti>\n  <dat_monitoraggio>2023-06-30</dat_monitoraggio>\n</row>\n\n<row>\n  <regione>Sicilia</regione>\n  <des_tipologia_ente>Istituti di Istruzione Statale di Ogni Ordine e Grado</des_tipologia_ente>\n  <num_siti>426</num_siti>\n  <dat_monitoraggio>2023-06-30</dat_monitoraggio>\n</row>\n\n<row>\n  <regione>Sardegna</regione>\n  <des_tipologia_ente>Altre tipologie di Enti</des_tipologia_ente>\n  <num_siti>161</num_siti>\n  <dat_monitoraggio>2023-06-30</dat_monitoraggio>\n</row>\n\n<row>\n  <regione>Sardegna</regione>\n  <des_tipologia_ente>Comuni e loro Consorzi e Associazioni</des_tipologia_ente>\n  <num_siti>338</num_siti>\n  <dat_monitoraggio>2023-06-30</dat_monitoraggio>\n</row>\n\n<row>\n  <regione>Sardegna</regione>\n  <des_tipologia_ente>Istituti di Istruzione Statale di Ogni Ordine e Grado</des_tipologia_ente>\n  <num_siti>208</num_siti>\n  <dat_monitoraggio>2023-06-30</dat_monitoraggio>\n</row>\n\n<row>\n  <regione>Puglia</regione>\n  <des_tipologia_ente>Altre tipologie di Enti</des_tipologia_ente>\n  <num_siti>203</num_siti>\n  <dat_monitoraggio>2023-06-30</dat_monitoraggio>\n</row>\n\n<row>\n  <regione>Puglia</regione>\n  <des_tipologia_ente>Comuni e loro Consorzi e Associazioni</des_tipologia_ente>\n  <num_siti>232</num_siti>\n  <dat_monitoraggio>2023-06-30</dat_monitoraggio>\n</row>\n\n<row>\n  <regione>Puglia</regione>\n  <des_tipologia_ente>Istituti di Istruzione Statale di Ogni Ordine e Grado</des_tipologia_ente>\n  <num_siti>464</num_siti>\n  <dat_monitoraggio>2023-06-30</dat_monitoraggio>\n</row>\n\n<row>\n  <regione>Provincia autonoma di Trento</regione>\n  <des_tipologia_ente>Altre tipologie di Enti</des_tipologia_ente>\n  <num_siti>182</num_siti>\n  <dat_monitoraggio>2023-06-30</dat_monitoraggio>\n</row>\n\n<row>\n  <regione>Provincia autonoma di Trento</regione>\n  <des_tipologia_ente>Comuni e loro Consorzi e Associazioni</des_tipologia_ente>\n  <num_siti>164</num_siti>\n  <dat_monitoraggio>2023-06-30</dat_monitoraggio>\n</row>\n\n<row>\n  <regione>Provincia autonoma di Trento</regione>\n  <des_tipologia_ente>Istituti di Istruzione Statale di Ogni Ordine e Grado</des_tipologia_ente>\n  <num_siti>57</num_siti>\n  <dat_monitoraggio>2023-06-30</dat_monitoraggio>\n</row>\n\n<row>\n  <regione>Provincia autonoma di Bolzano</regione>\n  <des_tipologia_ente>Altre tipologie di Enti</des_tipologia_ente>\n  <num_siti>118</num_siti>\n  <dat_monitoraggio>2023-06-30</dat_monitoraggio>\n</row>\n\n<row>\n  <regione>Provincia autonoma di Bolzano</regione>\n  <des_tipologia_ente>Comuni e loro Consorzi e Associazioni</des_tipologia_ente>\n  <num_siti>61</num_siti>\n  <dat_monitoraggio>2023-06-30</dat_monitoraggio>\n</row>\n\n<row>\n  <regione>Provincia autonoma di Bolzano</regione>\n  <des_tipologia_ente>Istituti di Istruzione Statale di Ogni Ordine e Grado</des_tipologia_ente>\n  <num_siti>88</num_siti>\n  <dat_monitoraggio>2023-06-30</dat_monitoraggio>\n</row>\n\n<row>\n  <regione>Piemonte</regione>\n  <des_tipologia_ente>Altre tipologie di Enti</des_tipologia_ente>\n  <num_siti>548</num_siti>\n  <dat_monitoraggio>2023-06-30</dat_monitoraggio>\n</row>\n\n<row>\n  <regione>Piemonte</regione>\n  <des_tipologia_ente>Comuni e loro Consorzi e Associazioni</des_tipologia_ente>\n  <num_siti>986</num_siti>\n  <dat_monitoraggio>2023-06-30</dat_monitoraggio>\n</row>\n\n<row>\n  <regione>Piemonte</regione>\n  <des_tipologia_ente>Istituti di Istruzione Statale di Ogni Ordine e Grado</des_tipologia_ente>\n  <num_siti>367</num_siti>\n  <dat_monitoraggio>2023-06-30</dat_monitoraggio>\n</row>\n\n<row>\n  <regione>Molise</regione>\n  <des_tipologia_ente>Altre tipologie di Enti</des_tipologia_ente>\n  <num_siti>48</num_siti>\n  <dat_monitoraggio>2023-06-30</dat_monitoraggio>\n</row>\n\n<row>\n  <regione>Molise</regione>\n  <des_tipologia_ente>Comuni e loro Consorzi e Associazioni</des_tipologia_ente>\n  <num_siti>122</num_siti>\n  <dat_monitoraggio>2023-06-30</dat_monitoraggio>\n</row>\n\n<row>\n  <regione>Molise</regione>\n  <des_tipologia_ente>Istituti di Istruzione Statale di Ogni Ordine e Grado</des_tipologia_ente>\n  <num_siti>38</num_siti>\n  <dat_monitoraggio>2023-06-30</dat_monitoraggio>\n</row>\n\n<row>\n  <regione>Marche</regione>\n  <des_tipologia_ente>Altre tipologie di Enti</des_tipologia_ente>\n  <num_siti>159</num_siti>\n  <dat_monitoraggio>2023-06-30</dat_monitoraggio>\n</row>\n\n<row>\n  <regione>Marche</regione>\n  <des_tipologia_ente>Comuni e loro Consorzi e Associazioni</des_tipologia_ente>\n  <num_siti>183</num_siti>\n  <dat_monitoraggio>2023-06-30</dat_monitoraggio>\n</row>\n\n<row>\n  <regione>Marche</regione>\n  <des_tipologia_ente>Istituti di Istruzione Statale di Ogni Ordine e Grado</des_tipologia_ente>\n  <num_siti>198</num_siti>\n  <dat_monitoraggio>2023-06-30</dat_monitoraggio>\n</row>\n\n<row>\n  <regione>Lombardia</regione>\n  <des_tipologia_ente>Altre tipologie di Enti</des_tipologia_ente>\n  <num_siti>721</num_siti>\n  <dat_monitoraggio>2023-06-30</dat_monitoraggio>\n</row>\n\n<row>\n  <regione>Lombardia</regione>\n  <des_tipologia_ente>Comuni e loro Consorzi e Associazioni</des_tipologia_ente>\n  <num_siti>1351</num_siti>\n  <dat_monitoraggio>2023-06-30</dat_monitoraggio>\n</row>\n\n<row>\n  <regione>Lombardia</regione>\n  <des_tipologia_ente>Istituti di Istruzione Statale di Ogni Ordine e Grado</des_tipologia_ente>\n  <num_siti>942</num_siti>\n  <dat_monitoraggio>2023-06-30</dat_monitoraggio>\n</row>\n\n<row>\n  <regione>Liguria</regione>\n  <des_tipologia_ente>Altre tipologie di Enti</des_tipologia_ente>\n  <num_siti>121</num_siti>\n  <dat_monitoraggio>2023-06-30</dat_monitoraggio>\n</row>\n\n<row>\n  <regione>Liguria</regione>\n  <des_tipologia_ente>Comuni e loro Consorzi e Associazioni</des_tipologia_ente>\n  <num_siti>207</num_siti>\n  <dat_monitoraggio>2023-06-30</dat_monitoraggio>\n</row>\n\n<row>\n  <regione>Liguria</regione>\n  <des_tipologia_ente>Istituti di Istruzione Statale di Ogni Ordine e Grado</des_tipologia_ente>\n  <num_siti>153</num_siti>\n  <dat_monitoraggio>2023-06-30</dat_monitoraggio>\n</row>\n\n<row>\n  <regione>Lazio</regione>\n  <des_tipologia_ente>Altre tipologie di Enti</des_tipologia_ente>\n  <num_siti>884</num_siti>\n  <dat_monitoraggio>2023-06-30</dat_monitoraggio>\n</row>\n\n<row>\n  <regione>Lazio</regione>\n  <des_tipologia_ente>Comuni e loro Consorzi e Associazioni</des_tipologia_ente>\n  <num_siti>311</num_siti>\n  <dat_monitoraggio>2023-06-30</dat_monitoraggio>\n</row>\n\n<row>\n  <regione>Lazio</regione>\n  <des_tipologia_ente>Istituti di Istruzione Statale di Ogni Ordine e Grado</des_tipologia_ente>\n  <num_siti>538</num_siti>\n  <dat_monitoraggio>2023-06-30</dat_monitoraggio>\n</row>\n\n<row>\n  <regione>Friuli-Venezia Giulia</regione>\n  <des_tipologia_ente>Altre tipologie di Enti</des_tipologia_ente>\n  <num_siti>171</num_siti>\n  <dat_monitoraggio>2023-06-30</dat_monitoraggio>\n</row>\n\n<row>\n  <regione>Friuli-Venezia Giulia</regione>\n  <des_tipologia_ente>Comuni e loro Consorzi e Associazioni</des_tipologia_ente>\n  <num_siti>196</num_siti>\n  <dat_monitoraggio>2023-06-30</dat_monitoraggio>\n</row>\n\n<row>\n  <regione>Friuli-Venezia Giulia</regione>\n  <des_tipologia_ente>Istituti di Istruzione Statale di Ogni Ordine e Grado</des_tipologia_ente>\n  <num_siti>142</num_siti>\n  <dat_monitoraggio>2023-06-30</dat_monitoraggio>\n</row>\n\n<row>\n  <regione>Emilia-Romagna</regione>\n  <des_tipologia_ente>Altre tipologie di Enti</des_tipologia_ente>\n  <num_siti>353</num_siti>\n  <dat_monitoraggio>2023-06-30</dat_monitoraggio>\n</row>\n\n<row>\n  <regione>Emilia-Romagna</regione>\n  <des_tipologia_ente>Comuni e loro Consorzi e Associazioni</des_tipologia_ente>\n  <num_siti>287</num_siti>\n  <dat_monitoraggio>2023-06-30</dat_monitoraggio>\n</row>\n\n<row>\n  <regione>Emilia-Romagna</regione>\n  <des_tipologia_ente>Istituti di Istruzione Statale di Ogni Ordine e Grado</des_tipologia_ente>\n  <num_siti>436</num_siti>\n  <dat_monitoraggio>2023-06-30</dat_monitoraggio>\n</row>\n\n<row>\n  <regione>Campania</regione>\n  <des_tipologia_ente>Altre tipologie di Enti</des_tipologia_ente>\n  <num_siti>284</num_siti>\n  <dat_monitoraggio>2023-06-30</dat_monitoraggio>\n</row>\n\n<row>\n  <regione>Campania</regione>\n  <des_tipologia_ente>Comuni e loro Consorzi e Associazioni</des_tipologia_ente>\n  <num_siti>463</num_siti>\n  <dat_monitoraggio>2023-06-30</dat_monitoraggio>\n</row>\n\n<row>\n  <regione>Campania</regione>\n  <des_tipologia_ente>Istituti di Istruzione Statale di Ogni Ordine e Grado</des_tipologia_ente>\n  <num_siti>462</num_siti>\n  <dat_monitoraggio>2023-06-30</dat_monitoraggio>\n</row>\n\n<row>\n  <regione>Calabria</regione>\n  <des_tipologia_ente>Altre tipologie di Enti</des_tipologia_ente>\n  <num_siti>131</num_siti>\n  <dat_monitoraggio>2023-06-30</dat_monitoraggio>\n</row>\n\n<row>\n  <regione>Calabria</regione>\n  <des_tipologia_ente>Comuni e loro Consorzi e Associazioni</des_tipologia_ente>\n  <num_siti>300</num_siti>\n  <dat_monitoraggio>2023-06-30</dat_monitoraggio>\n</row>\n\n<row>\n  <regione>Calabria</regione>\n  <des_tipologia_ente>Istituti di Istruzione Statale di Ogni Ordine e Grado</des_tipologia_ente>\n  <num_siti>308</num_siti>\n  <dat_monitoraggio>2023-06-30</dat_monitoraggio>\n</row>\n\n<row>\n  <regione>Basilicata</regione>\n  <des_tipologia_ente>Altre tipologie di Enti</des_tipologia_ente>\n  <num_siti>57</num_siti>\n  <dat_monitoraggio>2023-06-30</dat_monitoraggio>\n</row>\n\n<row>\n  <regione>Basilicata</regione>\n  <des_tipologia_ente>Comuni e loro Consorzi e Associazioni</des_tipologia_ente>\n  <num_siti>94</num_siti>\n  <dat_monitoraggio>2023-06-30</dat_monitoraggio>\n</row>\n\n<row>\n  <regione>Basilicata</regione>\n  <des_tipologia_ente>Istituti di Istruzione Statale di Ogni Ordine e Grado</des_tipologia_ente>\n  <num_siti>80</num_siti>\n  <dat_monitoraggio>2023-06-30</dat_monitoraggio>\n</row>\n\n<row>\n  <regione>Abruzzo</regione>\n  <des_tipologia_ente>Altre tipologie di Enti</des_tipologia_ente>\n  <num_siti>149</num_siti>\n  <dat_monitoraggio>2023-06-30</dat_monitoraggio>\n</row>\n\n<row>\n  <regione>Abruzzo</regione>\n  <des_tipologia_ente>Comuni e loro Consorzi e Associazioni</des_tipologia_ente>\n  <num_siti>262</num_siti>\n  <dat_monitoraggio>2023-06-30</dat_monitoraggio>\n</row>\n\n<row>\n  <regione>Abruzzo</regione>\n  <des_tipologia_ente>Istituti di Istruzione Statale di Ogni Ordine e Grado</des_tipologia_ente>\n  <num_siti>121</num_siti>\n  <dat_monitoraggio>2023-06-30</dat_monitoraggio>\n</row>\n\n</table>\n
+<table xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+
+<row>
+  <regione>Veneto</regione>
+  <des_tipologia_ente>Altre tipologie di Enti</des_tipologia_ente>
+  <num_siti>484</num_siti>
+  <dat_monitoraggio>2023-09-30</dat_monitoraggio>
+</row>
+
+<row>
+  <regione>Veneto</regione>
+  <des_tipologia_ente>Comuni e loro Consorzi e Associazioni</des_tipologia_ente>
+  <num_siti>685</num_siti>
+  <dat_monitoraggio>2023-09-30</dat_monitoraggio>
+</row>
+
+<row>
+  <regione>Veneto</regione>
+  <des_tipologia_ente>Istituti di Istruzione Statale di Ogni Ordine e Grado</des_tipologia_ente>
+  <num_siti>515</num_siti>
+  <dat_monitoraggio>2023-09-30</dat_monitoraggio>
+</row>
+
+<row>
+  <regione>Valle d'Aosta/Vallée d'Aoste</regione>
+  <des_tipologia_ente>Altre tipologie di Enti</des_tipologia_ente>
+  <num_siti>88</num_siti>
+  <dat_monitoraggio>2023-09-30</dat_monitoraggio>
+</row>
+
+<row>
+  <regione>Valle d'Aosta/Vallée d'Aoste</regione>
+  <des_tipologia_ente>Comuni e loro Consorzi e Associazioni</des_tipologia_ente>
+  <num_siti>72</num_siti>
+  <dat_monitoraggio>2023-09-30</dat_monitoraggio>
+</row>
+
+<row>
+  <regione>Valle d'Aosta/Vallée d'Aoste</regione>
+  <des_tipologia_ente>Istituti di Istruzione Statale di Ogni Ordine e Grado</des_tipologia_ente>
+  <num_siti>14</num_siti>
+  <dat_monitoraggio>2023-09-30</dat_monitoraggio>
+</row>
+
+<row>
+  <regione>Umbria</regione>
+  <des_tipologia_ente>Altre tipologie di Enti</des_tipologia_ente>
+  <num_siti>102</num_siti>
+  <dat_monitoraggio>2023-09-30</dat_monitoraggio>
+</row>
+
+<row>
+  <regione>Umbria</regione>
+  <des_tipologia_ente>Comuni e loro Consorzi e Associazioni</des_tipologia_ente>
+  <num_siti>95</num_siti>
+  <dat_monitoraggio>2023-09-30</dat_monitoraggio>
+</row>
+
+<row>
+  <regione>Umbria</regione>
+  <des_tipologia_ente>Istituti di Istruzione Statale di Ogni Ordine e Grado</des_tipologia_ente>
+  <num_siti>119</num_siti>
+  <dat_monitoraggio>2023-09-30</dat_monitoraggio>
+</row>
+
+<row>
+  <regione>Toscana</regione>
+  <des_tipologia_ente>Altre tipologie di Enti</des_tipologia_ente>
+  <num_siti>395</num_siti>
+  <dat_monitoraggio>2023-09-30</dat_monitoraggio>
+</row>
+
+<row>
+  <regione>Toscana</regione>
+  <des_tipologia_ente>Comuni e loro Consorzi e Associazioni</des_tipologia_ente>
+  <num_siti>394</num_siti>
+  <dat_monitoraggio>2023-09-30</dat_monitoraggio>
+</row>
+
+<row>
+  <regione>Toscana</regione>
+  <des_tipologia_ente>Istituti di Istruzione Statale di Ogni Ordine e Grado</des_tipologia_ente>
+  <num_siti>405</num_siti>
+  <dat_monitoraggio>2023-09-30</dat_monitoraggio>
+</row>
+
+<row>
+  <regione>Sicilia</regione>
+  <des_tipologia_ente>Altre tipologie di Enti</des_tipologia_ente>
+  <num_siti>514</num_siti>
+  <dat_monitoraggio>2023-09-30</dat_monitoraggio>
+</row>
+
+<row>
+  <regione>Sicilia</regione>
+  <des_tipologia_ente>Comuni e loro Consorzi e Associazioni</des_tipologia_ente>
+  <num_siti>369</num_siti>
+  <dat_monitoraggio>2023-09-30</dat_monitoraggio>
+</row>
+
+<row>
+  <regione>Sicilia</regione>
+  <des_tipologia_ente>Istituti di Istruzione Statale di Ogni Ordine e Grado</des_tipologia_ente>
+  <num_siti>536</num_siti>
+  <dat_monitoraggio>2023-09-30</dat_monitoraggio>
+</row>
+
+<row>
+  <regione>Sardegna</regione>
+  <des_tipologia_ente>Altre tipologie di Enti</des_tipologia_ente>
+  <num_siti>216</num_siti>
+  <dat_monitoraggio>2023-09-30</dat_monitoraggio>
+</row>
+
+<row>
+  <regione>Sardegna</regione>
+  <des_tipologia_ente>Comuni e loro Consorzi e Associazioni</des_tipologia_ente>
+  <num_siti>391</num_siti>
+  <dat_monitoraggio>2023-09-30</dat_monitoraggio>
+</row>
+
+<row>
+  <regione>Sardegna</regione>
+  <des_tipologia_ente>Istituti di Istruzione Statale di Ogni Ordine e Grado</des_tipologia_ente>
+  <num_siti>182</num_siti>
+  <dat_monitoraggio>2023-09-30</dat_monitoraggio>
+</row>
+
+<row>
+  <regione>Puglia</regione>
+  <des_tipologia_ente>Altre tipologie di Enti</des_tipologia_ente>
+  <num_siti>285</num_siti>
+  <dat_monitoraggio>2023-09-30</dat_monitoraggio>
+</row>
+
+<row>
+  <regione>Puglia</regione>
+  <des_tipologia_ente>Comuni e loro Consorzi e Associazioni</des_tipologia_ente>
+  <num_siti>274</num_siti>
+  <dat_monitoraggio>2023-09-30</dat_monitoraggio>
+</row>
+
+<row>
+  <regione>Puglia</regione>
+  <des_tipologia_ente>Istituti di Istruzione Statale di Ogni Ordine e Grado</des_tipologia_ente>
+  <num_siti>555</num_siti>
+  <dat_monitoraggio>2023-09-30</dat_monitoraggio>
+</row>
+
+<row>
+  <regione>Provincia autonoma di Trento</regione>
+  <des_tipologia_ente>Altre tipologie di Enti</des_tipologia_ente>
+  <num_siti>280</num_siti>
+  <dat_monitoraggio>2023-09-30</dat_monitoraggio>
+</row>
+
+<row>
+  <regione>Provincia autonoma di Trento</regione>
+  <des_tipologia_ente>Comuni e loro Consorzi e Associazioni</des_tipologia_ente>
+  <num_siti>171</num_siti>
+  <dat_monitoraggio>2023-09-30</dat_monitoraggio>
+</row>
+
+<row>
+  <regione>Provincia autonoma di Trento</regione>
+  <des_tipologia_ente>Istituti di Istruzione Statale di Ogni Ordine e Grado</des_tipologia_ente>
+  <num_siti>51</num_siti>
+  <dat_monitoraggio>2023-09-30</dat_monitoraggio>
+</row>
+
+<row>
+  <regione>Provincia autonoma di Bolzano</regione>
+  <des_tipologia_ente>Altre tipologie di Enti</des_tipologia_ente>
+  <num_siti>162</num_siti>
+  <dat_monitoraggio>2023-09-30</dat_monitoraggio>
+</row>
+
+<row>
+  <regione>Provincia autonoma di Bolzano</regione>
+  <des_tipologia_ente>Comuni e loro Consorzi e Associazioni</des_tipologia_ente>
+  <num_siti>159</num_siti>
+  <dat_monitoraggio>2023-09-30</dat_monitoraggio>
+</row>
+
+<row>
+  <regione>Provincia autonoma di Bolzano</regione>
+  <des_tipologia_ente>Istituti di Istruzione Statale di Ogni Ordine e Grado</des_tipologia_ente>
+  <num_siti>94</num_siti>
+  <dat_monitoraggio>2023-09-30</dat_monitoraggio>
+</row>
+
+<row>
+  <regione>Piemonte</regione>
+  <des_tipologia_ente>Altre tipologie di Enti</des_tipologia_ente>
+  <num_siti>662</num_siti>
+  <dat_monitoraggio>2023-09-30</dat_monitoraggio>
+</row>
+
+<row>
+  <regione>Piemonte</regione>
+  <des_tipologia_ente>Comuni e loro Consorzi e Associazioni</des_tipologia_ente>
+  <num_siti>1118</num_siti>
+  <dat_monitoraggio>2023-09-30</dat_monitoraggio>
+</row>
+
+<row>
+  <regione>Piemonte</regione>
+  <des_tipologia_ente>Istituti di Istruzione Statale di Ogni Ordine e Grado</des_tipologia_ente>
+  <num_siti>470</num_siti>
+  <dat_monitoraggio>2023-09-30</dat_monitoraggio>
+</row>
+
+<row>
+  <regione>Molise</regione>
+  <des_tipologia_ente>Altre tipologie di Enti</des_tipologia_ente>
+  <num_siti>62</num_siti>
+  <dat_monitoraggio>2023-09-30</dat_monitoraggio>
+</row>
+
+<row>
+  <regione>Molise</regione>
+  <des_tipologia_ente>Comuni e loro Consorzi e Associazioni</des_tipologia_ente>
+  <num_siti>124</num_siti>
+  <dat_monitoraggio>2023-09-30</dat_monitoraggio>
+</row>
+
+<row>
+  <regione>Molise</regione>
+  <des_tipologia_ente>Istituti di Istruzione Statale di Ogni Ordine e Grado</des_tipologia_ente>
+  <num_siti>47</num_siti>
+  <dat_monitoraggio>2023-09-30</dat_monitoraggio>
+</row>
+
+<row>
+  <regione>Marche</regione>
+  <des_tipologia_ente>Altre tipologie di Enti</des_tipologia_ente>
+  <num_siti>222</num_siti>
+  <dat_monitoraggio>2023-09-30</dat_monitoraggio>
+</row>
+
+<row>
+  <regione>Marche</regione>
+  <des_tipologia_ente>Comuni e loro Consorzi e Associazioni</des_tipologia_ente>
+  <num_siti>238</num_siti>
+  <dat_monitoraggio>2023-09-30</dat_monitoraggio>
+</row>
+
+<row>
+  <regione>Marche</regione>
+  <des_tipologia_ente>Istituti di Istruzione Statale di Ogni Ordine e Grado</des_tipologia_ente>
+  <num_siti>214</num_siti>
+  <dat_monitoraggio>2023-09-30</dat_monitoraggio>
+</row>
+
+<row>
+  <regione>Lombardia</regione>
+  <des_tipologia_ente>Altre tipologie di Enti</des_tipologia_ente>
+  <num_siti>1150</num_siti>
+  <dat_monitoraggio>2023-09-30</dat_monitoraggio>
+</row>
+
+<row>
+  <regione>Lombardia</regione>
+  <des_tipologia_ente>Comuni e loro Consorzi e Associazioni</des_tipologia_ente>
+  <num_siti>1595</num_siti>
+  <dat_monitoraggio>2023-09-30</dat_monitoraggio>
+</row>
+
+<row>
+  <regione>Lombardia</regione>
+  <des_tipologia_ente>Istituti di Istruzione Statale di Ogni Ordine e Grado</des_tipologia_ente>
+  <num_siti>1055</num_siti>
+  <dat_monitoraggio>2023-09-30</dat_monitoraggio>
+</row>
+
+<row>
+  <regione>Liguria</regione>
+  <des_tipologia_ente>Altre tipologie di Enti</des_tipologia_ente>
+  <num_siti>154</num_siti>
+  <dat_monitoraggio>2023-09-30</dat_monitoraggio>
+</row>
+
+<row>
+  <regione>Liguria</regione>
+  <des_tipologia_ente>Comuni e loro Consorzi e Associazioni</des_tipologia_ente>
+  <num_siti>254</num_siti>
+  <dat_monitoraggio>2023-09-30</dat_monitoraggio>
+</row>
+
+<row>
+  <regione>Liguria</regione>
+  <des_tipologia_ente>Istituti di Istruzione Statale di Ogni Ordine e Grado</des_tipologia_ente>
+  <num_siti>176</num_siti>
+  <dat_monitoraggio>2023-09-30</dat_monitoraggio>
+</row>
+
+<row>
+  <regione>Lazio</regione>
+  <des_tipologia_ente>Altre tipologie di Enti</des_tipologia_ente>
+  <num_siti>1147</num_siti>
+  <dat_monitoraggio>2023-09-30</dat_monitoraggio>
+</row>
+
+<row>
+  <regione>Lazio</regione>
+  <des_tipologia_ente>Comuni e loro Consorzi e Associazioni</des_tipologia_ente>
+  <num_siti>367</num_siti>
+  <dat_monitoraggio>2023-09-30</dat_monitoraggio>
+</row>
+
+<row>
+  <regione>Lazio</regione>
+  <des_tipologia_ente>Istituti di Istruzione Statale di Ogni Ordine e Grado</des_tipologia_ente>
+  <num_siti>623</num_siti>
+  <dat_monitoraggio>2023-09-30</dat_monitoraggio>
+</row>
+
+<row>
+  <regione>Friuli-Venezia Giulia</regione>
+  <des_tipologia_ente>Altre tipologie di Enti</des_tipologia_ente>
+  <num_siti>204</num_siti>
+  <dat_monitoraggio>2023-09-30</dat_monitoraggio>
+</row>
+
+<row>
+  <regione>Friuli-Venezia Giulia</regione>
+  <des_tipologia_ente>Comuni e loro Consorzi e Associazioni</des_tipologia_ente>
+  <num_siti>262</num_siti>
+  <dat_monitoraggio>2023-09-30</dat_monitoraggio>
+</row>
+
+<row>
+  <regione>Friuli-Venezia Giulia</regione>
+  <des_tipologia_ente>Istituti di Istruzione Statale di Ogni Ordine e Grado</des_tipologia_ente>
+  <num_siti>152</num_siti>
+  <dat_monitoraggio>2023-09-30</dat_monitoraggio>
+</row>
+
+<row>
+  <regione>Emilia-Romagna</regione>
+  <des_tipologia_ente>Altre tipologie di Enti</des_tipologia_ente>
+  <num_siti>507</num_siti>
+  <dat_monitoraggio>2023-09-30</dat_monitoraggio>
+</row>
+
+<row>
+  <regione>Emilia-Romagna</regione>
+  <des_tipologia_ente>Comuni e loro Consorzi e Associazioni</des_tipologia_ente>
+  <num_siti>411</num_siti>
+  <dat_monitoraggio>2023-09-30</dat_monitoraggio>
+</row>
+
+<row>
+  <regione>Emilia-Romagna</regione>
+  <des_tipologia_ente>Istituti di Istruzione Statale di Ogni Ordine e Grado</des_tipologia_ente>
+  <num_siti>481</num_siti>
+  <dat_monitoraggio>2023-09-30</dat_monitoraggio>
+</row>
+
+<row>
+  <regione>Campania</regione>
+  <des_tipologia_ente>Altre tipologie di Enti</des_tipologia_ente>
+  <num_siti>363</num_siti>
+  <dat_monitoraggio>2023-09-30</dat_monitoraggio>
+</row>
+
+<row>
+  <regione>Campania</regione>
+  <des_tipologia_ente>Comuni e loro Consorzi e Associazioni</des_tipologia_ente>
+  <num_siti>508</num_siti>
+  <dat_monitoraggio>2023-09-30</dat_monitoraggio>
+</row>
+
+<row>
+  <regione>Campania</regione>
+  <des_tipologia_ente>Istituti di Istruzione Statale di Ogni Ordine e Grado</des_tipologia_ente>
+  <num_siti>816</num_siti>
+  <dat_monitoraggio>2023-09-30</dat_monitoraggio>
+</row>
+
+<row>
+  <regione>Calabria</regione>
+  <des_tipologia_ente>Altre tipologie di Enti</des_tipologia_ente>
+  <num_siti>179</num_siti>
+  <dat_monitoraggio>2023-09-30</dat_monitoraggio>
+</row>
+
+<row>
+  <regione>Calabria</regione>
+  <des_tipologia_ente>Comuni e loro Consorzi e Associazioni</des_tipologia_ente>
+  <num_siti>381</num_siti>
+  <dat_monitoraggio>2023-09-30</dat_monitoraggio>
+</row>
+
+<row>
+  <regione>Calabria</regione>
+  <des_tipologia_ente>Istituti di Istruzione Statale di Ogni Ordine e Grado</des_tipologia_ente>
+  <num_siti>328</num_siti>
+  <dat_monitoraggio>2023-09-30</dat_monitoraggio>
+</row>
+
+<row>
+  <regione>Basilicata</regione>
+  <des_tipologia_ente>Altre tipologie di Enti</des_tipologia_ente>
+  <num_siti>82</num_siti>
+  <dat_monitoraggio>2023-09-30</dat_monitoraggio>
+</row>
+
+<row>
+  <regione>Basilicata</regione>
+  <des_tipologia_ente>Comuni e loro Consorzi e Associazioni</des_tipologia_ente>
+  <num_siti>109</num_siti>
+  <dat_monitoraggio>2023-09-30</dat_monitoraggio>
+</row>
+
+<row>
+  <regione>Basilicata</regione>
+  <des_tipologia_ente>Istituti di Istruzione Statale di Ogni Ordine e Grado</des_tipologia_ente>
+  <num_siti>93</num_siti>
+  <dat_monitoraggio>2023-09-30</dat_monitoraggio>
+</row>
+
+<row>
+  <regione>Abruzzo</regione>
+  <des_tipologia_ente>Altre tipologie di Enti</des_tipologia_ente>
+  <num_siti>195</num_siti>
+  <dat_monitoraggio>2023-09-30</dat_monitoraggio>
+</row>
+
+<row>
+  <regione>Abruzzo</regione>
+  <des_tipologia_ente>Comuni e loro Consorzi e Associazioni</des_tipologia_ente>
+  <num_siti>307</num_siti>
+  <dat_monitoraggio>2023-09-30</dat_monitoraggio>
+</row>
+
+<row>
+  <regione>Abruzzo</regione>
+  <des_tipologia_ente>Istituti di Istruzione Statale di Ogni Ordine e Grado</des_tipologia_ente>
+  <num_siti>145</num_siti>
+  <dat_monitoraggio>2023-09-30</dat_monitoraggio>
+</row>
+
+</table>

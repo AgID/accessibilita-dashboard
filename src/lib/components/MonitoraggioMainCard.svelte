@@ -65,7 +65,7 @@
           {#if item}
             <p class="cardTitle greyText">Siti valutati</p>
             <p class="cardMainData mt-2" style="color: #0066cc">
-              {nf(item.num_siti_ipa_monitorati)}
+              {nf(item.num_siti_monitorati)}
             </p>
           {/if}
         </div>

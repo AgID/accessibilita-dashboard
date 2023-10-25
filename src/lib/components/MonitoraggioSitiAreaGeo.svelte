@@ -15,7 +15,7 @@
   let loading = true;
 
   onMount(async () => {
-    const rs = await fetch("/data/home_page_area_geografica.json");
+    const rs = await fetch("/data/monitoraggio_per_area_geografica.json");
     response = await rs.json();
     periodoMonitoraggio = pm(response?.intestazione?.periodo_monitoraggio)
     loading = false;
@@ -24,7 +24,7 @@
     let areaGeo
     let numXarea
 
-    const rs2 = await fetch("/data/home_page_area_geografica.json");
+    const rs2 = await fetch("/data/monitoraggio_per_area_geografica.json");
     response2 = await rs2.json();
     areaGeo = response2?.data?.map((r) => r.area_geografica);
     numXarea = response2?.data?.map((r) => r.num_siti_monitorati);
@@ -41,7 +41,6 @@
 
       allData.push(dataObject);
     }
-    console.log(allData)
 
     const chart4 = Highcharts.chart({
       chart: {
