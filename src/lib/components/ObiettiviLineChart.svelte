@@ -3,6 +3,8 @@
   import { nf, pm } from "../utils";
   import CsvPdfButtons from "./CsvPdfButtons.svelte";
   import DataTable from "./DataTable.svelte";
+  import { t } from "../utils/i18n";
+
 
   // ---HIGHCHARTS BEGIN---
   import Highcharts from "highcharts";
@@ -15,10 +17,10 @@
   let loading = true;
   let response;
   const columns = [
-    { field: "cod_anno", label: "Anno" },
+    { field: "cod_anno", label: $t("obiLineChart.anno") },
     {
       field: "num_enti_obiettivi",
-      label: "Obiettivi di accessibiltà",
+      label:  $t("obiLineChart.numero"),
       align: "right",
       format: (value: any) => nf(value),
     },
@@ -67,6 +69,14 @@
       },
       plotOptions: {
         series: {
+          lineWidth: 2,
+          marker: {
+                enabled: true,
+                fillColor: '#FFFFFF',
+                lineWidth: 2,
+                lineColor: null,
+                symbol: "cicrle",
+            },
           label: {
             connectorAllowed: false,
           },
@@ -75,7 +85,7 @@
       },
       series: [
         {
-          name: "Obiettivi di accessibilità",
+          name: $t("obiLineChart.label"),
           type: "line",
           data: numObiettivi,
         },
@@ -89,7 +99,7 @@
 
 <div class="card-box mt-3 mt-lg-0 hide-mobile pt-3 px-3">
   <h2 class="cardTitle py-3 ps-2 ps-lg-3 d-inline-flex greyText">
-    Trend degli obiettivi di accessibiltà
+    {$t("obiLineChart.title")}
   </h2>
 
   <figure class="highcharts-figure">
@@ -97,11 +107,7 @@
   </figure>
 
   <p class="mb-0 pb-3 px-2 px-xl-4">
-    Il trend degli obiettivi di accessibilità riporta l’andamento delle
-    pubblicazioni degli obiettivi da parte delle PA per i loro siti web e
-    applicazioni mobile nel corso degli anni. Il crescente aumento degli
-    obiettivi mette in risalto l’impegno preso nel rendere le informazioni
-    fruibili a tutti, senza discriminazioni
+    {$t("obiLineChart.description")}
   </p>
 
   <div class="pe-3 pb-4">
@@ -109,7 +115,7 @@
       <CsvPdfButtons
         rows={response?.data}
         {columns}
-        title="Trend degli obiettivi di accessibiltà"
+        title={$t("obiLineChart.title")}
         periodoMonitoraggio={response?.intestazione?.periodo_obiettivi}
       />
     {/if}
@@ -121,18 +127,14 @@
     <DataTable
       rows={response?.data}
       {columns}
-      title="Trend degli obiettivi di accessibiltà"
+      title={$t("obiLineChart.title")}
       defaultSortBy="cod_anno"
       descending={true}
       didascalia={true}
       periodoMonitoraggio={response?.intestazione?.periodo_obiettivi}
     >
       <div slot="didascaliaSlot" class="didascalia">
-        Il trend degli obiettivi di accessibilità riporta l’andamento delle
-        pubblicazioni degli obiettivi da parte delle PA per i loro siti web e
-        applicazioni mobile nel corso degli anni. Il crescente aumento degli
-        obiettivi mette in risalto l’impegno preso nel rendere le informazioni
-        fruibili a tutti, senza discriminazioni.
+        {$t("obiLineChart.description")}
       </div>
     </DataTable>
   </div>

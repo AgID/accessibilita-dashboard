@@ -2,30 +2,31 @@
   import { onMount } from "svelte";
   import { nf, nf2d } from "../utils";
   import DataTable from "./DataTable.svelte";
-
+  import { t } from "../utils/i18n";
+  
   let response;
   let loading = true;
   const columns = [
     {
       field: "des_regione",
-      label: "Regione o Provincia autonoma",
+      label: $t("obiTable.regione"),
       align: "left",
     },
     {
       field: "num_enti_tot",
-      label: "Totale enti censiti su IPA ",
+      label: $t("obiTable.numero"),
       format: (value: any) => nf(value),
       align: "right",
     },
     {
       field: "num_enti_obiettivi",
-      label: "Obiettivi di accessibilità",
+      label: $t("obiTable.obiettivi"),
       format: (value: any) => nf(value),
       align: "right",
     },
     {
       field: "perc_enti_obiettivi_su_tot",
-      label: "Obiettivi rispetto agli enti censiti su IPA",
+      label: $t("obiTable.percentuale"),
       format: (value: any) => nf2d(value) + "%",
       align: "right",
     },
@@ -42,12 +43,12 @@
     {columns}
     rows={response?.data}
     defaultSortBy="num_enti_obiettivi"
-    title="Obiettivi di accessibilità"
+    title={$t("obiTable.title")}
     periodoMonitoraggio={response?.intestazione?.anno}
     didascalia={true}
   >
     <div slot="didascaliaSlot" class="didascalia">
-      La tabella riporta il totale degli obiettivi pubblicati e il rapporto percentuale rispetto gli enti censiti su IPA per regione e provincia autonoma.
+      {$t("obiTable.description")}
     </div>
   </DataTable>
 {/if}

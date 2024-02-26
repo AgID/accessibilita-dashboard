@@ -2,6 +2,8 @@
   import { onMount } from "svelte";
   import { nf, pm, nf2d } from "../utils";
   import DataTable from "./DataTable.svelte";
+  import { t } from "../utils/i18n";
+
   let response;
   let loading = true;
   onMount(async () => {
@@ -11,16 +13,16 @@
   });
 
   const columns = [
-    { field: "des_regione", label: "Regione o Provincia autonoma" },
+    { field: "des_regione", label: $t("moniRegTable.regione") },
     {
       field: "num_siti",
-      label: "Numero Siti",
+      label: $t("moniRegTable.numero"),
       format: (value: any) => nf(value),
       align: "right",
     },
     {
       field: "incidenza_errori",
-      label: "Incidenza errori",
+      label: $t("moniRegTable.errori"),
       format: (value: any) => nf2d(value) + "%",
       align: "right",
     },
@@ -32,16 +34,14 @@
     <DataTable
       {columns}
       rows={response?.data}
-      title="Monitoraggio siti per regione o provincia autonoma"
+      title={$t("moniRegTable.title")}
       didascalia={true}
       defaultSortBy="num_siti"
       periodoMonitoraggio={pm(response?.intestazione?.periodo_monitoraggio)}
       tooltipClasses="mx-1"
     >
       <div slot="didascaliaSlot" class="didascalia">
-        L’incidenza errori è una misura percentuale che si riferisce ai criteri
-        di successo non soddisfatti, valutabili dal monitoraggio automatizzato,
-        riscontrati su un campione di siti della PA
+        {$t("moniRegTable.description")}
       </div>
     </DataTable>
   </div>

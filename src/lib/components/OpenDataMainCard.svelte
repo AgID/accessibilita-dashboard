@@ -1,5 +1,22 @@
 <script>
+  import { onMount } from "svelte";
+  import { nf } from "../utils";
+
   import Icon from "./Icon.svelte";
+  import { t } from "../utils/i18n";
+
+
+  let totale;
+  onMount(async () => {
+    const res = await fetch("/data/dichiarazione_intestazione.json");
+    const datas = await res.json();
+
+    totale = datas.find(
+      (d) => d.indicatore == "num_dichiarazioni_pub_tot"
+    ).valore;
+  });
+
+
 </script>
 
 <div class="mb-5">
@@ -7,15 +24,14 @@
     <span aria-hidden="true" 
       ><Icon name="it it-download" variant="primary" size="lg"/></span
     >
-    <h2 class="lead mx-3">Open Data</h2>
+    <h2 class="lead mx-3">{$t("opendata.title")}</h2>
   </div>
 
   <div class="row">
     <div class="col-12 col-md-6">
-      <h3 class="h3 mb-4">Elenco open data accessibilità</h3>
+      <h3 class="h3 mb-4">{$t("opendata.subtitle")}</h3>
       <p>
-        Puoi consultare e scaricare gratuitamente i dati e le informazioni
-        presenti sul sito del monitoraggio dell’accessibilità di AgID.
+        {$t("opendata.description")}
       </p>
     </div>
     <div class="col-12 col-md-6 text-center my-4">

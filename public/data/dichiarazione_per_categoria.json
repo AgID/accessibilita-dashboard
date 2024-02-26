@@ -1,0 +1,23 @@
+{
+  "data": [
+    {
+      "des_tipologia_ente_en": "State Educational Institutions of All Levels",
+      "des_tipologia_ente_it": "Istituti di Istruzione Statale di Ogni Ordine e Grado",
+      "num_dichiarazioni_pub": 6696
+    },
+    {
+      "des_tipologia_ente_en": "Municipalities and their Consortia and Associations",
+      "des_tipologia_ente_it": "Comuni e loro Consorzi e Associazioni",
+      "num_dichiarazioni_pub": 4960
+    },
+    {
+      "des_tipologia_ente_en": "Other Types of Organizations",
+      "des_tipologia_ente_it": "Altre tipologie di Enti",
+      "num_dichiarazioni_pub": 3750
+    }
+  ],
+  "intestazione": {
+      "periodo_dichiarazioni": "2020 - 2023",
+      "dat_ult_agg_dichiarazione": "2023-09-23"
+    }
+}

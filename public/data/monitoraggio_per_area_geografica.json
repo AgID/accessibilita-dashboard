@@ -1,33 +1,38 @@
-    {
-        "intestazione": {
-            "periodo_monitoraggio": "3-2023",
-            "dat_ultimo_aggiornamento": "2023-09-30"
+{
+    "data": [
+        {
+            "area_geografica_en": "North-west",
+            "area_geografica_it": "Nord-ovest",
+            "num_siti_monitorati": 7107,
+            "cod_ripartizione_geografica": "1"
         },
-        "data": [
-            {
-                "area_geografica": "Nord-ovest",
-                "num_siti_monitorati": 6808,
-                "cod_ripartizione_geografica": "1"
-            },
-            {
-                "area_geografica": "Nord-est",
-                "num_siti_monitorati": 4618,
-                "cod_ripartizione_geografica": "2"
-            },
-            {
-                "area_geografica": "Centro",
-                "num_siti_monitorati": 4321,
-                "cod_ripartizione_geografica": "3"
-            },
-            {
-                "area_geografica": "Sud",
-                "num_siti_monitorati": 4853,
-                "cod_ripartizione_geografica": "4"
-            },
-            {
-                "area_geografica": "Isole",
-                "num_siti_monitorati": 2208,
-                "cod_ripartizione_geografica": "5"
-            }
-        ]
+        {
+            "area_geografica_en": "North-east",
+            "area_geografica_it": "Nord-est",
+            "num_siti_monitorati": 4822,
+            "cod_ripartizione_geografica": "2"
+        },
+        {
+            "area_geografica_en": "Center",
+            "area_geografica_it": "Centro",
+            "num_siti_monitorati": 4577,
+            "cod_ripartizione_geografica": "3"
+        },
+        {
+            "area_geografica_en": "South",
+            "area_geografica_it": "Sud",
+            "num_siti_monitorati": 5296,
+            "cod_ripartizione_geografica": "4"
+        },
+        {
+            "area_geografica_en": "Islands",
+            "area_geografica_it": "Isole",
+            "num_siti_monitorati": 2589,
+            "cod_ripartizione_geografica": "5"
+        }
+    ],
+    "intestazione": {
+        "periodo_monitoraggio": "4-2023",
+        "dat_ultimo_aggiornamento": "2023-12-31"
     }
+}

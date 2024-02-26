@@ -1,113 +1,134 @@
-    {
-        "data": [
-            {
-                "perc_round": 40.50202,
-                "cod_livello_conformita": "AA",
-                "criterio_di_successo": "2.4.7 Focus visibile"
-            },
-            {
-                "perc_round": 23.44249,
-                "cod_livello_conformita": "A",
-                "criterio_di_successo": "1.4.1 Uso del colore"
-            },
-            {
-                "perc_round": 15.41103,
-                "cod_livello_conformita": "AA",
-                "criterio_di_successo": "1.4.3 Contrasto (minimo)"
-            },
-            {
-                "perc_round": 5.13516,
-                "cod_livello_conformita": "A",
-                "criterio_di_successo": "1.1.1 Contenuti non testuali"
-            },
-            {
-                "perc_round": 4.22797,
-                "cod_livello_conformita": "A",
-                "criterio_di_successo": "4.1.1 Analisi sintattica (parsing)"
-            },
-            {
-                "perc_round": 3.17863,
-                "cod_livello_conformita": "A",
-                "criterio_di_successo": "2.4.4 Scopo del collegamento (nel contesto)"
-            },
-            {
-                "perc_round": 2.38957,
-                "cod_livello_conformita": "AA",
-                "criterio_di_successo": "1.4.11 Contrasto in contenuti non testuali"
-            },
-            {
-                "perc_round": 1.43424,
-                "cod_livello_conformita": "A",
-                "criterio_di_successo": "1.3.1 Informazioni e correlazioni"
-            },
-            {
-                "perc_round": 1.35421,
-                "cod_livello_conformita": "A",
-                "criterio_di_successo": "4.1.2 Nome, ruolo, valore"
-            },
-            {
-                "perc_round": 1.12231,
-                "cod_livello_conformita": "AA",
-                "criterio_di_successo": "1.4.10 Ricalcolo del flusso"
-            },
-            {
-                "perc_round": 0.99635,
-                "cod_livello_conformita": "AA",
-                "criterio_di_successo": "1.3.5 Identificare lo scopo degli input"
-            },
-            {
-                "perc_round": 0.34652,
-                "cod_livello_conformita": "A",
-                "criterio_di_successo": "3.2.2 All'input"
-            },
-            {
-                "perc_round": 0.23204,
-                "cod_livello_conformita": "A",
-                "criterio_di_successo": "3.3.2 Etichette o istruzioni"
-            },
-            {
-                "perc_round": 0.16306,
-                "cod_livello_conformita": "AA",
-                "criterio_di_successo": "1.4.5 Immagini di testo"
-            },
-            {
-                "perc_round": 0.05207,
-                "cod_livello_conformita": "A",
-                "criterio_di_successo": "3.1.1 Lingua della pagina"
-            },
-            {
-                "perc_round": 0.00775,
-                "cod_livello_conformita": "A",
-                "criterio_di_successo": "1.2.3 Audiodescrizione o tipo di media alternativo (preregistrato)"
-            },
-            {
-                "perc_round": 0.00241,
-                "cod_livello_conformita": "A",
-                "criterio_di_successo": "2.4.2 Titolazione della pagina"
-            },
-            {
-                "perc_round": 0.00195,
-                "cod_livello_conformita": "AA",
-                "criterio_di_successo": "1.4.12 Spaziatura del testo"
-            },
-            {
-                "perc_round": 0.00021,
-                "cod_livello_conformita": "A",
-                "criterio_di_successo": "2.2.1 Regolazione tempi di esecuzione"
-            },
-            {
-                "perc_round": 0.00001,
-                "cod_livello_conformita": "A",
-                "criterio_di_successo": "2.2.2 Pausa, stop, nascondi"
-            },
-            {
-                "perc_round": 0.00000,
-                "cod_livello_conformita": "AA",
-                "criterio_di_successo": "3.1.2 Parti in lingua"
-            }
-        ],
-        "intestazione": {
-            "periodo_monitoraggio": "3-2023",
-            "dat_ultimo_aggiornamento": "2023-09-30"
+{
+    "data": [
+        {
+            "perc_round": 40.71852,
+            "cod_livello_conformita": "AA",
+            "criterio_di_successo_en": "2.4.7 Focus Visible",
+            "criterio_di_successo_it": "2.4.7 Focus visibile"
+        },
+        {
+            "perc_round": 25.52877,
+            "cod_livello_conformita": "A",
+            "criterio_di_successo_en": "1.4.1 Use of Color",
+            "criterio_di_successo_it": "1.4.1 Uso del colore"
+        },
+        {
+            "perc_round": 13.70763,
+            "cod_livello_conformita": "AA",
+            "criterio_di_successo_en": "1.4.3 Contrast (Minimum)",
+            "criterio_di_successo_it": "1.4.3 Contrasto (minimo)"
+        },
+        {
+            "perc_round": 5.23994,
+            "cod_livello_conformita": "A",
+            "criterio_di_successo_en": "1.1.1 Non-text Content",
+            "criterio_di_successo_it": "1.1.1 Contenuti non testuali"
+        },
+        {
+            "perc_round": 4.03546,
+            "cod_livello_conformita": "A",
+            "criterio_di_successo_en": "4.1.1 Parsing",
+            "criterio_di_successo_it": "4.1.1 Analisi sintattica (parsing)"
+        },
+        {
+            "perc_round": 2.94544,
+            "cod_livello_conformita": "A",
+            "criterio_di_successo_en": "2.4.4 Link Purpose (In Context)",
+            "criterio_di_successo_it": "2.4.4 Scopo del collegamento (nel contesto)"
+        },
+        {
+            "perc_round": 2.57136,
+            "cod_livello_conformita": "AA",
+            "criterio_di_successo_en": "1.4.11 Non-text Contrast",
+            "criterio_di_successo_it": "1.4.11 Contrasto in contenuti non testuali"
+        },
+        {
+            "perc_round": 1.33162,
+            "cod_livello_conformita": "A",
+            "criterio_di_successo_en": "1.3.1 Info and Relationships",
+            "criterio_di_successo_it": "1.3.1 Informazioni e correlazioni"
+        },
+        {
+            "perc_round": 1.25746,
+            "cod_livello_conformita": "A",
+            "criterio_di_successo_en": "4.1.2 Name, Role, Value",
+            "criterio_di_successo_it": "4.1.2 Nome, ruolo, valore"
+        },
+        {
+            "perc_round": 0.99244,
+            "cod_livello_conformita": "AA",
+            "criterio_di_successo_en": "1.4.10 Reflow",
+            "criterio_di_successo_it": "1.4.10 Ricalcolo del flusso"
+        },
+        {
+            "perc_round": 0.93572,
+            "cod_livello_conformita": "AA",
+            "criterio_di_successo_en": "1.3.5 Identify Input Purpose",
+            "criterio_di_successo_it": "1.3.5 Identificare lo scopo degli input"
+        },
+        {
+            "perc_round": 0.32305,
+            "cod_livello_conformita": "A",
+            "criterio_di_successo_en": "3.2.2 On Input",
+            "criterio_di_successo_it": "3.2.2 All'input"
+        },
+        {
+            "perc_round": 0.20688,
+            "cod_livello_conformita": "A",
+            "criterio_di_successo_en": "3.3.2 Labels or Instructions",
+            "criterio_di_successo_it": "3.3.2 Etichette o istruzioni"
+        },
+        {
+            "perc_round": 0.14473,
+            "cod_livello_conformita": "AA",
+            "criterio_di_successo_en": "1.4.5 Images of Text",
+            "criterio_di_successo_it": "1.4.5 Immagini di testo"
+        },
+        {
+            "perc_round": 0.04831,
+            "cod_livello_conformita": "A",
+            "criterio_di_successo_en": "3.1.1 Language of Page",
+            "criterio_di_successo_it": "3.1.1 Lingua della pagina"
+        },
+        {
+            "perc_round": 0.00616,
+            "cod_livello_conformita": "A",
+            "criterio_di_successo_en": "1.2.3 Audio Description or Media Alternative (Prerecorded)",
+            "criterio_di_successo_it": "1.2.3 Audiodescrizione o tipo di media alternativo (preregistrato)"
+        },
+        {
+            "perc_round": 0.00360,
+            "cod_livello_conformita": "AA",
+            "criterio_di_successo_en": "1.4.12 Text Spacing",
+            "criterio_di_successo_it": "1.4.12 Spaziatura del testo"
+        },
+        {
+            "perc_round": 0.00262,
+            "cod_livello_conformita": "A",
+            "criterio_di_successo_en": "2.4.2 Page Titled",
+            "criterio_di_successo_it": "2.4.2 Titolazione della pagina"
+        },
+        {
+            "perc_round": 0.00024,
+            "cod_livello_conformita": "A",
+            "criterio_di_successo_en": "2.2.1 Timing Adjustable",
+            "criterio_di_successo_it": "2.2.1 Regolazione tempi di esecuzione"
+        },
+        {
+            "perc_round": 0.00005,
+            "cod_livello_conformita": "AA",
+            "criterio_di_successo_en": "3.1.2 Language of Parts",
+            "criterio_di_successo_it": "3.1.2 Parti in lingua"
+        },
+        {
+            "perc_round": 0.00001,
+            "cod_livello_conformita": "A",
+            "criterio_di_successo_en": "2.2.2 Pause, Stop, Hide",
+            "criterio_di_successo_it": "2.2.2 Pausa, stop, nascondi"
         }
+    ],
+    "intestazione": {
+        "periodo_monitoraggio": "4-2023",
+        "dat_ultimo_aggiornamento": "2023-12-31"
     }
+}

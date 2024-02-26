@@ -3,6 +3,7 @@
   import { nf, pm } from "../utils";
   import CsvPdfButtons from "./CsvPdfButtons.svelte";
   import DataTable from "./DataTable.svelte";
+  import { locale, t } from "../utils/i18n";
 
   // ---HIGHCHARTS BEGIN---
   import Highcharts from "highcharts";
@@ -17,22 +18,21 @@
   onMount(async () => {
     const rs = await fetch("/data/monitoraggio_per_area_geografica.json");
     response = await rs.json();
-    periodoMonitoraggio = pm(response?.intestazione?.periodo_monitoraggio)
+    periodoMonitoraggio = pm(response?.intestazione?.periodo_monitoraggio);
     loading = false;
-    
-    let response2
-    let areaGeo
-    let numXarea
+
+    let response2;
+    let areaGeo;
+    let numXarea;
 
     const rs2 = await fetch("/data/monitoraggio_per_area_geografica.json");
     response2 = await rs2.json();
-    areaGeo = response2?.data?.map((r) => r.area_geografica);
+    areaGeo = response2?.data?.map((r) => r[`area_geografica_${$locale}`]);
     numXarea = response2?.data?.map((r) => r.num_siti_monitorati);
 
     let allData = [];
 
     for (let i = 0; i < areaGeo.length; i++) {
-
       const dataObject = {
         name: areaGeo[i],
         y: numXarea[i],
@@ -50,26 +50,21 @@
         plotShadow: false,
         type: "pie",
       },
-      colors: [
-        '#0066CC',
-        '#B0315E',
-        '#FC552D',
-        '#329574',
-        '#D95EF7',
-    ],
+      colors: ["#0066CC", "#B0315E", "#FC552D", "#329574", "#D95EF7"],
       title: { text: "" },
       plotOptions: {
         pie: {
-            startAngle: 90,
-            borderRadius: 0,
-            borderWidth: 3,
-            borderColor: "#fff"
-        }
+          startAngle: 90,
+          borderRadius: 0,
+          borderWidth: 8,
+          borderColor: "#fff",
+        },
       },
       tooltip: {
-        headerFormat: '',
-        pointFormat: '<span style="color:{point.color}">\u25CF</span> {point.name}<br/>' +
-            'Siti monitorati: <b>{point.y}</b><br/>'
+        headerFormat: "",
+        pointFormat:
+          '<span style="color:{point.color}">\u25CF</span> {point.name}<br/>' +
+          $t("moniAreaGeo.chartLabel") + "<b>{point.y}</b><br/>",
       },
       series: [
         {
@@ -82,10 +77,10 @@
   });
 
   const columns = [
-    { field: "area_geografica", label: "Area Geografica" },
+    { field: `area_geografica_${$locale}`, label: $t("moniAreaGeo.area") },
     {
       field: "num_siti_monitorati",
-      label: "Numero Siti Monitorati",
+      label: $t("moniAreaGeo.numero"),
       align: "right",
       format: (value: any) => nf(value),
     },
@@ -95,18 +90,16 @@
 
 <div class="card-box mt-2 my-lg-3 hide-mobile pt-3 px-3">
   <h2 class="cardTitle py-3 ps-2 ps-lg-3 d-inline-flex greyText">
-    Siti monitorati per area geografica
-  </h2>
+    {$t("moniAreaGeo.title")}</h2>
   <div>
-      <p class="mb-0 pb-3 px-2 px-xl-3">
-    Il grafico riporta la distribuzione dei siti monitorati raggruppati nei 5 valori della Nomenclatura delle Unità territoriali per le Statistiche dell’Italia (NUTS) usati per fini statistici a livello dell’Unione Europea (Eurostat).
-  </p>
-  {#if periodoMonitoraggio}
-  <div class="caption text-start d-inline-block px-2 px-xl-3">
-    Periodo monitoraggio:
-    {periodoMonitoraggio}
-  </div>
-{/if}
+    <p class="mb-0 pb-3 px-2 px-xl-3">
+      {$t("moniAreaGeo.chartDescription")}
+    </p>
+    {#if periodoMonitoraggio}
+      <div class="caption text-start d-inline-block px-2 px-xl-3">
+        {$t("moniAreaGeo.timeframe")}{periodoMonitoraggio}
+      </div>
+    {/if}
   </div>
 
   <figure class="highcharts-figure">
@@ -118,8 +111,8 @@
       <CsvPdfButtons
         rows={response?.data}
         {columns}
-        title="Siti monitorati per area geografica"
-        periodoMonitoraggio={periodoMonitoraggio}
+        title={$t("moniAreaGeo.title")}
+        {periodoMonitoraggio}
       />
     {/if}
   </div>
@@ -130,16 +123,13 @@
     <DataTable
       {columns}
       rows={response?.data}
-      title="Siti monitorati per area geografica"
+      title={$t("moniAreaGeo.title")}
       defaultSortBy="cod_ripartizione_geografica"
       didascalia={true}
       periodoMonitoraggio={periodoMonitoraggio}
     >
       <div slot="didascaliaSlot" class="didascalia">
-          In tabella è riportata una distribuzione dei siti monitorati
-          raggruppati nei 5 valori della Nomenclatura delle Unità Territoriali
-          per le Statistiche dell'Italia (NUTS) usati per fini statistici a
-          livello dell'Unione Europea (Eurostat).
+        {$t("moniAreaGeo.tableDescription")}
       </div>
     </DataTable>
   </div>

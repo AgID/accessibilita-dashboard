@@ -1,13 +1,15 @@
 <script>
   import OpenDataMainCard from "../lib/components/OpenDataMainCard.svelte";
   import OpenDataTable from "../lib/components/OpenDataTable.svelte";
+  import { t } from "../lib/utils/i18n";
+
 </script>
 
 <svelte:head>
-  <title>Open Data - Monitoraggio Accessibilità</title>
+  <title>{$t("opendata.pagename")}</title>
 </svelte:head>
 
-<section aria-label="Sezione open data">
+<section aria-label={$t("opendata.section")}>
   <div class="container">
     <OpenDataMainCard />
   </div>

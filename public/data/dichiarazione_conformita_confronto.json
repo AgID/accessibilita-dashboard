@@ -1,17 +1,20 @@
 {
   "data": [
     {
-      "conformita": "Conforme",
+      "conformita_it": "Conforme",
+      "conformita_en": "Compliant",
       "siti_istituzionali": 48,
       "siti_tematici": 35
     },
     {
-      "conformita": "Parzialmente conforme",
+      "conformita_it": "Parzialmente conforme",
+      "conformita_en": "Partially Compliant",
       "siti_istituzionali": 51,
       "siti_tematici": 63
     },
     {
-      "conformita": "Non conforme",
+      "conformita_it": "Non conforme",
+      "conformita_en": "Non-Compliant",
       "siti_istituzionali": 1,
       "siti_tematici": 2
     }

@@ -1,12 +1,14 @@
 <script>
-    import CronologiaMain from "../lib/components/Cronologia.svelte";
+  import CronologiaMain from "../lib/components/Cronologia.svelte";
+  import { t } from "../lib/utils/i18n";
+
   </script>
   
   <svelte:head>
-    <title>Cronologia del progetto - Monitoraggio Accessibilità</title>
+    <title>{$t("timeline.pagename")}</title>
   </svelte:head>
   
-  <section aria-label="Sezione rilasci">
+  <section aria-label={$t("timeline.section")}>
     <div class="container">
         <CronologiaMain />
     </div>

@@ -1,0 +1,18 @@
+export default {
+    it: {
+        "dicAutoval.title": "L’autovalutazione dei servizi digitali delle PA",
+        "dicAutoval.description": 'Nell’autovalutazione di accessibilità le PA dichiarano lo stato di conformità dei loro servizi digitali sulla base delle verifiche di accessibilità che sono state effettuate in precedenza. Il servizio è "conforme" se non è stato rilevato alcun errore, "parzialmente conforme" se gli errori sono inferiori al 50% dei criteri di successo, "non conforme" se gli errori superano il 50% dei criteri di successo. Le dichiarazioni di accessibilità compilate dalle PA sono conformi by design, grazie al form predisposto da AgID, alla Direttiva UE 2016/2102.',
+        "dicAutoval.SITI-title": "L’autovalutazione dei siti web",
+        "dicAutoval.SITI-description": 'Il sito è "conforme" se non è stato rilevato alcun errore, "parzialmente conforme" se gli errori sono inferiori al 50% dei criteri di successo, "non conforme" se gli errori superano il 50% dei criteri di successo. Le dichiarazioni di accessibilità compilate dalle PA sono conformi by design, grazie al form predisposto da AgID, alla Direttiva UE 2016/2102.',
+        "dicAutoval.APP-title": "L’autovalutazione delle app delle PA",
+        "dicAutoval.APP-description": 'L’applicazione mobile è "conforme" se non viola alcun criterio del WCAG, "parzialmente conforme" se i criteri violati sono inferiori al 50% dei criteri di successo totali, "non conforme" se i criteri violati superano il 50% dei criteri di successo totali. Le dichiarazioni di accessibilità compilate dalle PA sono conformi by design, grazie al form predisposto da AgID, alla Direttiva UE 2016/2102.',
+    },
+    en: {
+        "dicAutoval.title": "Self-assessment of Public Administration digital services",
+        "dicAutoval.description": 'In the self-assessment of accessibility, Public Administrations (PAs) declare the compliance status of their digital services based on accessibility checks conducted previously. The service is considered "compliant" if no errors are detected, "partially compliant" if errors are less than 50% of the success criteria, and "non-compliant" if errors exceed 50% of the success criteria. The accessibility statements compiled by PAs are designed to be compliant, thanks to the form provided by AgID, in accordance with EU Directive 2016/2102.',
+        "dicAutoval.SITI-title": "Self-assessment of Public Administration websites",
+        "dicAutoval.SITI-description": 'The website is considered "compliant" if it does not violate any WCAG criteria, "partially compliant" if the violated criteria are less than 50% of the total success criteria, and "non-compliant" if the violated criteria exceed 50% of the total success criteria. The accessibility statements compiled by Public Administrations (PAs) are designed to be compliant by design, thanks to the form provided by AgID, in accordance with EU Directive 2016/2102.',
+        "dicAutoval.APP-title": "Self-assessment of Public Administration apps",
+        "dicAutoval.APP-description": 'The mobile application is considered "compliant" if it does not violate any WCAG criteria, "partially compliant" if the violated criteria are less than 50% of the total success criteria, and "non-compliant" if the violated criteria exceed 50% of the total success criteria. The accessibility statements compiled by Public Administrations (PAs) are designed to be compliant by design, thanks to the form provided by AgID, in accordance with EU Directive 2016/2102.',
+    },
+  };

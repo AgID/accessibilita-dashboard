@@ -1,0 +1,380 @@
+[
+    {
+        "region": "Veneto",
+        "ipa_category": "Other types of organizations",
+        "num_websites": 497,
+        "last_monitoring_date": "2023-12-31"
+    },
+    {
+        "region": "Veneto",
+        "ipa_category": "Municipalities and their consortia and associations",
+        "num_websites": 618,
+        "last_monitoring_date": "2023-12-31"
+    },
+    {
+        "region": "Veneto",
+        "ipa_category": "State educational institutions of all levels",
+        "num_websites": 596,
+        "last_monitoring_date": "2023-12-31"
+    },
+    {
+        "region": "Valle d'Aosta/Vallée d'Aoste",
+        "ipa_category": "Other types of organizations",
+        "num_websites": 83,
+        "last_monitoring_date": "2023-12-31"
+    },
+    {
+        "region": "Valle d'Aosta/Vallée d'Aoste",
+        "ipa_category": "Municipalities and their consortia and associations",
+        "num_websites": 70,
+        "last_monitoring_date": "2023-12-31"
+    },
+    {
+        "region": "Valle d'Aosta/Vallée d'Aoste",
+        "ipa_category": "State educational institutions of all levels",
+        "num_websites": 24,
+        "last_monitoring_date": "2023-12-31"
+    },
+    {
+        "region": "Umbria",
+        "ipa_category": "Other types of organizations",
+        "num_websites": 109,
+        "last_monitoring_date": "2023-12-31"
+    },
+    {
+        "region": "Umbria",
+        "ipa_category": "Municipalities and their consortia and associations",
+        "num_websites": 102,
+        "last_monitoring_date": "2023-12-31"
+    },
+    {
+        "region": "Umbria",
+        "ipa_category": "State educational institutions of all levels",
+        "num_websites": 133,
+        "last_monitoring_date": "2023-12-31"
+    },
+    {
+        "region": "Toscana",
+        "ipa_category": "Other types of organizations",
+        "num_websites": 433,
+        "last_monitoring_date": "2023-12-31"
+    },
+    {
+        "region": "Toscana",
+        "ipa_category": "Municipalities and their consortia and associations",
+        "num_websites": 406,
+        "last_monitoring_date": "2023-12-31"
+    },
+    {
+        "region": "Toscana",
+        "ipa_category": "State educational institutions of all levels",
+        "num_websites": 481,
+        "last_monitoring_date": "2023-12-31"
+    },
+    {
+        "region": "Sicilia",
+        "ipa_category": "Other types of organizations",
+        "num_websites": 538,
+        "last_monitoring_date": "2023-12-31"
+    },
+    {
+        "region": "Sicilia",
+        "ipa_category": "Municipalities and their consortia and associations",
+        "num_websites": 361,
+        "last_monitoring_date": "2023-12-31"
+    },
+    {
+        "region": "Sicilia",
+        "ipa_category": "State educational institutions of all levels",
+        "num_websites": 847,
+        "last_monitoring_date": "2023-12-31"
+    },
+    {
+        "region": "Sardegna",
+        "ipa_category": "Other types of organizations",
+        "num_websites": 239,
+        "last_monitoring_date": "2023-12-31"
+    },
+    {
+        "region": "Sardegna",
+        "ipa_category": "Municipalities and their consortia and associations",
+        "num_websites": 381,
+        "last_monitoring_date": "2023-12-31"
+    },
+    {
+        "region": "Sardegna",
+        "ipa_category": "State educational institutions of all levels",
+        "num_websites": 223,
+        "last_monitoring_date": "2023-12-31"
+    },
+    {
+        "region": "Puglia",
+        "ipa_category": "Other types of organizations",
+        "num_websites": 330,
+        "last_monitoring_date": "2023-12-31"
+    },
+    {
+        "region": "Puglia",
+        "ipa_category": "Municipalities and their consortia and associations",
+        "num_websites": 261,
+        "last_monitoring_date": "2023-12-31"
+    },
+    {
+        "region": "Puglia",
+        "ipa_category": "State educational institutions of all levels",
+        "num_websites": 659,
+        "last_monitoring_date": "2023-12-31"
+    },
+    {
+        "region": "Provincia autonoma di Trento",
+        "ipa_category": "Other types of organizations",
+        "num_websites": 287,
+        "last_monitoring_date": "2023-12-31"
+    },
+    {
+        "region": "Provincia autonoma di Trento",
+        "ipa_category": "Municipalities and their consortia and associations",
+        "num_websites": 164,
+        "last_monitoring_date": "2023-12-31"
+    },
+    {
+        "region": "Provincia autonoma di Trento",
+        "ipa_category": "State educational institutions of all levels",
+        "num_websites": 66,
+        "last_monitoring_date": "2023-12-31"
+    },
+    {
+        "region": "Provincia autonoma di Bolzano",
+        "ipa_category": "Other types of organizations",
+        "num_websites": 185,
+        "last_monitoring_date": "2023-12-31"
+    },
+    {
+        "region": "Provincia autonoma di Bolzano",
+        "ipa_category": "Municipalities and their consortia and associations",
+        "num_websites": 141,
+        "last_monitoring_date": "2023-12-31"
+    },
+    {
+        "region": "Provincia autonoma di Bolzano",
+        "ipa_category": "State educational institutions of all levels",
+        "num_websites": 97,
+        "last_monitoring_date": "2023-12-31"
+    },
+    {
+        "region": "Piemonte",
+        "ipa_category": "Other types of organizations",
+        "num_websites": 681,
+        "last_monitoring_date": "2023-12-31"
+    },
+    {
+        "region": "Piemonte",
+        "ipa_category": "Municipalities and their consortia and associations",
+        "num_websites": 1074,
+        "last_monitoring_date": "2023-12-31"
+    },
+    {
+        "region": "Piemonte",
+        "ipa_category": "State educational institutions of all levels",
+        "num_websites": 593,
+        "last_monitoring_date": "2023-12-31"
+    },
+    {
+        "region": "Molise",
+        "ipa_category": "Other types of organizations",
+        "num_websites": 71,
+        "last_monitoring_date": "2023-12-31"
+    },
+    {
+        "region": "Molise",
+        "ipa_category": "Municipalities and their consortia and associations",
+        "num_websites": 116,
+        "last_monitoring_date": "2023-12-31"
+    },
+    {
+        "region": "Molise",
+        "ipa_category": "State educational institutions of all levels",
+        "num_websites": 50,
+        "last_monitoring_date": "2023-12-31"
+    },
+    {
+        "region": "Marche",
+        "ipa_category": "Other types of organizations",
+        "num_websites": 232,
+        "last_monitoring_date": "2023-12-31"
+    },
+    {
+        "region": "Marche",
+        "ipa_category": "Municipalities and their consortia and associations",
+        "num_websites": 193,
+        "last_monitoring_date": "2023-12-31"
+    },
+    {
+        "region": "Marche",
+        "ipa_category": "State educational institutions of all levels",
+        "num_websites": 236,
+        "last_monitoring_date": "2023-12-31"
+    },
+    {
+        "region": "Lombardia",
+        "ipa_category": "Other types of organizations",
+        "num_websites": 1238,
+        "last_monitoring_date": "2023-12-31"
+    },
+    {
+        "region": "Lombardia",
+        "ipa_category": "Municipalities and their consortia and associations",
+        "num_websites": 1567,
+        "last_monitoring_date": "2023-12-31"
+    },
+    {
+        "region": "Lombardia",
+        "ipa_category": "State educational institutions of all levels",
+        "num_websites": 1153,
+        "last_monitoring_date": "2023-12-31"
+    },
+    {
+        "region": "Liguria",
+        "ipa_category": "Other types of organizations",
+        "num_websites": 158,
+        "last_monitoring_date": "2023-12-31"
+    },
+    {
+        "region": "Liguria",
+        "ipa_category": "Municipalities and their consortia and associations",
+        "num_websites": 255,
+        "last_monitoring_date": "2023-12-31"
+    },
+    {
+        "region": "Liguria",
+        "ipa_category": "State educational institutions of all levels",
+        "num_websites": 211,
+        "last_monitoring_date": "2023-12-31"
+    },
+    {
+        "region": "Lazio",
+        "ipa_category": "Other types of organizations",
+        "num_websites": 1167,
+        "last_monitoring_date": "2023-12-31"
+    },
+    {
+        "region": "Lazio",
+        "ipa_category": "Municipalities and their consortia and associations",
+        "num_websites": 358,
+        "last_monitoring_date": "2023-12-31"
+    },
+    {
+        "region": "Lazio",
+        "ipa_category": "State educational institutions of all levels",
+        "num_websites": 727,
+        "last_monitoring_date": "2023-12-31"
+    },
+    {
+        "region": "Friuli-Venezia Giulia",
+        "ipa_category": "Other types of organizations",
+        "num_websites": 232,
+        "last_monitoring_date": "2023-12-31"
+    },
+    {
+        "region": "Friuli-Venezia Giulia",
+        "ipa_category": "Municipalities and their consortia and associations",
+        "num_websites": 245,
+        "last_monitoring_date": "2023-12-31"
+    },
+    {
+        "region": "Friuli-Venezia Giulia",
+        "ipa_category": "State educational institutions of all levels",
+        "num_websites": 168,
+        "last_monitoring_date": "2023-12-31"
+    },
+    {
+        "region": "Emilia-Romagna",
+        "ipa_category": "Other types of organizations",
+        "num_websites": 566,
+        "last_monitoring_date": "2023-12-31"
+    },
+    {
+        "region": "Emilia-Romagna",
+        "ipa_category": "Municipalities and their consortia and associations",
+        "num_websites": 408,
+        "last_monitoring_date": "2023-12-31"
+    },
+    {
+        "region": "Emilia-Romagna",
+        "ipa_category": "State educational institutions of all levels",
+        "num_websites": 552,
+        "last_monitoring_date": "2023-12-31"
+    },
+    {
+        "region": "Campania",
+        "ipa_category": "Other types of organizations",
+        "num_websites": 385,
+        "last_monitoring_date": "2023-12-31"
+    },
+    {
+        "region": "Campania",
+        "ipa_category": "Municipalities and their consortia and associations",
+        "num_websites": 499,
+        "last_monitoring_date": "2023-12-31"
+    },
+    {
+        "region": "Campania",
+        "ipa_category": "State educational institutions of all levels",
+        "num_websites": 1027,
+        "last_monitoring_date": "2023-12-31"
+    },
+    {
+        "region": "Calabria",
+        "ipa_category": "Other types of organizations",
+        "num_websites": 173,
+        "last_monitoring_date": "2023-12-31"
+    },
+    {
+        "region": "Calabria",
+        "ipa_category": "Municipalities and their consortia and associations",
+        "num_websites": 359,
+        "last_monitoring_date": "2023-12-31"
+    },
+    {
+        "region": "Calabria",
+        "ipa_category": "State educational institutions of all levels",
+        "num_websites": 331,
+        "last_monitoring_date": "2023-12-31"
+    },
+    {
+        "region": "Basilicata",
+        "ipa_category": "Other types of organizations",
+        "num_websites": 85,
+        "last_monitoring_date": "2023-12-31"
+    },
+    {
+        "region": "Basilicata",
+        "ipa_category": "Municipalities and their consortia and associations",
+        "num_websites": 106,
+        "last_monitoring_date": "2023-12-31"
+    },
+    {
+        "region": "Basilicata",
+        "ipa_category": "State educational institutions of all levels",
+        "num_websites": 124,
+        "last_monitoring_date": "2023-12-31"
+    },
+    {
+        "region": "Abruzzo",
+        "ipa_category": "Other types of organizations",
+        "num_websites": 204,
+        "last_monitoring_date": "2023-12-31"
+    },
+    {
+        "region": "Abruzzo",
+        "ipa_category": "Municipalities and their consortia and associations",
+        "num_websites": 311,
+        "last_monitoring_date": "2023-12-31"
+    },
+    {
+        "region": "Abruzzo",
+        "ipa_category": "State educational institutions of all levels",
+        "num_websites": 205,
+        "last_monitoring_date": "2023-12-31"
+    }
+]

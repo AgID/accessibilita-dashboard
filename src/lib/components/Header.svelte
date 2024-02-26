@@ -4,6 +4,9 @@
   export let showDrawer = false;
   export let selectedPage;
 
+  let defaultLanguage = "ITA";
+  import { locale, locales, t } from "../utils/i18n";
+
   $: if (showDrawer) {
     if (typeof window != "undefined" && window.document) {
       document.body.style.overflow = "hidden";
@@ -58,14 +61,15 @@
     <div class="row">
       <div class="col-12">
         <div class="it-header-slim-wrapper-content">
-          <p class="whiteText mt-3">
+          <p class="col-7 whiteText mt-3">
             <a
               id="firstLink"
-              href="https://www.agid.gov.it/"
-              title="Il link si apre in una nuova finestra"
+              href={$t("header.agidLink")}
+              title={$t("layout.externalLink")}
               target="_blank"
               rel="noreferrer"
-              >Agenzia per l'Italia Digitale <Icon
+              >{$t("header.agid")}
+              <Icon
                 name="it it-external-link"
                 variant="white"
                 size="xs"
@@ -73,19 +77,48 @@
               /></a
             >
           </p>
-          <!-- <div class="it-header-slim-right-zone">
-                <div class="nav-item dropdown">
-                  <a href="javascript:void(0)" class="nav-link dropdown-toggle">
-                    <span class="visually-hidden"
-                      >Selezione lingua: lingua selezionata</span
+          <div class="it-header-slim-right-zone align-self-auto">
+            <div class="dropdown">
+              <a
+                class="nav-link dropdown-toggle display6"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+                id="dropdownMenuButton"
+                style="border-bottom-width: 0px;"
+                href="/"
+              >
+                <span style=" font-size:16px;font-weight:bold;"
+                  >{$t("header.selectedLanguage")}</span
+                >
+                <svg
+                  class="icon ms-md-2"
+                  style="width: 24px;height: 24px;color:white"
+                >
+                  <use
+                    href="/bootstrap-italia/dist/svg/sprites.svg#it-expand"
+                  />
+                </svg>
+              </a>
+              <ul
+                class="dropdown-menu"
+                style="min-width:7rem!important"
+                aria-labelledby="dropdownMenuButton"
+              >
+                {#each locales as l}
+                  <li>
+                    <a
+                      class="dropdown-item"
+                      href="#"
+                      on:click={() => ($locale = l)}
+                      style=" color: #0066cc;"
                     >
-                    <span class="whiteText" style="font-weight: 700;">ITA</span>
-                    <span class="d-none d-lg-flex"
-                      ><Icon name="it it-expand" size="md" /></span
+                      {#if l == "it"}ITALIANO{:else if l == "en"}ENGLISH{/if}</a
                     >
-                  </a>
-                </div>
-              </div> -->
+                  </li>
+                {/each}
+              </ul>
+            </div>
+          </div>
         </div>
       </div>
     </div>
@@ -148,7 +181,9 @@
                         class="list-item w-100 p-3"
                       >
                         <div class="it-left-zone">
-                          <span class="whiteText display6">Home</span>
+                          <span class="whiteText display6"
+                            >{$t("header.tabHome")}
+                          </span>
                         </div>
                       </a>
                     </li>
@@ -166,7 +201,9 @@
                         class="list-item w-100 p-3"
                       >
                         <div class="it-left-zone">
-                          <span class="whiteText display6">Monitoraggio</span>
+                          <span class="whiteText display6"
+                            >{$t("header.tabMonitoraggio")}</span
+                          >
                         </div>
                       </a>
                     </li>
@@ -184,7 +221,9 @@
                         class="list-item w-100 p-3"
                       >
                         <div class="it-left-zone">
-                          <span class="whiteText display6">Errori</span>
+                          <span class="whiteText display6"
+                            >{$t("header.tabErrori")}</span
+                          >
                         </div>
                       </a>
                     </li>
@@ -202,7 +241,45 @@
                         class="list-item w-100 p-3"
                       >
                         <div class="it-left-zone">
-                          <span class="whiteText display6">Dichiarazioni</span>
+                          <span class="whiteText display6"
+                            >{$t("header.tabDichiarazioni")}</span
+                          >
+                        </div>
+                      </a>
+                    </li>
+                    <li class="w-100 pointer">
+                      <a
+                        href="/dichiarazione/siti"
+                        class:selected={selectedPage == "/dichiarazione/siti"}
+                        aria-current={selectedPage == "/dichiarazione/siti"
+                          ? "true"
+                          : "false"}
+                        id="dichiarazione/siti-ham"
+                        on:click={closeDrawer}
+                        class="list-item w-100 p-3"
+                      >
+                        <div class="it-left-zone">
+                          <span class="whiteText ms-4"
+                            >{$t("header.tabDicSiti")}</span
+                          >
+                        </div>
+                      </a>
+                    </li>
+                    <li class="w-100 pointer">
+                      <a
+                        href="/dichiarazione/app"
+                        class:selected={selectedPage == "/dichiarazione/app"}
+                        aria-current={selectedPage == "/dichiarazione/app"
+                          ? "true"
+                          : "false"}
+                        id="dichiarazione/app-ham"
+                        on:click={closeDrawer}
+                        class="list-item w-100 p-3"
+                      >
+                        <div class="it-left-zone">
+                          <span class="whiteText ms-4"
+                            >{$t("header.tabDicApp")}</span
+                          >
                         </div>
                       </a>
                     </li>
@@ -220,13 +297,17 @@
                         class="list-item w-100 p-3"
                       >
                         <div class="it-left-zone">
-                          <span class="whiteText display6">Obiettivi</span>
+                          <span class="whiteText display6"
+                            >{$t("header.tabObiettivi")}</span
+                          >
                         </div>
                       </a>
                     </li>
                     <li class="w-100 pointer p-3">
                       <div class="it-left-zone">
-                        <span class="whiteText display6">Progetto</span>
+                        <span class="whiteText display6"
+                          >{$t("header.tabProgetto")}</span
+                        >
                       </div>
                     </li>
                     <!-- svelte-ignore a11y-click-events-have-key-events -->
@@ -243,7 +324,9 @@
                         class="list-item w-100 p-3"
                       >
                         <div class="it-left-zone">
-                          <span class="whiteText ms-4">Il progetto</span>
+                          <span class="whiteText ms-4"
+                            >{$t("header.tabProgetto")}</span
+                          >
                         </div>
                       </a>
                     </li>
@@ -261,7 +344,9 @@
                         class="list-item w-100 p-3"
                       >
                         <div class="it-left-zone">
-                          <span class="whiteText ms-4">Cronologia del progetto</span>
+                          <span class="whiteText ms-4"
+                            >{$t("header.tabCronologia")}</span
+                          >
                         </div>
                       </a>
                     </li>
@@ -279,7 +364,9 @@
                         class="list-item w-100 p-3"
                       >
                         <div class="it-left-zone">
-                          <span class="whiteText ms-4">Open Data</span>
+                          <span class="whiteText ms-4"
+                            >{$t("header.tabOpenData")}</span
+                          >
                         </div>
                       </a>
                     </li>
@@ -300,11 +387,11 @@
               class="title1 mt-3 align-bottom d-inline-block"
               style="width: 9rem"
             >
-              Monitoraggio Accessibilità
+              {$t("header.monitoraggio")}
             </h1>
             <span
               class="badge rounded-pill bg-white betaBadge ms-sm-0 ms-lg-3 mb-lg-3 align-bottom"
-              tabindex="-1">beta</span
+              tabindex="-1">{$t("header.monitoraggioBadge")}</span
             >
           </div>
         </div>

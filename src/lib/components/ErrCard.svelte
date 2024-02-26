@@ -1,7 +1,7 @@
 <script>
   import { onMount } from "svelte";
   import { nf, df, dp } from "../utils";
-  import Tooltip from "./Tooltip.svelte";
+  import { t } from "../utils/i18n";
 
   export let height = "";
 
@@ -30,12 +30,12 @@
         <div class="row">
           <div class="col-10 mx-auto">
             <div class="cardTitle whiteText py-3">
-              Criteri di successo delle WCAG 2.1 valutati automaticamente:
+              {$t("errcard.title")}
             </div>
           </div>
         </div>
         <div class="cardMainData whiteText py-2">
-          {totaleErroriConformita} su 50
+          {totaleErroriConformita} {$t("errcard.data")}
         </div>
       </div>
       <div class="ms-lg-4 mb-3">
@@ -47,11 +47,12 @@
               </div>
             </div>
             <div class="col-8 text-left ps-lg-0 mx-lg-auto">
-              <p class="cardSmallTitle mt-2 mb-0 greyText">
-                Livello conformità {item.cod_livello_conformita}
+              <p class="cardSmallTitle mt-2 mb-0">
+                {$t("errcard.type", {specificLevel: item.cod_livello_conformita})}
               </p>
-              <p class="h3  blueText mb-0">
-                {nf(item.num_sc_non_soddisfatti)} criteri di successo
+              <p class="h3 blueText mb-0">
+                {nf(item.num_sc_non_soddisfatti)}
+                {$t("errcard.info")}
               </p>
             </div>
           </div>

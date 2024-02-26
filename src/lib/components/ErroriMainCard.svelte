@@ -3,6 +3,7 @@
   import Icon from "./Icon.svelte";
   import ErrCard from "./ErrCard.svelte";
   import { df, dp } from "../utils";
+  import { t } from "../utils/i18n";
 
   let erroriConformita;
   let totaleErroriConformita = 0;
@@ -41,10 +42,10 @@
           size="lg"
         /></span
       >
-      <h2 class="lead mx-3">Errori di accessibilità</h2>
+      <h2 class="lead mx-3">{$t("erroriMain.title")}</h2>
     </div>
     <p class="captionUpdateDarker mb-0">
-      Ultimo aggiornamento dati: {dataPaginaFormatted}
+      {@html $t("erroriMain.latestUpdate", {ultimoAggiornamento: dataPaginaFormatted})}
     </p>
   </div>
   <div class="d-none d-xl-flex col-xl-6" />
@@ -57,28 +58,21 @@
         <div class="row">
           <div class="col-12 col-lg-6">
             <h3 class="h3 mb-4">
-              Gli errori di accessibilità identificabili automaticamente
+              {$t("erroriMain.subtitle")}
             </h3>
-            <p>
-              Gli indicatori e l’analisi automatica dell’accessibilità sono
-              strutturati sulla base delle conformità alle prescrizioni
-              individuate nella norma EN 301 549. <br /> MAUVE++ analizza la
-              ricorrenza degli errori su {totaleErroriConformita} dei 50 criteri
-              di successo previsti dalle linee guida, realizzando in tal modo un’analisi
-              parziale.<br />
-              Scopri di più sulle
+            <p>{@html $t("erroriMain.description", {break: "<br/>", numero: totaleErroriConformita})}
               <a
-                href="https://www.w3.org/Translations/WCAG21-it/"
-                title="Il link si apre in una nuova finestra"
+                href={$t("erroriMain.WCAGlink")}
+                title={$t("layout.externalLink")}
                 target="_blank"
                 rel="noreferrer"
-                >Linee Guida e i Principi delle WCAG 2.1.<Icon
+                >{$t("erroriMain.link")}<Icon
                   name="it it-external-link"
                   variant="primary"
                   size="xs"
                   customClass="mb-1"
                 /></a
-              >
+              >.
               <br /><br />
             </p>
           </div>

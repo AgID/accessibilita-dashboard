@@ -2,6 +2,8 @@
   import Icon from "./Icon.svelte";
 
   export let selectedPage;
+
+  import { t } from "../utils/i18n";
 </script>
 
 <div class="buttonNav">
@@ -15,7 +17,7 @@
                 href="/"
                 class:selected={selectedPage == "/index"}
                 aria-current={selectedPage == "/index" ? "true" : "false"}
-                class="pageChoice display6"><span>Home</span></a
+                class="pageChoice display6"><span>{$t("header.tabHome")}</span></a
               >
             </li>
             <li class="my-auto">
@@ -24,8 +26,7 @@
                 class:selected={selectedPage == "/monitoraggio"}
                 aria-current={selectedPage == "/monitoraggio"
                   ? "true"
-                  : "false"}
-                class="pageChoice display6"><span>Monitoraggio</span></a
+                  : "false"} class="pageChoice display6"><span>{$t("header.tabMonitoraggio")}</span></a
               >
             </li>
             <li class="my-auto">
@@ -33,25 +34,7 @@
                 href="/errori"
                 class:selected={selectedPage == "/errori"}
                 aria-current={selectedPage == "/errori" ? "true" : "false"}
-                class="pageChoice display6"><span>Errori</span></a
-              >
-            </li>
-            <li class="my-auto">
-              <a
-                href="/dichiarazione"
-                class:selected={selectedPage == "/dichiarazione"}
-                aria-current={selectedPage == "/dichiarazione"
-                  ? "true"
-                  : "false"}
-                class="pageChoice display6"><span>Dichiarazioni</span></a
-              >
-            </li>
-            <li class="my-auto">
-              <a
-                href="/obiettivi"
-                class:selected={selectedPage == "/obiettivi"}
-                aria-current={selectedPage == "/obiettivi" ? "true" : "false"}
-                class="pageChoice display6"><span>Obiettivi</span></a
+                class="pageChoice display6"><span>{$t("header.tabErrori")}</span></a
               >
             </li>
             <li class="nav-item dropdown">
@@ -59,14 +42,84 @@
                 class="nav-link dropdown-toggle display6"
                 data-bs-toggle="dropdown"
                 aria-expanded="false"
-                id="dropdownHome"
+                id="dropdownStatements"
+                style="border-bottom-width: 0px;"
+                href="/"
+                class:selected={selectedPage == "/dichiarazione" ||
+                  selectedPage == "/dichiarazione/siti" ||
+                  selectedPage == "/dichiarazione/app"}
+              >
+                <span>{$t("header.tabDichiarazioni")}</span>
+                <svg
+                  class="icon"
+                  class:selected={selectedPage == "/dichiarazione" ||
+                    selectedPage == "/dichiarazione/siti" ||
+                    selectedPage == "/dichiarazione/app"}
+                >
+                  <use
+                    href="/bootstrap-italia/dist/svg/sprites.svg#it-arrow-down-triangle"
+                  />
+                </svg>
+              </a>
+              <div
+                class="dropdown-menu"
+                role="region"
+                aria-labelledby="dropdownStatements"
+              >
+                <div class="link-list-wrapper">
+                  <ul class="link-list">
+                    <li>
+                      <a
+                        class="dropdown-item list-item py-2 pageChoice align-middle"
+                        href="/dichiarazione"
+                        aria-current={selectedPage == "/dichiarazione"
+                          ? "true"
+                          : "false"}><span>{$t("header.tabDichiarazioni")}</span></a
+                      >
+                    </li>
+                    <li>
+                      <a
+                        class="dropdown-item list-item py-2 pageChoice align-middle"
+                        href="/dichiarazione/siti"
+                        aria-current={selectedPage == "/dichiarazione/siti"
+                          ? "true"
+                          : "false"}><span>{$t("header.tabDicSiti")}</span></a
+                      >
+                    </li>
+                    <li>
+                      <a
+                        class="dropdown-item list-item py-2 pageChoice align-middle"
+                        href="/dichiarazione/app"
+                        aria-current={selectedPage == "/dichiarazione/app"
+                          ? "true"
+                          : "false"}><span>{$t("header.tabDicApp")}</span></a
+                      >
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </li>
+            <li class="my-auto">
+              <a
+                href="/obiettivi"
+                class:selected={selectedPage == "/obiettivi"}
+                aria-current={selectedPage == "/obiettivi" ? "true" : "false"}
+                class="pageChoice display6" ><span>{$t("header.tabObiettivi")}</span></a
+              >
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle display6"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+                id="dropdownProject"
                 style="border-bottom-width: 0px;"
                 href="/"
                 class:selected={selectedPage == "/progetto" ||
                   selectedPage == "/cronologia" ||
                   selectedPage == "/opendata"}
               >
-                <span>Il progetto</span>
+                <span>{$t("header.tabProgetto")}</span>
                 <svg
                   class="icon"
                   class:selected={selectedPage == "/progetto" ||
@@ -81,7 +134,7 @@
               <div
                 class="dropdown-menu"
                 role="region"
-                aria-labelledby="dropdownHome"
+                aria-labelledby="dropdownProject"
               >
                 <div class="link-list-wrapper">
                   <ul class="link-list">
@@ -91,7 +144,7 @@
                         href="/progetto"
                         aria-current={selectedPage == "/progetto"
                           ? "true"
-                          : "false"}><span>Il progetto</span></a
+                          : "false"}><span>{$t("header.tabProgetto")}</span></a
                       >
                     </li>
                     <li>
@@ -100,7 +153,7 @@
                         href="/cronologia"
                         aria-current={selectedPage == "/cronologia"
                           ? "true"
-                          : "false"}><span>Cronologia del progetto</span></a
+                          : "false"}><span>{$t("header.tabCronologia")}</span></a
                       >
                     </li>
                     <li>
@@ -109,7 +162,7 @@
                         href="/opendata"
                         aria-current={selectedPage == "/opendata"
                           ? "true"
-                          : "false"}><span>Open Data</span></a
+                          : "false"}><span>{$t("header.tabOpenData")}</span></a
                       >
                     </li>
                   </ul>

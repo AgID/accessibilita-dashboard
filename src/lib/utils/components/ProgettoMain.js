@@ -1,0 +1,43 @@
+export default {
+  it: {
+    "project.title":
+      "Il monitoraggio automatizzato dell'accessibilità dei siti delle PA",
+    "project.subtitle":
+      "Il sito espone i dati relativi al monitoraggio semplificato dell'accessibilità e gli errori riscontrati con maggiore frequenza",
+    "project.description":
+      "Rendere i servizi della Pubblica Amministrazione più accessibili e inclusivi per tutti i cittadini, anche per chi si trova in condizioni di disabilità temporanea o permanente, è uno degli obiettivi della misura 1.4.2 del PNRR in cui si inserisce la pubblicazione della nuova dashboard che presenta, per la prima volta in Italia, i dati di monitoraggio dell’accessibilità dei siti web della Pubblica Amministrazione.",
+    "project.subtitle2": "Il progetto sull’accessibilità",
+    "project.para2a": "L’Agenzia per l’Italia Digitale è soggetto attuatore della misura 1.4.2 del Piano Nazionale di Ripresa e Resilienza, per un investimento pari a 80 milioni di euro, che ha come obiettivo il miglioramento dell’accessibilità dei servizi pubblici digitali per tutti i cittadini e la promozione e diffusione del tema dell’accessibilità all’interno della Pubblica amministrazione e per i privati. {{break}} Il sito permette di consultare l’elenco degli errori più frequenti relativi a 14.483 siti estratti da",
+    "project.para2b": ", analizzati con sistemi automatizzati nel primo trimestre dell’anno.",
+    "project.para2c": "“Si tratta di un passo avanti nella giusta direzione per garantire pari diritti di accesso ai servizi della Pubblica Amministrazione - ha dichiarato il Sottosegretario di Stato con delega all’Innovazione tecnologica, Alessio Butti – affinché nessun cittadino sia escluso dai benefici che la nuova tecnologia è in grado di portare nelle vite di tutti noi.”",
+    "project.indicePAlink": "https://indicepa.gov.it/ipa-portale/",
+    "project.indicePAlinkText": "IndicePA",
+    "project.subtitle4": "Collaborazione con il CNR e lo strumento MAUVE++",
+    "project.para4a": "Tramite un sistema automatizzato chiamato ",
+    "project.para4b": ", realizzato in collaborazione con il CNR, vengono analizzati 31 dei 50 criteri previsti dalle",
+    "project.para4c": "sull’accessibilità pubblicati dal World Wide Web Consortium (W3C). Grazie a questo strumento, che fotografa lo stato attuale dei siti della PA, sarà possibile anche monitorarne i cambiamenti nel tempo, in un’ottica di trasparenza e di miglioramento continuo dei servizi digitali.",
+    "project.MAUVElink": "https://mauve.isti.cnr.it/",
+    "project.WCAGlink": "https://www.w3.org/Translations/WCAG21-it/",
+    "project.MAUVElinkText": "MAUVE++",
+    "project.WCAGlinkText": "Linee Guida e i Principi delle WCAG 2.1.",
+  },
+  en: {
+    "project.title": "Automated monitoring of the accessibility of Public Administration websites",
+    "project.subtitle": "The website displays data related to the simplified accessibility monitoring and the most commonly encountered errors on the websites of public administrations.",
+    "project.description": "Making public administration services more accessible and inclusive for all citizens, including those with temporary or permanent disabilities, is one of the objectives of measure 1.4.2 of the National Recovery and Resilience Plan (PNRR), which includes the publication of the new dashboard that presents, for the first time in Italy, the accessibility monitoring data of public administration websites.",
+    "project.subtitle2": "The accessibility project",
+    "project.para2a": "The Agenzia per l’Italia Digitale is the implementing entity of measure 1.4.2 of the National Recovery and Resilience Plan, with an investment of 80 million euros. The goal is to improve the accessibility of digital public services for all citizens and promote the awareness and dissemination of accessibility within the public administration and for private entities. {{break}} The website allows you to consult the list of the most frequent errors related to 14,483 websites extracted from the ",
+    "project.para2b": ", analyzed with automated systems in the first quarter of the year.",
+    "project.para2c": '“This is a step in the right direction to ensure equal access rights to public administration services - said the Undersecretary of State for Technological Innovation, Alessio Butti - so that no citizen is excluded from the benefits that new technology can bring to all of us.”',
+    "project.indicePAlink": "https://indicepa.gov.it/ipa-portale/",
+    "project.indicePAlinkText": "IndicePA",
+    "project.subtitle4": "Collaboration with CNR and the MAUVE++ tool",
+    "project.para4a": "Through an automated system called ",
+    "project.para4b": ", developed in collaboration with CNR, 31 of the 50 criteria specified in the",
+    "project.para4c": " for web accessibility published by the World Wide Web Consortium (W3C) are analyzed. Thanks to this tool, which captures the current state of public administration websites, it will also be possible to monitor changes over time, with a focus on transparency and continuous improvement of digital services.",
+    "project.MAUVElink": "https://mauve.isti.cnr.it/",
+    "project.WCAGlink": "https://www.w3.org/TR/WCAG21/",
+    "project.MAUVElinkText": "MAUVE++",
+    "project.WCAGlinkText": "Guidelines and Principles of WCAG 2.1",
+  },
+};

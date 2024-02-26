@@ -7,31 +7,33 @@
   let innerWidth;
   $: innerWidth < 768 ? (columns = smallColumns) : (columns = bigColumns);
 
+  import { locale, t } from "../utils/i18n";
+
   const bigColumns = [
-    { field: "periodo", label: "Periodo" },
+    { field: `periodo_${$locale}`, label: $t("opendata.tablePeriod") },
     {
-      field: "nome",
-      label: "Nome file",
+      field: `nome_${$locale}`,
+      label: $t("opendata.tableName"),
     },
     {
-      field: "descrizione",
-      label: "Descrizione",
+      field: `descrizione_${$locale}`,
+      label: $t("opendata.tableDesc"),
     },
     {
       field: "action",
-      label: "Formato file",
+      label: $t("opendata.tableFormat"),
     },
   ];
 
   const smallColumns = [
-    { field: "periodo", label: "Periodo" },
+    { field: `periodo_${$locale}`, label: $t("opendata.tablePeriod") },
     {
-      field: "nome",
-      label: "Nome file",
+      field: `nome_${$locale}`,
+      label: $t("opendata.tableName"),
     },
     {
       field: "action",
-      label: "Formato file",
+      label: $t("opendata.tableFormat"),
     },
   ];
   onMount(async () => {
@@ -43,6 +45,10 @@
 
 <svelte:window bind:innerWidth />
 {#if !loading}
-  <DataTable {columns} rows={response} canDownload={false} defaultSortBy="periodo" />
+  <DataTable
+    {columns}
+    rows={response}
+    canDownload={false}
+    defaultSortBy={`periodo_${$locale}`}
+  />
 {/if}
-

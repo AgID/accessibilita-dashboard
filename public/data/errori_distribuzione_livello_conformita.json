@@ -2,11 +2,11 @@
     {
         "cod_livello_conformita": "A",
         "num_sc_non_soddisfatti": 20,
-        "dat_ultimo_monitoraggio": "2023-09-30"
+        "dat_ultimo_monitoraggio": "2023-12-31"
     },
     {
         "cod_livello_conformita": "AA",
         "num_sc_non_soddisfatti": 11,
-        "dat_ultimo_monitoraggio": "2023-09-30"
+        "dat_ultimo_monitoraggio": "2023-12-31"
     }
 ]

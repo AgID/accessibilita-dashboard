@@ -5,6 +5,8 @@
   import Icon from "./Icon.svelte";
   import Tooltip from "./Tooltip.svelte";
   import type { TooltipData } from "../../model/TooltipData";
+  import { locale, t } from "../utils/i18n";
+
   import { onMount } from "svelte";
   export let columns: any[];
   export let rows: any[];
@@ -17,8 +19,10 @@
   export let tooltipData: TooltipData = null;
   export let rowsLimit: number = 0;
   export let downloadFilename: string = "";
+  export let searchingName: string = "";
   export let canDownload: boolean = true;
   export let didascalia: boolean = false;
+
   let innerWidth;
   let rowsToShow;
 
@@ -119,21 +123,39 @@
     hiddenElement.click();
   }
 
-  async function openDataDownload(name, ext, filename) {
+  function getMappedName(name) {
+  const mapping = {
+    'monitoraggio_it': ['monitoraggio'],
+    'monitoraggio_en': ['monitoring'],
+    'dichiarazioni': ['dichiarazioni', 'statement'],
+    'errori_it': ['errori'],
+    'errori_en': ['errors'],
+    'obiettivi': ['obiettivi', 'objectives']
+  };
+  
+  for (const key in mapping) {
+    if (mapping[key].includes(name)) {
+      return key;
+    }
+  }
+
+  return name;
+  }
+
+  async function openDataDownload(filename, ext, downloadFilename) {
+    const name = getMappedName(filename);
     const rs = await fetch(`/data/opendata/${name}.${ext}`);
     const data = await rs.blob();
     var hiddenElement = document.createElement("a");
     hiddenElement.href = window.URL.createObjectURL(data);
     hiddenElement.target = "_blank";
-    hiddenElement.download = `${
-      downloadFilename ? downloadFilename : filename
-    }.${ext}`;
+    hiddenElement.download = `${downloadFilename}.${ext}`;
     hiddenElement.click();
   }
 
   async function downloadPDF() {
     var pdf = document.createElement("a");
-    pdf.href = "/pdf/" + `${title}` + ".pdf";
+    pdf.href = "/pdf/" + `${searchingName ? searchingName : title}` + ".pdf";
     pdf.target = "_blank";
     pdf.download = `${downloadFilename ? downloadFilename : title}.pdf`;
     pdf.click();
@@ -141,9 +163,13 @@
 
   function filename(name) {
     if (name == "Monitoraggio") return "monitoraggio";
+    else if (name == "Monitoring") return "monitoring";
     else if (name == "Dichiarazione di accessibilità") return "dichiarazioni";
+    else if (name == "Accessibility statement") return "statement";
     else if (name == "Errori") return "errori";
+    else if (name == "Errors") return "errors";
     else if (name == "Obiettivi di accessibilità") return "obiettivi";
+    else if (name == "Accessibility objectives") return "objectives";
     else return "file_non_trovato";
   }
 
@@ -178,33 +204,33 @@
     <div class="d-flex justify-content-between">
       {#if periodoMonitoraggio}
         <div class="caption text-start d-inline-block">
-          Periodo monitoraggio:
+          {$t("dataTable.timeframe")}
           {periodoMonitoraggio}
         </div>
       {/if}
       {#if canDownload}
-        <div class="text-left download-text fw-normal mb-2 d-inline-block">
+        <div class="text-end download-text fw-normal mb-2 d-inline-block">
           <button
             class="download-buttons"
             on:click={downloadCSV}
-            title={`Scarica il file: ${title}.csv`}
+            title={$t("dataTable.generalDownload")}{`${title}.csv`}
           >
             CSV
             <img
               class="download-icon"
-              alt="Scarica il file CSV"
+              alt={$t("dataTable.csvDownload")}
               src="/icons/icon-arrow-down-1.png"
             />
           </button>
           <button
           class="download-buttons"
           on:click={downloadPDF}
-          title={`Scarica il file: ${title}.pdf`}
+          title={$t("dataTable.generalDownload")}{`${title}.pdf`}
         >
           PDF
           <img
             class="download-icon"
-            alt="Scarica il file PDF"
+            alt={$t("dataTable.pdfDownload")}
             src="/icons/icon-arrow-down-1.png"
           />
         </button>
@@ -213,7 +239,8 @@
     </div>
     {#if dataMonitoraggio}
       <div class="captionUpdateLighter text-start pb-4">
-        Dati aggiornati al {df(dp(dataMonitoraggio))}
+        {$t("dataTable.update")}
+        {df(dp(dataMonitoraggio))}
       </div>
     {/if}
 
@@ -234,7 +261,7 @@
                   style="text-align: {c.align ||
                     'start'} !important; height: 2em !important; white-space: wrap;"
                   on:click={() => {
-                    if (c.field == "criterio_di_successo")
+                    if (c.field == `criterio_di_successo_${$locale}` || c.field == `criterio_di_successo_norm_e_${$locale}`)
                       successCriteriaSort(c.field);
                     else sort(c.field);
                   }}
@@ -254,14 +281,14 @@
                         {#if sortBy.col == c.field}
                           {#if sortBy.ascending}
                             <img
-                              src="icons/Decrescente.svg"
+                              src="/icons/Decrescente.svg"
                               alt=""
                               class="mx-2 iconaOrdinamento"
                               aria-hidden="true"
                             />
                           {:else}
                             <img
-                              src="icons/Crescente.svg"
+                              src="/icons/Crescente.svg"
                               alt=""
                               class="mx-2 iconaOrdinamento"
                               aria-hidden="true"
@@ -269,7 +296,7 @@
                           {/if}
                         {:else}
                           <img
-                            src="icons/Null.svg"
+                            src="/icons/Null.svg"
                             alt=""
                             class="mx-2 iconaOrdinamento"
                             aria-hidden="true"
@@ -316,12 +343,12 @@
                         class="download-buttons"
                         on:click={() =>
                           openDataDownload(
-                            filename(row.nome),
+                            filename(row[`nome_${$locale}`]),
                             "csv",
-                            `${filename(row.nome)}_${row.periodo}`
+                            `${filename(row[`nome_${$locale}`])}_${row[`periodo_${$locale}`]}`
                           )}
                         aria-hidden="false"
-                        title={`${filename(row.nome)}_${row.periodo}`}
+                        title={`${filename(row[`nome_${$locale}`])}_${row[`periodo_${$locale}`]}`}
                       >
                         <span
                           style="font-size: 16px; text-decoration: underline"
@@ -331,13 +358,15 @@
                       <button
                         class="download-buttons"
                         on:click={() =>
-                          openDataDownload(
-                            filename(row.nome),
+                            openDataDownload(
+                            filename(row[`nome_${$locale}`]),
                             "xml",
-                            `${filename(row.nome)}_${row.periodo}`
+                            `${filename(row[`nome_${$locale}`])}_${row[`periodo_${$locale}`]}`
                           )}
+                          on:mousedown={() => {
+                          }}
                         aria-hidden="false"
-                        title={`${filename(row.nome)}_${row.periodo}`}
+                        title={`${filename(row[`nome_${$locale}`])}_${row[`periodo_${$locale}`]}`}
                       >
                         <span
                           style="font-size: 16px; text-decoration: underline"
@@ -348,12 +377,12 @@
                         class="download-buttons"
                         on:click={() =>
                           openDataDownload(
-                            filename(row.nome),
+                            filename(row[`nome_${$locale}`]),
                             "json",
-                            `${filename(row.nome)}_${row.periodo}`
+                            `${filename(row[`nome_${$locale}`])}_${row[`periodo_${$locale}`]}`
                           )}
                         aria-hidden="false"
-                        title={`${filename(row.nome)}_${row.periodo}`}
+                        title={`${filename(row[`nome_${$locale}`])}_${row[`periodo_${$locale}`]}`}
                       >
                         <span
                           style="font-size: 16px; text-decoration: underline"
@@ -363,9 +392,9 @@
                     </td>
                   {:else}
                     <td role="cell" align={col.align || "left"}>
-                      {#if col.field == "criterio_di_successo"}
+                      {#if col.field == `criterio_di_successo_${$locale}` || col.field == `criterio_di_successo_norm_e_${$locale}`}
                         <a
-                          title="Il link si apre in una nuova finestra"
+                          title={$t("layout.externalLink")}
                           target="_blank"
                           rel="noreferrer"
                           href={rows[i].link}

@@ -1,0 +1,22 @@
+des_principio,criterio_di_successo,cod_livello_conformita,percentuale_errore,dat_ultimo_monitoraggio
+Utilizzabile,"2.2.1 Regolazione tempi di esecuzione",A,"0,00024",2023-12-31
+Percepibile,"1.4.11 Contrasto in contenuti non testuali",AA,"2,57136",2023-12-31
+Comprensibile,"3.1.1 Lingua della pagina",A,"0,04831",2023-12-31
+Utilizzabile,"2.2.2 Pausa, stop, nascondi",A,"0,00001",2023-12-31
+Percepibile,"1.3.1 Informazioni e correlazioni",A,"1,33162",2023-12-31
+Percepibile,"1.4.3 Contrasto (minimo)",AA,"13,70763",2023-12-31
+Percepibile,"1.3.5 Identificare lo scopo degli input",AA,"0,93572",2023-12-31
+Utilizzabile,"2.4.2 Titolazione della pagina",A,"0,00262",2023-12-31
+Percepibile,"1.4.10 Ricalcolo del flusso",AA,"0,99244",2023-12-31
+Percepibile,"1.2.3 Audiodescrizione o tipo di media alternativo (preregistrato)",A,"0,00616",2023-12-31
+Percepibile,"1.4.12 Spaziatura del testo",AA,"0,00360",2023-12-31
+Utilizzabile,"2.4.7 Focus visibile",AA,"40,71852",2023-12-31
+Robusto,"4.1.2 Nome, ruolo, valore",A,"1,25746",2023-12-31
+Percepibile,"1.4.5 Immagini di testo",AA,"0,14473",2023-12-31
+Utilizzabile,"2.4.4 Scopo del collegamento (nel contesto)",A,"2,94544",2023-12-31
+Percepibile,"1.1.1 Contenuti non testuali",A,"5,23994",2023-12-31
+Robusto,"4.1.1 Analisi sintattica (parsing)",A,"4,03546",2023-12-31
+Comprensibile,"3.3.2 Etichette o istruzioni",A,"0,20688",2023-12-31
+Comprensibile,"3.1.2 Parti in lingua",AA,"0,00005",2023-12-31
+Comprensibile,"3.2.2 All'input",A,"0,32305",2023-12-31
+Percepibile,"1.4.1 Uso del colore",A,"25,52877",2023-12-31

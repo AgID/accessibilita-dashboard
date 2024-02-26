@@ -1,0 +1,16 @@
+{
+  "data": [
+    {
+      "valore": 421,
+      "des_sistema_operativo_app": "android"
+    },
+    {
+      "valore": 293,
+      "des_sistema_operativo_app": "ios"
+    }
+  ],
+  "intestazione": {
+    "periodo_dichiarazioni": "2020 - 2023",
+    "dat_ult_agg_dichiarazione": "2023-09-23"
+  }
+}

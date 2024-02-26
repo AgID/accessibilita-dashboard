@@ -12,6 +12,9 @@
   export let height: string = "";
   export let customStyle: string = "";
   export let tooltipData: TooltipData = null;
+  export let cardWithIcon: boolean = false
+  export let iconName: string = ""
+  export let iconSize: string = ""
 
   $: mainHeight = height ? `height:${height};` : "";
 </script>
@@ -20,7 +23,7 @@
   <div class="{imgLink ? "" : "text-center"} py-4 px-3 px-md-0" class:vertical-align={height}>
     {#if imgLink}
       <div class="row">
-        <div class="col-3 customMonBox">
+        <div class="col-3 customBoxIcon">
           <img
             src={imgLink}
             alt=""
@@ -29,7 +32,7 @@
           />
         </div>
         <div class="col-9 ps-md-0 pe-md-3 ps-lg-1">
-          <p class="cardTitle greyText pe-md-5">
+          <p class="cardTitle greyText pe-md-4">
             {title}
             {#if tooltipData?.id}
               <Tooltip id={tooltipData.id} tooltip={tooltipData.content} />
@@ -41,6 +44,19 @@
           </div>
         </div>
       </div>
+    
+    {:else if cardWithIcon}
+    <div class="row mx-0">
+      <div class="col-3 p-0 customBoxIcon">
+        <Icon name={iconName} variant="primary" size={iconSize} />
+      </div>
+      <div class="col-9 p-0 pe-xl-4">
+          <p class="cardTitle greyText text-start">{title}</p>
+          <p class="cardMainData my-2 text-start" style="color: #0066cc">
+            {kpi}
+          </p>
+      </div>
+    </div>
     {:else}
       <div class="cardTitle mx-lg-3 px-xl-3 py-3 d-inline-flex greyText">
         {title}
@@ -86,4 +102,18 @@
       padding-left: 0 !important;
     }
   }
+
+
+.customBoxIcon {
+  padding-top: 8px;
+}
+
+  @media screen and (max-width: 400px) {
+    .customBoxIcon {
+      padding-left: 0 !important;
+      padding-right: 0 !important;
+      
+    }
+  }
+
 </style>

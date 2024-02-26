@@ -5,14 +5,9 @@
   export let rows: any[];
   export let title: string = "";
   export let downloadFilename: string = "";
+  export let searchingName: string = "";
+  import { t } from "../utils/i18n";
 
-  function format(col: any, row: any) {
-    if (col.format) {
-      return col.format(row[col.field]);
-    } else {
-      return row[col.field];
-    }
-  }
   function jsonToCSV() {
     const items = rows;
     const replacer = (key, value) => (value === null ? "" : value);
@@ -49,7 +44,7 @@
 
   function downloadPDF() {
     var pdf = document.createElement("a");
-    pdf.href = "/pdf/" + `${title}` + ".pdf";
+    pdf.href = "/pdf/" + `${searchingName ? searchingName : title}` + ".pdf";
     pdf.target = "_blank";
     pdf.download = `${downloadFilename ? downloadFilename : title}.pdf`;
     pdf.click();
@@ -58,17 +53,17 @@
 
 <tr class="d-flex justify-content-end">
   <td style="border-bottom-width: 0 !important" colspan={columns.length}>
-    <div class="text-end download-text hover fw-normal ">
+    <div class="text-end download-text hover fw-normal">
       <button
         class="ms-2 download-buttons"
         on:click={downloadCSV}
         aria-hidden="false"
-        title={`Scarica il file CSV: ${title}`}
+        title={$t("download.general")}{`${title}.csv`}
       >
         CSV
         <img
           class="download-icon"
-          alt="Scarica il file CSV"
+          alt={$t("download.csv")}
           src="/icons/icon-arrow-down-1.png"
         />
       </button>
@@ -76,12 +71,12 @@
         class="ms-2 download-buttons"
         on:click={downloadPDF}
         aria-hidden="false"
-        title={`Scarica il file: ${title}.pdf`}
+        title={$t("download.general")}{`${title}.pdf`}
       >
         PDF
         <img
           class="download-icon"
-          alt="Scarica il file PDF"
+          alt={$t("download.pdf")}
           src="/icons/icon-arrow-down-1.png"
         />
       </button>

@@ -1,8 +1,9 @@
 <script lang="ts">
   import { onMount } from "svelte";
   import { df, dp, nf } from "../utils";
-  import CsvPdfButtons from "./CsvPdfButtons.svelte";
   import DataTable from "./DataTable.svelte";
+  import CsvPdfButtons from "./CsvPdfButtons.svelte";
+  import { locale, t } from "../utils/i18n";
 
   // ---HIGHCHARTS BEGIN---
   import Highcharts from "highcharts";
@@ -10,18 +11,18 @@
   HighchartsAccessibility(Highcharts);
   // ---HIGHCHARTS END---
 
-  let periodoMonitoraggio
+  let periodoMonitoraggio;
   let response;
   let loading = true;
   const columns = [
     {
-      field: "conformita",
-      label: "Stato di conformità",
+      field: `conformita_${$locale}`,
+      label: $t("dicAutoTema.conformita"),
       align: "left",
     },
     {
       field: "valore",
-      label: "Numero di siti",
+      label: $t("dicAutoTema.numero"),
       format: (value: any) => nf(value),
       align: "right",
     },
@@ -32,19 +33,18 @@
     periodoMonitoraggio = response?.intestazione?.periodo_dichiarazioni;
     loading = false;
 
-    let response2
-    let conformita
-    let valore
+    let response2;
+    let conformita;
+    let valore;
 
     const rs2 = await fetch("/data/dichiarazione_tematici_conformita.json");
     response2 = await rs2.json();
-    conformita = response2?.data?.map((r) => r.conformita);
+    conformita = response2?.data?.map((r) => r[`conformita_${$locale}`]);
     valore = response2?.data?.map((r) => r.valore);
 
     let allData = [];
 
     for (let i = 0; i < conformita.length; i++) {
-
       const dataObject = {
         name: conformita[i],
         y: valore[i],
@@ -62,24 +62,22 @@
         plotShadow: false,
         type: "pie",
       },
-      colors: [
-        '#B0315E',
-        '#4392E0',
-        '#1B6021',
-    ],
+      colors: ["#B0315E", "#4392E0", "#1B6021"],
       title: { text: "" },
       plotOptions: {
         pie: {
-            startAngle: 100,
-            borderRadius: 0,
-            borderWidth: 3,
-            borderColor: "#fff"
-        }
-    },
-    tooltip: {
-        headerFormat: '',
-        pointFormat: '<span style="color:{point.color}">\u25CF</span> {point.name}<br/>' +
-            'Siti: <b>{point.y}</b><br/>'
+          startAngle: 100,
+          borderRadius: 0,
+          borderWidth: 3,
+          borderColor: "#fff",
+        },
+      },
+      tooltip: {
+        headerFormat: "",
+        pointFormat:
+          '<span style="color:{point.color}">\u25CF</span> {point.name}<br/>' +
+          $t("dicAutoTema.chartLabel") +
+          "<b>{point.y}</b><br/>",
       },
       series: [
         {
@@ -94,22 +92,18 @@
 
 <div class="card-box mt-2 my-lg-3 hide-mobile pt-3 px-3">
   <h2 class="cardTitle py-3 ps-2 ps-lg-3 d-inline-flex greyText">
-    L’autovalutazione dei siti tematici delle PA
+    {$t("dicAutoTema.title")}
   </h2>
   <div>
-      <p class="mb-0 pb-3 px-2 px-xl-3">
-        Il grafico riporta il numero di siti web per ciascuno dei tre possibili
-        esiti dell’autovalutazione di accessibilità. Il sito è "conforme" se non è
-        stato rilevato alcun errore, "parzialmente conforme" se gli errori sono
-        inferiori al 50% dei criteri di successo, "non conforme" se gli errori
-        superano il 50% dei criteri di successo.
-  </p>
-  {#if periodoMonitoraggio}
-  <div class="caption text-start d-inline-block px-2 px-xl-3">
-    Periodo monitoraggio:
-    {periodoMonitoraggio.slice(-4)}
-  </div>
-{/if}
+    <p class="mb-0 pb-3 px-2 px-xl-3">
+      {$t("dicAutoTema.chartDescription")}
+    </p>
+    {#if periodoMonitoraggio}
+      <div class="caption text-start d-inline-block px-2 px-xl-3">
+        {$t("dicAutoTema.timeframe")}
+        {periodoMonitoraggio.slice(-4)}
+      </div>
+    {/if}
   </div>
 
   <figure class="highcharts-figure">
@@ -121,8 +115,8 @@
       <CsvPdfButtons
         rows={response?.data}
         {columns}
-        title="L’autovalutazione dei siti tematici delle PA"
-        periodoMonitoraggio={periodoMonitoraggio}
+        title={$t("dicAutoTema.title")}
+        {periodoMonitoraggio}
       />
     {/if}
   </div>
@@ -130,25 +124,20 @@
 
 {#if !loading}
   <div class="show-mobile">
-  <DataTable
-    {columns}
-    rows={response?.data}
-    defaultSortBy="valore"
-    title="L’autovalutazione dei siti tematici delle PA"
-    periodoMonitoraggio={periodoMonitoraggio.slice(-4)}
-    didascalia={true}
-  >
-    <div slot="didascaliaSlot" class="didascalia">
-      La tabella riporta il numero di siti web per ciascuno dei tre possibili
-      esiti dell’autovalutazione di accessibilità. Il sito è "conforme" se non è
-      stato rilevato alcun errore, "parzialmente conforme" se gli errori sono
-      inferiori al 50% dei criteri di successo, "non conforme" se gli errori
-      superano il 50% dei criteri di successo.
-    </div>
-  </DataTable>
-</div>
+    <DataTable
+      {columns}
+      rows={response?.data}
+      defaultSortBy="valore"
+      title={$t("dicAutoTema.title")}
+      periodoMonitoraggio={response?.intestazione?.periodo_dichiarazioni.slice(-4)}
+      didascalia={true}
+    >
+      <div slot="didascaliaSlot" class="didascalia">
+        {$t("dicAutoTema.tableDescription")}
+      </div>
+    </DataTable>
+  </div>
 {/if}
-
 
 <style lang="scss">
   :global(.highcharts-credits) {

@@ -1,0 +1,444 @@
+<table xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+
+<row>
+  <regione>Veneto</regione>
+  <categoria_ipa>Altre tipologie di Enti</categoria_ipa>
+  <num_siti>497</num_siti>
+  <data_ultimo_monitoraggio>2023-12-31</data_ultimo_monitoraggio>
+</row>
+
+<row>
+  <regione>Veneto</regione>
+  <categoria_ipa>Comuni e loro Consorzi e Associazioni</categoria_ipa>
+  <num_siti>618</num_siti>
+  <data_ultimo_monitoraggio>2023-12-31</data_ultimo_monitoraggio>
+</row>
+
+<row>
+  <regione>Veneto</regione>
+  <categoria_ipa>Istituti di Istruzione Statale di Ogni Ordine e Grado</categoria_ipa>
+  <num_siti>596</num_siti>
+  <data_ultimo_monitoraggio>2023-12-31</data_ultimo_monitoraggio>
+</row>
+
+<row>
+  <regione>Valle d'Aosta/Vallée d'Aoste</regione>
+  <categoria_ipa>Altre tipologie di Enti</categoria_ipa>
+  <num_siti>83</num_siti>
+  <data_ultimo_monitoraggio>2023-12-31</data_ultimo_monitoraggio>
+</row>
+
+<row>
+  <regione>Valle d'Aosta/Vallée d'Aoste</regione>
+  <categoria_ipa>Comuni e loro Consorzi e Associazioni</categoria_ipa>
+  <num_siti>70</num_siti>
+  <data_ultimo_monitoraggio>2023-12-31</data_ultimo_monitoraggio>
+</row>
+
+<row>
+  <regione>Valle d'Aosta/Vallée d'Aoste</regione>
+  <categoria_ipa>Istituti di Istruzione Statale di Ogni Ordine e Grado</categoria_ipa>
+  <num_siti>24</num_siti>
+  <data_ultimo_monitoraggio>2023-12-31</data_ultimo_monitoraggio>
+</row>
+
+<row>
+  <regione>Umbria</regione>
+  <categoria_ipa>Altre tipologie di Enti</categoria_ipa>
+  <num_siti>109</num_siti>
+  <data_ultimo_monitoraggio>2023-12-31</data_ultimo_monitoraggio>
+</row>
+
+<row>
+  <regione>Umbria</regione>
+  <categoria_ipa>Comuni e loro Consorzi e Associazioni</categoria_ipa>
+  <num_siti>102</num_siti>
+  <data_ultimo_monitoraggio>2023-12-31</data_ultimo_monitoraggio>
+</row>
+
+<row>
+  <regione>Umbria</regione>
+  <categoria_ipa>Istituti di Istruzione Statale di Ogni Ordine e Grado</categoria_ipa>
+  <num_siti>133</num_siti>
+  <data_ultimo_monitoraggio>2023-12-31</data_ultimo_monitoraggio>
+</row>
+
+<row>
+  <regione>Toscana</regione>
+  <categoria_ipa>Altre tipologie di Enti</categoria_ipa>
+  <num_siti>433</num_siti>
+  <data_ultimo_monitoraggio>2023-12-31</data_ultimo_monitoraggio>
+</row>
+
+<row>
+  <regione>Toscana</regione>
+  <categoria_ipa>Comuni e loro Consorzi e Associazioni</categoria_ipa>
+  <num_siti>406</num_siti>
+  <data_ultimo_monitoraggio>2023-12-31</data_ultimo_monitoraggio>
+</row>
+
+<row>
+  <regione>Toscana</regione>
+  <categoria_ipa>Istituti di Istruzione Statale di Ogni Ordine e Grado</categoria_ipa>
+  <num_siti>481</num_siti>
+  <data_ultimo_monitoraggio>2023-12-31</data_ultimo_monitoraggio>
+</row>
+
+<row>
+  <regione>Sicilia</regione>
+  <categoria_ipa>Altre tipologie di Enti</categoria_ipa>
+  <num_siti>538</num_siti>
+  <data_ultimo_monitoraggio>2023-12-31</data_ultimo_monitoraggio>
+</row>
+
+<row>
+  <regione>Sicilia</regione>
+  <categoria_ipa>Comuni e loro Consorzi e Associazioni</categoria_ipa>
+  <num_siti>361</num_siti>
+  <data_ultimo_monitoraggio>2023-12-31</data_ultimo_monitoraggio>
+</row>
+
+<row>
+  <regione>Sicilia</regione>
+  <categoria_ipa>Istituti di Istruzione Statale di Ogni Ordine e Grado</categoria_ipa>
+  <num_siti>847</num_siti>
+  <data_ultimo_monitoraggio>2023-12-31</data_ultimo_monitoraggio>
+</row>
+
+<row>
+  <regione>Sardegna</regione>
+  <categoria_ipa>Altre tipologie di Enti</categoria_ipa>
+  <num_siti>239</num_siti>
+  <data_ultimo_monitoraggio>2023-12-31</data_ultimo_monitoraggio>
+</row>
+
+<row>
+  <regione>Sardegna</regione>
+  <categoria_ipa>Comuni e loro Consorzi e Associazioni</categoria_ipa>
+  <num_siti>381</num_siti>
+  <data_ultimo_monitoraggio>2023-12-31</data_ultimo_monitoraggio>
+</row>
+
+<row>
+  <regione>Sardegna</regione>
+  <categoria_ipa>Istituti di Istruzione Statale di Ogni Ordine e Grado</categoria_ipa>
+  <num_siti>223</num_siti>
+  <data_ultimo_monitoraggio>2023-12-31</data_ultimo_monitoraggio>
+</row>
+
+<row>
+  <regione>Puglia</regione>
+  <categoria_ipa>Altre tipologie di Enti</categoria_ipa>
+  <num_siti>330</num_siti>
+  <data_ultimo_monitoraggio>2023-12-31</data_ultimo_monitoraggio>
+</row>
+
+<row>
+  <regione>Puglia</regione>
+  <categoria_ipa>Comuni e loro Consorzi e Associazioni</categoria_ipa>
+  <num_siti>261</num_siti>
+  <data_ultimo_monitoraggio>2023-12-31</data_ultimo_monitoraggio>
+</row>
+
+<row>
+  <regione>Puglia</regione>
+  <categoria_ipa>Istituti di Istruzione Statale di Ogni Ordine e Grado</categoria_ipa>
+  <num_siti>659</num_siti>
+  <data_ultimo_monitoraggio>2023-12-31</data_ultimo_monitoraggio>
+</row>
+
+<row>
+  <regione>Provincia autonoma di Trento</regione>
+  <categoria_ipa>Altre tipologie di Enti</categoria_ipa>
+  <num_siti>287</num_siti>
+  <data_ultimo_monitoraggio>2023-12-31</data_ultimo_monitoraggio>
+</row>
+
+<row>
+  <regione>Provincia autonoma di Trento</regione>
+  <categoria_ipa>Comuni e loro Consorzi e Associazioni</categoria_ipa>
+  <num_siti>164</num_siti>
+  <data_ultimo_monitoraggio>2023-12-31</data_ultimo_monitoraggio>
+</row>
+
+<row>
+  <regione>Provincia autonoma di Trento</regione>
+  <categoria_ipa>Istituti di Istruzione Statale di Ogni Ordine e Grado</categoria_ipa>
+  <num_siti>66</num_siti>
+  <data_ultimo_monitoraggio>2023-12-31</data_ultimo_monitoraggio>
+</row>
+
+<row>
+  <regione>Provincia autonoma di Bolzano</regione>
+  <categoria_ipa>Altre tipologie di Enti</categoria_ipa>
+  <num_siti>185</num_siti>
+  <data_ultimo_monitoraggio>2023-12-31</data_ultimo_monitoraggio>
+</row>
+
+<row>
+  <regione>Provincia autonoma di Bolzano</regione>
+  <categoria_ipa>Comuni e loro Consorzi e Associazioni</categoria_ipa>
+  <num_siti>141</num_siti>
+  <data_ultimo_monitoraggio>2023-12-31</data_ultimo_monitoraggio>
+</row>
+
+<row>
+  <regione>Provincia autonoma di Bolzano</regione>
+  <categoria_ipa>Istituti di Istruzione Statale di Ogni Ordine e Grado</categoria_ipa>
+  <num_siti>97</num_siti>
+  <data_ultimo_monitoraggio>2023-12-31</data_ultimo_monitoraggio>
+</row>
+
+<row>
+  <regione>Piemonte</regione>
+  <categoria_ipa>Altre tipologie di Enti</categoria_ipa>
+  <num_siti>681</num_siti>
+  <data_ultimo_monitoraggio>2023-12-31</data_ultimo_monitoraggio>
+</row>
+
+<row>
+  <regione>Piemonte</regione>
+  <categoria_ipa>Comuni e loro Consorzi e Associazioni</categoria_ipa>
+  <num_siti>1074</num_siti>
+  <data_ultimo_monitoraggio>2023-12-31</data_ultimo_monitoraggio>
+</row>
+
+<row>
+  <regione>Piemonte</regione>
+  <categoria_ipa>Istituti di Istruzione Statale di Ogni Ordine e Grado</categoria_ipa>
+  <num_siti>593</num_siti>
+  <data_ultimo_monitoraggio>2023-12-31</data_ultimo_monitoraggio>
+</row>
+
+<row>
+  <regione>Molise</regione>
+  <categoria_ipa>Altre tipologie di Enti</categoria_ipa>
+  <num_siti>71</num_siti>
+  <data_ultimo_monitoraggio>2023-12-31</data_ultimo_monitoraggio>
+</row>
+
+<row>
+  <regione>Molise</regione>
+  <categoria_ipa>Comuni e loro Consorzi e Associazioni</categoria_ipa>
+  <num_siti>116</num_siti>
+  <data_ultimo_monitoraggio>2023-12-31</data_ultimo_monitoraggio>
+</row>
+
+<row>
+  <regione>Molise</regione>
+  <categoria_ipa>Istituti di Istruzione Statale di Ogni Ordine e Grado</categoria_ipa>
+  <num_siti>50</num_siti>
+  <data_ultimo_monitoraggio>2023-12-31</data_ultimo_monitoraggio>
+</row>
+
+<row>
+  <regione>Marche</regione>
+  <categoria_ipa>Altre tipologie di Enti</categoria_ipa>
+  <num_siti>232</num_siti>
+  <data_ultimo_monitoraggio>2023-12-31</data_ultimo_monitoraggio>
+</row>
+
+<row>
+  <regione>Marche</regione>
+  <categoria_ipa>Comuni e loro Consorzi e Associazioni</categoria_ipa>
+  <num_siti>193</num_siti>
+  <data_ultimo_monitoraggio>2023-12-31</data_ultimo_monitoraggio>
+</row>
+
+<row>
+  <regione>Marche</regione>
+  <categoria_ipa>Istituti di Istruzione Statale di Ogni Ordine e Grado</categoria_ipa>
+  <num_siti>236</num_siti>
+  <data_ultimo_monitoraggio>2023-12-31</data_ultimo_monitoraggio>
+</row>
+
+<row>
+  <regione>Lombardia</regione>
+  <categoria_ipa>Altre tipologie di Enti</categoria_ipa>
+  <num_siti>1238</num_siti>
+  <data_ultimo_monitoraggio>2023-12-31</data_ultimo_monitoraggio>
+</row>
+
+<row>
+  <regione>Lombardia</regione>
+  <categoria_ipa>Comuni e loro Consorzi e Associazioni</categoria_ipa>
+  <num_siti>1567</num_siti>
+  <data_ultimo_monitoraggio>2023-12-31</data_ultimo_monitoraggio>
+</row>
+
+<row>
+  <regione>Lombardia</regione>
+  <categoria_ipa>Istituti di Istruzione Statale di Ogni Ordine e Grado</categoria_ipa>
+  <num_siti>1153</num_siti>
+  <data_ultimo_monitoraggio>2023-12-31</data_ultimo_monitoraggio>
+</row>
+
+<row>
+  <regione>Liguria</regione>
+  <categoria_ipa>Altre tipologie di Enti</categoria_ipa>
+  <num_siti>158</num_siti>
+  <data_ultimo_monitoraggio>2023-12-31</data_ultimo_monitoraggio>
+</row>
+
+<row>
+  <regione>Liguria</regione>
+  <categoria_ipa>Comuni e loro Consorzi e Associazioni</categoria_ipa>
+  <num_siti>255</num_siti>
+  <data_ultimo_monitoraggio>2023-12-31</data_ultimo_monitoraggio>
+</row>
+
+<row>
+  <regione>Liguria</regione>
+  <categoria_ipa>Istituti di Istruzione Statale di Ogni Ordine e Grado</categoria_ipa>
+  <num_siti>211</num_siti>
+  <data_ultimo_monitoraggio>2023-12-31</data_ultimo_monitoraggio>
+</row>
+
+<row>
+  <regione>Lazio</regione>
+  <categoria_ipa>Altre tipologie di Enti</categoria_ipa>
+  <num_siti>1167</num_siti>
+  <data_ultimo_monitoraggio>2023-12-31</data_ultimo_monitoraggio>
+</row>
+
+<row>
+  <regione>Lazio</regione>
+  <categoria_ipa>Comuni e loro Consorzi e Associazioni</categoria_ipa>
+  <num_siti>358</num_siti>
+  <data_ultimo_monitoraggio>2023-12-31</data_ultimo_monitoraggio>
+</row>
+
+<row>
+  <regione>Lazio</regione>
+  <categoria_ipa>Istituti di Istruzione Statale di Ogni Ordine e Grado</categoria_ipa>
+  <num_siti>727</num_siti>
+  <data_ultimo_monitoraggio>2023-12-31</data_ultimo_monitoraggio>
+</row>
+
+<row>
+  <regione>Friuli-Venezia Giulia</regione>
+  <categoria_ipa>Altre tipologie di Enti</categoria_ipa>
+  <num_siti>232</num_siti>
+  <data_ultimo_monitoraggio>2023-12-31</data_ultimo_monitoraggio>
+</row>
+
+<row>
+  <regione>Friuli-Venezia Giulia</regione>
+  <categoria_ipa>Comuni e loro Consorzi e Associazioni</categoria_ipa>
+  <num_siti>245</num_siti>
+  <data_ultimo_monitoraggio>2023-12-31</data_ultimo_monitoraggio>
+</row>
+
+<row>
+  <regione>Friuli-Venezia Giulia</regione>
+  <categoria_ipa>Istituti di Istruzione Statale di Ogni Ordine e Grado</categoria_ipa>
+  <num_siti>168</num_siti>
+  <data_ultimo_monitoraggio>2023-12-31</data_ultimo_monitoraggio>
+</row>
+
+<row>
+  <regione>Emilia-Romagna</regione>
+  <categoria_ipa>Altre tipologie di Enti</categoria_ipa>
+  <num_siti>566</num_siti>
+  <data_ultimo_monitoraggio>2023-12-31</data_ultimo_monitoraggio>
+</row>
+
+<row>
+  <regione>Emilia-Romagna</regione>
+  <categoria_ipa>Comuni e loro Consorzi e Associazioni</categoria_ipa>
+  <num_siti>408</num_siti>
+  <data_ultimo_monitoraggio>2023-12-31</data_ultimo_monitoraggio>
+</row>
+
+<row>
+  <regione>Emilia-Romagna</regione>
+  <categoria_ipa>Istituti di Istruzione Statale di Ogni Ordine e Grado</categoria_ipa>
+  <num_siti>552</num_siti>
+  <data_ultimo_monitoraggio>2023-12-31</data_ultimo_monitoraggio>
+</row>
+
+<row>
+  <regione>Campania</regione>
+  <categoria_ipa>Altre tipologie di Enti</categoria_ipa>
+  <num_siti>385</num_siti>
+  <data_ultimo_monitoraggio>2023-12-31</data_ultimo_monitoraggio>
+</row>
+
+<row>
+  <regione>Campania</regione>
+  <categoria_ipa>Comuni e loro Consorzi e Associazioni</categoria_ipa>
+  <num_siti>499</num_siti>
+  <data_ultimo_monitoraggio>2023-12-31</data_ultimo_monitoraggio>
+</row>
+
+<row>
+  <regione>Campania</regione>
+  <categoria_ipa>Istituti di Istruzione Statale di Ogni Ordine e Grado</categoria_ipa>
+  <num_siti>1027</num_siti>
+  <data_ultimo_monitoraggio>2023-12-31</data_ultimo_monitoraggio>
+</row>
+
+<row>
+  <regione>Calabria</regione>
+  <categoria_ipa>Altre tipologie di Enti</categoria_ipa>
+  <num_siti>173</num_siti>
+  <data_ultimo_monitoraggio>2023-12-31</data_ultimo_monitoraggio>
+</row>
+
+<row>
+  <regione>Calabria</regione>
+  <categoria_ipa>Comuni e loro Consorzi e Associazioni</categoria_ipa>
+  <num_siti>359</num_siti>
+  <data_ultimo_monitoraggio>2023-12-31</data_ultimo_monitoraggio>
+</row>
+
+<row>
+  <regione>Calabria</regione>
+  <categoria_ipa>Istituti di Istruzione Statale di Ogni Ordine e Grado</categoria_ipa>
+  <num_siti>331</num_siti>
+  <data_ultimo_monitoraggio>2023-12-31</data_ultimo_monitoraggio>
+</row>
+
+<row>
+  <regione>Basilicata</regione>
+  <categoria_ipa>Altre tipologie di Enti</categoria_ipa>
+  <num_siti>85</num_siti>
+  <data_ultimo_monitoraggio>2023-12-31</data_ultimo_monitoraggio>
+</row>
+
+<row>
+  <regione>Basilicata</regione>
+  <categoria_ipa>Comuni e loro Consorzi e Associazioni</categoria_ipa>
+  <num_siti>106</num_siti>
+  <data_ultimo_monitoraggio>2023-12-31</data_ultimo_monitoraggio>
+</row>
+
+<row>
+  <regione>Basilicata</regione>
+  <categoria_ipa>Istituti di Istruzione Statale di Ogni Ordine e Grado</categoria_ipa>
+  <num_siti>124</num_siti>
+  <data_ultimo_monitoraggio>2023-12-31</data_ultimo_monitoraggio>
+</row>
+
+<row>
+  <regione>Abruzzo</regione>
+  <categoria_ipa>Altre tipologie di Enti</categoria_ipa>
+  <num_siti>204</num_siti>
+  <data_ultimo_monitoraggio>2023-12-31</data_ultimo_monitoraggio>
+</row>
+
+<row>
+  <regione>Abruzzo</regione>
+  <categoria_ipa>Comuni e loro Consorzi e Associazioni</categoria_ipa>
+  <num_siti>311</num_siti>
+  <data_ultimo_monitoraggio>2023-12-31</data_ultimo_monitoraggio>
+</row>
+
+<row>
+  <regione>Abruzzo</regione>
+  <categoria_ipa>Istituti di Istruzione Statale di Ogni Ordine e Grado</categoria_ipa>
+  <num_siti>205</num_siti>
+  <data_ultimo_monitoraggio>2023-12-31</data_ultimo_monitoraggio>
+</row>
+
+</table>

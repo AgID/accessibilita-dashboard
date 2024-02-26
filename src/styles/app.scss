@@ -123,6 +123,16 @@ a:hover{
   text-decoration: underline;
 }
 
+.button-text {
+  font-family: "Titillium Web";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 28px;
+  text-align: center;
+  color: #ffffff;
+}
+
 @media (max-width: 991px) {
   .h11 {
     font-weight: 600;
@@ -193,11 +203,6 @@ a:hover{
     color: white;
     text-decoration: none;
   }
-}
-
-.ct-series-a .ct-point{
-  stroke: #0066cc;
-  fill: white;
 }
 
 .backgroundLightBlue {

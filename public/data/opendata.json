@@ -1,22 +1,34 @@
 [
     {
-        "nome": "Monitoraggio",
-        "periodo": "Settembre 2023",
-        "descrizione": "Il file contiene i dati aggregati dell'ultimo monitoraggio, distribuiti per categoria IPA e regione o provincia autonoma."
+        "nome_en": "Accessibility statement",
+        "nome_it": "Dichiarazione di accessibilità",
+        "periodo_en": "September 2023",
+        "periodo_it": "Settembre 2023",
+        "descrizione_en": "The file contains aggregate data for the last year, distributed by region or autonomous province.",
+        "descrizione_it": "Il file contiene i dati aggregati dell'ultimo anno, distribuiti per regione o provincia autonoma."
     },
     {
-        "nome": "Dichiarazione di accessibilità",
-        "periodo": "Settembre 2023",
-        "descrizione": "Il file contiene i dati aggregati dell'ultimo anno, distribuiti per regione o provincia autonoma."
+        "nome_en": "Errors",
+        "nome_it": "Errori",
+        "periodo_en": "December 2023",
+        "periodo_it": "Dicembre 2023",
+        "descrizione_en": "The file contains aggregate data from the latest monitoring, distributed by principle, success criterion and compliance level.",
+        "descrizione_it": "Il file contiene i dati aggregati dell'ultimo monitoraggio, distribuiti per principio, criterio di successo e livello di conformità."
     },
     {
-        "nome": "Errori",
-        "periodo": "Settembre 2023",
-        "descrizione": "Il file contiene i dati aggregati dell'ultimo monitoraggio, distribuiti per principio, criterio di successo e livello di conformità."
+        "nome_en": "Monitoring",
+        "nome_it": "Monitoraggio",
+        "periodo_en": "December 2023",
+        "periodo_it": "Dicembre 2023",
+        "descrizione_en": "The file contains aggregate data from the latest monitoring, distributed by IPA category and region or autonomous province.",
+        "descrizione_it": "Il file contiene i dati aggregati dell'ultimo monitoraggio, distribuiti per categoria IPA e regione o provincia autonoma."
     },
     {
-        "nome": "Obiettivi di accessibilità",
-        "periodo": "Anno 2023",
-        "descrizione": "Il file contiene i dati aggregati dell'ultimo anno, distribuiti per regione o provincia autonoma."
+        "nome_en": "Accessibility objectives",
+        "nome_it": "Obiettivi di accessibilità",
+        "periodo_en": "Year 2023",
+        "periodo_it": "Anno 2023",
+        "descrizione_en": "The file contains aggregate data for the last year, distributed by region or autonomous province.",
+        "descrizione_it": "Il file contiene i dati aggregati dell'ultimo anno, distribuiti per regione o provincia autonoma."
     }
 ]

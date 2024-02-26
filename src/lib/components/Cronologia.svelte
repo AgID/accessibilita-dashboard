@@ -1,6 +1,7 @@
 <script>
   import { onMount } from "svelte";
   import Icon from "./Icon.svelte";
+  import { t, locale } from "../utils/i18n";
 
   let rs;
 
@@ -17,37 +18,36 @@
         <span aria-hidden="true">
           <Icon name="it it-calendar" variant="primary" size="lg" />
         </span>
-        <h2 class="lead mx-3">Cronologia del progetto</h2>
+        <h2 class="lead mx-3">{$t("timeline.title")}</h2>
       </div>
       <p class="display5 mb-4">
-        Scopri gli aggiornamenti in arrivo e rivedi i dettagli degli
-        aggiornamenti passati
+        {$t("timeline.subtitle")}
       </p>
 
       <div class="pb-3 pb-lg-5 pt-2 mb-5">
-        <p class="display6 mb-3">Legenda</p>
+        <p class="display6 mb-3">{$t("timeline.caption")}</p>
         <div class="d-sm-inline-block">
           <p>
             <span class="whiteLittleCircle" id="futuro">
-              <img src="/images/futuro.svg" alt="versione futura" />
+              <img src="/images/futuro.svg" alt={$t("timeline.info1b")} />
             </span>
-            <span class="testoLegenda">Aggiornamenti in arrivo</span>
+            <span class="testoLegenda">{$t("timeline.info1a")}</span>
           </p>
         </div>
         <div class="d-sm-inline-block">
           <p>
             <span class="whiteLittleCircle" id="presente">
-              <img src="/images/presente.svg" alt="versione attuale" />
+              <img src="/images/presente.svg" alt={$t("timeline.info2")} />
             </span>
-            <span class="testoLegenda">Versione attuale </span>
+            <span class="testoLegenda">{$t("timeline.info2")}</span>
           </p>
         </div>
         <div class="d-md-inline-block">
           <p>
             <span class="whiteLittleCircle" id="passato">
-              <img src="/images/passato.svg" alt="versione passata" />
+              <img src="/images/passato.svg" alt={$t("timeline.info3")} />
             </span>
-            <span class="testoLegenda">Versioni passate</span>
+            <span class="testoLegenda">{$t("timeline.info3")}</span>
           </p>
         </div>
       </div>
@@ -60,29 +60,28 @@
             <div class="col-12 px-lg-5">
               <div class="timeline-element">
                 <div
-                  class="it-pin-wrapper {rs.release == 'Passata'
+                  class="it-pin-wrapper {rs.release_it == 'Passata'
                     ? 'it-evidence'
-                    : ''}{rs.release == 'Attuale' ? 'it-now' : ''}"
+                    : ''}{rs.release_it == 'Attuale' ? 'it-now' : ''}"
                 >
                   <div class="pin-icon">
                     <img
-                      src="/images/{(rs.release == 'Passata' &&
+                      src="/images/{(rs.release_it == 'Passata' &&
                         'passato.svg') ||
-                        (rs.release == 'Attuale' && 'presente.svg') ||
-                        (rs.release == 'In Arrivo' && 'futuro.svg')}"
-                      alt="{(rs.release == 'Passata' &&
-                        'versione passata') ||
-                        (rs.release == 'Attuale' && 'versione attuale') ||
-                        (rs.release == 'In Arrivo' && 'versione futura')}"
+                        (rs.release_it == 'Attuale' && 'presente.svg') ||
+                        (rs.release_it == 'In Arrivo' && 'futuro.svg')}"
+                      alt={(rs.release_it == "Passata" && $t("timeline.info3")) ||
+                        (rs.release_it == "Attuale" && $t("timeline.info2")) ||
+                        (rs.release_it == "In Arrivo" && $t("timeline.info1a"))}
                       class="px-auto"
                     />
                   </div>
                   <div class="pin-text">
                     <span>
-                      {#if rs.release == "In Arrivo"}
-                        In arrivo
+                      {#if rs.release_it == "In Arrivo"}
+                        {$t("timeline.futureDate")}
                       {:else}
-                        {rs.date}
+                        {rs[`date_${$locale}`]}
                       {/if}
                     </span>
                   </div>
@@ -90,9 +89,9 @@
                 <div class="card-wrapper">
                   <div class="card">
                     <div class="card-body pt-lg-0 customPadding">
-                      <h5 class="card-title">{rs.title}</h5>
+                      <h5 class="card-title">{rs[`title_${$locale}`]}</h5>
                       <p class="card-text">
-                        {rs.details}
+                        {rs[`details_${$locale}`]}
                       </p>
                     </div>
                   </div>

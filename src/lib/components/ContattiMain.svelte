@@ -1,5 +1,7 @@
 <script>
   import Icon from "./Icon.svelte";
+
+  import { t } from "../utils/i18n";
 </script>
 
 <div class="container my-4">
@@ -8,7 +10,7 @@
       <span aria-hidden="true"
         ><Icon name="it it-mail" variant="primary" size="lg" /></span
       >
-      <h2 class="lead mx-3">Contattaci</h2>
+      <h2 class="lead mx-3">{$t("contacts.title")}</h2>
     </div>
 
     <div class="row my-4">
@@ -17,12 +19,14 @@
           <div class="card card-bg card-big border-bottom-card">
             <div class="flag-icon" />
             <div class="card-body">
-              <p class="card-title h3">Domande relative ai contenuti della piattaforma </p>
-              <p class="card-text">Ulteriori informazioni relative ai contenuti  possono essere richieste a <a
-                href="mailto:stampa@agid.gov.it"
-                title="Il link aprirà l'applicazione predefinita di posta elettronica"
-                >stampa@agid.gov.it</a
-              ></p>
+              <p class="card-title h3">{$t("contacts.info")}</p>
+              <p class="card-text">
+                {$t("contacts.description")}
+                <a
+                  href="mailto:stampa@agid.gov.it"
+                  title={$t("layout.mailto")}>stampa@agid.gov.it</a
+                >
+              </p>
             </div>
           </div>
         </div>

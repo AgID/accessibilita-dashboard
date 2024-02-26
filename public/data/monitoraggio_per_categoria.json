@@ -1,21 +1,23 @@
-
-    {
-        "data": [
-            {
-                "num_siti": 8284,
-                "des_tipologia_ente": "Comuni e loro Consorzi e Associazioni"
-            },
-            {
-                "num_siti": 7453,
-                "des_tipologia_ente": "Altre tipologie di Enti"
-            },
-            {
-                "num_siti": 7071,
-                "des_tipologia_ente": "Istituti di Istruzione Statale di Ogni Ordine e Grado"
-            }
-        ],
-        "intestazione": {
-            "periodo_monitoraggio": "3-2023",
-            "dat_ultimo_aggiornamento": "2023-09-30"
+{
+    "data": [
+        {
+            "num_siti": 8503,
+            "des_tipologia_ente_en": "State educational institutions of all levels",
+            "des_tipologia_ente_it": "Istituti di Istruzione Statale di Ogni Ordine e Grado"
+        },
+        {
+            "num_siti": 7995,
+            "des_tipologia_ente_en": "Municipalities and their consortia and associations",
+            "des_tipologia_ente_it": "Comuni e loro Consorzi e Associazioni"
+        },
+        {
+            "num_siti": 7893,
+            "des_tipologia_ente_en": "Other types of organizations",
+            "des_tipologia_ente_it": "Altre tipologie di Enti"
         }
+    ],
+    "intestazione": {
+        "periodo_monitoraggio": "4-2023",
+        "dat_ultimo_aggiornamento": "2023-12-31"
     }
+}

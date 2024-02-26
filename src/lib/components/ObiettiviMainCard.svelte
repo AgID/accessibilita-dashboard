@@ -3,12 +3,13 @@
   import { nf, df, dp } from "../utils";
   import KpiCard from "./KpiCard.svelte";
   import Icon from "./Icon.svelte";
+  import { t } from "../utils/i18n";
+
 
   let numObiettivi;
+  let anno;
   let dataPagina;
   let dataPaginaFormatted;
-
-  let annoRiferimento
 
   onMount(async () => {
     const rs = await fetch("/data/obiettivi_intestazione.json");
@@ -17,7 +18,7 @@
     numObiettivi = data.find(
       (d) => d.indicatore == "num_enti_obiettivi"
     ).valore;
-    annoRiferimento = data.find(
+    anno = data.find(
       (d) => d.indicatore == "num_enti_obiettivi"
     ).dat_ult_agg_obiettivi;
 
@@ -35,10 +36,10 @@
   <div class="col-12 col-xl-6 mt-3 mb-4">
     <div class="d-inline-flex">
       <span aria-hidden="true"><img src="/icons/bullseye.svg" alt="" /></span>
-      <h2 class="lead mx-3">Obiettivi di accessibilità</h2>
+      <h2 class="lead mx-3">{$t("obiMainCard.title")}</h2>
     </div>
     <p class="captionUpdateDarker mb-0">
-      Ultimo aggiornamento dati: {dataPaginaFormatted}
+      {@html $t("obiMainCard.latestUpdate", {ultimoAggiornamento: dataPaginaFormatted })}
     </p>
   </div>
   <div class="d-none d-xl-flex col-xl-6" />
@@ -47,32 +48,18 @@
 <div class="d-flex flex-wrap justify-content-between mt-0 pb-4">
   <div class="col-12 col-lg-7 flex-wrap">
     <h3 class="h3">
-      Lo strumento con il quale le PA pianificano gli interventi per migliorare
-      l’accessibilità dei servizi web e delle applicazioni mobile.
+      {$t("obiMainCard.subtitle")}
     </h3>
 
     <div class="d-flex inline mb-1 pt-4" />
     <p>
-      Le pubbliche amministrazioni hanno l'obbligo di pubblicare, entro il 31
-      marzo di ogni anno, gli obiettivi di accessibilità relativi all'anno
-      corrente, come ribadito anche nelle Linee Guida sull’accessibilità degli
-      strumenti informatici (capitolo 4 paragrafo 2), e lo stato di attuazione
-      del piano per l'utilizzo del telelavoro, come stabilito dal Decreto legge
-      n. 179/2012, articolo 9, comma 7.
-    </p>
-    <p>
-      Ogni PA compila gli obiettivi elencati e gli interventi ad essi
-      associabili in sei linee di intervento: postazioni di lavoro, siti
-      tematici, sito istituzionale, intranet, formazione e organizzazione del
-      lavoro.
-      <br />
-      Scopri di più sugli
+      {@html $t("obiMainCard.paragraph", {break: "<br/>", doubleBreak: "<br/><br/>"})}
       <a
-        href="https://www.agid.gov.it/it/design-servizi/accessibilita/obiettivi-accessibilita"
-        title="Il link si apre in una nuova finestra"
+        href={$t("obiMainCard.WCAGlink")}
+        title={$t("layout.externalLink")}
         target="_blank"
         rel="noreferrer"
-        >Obiettivi di accessibilità<Icon
+        >{$t("obiMainCard.WCAGlinkText")}<Icon
           name="it it-external-link"
           variant="primary"
           size="xs"
@@ -83,9 +70,9 @@
   </div>
   <div class="col-12 col-lg-5 ps-lg-4 ps-xl-5 pb-3 mt-0">
     <KpiCard
-      title="Enti che hanno pubblicato un obiettivo"
+      title={$t("obiMainCard.cardTitle")}
       kpi={nf(numObiettivi)}
-      caption="Il numero degli enti che hanno pubblicato un obiettivo di accessibilità nel {annoRiferimento}"
+      caption={$t("obiMainCard.cardCaption")}{anno}
     />
   </div>
 </div>

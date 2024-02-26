@@ -6,6 +6,7 @@
   import { visibleTooltip, isFocus } from "../store/tooltip";
   import { page } from "@roxi/routify";
   import Feedback from "../lib/components/Feedback.svelte";
+  import { locale, t } from "../lib/utils/i18n";
   import { resetValue } from "../store/feedback";
 
   let innerWidth;
@@ -39,7 +40,7 @@
 />
 
 <a href="#main" class="screenreader-text" id="skipContentuto"
-  >Salta a contenuto principale</a
+  >{$t("layout.skipLink")}</a
 >
 <div>
   <div>
@@ -60,7 +61,9 @@
     >
       <Icon name="it it-arrow-up" variant="light" isButton={true} />
     </a>
+    {#key $locale}
       <slot />
+    {/key}
   </main>
   <footer>
     <div>

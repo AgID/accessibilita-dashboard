@@ -1,6 +1,7 @@
 <script lang="ts">
   import { onMount } from "svelte";
   import { nf, nf2d, pm } from "../utils";
+  import { locale, t } from "../utils/i18n";
   import CsvPdfButtons from "./CsvPdfButtons.svelte";
   import DataTable from "./DataTable.svelte";
 
@@ -24,7 +25,7 @@
     const rs2 = await fetch("/data/obiettivi_linea_intervento.json");
     response = await rs2.json();
     loading = false;
-    periodoMonitoraggio = response?.intestazione?.anno
+    periodoMonitoraggio = response?.intestazione?.anno;
 
     const riferimento = await fetch("/data/obiettivi_intestazione.json");
     const dataRiferimento = await riferimento.json()
@@ -32,7 +33,7 @@
 
     const rs3 = await fetch("/data/obiettivi_linea_intervento.json");
     response2 = await rs3.json();
-    linea = response2?.data?.map((r) => r.des_linea_intervento);
+    linea = response2?.data?.map((r) => r[`des_linea_intervento_${$locale}`]);
     numEnti = response2?.data?.map((r) => r.num_enti_obiettivi);
 
     let colors = [
@@ -63,7 +64,7 @@
           startAngle: 270,
           accessibility: {
             point: {
-              valueDescriptionFormat: " {point.name}, {point.y} interventi",
+              valueDescriptionFormat: ' {point.name}, {point.y} $t("obiInter.chartLabel") ',
             }
           }, 
         },
@@ -71,7 +72,7 @@
       tooltip: {
         headerFormat: '',
         pointFormat: '<span style="color:{point.color}">\u25CF</span> {point.name}<br/>' +
-            'Interventi: <b>{point.y}</b><br/>'
+            $t("obiInter.chartLabel") + ': <b>{point.y}</b><br/>'
       },
       series: [
         {
@@ -89,10 +90,10 @@
   });
 
   const columns = [
-    { field: "des_linea_intervento", label: "Linea di intervento" },
+    { field: `des_linea_intervento_${$locale}`, label: $t("obiInter.linea") },
     {
       field: "num_enti_obiettivi",
-      label: "Distribuzione interventi",
+      label: $t("obiInter.distribuzione"),
       align: "right",
       position: "end",
       format: (value: any) => nf(value),
@@ -103,16 +104,15 @@
 <div class="container px-0">
   <div class="card-box mt-2 my-lg-3 hide-mobile pt-3 px-3">
     <h2 class="cardTitle py-3 ps-2 ps-lg-3 d-inline-flex greyText">
-      Interventi di accessibilità pubblicati per linea di intervento
+      {$t("obiInter.title")}
     </h2>
     <div>
       <p class="mb-0 pb-3 px-2 px-xl-3">
-        Gli interventi di accessibilità pubblicati entro il 31 marzo {annoRiferimento} si
-        distribuiscono nelle seguenti linee di intervento.
+        {$t("obiInter.description", {anno: annoRiferimento})}
       </p>
       {#if periodoMonitoraggio}
         <div class="caption text-start d-inline-block px-2 px-xl-3">
-          Periodo monitoraggio:
+          {$t("obiInter.timeframe")}
           {periodoMonitoraggio}
         </div>
       {/if}
@@ -127,29 +127,28 @@
         <CsvPdfButtons
           rows={response?.data}
           {columns}
-          title="Interventi di accessibilità pubblicati per linea di intervento"
-          periodoMonitoraggio={periodoMonitoraggio}
+          title={$t("obiInter.title")}
+          {periodoMonitoraggio}
         />
       {/if}
     </div>
   </div>
 
   {#if !loading}
-  <div class="show-mobile">
-    <DataTable
-      {columns}
-      rows={response?.data}
-      title="Interventi di accessibilità pubblicati per linea di intervento"
-      defaultSortBy="num_enti_obiettivi"
-      didascalia={true}
-      periodoMonitoraggio={periodoMonitoraggio}
-    >
-      <div slot="didascaliaSlot" class="didascalia">
-        Gli interventi di accessibilità pubblicati entro il 31 marzo {annoRiferimento} si
-        distribuiscono nelle seguenti linee di intervento.
-      </div>
-    </DataTable>
-  </div>
+    <div class="show-mobile">
+      <DataTable
+        {columns}
+        rows={response?.data}
+        title={$t("obiInter.title")}
+        defaultSortBy="num_enti_obiettivi"
+        didascalia={true}
+        periodoMonitoraggio={response?.intestazione?.anno}
+      >
+        <div slot="didascaliaSlot" class="didascalia">
+          {$t("obiInter.description", {anno: annoRiferimento})}
+        </div>
+      </DataTable>
+    </div>
   {/if}
 </div>
 

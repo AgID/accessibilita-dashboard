@@ -1,0 +1,149 @@
+[
+    {
+        "des_principio": "Utilizzabile",
+        "percentuale_errore": 40.71852,
+        "criterio_di_successo": "2.4.7 Focus visibile",
+        "cod_livello_conformita": "AA",
+        "dat_ultimo_monitoraggio": "2023-12-31"
+    },
+    {
+        "des_principio": "Percepibile",
+        "percentuale_errore": 25.52877,
+        "criterio_di_successo": "1.4.1 Uso del colore",
+        "cod_livello_conformita": "A",
+        "dat_ultimo_monitoraggio": "2023-12-31"
+    },
+    {
+        "des_principio": "Percepibile",
+        "percentuale_errore": 13.70763,
+        "criterio_di_successo": "1.4.3 Contrasto (minimo)",
+        "cod_livello_conformita": "AA",
+        "dat_ultimo_monitoraggio": "2023-12-31"
+    },
+    {
+        "des_principio": "Percepibile",
+        "percentuale_errore": 5.23994,
+        "criterio_di_successo": "1.1.1 Contenuti non testuali",
+        "cod_livello_conformita": "A",
+        "dat_ultimo_monitoraggio": "2023-12-31"
+    },
+    {
+        "des_principio": "Robusto",
+        "percentuale_errore": 4.03546,
+        "criterio_di_successo": "4.1.1 Analisi sintattica (parsing)",
+        "cod_livello_conformita": "A",
+        "dat_ultimo_monitoraggio": "2023-12-31"
+    },
+    {
+        "des_principio": "Utilizzabile",
+        "percentuale_errore": 2.94544,
+        "criterio_di_successo": "2.4.4 Scopo del collegamento (nel contesto)",
+        "cod_livello_conformita": "A",
+        "dat_ultimo_monitoraggio": "2023-12-31"
+    },
+    {
+        "des_principio": "Percepibile",
+        "percentuale_errore": 2.57136,
+        "criterio_di_successo": "1.4.11 Contrasto in contenuti non testuali",
+        "cod_livello_conformita": "AA",
+        "dat_ultimo_monitoraggio": "2023-12-31"
+    },
+    {
+        "des_principio": "Percepibile",
+        "percentuale_errore": 1.33162,
+        "criterio_di_successo": "1.3.1 Informazioni e correlazioni",
+        "cod_livello_conformita": "A",
+        "dat_ultimo_monitoraggio": "2023-12-31"
+    },
+    {
+        "des_principio": "Robusto",
+        "percentuale_errore": 1.25746,
+        "criterio_di_successo": "4.1.2 Nome, ruolo, valore",
+        "cod_livello_conformita": "A",
+        "dat_ultimo_monitoraggio": "2023-12-31"
+    },
+    {
+        "des_principio": "Percepibile",
+        "percentuale_errore": 0.99244,
+        "criterio_di_successo": "1.4.10 Ricalcolo del flusso",
+        "cod_livello_conformita": "AA",
+        "dat_ultimo_monitoraggio": "2023-12-31"
+    },
+    {
+        "des_principio": "Percepibile",
+        "percentuale_errore": 0.93572,
+        "criterio_di_successo": "1.3.5 Identificare lo scopo degli input",
+        "cod_livello_conformita": "AA",
+        "dat_ultimo_monitoraggio": "2023-12-31"
+    },
+    {
+        "des_principio": "Comprensibile",
+        "percentuale_errore": 0.32305,
+        "criterio_di_successo": "3.2.2 All'input",
+        "cod_livello_conformita": "A",
+        "dat_ultimo_monitoraggio": "2023-12-31"
+    },
+    {
+        "des_principio": "Comprensibile",
+        "percentuale_errore": 0.20688,
+        "criterio_di_successo": "3.3.2 Etichette o istruzioni",
+        "cod_livello_conformita": "A",
+        "dat_ultimo_monitoraggio": "2023-12-31"
+    },
+    {
+        "des_principio": "Percepibile",
+        "percentuale_errore": 0.14473,
+        "criterio_di_successo": "1.4.5 Immagini di testo",
+        "cod_livello_conformita": "AA",
+        "dat_ultimo_monitoraggio": "2023-12-31"
+    },
+    {
+        "des_principio": "Comprensibile",
+        "percentuale_errore": 0.04831,
+        "criterio_di_successo": "3.1.1 Lingua della pagina",
+        "cod_livello_conformita": "A",
+        "dat_ultimo_monitoraggio": "2023-12-31"
+    },
+    {
+        "des_principio": "Percepibile",
+        "percentuale_errore": 0.00616,
+        "criterio_di_successo": "1.2.3 Audiodescrizione o tipo di media alternativo (preregistrato)",
+        "cod_livello_conformita": "A",
+        "dat_ultimo_monitoraggio": "2023-12-31"
+    },
+    {
+        "des_principio": "Percepibile",
+        "percentuale_errore": 0.00360,
+        "criterio_di_successo": "1.4.12 Spaziatura del testo",
+        "cod_livello_conformita": "AA",
+        "dat_ultimo_monitoraggio": "2023-12-31"
+    },
+    {
+        "des_principio": "Utilizzabile",
+        "percentuale_errore": 0.00262,
+        "criterio_di_successo": "2.4.2 Titolazione della pagina",
+        "cod_livello_conformita": "A",
+        "dat_ultimo_monitoraggio": "2023-12-31"
+    },
+    {
+        "des_principio": "Utilizzabile",
+        "percentuale_errore": 0.00024,
+        "criterio_di_successo": "2.2.1 Regolazione tempi di esecuzione",
+        "cod_livello_conformita": "A",
+        "dat_ultimo_monitoraggio": "2023-12-31"
+    },
+    {
+        "des_principio": "Comprensibile",
+        "percentuale_errore": 0.00005,
+        "criterio_di_successo": "3.1.2 Parti in lingua",
+        "cod_livello_conformita": "AA",
+        "dat_ultimo_monitoraggio": "2023-12-31"
+    },
+    {
+        "des_principio": "Utilizzabile",
+        "percentuale_errore": 0.00001,
+        "criterio_di_successo": "2.2.2 Pausa, stop, nascondi",
+        "cod_livello_conformita": "A",
+        "dat_ultimo_monitoraggio": "2023-12-31"
+    }
+]

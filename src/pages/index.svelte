@@ -5,13 +5,14 @@
   import Icon from "../lib/components/Icon.svelte";
   import KpiCard from "../lib/components/KpiCard.svelte";
   import { df, dp, nf } from "../lib/utils";
+  import { t } from "../lib/utils/i18n";
 
   let innerWidth;
 
   let pagineValutate;
-  let incidenzaErrori;
+  let pdfValutati;
   let dichiarazioniAccessibilita;
-  let obiettiviAccessibilità
+  let obiettiviAccessibilità;
 
   let erroriConformita;
   let totalerroriConformita;
@@ -28,12 +29,21 @@
   onMount(async () => {
     const rs = await fetch("/data/home_page.json");
     const data = await rs.json();
-    obiettiviAccessibilità = data.find((d) => d.indicatore == "num_enti_obiettivi");
+    obiettiviAccessibilità = data.find(
+      (d) => d.indicatore == "num_enti_obiettivi"
+    );
     pagineValutate = data.find((d) => d.indicatore == "num_pagine_valutate");
-    incidenzaErrori = data.find((d) => d.indicatore == "incidenza_errori");
     dichiarazioniAccessibilita = data.find(
       (d) => d.indicatore == "num_dichiarazioni"
     );
+
+    const rsPDF = await fetch("/data/monitoraggio_pdf_intestazione.json");
+    const dataPDF = await rsPDF.json();
+    pdfValutati = dataPDF[0].num_pdf_valutati;
+
+    const riferimento = await fetch("/data/obiettivi_intestazione.json");
+    const dataRiferimento = await riferimento.json();
+    annoRiferimento = dataRiferimento[0].dat_ult_agg_obiettivi;
 
     const rsDistribuzioneConformita = await fetch(
       "/data/errori_distribuzione_livello_conformita.json"
@@ -50,85 +60,155 @@
     monitoraggioDate = dataMonitoraggio.find(
       (d) => d.indicatore == "data_ultimo_aggiornamento_pagina"
     ).valore;
-    monitoraggioDateFormatted = df(dp(monitoraggioDate))
+    monitoraggioDateFormatted = df(dp(monitoraggioDate));
 
     const rsDichiarazioni = await fetch("/data/dichiarazione_data.json");
     const dataDichiarazioni = await rsDichiarazioni.json();
     dichiarazioniDate = dataDichiarazioni.find(
       (d) => d.indicatore == "data_ultimo_aggiornamento_pagina"
     ).valore;
-    dichiarazioniDateFormatted = df(dp(dichiarazioniDate))
+    dichiarazioniDateFormatted = df(dp(dichiarazioniDate));
 
     const rsObiettivi = await fetch("/data/obiettivi_data.json");
     const dataObiettivi = await rsObiettivi.json();
     obiettiviDate = dataObiettivi.find(
       (d) => d.indicatore == "data_ultimo_aggiornamento_pagina"
     ).valore;
-    obiettiviDateFormatted = df(dp(obiettiviDate))
-
-    const riferimento = await fetch("/data/obiettivi_intestazione.json");
-    const dataRiferimento = await riferimento.json()
-    annoRiferimento = dataRiferimento[0].dat_ult_agg_obiettivi
-
+    obiettiviDateFormatted = df(dp(obiettiviDate));
   });
 </script>
 
 <svelte:window bind:innerWidth />
 
 <svelte:head>
-  <title>Monitoraggio Accessibilità</title>
+  <title>{$t("homepage.pagename")}</title>
 </svelte:head>
 
 <HomeMainCard />
+<div class="background p-3 d-flex justify-content-center">
+  <p class="m-0">{$t("homepage.alert")}
+    <a
+    href="http://monitoraggio.accessibilita.agid.gov.it"
+    title={$t("layout.externalLink")}
+    target="_blank"
+    rel="noreferrer"
+    >monitoraggio.accessibilita.agid.gov.it<Icon
+      name="it it-external-link"
+      variant="primary"
+      size="xs"
+      customClass="mb-1"
+    /></a
+  ></p>
+</div>
 
-<div class="container my-4 pb-5">
-  {#if pagineValutate}
-    <div class="row pt-5">
-      <div class="d-none d-lg-flex col-lg-5" />
-      <div class="col-12 col-lg-7 pe-xl-5">
-        <div class="d-inline-flex">
-          <span aria-hidden="true"
-            ><Icon name="it it-chart-line" variant="primary" size="lg" /></span
-          >
-          <h2 class="lead mx-3">Monitoraggio accessibilità</h2>
-        </div>
-      </div>
-
-      {#if innerWidth > 991}
-        <div class="col-12 col-lg-5">
-          <KpiCard
-            title="Pagine web valutate"
-            kpi={nf(pagineValutate.valore)}
-            linkText="Scopri il monitoraggio"
-            href="/monitoraggio"
-            imgLink="images/globe.svg"
-            caption="Ultimo aggiornamento {monitoraggioDateFormatted}"
-          />
+<div class="container my-4 pb-3">
+  {#if pagineValutate && pdfValutati}
+    <div class="row mt-5">
+      {#if innerWidth >= 992}
+        <div class="col-lg-5">
+          <div class="card-box mt-0">
+            <div class="py-4 px-3 ms-xl-3">
+              <div class="row mb-2">
+                <div class="col-3 customMonBox my-auto">
+                  <img
+                    src="/images/window-stack.svg"
+                    alt=""
+                    class="ps-2"
+                    aria-hidden="true"
+                  />
+                </div>
+                <div class="col-9 ps-3">
+                  <p class="cardTitle greyText">
+                    {$t("homepage.monitoraggioCardTitle")}
+                  </p>
+                  <p class="cardMainData mt-2 mb-0" style="color: #0066cc">
+                    {nf(pagineValutate.valore)}
+                  </p>
+                </div>
+              </div>
+              <hr class="w-75 my-4 mx-auto text-muted" />
+              <div class="row">
+                <div class="col-3 customMonBox my-auto">
+                  <img
+                    src="/images/PDF.svg"
+                    alt=""
+                    class="ps-2"
+                    aria-hidden="true"
+                  />
+                </div>
+                <div class="col-9 ps-3">
+                  <p class="cardTitle greyText">
+                    {$t("homepage.monitoraggioCard2Title")}
+                  </p>
+                  <p class="cardMainData mt-2 mb-0" style="color: #0066cc">
+                    {nf(pdfValutati)}
+                  </p>
+                </div>
+              </div>
+              <hr class="w-75 my-4 mx-auto text-muted" />
+              <div class="captionUpdateDarker text-center">
+                {$t("homepage.latestUpdate")}{monitoraggioDateFormatted}
+              </div>
+            </div>
+            <div class="kpi-footer cursor w-100">
+              <a href="/monitoraggio">
+                <span class="text"
+                  >{$t("homepage.monitoraggioPageLink")}
+                  <Icon name="it it-arrow-right" variant="white" size="sm" />
+                </span>
+              </a>
+            </div>
+          </div>
         </div>
       {/if}
 
-      <div class="col-12 col-lg-7 mt-4 pe-xl-5">
-        <h3 class="h3 pb-lg-4 mb-0">
-          Monitorare l’accessibilità permette di intervenire per rendere le
-          informazioni fruibili a tutti, senza discriminazioni.
-        </h3>
-        <p>
-          Tramite un progetto condiviso tra AgID e il CNR è stato implementato
-          un sistema automatizzato che supporta la valutazione di accessibilità
-          dei siti delle PA. Le informazioni prodotte dal monitoraggio
-          automatizzato vengono arricchite con ulteriori dettagli acquisiti dal
-          sito Indice PA e ISTAT.
-        </p>
+      <div class="col-12 col-lg-7 pe-xl-5">
+        <div class="d-inline-flex my-4">
+          <span aria-hidden="true">
+            <Icon name="it it-chart-line" variant="primary" size="lg" />
+          </span>
+          <h2 class="lead mx-3">{$t("homepage.monitoraggioTitle")}</h2>
+        </div>
+        <h3 class="h3 pb-lg-4 mb-0">{$t("homepage.monitoraggioSubtitle")}</h3>
+        <p class="pe-lg-5">{$t("homepage.monitoraggioParagraph")}</p>
       </div>
-      {#if innerWidth <= 991}
-        <div class="col-12 col-lg-4 pt-5">
-          <KpiCard
-            title="Pagine web valutate"
-            kpi={nf(pagineValutate.valore)}
-            linkText="Scopri il monitoraggio"
-            href="/monitoraggio"
-            caption="Ultimo aggiornamento: {df(dp(pagineValutate.dat_ultimo_monitoraggio))}"
-          />
+
+      {#if innerWidth < 992}
+        <div class="col-12 pt-5">
+          <div class="card-box">
+            <div class="py-4 px-3 ms-xl-3">
+              <div class="row mb-2 text-center">
+                <div class="col-12">
+                  <p class="cardTitle greyText">
+                    {$t("homepage.monitoraggioCardTitle")}
+                  </p>
+                  <p class="cardMainData mt-2 mb-0" style="color: #0066cc">
+                    {nf(pagineValutate.valore)}
+                  </p>
+              <hr class="w-75 my-4 mx-auto text-muted" />
+                  <p class="cardTitle greyText my-4">
+                    {$t("homepage.monitoraggioCard2Title")}
+                  </p>
+                  <p class="cardMainData mt-2 mb-0" style="color: #0066cc">
+                    {nf(pdfValutati)}
+                  </p>
+                </div>
+              </div>
+              <hr class="w-75 my-4 mx-auto text-muted" />
+
+              <div class="captionUpdateDarker text-center">
+                {$t("homepage.latestUpdate")}{monitoraggioDateFormatted}
+              </div>
+            </div>
+            <div class="kpi-footer cursor w-100">
+              <a href="/monitoraggio">
+                <span class="text"
+                  >{$t("homepage.monitoraggioPageLink")}
+                  <Icon name="it it-arrow-right" variant="white" size="sm" />
+                </span>
+              </a>
+            </div>
+          </div>
         </div>
       {/if}
     </div>
@@ -145,17 +225,18 @@
             size="lg"
           /></span
         >
-        <h2 class="lead mx-3">Errori di accessibilità</h2>
+        <h2 class="lead mx-3">{$t("homepage.erroriTitle")}</h2>
       </div>
 
       <div class="col-lg-7 pe-xl-5">
         <h3 class="h3 pe-lg-3 pb-lg-4">
-          Gli errori di accessibilità identificabili automaticamente
+          {$t("homepage.erroriSubtitle")}
         </h3>
         <p>
-          Le <a
-            href="https://www.w3.org/Translations/WCAG21-it/"
-            title="Il link si apre in una nuova finestra"
+          {$t("homepage.erroriParagraphA")}
+          <a
+            href={$t("homepage.erroriWCAGLink")}
+            title={$t("layout.externalLink")}
             target="_blank"
             rel="noreferrer"
             >WCAG 2.1 (Web Content Accessibility Guidelines 2.1)<Icon
@@ -165,36 +246,32 @@
               customClass="mb-1"
             /></a
           >
-           sono le linee guida pubblicate
-          dal W3C (World Wide Web Consortium) e definiscono i principi per la creazione
-          di siti web accessibili a tutti, comprese le persone con disabilità. Il
-          sistema di valutazione dell'accessibilità dei siti web si basa sulla verifica
-          (sia manuale che automatica) di un insieme di criteri di successo distinti
-          per tre livelli di conformità: A, AA e AAA. A livello normativo il soddisfacimento
-          dei livelli A e AA è obbligatorio. <br /><br /> Il sistema automatico
+          {@html $t("homepage.erroriParagraphB", {
+            doubleBreak: "<br/><br/>",
+          })}
           <a
-            title="Il link si apre in una nuova finestra"
+            title={$t("layout.externalLink")}
             target="_blank"
             rel="noreferrer"
-            href="https://mauve.isti.cnr.it/"
+            href={$t("homepage.erroriMAUVElink")}
             >MAUVE++<Icon
               name="it it-external-link"
               variant="primary"
               size="xs"
               customClass="mb-1"
-            /></a
-          >
-          è in grado di analizzare autonomamente {totalerroriConformita}
-          dei 50 criteri di successo per la valutazione dell'accessibilità dei siti
-          delle PA, appartenenti ai livelli A e AA.
+            />
+          </a>
+          {@html $t("homepage.erroriParagraphC", {
+            totErrori: totalerroriConformita,
+          })}
         </p>
         <a
           href="/errori"
           class="button-text a-button d-none d-lg-flex"
           style="text-decoration: none;"
         >
-          Scopri tutti gli errori</a
-        >
+          {$t("homepage.erroriPageLink")}
+        </a>
       </div>
 
       <div class="col-lg-5 px-0">
@@ -203,8 +280,8 @@
     </div>
     <div class="row mx-auto mt-2 mb-5 mb-lg-0">
       <div class="col-12 d-lg-none errButton">
-        <a href="errori" class="button-text" style="text-decoration: none;">
-          Scopri tutti gli errori</a
+        <a href="/errori" class="button-text" style="text-decoration: none;">
+          {$t("homepage.erroriPageLink")}</a
         >
       </div>
     </div>
@@ -219,40 +296,36 @@
             <span aria-hidden="true"
               ><Icon name="it it-files" variant="primary" size="lg" /></span
             >
-            <h2 class="lead mx-3">Dichiarazione di accessibilità</h2>
+            <h2 class="lead mx-3">{$t("homepage.dichiarazioniTitle")}</h2>
           </div>
-          <h3 class="h3 pb-lg-4">Cos'è la dichiarazione di accessibilità?</h3>
+          <h3 class="h3 pb-lg-4">{$t("homepage.dichiarazioniSubtitle")}</h3>
           <p class="me-lg-3">
-            La dichiarazione di accessibilità è lo strumento attraverso il quale
-            le Amministrazioni effettuano una autovalutazione dello stato di
-            accessibilità di ogni sito web e applicazione mobile di cui sono
-            titolari.<br />
-            <br />
-            Le dichiarazioni non sono oggetto del processo di monitoraggio ma devono
-            essere compilate e pubblicate per adempimento normativo (9 della Legge
-            n. 4/2004) da ogni singola PA. <br /> Per ulteriori informazioni:
+            {@html $t("homepage.dichiarazioniParagraph", {
+              doubleBreak: "<br/><br/>",
+              break: "<br/>",
+            })}
             <a
-              href="https://www.agid.gov.it/it/design-servizi/accessibilita/dichiarazione-accessibilita"
-              title="Il link si apre in una nuova finestra"
+              href={$t("homepage.dichiarazioniAGIDlink")}
+              title={$t("layout.externalLink")}
               target="_blank"
               rel="noreferrer"
-              >Dichiarazione di accessibilità<Icon
+              >{$t("homepage.dichiarazioniLink")}<Icon
                 name="it it-external-link"
                 variant="primary"
                 size="xs"
                 customClass="mb-1"
-              /></a
-            >
+              />
+            </a>
           </p>
         </div>
 
         <div class="col-lg-5 ps-0 pe-0 pt-lg-5 pb-lg-4">
           <KpiCard
-            title="Totale delle dichiarazioni di accessibilità compilate"
+            title={$t("homepage.dichiarazioniCardTitle")}
             kpi={nf(dichiarazioniAccessibilita.valore)}
-            caption="Ultimo aggiornamento: {dichiarazioniDateFormatted}"
-            linkText="Scopri le dichiarazioni"
-            href="/dichiarazione"
+            caption="{$t('homepage.latestUpdate')}{dichiarazioniDateFormatted}"
+            linkText={$t("homepage.dichiarazioniPageLink")}
+            href="dichiarazione"
           />
         </div>
       </div>
@@ -269,28 +342,20 @@
             <span aria-hidden="true"
               ><img src="/icons/bullseye.svg" alt="" />
             </span>
-            <h2 class="lead mx-3">Obiettivi di accessibilità</h2>
+            <h2 class="lead mx-3">{$t("homepage.obiettiviTitle")}</h2>
           </div>
-          <h3 class="h3 pb-lg-4">Cosa sono gli obiettivi di accessibilità?</h3>
+          <h3 class="h3 pb-lg-4">{$t("homepage.obiettiviSubtitle")}</h3>
           <p class="me-lg-3">
-            Gli obiettivi di accessibilità delle pubbliche amministrazioni
-            mirano a migliorare l’accessibilità dei servizi web e delle
-            applicazioni mobile di cui sono titolari a tutti i cittadini,
-            indipendentemente dalle loro abilità, affinché possano accedere e
-            fruire dei servizi pubblici in modo equo, efficace e senza
-            discriminazioni.
-          </p>
-          <p>
-            Gli obiettivi di accessibilità vengono pubblicati dalle Pubbliche
-            Amministrazione obbligatoriamente entro il 31 Marzo di ogni anno.
-            <br /> 
-            Per ulteriori informazioni:
+            {@html $t("homepage.obiettiviParagraph", {
+              doubleBreak: "<br/><br/>",
+              break: "<br/>",
+            })}
             <a
-              href="https://www.agid.gov.it/it/design-servizi/accessibilita/obiettivi-accessibilita"
-              title="Il link si apre in una nuova finestra"
+              href={$t("homepage.obiettiviAGIDlink")}
+              title={$t("layout.externalLink")}
               target="_blank"
               rel="noreferrer"
-              >Obiettivi di accessibilità<Icon
+              >{$t("homepage.obiettiviLink")}<Icon
                 name="it it-external-link"
                 variant="primary"
                 size="xs"
@@ -302,11 +367,11 @@
 
         <div class="col-lg-5 ps-0 pe-0 pt-lg-5 pb-lg-4">
           <KpiCard
-            title="Totale degli obiettivi di accessibilità dichiarati nel {annoRiferimento}"
+            title={$t("homepage.obiettiviCardTitle", { anno: annoRiferimento })}
             kpi={nf(obiettiviAccessibilità.valore)}
-            caption="Ultimo aggiornamento: {obiettiviDateFormatted}"
-            linkText="Scopri gli obiettivi"
-            href="/obiettivi"
+            caption="{$t('homepage.latestUpdate')}{obiettiviDateFormatted}"
+            linkText={$t("homepage.obiettiviPageLink")}
+            href="obiettivi"
           />
         </div>
       </div>
@@ -349,15 +414,4 @@
     padding: 12px 24px;
     text-align: center;
   }
-
-  .button-text {
-    font-family: "Titillium Web";
-    font-style: normal;
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 28px;
-    text-align: center;
-    color: #ffffff;
-  }
-
 </style>

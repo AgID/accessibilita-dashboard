@@ -1,5 +1,6 @@
 <script>
   import Icon from "./Icon.svelte";
+  import { t } from "../utils/i18n";
   import {
     sceltaProfessione,
     sceltaWeb,
@@ -11,47 +12,57 @@
   let baseUrl = window.location.origin;
   $: currentPath = $page.path || "";
 
-  async function sendFeedback() {
-    await fetch("https://feedback.designers.italia.it/api/messages", {
-      method: "POST",
-      mode: "cors",
-      cache: "no-cache",
-      body: JSON.stringify(
-        {
-          feedback: "-",
-          url: `${baseUrl}${currentPath == "/index" ? '' : currentPath}`,
-          who: $sceltaProfessione,
-          from: $sceltaWeb,
-          details: $details,
-          captcha: "captcha-challenge-string",
-        } || {}
-      ),
-    });
-    resetValue();
-  }
+  let charCounter
+  $: charCounter = $details.length
 
-  let positiveFeedbackSent = false;
+  let showThanks = false;
+  $: showThanks
+
+  function showThanksCard() {
+  showThanks = true;
+  console.log("showThanks is true")
+  setTimeout(() => {
+    showThanks = false;
+    console.log("showThanks is false")
+  }, 3000);
+}
+
+  async function sendFeedback() {
+  const queryParams = new URLSearchParams({
+    url_sito: baseUrl,
+    url_pagina: currentPath === "/index" ? '/' : currentPath,
+    chi_sei: $sceltaProfessione,
+    provenienza: $sceltaWeb,
+    testo_feedback: $details,
+    esito_feedback: "negativo"
+  }).toString();
+
+  await fetch(`https://feedback.accessibilita.agid.gov.it/api/v1/feedback/add?${queryParams}`, {
+    mode: "no-cors",
+    method: "POST",
+  });
+
+  showThanksCard() 
+  resetValue();
+}
 
   function sendOROpen() {
-    if ($feedback == "si") {
-      fetch("https://feedback.designers.italia.it/api/messages", {
-        method: "POST",
-        mode: "cors",
-        cache: "no-cache",
-        body: JSON.stringify(
-          {
-            feedback: "+",
-            url: `${baseUrl}${currentPath == "/index" ? '' : currentPath}`,
-          } || {}
-        ),
-      });
-      positiveFeedbackSent = true;
+  if ($feedback == "positivo") {
+    const queryParams = new URLSearchParams({
+      url_sito: baseUrl,
+      url_pagina: currentPath === "/index" ? '/' : currentPath,
+      esito_feedback: "positivo"
+    }).toString();
 
-      setTimeout(() => {
-        positiveFeedbackSent = false;
-      }, 3000);
-    }
+    fetch(`https://feedback.accessibilita.agid.gov.it/api/v1/feedback/add?${queryParams}`, {
+      mode: "no-cors",
+      method: "POST"
+    });
+
+    showThanksCard() 
   }
+}
+
 </script>
 
 <div class="feedbackBG">
@@ -59,21 +70,10 @@
     <div class="col-12 col-sm-10 col-md-8 col-lg-6 col-xl-4 mx-auto">
       <div class="card-wrapper card-space py-5">
         <div class="card rounded card-bg no-after">
-          {#if positiveFeedbackSent}
-            <div class="card-body">
-              <p class="mb-0">
-                <Icon
-                  name="it it-check-circle"
-                  variant="primary"
-                  size="xl"
-                  customClass="me-2"
-                /> Feedback inviato. Grazie
-              </p>
-            </div>
-          {:else}
+          {#if !showThanks}
             <div class="card-body">
               <p class="card-title display6 greyText">
-                Hai trovato utile questa pagina?
+                {$t("feedback.cardTitle")}
               </p>
               <div class="card-text">
                 <div class="form-check form-check-inline">
@@ -81,20 +81,20 @@
                     name="sceltaFeedback"
                     bind:group={$feedback}
                     type="radio"
-                    value="si"
+                    value="positivo"
                     id="si"
                   />
-                  <label for="si">Si</label>
+                  <label for="si">{$t("feedback.optionOne")}</label>
                 </div>
                 <div class="form-check form-check-inline">
                   <input
                     name="sceltaFeedback"
                     bind:group={$feedback}
                     type="radio"
-                    value="no"
+                    value="negativo"
                     id="no"
                   />
-                  <label for="no">No</label>
+                  <label for="no">{$t("feedback.optionTwo")}</label>
                 </div>
               </div>
               <div class="it-card-footer mt-2">
@@ -102,11 +102,22 @@
                   type="button"
                   class="btn btn-outline-primary btn-md {$feedback == null &&
                     'disabled'}"
-                  data-bs-toggle={$feedback == "no" ? "modal" : ""}
+                  data-bs-toggle={$feedback == "negativo" ? "modal" : ""}
                   data-bs-target="#feedbackModal"
-                  on:click={sendOROpen}>Invia feedback</button
+                  on:click={sendOROpen}>{$t("feedback.sendButton")}</button
                 >
               </div>
+            </div>
+          {:else}
+            <div class="card-body">
+              <p class="mb-0">
+                <Icon
+                  name="it it-check-circle"
+                  variant="primary"
+                  size="xl"
+                  customClass="me-2"
+                /> {$t("feedback.optionOneConfirmation")}
+              </p>
             </div>
           {/if}
         </div>
@@ -131,20 +142,18 @@
           type="button"
           data-bs-dismiss="modal"
           on:click={resetValue}
-          aria-label="Chiudi finestra modale"
+          aria-label={$t("feedback.closeModal")}
         >
           <Icon name="it it-close-circle" variant="primary" size="md" />
         </button>
       </div>
       <div class="modal-body">
-        <h3 class="modal-title h3 greyText mb-3">Grazie della tua risposta!</h3>
+        <h3 class="modal-title h3 greyText mb-3">{$t("feedback.title")}</h3>
         <h4 class="modal-title cardTitle mb-2 greyText">
-          Aiutaci a migliorare la pagina con qualche dettaglio in più
+          {$t("feedback.subtitle")}
         </h4>
         <p class="greyText mb-4">
-          Le seguenti informazioni sono raccolte in forma anonima e ci aiutano a
-          capire come migliroare la tua esperienza e l’esposizione dei dati
-          senza trattare dati personali.
+          {$t("feedback.description")}
         </p>
 
         <h4 class="h4 greyText mt-4">
@@ -152,7 +161,7 @@
             name="it it-user"
             variant="primary"
             customClass="mb-1 me-4"
-          />Chi sei?
+          />{$t("feedback.questionOne")}
         </h4>
         <div class="cardBG rounded shadow-lg">
           <div class="form-group p-4 mb-3">
@@ -164,7 +173,7 @@
                 bind:group={$sceltaProfessione}
                 id="radio1"
               />
-              <label for="radio1" class="mb-0">Pubblica amministrazione</label>
+              <label for="radio1" class="mb-0">{$t("feedback.oneFirst")}</label>
             </div>
             <div class="form-check">
               <input
@@ -174,7 +183,8 @@
                 bind:group={$sceltaProfessione}
                 id="radio2"
               />
-              <label for="radio2" class="mb-0">Cittadino</label>
+              <label for="radio2" class="mb-0">{$t("feedback.oneSecond")}</label
+              >
             </div>
             <div class="form-check">
               <input
@@ -184,9 +194,7 @@
                 bind:group={$sceltaProfessione}
                 id="radio3"
               />
-              <label for="radio3" class="mb-0"
-                >Giornalista e/o addetto stampa</label
-              >
+              <label for="radio3" class="mb-0">{$t("feedback.oneThird")}</label>
             </div>
             <div class="form-check">
               <input
@@ -196,7 +204,8 @@
                 bind:group={$sceltaProfessione}
                 id="radio4"
               />
-              <label for="radio4" class="mb-0">Azienda privata</label>
+              <label for="radio4" class="mb-0">{$t("feedback.oneFourth")}</label
+              >
             </div>
             <div class="form-check">
               <input
@@ -206,7 +215,7 @@
                 bind:group={$sceltaProfessione}
                 id="radio5"
               />
-              <label for="radio5" class="mb-0">Altro</label>
+              <label for="radio5" class="mb-0">{$t("feedback.oneFifth")}</label>
             </div>
           </div>
         </div>
@@ -216,7 +225,7 @@
             src="/images/webIcon.svg"
             alt="world wide web"
             class="mb-1 me-4"
-          />Hai trovato questa pagina grazie a:
+          />{$t("feedback.questionTwo")}
         </h4>
         <div class="cardBG rounded shadow-lg">
           <div class="form-group p-4 mb-3">
@@ -228,7 +237,7 @@
                 bind:group={$sceltaWeb}
                 id="radio6"
               />
-              <label for="radio6" class="mb-0">Motore di ricerca</label>
+              <label for="radio6" class="mb-0">{$t("feedback.twoFirst")}</label>
             </div>
             <div class="form-check">
               <input
@@ -238,7 +247,8 @@
                 bind:group={$sceltaWeb}
                 id="radio7"
               />
-              <label for="radio7" class="mb-0">Messaggio e/o post social</label>
+              <label for="radio7" class="mb-0">{$t("feedback.twoSecond")}</label
+              >
             </div>
             <div class="form-check">
               <input
@@ -248,7 +258,7 @@
                 bind:group={$sceltaWeb}
                 id="radio8"
               />
-              <label for="radio8" class="mb-0">Navigazione del sito</label>
+              <label for="radio8" class="mb-0">{$t("feedback.twoThird")}</label>
             </div>
             <div class="form-check">
               <input
@@ -258,7 +268,8 @@
                 bind:group={$sceltaWeb}
                 id="radio9"
               />
-              <label for="radio9" class="mb-0">Altro sito web</label>
+              <label for="radio9" class="mb-0">{$t("feedback.twoFourth")}</label
+              >
             </div>
             <div class="form-check">
               <input
@@ -268,7 +279,7 @@
                 value="Altro"
                 id="radio10"
               />
-              <label for="radio10" class="mb-0">Altro</label>
+              <label for="radio10" class="mb-0">{$t("feedback.twoFifth")}</label>
             </div>
           </div>
         </div>
@@ -278,14 +289,15 @@
             name="it it-mail"
             variant="primary"
             customClass="mb-1 me-4"
-          />Come possiamo migliorare la pagina?
+          />{$t("feedback.questionThree")}
         </h4>
         <div class="cardBG rounded shadow-lg pt-5 p-4">
           <div class="form-group mb-0">
             <label for="textAreaFeedback" class="labelTextArea"
-              >Inserisci qui il tuo testo</label
+              > {$t("feedback.threeFirst")}</label
             >
-            <textarea id="textAreaFeedback" bind:value={$details} rows="3" />
+            <textarea id="textAreaFeedback" bind:value={$details} rows="3" maxlength="200" />
+            <span class="d-flex justify-content-end">{charCounter}/200</span>
           </div>
         </div>
       </div>
@@ -294,7 +306,7 @@
           class="btn btn-primary btn-md"
           data-bs-dismiss="modal"
           on:click={sendFeedback}
-          type="button">Invia feedback</button
+          type="button">{$t("feedback.sendButton")}</button
         >
       </div>
     </div>

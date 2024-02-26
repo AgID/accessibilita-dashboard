@@ -1,0 +1,17 @@
+[
+    {
+        "valore": 1969,
+        "indicatore": "num_dichiarazioni_app_pub_tot",
+        "dat_ult_agg_dichiarazione": "2023-09-23"
+    },
+    {
+        "valore": 714,
+        "indicatore": "num_dichiarazioni_app_pub",
+        "dat_ult_agg_dichiarazione": "2023-09-23"
+    },
+    {
+        "valore": 373,
+        "indicatore": "num_enti_dichiarazioni_app_pub",
+        "dat_ult_agg_dichiarazione": "2023-09-23"
+    }
+]

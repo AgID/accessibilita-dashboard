@@ -1,20 +1,23 @@
-    {
-        "data": [
-            {
-                "valore": 3462,
-                "conformita": "parzialmente conforme"
-            },
-            {
-                "valore": 1949,
-                "conformita": "conforme"
-            },
-            {
-                "valore": 94,
-                "conformita": "non conforme"
-            }
-        ],
-        "intestazione": {
-            "periodo_dichiarazioni": "2020 - 2023",
-            "dat_ultimo_rilevamento": "2023-09-23"
+{
+    "data": [
+        {
+            "valore": 3462,
+            "conformita_en": "partially-compliant",
+            "conformita_it": "parzialmente conforme"
+        },
+        {
+            "valore": 1949,
+            "conformita_en": "compliant",
+            "conformita_it": "conforme"
+        },
+        {
+            "valore": 94,
+            "conformita_en": "non-compliant",
+            "conformita_it": "non conforme"
         }
+    ],
+    "intestazione": {
+        "periodo_dichiarazioni": "2020 - 2023",
+        "dat_ultimo_rilevamento": "2023-09-23"
     }
+}

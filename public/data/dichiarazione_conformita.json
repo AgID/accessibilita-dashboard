@@ -1,16 +1,19 @@
 [
     {
-        "conformita": "parzialmente conforme",
+        "conformita_en": "partially-compliant",
+        "conformita_it": "parzialmente conforme",
         "num_dichiarazioni_pub": 8520,
         "dat_ult_agg_dichiarazione": "2023-09-23"
     },
     {
-        "conformita": "conforme",
+        "conformita_en": "compliant",
+        "conformita_it": "conforme",
         "num_dichiarazioni_pub": 6709,
         "dat_ult_agg_dichiarazione": "2023-09-23"
     },
     {
-        "conformita": "non conforme",
+        "conformita_en": "non-compliant",
+        "conformita_it": "non conforme",
         "num_dichiarazioni_pub": 177,
         "dat_ult_agg_dichiarazione": "2023-09-23"
     }

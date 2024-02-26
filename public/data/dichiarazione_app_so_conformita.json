@@ -1,0 +1,26 @@
+{
+  "data": [
+    {
+      "ios": 179,
+      "android": 272,
+      "conformita_en": "partially-compliant",
+      "conformita_it": "parzialmente conforme"
+    },
+    {
+      "ios": 108,
+      "android": 139,
+      "conformita_en": "compliant",
+      "conformita_it": "conforme"
+    },
+    {
+      "ios": 6,
+      "android": 10,
+      "conformita_en": "non-compliant",
+      "conformita_it": "non conforme"
+    }
+  ],
+  "intestazione": {
+      "periodo_dichiarazioni": "2020 - 2023",
+      "dat_ult_agg_dichiarazione": "2023-09-23"
+    }
+}

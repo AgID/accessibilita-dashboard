@@ -4,6 +4,9 @@
     e.srcElement.blur();
     document.getElementById("skipContentuto").focus();
   }
+
+  import { t } from "../utils/i18n";
+
 </script>
 
 <div class="footer">
@@ -12,13 +15,13 @@
       <div class="col-12 col-md-6 col-lg-4 pb-5">
         <a
           class="dashboard-footer"
-          href="https://next-generation-eu.europa.eu/index_it"
-          title="Il link si apre in una nuova finestra"
+          href={$t("footer.linkUE")}
+          title={$t("layout.externalLink")}
           target="_blank"
           rel="noreferrer"
         >
           <img
-            alt="Unione Europea - Next Generation EU"
+            alt={$t("footer.logoUE")}
             src="/logo/unioneEuropa.svg"
           />
         </a>
@@ -26,13 +29,13 @@
       <div class="col-12 col-md-6 col-lg-4 pb-5 d-inline">
         <a
           class="dashboard-footer"
-          href="https://innovazione.gov.it/"
-          title="Il link si apre in una nuova finestra"
+          href={$t("footer.linkDTD")}
+          title={$t("layout.externalLink")}
           target="_blank"
           rel="noreferrer"
         >
           <img
-            alt="Dipartimento per la trasformazione digitale"
+            alt={$t("footer.logoDTD")}
             src="/logo/dipartimentoDigitale.svg"
           />
         </a>
@@ -40,13 +43,13 @@
       <div class="col-12 col-md-6 col-lg-4 pb-5 d-inline">
         <a
           class="dashboard-footer"
-          href="https://www.agid.gov.it/"
-          title="Il link si apre in una nuova finestra"
+          href={$t("footer.linkAGID")}
+          title={$t("layout.externalLink")}
           target="_blank"
           rel="noreferrer"
         >
           <img
-            alt="AGID Agenzia per l'Italia Digitale"
+            alt={$t("footer.logoAGID")}
             src="/logo/AGIDlogoW.png"
             class="logo"
           />
@@ -61,11 +64,11 @@
           <li class="nav-item">
             <a
               class="nav-link linkSM"
-              title="Il link si apre in una nuova finestra"
+              title={$t("layout.externalLink")}
               target="_blank"
               rel="noreferrer"
-              href="https://form.agid.gov.it/view/a08aad43-5c88-41f2-b7c5-fca8738525df"
-              >Dichiarazione di Accessibilità <Icon
+              href={$t("footer.statementLink")}
+              >{$t("footer.statement")}<Icon
               name="it it-external-link"
               variant="white"
               size="xs"
@@ -77,45 +80,30 @@
             <a
               class="nav-link linkSM"
               href="/media-policy"
-              on:click={onAnchorClick}>Media Policy</a
+              on:click={onAnchorClick}>{$t("footer.mediaPolicy")}</a
             >
           </li>
           <li class="nav-item">
             <a
               class="nav-link linkSM"
               href="/note-legali"
-              on:click={onAnchorClick}>Note Legali</a
+              on:click={onAnchorClick}>{$t("footer.legalPolicy")}</a
             >
           </li>
           <li class="nav-item">
             <a
               class="nav-link linkSM"
               href="/privacy-policy"
-              on:click={onAnchorClick}>Privacy Policy</a
+              on:click={onAnchorClick}>{$t("footer.privacyPolicy")}</a
             >
           </li>
           <li class="nav-item">
             <a
               class="nav-link linkSM"
               href="/contattaci"
-              on:click={onAnchorClick}>Contattaci</a
+              on:click={onAnchorClick}>{$t("footer.contacts")}</a
             >
           </li>
-          <!-- <li class="nav-item">
-            <a
-              class="nav-link linkSM"
-              href="/"
-              title="Il link si apre in una nuova finestra"
-              on:click={onAnchorClick}
-              >Aiutaci a migliorare la dashboard
-              <Icon
-                name="it it-external-link"
-                variant="white"
-                size="xs"
-                customClass="mb-1"
-              />
-            </a>
-          </li> -->
         </ul>
       </div>
     </div>

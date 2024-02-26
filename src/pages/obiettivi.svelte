@@ -3,18 +3,20 @@
   import ObiettiviLineChart from "../lib/components/ObiettiviLineChart.svelte";
   import ObiettiviIntervento from "../lib/components/ObiettiviIntervento.svelte";
   import ObiettiviTable from "../lib/components/ObiettiviTable.svelte";
+  import { t } from "../lib/utils/i18n";
+
 </script>
 
 <svelte:head>
-  <title>Obiettivi di accessibilità - Monitoraggio Accessibilità</title>
+  <title>{$t("obiettivi.pagename")}</title>
 </svelte:head>
 
-<section aria-label="Sezione Obiettivi">
+<section aria-label={$t("obiettivi.pagename")}>
   <div class="container">
     <ObiettiviMainCard />
   </div>
   <div
-    class="d-flex flex-wrap container px-0 justify-content-between flex-wrap align-items-stretch print-ObiettiviCC"
+    class="d-flex flex-wrap container px-0 justify-content-between flex-wrap align-items-stretch"
   >
     <div class="col-12">
       <ObiettiviLineChart />
