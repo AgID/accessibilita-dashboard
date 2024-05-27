@@ -1,0 +1,17 @@
+[
+    {
+        "valore": 103,
+        "indicatore": "num siti valutati",
+        "dat_ultimo_monitoraggio": "2023-12-31"
+    },
+    {
+        "valore": 103,
+        "indicatore": "num enti valutati",
+        "dat_ultimo_monitoraggio": "2023-12-31"
+    },
+    {
+        "valore": 1325,
+        "indicatore": "num pag esaminate",
+        "dat_ultimo_monitoraggio": "2023-12-31"
+    }
+]

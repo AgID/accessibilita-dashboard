@@ -296,7 +296,7 @@
             <label for="textAreaFeedback" class="labelTextArea"
               > {$t("feedback.threeFirst")}</label
             >
-            <textarea id="textAreaFeedback" bind:value={$details} rows="3" maxlength="200" />
+            <textarea autocomplete="off" id="textAreaFeedback" bind:value={$details} rows="3" maxlength="200" />
             <span class="d-flex justify-content-end">{charCounter}/200</span>
           </div>
         </div>

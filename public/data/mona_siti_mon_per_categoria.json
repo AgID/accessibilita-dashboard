@@ -1,0 +1,23 @@
+    {
+        "data": [
+            {
+                "num_enti_valutati": 53,
+                "des_tipologia_ente_it": "Altre tipologie di Enti",
+                "des_tipologia_ente_en": "Other types of organizations"
+            },
+            {
+                "num_enti_valutati": 37,
+                "des_tipologia_ente_it": "Comuni e loro Consorzi e Associazioni",
+                "des_tipologia_ente_en": "Municipalities and their consortia and associations"
+            },
+            {
+                "num_enti_valutati": 13,
+                "des_tipologia_ente_it": "Istituti di Istruzione Statale di Ogni Ordine e Grado",
+                "des_tipologia_ente_en": "State educational institutions of all levels"
+            }
+        ],
+        "intestazione": {
+            "periodo_monitoraggio": "4-2023",
+            "dat_ultimo_aggiornamento": "2023-12-31"
+        }
+    }

@@ -1,0 +1,18 @@
+    {
+        "data": [
+            {
+                "num_errori": 29,
+                "cod_livello_conformita": "A",
+                "des_paragrafo_principale": "Documenti non web"
+            },
+            {
+                "num_errori": 16,
+                "cod_livello_conformita": "AA",
+                "des_paragrafo_principale": "Documenti non web"
+            }
+        ],
+        "intestazione": {
+            "periodo_monitoraggio": "4-2023",
+            "dat_ultimo_aggiornamento": "2023-12-31"
+        }
+    }

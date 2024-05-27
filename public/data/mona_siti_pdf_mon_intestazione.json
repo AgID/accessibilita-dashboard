@@ -1,0 +1,17 @@
+[
+    {
+        "valore": 102,
+        "indicatore": "num enti con pdf valutati",
+        "dat_ultimo_monitoraggio": "2023-12-31"
+    },
+    {
+        "valore": 102,
+        "indicatore": "num siti con pdf valutati",
+        "dat_ultimo_monitoraggio": "2023-12-31"
+    },
+    {
+        "valore": 305,
+        "indicatore": "num pdf esaminati",
+        "dat_ultimo_monitoraggio": "2023-12-31"
+    }
+]

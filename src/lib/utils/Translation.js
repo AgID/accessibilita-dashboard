@@ -32,12 +32,15 @@ import MoniAreaGeo from "./components/MonitoraggioAreaGeo";
 import MoniTable from "./components/MonitoraggioRegioneTable";
 import MoniPDF from "./components/MonitoraggioPdfCard";
 import MoniPDFChart from "./components/MonitoraggioPdfChart";
+import MoniAPP from "./components/MonitoraggioAppCard";
+import MoniAPPChart from "./components/MonitoraggioAppChart";
 
 import ErroriMain from "./components/ErroriMainCard";
 import ErroriTable from "./components/ErroriTable";
 import ErrPDF from "./components/ErroriPDFTable";
 import ErrCard from "./components/ErrCard";
 import ErroriPrincipio from "./components/ErroriPrincipio";
+import ErroriTableApp from "./components/ErroriTableApprofondito";
 
 import DicMainCard from "./components/DichiarazioniMainCard";
 import DicLineChart from "./components/DichiarazioniLineChart";
@@ -88,8 +91,11 @@ export default {
     ...MoniTable.it,
     ...MoniPDF.it,
     ...MoniPDFChart.it,
+    ...MoniAPP.it,
+    ...MoniAPPChart.it,
     ...ErroriMain.it,
     ...ErroriTable.it,
+    ...ErroriTableApp.it,
     ...ErrCard.it,
     ...ErroriPrincipio.it,
     ...ErrPDF.it,
@@ -144,8 +150,11 @@ export default {
     ...MoniTable.en,
     ...MoniPDF.en,
     ...MoniPDFChart.en,
+    ...MoniAPP.en,
+    ...MoniAPPChart.en,
     ...ErroriMain.en,
     ...ErroriTable.en,
+    ...ErroriTableApp.en,
     ...ErrCard.en,
     ...ErroriPrincipio.en,
     ...ErrPDF.en,

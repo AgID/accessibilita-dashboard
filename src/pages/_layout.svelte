@@ -39,7 +39,7 @@
   }}
 />
 
-<a href="#main" class="screenreader-text" id="skipContentuto"
+<a href="#main" class="m-1 px-1 screenreader-text skip-style" id="skipContentuto"
   >{$t("layout.skipLink")}</a
 >
 <div>
@@ -89,4 +89,10 @@
       margin: auto;
     }
   }
+
+  .skip-style {
+      &:focus {
+        border: 2px solid #f90 !important
+      }
+    }
 </style>

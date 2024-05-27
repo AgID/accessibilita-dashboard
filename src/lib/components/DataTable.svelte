@@ -130,6 +130,8 @@
     'dichiarazioni': ['dichiarazioni', 'statement'],
     'errori_it': ['errori'],
     'errori_en': ['errors'],
+    'enti_monitorati_it': ['Pa_valutate'],
+    'enti_monitorati_en': ['evaluated_Pa'],
     'obiettivi': ['obiettivi', 'objectives']
   };
   
@@ -168,6 +170,8 @@
     else if (name == "Accessibility statement") return "statement";
     else if (name == "Errori") return "errori";
     else if (name == "Errors") return "errors";
+    else if (name == "Elenco Pa valutate da Mauve") return "Pa_valutate";
+    else if (name == "List of PAs evaluated by Mauve") return "evaluated_Pa";
     else if (name == "Obiettivi di accessibilità") return "obiettivi";
     else if (name == "Accessibility objectives") return "objectives";
     else return "file_non_trovato";
@@ -392,7 +396,7 @@
                     </td>
                   {:else}
                     <td role="cell" align={col.align || "left"}>
-                      {#if col.field == `criterio_di_successo_${$locale}` || col.field == `criterio_di_successo_norm_e_${$locale}`}
+                      {#if col.field == `criterio_di_successo_${$locale}` || col.field == `criterio_di_successo_norm_e_${$locale}` || col.field == `des_success_criteria_${$locale}`}
                         <a
                           title={$t("layout.externalLink")}
                           target="_blank"

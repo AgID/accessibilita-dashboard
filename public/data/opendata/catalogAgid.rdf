@@ -64,8 +64,7 @@
     <dcat:keyword>Monitoraggio</dcat:keyword>
     <dcat:keyword>accessibilita</dcat:keyword>
     <dcat:keyword>regione</dcat:keyword>
-    <dcat:distribution rdf:resource="https://accessibilita.agid.gov.it/opendata/dati-prodotti-dal-monitoraggio-automatizzato-dell'accessibilita/json11"/>
-    <dcat:distribution rdf:resource="https://accessibilita.agid.gov.it/opendata/dati-prodotti-dal-monitoraggio-automatizzato-dell'accessibilita/json12"/>
+    <dcat:distribution rdf:resource="https://accessibilita.agid.gov.it/opendata/dati-prodotti-dal-monitoraggio-automatizzato-dell'accessibilita/json11"/>    
   </dcatapit:Dataset>
   <dcatapit:Dataset rdf:about="https://accessibilita.agid.gov.it/opendata/gli-errori-di-accessibilita-identificabili-automaticamente">
     <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
@@ -138,7 +137,6 @@
     <dcat:keyword>accessibilita</dcat:keyword>
     <dcat:keyword>dichiarazione</dcat:keyword>
     <dcat:distribution rdf:resource="https://accessibilita.agid.gov.it/opendata/dichiarazioni-di-accessibilita/json14"/>
-    <dcat:distribution rdf:resource="https://accessibilita.agid.gov.it/opendata/dichiarazioni-di-accessibilita/json15"/>
   </dcatapit:Dataset>
   <dcatapit:Dataset rdf:about="https://accessibilita.agid.gov.it/opendata/elenco-open-data-accessibilita">
     <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
@@ -183,25 +181,11 @@
     <dcat:distribution rdf:resource="https://accessibilita.agid.gov.it/opendata/elenco-open-data-accessibilita/csv8"/>
     <dcat:distribution rdf:resource="https://accessibilita.agid.gov.it/opendata/elenco-open-data-accessibilita/json9"/>
     <dcat:distribution rdf:resource="https://accessibilita.agid.gov.it/opendata/elenco-open-data-accessibilita/xml10"/>
-  </dcatapit:Dataset>
+  </dcatapit:Dataset> 
   <dcatapit:Distribution rdf:about="https://accessibilita.agid.gov.it/opendata/dati-prodotti-dal-monitoraggio-automatizzato-dell'accessibilita/json11">
-    <dcat:accessURL rdf:resource="https://accessibilita.agid.gov.it/data/home:page:area:geografica.json"/>
+    <dcat:accessURL rdf:resource="https://accessibilita.agid.gov.it/data/monitoraggio_per_regione.json"/>
     <dct:license>
-      <dcatapit:LicenseDocument rdf:about="https://w3id.org/italia/controlled-vocabulary/licences/A21:CCBY40">
-        <rdf:type rdf:resource="dct:LicenseDocument"/>
-        <dct:type rdf:resource="http://purl.org/adms/licencetype/Attribution"/>
-        <foaf:name>Creative Commons Attribuzione 4.0 Internazionale (CC BY 4.0)</foaf:name>
-      </dcatapit:LicenseDocument>
-    </dct:license>
-    <dct:format rdf:resource="JSON"/>
-    <dct:description>File in formato JSON del monitoraggio per area geografica</dct:description>
-    <dct:title>Monitoraggio per area geografica</dct:title>
-    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
-  </dcatapit:Distribution>
-  <dcatapit:Distribution rdf:about="https://accessibilita.agid.gov.it/opendata/dati-prodotti-dal-monitoraggio-automatizzato-dell'accessibilita/json12">
-    <dcat:accessURL rdf:resource="https://accessibilita.agid.gov.it/data/monitoraggio:per:regione.json"/>
-    <dct:license>
-      <dcatapit:LicenseDocument rdf:about="https://w3id.org/italia/controlled-vocabulary/licences/A21:CCBY40">
+      <dcatapit:LicenseDocument rdf:about="https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40">
         <rdf:type rdf:resource="dct:LicenseDocument"/>
         <dct:type rdf:resource="http://purl.org/adms/licencetype/Attribution"/>
         <foaf:name>Creative Commons Attribuzione 4.0 Internazionale (CC BY 4.0)</foaf:name>
@@ -213,9 +197,9 @@
     <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
   </dcatapit:Distribution>
   <dcatapit:Distribution rdf:about="https://accessibilita.agid.gov.it/opendata/gli-errori-di-accessibilita-identificabili-automaticamente/json13">
-    <dcat:accessURL rdf:resource="https://accessibilita.agid.gov.it/data/errori:riscontrati.json"/>
+    <dcat:accessURL rdf:resource="https://accessibilita.agid.gov.it/data/erroririscontrati.json"/>
     <dct:license>
-      <dcatapit:LicenseDocument rdf:about="https://w3id.org/italia/controlled-vocabulary/licences/A21:CCBY40">
+      <dcatapit:LicenseDocument rdf:about="https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40">
         <rdf:type rdf:resource="dct:LicenseDocument"/>
         <dct:type rdf:resource="http://purl.org/adms/licencetype/Attribution"/>
         <foaf:name>Creative Commons Attribuzione 4.0 Internazionale (CC BY 4.0)</foaf:name>
@@ -227,9 +211,9 @@
     <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
   </dcatapit:Distribution>
   <dcatapit:Distribution rdf:about="https://accessibilita.agid.gov.it/opendata/dichiarazioni-di-accessibilita/json14">
-    <dcat:accessURL rdf:resource="https://accessibilita.agid.gov.it/data/dichiarazione:trend:anno.json"/>
+    <dcat:accessURL rdf:resource="https://accessibilita.agid.gov.it/data/dichiarazionetrendanno.json"/>
     <dct:license>
-      <dcatapit:LicenseDocument rdf:about="https://w3id.org/italia/controlled-vocabulary/licences/A21:CCBY40">
+      <dcatapit:LicenseDocument rdf:about="https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40">
         <rdf:type rdf:resource="dct:LicenseDocument"/>
         <dct:type rdf:resource="http://purl.org/adms/licencetype/Attribution"/>
         <foaf:name>Creative Commons Attribuzione 4.0 Internazionale (CC BY 4.0)</foaf:name>
@@ -240,24 +224,10 @@
     <dct:title>Trend delle dichiarazioni</dct:title>
     <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
   </dcatapit:Distribution>
-  <dcatapit:Distribution rdf:about="https://accessibilita.agid.gov.it/opendata/dichiarazioni-di-accessibilita/json15">
-    <dcat:accessURL rdf:resource="https://accessibilita.agid.gov.it/data/dichiarazione:regione.json"/>
-    <dct:license>
-      <dcatapit:LicenseDocument rdf:about="https://w3id.org/italia/controlled-vocabulary/licences/A21:CCBY40">
-        <rdf:type rdf:resource="dct:LicenseDocument"/>
-        <dct:type rdf:resource="http://purl.org/adms/licencetype/Attribution"/>
-        <foaf:name>Creative Commons Attribuzione 4.0 Internazionale (CC BY 4.0)</foaf:name>
-      </dcatapit:LicenseDocument>
-    </dct:license>
-    <dct:format rdf:resource="JSON"/>
-    <dct:description>File in formato JSON delle dichiarazioni per regione</dct:description>
-    <dct:title>Dichirazioni per regione</dct:title>
-    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
-  </dcatapit:Distribution>
   <dcatapit:Distribution rdf:about="https://accessibilita.agid.gov.it/opendata/elenco-open-data-accessibilita/csv2">
     <dcat:accessURL rdf:resource="https://accessibilita.agid.gov.it/data/opendata/dichiarazioni.csv"/>
     <dct:license>
-      <dcatapit:LicenseDocument rdf:about="https://w3id.org/italia/controlled-vocabulary/licences/A21:CCBY40">
+      <dcatapit:LicenseDocument rdf:about="https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40">
         <rdf:type rdf:resource="dct:LicenseDocument"/>
         <dct:type rdf:resource="http://purl.org/adms/licencetype/Attribution"/>
         <foaf:name>Creative Commons Attribuzione 4.0 Internazionale (CC BY 4.0)</foaf:name>
@@ -271,7 +241,7 @@
   <dcatapit:Distribution rdf:about="https://accessibilita.agid.gov.it/opendata/elenco-open-data-accessibilita/json3">
     <dcat:accessURL rdf:resource="https://accessibilita.agid.gov.it/data/opendata/dichiarazioni.json"/>
     <dct:license>
-      <dcatapit:LicenseDocument rdf:about="https://w3id.org/italia/controlled-vocabulary/licences/A21:CCBY40">
+      <dcatapit:LicenseDocument rdf:about="https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40">
         <rdf:type rdf:resource="dct:LicenseDocument"/>
         <dct:type rdf:resource="http://purl.org/adms/licencetype/Attribution"/>
         <foaf:name>Creative Commons Attribuzione 4.0 Internazionale (CC BY 4.0)</foaf:name>
@@ -285,7 +255,7 @@
   <dcatapit:Distribution rdf:about="https://accessibilita.agid.gov.it/opendata/elenco-open-data-accessibilita/xml4">
     <dcat:accessURL rdf:resource="https://accessibilita.agid.gov.it/data/opendata/dichiarazioni.xml"/>
     <dct:license>
-      <dcatapit:LicenseDocument rdf:about="https://w3id.org/italia/controlled-vocabulary/licences/A21:CCBY40">
+      <dcatapit:LicenseDocument rdf:about="https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40">
         <rdf:type rdf:resource="dct:LicenseDocument"/>
         <dct:type rdf:resource="http://purl.org/adms/licencetype/Attribution"/>
         <foaf:name>Creative Commons Attribuzione 4.0 Internazionale (CC BY 4.0)</foaf:name>
@@ -299,7 +269,7 @@
   <dcatapit:Distribution rdf:about="https://accessibilita.agid.gov.it/opendata/elenco-open-data-accessibilita/csv5">
     <dcat:accessURL rdf:resource="https://accessibilita.agid.gov.it/data/opendata/errori.csv"/>
     <dct:license>
-      <dcatapit:LicenseDocument rdf:about="https://w3id.org/italia/controlled-vocabulary/licences/A21:CCBY40">
+      <dcatapit:LicenseDocument rdf:about="https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40">
         <rdf:type rdf:resource="dct:LicenseDocument"/>
         <dct:type rdf:resource="http://purl.org/adms/licencetype/Attribution"/>
         <foaf:name>Creative Commons Attribuzione 4.0 Internazionale (CC BY 4.0)</foaf:name>
@@ -313,7 +283,7 @@
   <dcatapit:Distribution rdf:about="https://accessibilita.agid.gov.it/opendata/elenco-open-data-accessibilita/json6">
     <dcat:accessURL rdf:resource="https://accessibilita.agid.gov.it/data/opendata/errori.json"/>
     <dct:license>
-      <dcatapit:LicenseDocument rdf:about="https://w3id.org/italia/controlled-vocabulary/licences/A21:CCBY40">
+      <dcatapit:LicenseDocument rdf:about="https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40">
         <rdf:type rdf:resource="dct:LicenseDocument"/>
         <dct:type rdf:resource="http://purl.org/adms/licencetype/Attribution"/>
         <foaf:name>Creative Commons Attribuzione 4.0 Internazionale (CC BY 4.0)</foaf:name>
@@ -327,7 +297,7 @@
   <dcatapit:Distribution rdf:about="https://accessibilita.agid.gov.it/opendata/elenco-open-data-accessibilita/xml7">
     <dcat:accessURL rdf:resource="https://accessibilita.agid.gov.it/data/opendata/errori.xml"/>
     <dct:license>
-      <dcatapit:LicenseDocument rdf:about="https://w3id.org/italia/controlled-vocabulary/licences/A21:CCBY40">
+      <dcatapit:LicenseDocument rdf:about="https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40">
         <rdf:type rdf:resource="dct:LicenseDocument"/>
         <dct:type rdf:resource="http://purl.org/adms/licencetype/Attribution"/>
         <foaf:name>Creative Commons Attribuzione 4.0 Internazionale (CC BY 4.0)</foaf:name>
@@ -341,7 +311,7 @@
   <dcatapit:Distribution rdf:about="https://accessibilita.agid.gov.it/opendata/elenco-open-data-accessibilita/csv8">
     <dcat:accessURL rdf:resource="https://accessibilita.agid.gov.it/data/opendata/monitoraggio.csv"/>
     <dct:license>
-      <dcatapit:LicenseDocument rdf:about="https://w3id.org/italia/controlled-vocabulary/licences/A21:CCBY40">
+      <dcatapit:LicenseDocument rdf:about="https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40">
         <rdf:type rdf:resource="dct:LicenseDocument"/>
         <dct:type rdf:resource="http://purl.org/adms/licencetype/Attribution"/>
         <foaf:name>Creative Commons Attribuzione 4.0 Internazionale (CC BY 4.0)</foaf:name>
@@ -355,7 +325,7 @@
   <dcatapit:Distribution rdf:about="https://accessibilita.agid.gov.it/opendata/elenco-open-data-accessibilita/json9">
     <dcat:accessURL rdf:resource="https://accessibilita.agid.gov.it/data/opendata/monitoraggio.json"/>
     <dct:license>
-      <dcatapit:LicenseDocument rdf:about="https://w3id.org/italia/controlled-vocabulary/licences/A21:CCBY40">
+      <dcatapit:LicenseDocument rdf:about="https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40">
         <rdf:type rdf:resource="dct:LicenseDocument"/>
         <dct:type rdf:resource="http://purl.org/adms/licencetype/Attribution"/>
         <foaf:name>Creative Commons Attribuzione 4.0 Internazionale (CC BY 4.0)</foaf:name>
@@ -369,7 +339,7 @@
   <dcatapit:Distribution rdf:about="https://accessibilita.agid.gov.it/opendata/elenco-open-data-accessibilita/xml10">
     <dcat:accessURL rdf:resource="https://accessibilita.agid.gov.it/data/opendata/monitoraggio.xml"/>
     <dct:license>
-      <dcatapit:LicenseDocument rdf:about="https://w3id.org/italia/controlled-vocabulary/licences/A21:CCBY40">
+      <dcatapit:LicenseDocument rdf:about="https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40">
         <rdf:type rdf:resource="dct:LicenseDocument"/>
         <dct:type rdf:resource="http://purl.org/adms/licencetype/Attribution"/>
         <foaf:name>Creative Commons Attribuzione 4.0 Internazionale (CC BY 4.0)</foaf:name>
@@ -411,7 +381,7 @@
   <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Organization"/>
   <rdf:type rdf:resource="vcard:Kind"/>
   <vcard:fn>Iniziative Piano Nazionale di Ripresa e Resilienza</vcard:fn>
-  <vcard:hasEmail rdf:resource="accessibilità@agid.gov.it"/>
+  <vcard:hasEmail rdf:resource="accessibilita@agid.gov.it"/>
   <vcard:hasTelephone>06852641</vcard:hasTelephone>
   <vcard:hasURL rdf:resource="https://accessibilita.agid.gov.it/"/>
 </dcatapit:Organization>

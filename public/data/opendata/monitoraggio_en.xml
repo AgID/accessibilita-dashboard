@@ -3,442 +3,443 @@
 <row>
   <region>Veneto</region>
   <ipa_category>Other types of organizations</ipa_category>
-  <num_websites>497</num_websites>
-  <last_monitoring_date>2023-12-31</last_monitoring_date>
+  <num_websites>601</num_websites>
+  <last_monitoring_date>2024-03-31</last_monitoring_date>
 </row>
 
 <row>
   <region>Veneto</region>
   <ipa_category>Municipalities and their consortia and associations</ipa_category>
-  <num_websites>618</num_websites>
-  <last_monitoring_date>2023-12-31</last_monitoring_date>
+  <num_websites>772</num_websites>
+  <last_monitoring_date>2024-03-31</last_monitoring_date>
 </row>
 
 <row>
   <region>Veneto</region>
   <ipa_category>State educational institutions of all levels</ipa_category>
-  <num_websites>596</num_websites>
-  <last_monitoring_date>2023-12-31</last_monitoring_date>
+  <num_websites>608</num_websites>
+  <last_monitoring_date>2024-03-31</last_monitoring_date>
 </row>
 
 <row>
-  <region>Valle d'Aosta/Vallée d'Aoste</region>
+  <region>Valle d'Aosta/VallÃ©e d'Aoste</region>
   <ipa_category>Other types of organizations</ipa_category>
-  <num_websites>83</num_websites>
-  <last_monitoring_date>2023-12-31</last_monitoring_date>
+  <num_websites>88</num_websites>
+  <last_monitoring_date>2024-03-31</last_monitoring_date>
 </row>
 
 <row>
-  <region>Valle d'Aosta/Vallée d'Aoste</region>
+  <region>Valle d'Aosta/VallÃ©e d'Aoste</region>
   <ipa_category>Municipalities and their consortia and associations</ipa_category>
-  <num_websites>70</num_websites>
-  <last_monitoring_date>2023-12-31</last_monitoring_date>
+  <num_websites>81</num_websites>
+  <last_monitoring_date>2024-03-31</last_monitoring_date>
 </row>
 
 <row>
-  <region>Valle d'Aosta/Vallée d'Aoste</region>
+  <region>Valle d'Aosta/VallÃ©e d'Aoste</region>
   <ipa_category>State educational institutions of all levels</ipa_category>
-  <num_websites>24</num_websites>
-  <last_monitoring_date>2023-12-31</last_monitoring_date>
+  <num_websites>28</num_websites>
+  <last_monitoring_date>2024-03-31</last_monitoring_date>
 </row>
 
 <row>
   <region>Umbria</region>
   <ipa_category>Other types of organizations</ipa_category>
-  <num_websites>109</num_websites>
-  <last_monitoring_date>2023-12-31</last_monitoring_date>
+  <num_websites>124</num_websites>
+  <last_monitoring_date>2024-03-31</last_monitoring_date>
 </row>
 
 <row>
   <region>Umbria</region>
   <ipa_category>Municipalities and their consortia and associations</ipa_category>
-  <num_websites>102</num_websites>
-  <last_monitoring_date>2023-12-31</last_monitoring_date>
+  <num_websites>110</num_websites>
+  <last_monitoring_date>2024-03-31</last_monitoring_date>
 </row>
 
 <row>
   <region>Umbria</region>
   <ipa_category>State educational institutions of all levels</ipa_category>
-  <num_websites>133</num_websites>
-  <last_monitoring_date>2023-12-31</last_monitoring_date>
+  <num_websites>138</num_websites>
+  <last_monitoring_date>2024-03-31</last_monitoring_date>
 </row>
 
 <row>
   <region>Toscana</region>
+  <ipa_category>Other types of organizations</ipa_category>
+  <num_websites>487</num_websites>
+  <last_monitoring_date>2024-03-31</last_monitoring_date>
+</row>
+
+<row>
+  <region>Toscana</region>
+  <ipa_category>Municipalities and their consortia and associations</ipa_category>
+  <num_websites>455</num_websites>
+  <last_monitoring_date>2024-03-31</last_monitoring_date>
+</row>
+
+<row>
+  <region>Toscana</region>
+  <ipa_category>State educational institutions of all levels</ipa_category>
+  <num_websites>516</num_websites>
+  <last_monitoring_date>2024-03-31</last_monitoring_date>
+</row>
+
+<row>
+  <region>Sicilia</region>
+  <ipa_category>Other types of organizations</ipa_category>
+  <num_websites>597</num_websites>
+  <last_monitoring_date>2024-03-31</last_monitoring_date>
+</row>
+
+<row>
+  <region>Sicilia</region>
+  <ipa_category>Municipalities and their consortia and associations</ipa_category>
+  <num_websites>423</num_websites>
+  <last_monitoring_date>2024-03-31</last_monitoring_date>
+</row>
+
+<row>
+  <region>Sicilia</region>
+  <ipa_category>State educational institutions of all levels</ipa_category>
+  <num_websites>901</num_websites>
+  <last_monitoring_date>2024-03-31</last_monitoring_date>
+</row>
+
+<row>
+  <region>Sardegna</region>
+  <ipa_category>Other types of organizations</ipa_category>
+  <num_websites>261</num_websites>
+  <last_monitoring_date>2024-03-31</last_monitoring_date>
+</row>
+
+<row>
+  <region>Sardegna</region>
+  <ipa_category>Municipalities and their consortia and associations</ipa_category>
+  <num_websites>417</num_websites>
+  <last_monitoring_date>2024-03-31</last_monitoring_date>
+</row>
+
+<row>
+  <region>Sardegna</region>
+  <ipa_category>State educational institutions of all levels</ipa_category>
+  <num_websites>269</num_websites>
+  <last_monitoring_date>2024-03-31</last_monitoring_date>
+</row>
+
+<row>
+  <region>Puglia</region>
+  <ipa_category>Other types of organizations</ipa_category>
+  <num_websites>390</num_websites>
+  <last_monitoring_date>2024-03-31</last_monitoring_date>
+</row>
+
+<row>
+  <region>Puglia</region>
+  <ipa_category>Municipalities and their consortia and associations</ipa_category>
+  <num_websites>296</num_websites>
+  <last_monitoring_date>2024-03-31</last_monitoring_date>
+</row>
+
+<row>
+  <region>Puglia</region>
+  <ipa_category>State educational institutions of all levels</ipa_category>
+  <num_websites>688</num_websites>
+  <last_monitoring_date>2024-03-31</last_monitoring_date>
+</row>
+
+<row>
+  <region>Provincia autonoma di Trento</region>
+  <ipa_category>Other types of organizations</ipa_category>
+  <num_websites>296</num_websites>
+  <last_monitoring_date>2024-03-31</last_monitoring_date>
+</row>
+
+<row>
+  <region>Provincia autonoma di Trento</region>
+  <ipa_category>Municipalities and their consortia and associations</ipa_category>
+  <num_websites>172</num_websites>
+  <last_monitoring_date>2024-03-31</last_monitoring_date>
+</row>
+
+<row>
+  <region>Provincia autonoma di Trento</region>
+  <ipa_category>State educational institutions of all levels</ipa_category>
+  <num_websites>68</num_websites>
+  <last_monitoring_date>2024-03-31</last_monitoring_date>
+</row>
+
+<row>
+  <region>Provincia autonoma di Bolzano</region>
+  <ipa_category>Other types of organizations</ipa_category>
+  <num_websites>195</num_websites>
+  <last_monitoring_date>2024-03-31</last_monitoring_date>
+</row>
+
+<row>
+  <region>Provincia autonoma di Bolzano</region>
+  <ipa_category>Municipalities and their consortia and associations</ipa_category>
+  <num_websites>156</num_websites>
+  <last_monitoring_date>2024-03-31</last_monitoring_date>
+</row>
+
+<row>
+  <region>Provincia autonoma di Bolzano</region>
+  <ipa_category>State educational institutions of all levels</ipa_category>
+  <num_websites>101</num_websites>
+  <last_monitoring_date>2024-03-31</last_monitoring_date>
+</row>
+
+<row>
+  <region>Piemonte</region>
+  <ipa_category>Other types of organizations</ipa_category>
+  <num_websites>749</num_websites>
+  <last_monitoring_date>2024-03-31</last_monitoring_date>
+</row>
+
+<row>
+  <region>Piemonte</region>
+  <ipa_category>Municipalities and their consortia and associations</ipa_category>
+  <num_websites>1274</num_websites>
+  <last_monitoring_date>2024-03-31</last_monitoring_date>
+</row>
+
+<row>
+  <region>Piemonte</region>
+  <ipa_category>State educational institutions of all levels</ipa_category>
+  <num_websites>624</num_websites>
+  <last_monitoring_date>2024-03-31</last_monitoring_date>
+</row>
+
+<row>
+  <region>Molise</region>
+  <ipa_category>Other types of organizations</ipa_category>
+  <num_websites>74</num_websites>
+  <last_monitoring_date>2024-03-31</last_monitoring_date>
+</row>
+
+<row>
+  <region>Molise</region>
+  <ipa_category>Municipalities and their consortia and associations</ipa_category>
+  <num_websites>132</num_websites>
+  <last_monitoring_date>2024-03-31</last_monitoring_date>
+</row>
+
+<row>
+  <region>Molise</region>
+  <ipa_category>State educational institutions of all levels</ipa_category>
+  <num_websites>54</num_websites>
+  <last_monitoring_date>2024-03-31</last_monitoring_date>
+</row>
+
+<row>
+  <region>Marche</region>
+  <ipa_category>Other types of organizations</ipa_category>
+  <num_websites>249</num_websites>
+  <last_monitoring_date>2024-03-31</last_monitoring_date>
+</row>
+
+<row>
+  <region>Marche</region>
+  <ipa_category>Municipalities and their consortia and associations</ipa_category>
+  <num_websites>215</num_websites>
+  <last_monitoring_date>2024-03-31</last_monitoring_date>
+</row>
+
+<row>
+  <region>Marche</region>
+  <ipa_category>State educational institutions of all levels</ipa_category>
+  <num_websites>238</num_websites>
+  <last_monitoring_date>2024-03-31</last_monitoring_date>
+</row>
+
+<row>
+  <region>Lombardia</region>
+  <ipa_category>Other types of organizations</ipa_category>
+  <num_websites>1364</num_websites>
+  <last_monitoring_date>2024-03-31</last_monitoring_date>
+</row>
+
+<row>
+  <region>Lombardia</region>
+  <ipa_category>Municipalities and their consortia and associations</ipa_category>
+  <num_websites>1712</num_websites>
+  <last_monitoring_date>2024-03-31</last_monitoring_date>
+</row>
+
+<row>
+  <region>Lombardia</region>
+  <ipa_category>State educational institutions of all levels</ipa_category>
+  <num_websites>1180</num_websites>
+  <last_monitoring_date>2024-03-31</last_monitoring_date>
+</row>
+
+<row>
+  <region>Liguria</region>
+  <ipa_category>Other types of organizations</ipa_category>
+  <num_websites>184</num_websites>
+  <last_monitoring_date>2024-03-31</last_monitoring_date>
+</row>
+
+<row>
+  <region>Liguria</region>
+  <ipa_category>Municipalities and their consortia and associations</ipa_category>
+  <num_websites>295</num_websites>
+  <last_monitoring_date>2024-03-31</last_monitoring_date>
+</row>
+
+<row>
+  <region>Liguria</region>
+  <ipa_category>State educational institutions of all levels</ipa_category>
+  <num_websites>217</num_websites>
+  <last_monitoring_date>2024-03-31</last_monitoring_date>
+</row>
+
+<row>
+  <region>Lazio</region>
+  <ipa_category>Other types of organizations</ipa_category>
+  <num_websites>1630</num_websites>
+  <last_monitoring_date>2024-03-31</last_monitoring_date>
+</row>
+
+<row>
+  <region>Lazio</region>
+  <ipa_category>Municipalities and their consortia and associations</ipa_category>
+  <num_websites>394</num_websites>
+  <last_monitoring_date>2024-03-31</last_monitoring_date>
+</row>
+
+<row>
+  <region>Lazio</region>
+  <ipa_category>State educational institutions of all levels</ipa_category>
+  <num_websites>735</num_websites>
+  <last_monitoring_date>2024-03-31</last_monitoring_date>
+</row>
+
+<row>
+  <region>Friuli-Venezia Giulia</region>
+  <ipa_category>Other types of organizations</ipa_category>
+  <num_websites>277</num_websites>
+  <last_monitoring_date>2024-03-31</last_monitoring_date>
+</row>
+
+<row>
+  <region>Friuli-Venezia Giulia</region>
+  <ipa_category>Municipalities and their consortia and associations</ipa_category>
+  <num_websites>265</num_websites>
+  <last_monitoring_date>2024-03-31</last_monitoring_date>
+</row>
+
+<row>
+  <region>Friuli-Venezia Giulia</region>
+  <ipa_category>State educational institutions of all levels</ipa_category>
+  <num_websites>170</num_websites>
+  <last_monitoring_date>2024-03-31</last_monitoring_date>
+</row>
+
+<row>
+  <region>Emilia-Romagna</region>
+  <ipa_category>Other types of organizations</ipa_category>
+  <num_websites>627</num_websites>
+  <last_monitoring_date>2024-03-31</last_monitoring_date>
+</row>
+
+<row>
+  <region>Emilia-Romagna</region>
+  <ipa_category>Municipalities and their consortia and associations</ipa_category>
+  <num_websites>480</num_websites>
+  <last_monitoring_date>2024-03-31</last_monitoring_date>
+</row>
+
+<row>
+  <region>Emilia-Romagna</region>
+  <ipa_category>State educational institutions of all levels</ipa_category>
+  <num_websites>569</num_websites>
+  <last_monitoring_date>2024-03-31</last_monitoring_date>
+</row>
+
+<row>
+  <region>Campania</region>
   <ipa_category>Other types of organizations</ipa_category>
   <num_websites>433</num_websites>
-  <last_monitoring_date>2023-12-31</last_monitoring_date>
+  <last_monitoring_date>2024-03-31</last_monitoring_date>
 </row>
 
 <row>
-  <region>Toscana</region>
+  <region>Campania</region>
   <ipa_category>Municipalities and their consortia and associations</ipa_category>
-  <num_websites>406</num_websites>
-  <last_monitoring_date>2023-12-31</last_monitoring_date>
+  <num_websites>555</num_websites>
+  <last_monitoring_date>2024-03-31</last_monitoring_date>
 </row>
 
 <row>
-  <region>Toscana</region>
+  <region>Campania</region>
   <ipa_category>State educational institutions of all levels</ipa_category>
-  <num_websites>481</num_websites>
-  <last_monitoring_date>2023-12-31</last_monitoring_date>
-</row>
-
-<row>
-  <region>Sicilia</region>
-  <ipa_category>Other types of organizations</ipa_category>
-  <num_websites>538</num_websites>
-  <last_monitoring_date>2023-12-31</last_monitoring_date>
-</row>
-
-<row>
-  <region>Sicilia</region>
-  <ipa_category>Municipalities and their consortia and associations</ipa_category>
-  <num_websites>361</num_websites>
-  <last_monitoring_date>2023-12-31</last_monitoring_date>
-</row>
-
-<row>
-  <region>Sicilia</region>
-  <ipa_category>State educational institutions of all levels</ipa_category>
-  <num_websites>847</num_websites>
-  <last_monitoring_date>2023-12-31</last_monitoring_date>
-</row>
-
-<row>
-  <region>Sardegna</region>
-  <ipa_category>Other types of organizations</ipa_category>
-  <num_websites>239</num_websites>
-  <last_monitoring_date>2023-12-31</last_monitoring_date>
-</row>
-
-<row>
-  <region>Sardegna</region>
-  <ipa_category>Municipalities and their consortia and associations</ipa_category>
-  <num_websites>381</num_websites>
-  <last_monitoring_date>2023-12-31</last_monitoring_date>
-</row>
-
-<row>
-  <region>Sardegna</region>
-  <ipa_category>State educational institutions of all levels</ipa_category>
-  <num_websites>223</num_websites>
-  <last_monitoring_date>2023-12-31</last_monitoring_date>
-</row>
-
-<row>
-  <region>Puglia</region>
-  <ipa_category>Other types of organizations</ipa_category>
-  <num_websites>330</num_websites>
-  <last_monitoring_date>2023-12-31</last_monitoring_date>
-</row>
-
-<row>
-  <region>Puglia</region>
-  <ipa_category>Municipalities and their consortia and associations</ipa_category>
-  <num_websites>261</num_websites>
-  <last_monitoring_date>2023-12-31</last_monitoring_date>
-</row>
-
-<row>
-  <region>Puglia</region>
-  <ipa_category>State educational institutions of all levels</ipa_category>
-  <num_websites>659</num_websites>
-  <last_monitoring_date>2023-12-31</last_monitoring_date>
-</row>
-
-<row>
-  <region>Provincia autonoma di Trento</region>
-  <ipa_category>Other types of organizations</ipa_category>
-  <num_websites>287</num_websites>
-  <last_monitoring_date>2023-12-31</last_monitoring_date>
-</row>
-
-<row>
-  <region>Provincia autonoma di Trento</region>
-  <ipa_category>Municipalities and their consortia and associations</ipa_category>
-  <num_websites>164</num_websites>
-  <last_monitoring_date>2023-12-31</last_monitoring_date>
-</row>
-
-<row>
-  <region>Provincia autonoma di Trento</region>
-  <ipa_category>State educational institutions of all levels</ipa_category>
-  <num_websites>66</num_websites>
-  <last_monitoring_date>2023-12-31</last_monitoring_date>
-</row>
-
-<row>
-  <region>Provincia autonoma di Bolzano</region>
-  <ipa_category>Other types of organizations</ipa_category>
-  <num_websites>185</num_websites>
-  <last_monitoring_date>2023-12-31</last_monitoring_date>
-</row>
-
-<row>
-  <region>Provincia autonoma di Bolzano</region>
-  <ipa_category>Municipalities and their consortia and associations</ipa_category>
-  <num_websites>141</num_websites>
-  <last_monitoring_date>2023-12-31</last_monitoring_date>
-</row>
-
-<row>
-  <region>Provincia autonoma di Bolzano</region>
-  <ipa_category>State educational institutions of all levels</ipa_category>
-  <num_websites>97</num_websites>
-  <last_monitoring_date>2023-12-31</last_monitoring_date>
-</row>
-
-<row>
-  <region>Piemonte</region>
-  <ipa_category>Other types of organizations</ipa_category>
-  <num_websites>681</num_websites>
-  <last_monitoring_date>2023-12-31</last_monitoring_date>
-</row>
-
-<row>
-  <region>Piemonte</region>
-  <ipa_category>Municipalities and their consortia and associations</ipa_category>
   <num_websites>1074</num_websites>
-  <last_monitoring_date>2023-12-31</last_monitoring_date>
+  <last_monitoring_date>2024-03-31</last_monitoring_date>
 </row>
 
 <row>
-  <region>Piemonte</region>
-  <ipa_category>State educational institutions of all levels</ipa_category>
-  <num_websites>593</num_websites>
-  <last_monitoring_date>2023-12-31</last_monitoring_date>
-</row>
-
-<row>
-  <region>Molise</region>
+  <region>Calabria</region>
   <ipa_category>Other types of organizations</ipa_category>
-  <num_websites>71</num_websites>
-  <last_monitoring_date>2023-12-31</last_monitoring_date>
+  <num_websites>209</num_websites>
+  <last_monitoring_date>2024-03-31</last_monitoring_date>
 </row>
 
 <row>
-  <region>Molise</region>
-  <ipa_category>Municipalities and their consortia and associations</ipa_category>
-  <num_websites>116</num_websites>
-  <last_monitoring_date>2023-12-31</last_monitoring_date>
-</row>
-
-<row>
-  <region>Molise</region>
-  <ipa_category>State educational institutions of all levels</ipa_category>
-  <num_websites>50</num_websites>
-  <last_monitoring_date>2023-12-31</last_monitoring_date>
-</row>
-
-<row>
-  <region>Marche</region>
-  <ipa_category>Other types of organizations</ipa_category>
-  <num_websites>232</num_websites>
-  <last_monitoring_date>2023-12-31</last_monitoring_date>
-</row>
-
-<row>
-  <region>Marche</region>
-  <ipa_category>Municipalities and their consortia and associations</ipa_category>
-  <num_websites>193</num_websites>
-  <last_monitoring_date>2023-12-31</last_monitoring_date>
-</row>
-
-<row>
-  <region>Marche</region>
-  <ipa_category>State educational institutions of all levels</ipa_category>
-  <num_websites>236</num_websites>
-  <last_monitoring_date>2023-12-31</last_monitoring_date>
-</row>
-
-<row>
-  <region>Lombardia</region>
-  <ipa_category>Other types of organizations</ipa_category>
-  <num_websites>1238</num_websites>
-  <last_monitoring_date>2023-12-31</last_monitoring_date>
-</row>
-
-<row>
-  <region>Lombardia</region>
-  <ipa_category>Municipalities and their consortia and associations</ipa_category>
-  <num_websites>1567</num_websites>
-  <last_monitoring_date>2023-12-31</last_monitoring_date>
-</row>
-
-<row>
-  <region>Lombardia</region>
-  <ipa_category>State educational institutions of all levels</ipa_category>
-  <num_websites>1153</num_websites>
-  <last_monitoring_date>2023-12-31</last_monitoring_date>
-</row>
-
-<row>
-  <region>Liguria</region>
-  <ipa_category>Other types of organizations</ipa_category>
-  <num_websites>158</num_websites>
-  <last_monitoring_date>2023-12-31</last_monitoring_date>
-</row>
-
-<row>
-  <region>Liguria</region>
-  <ipa_category>Municipalities and their consortia and associations</ipa_category>
-  <num_websites>255</num_websites>
-  <last_monitoring_date>2023-12-31</last_monitoring_date>
-</row>
-
-<row>
-  <region>Liguria</region>
-  <ipa_category>State educational institutions of all levels</ipa_category>
-  <num_websites>211</num_websites>
-  <last_monitoring_date>2023-12-31</last_monitoring_date>
-</row>
-
-<row>
-  <region>Lazio</region>
-  <ipa_category>Other types of organizations</ipa_category>
-  <num_websites>1167</num_websites>
-  <last_monitoring_date>2023-12-31</last_monitoring_date>
-</row>
-
-<row>
-  <region>Lazio</region>
-  <ipa_category>Municipalities and their consortia and associations</ipa_category>
-  <num_websites>358</num_websites>
-  <last_monitoring_date>2023-12-31</last_monitoring_date>
-</row>
-
-<row>
-  <region>Lazio</region>
-  <ipa_category>State educational institutions of all levels</ipa_category>
-  <num_websites>727</num_websites>
-  <last_monitoring_date>2023-12-31</last_monitoring_date>
-</row>
-
-<row>
-  <region>Friuli-Venezia Giulia</region>
-  <ipa_category>Other types of organizations</ipa_category>
-  <num_websites>232</num_websites>
-  <last_monitoring_date>2023-12-31</last_monitoring_date>
-</row>
-
-<row>
-  <region>Friuli-Venezia Giulia</region>
-  <ipa_category>Municipalities and their consortia and associations</ipa_category>
-  <num_websites>245</num_websites>
-  <last_monitoring_date>2023-12-31</last_monitoring_date>
-</row>
-
-<row>
-  <region>Friuli-Venezia Giulia</region>
-  <ipa_category>State educational institutions of all levels</ipa_category>
-  <num_websites>168</num_websites>
-  <last_monitoring_date>2023-12-31</last_monitoring_date>
-</row>
-
-<row>
-  <region>Emilia-Romagna</region>
-  <ipa_category>Other types of organizations</ipa_category>
-  <num_websites>566</num_websites>
-  <last_monitoring_date>2023-12-31</last_monitoring_date>
-</row>
-
-<row>
-  <region>Emilia-Romagna</region>
+  <region>Calabria</region>
   <ipa_category>Municipalities and their consortia and associations</ipa_category>
   <num_websites>408</num_websites>
-  <last_monitoring_date>2023-12-31</last_monitoring_date>
-</row>
-
-<row>
-  <region>Emilia-Romagna</region>
-  <ipa_category>State educational institutions of all levels</ipa_category>
-  <num_websites>552</num_websites>
-  <last_monitoring_date>2023-12-31</last_monitoring_date>
-</row>
-
-<row>
-  <region>Campania</region>
-  <ipa_category>Other types of organizations</ipa_category>
-  <num_websites>385</num_websites>
-  <last_monitoring_date>2023-12-31</last_monitoring_date>
-</row>
-
-<row>
-  <region>Campania</region>
-  <ipa_category>Municipalities and their consortia and associations</ipa_category>
-  <num_websites>499</num_websites>
-  <last_monitoring_date>2023-12-31</last_monitoring_date>
-</row>
-
-<row>
-  <region>Campania</region>
-  <ipa_category>State educational institutions of all levels</ipa_category>
-  <num_websites>1027</num_websites>
-  <last_monitoring_date>2023-12-31</last_monitoring_date>
-</row>
-
-<row>
-  <region>Calabria</region>
-  <ipa_category>Other types of organizations</ipa_category>
-  <num_websites>173</num_websites>
-  <last_monitoring_date>2023-12-31</last_monitoring_date>
-</row>
-
-<row>
-  <region>Calabria</region>
-  <ipa_category>Municipalities and their consortia and associations</ipa_category>
-  <num_websites>359</num_websites>
-  <last_monitoring_date>2023-12-31</last_monitoring_date>
+  <last_monitoring_date>2024-03-31</last_monitoring_date>
 </row>
 
 <row>
   <region>Calabria</region>
   <ipa_category>State educational institutions of all levels</ipa_category>
-  <num_websites>331</num_websites>
-  <last_monitoring_date>2023-12-31</last_monitoring_date>
+  <num_websites>342</num_websites>
+  <last_monitoring_date>2024-03-31</last_monitoring_date>
 </row>
 
 <row>
   <region>Basilicata</region>
   <ipa_category>Other types of organizations</ipa_category>
-  <num_websites>85</num_websites>
-  <last_monitoring_date>2023-12-31</last_monitoring_date>
+  <num_websites>96</num_websites>
+  <last_monitoring_date>2024-03-31</last_monitoring_date>
 </row>
 
 <row>
   <region>Basilicata</region>
   <ipa_category>Municipalities and their consortia and associations</ipa_category>
-  <num_websites>106</num_websites>
-  <last_monitoring_date>2023-12-31</last_monitoring_date>
+  <num_websites>127</num_websites>
+  <last_monitoring_date>2024-03-31</last_monitoring_date>
 </row>
 
 <row>
   <region>Basilicata</region>
   <ipa_category>State educational institutions of all levels</ipa_category>
-  <num_websites>124</num_websites>
-  <last_monitoring_date>2023-12-31</last_monitoring_date>
+  <num_websites>133</num_websites>
+  <last_monitoring_date>2024-03-31</last_monitoring_date>
 </row>
 
 <row>
   <region>Abruzzo</region>
   <ipa_category>Other types of organizations</ipa_category>
-  <num_websites>204</num_websites>
-  <last_monitoring_date>2023-12-31</last_monitoring_date>
+  <num_websites>235</num_websites>
+  <last_monitoring_date>2024-03-31</last_monitoring_date>
 </row>
 
 <row>
   <region>Abruzzo</region>
   <ipa_category>Municipalities and their consortia and associations</ipa_category>
-  <num_websites>311</num_websites>
-  <last_monitoring_date>2023-12-31</last_monitoring_date>
+  <num_websites>340</num_websites>
+  <last_monitoring_date>2024-03-31</last_monitoring_date>
 </row>
 
 <row>
   <region>Abruzzo</region>
   <ipa_category>State educational institutions of all levels</ipa_category>
-  <num_websites>205</num_websites>
-  <last_monitoring_date>2023-12-31</last_monitoring_date>
+  <num_websites>214</num_websites>
+  <last_monitoring_date>2024-03-31</last_monitoring_date>
 </row>
 
 </table>
+

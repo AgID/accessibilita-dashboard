@@ -2,22 +2,32 @@
     {
         "date_en": "2024",
         "date_it": "2024",
-        "title_en": "The new features and monitoring datasets",
-        "title_it": "Nuove funzionalità  e nuovi dataset monitoraggio",
-        "details_en": "Data publication for the 1th quarter of 2024. Addition of in-depth monitoring data, manually conducted on a limited sample of sites (100) and apps (60) for the year 2024.",
-        "details_it": "Pubblicazione dati 1° trimestre 2024. Aggiunta dei dati del monitoraggio approfondito, realizzato manualmente su un campione limitato di siti (100) e app (60) per l'anno 2023.",
+        "title_en": "The new features",
+        "title_it": "Nuove funzionalità",
+        "details_en": "Addition of in-depth monitoring data, manually conducted on a limited sample of sites (103) and apps (62) for the year 2024.",
+        "details_it": "Aggiunta dei dati del monitoraggio approfondito, realizzato manualmente su un campione limitato di siti (103) e app (62) per l'anno 2023.",
         "release_en": "Arriving",
         "release_it": "In Arrivo"
     },
     {
+        "date_en": "March 2024",
+        "date_it": "Marzo 2024",
+        "title_en": "New monitoring datasets",
+        "title_it": "Nuovi dataset monitoraggio",
+        "details_en": "Data publication for the 1th quarter of 2024.",
+        "details_it": "Pubblicazione dati 1° trimestre 2024",
+        "release_en": "Actual",
+        "release_it": "Attuale"
+    },
+    {
         "date_en": "January 2024",
         "date_it": "Gennaio 2024",
-        "title_en": "Introduction of data relating to App Statements  and publication of new monitoring data of Q4 2023",
+        "title_en": "Introduction of data relating to App Statements and publication of new monitoring data of Q4 2023",
         "title_it": "Introduzione dei dati relativi alle Dichiarazioni delle App e pubblicazione nuovo monitoraggio Mauve",
         "details_en": "Publication of new data relating to PA App Statements and of new monitoring data of Q4 2023",
         "details_it": "Pubblicazione dei nuovi dati relativi alle Dichiarazioni delle App delle PA e del monitoraggio Mauve",
-        "release_en": "Actual",
-        "release_it": "Attuale"
+        "release_en": "Passed",
+        "release_it": "Passata"
     },
     {
         "date_en": "December 2023",
@@ -34,7 +44,7 @@
         "date_it": "Novembre 2023",
         "title_en": "The new features and monitoring datasets e release web site in english.",
         "title_it": "Introduzione di nuove informazioni e rilascio sito lingua Inglese",
-        "details_en": "Increase in the number of monitored sites following the addition of new sources (WAI).Implementation of multi-language support - inclusion of English language.",
+        "details_en": "Increase in the number of monitored sites following the addition of new sources (WAI). Implementation of multi-language support - inclusion of English language.",
         "details_it": "Incremento del numero dei siti monitorati a seguito di inserimento nuove fonti (WAI). Applicazione del multi language - inclusione della lingua inglese.",
         "release_en": "Passed",
         "release_it": "Passata"

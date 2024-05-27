@@ -1,9 +1,9 @@
 <script>
-  import DichiarazioniMainCard from "../../lib/components/DichiarazioniMainCard.svelte";
-  import DichiarazioniHalfSitiApp from "../../lib/components/DichiarazioniHalfSitiApp.svelte";
-  import DichiarazioniLineChart from "../../lib/components/DichiarazioniLineChart.svelte";
-  import DichiarazioneAutovalutazioni from "../../lib/components/DichiarazioniAutovalutazioni.svelte";
-  import DichiarazioniPieChart from "../../lib/components/DichiarazioniPieChart.svelte";
+  import MainCard from "../../lib/components/dichiarazioni/MainCard.svelte";
+  import HalfSitiApp from "../../lib/components/dichiarazioni/HalfSitiApp.svelte";
+  import LineChart from "../../lib/components/dichiarazioni/LineChart.svelte";
+  import Autovalutazioni from "../../lib/components/dichiarazioni/Autovalutazioni.svelte";
+  import PieChart from "../../lib/components/dichiarazioni/PieChart.svelte";
   import { t } from "../../lib/utils/i18n";
 </script>
 
@@ -13,26 +13,26 @@
 
 <section aria-label={$t("dichiarazioni.section")}>
   <div class="container">
-    <DichiarazioniMainCard />
+    <MainCard />
   </div>
 
-  <DichiarazioniHalfSitiApp/>
+  <HalfSitiApp/>
 
   <div
     class="d-flex flex-wrap container px-0 justify-content-between flex-wrap align-items-stretch"
   >
     <div class="col-12">
-      <DichiarazioniLineChart />
+      <LineChart />
     </div>
   </div>
 
-  <DichiarazioneAutovalutazioni />
+  <Autovalutazioni />
 
   <div
     class="container mb-5"
     style="padding-left: 0 !important; padding-right: 0 !important;"
   >
-  <DichiarazioniPieChart/>
+  <PieChart/>
   </div>
 
 </section>

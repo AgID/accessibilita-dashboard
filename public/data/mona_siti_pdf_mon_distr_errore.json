@@ -1,0 +1,18 @@
+    {
+        "data": [
+            {
+                "perc_errore_en": "PDF with errors",
+                "perc_errore_it": "PDF con errori",
+                "perc_num_pdf_senza_errori": 99.34426229508196721300
+            },
+            {
+                "perc_errore_en": "PDF without errors",
+                "perc_errore_it": "PDF senza errori",
+                "perc_num_pdf_senza_errori": 0.65573770491803278700
+            }
+        ],
+        "intestazione": {
+            "periodo_monitoraggio": "4-2023",
+            "dat_ultimo_aggiornamento": "2023-12-31"
+        }
+    }

@@ -1,0 +1,18 @@
+    {
+        "data": [
+            {
+                "num_errori": 30,
+                "cod_livello_conformita": "A",
+                "des_paragrafo_principale": "Web"
+            },
+            {
+                "num_errori": 19,
+                "cod_livello_conformita": "AA",
+                "des_paragrafo_principale": "Web"
+            }
+        ],
+        "intestazione": {
+            "periodo_monitoraggio": "4-2023",
+            "dat_ultimo_aggiornamento": "2023-12-31"
+        }
+    }

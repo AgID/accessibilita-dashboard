@@ -1,17 +1,17 @@
 <script>
-  import DichiarazioniSITIMainCard from "../../../lib/components/DichiarazioniSitiMainCard.svelte";
-  import DichiarazioniSITILineChart from "../../../lib/components/DichiarazioniSitiLineChart.svelte";
-  import DichiarazioneSITIAutovalutazioni from "../../../lib/components/DichiarazioniSitiAutovalutazioni.svelte";
+  import SITIMainCard from "../../../lib/components/dichiarazioni/SitiMainCard.svelte";
+  import SITILineChart from "../../../lib/components/dichiarazioni/SitiLineChart.svelte";
+  import SITIAutovalutazioni from "../../../lib/components/dichiarazioni/SitiAutovalutazioni.svelte";
 
-  import DichiarazioneSitiIstituzionaliMain from "../../../lib/components/DichiarazioniSitiIstituzionaliMain.svelte";
-  import DichiarazioneSitiIstituzionaliHalf from "../../../lib/components/DichiarazioniSitiIstituzionaliHalf.svelte";
-  import DichiarazioniAutovalutazioneIstituzionali from "../../../lib/components/DichiarazioniAutovalutazioneIstituzionali.svelte";
-  import DichiarazioniSitiIstituzionaliTable from "../../../lib/components/DichiarazioniSitiIstituzionaliTable.svelte";
+  import SitiIstituzionaliMain from "../../../lib/components/dichiarazioni/SitiIstituzionaliMain.svelte";
+  import SitiIstituzionaliHalf from "../../../lib/components/dichiarazioni/SitiIstituzionaliHalf.svelte";
+  import AutovalutazioneIstituzionali from "../../../lib/components/dichiarazioni/AutovalutazioneIstituzionali.svelte";
+  import SitiIstituzionaliTable from "../../../lib/components/dichiarazioni/SitiIstituzionaliTable.svelte";
 
-  import DichiarazioneSitiTematiciMain from "../../../lib/components/DichiarazioniSitiTematiciMain.svelte";
-  import DichiarazioniAutovalutazioneTematici from "../../../lib/components/DichiarazioniAutovalutazioneTematici.svelte";
-  import DichiarazioniSitiTematiciTable from "../../../lib/components/DichiarazioniSitiTematiciTable.svelte";
-  import DichiarazioneAutovalutazioniConfronto from "../../../lib/components/DichiarazioniAutovalutazioniConfronto.svelte";
+  import SitiTematiciMain from "../../../lib/components/dichiarazioni/SitiTematiciMain.svelte";
+  import AutovalutazioneTematici from "../../../lib/components/dichiarazioni/AutovalutazioneTematici.svelte";
+  import SitiTematiciTable from "../../../lib/components/dichiarazioni/SitiTematiciTable.svelte";
+  import AutovalutazioniConfronto from "../../../lib/components/dichiarazioni/AutovalutazioniConfronto.svelte";
   import { t } from "../../../lib/utils/i18n";
 
 </script>
@@ -22,38 +22,38 @@
 
 <section aria-label={$t("dichiarazioni.SITI-section")}>
   <div class="container">
-    <DichiarazioniSITIMainCard />
+    <SITIMainCard />
   </div>
   <div
     class="d-flex flex-wrap container px-0 justify-content-between flex-wrap align-items-stretch"
   >
     <div class="col-12">
-      <DichiarazioniSITILineChart />
+      <SITILineChart />
     </div>
   </div>
 
-  <DichiarazioneSITIAutovalutazioni />
+  <SITIAutovalutazioni />
   <div class="container">
-    <DichiarazioneSitiIstituzionaliMain />
+    <SitiIstituzionaliMain />
   </div>
 
-  <DichiarazioneSitiIstituzionaliHalf />
+  <SitiIstituzionaliHalf />
   <div
     class="container pb-3"
     style="padding-left: 0 !important; padding-right: 0 !important;"
   >
-  <DichiarazioniAutovalutazioneIstituzionali/>
+  <AutovalutazioneIstituzionali/>
   <br>
-    <DichiarazioniSitiIstituzionaliTable />
+    <SitiIstituzionaliTable />
   </div>
 
 
   <div class="backgroundLightBlue my-5">
    <div class="container pb-4">
-    <DichiarazioneSitiTematiciMain />
-    <DichiarazioniAutovalutazioneTematici/>
+    <SitiTematiciMain />
+    <AutovalutazioneTematici/>
     <br>
-    <DichiarazioniSitiTematiciTable />
+    <SitiTematiciTable />
   </div>
   </div> 
 
@@ -62,7 +62,7 @@
     style="padding-left: 0 !important; padding-right: 0 !important;"
   >
 
-  <DichiarazioneAutovalutazioniConfronto/>
+  <AutovalutazioniConfronto/>
   </div>
 </section>
 

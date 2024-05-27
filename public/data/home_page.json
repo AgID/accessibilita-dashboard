@@ -1,27 +1,27 @@
 [
     {
+        "valore": 3724088,
+        "indicatore": "num_pagine_valutate",
+        "dat_ultimo_monitoraggio": "2024-03-31"
+    },
+    {
         "valore": 47842,
         "indicatore": "num_dichiarazioni",
         "dat_ultimo_monitoraggio": "2024-09-23"
     },
     {
-        "valore": 16.42,
+        "valore": 14.22,
         "indicatore": "incidenza_errori",
-        "dat_ultimo_monitoraggio": "2023-12-31"
+        "dat_ultimo_monitoraggio": "2024-03-31"
+    },
+    {
+        "valore": 27112,
+        "indicatore": "num_siti_monitorati",
+        "dat_ultimo_monitoraggio": "2024-03-31"
     },
     {
         "valore": 11225,
         "indicatore": "num_enti_obiettivi",
         "dat_ultimo_monitoraggio": "2023"
-    },
-    {
-        "valore": 24391,
-        "indicatore": "num_siti_monitorati",
-        "dat_ultimo_monitoraggio": "2023-12-31"
-    },
-    {
-        "valore": 4234130,
-        "indicatore": "num_pagine_valutate",
-        "dat_ultimo_monitoraggio": "2023-12-31"
     }
 ]

@@ -1,0 +1,38 @@
+    {
+        "data": [
+            {
+                "num_perc_errori": 31.57894736842105263200,
+                "cod_livello_conformita": "A",
+                "des_success_criteria_en": "10.1.1.1 Non-text Content",
+                "des_success_criteria_it": "10.1.1.1 Contenuti non testuali"
+            },
+            {
+                "num_perc_errori": 26.31578947368421052600,
+                "cod_livello_conformita": "AA",
+                "des_success_criteria_en": "10.2.4.6 Headings and Labels",
+                "des_success_criteria_it": "10.2.4.6 Intestazioni ed etichette"
+            },
+            {
+                "num_perc_errori": 15.78947368421052631600,
+                "cod_livello_conformita": "A",
+                "des_success_criteria_en": "10.1.3.1 Info and Relationships",
+                "des_success_criteria_it": "10.1.3.1 Informazioni e correlazioni"
+            },
+            {
+                "num_perc_errori": 15.78947368421052631600,
+                "cod_livello_conformita": "A",
+                "des_success_criteria_en": "10.4.1.1 Parsing",
+                "des_success_criteria_it": "10.4.1.1 Analisi sintattica (parsing)"
+            },
+            {
+                "num_perc_errori": 10.52631578947368421100,
+                "cod_livello_conformita": "A",
+                "des_success_criteria_en": "10.4.1.2 Name, Role, Value",
+                "des_success_criteria_it": "10.4.1.2 Nome, ruolo, valore"
+            }
+        ],
+        "intestazione": {
+            "periodo_monitoraggio": "4-2023",
+            "dat_ultimo_aggiornamento": "2023-12-31"
+        }
+    }

@@ -1,6 +1,6 @@
 <script>
   import { onMount } from "svelte";
-  import ErrCard from "../lib/components/ErrCard.svelte";
+  import InfoCardSemp from "../lib/components/errori/InfoCardSemp.svelte";
   import HomeMainCard from "../lib/components/HomeMainCard.svelte";
   import Icon from "../lib/components/Icon.svelte";
   import KpiCard from "../lib/components/KpiCard.svelte";
@@ -8,8 +8,8 @@
   import { t } from "../lib/utils/i18n";
 
   let innerWidth;
-
   let pagineValutate;
+  let sitiValutati;
   let pdfValutati;
   let dichiarazioniAccessibilita;
   let obiettiviAccessibilità;
@@ -36,6 +36,8 @@
     dichiarazioniAccessibilita = data.find(
       (d) => d.indicatore == "num_dichiarazioni"
     );
+
+    sitiValutati = data.find((d) => d.indicatore == "num_siti_monitorati");
 
     const rsPDF = await fetch("/data/monitoraggio_pdf_intestazione.json");
     const dataPDF = await rsPDF.json();
@@ -86,19 +88,21 @@
 
 <HomeMainCard />
 <div class="background p-3 d-flex justify-content-center">
-  <p class="m-0">{$t("homepage.alert")}
+  <p class="m-0">
+    {$t("homepage.alert")}
     <a
-    href="http://monitoraggio.accessibilita.agid.gov.it"
-    title={$t("layout.externalLink")}
-    target="_blank"
-    rel="noreferrer"
-    >monitoraggio.accessibilita.agid.gov.it<Icon
-      name="it it-external-link"
-      variant="primary"
-      size="xs"
-      customClass="mb-1"
-    /></a
-  ></p>
+      href="http://monitoraggio.accessibilita.agid.gov.it"
+      title={$t("layout.externalLink")}
+      target="_blank"
+      rel="noreferrer"
+      >monitoraggio.accessibilita.agid.gov.it<Icon
+        name="it it-external-link"
+        variant="primary"
+        size="xs"
+        customClass="mb-1"
+      /></a
+    >
+  </p>
 </div>
 
 <div class="container my-4 pb-3">
@@ -109,6 +113,25 @@
           <div class="card-box mt-0">
             <div class="py-4 px-3 ms-xl-3">
               <div class="row mb-2">
+                <div class="col-3 customMonBox my-auto">
+                  <img
+                    src="/images/globe.svg"
+                    alt=""
+                    class="ps-2"
+                    aria-hidden="true"
+                  />
+                </div>
+                <div class="col-9 ps-3">
+                  <p class="cardTitle greyText">
+                    {$t("homepage.monitoraggioCard3Title")}
+                  </p>
+                  <p class="cardMainData mt-2 mb-0" style="color: #0066cc">
+                    {nf(sitiValutati.valore)}
+                  </p>
+                </div>
+              </div>
+              <hr class="w-75 my-4 mx-auto text-muted" />
+              <div class="row">
                 <div class="col-3 customMonBox my-auto">
                   <img
                     src="/images/window-stack.svg"
@@ -150,19 +173,11 @@
                 {$t("homepage.latestUpdate")}{monitoraggioDateFormatted}
               </div>
             </div>
-            <div class="kpi-footer cursor w-100">
-              <a href="/monitoraggio">
-                <span class="text"
-                  >{$t("homepage.monitoraggioPageLink")}
-                  <Icon name="it it-arrow-right" variant="white" size="sm" />
-                </span>
-              </a>
-            </div>
           </div>
         </div>
       {/if}
 
-      <div class="col-12 col-lg-7 pe-xl-5">
+      <div class="col-12 col-lg-7 pe-xl-5 mt-lg-3">
         <div class="d-inline-flex my-4">
           <span aria-hidden="true">
             <Icon name="it it-chart-line" variant="primary" size="lg" />
@@ -170,7 +185,20 @@
           <h2 class="lead mx-3">{$t("homepage.monitoraggioTitle")}</h2>
         </div>
         <h3 class="h3 pb-lg-4 mb-0">{$t("homepage.monitoraggioSubtitle")}</h3>
-        <p class="pe-lg-5">{$t("homepage.monitoraggioParagraph")}</p>
+        <p class="pe-lg-5">
+          {$t("homepage.monitoraggioParagraphPt1")}
+          <a href="/monitoraggio-semplificato"  rel="noreferrer"
+            >{$t("homepage.monitoraggioSempLink")}</a
+          >
+          {@html $t("homepage.monitoraggioParagraphPt2", {
+            doubleBreak: "<br/><br/>",
+            break: "<br>",
+          })}
+          <a href="/monitoraggio-approfondito"  rel="noreferrer"
+            >{$t("homepage.monitoraggioAppLink")}</a
+          >
+          {$t("homepage.monitoraggioParagraphPt3")}
+        </p>
       </div>
 
       {#if innerWidth < 992}
@@ -180,12 +208,19 @@
               <div class="row mb-2 text-center">
                 <div class="col-12">
                   <p class="cardTitle greyText">
+                    {$t("homepage.monitoraggioCard3Title")}
+                  </p>
+                  <p class="cardMainData mt-2 mb-0" style="color: #0066cc">
+                    {nf(sitiValutati.valore)}
+                  </p>
+                  <hr class="w-75 my-4 mx-auto text-muted" />
+                  <p class="cardTitle greyText">
                     {$t("homepage.monitoraggioCardTitle")}
                   </p>
                   <p class="cardMainData mt-2 mb-0" style="color: #0066cc">
                     {nf(pagineValutate.valore)}
                   </p>
-              <hr class="w-75 my-4 mx-auto text-muted" />
+                  <hr class="w-75 my-4 mx-auto text-muted" />
                   <p class="cardTitle greyText my-4">
                     {$t("homepage.monitoraggioCard2Title")}
                   </p>
@@ -199,14 +234,6 @@
               <div class="captionUpdateDarker text-center">
                 {$t("homepage.latestUpdate")}{monitoraggioDateFormatted}
               </div>
-            </div>
-            <div class="kpi-footer cursor w-100">
-              <a href="/monitoraggio">
-                <span class="text"
-                  >{$t("homepage.monitoraggioPageLink")}
-                  <Icon name="it it-arrow-right" variant="white" size="sm" />
-                </span>
-              </a>
             </div>
           </div>
         </div>
@@ -228,61 +255,61 @@
         <h2 class="lead mx-3">{$t("homepage.erroriTitle")}</h2>
       </div>
 
-      <div class="col-lg-7 pe-xl-5">
+      <div class="col-lg-7 pe-xl-4">
         <h3 class="h3 pe-lg-3 pb-lg-4">
           {$t("homepage.erroriSubtitle")}
         </h3>
-        <p>
-          {$t("homepage.erroriParagraphA")}
-          <a
-            href={$t("homepage.erroriWCAGLink")}
-            title={$t("layout.externalLink")}
-            target="_blank"
-            rel="noreferrer"
-            >WCAG 2.1 (Web Content Accessibility Guidelines 2.1)<Icon
-              name="it it-external-link"
-              variant="primary"
-              size="xs"
-              customClass="mb-1"
-            /></a
-          >
-          {@html $t("homepage.erroriParagraphB", {
-            doubleBreak: "<br/><br/>",
-          })}
-          <a
-            title={$t("layout.externalLink")}
-            target="_blank"
-            rel="noreferrer"
-            href={$t("homepage.erroriMAUVElink")}
-            >MAUVE++<Icon
-              name="it it-external-link"
-              variant="primary"
-              size="xs"
-              customClass="mb-1"
-            />
-          </a>
-          {@html $t("homepage.erroriParagraphC", {
-            totErrori: totalerroriConformita,
-          })}
-        </p>
-        <a
-          href="/errori"
-          class="button-text a-button d-none d-lg-flex"
-          style="text-decoration: none;"
-        >
-          {$t("homepage.erroriPageLink")}
-        </a>
+<p>
+  {$t("homepage.erroriParagraphPt1")}
+  <a
+  href={$t("homepage.erroriWCAGLink")}
+  title={$t("layout.externalLink")}
+  target="_blank"
+  rel="noreferrer"
+  >WCAG 2.1 (Web Content Accessibility Guidelines 2.1)<Icon
+    name="it it-external-link"
+    variant="primary"
+    size="xs"
+    customClass="mb-1"
+  /></a
+>
+{@html $t("homepage.erroriParagraphPt2", {
+  doubleBreak: "<br/><br/>",
+})}
+
+<a href="/errori-semplificato"  rel="noreferrer"
+>{$t("homepage.erroriParagraphPt3")}</a
+>
+
+{$t("homepage.erroriParagraphPt4")}
+
+<a
+title={$t("layout.externalLink")}
+target="_blank"
+rel="noreferrer"
+href={$t("homepage.erroriMAUVElink")}
+>MAUVE++<Icon
+  name="it it-external-link"
+  variant="primary"
+  size="xs"
+  customClass="mb-1"
+/>
+</a>
+
+{@html $t("homepage.erroriParagraphPt5", {
+  totErrori: totalerroriConformita, doubleBreak: "<br/><br/>"
+})}
+
+
+<a href="/errori-approfondito"  rel="noreferrer"
+>{$t("homepage.erroriParagraphPt6")}</a
+>
+{$t("homepage.erroriParagraphPt7")}
+</p>
       </div>
 
       <div class="col-lg-5 px-0">
-        <ErrCard />
-      </div>
-    </div>
-    <div class="row mx-auto mt-2 mb-5 mb-lg-0">
-      <div class="col-12 d-lg-none errButton">
-        <a href="/errori" class="button-text" style="text-decoration: none;">
-          {$t("homepage.erroriPageLink")}</a
-        >
+        <InfoCardSemp />
       </div>
     </div>
   </div>

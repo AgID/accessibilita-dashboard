@@ -3,6 +3,19 @@
 
   export let selectedPage;
 
+  function ignoreIndex(path) {
+    let correctedPath = path;
+    if (correctedPath === '/index') {
+      correctedPath = '/';
+    }
+    if (correctedPath.endsWith('/index')) {
+      correctedPath = correctedPath.substring(0, correctedPath.length - 6);
+    }
+    return correctedPath;
+  }
+
+  $: selectedPage = ignoreIndex(selectedPage);
+
   import { t } from "../utils/i18n";
 </script>
 
@@ -15,27 +28,118 @@
             <li class="my-auto">
               <a
                 href="/"
-                class:selected={selectedPage == "/index"}
-                aria-current={selectedPage == "/index" ? "true" : "false"}
+                class:selected={selectedPage == "/"}
+                aria-current={selectedPage == "/" ? "true" : "false"}
                 class="pageChoice display6"><span>{$t("header.tabHome")}</span></a
               >
             </li>
-            <li class="my-auto">
+            <li class="nav-item dropdown">
               <a
-                href="/monitoraggio"
-                class:selected={selectedPage == "/monitoraggio"}
-                aria-current={selectedPage == "/monitoraggio"
-                  ? "true"
-                  : "false"} class="pageChoice display6"><span>{$t("header.tabMonitoraggio")}</span></a
+                class="nav-link dropdown-toggle display6"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+                id="dropdownMonitoring"
+                style="border-bottom-width: 0px;"
+                href="/"
+                class:selected={
+                  selectedPage == "/monitoraggio-semplificato" ||
+                  selectedPage == "/monitoraggio-approfondito"}
               >
+                <span>{$t("header.tabMonitoraggio")}</span>
+                <svg
+                  class="icon icon-sm ms-2"
+                  aria-label="espandi"
+                  class:selected={
+                    selectedPage == "/monitoraggio-semplificato" ||
+                    selectedPage == "/monitoraggio-approfondito"}
+                >
+                  <use
+                    href="/bootstrap-italia/dist/svg/sprites.svg#it-expand"
+                  />
+                </svg>
+              </a>
+              <div
+                class="dropdown-menu"
+                role="region"
+                aria-labelledby="dropdownMonitoring"
+              >
+                <div class="link-list-wrapper">
+                  <ul class="link-list">
+                    <li>
+                      <a
+                        class="dropdown-item list-item py-2 pageChoice align-middle"
+                        href="/monitoraggio-semplificato"
+                        aria-current={selectedPage == "/monitoraggio-semplificato"
+                          ? "true"
+                          : "false"}><span>{$t("header.tabMonSemplificato")}</span></a
+                      >
+                    </li>
+                    <li>
+                      <a
+                        class="dropdown-item list-item py-2 pageChoice align-middle"
+                        href="/monitoraggio-approfondito"
+                        aria-current={selectedPage == "/monitoraggio-approfondito"
+                          ? "true"
+                          : "false"}><span>{$t("header.tabMonApprofondito")}</span></a
+                      >
+                    </li>
+                  </ul>
+                </div>
+              </div>
             </li>
-            <li class="my-auto">
+            <li class="nav-item dropdown">
               <a
-                href="/errori"
-                class:selected={selectedPage == "/errori"}
-                aria-current={selectedPage == "/errori" ? "true" : "false"}
-                class="pageChoice display6"><span>{$t("header.tabErrori")}</span></a
+                class="nav-link dropdown-toggle display6"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+                id="dropdownErrors"
+                style="border-bottom-width: 0px;"
+                href="/"
+                class:selected={
+                  selectedPage == "/errori-semplificato" ||
+                  selectedPage == "/errori-approfondito"}
               >
+                <span>{$t("header.tabErrori")}</span>
+                <svg
+                  class="icon icon-sm ms-2"
+                  aria-label="espandi"
+                  class:selected={
+                    selectedPage == "/errori-semplificato" ||
+                    selectedPage == "/errori-approfondito"}
+                >
+                  <use
+                    href="/bootstrap-italia/dist/svg/sprites.svg#it-expand"
+                  />
+                </svg>
+              </a>
+              <div
+                class="dropdown-menu"
+                role="region"
+                aria-labelledby="dropdownErrors"
+              >
+                <div class="link-list-wrapper">
+                  <ul class="link-list">
+                    <li>
+                      <a
+                        class="dropdown-item list-item py-2 pageChoice align-middle"
+                        href="/errori-semplificato"
+                        aria-current={selectedPage == "/errori-semplificato"
+                          ? "true"
+                          : "false"}><span>{$t("header.tabErrSemplificato")}</span></a
+                      >
+                    </li>
+                    <li>
+                      <a
+                        class="dropdown-item list-item py-2 pageChoice align-middle"
+                        href="/errori-approfondito"
+                        aria-current={selectedPage == "/errori-approfondito"
+                          ? "true"
+                          : "false"}><span>{$t("header.tabErrApprofondito")}</span></a
+                      >
+                    </li>
+                  </ul>
+                </div>
+              </div>
             </li>
             <li class="nav-item dropdown">
               <a
@@ -51,13 +155,14 @@
               >
                 <span>{$t("header.tabDichiarazioni")}</span>
                 <svg
-                  class="icon"
+                  class="icon icon-sm ms-2"
+                  aria-label="espandi"
                   class:selected={selectedPage == "/dichiarazione" ||
                     selectedPage == "/dichiarazione/siti" ||
                     selectedPage == "/dichiarazione/app"}
                 >
                   <use
-                    href="/bootstrap-italia/dist/svg/sprites.svg#it-arrow-down-triangle"
+                    href="/bootstrap-italia/dist/svg/sprites.svg#it-expand"
                   />
                 </svg>
               </a>
@@ -121,13 +226,14 @@
               >
                 <span>{$t("header.tabProgetto")}</span>
                 <svg
-                  class="icon"
+                  class="icon icon-sm ms-2"
+                  aria-label="espandi"
                   class:selected={selectedPage == "/progetto" ||
                     selectedPage == "/cronologia" ||
                     selectedPage == "/opendata"}
                 >
                   <use
-                    href="/bootstrap-italia/dist/svg/sprites.svg#it-arrow-down-triangle"
+                    href="/bootstrap-italia/dist/svg/sprites.svg#it-expand"
                   />
                 </svg>
               </a>

@@ -4,6 +4,19 @@
   export let showDrawer = false;
   export let selectedPage;
 
+    function ignoreIndex(path) {
+    let correctedPath = path;
+    if (correctedPath === '/index') {
+      correctedPath = '/';
+    }
+    if (correctedPath.endsWith('/index')) {
+      correctedPath = correctedPath.substring(0, correctedPath.length - 6);
+    }
+    return correctedPath;
+  }
+
+  $: selectedPage = ignoreIndex(selectedPage);
+
   let defaultLanguage = "ITA";
   import { locale, locales, t } from "../utils/i18n";
 
@@ -92,6 +105,7 @@
                 >
                 <svg
                   class="icon ms-md-2"
+                  aria-label="espandi"
                   style="width: 24px;height: 24px;color:white"
                 >
                   <use
@@ -187,56 +201,86 @@
                         </div>
                       </a>
                     </li>
-                    <!-- svelte-ignore a11y-click-events-have-key-events -->
                     <li class="w-100 pointer">
-                      <!-- svelte-ignore a11y-missing-attribute -->
                       <a
-                        href="/monitoraggio"
-                        class:selected={selectedPage == "/monitoraggio"}
-                        aria-current={selectedPage == "/monitoraggio"
+                        href="/monitoraggio-semplificato"
+                        class:selected={selectedPage == "/monitoraggio-semplificato"}
+                        aria-current={selectedPage == "/monitoraggio-semplificato"
                           ? "true"
                           : "false"}
-                        id="monitoraggio-ham"
+                        id="monitoraggio-semplificato-ham"
                         on:click={closeDrawer}
                         class="list-item w-100 p-3"
                       >
                         <div class="it-left-zone">
                           <span class="whiteText display6"
-                            >{$t("header.tabMonitoraggio")}</span
+                            >{$t("header.tabMonSemplificato")}</span
                           >
                         </div>
                       </a>
                     </li>
-                    <!-- svelte-ignore a11y-click-events-have-key-events -->
                     <li class="w-100 pointer">
-                      <!-- svelte-ignore a11y-missing-attribute -->
                       <a
-                        href="/errori"
-                        class:selected={selectedPage == "/errori"}
-                        aria-current={selectedPage == "/errori"
+                        href="/monitoraggio-approfondito"
+                        class:selected={selectedPage == "/monitoraggio-approfondito"}
+                        aria-current={selectedPage == "/monitoraggio-approfondito"
                           ? "true"
                           : "false"}
-                        id="errori-ham"
+                        id="monitoraggio-approfondito-ham"
                         on:click={closeDrawer}
                         class="list-item w-100 p-3"
                       >
                         <div class="it-left-zone">
                           <span class="whiteText display6"
-                            >{$t("header.tabErrori")}</span
+                            >{$t("header.tabMonApprofondito")}</span
                           >
                         </div>
                       </a>
                     </li>
-                    <!-- svelte-ignore a11y-click-events-have-key-events -->
                     <li class="w-100 pointer">
-                      <!-- svelte-ignore a11y-missing-attribute -->
+                      <a
+                        href="/errori-semplificato"
+                        class:selected={selectedPage == "/errori-semplificato"}
+                        aria-current={selectedPage == "/errori-semplificato"
+                          ? "true"
+                          : "false"}
+                        id="errori-semplificato-ham"
+                        on:click={closeDrawer}
+                        class="list-item w-100 p-3"
+                      >
+                        <div class="it-left-zone">
+                          <span class="whiteText display6"
+                            >{$t("header.tabErrSemplificato")}</span
+                          >
+                        </div>
+                      </a>
+                    </li>
+                    <li class="w-100 pointer">
+                      <a
+                        href="/errori-approfondito"
+                        class:selected={selectedPage == "/errori-approfondito"}
+                        aria-current={selectedPage == "/errori-approfondito"
+                          ? "true"
+                          : "false"}
+                        id="errori-approfondito-ham"
+                        on:click={closeDrawer}
+                        class="list-item w-100 p-3"
+                      >
+                        <div class="it-left-zone">
+                          <span class="whiteText display6"
+                            >{$t("header.tabErrApprofondito")}</span
+                          >
+                        </div>
+                      </a>
+                    </li>
+                    <li class="w-100 pointer">
                       <a
                         href="/dichiarazione"
                         class:selected={selectedPage == "/dichiarazione"}
                         aria-current={selectedPage == "/dichiarazione"
                           ? "true"
                           : "false"}
-                        id="dichiarazione-ham"
+                        id="dichiarazioni-ham"
                         on:click={closeDrawer}
                         class="list-item w-100 p-3"
                       >
@@ -254,12 +298,12 @@
                         aria-current={selectedPage == "/dichiarazione/siti"
                           ? "true"
                           : "false"}
-                        id="dichiarazione/siti-ham"
+                        id="dichiarazioni-siti-ham"
                         on:click={closeDrawer}
                         class="list-item w-100 p-3"
                       >
                         <div class="it-left-zone">
-                          <span class="whiteText ms-4"
+                          <span class="whiteText display6"
                             >{$t("header.tabDicSiti")}</span
                           >
                         </div>
@@ -272,12 +316,12 @@
                         aria-current={selectedPage == "/dichiarazione/app"
                           ? "true"
                           : "false"}
-                        id="dichiarazione/app-ham"
+                        id="dichiarazioni-app-ham"
                         on:click={closeDrawer}
                         class="list-item w-100 p-3"
                       >
                         <div class="it-left-zone">
-                          <span class="whiteText ms-4"
+                          <span class="whiteText display6"
                             >{$t("header.tabDicApp")}</span
                           >
                         </div>
@@ -303,14 +347,6 @@
                         </div>
                       </a>
                     </li>
-                    <li class="w-100 pointer p-3">
-                      <div class="it-left-zone">
-                        <span class="whiteText display6"
-                          >{$t("header.tabProgetto")}</span
-                        >
-                      </div>
-                    </li>
-                    <!-- svelte-ignore a11y-click-events-have-key-events -->
                     <li class="w-100 pointer">
                       <!-- svelte-ignore a11y-missing-attribute -->
                       <a
@@ -324,14 +360,12 @@
                         class="list-item w-100 p-3"
                       >
                         <div class="it-left-zone">
-                          <span class="whiteText ms-4"
+                          <span class="whiteText display6"
                             >{$t("header.tabProgetto")}</span
                           >
                         </div>
                       </a>
                     </li>
-                    <!-- svelte-ignore a11y-click-events-have-key-events -->
-                    <!-- svelte-ignore a11y-missing-attribute -->
                     <li class="w-100 pointer">
                       <a
                         href="/cronologia"
@@ -344,7 +378,7 @@
                         class="list-item w-100 p-3"
                       >
                         <div class="it-left-zone">
-                          <span class="whiteText ms-4"
+                          <span class="whiteText display6"
                             >{$t("header.tabCronologia")}</span
                           >
                         </div>
@@ -364,7 +398,7 @@
                         class="list-item w-100 p-3"
                       >
                         <div class="it-left-zone">
-                          <span class="whiteText ms-4"
+                          <span class="whiteText display6"
                             >{$t("header.tabOpenData")}</span
                           >
                         </div>

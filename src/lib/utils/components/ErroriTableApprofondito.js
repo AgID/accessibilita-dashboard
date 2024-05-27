@@ -1,0 +1,31 @@
+export default {
+  it: {
+    "erroriTableApp.titleSiti": "Gli errori rilevati dal monitoraggio manuale dei siti web",
+    "erroriTableApp.descriptionSitiPt1": "La tabella riporta la distribuzione degli errori relativa ad ognuno dei criteri di successo valutati con il sistema manuale. {{break}} Livello di Conformità: dal punto di vista normativo il rispetto di entrambi i ",
+    "erroriTableApp.link": "livelli di conformità",
+    "erroriTableApp.WCAGlink": "https://www.w3.org/Translations/WCAG21-it/#cc1",
+    "erroriTableApp.descriptionSitiPt2": " A e AA è obbligatorio.",
+    "erroriTableApp.titlePdf": "Gli errori rilevati dal monitoraggio manuale dei PDF",
+    "erroriTableApp.descriptionPdf": "La tabella riporta la distribuzione degli errori relativa ad ognuno dei criteri di successo valutati con il sistema manuale.",
+    "erroriTableApp.titleApp": "Risultati del monitoraggio delle APP",
+    "erroriTableApp.descriptionApp": "La tabella riporta la distribuzione degli errori relativa ad ognuno dei criteri di successo valutati con il sistema manuale.",
+    "erroriTableApp.livello": "Livello di conformità",
+    "erroriTableApp.criterio": "Criterio di successo",
+    "erroriTableApp.percentuale": "Distribuzione errori",
+  },
+  en: {
+    "erroriTableApp.titleSiti": "Errors detected by manual website monitoring",
+    "erroriTableApp.descriptionSitiPt1": "The table shows the distribution of errors relating to each of the success criteria evaluated with the manual system. {{break}} Compliance Level: from a regulatory point of view, compliance with both A and AA",
+    "erroriTableApp.link": "compliance levels",
+    "erroriTableApp.WCAGlink": "https://www.w3.org/TR/WCAG21/#cc1",
+    "erroriTableApp.descriptionSitiPt2": " is mandatory.",
+    "erroriTableApp.titlePdf": "Errors detected by manual PDF monitoring",
+    "erroriTableApp.descriptionPdf": "The table shows the distribution of errors relating to each of the success criteria evaluated with the manual system.",
+    "erroriTableApp.titleApp": "APP monitoring results",
+    "erroriTableApp.descriptionApp": "The table shows the distribution of errors relating to each of the success criteria evaluated with the manual system.",
+    "erroriTableApp.livello": "Compliance level",
+    "erroriTableApp.criterio": "Criteria of success",
+    "erroriTableApp.percentuale": "Errors distribution",
+  },
+};
+

@@ -1,10 +1,10 @@
 <script>
-  import DichiarazioniAPPMainCard from "../../../lib/components/DichiarazioniAppMainCard.svelte";
-  import DichiarazioniAPPLineChart from "../../../lib/components/DichiarazioniAppLineChart.svelte";
-  import DichiarazioniConfrontoAppChart from "../../../lib/components/DichiarazioniAppConfrontoOSChart.svelte";
-  import DichiarazioneAPPAutovalutazioni from "../../../lib/components/DichiarazioniAppAutovalutazioni.svelte";
-  import DichiarazioneAppConformita from "../../../lib/components/DichiarazioniAppConfrontoConformita.svelte";
-  import DichiarazioniAppTable from "../../../lib/components/DichiarazioniAppTable.svelte";
+  import APPMainCard from "../../../lib/components/dichiarazioni/AppMainCard.svelte";
+  import APPLineChart from "../../../lib/components/dichiarazioni/AppLineChart.svelte";
+  import ConfrontoAppChart from "../../../lib/components/dichiarazioni/AppConfrontoOSChart.svelte";
+  import APPAutovalutazioni from "../../../lib/components/dichiarazioni/AppAutovalutazioni.svelte";
+  import AppConformita from "../../../lib/components/dichiarazioni/AppConfrontoConformita.svelte";
+  import AppTable from "../../../lib/components/dichiarazioni/AppTable.svelte";
 
   import { t } from "../../../lib/utils/i18n";
 
@@ -16,18 +16,18 @@
 
 <section aria-label={$t("dichiarazioni.APP-section")}>
   <div class="container">
-    <DichiarazioniAPPMainCard />
+    <APPMainCard />
   </div>
   <div
     class="d-flex flex-wrap container px-0 justify-content-between flex-wrap align-items-stretch"
   >
     <div class="col-12">
-      <DichiarazioniAPPLineChart />
-      <DichiarazioniConfrontoAppChart/>
+      <APPLineChart />
+      <ConfrontoAppChart/>
     </div>
   </div>
 
-  <DichiarazioneAPPAutovalutazioni />
+  <APPAutovalutazioni />
 
 
   <div
@@ -35,8 +35,8 @@
     style="padding-left: 0 !important; padding-right: 0 !important;"
   >
  
-   <DichiarazioneAppConformita/>
-    <DichiarazioniAppTable />
+   <AppConformita/>
+    <AppTable />
   </div>
 
 

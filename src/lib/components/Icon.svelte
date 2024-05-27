@@ -1,7 +1,7 @@
 <script lang="ts">
   import { createEventDispatcher } from "svelte";
   import { visibleTooltip, isFocus } from "../../store/tooltip";
-  export let id: string = "";
+  export let id: string = Math.floor(Math.random() * 200000).toString();
   export let name: string = "";
   export let size: string = "";
   export let variant: string = "";
