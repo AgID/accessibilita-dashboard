@@ -1,0 +1,128 @@
+[
+    {
+        "year": 2023,
+        "des_region": "Lombardia",
+        "num_entities_tot": 3297,
+        "num_entities_with_stat": 2018
+    },
+    {
+        "year": 2023,
+        "des_region": "Piemonte",
+        "num_entities_tot": 2243,
+        "num_entities_with_stat": 1108
+    },
+    {
+        "year": 2023,
+        "des_region": "Campania",
+        "num_entities_tot": 1912,
+        "num_entities_with_stat": 1031
+    },
+    {
+        "year": 2023,
+        "des_region": "Sicilia",
+        "num_entities_tot": 1820,
+        "num_entities_with_stat": 819
+    },
+    {
+        "year": 2023,
+        "des_region": "Lazio",
+        "num_entities_tot": 1729,
+        "num_entities_with_stat": 735
+    },
+    {
+        "year": 2023,
+        "des_region": "Veneto",
+        "num_entities_tot": 1655,
+        "num_entities_with_stat": 1029
+    },
+    {
+        "year": 2023,
+        "des_region": "Emilia-Romagna",
+        "num_entities_tot": 1300,
+        "num_entities_with_stat": 781
+    },
+    {
+        "year": 2023,
+        "des_region": "Puglia",
+        "num_entities_tot": 1210,
+        "num_entities_with_stat": 657
+    },
+    {
+        "year": 2023,
+        "des_region": "Toscana",
+        "num_entities_tot": 1168,
+        "num_entities_with_stat": 600
+    },
+    {
+        "year": 2023,
+        "des_region": "Calabria",
+        "num_entities_tot": 984,
+        "num_entities_with_stat": 450
+    },
+    {
+        "year": 2023,
+        "des_region": "Sardegna",
+        "num_entities_tot": 906,
+        "num_entities_with_stat": 491
+    },
+    {
+        "year": 2023,
+        "des_region": "Abruzzo",
+        "num_entities_tot": 702,
+        "num_entities_with_stat": 260
+    },
+    {
+        "year": 2023,
+        "des_region": "Marche",
+        "num_entities_tot": 686,
+        "num_entities_with_stat": 370
+    },
+    {
+        "year": 2023,
+        "des_region": "Liguria",
+        "num_entities_tot": 607,
+        "num_entities_with_stat": 266
+    },
+    {
+        "year": 2023,
+        "des_region": "Friuli-Venezia Giulia",
+        "num_entities_tot": 573,
+        "num_entities_with_stat": 364
+    },
+    {
+        "year": 2023,
+        "des_region": "Provincia autonoma di Trento",
+        "num_entities_tot": 499,
+        "num_entities_with_stat": 119
+    },
+    {
+        "year": 2023,
+        "des_region": "Provincia autonoma di Bolzano",
+        "num_entities_tot": 492,
+        "num_entities_with_stat": 123
+    },
+    {
+        "year": 2023,
+        "des_region": "Basilicata",
+        "num_entities_tot": 353,
+        "num_entities_with_stat": 151
+    },
+    {
+        "year": 2023,
+        "des_region": "Umbria",
+        "num_entities_tot": 347,
+        "num_entities_with_stat": 177
+    },
+    {
+        "year": 2023,
+        "des_region": "Molise",
+        "num_entities_tot": 287,
+        "num_entities_with_stat": 101
+    },
+    {
+        "year": 2023,
+        "des_region": "Valle d'Aosta/Vallée d'Aoste",
+        "num_entities_tot": 163,
+        "num_entities_with_stat": 86
+    }
+]

@@ -2,17 +2,17 @@
     {
         "des_principio_en": "Perceivable",
         "des_principio_it": "Percepibile",
-        "perc_errore_per_principio": 50.27
+        "perc_errore_per_principio": 48.99
     },
     {
         "des_principio_en": "Usable",
         "des_principio_it": "Utilizzabile",
-        "perc_errore_per_principio": 43.35
+        "perc_errore_per_principio": 44.89
     },
     {
         "des_principio_en": "Robust",
         "des_principio_it": "Robusto",
-        "perc_errore_per_principio": 5.70
+        "perc_errore_per_principio": 5.44
     },
     {
         "des_principio_en": "Understandable",

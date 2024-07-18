@@ -12,6 +12,7 @@
   let numPA;
 
   let criteriTotali;
+  let response
   let responseJson
   
   onMount(async () => {
@@ -26,6 +27,7 @@
     const response = await fetch("/data/errori_pdf_riscontrati.json");
     responseJson = await response.json();    
     criteriTotali = responseJson.data.length
+
   });
 </script>
 
