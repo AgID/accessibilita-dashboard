@@ -2,7 +2,7 @@
     {
         "anno": 2023,
         "des_regione": "Lombardia",
-        "num_enti_tot": 3297,
+        "num_enti_tot": 3298,
         "num_enti_con_dich": 2018
     },
     {
@@ -14,7 +14,7 @@
     {
         "anno": 2023,
         "des_regione": "Campania",
-        "num_enti_tot": 1912,
+        "num_enti_tot": 1913,
         "num_enti_con_dich": 1031
     },
     {
@@ -32,7 +32,7 @@
     {
         "anno": 2023,
         "des_regione": "Veneto",
-        "num_enti_tot": 1655,
+        "num_enti_tot": 1656,
         "num_enti_con_dich": 1029
     },
     {
@@ -44,13 +44,13 @@
     {
         "anno": 2023,
         "des_regione": "Puglia",
-        "num_enti_tot": 1210,
+        "num_enti_tot": 1211,
         "num_enti_con_dich": 657
     },
     {
         "anno": 2023,
         "des_regione": "Toscana",
-        "num_enti_tot": 1168,
+        "num_enti_tot": 1169,
         "num_enti_con_dich": 600
     },
     {
@@ -121,7 +121,7 @@
     },
     {
         "anno": 2023,
-        "des_regione": "Valle d'Aosta/Vallée d'Aoste",
+        "des_regione": "Valle d'Aosta/VallÃ©e d'Aoste",
         "num_enti_tot": 163,
         "num_enti_con_dich": 86
     }

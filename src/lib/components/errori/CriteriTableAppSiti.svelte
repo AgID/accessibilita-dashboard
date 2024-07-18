@@ -390,6 +390,8 @@
         }
       }
     }
+    console.log(response)
+
     return response;
   });
 </script>

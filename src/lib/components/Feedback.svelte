@@ -20,8 +20,10 @@
 
   function showThanksCard() {
   showThanks = true;
+  console.log("showThanks is true")
   setTimeout(() => {
     showThanks = false;
+    console.log("showThanks is false")
   }, 3000);
 }
 
@@ -35,7 +37,7 @@
     esito_feedback: "negativo"
   }).toString();
 
-  await fetch(`https://feedback-coll.accessibilita.agid.gov.it/api/v1/feedback/add?${queryParams}`, {
+  await fetch(`https://feedback.accessibilita.agid.gov.it/api/v1/feedback/add?${queryParams}`, {
     mode: "no-cors",
     method: "POST",
   });
@@ -52,7 +54,7 @@
       esito_feedback: "positivo"
     }).toString();
 
-    fetch(`https://feedback-coll.accessibilita.agid.gov.it/api/v1/feedback/add?${queryParams}`, {
+    fetch(`https://feedback.accessibilita.agid.gov.it/api/v1/feedback/add?${queryParams}`, {
       mode: "no-cors",
       method: "POST"
     });

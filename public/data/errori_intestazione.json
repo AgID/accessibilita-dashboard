@@ -1,0 +1,17 @@
+[
+    {
+        "valore": 21,
+        "indicatore": "criteri violati",
+        "dat_ultimo_monitoraggio": "2024-03-31"
+    },
+    {
+        "valore": 3724088,
+        "indicatore": "numero pagine valutate",
+        "dat_ultimo_monitoraggio": "2024-03-31"
+    },
+    {
+        "valore": 313398,
+        "indicatore": "occorrenze criteri violati",
+        "dat_ultimo_monitoraggio": "2024-03-31"
+    }
+]

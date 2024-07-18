@@ -13,6 +13,7 @@
     const dataDistribuzioneConformita = await rsDistribuzioneConformita.json();
     dataPagina = dataDistribuzioneConformita.intestazione.dat_ultimo_aggiornamento
     dataPaginaFormatted = df(dp(dataPagina))
+    console.log(dataPagina)
   });
 </script>
 

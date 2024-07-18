@@ -2,22 +2,12 @@
     {
         "date_en": "2024",
         "date_it": "2024",
-        "title_en": "New monitoring datasets",
-        "title_it": "Nuovo dataset monitoraggio",
-        "details_en": "Data publication for the 3rd quarter of 2024",
-        "details_it": "Pubblicazione dati 3° trimestre 2024",
+        "title_en": "The new features",
+        "title_it": "Nuove funzionalità",
+        "details_en": "Addition of in-depth monitoring data, manually conducted on a limited sample of sites (103) and apps (62) for the year 2024.",
+        "details_it": "Aggiunta dei dati del monitoraggio approfondito, realizzato manualmente su un campione limitato di siti (103) e app (62) per l'anno 2023.",
         "release_en": "Arriving",
         "release_it": "In Arrivo"
-    },
-    {
-        "date_en": "June 2024",
-        "date_it": "Giugno 2024",
-        "title_en": "New dataset monitoring and updating Accessibility Objectives",
-        "title_it": "Nuovo dataset monitoraggio e aggiornamento Obiettivi di Accessibilità",
-        "details_en": "Publication of monitoring data for the 2nd quarter of 2024 and update of accessibility objectives for the year 2024",
-        "details_it": "Pubblicazione dati monitoraggio 2° trimestre 2024 e aggiornamento obiettivi di Accessibilità anno 2024",
-        "release_en": "Actual",
-        "release_it": "Attuale"
     },
     {
         "date_en": "March 2024",
@@ -26,18 +16,8 @@
         "title_it": "Nuovi dataset monitoraggio",
         "details_en": "Data publication for the 1th quarter of 2024.",
         "details_it": "Pubblicazione dati 1° trimestre 2024",
-        "release_en": "Passed",
-        "release_it": "Passata"
-    },
-    {
-        "date_en": "February 2024",
-        "date_it": "Febbraio 2024",
-        "title_en": "The new features",
-        "title_it": "Nuove funzionalità",
-        "details_en": "Addition of in-depth monitoring data, manually conducted on a limited sample of sites (103) and apps (62) for the year 2024.",
-        "details_it": "Aggiunta dei dati del monitoraggio approfondito, realizzato manualmente su un campione limitato di siti (103) e app (62) per l'anno 2023.",
-        "release_en": "Passed",
-        "release_it": "Passata"
+        "release_en": "Actual",
+        "release_it": "Attuale"
     },
     {
         "date_en": "January 2024",

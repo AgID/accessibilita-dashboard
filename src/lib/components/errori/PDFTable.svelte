@@ -342,6 +342,8 @@
     
     criteriTotali = response.data.length
 
+    criteriTotali = response.data.length
+
     setTimeout(() => {
     if (window.location.hash === "#pdf" && pdfRef) {
       pdfRef.scrollIntoView({ behavior: 'smooth', block: 'start' });

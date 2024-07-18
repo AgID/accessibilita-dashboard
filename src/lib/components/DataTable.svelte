@@ -127,14 +127,12 @@
   const mapping = {
     'monitoraggio_it': ['monitoraggio'],
     'monitoraggio_en': ['monitoring'],
-    'dichiarazioni_it': ['dichiarazioni'],
-    'dichiarazioni_en': ['statement'],
+    'dichiarazioni': ['dichiarazioni', 'statement'],
     'errori_it': ['errori'],
     'errori_en': ['errors'],
     'enti_monitorati_it': ['Pa_valutate'],
     'enti_monitorati_en': ['evaluated_Pa'],
-    'obiettivi_it': ['obiettivi'],
-    'obiettivi_en': ['objectives']
+    'obiettivi': ['obiettivi', 'objectives']
   };
   
   for (const key in mapping) {

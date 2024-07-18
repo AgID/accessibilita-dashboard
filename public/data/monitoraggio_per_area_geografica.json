@@ -3,37 +3,36 @@
             {
                 "area_geografica_en": "North-west",
                 "area_geografica_it": "Nord-ovest",
-                "num_siti_monitorati": 7898,
+                "num_siti_monitorati": 7796,
                 "cod_ripartizione_geografica": "1"
             },
             {
                 "area_geografica_en": "North-east",
                 "area_geografica_it": "Nord-est",
-                "num_siti_monitorati": 5427,
+                "num_siti_monitorati": 5357,
                 "cod_ripartizione_geografica": "2"
             },
             {
                 "area_geografica_en": "Center",
                 "area_geografica_it": "Centro",
-                "num_siti_monitorati": 5585,
+                "num_siti_monitorati": 5291,
                 "cod_ripartizione_geografica": "3"
             },
             {
                 "area_geografica_en": "South",
                 "area_geografica_it": "Sud",
-                "num_siti_monitorati": 5806,
+                "num_siti_monitorati": 5800,
                 "cod_ripartizione_geografica": "4"
             },
             {
                 "area_geografica_en": "Islands",
                 "area_geografica_it": "Isole",
-                "num_siti_monitorati": 2983,
+                "num_siti_monitorati": 2868,
                 "cod_ripartizione_geografica": "5"
             }
         ],
         "intestazione": {
-            "periodo_monitoraggio": "2-2024",
-            "dat_ultimo_aggiornamento": "2024-06-30"
+            "periodo_monitoraggio": "1-2024",
+            "dat_ultimo_aggiornamento": "2024-03-31"
         }
     }
-

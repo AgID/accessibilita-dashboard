@@ -3,7 +3,7 @@
 <row>
   <anno>2023</anno>
   <des_regione>Lombardia</des_regione>
-  <num_enti_tot>3297</num_enti_tot>
+  <num_enti_tot>3298</num_enti_tot>
   <num_enti_con_dich>2018</num_enti_con_dich>
 </row>
 
@@ -17,7 +17,7 @@
 <row>
   <anno>2023</anno>
   <des_regione>Campania</des_regione>
-  <num_enti_tot>1912</num_enti_tot>
+  <num_enti_tot>1913</num_enti_tot>
   <num_enti_con_dich>1031</num_enti_con_dich>
 </row>
 
@@ -38,7 +38,7 @@
 <row>
   <anno>2023</anno>
   <des_regione>Veneto</des_regione>
-  <num_enti_tot>1655</num_enti_tot>
+  <num_enti_tot>1656</num_enti_tot>
   <num_enti_con_dich>1029</num_enti_con_dich>
 </row>
 
@@ -52,14 +52,14 @@
 <row>
   <anno>2023</anno>
   <des_regione>Puglia</des_regione>
-  <num_enti_tot>1210</num_enti_tot>
+  <num_enti_tot>1211</num_enti_tot>
   <num_enti_con_dich>657</num_enti_con_dich>
 </row>
 
 <row>
   <anno>2023</anno>
   <des_regione>Toscana</des_regione>
-  <num_enti_tot>1168</num_enti_tot>
+  <num_enti_tot>1169</num_enti_tot>
   <num_enti_con_dich>600</num_enti_con_dich>
 </row>
 
@@ -142,7 +142,7 @@
 
 <row>
   <anno>2023</anno>
-  <des_regione>Valle d'Aosta/Vallée d'Aoste</des_regione>
+  <des_regione>Valle d'Aosta/VallÃ©e d'Aoste</des_regione>
   <num_enti_tot>163</num_enti_tot>
   <num_enti_con_dich>86</num_enti_con_dich>
 </row>

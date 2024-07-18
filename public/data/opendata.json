@@ -1,21 +1,5 @@
 [
     {
-        "nome_en": "Errors",
-        "nome_it": "Errori",
-        "periodo_en": "June 2024",
-        "periodo_it": "Giugno 2024",
-        "descrizione_en": "The file contains aggregate data from the latest monitoring, distributed by principle, success criterion and compliance level.",
-        "descrizione_it": "Il file contiene i dati aggregati dell'ultimo monitoraggio, distribuiti per principio, criterio di successo e livello di conformità."
-    },
-    {
-        "nome_en": "Accessibility objectives",
-        "nome_it": "Obiettivi di accessibilità",
-        "periodo_en": "Year 2024",
-        "periodo_it": "Anno 2024",
-        "descrizione_en": "The file contains aggregate data for the last year, distributed by region or autonomous province.",
-        "descrizione_it": "Il file contiene i dati aggregati dell'ultimo anno, distribuiti per regione o provincia autonoma."
-    },
-    {
         "nome_en": "Accessibility statement",
         "nome_it": "Dichiarazione di accessibilità",
         "periodo_en": "September 2023",
@@ -26,16 +10,32 @@
     {
         "nome_en": "List of PAs evaluated by Mauve",
         "nome_it": "Elenco Pa valutate da Mauve",
-        "periodo_en": "June 2024",
-        "periodo_it": "Giugno 2024",
+        "periodo_en": "March 2024",
+        "periodo_it": "Marzo 2024",
         "descrizione_en": "The file contains the list of PAs evaluated from the lastest monitoring.",
         "descrizione_it": "Il file contiene l'elenco delle Pa valutate dell'ultimo monitoraggio."
     },
     {
+        "nome_en": "Errors",
+        "nome_it": "Errori",
+        "periodo_en": "March 2024",
+        "periodo_it": "Marzo 2024",
+        "descrizione_en": "The file contains aggregate data from the latest monitoring, distributed by principle, success criterion and compliance level.",
+        "descrizione_it": "Il file contiene i dati aggregati dell'ultimo monitoraggio, distribuiti per principio, criterio di successo e livello di conformità."
+    },
+    {
+        "nome_en": "Accessibility objectives",
+        "nome_it": "Obiettivi di accessibilità",
+        "periodo_en": "Year 2023",
+        "periodo_it": "Anno 2023",
+        "descrizione_en": "The file contains aggregate data for the last year, distributed by region or autonomous province.",
+        "descrizione_it": "Il file contiene i dati aggregati dell'ultimo anno, distribuiti per regione o provincia autonoma."
+    },
+    {
         "nome_en": "Monitoring",
         "nome_it": "Monitoraggio",
-        "periodo_en": "June 2024",
-        "periodo_it": "Giugno 2024",
+        "periodo_en": "March 2024",
+        "periodo_it": "Marzo 2024",
         "descrizione_en": "The file contains aggregate data from the latest monitoring, distributed by IPA category and region or autonomous province.",
         "descrizione_it": "Il file contiene i dati aggregati dell'ultimo monitoraggio, distribuiti per categoria IPA e regione o provincia autonoma."
     }

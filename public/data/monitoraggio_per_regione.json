@@ -1,114 +1,114 @@
     {
         "data": [
             {
-                "num_siti": 4332,
+                "num_siti": 4256,
                 "des_regione": "Lombardia",
-                "incidenza_errori": 14.92
+                "incidenza_errori": 15.50
             },
             {
-                "num_siti": 2960,
+                "num_siti": 2759,
                 "des_regione": "Lazio",
-                "incidenza_errori": 15.21
+                "incidenza_errori": 15.35
             },
             {
-                "num_siti": 2664,
+                "num_siti": 2647,
                 "des_regione": "Piemonte",
-                "incidenza_errori": 12.75
-            },
-            {
-                "num_siti": 2030,
-                "des_regione": "Campania",
-                "incidenza_errori": 12.67
-            },
-            {
-                "num_siti": 1989,
-                "des_regione": "Sicilia",
-                "incidenza_errori": 12.70
-            },
-            {
-                "num_siti": 1964,
-                "des_regione": "Veneto",
-                "incidenza_errori": 13.20
-            },
-            {
-                "num_siti": 1694,
-                "des_regione": "Emilia-Romagna",
-                "incidenza_errori": 12.97
-            },
-            {
-                "num_siti": 1497,
-                "des_regione": "Toscana",
-                "incidenza_errori": 12.96
-            },
-            {
-                "num_siti": 1369,
-                "des_regione": "Puglia",
-                "incidenza_errori": 13.69
-            },
-            {
-                "num_siti": 1002,
-                "des_regione": "Calabria",
-                "incidenza_errori": 15.01
-            },
-            {
-                "num_siti": 994,
-                "des_regione": "Sardegna",
-                "incidenza_errori": 11.93
-            },
-            {
-                "num_siti": 790,
-                "des_regione": "Abruzzo",
                 "incidenza_errori": 12.91
             },
             {
-                "num_siti": 748,
-                "des_regione": "Marche",
-                "incidenza_errori": 15.42
+                "num_siti": 2062,
+                "des_regione": "Campania",
+                "incidenza_errori": 13.45
             },
             {
-                "num_siti": 740,
+                "num_siti": 1981,
+                "des_regione": "Veneto",
+                "incidenza_errori": 13.60
+            },
+            {
+                "num_siti": 1921,
+                "des_regione": "Sicilia",
+                "incidenza_errori": 13.47
+            },
+            {
+                "num_siti": 1676,
+                "des_regione": "Emilia-Romagna",
+                "incidenza_errori": 13.71
+            },
+            {
+                "num_siti": 1458,
+                "des_regione": "Toscana",
+                "incidenza_errori": 13.51
+            },
+            {
+                "num_siti": 1374,
+                "des_regione": "Puglia",
+                "incidenza_errori": 14.58
+            },
+            {
+                "num_siti": 959,
+                "des_regione": "Calabria",
+                "incidenza_errori": 16.03
+            },
+            {
+                "num_siti": 947,
+                "des_regione": "Sardegna",
+                "incidenza_errori": 12.54
+            },
+            {
+                "num_siti": 789,
+                "des_regione": "Abruzzo",
+                "incidenza_errori": 13.78
+            },
+            {
+                "num_siti": 712,
                 "des_regione": "Friuli-Venezia Giulia",
-                "incidenza_errori": 11.16
+                "incidenza_errori": 12.42
             },
             {
-                "num_siti": 692,
+                "num_siti": 702,
+                "des_regione": "Marche",
+                "incidenza_errori": 16.74
+            },
+            {
+                "num_siti": 696,
                 "des_regione": "Liguria",
-                "incidenza_errori": 12.87
+                "incidenza_errori": 12.79
             },
             {
-                "num_siti": 549,
+                "num_siti": 536,
                 "des_regione": "Provincia autonoma di Trento",
-                "incidenza_errori": 14.71
+                "incidenza_errori": 15.14
             },
             {
-                "num_siti": 480,
+                "num_siti": 452,
                 "des_regione": "Provincia autonoma di Bolzano",
-                "incidenza_errori": 11.61
+                "incidenza_errori": 13.81
             },
             {
-                "num_siti": 380,
+                "num_siti": 372,
                 "des_regione": "Umbria",
-                "incidenza_errori": 15.25
+                "incidenza_errori": 15.67
             },
             {
-                "num_siti": 350,
+                "num_siti": 356,
                 "des_regione": "Basilicata",
-                "incidenza_errori": 12.93
+                "incidenza_errori": 13.07
             },
             {
-                "num_siti": 265,
+                "num_siti": 260,
                 "des_regione": "Molise",
-                "incidenza_errori": 17.52
+                "incidenza_errori": 17.44
             },
             {
-                "num_siti": 210,
+                "num_siti": 197,
                 "des_regione": "Valle d'Aosta/Vallée d'Aoste",
-                "incidenza_errori": 14.39
+                "incidenza_errori": 15.07
             }
         ],
         "intestazione": {
-            "periodo_monitoraggio": "2-2024",
-            "dat_ultimo_aggiornamento": "2024-06-30"
+            "periodo_monitoraggio": "1-2024",
+            "dat_ultimo_aggiornamento": "2024-03-31"
         }
     }
 
