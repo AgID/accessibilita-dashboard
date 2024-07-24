@@ -1,4 +1,5 @@
 cod_ente,des_ente
+odap_055,Ordine Degli Architetti Pianificatori Paesaggisti e Conservatori della Provincia di Terni
 c_b225,Comune di Brusasco
 acstm,Azienda di Cura Soggiorno Turismo di Merano - Kv Meran
 c_c174,Comune di Castellina Marittima
@@ -119,6 +120,7 @@ aspmlo,Autorita' di Sistema Portuale del Mar Ligure Orientale
 umddl,Unione Montana Dei Due Laghi
 istsc_vrtd13000d,ISTITUTO TECNICO COMMERCIALE - LORGNA-PINDEMONTE
 7IW8ELTH,San Donnino Multiservizi Srl
+2EFDYO1W,Le Serre Srl
 c_f500,Comune di Montefino
 istsc_geic811004,ISTITUTO COMPRENSIVO - I.C. OREGINA
 asl_na3s,Azienda Sanitaria Locale di Napoli 3 Sud
@@ -223,6 +225,7 @@ c_i626,Comune di Seren del Grappa
 istsc_rmic8fl003,ISTITUTO COMPRENSIVO - IC VIA MAR DEI CARAIBI
 fcscrm,Fondazione Centro Sperimentale di Cinematografia
 sstaa,Sta - Strutture Trasporto Alto Adige Spa
+DS6F1PPC,V.C.O. TRASPORTI SRL
 gtaat,Gal Terre Astigiane
 istsc_pvic81800a,ISTITUTO COMPRENSIVO DI LANDRIANO
 ccrfcr,Camera di Commercio della Romagna Forli Cesena e Rimini
@@ -288,6 +291,7 @@ c_c518,Comune di Cerreto Laziale
 uapss,Unione degli Assessorati alle Politiche Socio Sanitare dell'Istruzione e del Lavoro
 asp_pa,Azienda Sanitaria Provinciale di Palermo
 istsc_ratd01000g,Istituto Tecnico Statale Economico e Tecnologico - A. Oriani
+7ZHXNWHL,CONSORZIO RIUNITO STRADE VICINALI COMUNE ARCIDOSSO
 isdgf,Istituto Statale D'Istruzione Superiore Giustino Fortunato
 istsc_sais00600e,ISTITUTO SUPERIORE - GIOVANNI XXIII
 cpdcll,Consiglio Provinciale Dei Consulenti del Lavoro
@@ -342,7 +346,6 @@ istsc_pgic842001,ISTITUTO COMPRENSIVO - 'DELLA GENGA-ALIGHIERI'
 c_a340,Comune di Aprigliano
 istsc_MIPS25000Q,LICEO SCIENTIFICO - D. BRAMANTE
 ascso,Ascanio Sobrero
-c_L878,Comune di Vighizzolo D'este
 istsc_tvic85000r,ISTITUTO COMPRENSIVO - IC PEDEROBBA
 istsc_baic82600x,ISTITUTO COMPRENSIVO - TAURO - VITERBO
 c_h238,Comune di Resana
@@ -561,6 +564,7 @@ asl_na2n,Azienda Sanitaria Locale Napoli 2 Nord
 c_l169,Comune di Tignale
 istsc_udic83000x,ISTITUTO COMPRENSIVO - TARCENTO
 cdpidlm,Ordine dei Periti Industriali della provincia di Modena
+OSB50GD5,Associazione Irrigazione Est Sesia
 c_l158,Comune di San Severo
 istsc_baic86000b,I.C. "DON BOSCO SANTO - MANZONI" di ANDRIA
 AGWC3MLG,Autorità Rifiuti e Risorse Idriche della Calabria
@@ -617,6 +621,7 @@ c_c768,Comune di Civitaluparella
 c_i861,Comune di Sorradile
 c_b009,Comune di Borgo D'Ale
 r_friuli,Consiglio Regionale Friuli Venezia Giulia
+XXHOLFE1,ITS - ISTITUTO PER L'EFFICIENZA ENERGETICA
 c_e940,Comune di Mareno di Piave
 udcvc_91,Unione Dei Comuni Valle del Cedrino
 cndt,Consiglio Notarile Distrettuale di Trani
@@ -674,6 +679,7 @@ istsc_goic80400d,ISTITUTO COMPRENSIVO - RANDACCIO GIOVANNI
 p_fe,Provincia di Ferrara
 orch_pvd,Ordine Interregionale dei Chimici e dei Fisici del Piemonte e Valle d'Aosta
 iisemc,Istituto Istruzione Secondaria Mattei
+E346ZFUT,SPPL CARMINIO SRL
 asbucml,Amministrazione Separata Beni Uso Civico Malles
 istsc_BATD02000A,ISTITUTO TECNICO COMMERCIALE - F. M. GENCO
 c_f162,Comune di Meta
@@ -691,7 +697,6 @@ istsc_tpmm044004,ISTITUTO SECONDARIO DI I GRADO - S.M.S 'A.DE STEFANO' ERICE C.S
 c_b364,Comune di Caines
 c_b278,Comune di Buriasco
 c_d226,Comune di Curtarolo
-ispean,Ii.Ss. Pertini-anelli
 odcen,Ordine Dottori Commercilisti Ed Esperti Contabili di Novara
 udc_106,Unione Dei Comuni Terre del Campidano
 istsc_rmic8et00c,ISTITUTO COMPRENSIVO - I.C. VIALE VENEZIA GIULIA
@@ -815,6 +820,7 @@ c_d232,Comune di Cusino
 istsc_pvis00800x,ISTRUZIONE SECONDARIA SUPERIORE - IS CALVI - VOGHERA
 odadfch,Ordine Dottori Agronomi e Dottori Forestali della Provincia di Chieti
 istsc_viic834006,ISTITUTO COMPRENSIVO - IC LONGARE 'BIZIO'
+TI01I892,Montefeltro Sviluppo scarl
 istsc_avps06000b,LICEO SCIENTIFICO - V. DE CAPRARIIS
 istsc_ssvc010009,CONVITTO NAZIONALE - CANOPOLENO
 istsc_luic830004,ISTITUTO COMPRENSIVO - IST.COMPRENSIVO MASSAROSA 1
@@ -922,6 +928,7 @@ istsc_fiic82700r,ISTITUTO COMPRENSIVO - CALENZANO
 C_A403,Comune di Arienzo
 ipaba,CENTRO RESIDENZIALE PER ANZIANI DANIELATO
 istsc_noic826004,ISTITUTO COMPRENSIVO -  DUCA D'AOSTA - NOVARA
+istsc_rmic8e700q,ISTITUTO COMPRENSIVO - IC VIA ACQUARONI
 c_b048,Comune di Bormida
 istsc_baic859007,ISTITUTO COMPRENSIVO - 'DE GASPERI-STEFANO DA PUTIGN.'
 istsc_geic84100x,ISTITUTO COMPRENSIVO - I.C. BORZOLI
@@ -934,6 +941,7 @@ ucmap,Unione di Comuni Montani Appennino Pistoiese
 c_e660,Comune di Lombardore
 odap_098,Ordine Degli Architetti Pianificatori Paesaggisti e Conservatori della Provincia di Lodi
 istsc_bapm010001,ISTITUTO MAGISTRALE - G. BIANCHI DOTTULA
+F3BP8FZZ,AZIENDA SERVIZI COMUNALI ALLA PERSONA
 istsc_svic80700d,ISTITUTO COMPRENSIVO - VAL VARATELLA-BORGHETTO S.S.
 asp_me,Azienda Sanitaria Provinciale di Messina
 c_l907,Comune di Villa di Chiavenna
@@ -969,6 +977,7 @@ istsc_ctic8au007,ISTITUTO COMPRENSIVO - III - I.C. RODARI ACIREALE
 c_m418,Comune di Piadena Drizzona
 istsc_MEIC84400T,ISTITUTO COMPRENSIVO - GIOIOSA MAREA
 istsc_FGIC806003,ISTITUTO COMPRENSIVO - PADRE G. CASTELLI - CARPINO
+VRBJV6ZO,Sviluppo Turistico Lerici srl
 c_e101,Comune di Gorla Maggiore
 cmlov_0,Comunita Montana Lario Orientale Valle San Martino
 c_b314,Comune di Cabras
@@ -1099,7 +1108,6 @@ c_c847,Comune di Colle di Val d'Elsa
 c_i696,Comune di Settala
 cmfdm,Consorzio di Miglioramento Fondiario del Melfa
 c_l168,Comune di Tigliole
-cdtsrm,Collegio Provinciale dei Tecnici Sanitari di Radiologia Medica di Siracusa
 oissca,Opere e Infrastrutture della Sardegna Srl
 orch_taa,Ordine Regionale dei Chimici e dei Fisici del Trentino Alto Adige
 c_l277,Comune di Torre Pellice
@@ -1130,6 +1138,7 @@ c_e683,Comune di Loranze'
 c_c448,Comune di Cellino San Marco
 asbucve,Amministrazione Separata Beni Usi Civici Velturno
 c_d946,Comune di Gavirate
+V1L5XJ8Z,SCAPIGLIATO SRL
 VN3OVAXT,CAFC SPA
 c_l497,Comune di Urbana
 opcoc,Opera Pia Casa di Ospitalita' Cortese Capizzi Basile
@@ -1270,11 +1279,13 @@ istsc_teic840009,ISTITUTO COMPRENSIVO -  I.C. MARTINSICURO PERTINI
 c_e578,Comune di Licodia Eubea
 amaie,Amaie S.P.A.
 istsc_rmic86000g,ISTITUTO COMPRENSIVO - VIA CASSIA KM. 18,7
+OUNKM4Z4,FONDAZIONE ITS ACADEMY ALBATROS
 odasrt,Ordine Degli Assistenti Sociali della Regione Toscana
 anci,Associazione Nazionale Dei Comuni Italiani
 USBer,Universita' degli Studi di Bergamo
 c_b536,Comune di Campoformido
 istsc_aric81500p,ISTITUTO COMPRENSIVO - 'ALIGHIERI' C.SABBIONI
+LXFZQA8T,Ufficio Speciale per la Ricostruzione post sisma 2016 per la Regione Marche
 cm_monte76,UNIONE DEI COMUNI VALDOSTANI MONTE CERVINO
 c_m214,Comune di Badesi
 odc_kgs,Ordine dei Dottori Commercialisti e degli Esperti Contabili di Avezzano
@@ -1317,6 +1328,7 @@ opclv,Ordine Provinciale Consulenti del Lavoro di Verona
 iiseb,Istituto Istruzione Superiore Cesare Baronio
 istsc_blis00700a,Istituto istruzione Superiore Galilei Tiziano - Belluno
 c_d682,Comune di Fontechiari
+Q4E4IY76,GAL GOLFO DI CASTELLAMMARE 
 istsc_bips01000n,Liceo "Amedeo Avogadro" di Biella 
 istsc_miic8da00n,ISTITUTO COMPRENSIVO - LEONE TOLSTOJ
 c_e023,Comune di Gibellina
@@ -1349,7 +1361,6 @@ c_e689,Comune di Loreo
 c_i867,Comune di Sossano
 c_b472,Comune di Camerata Nuova
 YXPSR8HK,Fondazione ITS Information and Communications Technology Academy
-cpiaa,Centro Provinciale per L'Istruzione Degli Adulti
 c_l301,Comune di Torrioni
 c_l154,Comune di Teulada
 uc_olce,Unione dei Comuni Lombarda Oltrepo' Centrale
@@ -1357,12 +1368,14 @@ clvcdgpc,Consorzio per La Valorizzazione e Conservazione Delle Grotte di Pastena
 c_d649,Comune di Foiano della Chiana
 ecstfgc,Ente Cattolico dello Stato Terra di Francesco Giuseppe, Colonia di Santa Maria de Finibus Terrae di Giorgio II, Porta e Mare di Kara
 udcvtor,Unione Dei Comuni della Valle del Torbido
+2UCZLMB1,Consorzio Irriguo di Chivasso
 istsc_siic80700x,ISTITUTO COMPRENSIVO - ISTITUTO COMPRENSIVO LORENZETTI
 c_l143,Comune di Terzo
 c_l809,Comune di Vessalico
 c_d290,Comune di Scigliano
 cpic9jqr,Ordine delle Professioni Infermieristiche di Catania
 istsc_veic86400p,ISTITUTO COMPRENSIVO - I.C. 'ALVISE PISANI'
+YD2CQTW2,Multiss S.p.A.
 odprp_ca,Ordine degli Psicologi della Regione Puglia
 c_b079,Comune di Bosia
 odmvp_07,Ordine Dei Medici Veterinari della Provincia di Taranto
@@ -1385,6 +1398,7 @@ c_b391,Comune di Calciano
 c_e374,Comune di Itala
 istsc_sric828009,ISTITUTO COMPRENSIVO - III I.C. S. LUCIA SIRACUSA
 c_a282,Comune di Andrate
+0E843YSW,FONDAZIONE ISTITUTO TECNICO SUPERIORE PER LE NUOVE TECNOLOGIE PER IL MADE IN ITALY LA FILIERA AGROALIMENTARE RISORSA PER LO SVILUPPO DELLA LOMBARDIA
 C_A127,Comune di Albairate
 abucgra,Amministrazione Separata Dei Beni di Uso Civico Graun
 c_d599,Comune di Finale Emilia
@@ -1483,6 +1497,7 @@ c_e333,Comune di Iseo
 istsc_fric85400d,ISTITUTO COMPRENSIVO - I.C. 2 CASSINO
 istsc_paic88500t,ISTITUTO COMPRENSIVO - I.C. SANTA FLAVIA K.WOJTYLA
 cpalav,Collegio dei Periti Agrari e dei Periti Agrari Laureati di Avellino
+NA68N943,ACQUI RETE GAS SRL
 agtmsr,A.G.T. Multiservizi S.R.L.
 isl_058,Istituto Superiore per Le Industrie Artistiche di Roma
 istsc_paic884002,ISTITUTO COMPRENSIVO - I.C.SAN GIUSEPPE JATO
@@ -1689,12 +1704,13 @@ istsc_bgis01600e,ISTRUZIONE SECONDARIA SUPERIORE - 'VALLE SERIANA'
 ulvpo,Unione Lombarda Valle del Po
 cdop_077,Ordine della Professione Ostetrica della Provincia di Matera
 c_a761,Comune di Belmonte del Sannio
+SKLT5H7B,etruria servizi srl
 asstl,Azienda Socio Sanitaria Territoriale di Lecco
 c_g838,Comune di Pontecorvo
 c_m289,Comune di Massa di Somma
+CU536LYL,FONDAZIONE ISTITUTO TECNICO SUPERIORE NUOVE TECNOLOGIE DELLA VITA
 clsac,Consorzio per Lo Sviluppo dell'Area Conca Barese S.C. a R.L.
 ucatl,Unione di Comuni Antica Terra di Lavoro
-ucbfsq,Unione Dei Comuni del Basso Feltrino Setteville di Quero
 istsc_raps01000q,LICEO SCIENTIFICO - A. ORIANI
 YKPQ2VGC,AEROPORTO FRIULI VENEZIA GIULIA S.P.A.
 c_i703,Comune di Settimo Torinese
@@ -1727,7 +1743,6 @@ ag_pl,Agenzia Piemonte Lavoro
 ao_055,Azienda Ospedaliera
 apsp_vs,Azienda Pubblica di Servizi alla Persona del distretto Cesena Valle Savio
 cc_vacer,Comunita' Collinare della Valcerrina
-cqv,Comune di Quero Vas
 c_f784,Comune di Mottola
 istsc_geic829009,ISTITUTO COMPRENSIVO - I.C.BURLANDO
 ernfstm,Ente Riserve Naturali Foce Sele - Tanagro Monti Eremita - Marzano
@@ -2127,7 +2142,6 @@ lST_Bz,Liceo Scientifico Torricelli
 aspcn,Azienda di Servizi alla Persona Catria e Nerone
 icsip,Istituto Comprensivo Statale I. Petrone
 istsc_mtic829002,ISTITUTO COMPRENSIVO N. 6
-istsc_RMIC8CV00V,ISTITUTO COMPRENSIVO - VIA LATINA, 303
 c_l565,Comune di Valdobbiadene
 uc_bsesi,Unione Comuni Bassa Sesia
 istsc_paic84900p,ISTITUTO COMPRENSIVO - I.C. BAGHERIA IV - ASPRA
@@ -2147,6 +2161,7 @@ odip_079,Ordine degli Ingegneri della Provincia di Catanzaro
 asbucvn,Amministrazione Separata Beni Usi Civici di Vion
 urdcc_l,Unione Regionale Delle Camere di Commercio Industria Artigianato Agricoltura della Lombardia
 c_c705,Comune di Cinigiano
+istsc_rmic8cs00b,ISTITUTO COMPRENSIVO EMMA CASTELNUOVO
 c_a025,Comune di Aci Bonaccorsi
 c_c072,Comune di Castelcovati
 istsc_leic8an008,ISTITUTO COMPRENSIVO - PRESICCE
@@ -2198,6 +2213,7 @@ cm_agord,Unione Montana Agordina
 istsc_raic81300n,ISTITUTO COMPRENSIVO - 'DON STEFANO CASADIO'-COTIGNOLA
 cpipi_re,Ordine dei Periti Industriali della Provincia di Ravenna
 istsc_bnic804009,ISTITUTO COMPRENSIVO - I.C. PONTELANDOLFO
+SZCLNUW9,NED reti distribuzione gas srl
 istsc_pdic837008,ISTITUTO COMPRENSIVO - DI GALLIERA VENETA
 c_b853,Comune di Carunchio
 c_b228,Comune di Brusimpiano
@@ -2243,6 +2259,7 @@ acto,Automobile Club Torino
 istsc_geic809004,ISTITUTO COMPRENSIVO - I.C. SAN GOTTARDO
 c_e235,Comune di Guanzate
 c_l022,Comune di Taceno
+MH1SG6PS,ASMia S.r.l.
 c_a762,Comune di Belmonte Calabro
 c_f847,Comune di Nasino
 ics_088,Istituto Comprensivo Statale CAP. PUGLISI
@@ -2257,7 +2274,6 @@ c_e217,Comune di Grumello Cremonese ed Uniti
 istsc_pais026006,ISTITUTO SUPERIORE - ISTITUTO SUPERIORE STATALE MARIO RUTELLI
 c_h681,Comune di Sala Biellese
 oclpcn,Ordine Consulenti del Lavoro della Provincia di Cuneo
-odcecbz,Ordine dei Dottori Commercialisti e degli Esperti Contabili di Bolzano
 crsg_024,Casa di Riposo San Giuseppe
 istsc_rnic80700l,ISTITUTO COMPRENSIVO - IC MISANO ADRIATICO
 c_d888,Comune di Galtelli
@@ -2268,7 +2284,6 @@ istsc_cbic82500g,ISTITUTO COMPRENSIVO - I.C. CAMPODIPIETRA M.T.CALCUTTA
 creopr,Casa di Riposo Ed Opere Pie Riunite
 c_c936,Comune di Valsolda
 c_h154,Comune di Raddusa
-c_d902,Comune di Gambugliano
 istsc_tvps04000q,LICEO SCIENTIFICO - LS GIUSEPPE BERTO
 c_a087,Comune di Agrate Brianza
 c_a673,Comune di Barone Canavese
@@ -2307,6 +2322,7 @@ cgglpp,Collegio Geometri e Geometri Laureati della Provincia di Pavia
 istsc_boic867005,ISTITUTO COMPRENSIVO - I.C. DI MEDICINA
 c_b468,Comune di Camerano
 c_l515,Comune di Usseaux
+IALYL7SI,LA PANORAMICA S.R.L.
 c_i192,Comune di Sant'Agata di Esaro
 c_f816,Comune di Muro Leccese
 crsb,Casa di Riposo S. Biagio
@@ -2326,7 +2342,6 @@ c_e252,Comune di Guasila
 lsm,Licei Simone-Morea
 crdc_023,Casa di Riposo Domenico Cardo
 c_h221,Comune di Regalbuto
-istsc_mipm06000n,ISTITUTO MAGISTRALE - CARLO PORTA
 istsc_gris01100x,ISTRUZIONE SECONDARIA SUPERIORE - ISTITUTO ISTR.SUP. - A.MANETTI
 iiscpc,Istituto di Istruzione Superiore Carlo Piaggia
 c_d704,Comune di Forli'
@@ -2463,6 +2478,7 @@ crvga,Collegio Regionale Veneto Guide Alpine
 citsrl,Consorzio Informatica e Territorio S.P.A.
 fiss,Fiemme Servizi Spa
 cnl,Consiglio Notarile di Lecce
+orch_lig,Ordine Interprovinciale dei Chimici e dei Fisici della Liguria
 c_f707,Comune di Morano Sul Po
 c_d547,Comune di Ferrandina
 omcoo_ss,Ordine dei Medici Chirurghi e degli Odontoiatri della provincia di Sassari
@@ -2508,7 +2524,6 @@ cciaa_rm,Camera di Commercio, Industria, Artigianato e Agricoltura di Roma
 csisp,Consorzio Sviluppo Industriale Sud Pontino
 cm_vatro,Comunita' Montana di Valle Trompia
 c_D841,Comune di Gadesco Pieve Delmona
-fliu,Fondazione per L'Innovazione Urbana
 c_h665,Comune di Sagrado
 acem,Azienda Consortile Ecologica del Monregalese
 eprsa,Ente Parco Regionale Storico Agricolo dell'Olivo di Venafro
@@ -2597,6 +2612,7 @@ oam_2,Ordine Avvocati di Mondovi'
 oddc_095,Ordine Dei Dottori Commercialisti Ed Esperti Contabili di Oristano
 idbb,Istituzione Dott. B. Boldrin
 istsc_caic88900x,Istituto Comprensivo Pietro Allori Iglesias
+56WKLHOX,ISTITUTO TECNICO SUPERIORE PER IL TURISMO
 c_h594,Comune di Rotzo
 c_f831,Comune di Pineto
 istsc_boic82100q,ISTITUTO COMPRENSIVO - I.C. DI CERETOLO
@@ -2634,6 +2650,7 @@ c_f901,Comune di Nizza di Sicilia
 c_g561,Comune di Pianfei
 Q9E8DKHW,UNIONE DEI COMUNI IL MONFERRATO DEGLI INFERNOT
 c_l448,Comune di Troina
+15UTHMTL,TERME PREMIA SRL VALLI ANTIGORIO DIVEDRO E FORMAZZA
 UCCRDB,Unione dei Comuni Citta' della Riviera del Brenta
 istsc_toic860003,ISTITUTO COMPRENSIVO - I.C. - MAPPANO
 c_i486,Comune di Scala
@@ -2646,6 +2663,7 @@ istsc_bsic89700g,ISTITUTO COMPRENSIVO - VEROLANUOVA CAP.
 istsc_tvis017009,ISTRUZIONE SECONDARIA SUPERIORE - I.S.I.S. FLORENCE NIGHTINGALE
 c_m272,Comune di Ciampino
 c_a228,Comune di Altavilla Irpina
+CD7JL7B8,Conferenza dei Rettori delle Università Italiane
 istsc_fiic81900t,ISTITUTO COMPRENSIVO - DON LORENZO MILANI
 c_c983,Comune di Corato
 c_l502,Comune di Urgnano
@@ -2751,8 +2769,10 @@ istsc_ctee081004,DIREZIONE DIDATTICA - CD T.DI CALCUTTA-TREMESTIERI
 istsc_vbic813002,ISTITUTO COMPRENSIVO RINA MONTI STELLA
 iscof,Istituto Comprensivo di Feltre
 istsc_naic8b200t,ISTITUTO COMPRENSIVO - NA - I.C. ALDO MORO
+KXPWVE0J,FONDAZIONE ITS INFMOB PMO
 c_i564,Comune di Sedilo
 cm_vabo,Unione Montana della Valle del Boite
+XW88C90Q,Fondazione Centro Euro-Mediterraneo sui Cambiamenti Climatici
 istsc_toic88400g,ISTITUTO COMPRENSIVO - I.C. TORINO - CORSO RACCONIGI
 istsc_viis01100n,ISTRUZIONE SECONDARIA SUPERIORE - IS ' SARTORI' LONIGO
 omco_ts,Ordine dei Medici Chirurghi e degli Odontoiatri della Provincia di Trieste
@@ -3034,6 +3054,7 @@ istsc_rmic8f700a,Istituto Comprensivo - 'Gino Felci'
 lslvflo,Liceo Scientifico Leonardo da Vinci Floridia
 issmrf,CONSERVATORIO DI SIENA "RINALDO FRANCI"
 istsc_miic85300x,ISTITUTO COMPRENSIVO - IC VIA DEI BOSCHI-NERVIANO
+CAZPTS31,Ancona Servizi spa
 odml,Opera Delle Mura di Lucca
 istsc_geic810008,ISTITUTO COMPRENSIVO - I.C. CASARZA LIGURE
 istsc_MNIS013006,ISTITUTO SUPERIORE - I.S. 'STROZZI' PALIDANO
@@ -3047,6 +3068,7 @@ c_g071,Comune di Oniferi
 ir_,Ordine delle Professioni Infermieristiche della Provincia di Rimini
 csla_072,Commissario Straordinario per L'Attuazione Degli Interventi per La Mitigazione del Rischio Idrogeologico nella Regione Puglia
 c_m261,Comune di Castro
+P2PSE8IE,Seus  Sicilia Emergenza-Urgenza Sanitaria Scpa
 istsc_teic813001,Istituto Comprensivo Corropoli Colonnella Controguerra
 istsc_rmrh04000n,ISTITUTO PROFESSIONALE PER I SERVIZI ALBERGHIERI E RISTORAZIONE - AMERIGO VESPUCCI
 c_l410,Comune di Trezzo Tinella
@@ -3086,6 +3108,7 @@ istsc_saic85000c,ISTITUTO COMPRENSIVO - IST.COMPR. CONTURSI
 ucam,Unione Comuni dell'Alta Murgia
 acmc,Automobile Club Massa Carrara
 ctpr,Consorzio Tutela e Prevenzione Randagismo San Francesco
+HKCK9EPN,CONSORZIO DEL PESIO
 C_D495,Comune di Fara San Martino
 istsc_bnic86100d,ISTITUTO COMPRENSIVO - I.C. 'PASCOLI' BENEVENTO
 c_b574,Comune di Canale D'Agordo
@@ -3239,7 +3262,6 @@ istsc_rcic875006,ISTITUTO COMPRENSIVO SAN SPERATO CARDETO
 c_a764,Comune di Belmonte Mezzagno
 c_h672,Comune di Saint-nicolas
 c_b312,Comune di Castello Cabiaglio
-npcmn,Nucleo Operativo Protezione Civile
 oddadfpt,Ordine Dei Dottori Agronomi e Dottori Forestali della Provincia di Trento
 istsc_naic8an003,ISTITUTO COMPRENSIVO - S. GIORGIO - I.C. DE FILIPPO
 cisa_ats,Consorzio Intercomunale Socio Assistenziale C.I.S.A - Asti Sud
@@ -3423,6 +3445,7 @@ istsc_bgic859008,ISTITUTO COMPRENSIVO - MARTINENGO CAP.
 c_c481,Comune di Ceranesi
 c_e491,Comune di La Valle
 idisbf,ISTITUTO D'ISTRUZIONE SUPERIORE BRUNO - FRANCHETTI
+2J459ZOC,FONDAZIONE ARTEA
 istsc_rmis104008,I.I.S "PUBLIO ELIO ADRIANO"
 c_d655,Comune di Follo
 c_i017,Comune di San Marzano Oliveto
@@ -3459,6 +3482,7 @@ lispa,Azienda Regionale per l'Innovazione egli Acquisti - ARIA SpA
 icccsa,Istituto Comprensivo Campagna Capoluogo
 c_g082,Comune di Oppido Mamertina
 istsc_ctic858001,ISTITUTO COMPRENSIVO - IC. DE AMICIS TREMESTIERI ETNEO
+W2TALODZ,RETI METANO TERRITORIO SRL
 istsc_rmic804007,ISTITUTO COMPRENSIVO - I.C. FALCONE E BORSELLINO
 X0D2YOOT,COPIT SPA
 istsc_sris009004,Istituto d'Istruzione Superiore A. Ruiz - Augusta
@@ -3719,6 +3743,7 @@ istsc_toic80900t,ISTITUTO COMPRENSIVO - I.C. - CERES - MURIALDO
 cnel,Consiglio Nazionale dell'Economia e del Lavoro - CNEL
 cpiami,Cpia 2 Milano
 istsc_naic85700r,ISTITUTO COMPRENSIVO - VOLLA - I.C. SERAO
+O8IXJ574,Stretto di Messina S.p.A.
 c_b717,Comune di Caraffa di Catanzaro
 icegna,Istituto Comprensivo 'Ercolano 2 - Giampaglia'
 ics_016,Istituto Comprensivo I Mille
@@ -3853,6 +3878,7 @@ istsc_bric82400a,ISTITUTO COMPRENSIVO - I.C. SAN.PANCRAZIO S.NO
 c_e520,Comune di Lemie
 c_d735,Comune di Fosdinovo
 lmsrl,Laveno Mombello Srl
+PQT4AEQ3,CONSORZIO PER L'AREA DI SVILUPPO INDUSTRIALE DI FOGGIA
 CMF40,Comunita' Montana del Fortore
 istsc_imic80800q,ISTITUTO COMPRENSIVO - IC BORDIGHERA
 cpipr_bg,Ordine dei Periti Industriali e Periti Industriali Laureati della Provincia di Bergamo
@@ -3870,6 +3896,7 @@ c_e885,Comune di Manfredonia
 c_a082,Comune di Agnosine
 c_l762,Comune di Vergato
 c_a325,Comune di Anzola D'Ossola
+7AD641XZ,FRZ SRL
 csm_,Conservatorio Statale di Musica Cesena
 istsc_bric832009,ISTITUTO COMPRENSIVO - SECONDO ISTITUTO COMPRENSIVO
 istsc_fric828001,ISTITUTO COMPRENSIVO - I. C. BOVILLE ERNICA
@@ -4109,6 +4136,7 @@ c_l989,Comune di Villanova Monteleone
 iavvmcr,Ipab Associazione Volontariato Villaggio Marino Ca' Roman
 c_d402,Comune di Emarese
 c_f041,Comune di Massello
+WDXYOI91,NUOVENERGIE TELERISCALDAMENTO SRL
 istsc_tapc040009,Liceo Statale Tito Livio
 istsc_ltic84300p,ISTITUTO COMPRENSIVO - I.C. N.1 - VIA E.FILIBERTO
 c_l039,Comune di Talmassons
@@ -4161,6 +4189,7 @@ cissa_,Consorzio per I Servizi Socio Assistenziali del Monregalese
 area_ca,Azienda Regionale per L'Edilizia Abitativa
 cpiabn,Cpia Provincia di Benevento
 istsc_alic82200b,ISTITUTO COMPRENSIVO - TICINETO - DON MILANI
+ispean,I.I.S.S. PERTINI-ANELLI-PINTO
 cidoco,Ordine della Professione di Ostetrica di Cagliari e delle Province di Nuoro, Oristano e Sud Sardegna
 istsc_vric836006,ISTITUTO COMPRENSIVO 2 DI PESCANTINA
 istsc_tvis01100a,ISTRUZIONE SECONDARIA SUPERIORE - IS A.SCARPA
@@ -4168,6 +4197,7 @@ oring_bs,Ordine degli Ingegneri della Provincia di Brescia
 c_g080,Comune di Oppeano
 CISCIRIE,CIS Consorzio Intercomunale Dei Servizi Socio Assistenziali di Cirie
 istsc_anic843003,ISTITUTO COMPRENSIVO - OSIMO BRUNO DA OSIMO
+SLYUFSFV,P. RADICI NUOTO ASD
 istsc_ratf01000t,ISTITUTO TECNICO INDUSTRIALE - NULLO BALDINI
 icy,It.City Spa
 icisas,Istituto Comprensivo Imbriani Salvemini Andria
@@ -4250,6 +4280,7 @@ sgpr,Segretariato Generale della Presidenza della Repubblica
 issmf,Conservatorio di musica Franco Vittadini
 c_g359,Comune di Passignano sul Trasimeno
 c_a055,Comune di Adelfia
+6RAXEBMY,ISTITUTO TECNOLOGICO SUPERIORE - ITS ACADEMY INNOVAPROFESSIONI PER IL TURISMO E LE ATTIVITA' CULTURALI
 istsc_feic810004,ISTITUTO COMPRENSIVO - I.C. 'A.COSTA' - FERRARA
 c_d267,Comune di Delia
 istsc_CEIS02300X,ISTITUTO STATALE ISTRUZIONE SECONDARIA SUPERIORE E. MAJORANA - SANTA MARIA A VICO (CE)
@@ -4440,6 +4471,7 @@ istsc_geic83000d,ISTITUTO COMPRENSIVO - I.C. MONTALDO
 udm_069,Unione Dei Miracoli
 istsc_cais00200c,ISTRUZIONE SECONDARIA SUPERIORE - AZUNI (CAGLIARI)
 istsc_agic82700x,Istituto Comprensivo Giovanni XXIII
+WKVIWXRE,ASEC TRADE SRL
 c_f600,Comune di Monte Roberto
 istsc_csis001006,ISTRUZIONE SECONDARIA SUPERIORE - I.I.S. CORIGLIANO C. 'LC-LS'
 istsc_tpis002005,ISTRUZIONE SECONDARIA SUPERIORE - IST. ISTRUZIONE SUP. 'F.SCO D'AGUIRRE'
@@ -4452,6 +4484,7 @@ c_a796,Comune di Bergeggi
 istsc_artf02000t,ISTITUTO TECNICO INDUSTRIALE - 'GALILEO GALILEI'
 istsc_rcic855001,ISTITUTO COMPRENSIVO GIOVANNI XXIII
 c_h422,Comune di Roccamena
+1ZPNFOZP,Mea S.p.a.
 cnprm,Consiglio Notarile di Parma
 oring_fg,Ordine degli Ingegneri della Provincia di Foggia
 c_e847,Comune di Malborghetto Valbruna
@@ -4629,6 +4662,7 @@ c_g993,Comune di Prata Camportaccio
 erdsu_to,Ente Regionale per il Diritto allo Studio Universitario del Piemonte
 c_f462,Comune di Montecchio
 apspv,Azienda Pubblica di Servizi alla Persona della Val di Fassa
+N9GU2KJC,Fondazione Istituto Tecnologico Superiore ITS Academy Nuove Tecnologie per il Made in Italy nelle Marche
 c_i946,Comune di Stella
 c_l393,Comune di Tresnuraghes
 istsc_baic86400p,ISTITUTO COMPRENSIVO - 6 C.D.'IANNUZZI' - SM 'DI DONNA
@@ -4815,7 +4849,6 @@ cpialo,Centro Provinciale per L'Istruzione Degli Adulti - Lodi
 istsc_clic82500l,ISTITUTO COMPRENSIVO - M. LUTHER KING
 izs_loer,Istituto Zooprofilattico Sperimentale della Lombardia e dell'Emilia Romagna Bruno Ubertini
 c_c222,Comune di Castelnuovo della Daunia
-cdpid_0,Collegio Dei Periti Industriali e Dei Periti Industriali Laureati della Provincia di Novara
 tdtos,Tradizione Delle Terre Occitane S.C.A R.L.
 acpdp,Associazione della Conferenza Permanente Dei Presidenti di Consiglio di Corso di Laurea Magistrale in Medicina e Chirurgia Delle Universita' Italiane
 odcec_at,Ordine dei Dottori Commercialisti e degli Esperti Contabili di Asti
@@ -4876,6 +4909,7 @@ istsc_fric821006,ISTITUTO COMPRENSIVO - I.C. ATINA
 omv_co,Ordine dei Medici Veterinari della Provincia di Como e Lecco
 opclgr,Ordine Provinciale Consulenti del Lavoro di Grosseto
 icsps,Istituto Comprensivo Statale 1 Piove di Sacco
+9WQ8OC8R,Adriafer Rail Services S.r.l.
 c_m183,Comune di Zocca
 istsc_ctmm064009,ISTITUTO SECONDARIO DI I GRADO - SMS MARIO PLUCHINOTTA
 icmode,Istituto Comprensivo 9 - Modena
@@ -4951,6 +4985,7 @@ istsc_piic81300n,ISTITUTO COMPRENSIVO - I.C. FRA D.DA PECCIOLI
 istsc_fotd02000l,ISTITUTO TECNICO COMMERCIALE - R. SERRA
 odapp_05,ORDINE DEGLI ARCHITETTI DELLA PROVINCIA DI SIENA
 csmns_bn,Conservatorio Statale di Musica Nicola Sala
+6CY4731G,EXE.GESI SPA
 c_g471,Comune di Pertengo
 istsc_nuic864004,ISTITUTO COMPRENSIVO - ISTITUTO COMPRENSIVO LANUSEI
 4WH03GS8,Fondazione Castello di Novara
@@ -4987,6 +5022,7 @@ c_h077,Comune di Provagliovalsabbia
 cgcam,Collegio Circondariale Geometri e Geometri Laureati di Camerino
 c_a369,Comune di Arcidosso
 c_c461,Comune di Ceneselli
+7VKA95UA,CASA ATC SERVIZI SRL
 c_h277,Comune di Ricigliano
 c_a335,Comune di Appignano del Tronto
 c_g385,Comune di Paullo
@@ -4996,6 +5032,7 @@ D6LYGFN1,I.I.S.S. LEONARDO DA VINCI
 istsc_mnic83600p,ISTITUTO COMPRENSIVO - I.C. MANTOVA 3
 anais,Ag.Naz.Attrazione Investimenti Sviluppo Impresa Spa
 istsc_ceis028003,ISTITUTO SUPERIORE - O.CONTI  AVERSA
+icsgv,Istituto Comprensivo Statale G.Vasi Corleone
 c_a434,Comune di Arqua Petrarca
 CMS11,Comunita' Montana Sannio
 c_e524,Comune di Lenna
@@ -5017,7 +5054,6 @@ istsc_naic8cj00l,ISTITUTO COMPRENSIVO - OTTAVIANO I.C. M. BENEVENTANO
 iibss,Ipab Istituto di Beneficenza e Scolastico Sac. M. Scriffignano Siscaro
 istsc_mnis00100x,ISTRUZIONE SECONDARIA SUPERIORE - A. MANZONI
 isica,Liceo Classico, Artistico e Musicale
-c_l487,Comune di Uggiate Trevano
 istsc_ssic834004,ISTITUTO COMPRENSIVO - ARZACHENA N. 2
 icsbs_0,Istituto Comprensivo San Bernardino da Siena
 omvna,Ordine Dei Medici Veterinari della Provincia di Napoli
@@ -5084,6 +5120,7 @@ C_A703,Comune di Bassano del Grappa
 udcmav,Unione Dei Comuni Montani dell'Alta Val D'Aveto
 c_i455,Comune di Sassinoro
 fiptq,Fondo per Il Pagamento del Trattamento di Quiescenza e della Indennita' di Buonuscita del Personale Regionale
+T9PL8XFP,AZIENDA SERVIZI MUNICIPALIZZATI S.R.L.
 c_i002,Comune di San Martino Sannita
 istsc_naic8de00e,ISTITUTO COMPRENSIVO - I.C. FALCONE CATULLO
 icsgs,Istituto Comprensivo Statale G.Siani
@@ -5118,6 +5155,7 @@ istsc_sric808004,ISTITUTO COMPRENSIVO - XII I.C. 'V. BRANCATI' SIRACUSA
 sdiss,Societa' Degli Interporti Siciliani Spa
 istsc_geic860009,ISTITUTO COMPRENSIVO - I.C. STURLA
 istsc_fips030006,LICEO SCIENTIFICO - LEONARDO DA VINCI
+NDVN5WG6,Consorzio per l'Area di Sviluppo Industriale di bari
 or_farmc,Ordine dei Farmacisti della Provincia di Macerata
 istsc_LTRH01000P,IST PROF PER I SERVIZI ALBERGHIERI E RISTORAZIONE - IPSAR 'CELLETTI' FORMIA
 c_e465,Comune di Lastebasse
@@ -5137,6 +5175,7 @@ c_b198,Comune di Brolo
 cbmpb,Consorzio di Bonifica della Media Pianura Bergamasca
 c_d181,Comune di Cropani
 isisc,Istituto Statale Istruzione Superiore Cecilia Deganutti
+9NOWRM5S,Tecnoborsa Scpa
 istsc_miic8br00g,Istituto Comprensivo Statale Giovanni Testori
 c_d114,Comune di Costarainera
 c_c616,Comune di Chiaravalle Centrale
@@ -5182,6 +5221,7 @@ c_f643,Comune di Montecchio Emilia
 cvcos,Conser V.C.O. S.P.A.
 cpoclcz,Consiglio Provinciale Ordine Consulenti del Lavoro di Catanzaro
 c_g626,Comune di Pietraroja
+JL6P0Y29,MAXI DI S.R.L.
 c_h036,Comune di Premolo
 c_h021,Comune di Predosa
 istsc_rmic88200c,ISTITUTO COMPRENSIVO - MONTEROTONDO VIA B. BUOZZI, 18
@@ -5243,6 +5283,7 @@ istsc_GRIS01200Q,Polo Commerciale Artistico Grafico Musicale e Coreutico Luciano
 aatgr_to,Associazione D'Ambito Torinese Governo Rifiuti
 34WTOIJ0,PARCAM SRL CON SOCIO UNICO
 c_b497,Comune di Campagnatico
+istsc_svis00200e,Nuovo Polo Scolastico di Finale Ligure
 istsc_pdps06000v,LICEO SCIENTIFICO - L.S. 'A.CORNARO'
 c_a784,Comune di Benna
 istsc_pcic81500r,ISTITUTO COMPRENSIVO - IC CASTELL'ARQUATO
@@ -5254,13 +5295,13 @@ c_l096,Comune di Tenna
 istsc_viis00900n,ISTRUZIONE SECONDARIA SUPERIORE - IS 'MARTINI' SCHIO
 c_l525,Comune di Vacone
 c_b947,Comune di Casazza
+IA0L8MZT,ACEA PINEROLESE INDUSTRIALE S.P.A.
 istsc_csic86100n,ISTITUTO COMPRENSIVO - IC GUARDIA PIEMONTESE
 istsc_leis04200r,ISTITUTO ISTRUZIONE SECONDARIA SUPERIORE "GALILEI- COSTA - SCARAMBONE"
 c_a088,Comune di Agrate Conturbia
 c_a430,Comune di Arosio
 cat,Consorzio Ambiente Territorio e Servizi
 ormedmod,Ordine dei Medici Chirurghi e degli Odontoiatri della Provincia di Modena
-O2GXPJGP,Milano Serravalle - Milano Tangenziali S.p.A.
 istsc_bnic855006,Istituto Comprensivo Statale Ilaria Alpi
 c_f986,Comune di Nurri
 c_g807,Comune di Pomaro Monferrato
@@ -5289,6 +5330,7 @@ istsc_saic81800l,ISTITUTO COMPRENSIVO - IST.COMPR. SALERNO V 'OGLIARA'
 omvpg,Ordine Medici Veterinari della Provincia di Genova
 c_f433,Comune di Montazzoli
 c_e273,Comune di Hone
+iccdt,I.C. Cava D.T. San Nicola
 acas_068,Azienda Comprensoriale Acquedottistica S.P.A in House Providing
 icvln,Istituto Comprensivo Vallo della Lucania - Novi Velia
 istsc_baic832007,ISTITUTO COMPRENSIVO - 'S.G.BOSCO' - MANZONI
@@ -5296,6 +5338,7 @@ c_l854,Comune di Vidigulfo
 c_i677,Comune di Sessa Cilento
 istsc_rmtf180009,ISTITUTO TECNICO INDUSTRIALE - ENRICO FERMI
 oapp_039,Ordine Architetti Pianificatori Paesaggisti Conservatori di Ravenna
+TWA648I9,CONSORZIO DI BONIFICA OGLIO MELLA
 odcec_ba,Ordine dei Dottori Commercialisti e degli Esperti Contabili di Bari
 c_c426,Comune di Celano
 c_d959,Comune di Gazzuolo
@@ -5480,6 +5523,7 @@ odtsrmn,Ordine Dei Tecnici Sanitari di Radiologia Medica e Delle Professioni San
 c_g379,Comune di Pau
 istsc_chic809006,ISTITUTO COMPRENSIVO - I.C. B. CROCE PAGLIETA
 c_f925,Comune di Nole
+YL2YG67N,FONDAZIONE ISTITUTO TECNICO SUPERIORE "NUOVE TECNOLOGIE PER IL MADE IN ITALY" COMPARTO AGROALIMENTARE E VITIVINICOLO
 Sgf_Bz,Sozialwissenschaftliches Gymnasium Und Fachoberschule Fuer Tourismus
 W1DXAMD5,SOCIETA' MONREGALESE AMBIENTE SC SRL
 istsc_caps120008,LICEO SCIENTIFICO - LICEO SCIENTIFICO 'PITAGORA' SE
@@ -5545,7 +5589,6 @@ cmgt_ts,Conservatorio di Musica Giuseppe Tartini di Trieste
 gl_labzt,Grundschulsprengel Lana
 c_a351,Comune di Aragona
 icgg,Istituto Comprensivo G.Garibaldi
-c_h521,Comune di Ronago
 E6OTW8VC,Consorzio di Bioingegneria e Informatica Medica
 c_l4878,Unione di Comuni Lombarda Terre di Frontiera
 c_c744,Comune di Citta' della Pieve
@@ -5727,6 +5770,7 @@ ipabp,I.P.A.B. Principe di Palagonia e Conte Ventimiglia
 asam,Azienda Speciale del Comune di Aprilia Aprilia Multiservizi
 c_a467,Comune di Asigliano Veneto
 istsc_pgic83000p,Istituto Comprensivo Foligno 3 G. Galilei S. Eraclio Foligno
+istsc_MIIS08300X,ISTITUTO SUPERIORE - GREGORIO MENDEL
 cssa,Centro Servizi Socio Sanitari e Residenziali Male' A.P.S.P.
 c_e633,Comune di Loazzolo
 odab_096,Ordine Degli Avvocati di Biella
@@ -5936,6 +5980,7 @@ udcccv,Unione Dei Comuni Comunita' Collinare Valtriversa
 c_d538,Comune di Ferentillo
 c_g859,Comune di Pontevico
 c_b205,Comune di Brosso
+4CFJTTLW,azienda servizi spoleto Srl
 ivdg,Ipab Veronesi Dr. Germano
 c_e884,Comune di Manerbio
 c_g311,Comune di Pannarano
@@ -5992,7 +6037,6 @@ atdaap,Assemblea Territoriale D'Ambito A.T.A. -ato 5-ascoli Piceno
 istsc_ceps14000x,LICEO SCIENTIFICO - GIANCARLO SIANI
 c_b024,Comune di Borgone Susa
 c_l872,Comune di Vigevano
-CAZPTS31,M&P MOBILITA' & PARCHEGGI SPA 
 oamc,Consiglio dell'Ordine Degli Avvocati di Massa Carrara
 cdpip_pi,ORDINE DEI PERITI INDUSTRIALI DELLA PROVINCIA DI PISA
 odcdm_an,Ordine Regionale dei Chimici e dei Fisici delle Marche
@@ -6027,6 +6071,7 @@ istsc_vric830007,ISTITUTO COMPRENSIVO - IC VR 13 CADIDAVID 'PRIMO LEVI'
 TK670P77,Azienda Trasporti Verona srl
 c_f280,Comune di Mola di Bari
 istsc_paee103008,DIREZIONE DIDATTICA - C.D. CASTELDACCIA
+istsc_vcis016008,ISTRUZIONE SECONDARIA SUPERIORE - VINCENZO LANCIA
 comag,Comune di Magreglio
 c_h333,Comune di Rivalba
 istsc_cntd04000p,ISTITUTO TECNICO COMMERCIALE - CUNEO - 'F. A. BONELLI'
@@ -6188,6 +6233,7 @@ c_a052,Comune di Acqui Terme
 asl_bo,Azienda USL di Bologna
 c_l404,Comune di Treviolo
 istsc_roic807009,ISTITUTO COMPRENSIVO - VILLADOSE
+X26BRNFR,Fondazione Biotecnopolo di Siena
 itl,Isiss Terra di Lavoro
 ipisa,Istituto Professionale per I Servizi Alberghieri e della Ristorazione MANLIO ROSSI DORIA
 coati,Consiglio Ordine Avvocati Termini Imerese
@@ -6269,6 +6315,7 @@ c_b365,Comune di Caino
 iismda,Istituto Istruzione Superiore Mariano IV D'Arborea
 istsc_cnic846008,ISTITUTO COMPRENSIVO - 'DOGLIANI'
 istsc_leic87500x,Istituto Comprensivo Statale TRICASE
+H21PTBR9,Torino Nuova Economia S.p.A.
 cinig,Consorzio Interuniversitario Nazionale per L'Ingegneria Delle Georisorse
 istsc_foic805005,ISTITUTO COMPRENSIVO - IC FORLIMPOPOLI - E. ROSETTI
 c_i540,Comune di Scisciano
@@ -6293,6 +6340,7 @@ istsc_vvtd01000l,Istituto Tecnico Economico G. Galilei
 c_d746,Comune di Montebello Ionico
 c_l665,Comune di Vanzago
 oclcp,Ordine Consulenti del Lavoro Consiglio Provinciale di Firenze
+DBN4K9WB,Consorzio di bonifica 5 gela
 FTEUSA3W,FONDAZIONE ITS PROFESSIONALITA' PER LO SVILUPPO DEI SISTEMI ENERGETICI ECOSOSTENIBILI
 p_cr,Provincia di Cremona
 istsc_miic81200n,ISTITUTO COMPRENSIVO - GIOVANNI XXIII-VEDANO AL LAMBRO
@@ -6300,6 +6348,7 @@ iissfc,Istituto Istruzione Secondaria Superiore F.Calasso
 c_i139,Comune di San Roberto
 ascell,Amministrazione Separata Usi Civici di Celledizzo
 omv_ao,Ordine dei Medici Veterinari della Regione Valle d'Aosta
+NFT6DKY7,FONDAZIONE MOLISE CULTURA
 istsc_aric825009,ISTITUTO COMPRENSIVO - IC BUCINE
 c_i593,Comune di Selva Dei Molini
 icqdl,Istituto Comprensivo di Quarto Don Lorenzo Milani
@@ -6362,6 +6411,7 @@ c_g342,Comune di Parona
 c_h257,Comune di Rezzo
 aivdl,Associazione Intercomunale Valle del Liri
 istsc_avis014008,ISTRUZIONE SECONDARIA SUPERIORE - FRANCESCO DE SANCTIS
+SDI2EWCA,LUNIGIANA AMBIENTE S.R.L.
 egrib,E.G.R.I.B.
 c_g613,Comune di Pietraferrazzana
 c_f157,Comune di Mesoraca
@@ -6426,6 +6476,7 @@ idism,Istituto di Istruzione Superiore Marconi Lussu San Gavino Monreale
 istsc_nois00300g,ISTRUZIONE SECONDARIA SUPERIORE - 'BONFANTINI'
 c_l406,Comune di Casto
 c_f408,Comune di Montaldo Roero
+WWZ3DKR2,Farmacie Genovesi Srl
 istsc_naic89900v,ISTITUTO COMPRENSIVO - NA - I.C. CONFALONIERI
 istsc_rmic8cj00g,ISTITUTO COMPRENSIVO - ILARIA ALPI
 c_e620,Comune di Liveri
@@ -6449,6 +6500,7 @@ apspdc,Azienda Pubblica di Servizi alla Del Campana Guazzesi
 istsc_boic81400l,ISTITUTO COMPRENSIVO - DE AMICIS - ANZOLA EMILIA
 c_l243,Comune di Santa Maria Hoe'
 istsc_rmps31000p,LICEO SCIENTIFICO - BRUNO TOUSCHEK
+Z53KI8GY,Technologies for Water Services S.p.A.
 ics_086,Istituto Comprensivo Statale
 istsc_paic83700c,ISTITUTO COMPRENSIVO - I.C. BALESTRATE RETTORE EVOLA
 porsv_,Pia Opera Rosa Serraino Vulpitta
@@ -6475,6 +6527,7 @@ ucler,Unione di Comuni Lombarda Essevum di Roverbella e Castelbelforte
 istsc_luis001008,ISTRUZIONE SECONDARIA SUPERIORE - 'N.MACHIAVELLI'
 istsc_poic811007,ISTITUTO COMPRENSIVO - SANDRO PERTINI
 c_a904,Comune di Blessagno
+SOL4G7SU,CAV CISA  Consorzio Intercomunale di Servizi per l'Ambiente
 c_h445,Comune di Roccasicura
 c_b033,Comune di Borgo San Dalmazzo
 c_l089,Comune di Telve
@@ -6531,6 +6584,7 @@ istsc_kric820006,ISTITUTO COMPRENSIVO - I.O. 'L. LILIO' CIRO'
 c_e061,Comune di Giurdignano
 c_d788,Comune di Fratta Polesine
 icvl_tn,Istituto Comprensivo Valle di Ledro
+OPYGKCRX,AGRO CAMERA
 c_a159,Comune di Albiate
 c_h690,Comune di Salasco
 istsc_liee075009,DIREZIONE DIDATTICA - ALIGHIERI DANTE
@@ -6554,6 +6608,7 @@ istsc_saic8ah00l,ISTITUTO COMPRENSIVO - IST. COMPR. ROCCADASPIDE
 ORCHRAGU,Ordine dei Chimici della Provincia di Ragusa
 ucpbcdol,Unione Dei Comuni del Parteolla e Basso Campidano
 istsc_vtic81400x,ISTITUTO COMPRENSIVO - ALESSANDRO STRADELLA
+21M650RW,AZIENDA FARMACEUTICA MUNICIPALIZZATA DI CREMA 
 c_a742,Comune di Belgirate
 istsc_tvic867006,ISTITUTO COMPRENSIVO - IC CONEGLIANO 2 'GB CIMA'
 iccn_001,Istituto Comprensivo C. Nigra
@@ -6584,6 +6639,7 @@ alspapz,Acquedotto Lucano Spa
 icgi,Istituto Comprensivo Gragnano 3 Staglie Parco Imperiale
 c_g334,Comune di Pareto
 c_e562,Comune di Levate
+INUSF0IS,Parkar S.r.l.
 istsc_bgic854005,ISTITUTO COMPRENSIVO - OSIO SOPRA
 c_g678,Comune di Pino Torinese
 c_m080,Comune di Vistrorio
@@ -6782,6 +6838,7 @@ ieplpm,Istituto Europeo per Le Politiche della Montagna
 istsc_rmic8e4008,ISTITUTO COMPRENSIVO - IC VIA MARELLI
 oascr_rm,Ordine degli Assistenti Sociali della Regione Lazio
 istsc_paic83000n,ISTITUTO COMPRENSIVO - I.C. PETRALIA SOPRANA
+C336IR5R,CENTRO MARCHE ACQUE SRL
 aous_063,Azienda Ospedaliera Universitaria - Universita'  degli Studi della Campania Luigi Vanvitelli
 istsc_pgsd03000p,Istituto Omnicomprensivo - 'Bernardino di Betto'
 ordgs_pa,Ordine dei Geologi della Sicilia
@@ -6841,6 +6898,7 @@ oda_fbg,Ordine dei Chimici e dei Fisici della Provincia di Bergamo
 istsc_pgtf010005,ISTITUTO TECNICO INDUSTRIALE - 'A. VOLTA'
 c_g362,Comune di Pastena
 fctp,Film Commission Torino Piemonte
+9H9P0MGS,VALENZA RETE GAS SPA
 istsc_savc01000q,CONVITTO NAZIONALE - CONVITTO NAZIONALE 'T.TASSO' SALERNO
 udcb_091,Unione Dei Comuni Barbagia
 c_a167,Comune di Albizzate
@@ -6910,6 +6968,7 @@ istsc_vapc020001,LICEO CLASSICO - ERNESTO CAIROLI - VARESE
 c_c531,COMUNE DI CERRINA MONFERRATO
 istsc_capc06000p,LICEO CLASSICO - 'E. PIGA' (VILLACIDRO)
 adbpo,Autorita' di Bacino distrettuale del Fiume Po
+W970Q4I2,Consorzio Società della Salute Valli Etrusche
 odappcg,Ordine Degli Architetti Pianificatori Paesaggisti e Conservatori della Provincia di Genova
 c_f689,Comune di Montorio Nei Frentani
 c_e004,Comune di Ghilarza
@@ -6992,6 +7051,7 @@ c_g437,Comune di Penna Sant'Andrea
 cidsc_mi,C.I.Di.S. Consorzio Pubblico Interuniversitario per Il Diritto allo Studio Universitario
 99S8BN1Q,AMI SPA
 istsc_bgic81300v,ISTITUTO COMPRENSIVO - BERGAMO - DONADONI
+Z9NSJEE0,Agenzia per la formazione, l'orientamento e il lavoro di Monza e Brianza
 c_g542,Comune di Piana Crixia
 cuosv,Consorzio Unico Obbligatorio Strade Vicinali Comune di Ploaghe
 azosp_PD,Azienda Ospedale - Universita' Padova
@@ -7323,6 +7383,7 @@ c_f044,Comune di Massignano
 istsc_naic81400v,ISTITUTO COMPRENSIVO - NA - I.C. NAZARETH
 istsc_ssps040001,LICEO SCIENTIFICO - GIOVANNI SPANO
 c_f852,Comune di Navelli
+cpiaa,CPIA 2 BA "CHIARA LUBICH"
 c_g970,Comune di Pradleves
 c_a292,Comune di Angiari
 c_h593,Comune di Rottofreno
@@ -7375,6 +7436,7 @@ c_c728,Comune di Cisano Bergamasco
 cidop,Ordine della Professione di Ostetrica Interprovinciale di Bergamo, Cremona, Lodi, Milano, Monza e Brianza
 istsc_czic869004,ISTITUTO COMPRENSIVO - IC SOVERATO 1 - OLIMPIA -
 istsc_pgpm010004,Liceo Statale Assunta Pieralli Delle Scienze Umane E Linguistico
+L95LH6FN,Consorzio Industriale del Lazio
 istsc_boic84300l,Istituto Comprensivo n. 2 - Imola
 istsc_udic83100q,ISTITUTO COMPRENSIVO - PREMARIACCO
 c_l642,Comune di Valnegra
@@ -7453,7 +7515,9 @@ c_c208,Comune di Castel Mella
 ODCECRM,Ordine dei Dottori Commercialisti e degli Esperti Contabili di Roma
 c_e754,Comune di Lusciano
 c_h857,Comune di San Gemini
+4Q7W3LTX,Fondazione Casa di Riposo Quaglia Onuls
 ab,Asuc di Bedollo
+1P25K07V,Federazione Italiana Nuoto
 odcec_mt,Ordine dei Dottori Commercialisti e degli Esperti Contabili di Matera
 istsc_csic8al008,ISTITUTO COMPRENSIVO - IC CS V 'D. MILANI-DE MATERA'
 c_m118,Comune di Volpago del Montello
@@ -7576,7 +7640,6 @@ isjc_,Istituzione Scolastica Jean-baptiste Cerlogne
 c_c860,Comune di Collegno
 istsc_miic8cb00v,ISTITUTO COMPRENSIVO - I.BAROZZI - MILANO
 fppsa,Fondazione Peter Paul Schrott Apsp
-c_m05,Consorzio Parco del Molgora
 c_b213,Comune di Brugine
 JVP6XEOA,Etnos società cooperativa sociale
 c_c630,Comune di Chies d'Alpago
@@ -7775,6 +7838,7 @@ cpoppu,Collegio Provinciale Ordine dei Consulenti del Lavoro di Pesaro - Urbino
 c_f750,Comune di Morsano al Tagliamento
 istsc_rmic8c600p,ISTITUTO COMPRENSIVO - IC ANZIO V
 udcag_ot,Unione Dei Comuni Alta Gallura
+D2KJJHNO,Azienda Servizi Farmaceutici srl
 istsc_leee00500q,DIREZIONE DIDATTICA - LECCE 5
 c_i798,Comune di Solero
 istsc_ctic860001,ISTITUTO COMPRENSIVO - IC F.DE ROBERTO -ZAFFERANA
@@ -7823,7 +7887,6 @@ inpdg_0,Istituto Nazionale di Previdenza Dei Giornalisti Italiani
 c_g582,Comune di Piazza al Serchio
 icsfm,Istituto Comprensivo Statale Francesca Morvillo
 c_f340,Comune di Monchio delle Corti
-cpdtsrs,Ordine dei Tecnici Sanitari di Radiologia Medica e delle Professioni Sanitarie Tecniche, della Riabilitazione e della Prevenzione della Provincia di Salerno
 c_g902,Comune di Portici
 odadfpla,Ordine Dottori Agronomi e Dottori Forestali Prov. Aquila
 istsc_cspm070003,ISTITUTO MAGISTRALE - IM BELVEDERE M.
@@ -8128,6 +8191,7 @@ c_f544,Comune di Montelepre
 c_i356,Comune di Santo Stefano Quisquina
 istsc_bspm020005,Liceo Veronica Gambara
 c_a612,Comune di Banzi
+BFGDQ00T,Diocesi di Conversano-Monopoli
 istsc_czic82300p,ISTITUTO COMPRENSIVO - IC GUARDAVALLE 'ALDO MORO'
 c_g685,Comune di Piode
 LILcT,Lega Italiana per la Lotta contro i Tumori
@@ -8217,6 +8281,7 @@ sease,S.E.A. Servizi Ed Ambiente S.P.A.
 c_g003,Comune di Offagna
 uni_na,Universita' degli Studi di Napoli Federico II
 cslssaq,Commissario Straordinario per La Sicurezza del Sistema Idrico del Gran Sasso
+X4Q76CLX,RAVENNA CIVITAS CRUISE PORT S.r.l.
 c_a371,Comune di Arcisate
 istsc_mtic828006,ISTITUTO COMPRENSIVO "E. FERMI" EX II CIRCOLO
 c_f822,Comune di Musei
@@ -8387,6 +8452,7 @@ camcomma,Camera di commercio, industria, artigianato e agricoltura di Mantova
 istsc_miic8eg007,ISTITUTO COMPRENSIVO  'RITA LEVI MONTALCINI'
 C0DGZ4G8,CONSORZIO IRRIGUO BEALEROTTO MUSSI
 odcecmc,Ordine Dottori Commercialisti Esperti Contabili di Massa Carrara
+AP1W66RN,GRUPPO AZIONE LOCALE VALLE D'AOSTA
 c_h943,Comune di San Gregorio Magno
 c_d997,Comune di Gesturi
 istsc_ceps02000t,LICEO SCIENTIFICO - LS ENRICO FERMI AVERSA
@@ -8490,6 +8556,7 @@ cb417,Comune di Callabiana
 c_a813,Comune di Berzano di Tortona
 c_c814,Comune di Codigoro
 cspac,Cep S.P.A - Consorzio Enti Pubblici -
+RONPN59T,ISTITUTO TECNICO SUPERIORE PER LE NUOVE TECNOLOGIE PER IL MADE IN ITALY MACHINA LONATI
 istsc_miis04900c,ISTRUZIONE SECONDARIA SUPERIORE - 'MARTINO BASSI'
 gn_bz,Grundschulsprengel Neumarkt
 istsc_psic84100n,ISTITUTO COMPRENSIVO - MONTELABBATE
@@ -8649,6 +8716,7 @@ P6OMA9KA,ISTITUTO COMPRENSIVO D'OVIDIO-NICOLARDI  - E.A. MARIO
 asbuccs,Amministrazione Separata Dei Beni di Uso Civico della Frazione di Vandoies di Sopra
 c_h043,Comune di Preseglie
 istsc_tvic882008,ISTITUTO COMPRENSIVO - IC VALDOBBIADENE
+SC4BNAP3,Provincia e Ambiente S.r.l.
 iuss_pv,Istituto Universitario di Studi Superiori di Pavia
 istsc_lcis008004,ISTRUZIONE SECONDARIA SUPERIORE - I.S. DI CALOLZIOCORTE
 c_l254,Comune di Torrecuso
@@ -8691,6 +8759,7 @@ c_a520,Comune di Avio
 oring_ag,Ordine degli Ingegneri della Provincia di Agrigento
 odfpc,Ordine Dei Farmacisti della Provincia di Crotone
 istsc_vrrh03000e,ISTITUTO PROFESSIONALE PER I SERVIZI ALBERGHIERI E RISTORAZIONE - LUIGI CARNACINA
+UFO4HRXV,Consorzio per lo Sviluppo Industriale Isernia - Venafro
 istsc_tvis00900a,Istituto di Istruzione Superiore Statale Marco Fanno
 icmond,Istituto Comprensivo Mondovi' 1
 c_l981,Comune di Villeneuve
@@ -8804,6 +8873,7 @@ cpan,Collegio Periti Agrari Nuoro
 galbma,G.A.L. Basso Monferrato Astigiano
 odipv_vb,Ordine degli Ingegneri della Provincia di Verbano Cusio Ossola
 c_l484,Comune di Ugento
+WF62M2HX,Scuola di alta formazione dell'istruzione
 c_i220,Comune di Santa Lucia del Mela
 c_b687,Comune di Capranica Prenestina
 istsc_ceic85400b,ISTITUTO COMPRENSIVO - I.A.C. CAPRIATI AL VOLTURNO
@@ -8861,6 +8931,7 @@ odab,Ordine degli avvocati di Benevento
 c_l880,Comune di Vigliano Biellese
 etssct,Ente Teatro di Sicilia Stabile di Catania
 cciaavg,Camera di Commercio Industria Artigianato e Agricoltura Venezia Giulia
+NHIRUNKC,FEDERAZIONE ITALIANA DISCIPLINE CON ARMI SPORTIVE DA CACCIA
 c_h019,Comune di Predoi
 lcaeuba3,Liquidazione Coatta Amministrativa Ex U.S.L. Ba3
 istsc_paic82300e,ISTITUTO COMPRENSIVO - I.C. CHIUSA SCLAFANI REINA G.
@@ -8962,9 +9033,11 @@ istsc_miis05400x,ISTRUZIONE SECONDARIA SUPERIORE - GALVANI
 cptsr,Ordine dei Tecnici Sanitari di Radiologia Medica e delle professioni Sanitarie Tecniche della Riabilitazione e della Prevenzione della Provincia di Perugia e Terni
 c_d096,Comune di Cossignano
 c_c810,Comune di Cocquio Trevisago
+BCR7AUQ2,FONDAZIONE COLLEGIO UNIVERSITARIO S.CATERINA DA SIENA
 istsc_mtri02000a,ISTITUTO PROFESSIONALE INDUSTRIA E ARTIGIANATO - PITAGORA
 c_a590,Comune di Baldissero Canavese
 ccm_,Consorzio Culturale del Monfalconese
+RM7V19PV,Consorzio Venezia Nuova
 cplidacb,Centro Provinciale per L'Istruzione Degli Adulti Campobasso
 istsc_mips070007,LICEO SCIENTIFICO - VITTORIO VENETO
 istsc_agis01100e,ISTRUZIONE SECONDARIA SUPERIORE - IS E.FERMI
@@ -9040,6 +9113,7 @@ c_g340,Comune di Parolise
 istsc_naic8dg006,ISTITUTO COMPRENSIVO - NA IC 64 RODARI - MOSCATI
 istsc_pdic85700d,ISTITUTO COMPRENSIVO - ISTITUTO COMPRENSIVO LOZZO A.
 c_g962,Comune di Pozzomaggiore
+IDMPPX95,Unione tra Comuni CO.RO. PNRR
 c_h889,Comune di San Giorgio Morgeto
 c_c574,Comune di Cesenatico
 c_b237,Comune di Buccheri
@@ -9088,6 +9162,7 @@ ars_tosc,Agenzia Regionale di Sanita della Toscana
 c_c432,Comune di Cella Monte
 asbusil,Amministrazione Separata Beni Usi Civici Silandro
 asrla,As2 S.R.L. - Azienda Servizi Strumentali
+NRO5CXE4,FONDAZIONE TEATRO REGIO DI PARMA
 cpipi_lc,ORDINE DEI PERITI INDUSTRIALI E PERITI INDUSTRIALI LAUREATI DELLA PROVINCIA DI LECCO
 istsc_vaic82000e,ISTITUTO COMPRENSIVO - I.C. GERMIGNAGA
 c_l230,Comune di Toro
@@ -9148,6 +9223,7 @@ c_f867,Comune di Neoneli
 c_h187,Comune di Rapone
 istsc_anic82900r,ISTITUTO COMPRENSIVO - JESI 'CARLO URBANI'
 cc,Arma dei Carabinieri
+BLMKO6VF,NUOVO COMITATO ORGANIZZATORE DELLA XX EDIZIONE DEI GIOCHI DEL MEDITERRANEO TARANTO 2026
 istsc_clee02100b,DIREZIONE DIDATTICA - 'NISCEMI II'
 asstb,Azienda Socio Sanitaria Territoriale Degli Spedali Civili di Brescia
 c_d484,Comune di Falzes
@@ -9277,6 +9353,7 @@ c_h373,Comune di Robecco Sul Naviglio
 istsc_miic88300q,ISTITUTO COMPRENSIVO - IC A.CASATI - MUGGIO'
 c_e287,Comune di Imbersago
 c_i599,Comune di Semiana
+CDR1EZVN,ECHO SISTEMI SRL
 c_f020,Comune di Masone
 c_h675,Comune di Saint Rhemy en Bosses
 istsc_rmic8cu003,ISTITUTO COMPRENSIVO -  VIA T. MOMMSEN, 20
@@ -9416,6 +9493,7 @@ sevss,Servizi Energia Valle Sabbia Srl
 c_l271,Comune di Torregrotta
 C_F354,Comune di Moneglia
 odmc_050,Ordine Dei Medici Chirurghi e Degli Odontoiatri della Provincia di Pisa
+DAVQZMGL,ISTITUTO COMPRENSIVO 1
 odce_083,Ordine Dei Dottori Commercialisti Ed Esperti Contabili Di Barcellona Pozzo di Gotto
 istsc_toic828007,ISTITUTO COMPRENSIVO - I.C. - FIANO
 and,Accademia Nazionale di Danza
@@ -9513,7 +9591,6 @@ c_b526,Comune di Campo di Giove
 c_m337,Comune di Verderio
 istsc_rmic8ce00v,ISTITUTO COMPRENSIVO - LEONARDO DA VINCI
 c_l409,Comune di Trezzano Sul Naviglio
-cdpad_ch,Collegio dei Periti Agrari e dei Periti Agrari Laureati della Provincia di Chieti
 cdgcl,Collegio Dei Geometri e Geometri Laureati della Provincia di Caltanissetta
 c_f385,Comune di Monta'
 c_b953,Comune di Cascinette di Ivrea
@@ -9578,6 +9655,7 @@ cmsv,Consorzio Manutenzione Stradale Vicinale di Poggi di Villore
 ctpri,ORDINE  TSRM   PSTRP di RIETI
 istsc_lcic828005,ISTITUTO COMPRENSIVO - ISTITUTO COMPRENSIVO DI CIVATE
 c_l074,Comune di Taviano
+F8UEVCFB,fonter
 c_f324,Comune di Monasterace
 istsc_aris01700e,ISTRUZIONE SECONDARIA SUPERIORE - 'G.GIOVAGNOLI'
 istsc_baee12200g,DIREZIONE DIDATTICA - 3 C.D.'DON LORENZO MILANI'
@@ -9611,6 +9689,7 @@ icp_048,Istituto Comprensivo di Pontassieve
 istsc_taic83200x,ISTITUTO COMPRENSIVO - I.C. LEONARDO SCIASCIA
 c_d317,Comune di Dolce'
 ciavp_0,Ordine delle Professioni Infermieristiche di Terni
+TZZ7Z5KS,DIOCESI DI ACIREALE
 istsc_rmic83500v,ISTITUTO COMPRENSIVO - 'FONTANILE ANAGNINO'
 cdfrf,Casa Dei Fanciulli Renda-Ferrari
 istsc_toic83400e,ISTITUTO COMPRENSIVO - I.C. - CANDIOLO
@@ -9640,7 +9719,6 @@ ftst,Fondazione del Teatro Stabile di Torino
 c_i473,Comune di Savignano sul Panaro
 asl_vvta,Azienda Sanitaria Locale di Taranto
 O49H33BL,PLURISERVIZI CAMAIORE S.P.A.
-istsc_rmis10200l,ISTITUTO SUPERIORE - VIA LENTINI 78
 c_d780,Comune di Frassineto Po
 cbme,Consorzio di Bonifica della Maremma Etrusca
 istsc_mipc01000c,LICEO CLASSICO - MANZONI
@@ -9726,6 +9804,7 @@ c_h274,Comune di Riccione
 oddcd_vz,Ordine dei Dottori Commercialisti e degli Esperti Contabili di Parma
 c_g621,Comune di Pietranico
 oac_019,Ordine Avvocati di Cremona
+XJMTTVVN,Azienda speciale servizi di Agrate Brianza
 istsc_rmic8fh006,ISTITUTO COMPRENSIVO - IC VIA FRIGNANI
 EXSWM98K,Ordine  interprovinciale  della  professione   sanitaria   di fisioterapista di Brescia e Mantova
 istsc_toic85400q,ISTITUTO COMPRENSIVO - I.C. - VEROLENGO
@@ -9749,6 +9828,7 @@ c_d782,Comune di Frassino
 c_c348,Comune di Castroregio
 istsc_geps080004,LICEO SCIENTIFICO - LS L. LANFRANCONI
 c_a275,Comune di Andezeno
+W6RK2SZ6,Inrete Distribuzione Energia S.P.A.
 c_f987,Comune di Nus
 istsc_rnrh030001,ISTITUTO PROFESSIONALE PER I SERVIZI ALBERGHIERI E RISTORAZIONE - 'S.P. MALATESTA'
 csa_alr,Consorzio Socio Assistenziale Alba Langhe Roero
@@ -9787,6 +9867,7 @@ c_l328,Comune di Trani
 c_a242,Comune di Alviano
 ac_ar,Automobile Club Arezzo
 istsc_meic864003,ISTITUTO COMPRENSIVO - I.C. 'LA PIRA - GENTILUOMO' ME
+FV0HGLHR,ICONTO SRL
 c_i424,Comune di Saracinesco
 c_e403,Comune di Laghi
 uctvt,Unione di Comuni Terre di Vini e di Tartufi
@@ -9798,6 +9879,7 @@ ipsseta,I.P.S.S.E.O.A. 'Mediterraneo'
 istsc_leic85400v,ISTITUTO COMPRENSIVO - SCORRANO
 istsc_miic8bw00c,ISTITUTO COMPRENSIVO - 'ROSANNA GALBUSERA'
 csuda,Commissario Straordinario unico DPCM del 07/08/2023
+4PBKMXZT,ITS MARCO POLO - FONDAZIONE PER LA MOBILITA' SOSTENIBILE NEL SISTEMA PORTUALE E AEROPORTUALE
 cmgp_011,Conservatorio di Musica Giacomo Puccini
 c_f625,Comune di Montesano sulla Marcellana
 istsc_bgis00200l,ISTRUZIONE SECONDARIA SUPERIORE - 'SIMONE WEIL'
@@ -9975,6 +10057,7 @@ c_l517,Comune di Ussita
 istsc_vric899009,ISTITUTO COMPRENSIVO - IC 01 PESCANTINA
 iscdcamo,Ii Ss Cezzi De Castro- Moro
 istsc_miic8cj00n,ISTITUTO COMPRENSIVO - ISTITUTO COMPRENSIVO 'M.GANDHI'
+HBIIO8US,ISTITUTO COMPRENSIVO "Fogazzaro-Rebora"
 istsc_apic824008,ISTITUTO COMPRENSIVO - MONTEGRANARO ISC
 csmab_ro,Conservatorio Statale di Musica Antonio Buzzolla di Adria
 icsd1c,Istituto Comprensivo S. Donato 1 Circolo
@@ -9996,6 +10079,7 @@ aipes,A.I.P.E.S. Associazione Intercomunale per Esercizio Sociale - Consorzio pe
 c_i738,Comune di Silvano D'Orba
 istsc_rmic8a100a,Istituto Comprensivo Marino Centro
 c_h336,Comune di Rivanazzano Terme
+9ZSH8PEB,Hermes Servizi Metropolitani Srl
 c_c338,Comune di Castro Dei Volsci
 YFWUYHVB,I.C. DE AMICIS EDMONDO
 istsc_namm04900v,ISTITUTO SECONDARIO DI I GRADO - LIVIO T.-NAPOLI-
@@ -10097,6 +10181,7 @@ c_d934,Comune di Gattatico
 istsc_toic852004,ISTITUTO COMPRENSIVO - I.C. - MONTANARO
 c_i449,Comune di Sarzana
 istsc_baic87100t,ISTITUTO COMPRENSIVO - C.D. S.G. BOSCO - SM 2 GRUPPO
+STY8G9A8,L'ARTIGIANA CONFIDI- CONFARTIGIANATO - LECCE
 istsc_alic80600d,ISTITUTO COMPRENSIVO - GAVI - C. DE SIMONI
 c_f746,COMUNE DI MORRO REATINO
 udcasd,UNIONE DEI COMUNI TERRE A LEVANTE
@@ -10107,6 +10192,7 @@ c_c857,Comune di Colle di Tora
 idismp,Istituto D'Istruzione Superiore Marconi-Pieralisi
 c_d352,Comune di Dossena
 GGL0Y51E,Azienda Casa Emilia-Romagna (ACER) Ferrara
+GM5LB2XW,ITS NUOVE TECNOLOGIE PER IL MADE IN ITALY
 orfap_fr,Ordine dei Farmacisti della Provincia di Frosinone
 c_h887,Comune di San Giorgio Piacentino
 istsc_pdic89200r,ISTITUTO COMPRENSIVO - I.C. CAMPOSAMPIERO - PARINI
@@ -10118,12 +10204,14 @@ istsc_baic84200t,ISTITUTO COMPRENSIVO - I.C. ARISTIDE GABELLI
 istsc_naic8b0006,ISTITUTO COMPRENSIVO - NA - IC 49 BORSI P.U. GIURLEO
 c_d046,Comune di Corsione
 c_d920,Comune di Garessio
+paleo,Parco Archeologico di Leontinoi  e Megara
 odgr_027,Ordine Dei Geologi Regione del Veneto
 iceicerc,Istituto Comprensivo Ercolano I.C. 5 Maiuri
 c_g510,Comune di Petralia Soprana
 istsc_vric84700l,ISTITUTO COMPRENSIVO - DI ZEVIO
 c_f457,Comune di Montecastrilli
 c_e415,Comune di Lainate
+V30O93S6,Azienda per la mobilità della Città di Catanzaro Spa
 istsc_apic83700a,Istituto Comprensivo Statale Rodari - Marconi
 istsc_viic83800d,ISTITUTO COMPRENSIVO - IC SARCEDO 'VECELLIO'
 c_l805,Comune di Vescovana
@@ -10218,6 +10306,7 @@ c_f561,Comune di Monte Marenzo
 c_f135,Comune di Mercatello sul Metauro
 c_h258,Comune di Rezzoaglio
 istsc_naee34800p,DIREZIONE DIDATTICA - MELITO 3 - DE CURTIS
+istsc_rmis10200l, PERTINI-FALCONE
 odcee_na,Ordine dei Dottori Commercialisti e degli Esperti Contabili di Torre Annunziata
 istsc_leis00700d,ISTRUZIONE SECONDARIA SUPERIORE - AMERIGO VESPUCCI
 cplida,Centro Provinciale per L'Istruzione Degli Adulti
@@ -10279,6 +10368,7 @@ H3Y12WPO,COMMISSARIO STRAORDINARIO DEL GOVERNO PER LA ZES CAMPANIA
 c_e976,Comune di Marsico Nuovo
 orfap_cb,Ordine dei Farmacisti della Provincia di Campobasso
 c_m398,Comune di Cellioconbreia
+LOBCIHMD,GIGAS RETE S.R.L.
 c_c813,Comune di Codevilla
 asptbr,A.S.P. Terra di Brindisi Canonico Latorre e Canonico Rossini
 c_d615,Comune di Fisciano
@@ -10359,6 +10449,7 @@ c_h106,Comune di Quarna Sopra
 ordarcrm,Ordine Architetti Pianificatori Paesaggisti e Conservatori di Roma e Provincia
 aci_ba,Automobile Club Bari
 istsc_ctic86700q,ISTITUTO COMPRENSIVO - I C FONTANAROSSA
+CMTz,Comunita' Montana del Turano 8 zona
 istsc_ceps110004,LICEO SCIENTIFICO - LICEO SCIEN'GAROFANO'CON SEZ.CLASSICA A.
 istsc_sric861001,ISTITUTO COMPRENSIVO - I.C. S. RAITI SIRACUSA
 istsc_rcps030006,LICEO SCIENTIFICO - L. S. A. VOLTA REGGIO CAL.
@@ -10422,6 +10513,7 @@ istsc_bgic825005,ISTITUTO COMPRENSIVO - BARIANO
 c_f480,Comune di Montecorvino Pugliano
 istsc_leic86900l,ISTITUTO COMPRENSIVO - TREPUZZI POLO 1
 c_m088,Comune di Vittoria
+1R25HBXU,CONSORZIO DI BONIFICA 1 TRAPANI
 c_c069,Comune di Castelcivita
 c_h969,Comune di San Lorenzo Nuovo
 c_m294,Comune di Bellizzi
@@ -10567,6 +10659,7 @@ c_f061,Comune di Mazara del Vallo
 istsc_reic83100n,ISTITUTO COMPRENSIVO - NOVELLARA
 c_b555,Comune di Campora
 c_e522,Comune di Lendinara
+icgag,I.C. Giacomo Albo - Giovanni XXIII
 c_b470,Comune di Camerata Picena
 istsc_pgee06000l,DIREZIONE DIDATTICA - DIR. DID. TODI
 istsc_naic8ak00g,ISTITUTO COMPRENSIVO - S. ANASTASIA - I.C. 2
@@ -10594,6 +10687,7 @@ istsc_vric85300x,ISTITUTO COMPRENSIVO - IC CALDIERO
 istsc_bgis00300c,ISTRUZIONE SECONDARIA SUPERIORE - 'BETTY AMBIVERI'
 cmmi,Citta' Metropolitana di Milano
 cpiga,Centro Provinciale Istruzione per Gli Adulti Brindisi
+A9PEYSMG,Mercurio Supporto Riscossioni srl
 c_a731,Comune di Bedonia
 c_e058,Comune di Giulianova
 istsc_fiic84500a,Istituto Comprensivo Teresa Mattei
@@ -10643,12 +10737,12 @@ c_e050,Comune di Girifalco
 cndrp,Consiglio Notarile Dei Distretti Riuniti di Potenza, Lagonegro, Melfi e Sala Consilina
 c_l223,Comune di Tornaco
 oddcd_01,Ordine Dei Dottori Commercialisti e Degli Esperti Contabili di Vasto
-istsc_rmic8cs00b,ISTITUTO COMPRENSIVO - IC PONTE DI NONA VECCHIO-LUNGHE
 crigrm,Commissario rischio idrogeologico
 cg_f727,Consorzio di Gestione del Parco Naturale Regionale del Monte Arci
 adg_tosc,Ordine dei Giornalisti della Regione Toscana
 istsc_toic849008,ISTITUTO COMPRENSIVO - I.C. - SETTIMO VITTONE
 istsc_vari04000e,ISTITUTO PROFESSIONALE INDUSTRIA E ARTIGIANATO - I.P.S.I.A. 'ANTONIO PARMA' - SARONNO
+COF2L5ZL,Fondazione Cresci@mo
 c_f374,Comune di Monleale
 aspei,Amministrazione Separata Usi Civici di Peio
 istsc_tvic832007,ISTITUTO COMPRENSIVO - IC SAN BIAGIO DI CALLALTA
@@ -10661,6 +10755,7 @@ c_f153,Comune di Mese
 c_a041,Comune di Acquappesa
 apr_ra,Autorita' di Sistema portuale del Mare Adriatico centro-settentrionale
 c_a801,Comune di Bernalda
+4KM8UAYZ,ENTE PORTO GIULIANOVA
 c_b602,Comune di Canicatti'
 c_c829,Comune di Colazza
 c_f620,Comune di Monte San Giovanni Campano
@@ -10740,6 +10835,7 @@ C_A861,Comune di Bienno
 c_i304,Comune di Santarcangelo di Romagna
 icpvvpv,Istituto Comprensivo di Piazza Vittorio Veneto
 c_d885,Comune di Gallodoro
+4A91UEHP,FONDIRIGENTI GIUSEPPE TALIERCIO
 opi_078,Ordine degli Ingegneri della Provincia di Cosenza
 c_b932,Comune di Casape
 c_d310,Comune di Dizzasco
@@ -10812,6 +10908,7 @@ icdgpe,I.C. De Gasperi-pende
 c_l090,Comune di Telve di Sopra
 israa_tv,Istituto per Servizi di Ricovero e Assistenza Agli Anziani di Treviso
 idisav,Istituto di Istruzione Superiore A. Venturi
+A3MPM8EP,Azienda Trasporti per l'Area Metropolitana SpA
 istsc_bsis01700v,ISTRUZIONE SECONDARIA SUPERIORE - ROVATO - 'LORENZO GIGLI'
 istsc_poic81400p,ISTITUTO COMPRENSIVO - GANDHI
 c_f889,Comune di Nichelino
@@ -11086,7 +11183,6 @@ istsc_vvic832004,ISTITUTO COMPRENSIVO - I.C. GARIBALDI - BUCCARELLI
 c_c075,Comune di Castel D'Aiano
 istsc_mcri040004,Istituto Professionale di Stato per l'Industria e l'Artigianato Renzo Frau
 odaf_038,Consiglio dell'Ordine Degli Avvocati di Ferrara
-pmrfc,Parco Marino Regionale Fondali di Capocozzo
 iacp_na,Istituto Autonomo per le case popolari della provincia di Napoli in liquidazione
 c_e952,Comune di Mariano del Friuli
 c_i342,Comune di Sant'Ilario D'Enza
@@ -11193,12 +11289,14 @@ c_b240,Comune di Buccinasco
 asrei,Asis Salernitana Rete Ed Impianti S.P.A
 istsc_pdic896004,ISTITUTO COMPRENSIVO - CITTADELLA
 istsc_lopm010008,Liceo Statale Maffeo Vegio
+epnrv,Ente Parco Naturale Regionale del Vulture
 c_l747,Comune di Buonvicino
 istsc_rmic85100r,ISTITUTO COMPRENSIVO - W. A. MOZART
 iisipip,IIS PAOLA ITCG-IPSIA-IPSC
 ovpt,Ordine Veterinari Provincia di Terni
 c_l775,Comune di Vernio
 istsc_geis012004,ISTRUZIONE SECONDARIA SUPERIORE - B.MARSANO
+RVFSUNRU,URBINO SERVIZI SPA
 istsc_csis06800l,ISTITUTO SUPERIORE - IIS CARIATI 'LS-IPSC'
 istsc_taic807007,ISTITUTO COMPRENSIVO - MORLEO
 c_f448,Comune di Montecalvo Irpino
@@ -11254,11 +11352,13 @@ istsc_viic87800x,ISTITUTO COMPRENSIVO - IC 'A.FAEDO CHIAMPO
 c_e666,Comune di Lonate Pozzolo
 istsc_udic821005,ISTITUTO COMPRENSIVO - 'DESTRA TORRE' - AIELLO DEL FR.
 istsc_vrra02000q,ISTITUTO PROFESSIONALE PER L'AGRICOLTURA E L'AMBIENTE - IST. PROF.LE DI STATO 'G.MEDICI'
+6G739KU9,ALBISOLA SERVIZI S.R.L.
 c_g609,Comune di Pietracatella
 icsxx,Istituto Comprensivo Statale XX Settembre di Rimini
 c_h646,Comune di Ruvo del Monte
 c_i849,Comune di Soresina
 odcec_ss,Ordine dei Dottori Commercialisti e degli Esperti Contabili di Sassari
+PLUYFHBQ,ITC "DE NICOLA "
 pcsrlil,Progetto Carrara S.R.L. in Liquidazione
 icpq,Istituto Comprensivo Perugia 14
 cgglpma,Collegio Geometri e Geometri Laureati della Provincia di Mantova
@@ -11314,6 +11414,7 @@ c_g034,Comune di Olivadi
 c_c313,Comune di Castiglione D'Orcia
 PRIS0090,Istituto Istruzione Superiore C Rondani
 c_c812,Comune di Codevigo
+0BLX4BBP,INVESTIMENTI SPA
 istsc_anps05000q,LICEO SCIENTIFICO - VITO VOLTERRA
 istsc_bnic84400q,ISTITUTO COMPRENSIVO - I.C. 'G.B.LUCARELLI' BENEVENTO
 egpapie,Ente Geopaleontologico di Pietraroja
@@ -11332,6 +11433,7 @@ istsc_gric81700p,ISTITUTO COMPRENSIVO - IC CIVITELLA PAGANICO
 cms_078,Comunita Montana Silana
 c_f479,Comune di Montecorice
 eatsg,Ente Autonomo Teatro Stabile di Genova
+cdtsrm,Ordine dei tecnici sanitari di radiologia medica, delle professioni sanitarie tecniche, della riabilitazione e della prevenzione della Provincia di Siracusa
 istsc_vais001009,ISTRUZIONE SECONDARIA SUPERIORE - ISTITUTO ISTRUZIONE SUPERIORE
 iceccoda,Istituto Comprensivo E.Cocchia - dalla Chiesa
 istsc_psis01800r,ISTITUTO SUPERIORE -  I.I.S. 'RAFFAELLO'
@@ -11360,7 +11462,9 @@ istsc_raic811002,Istituto Comprensivo Darsena
 istsc_rcic804004,Istituto Comprensivo Statale Orazio Lazzarino
 c_l535,Comune di Vaiano Cremasco
 c_g220,Comune di Paderno Dugnano
+QOH2H6H0,SERVICES DES EAUX VALDOTAINES S.R.L.
 c_l207,Comune di Torano Nuovo
+XB7H1BL1,Consorzio di Bonifica ovest bacino Liri Garigliano
 c_e860,Comune di Mallare
 icmo_027,Istituto Comprensivo Statale Adele Zara
 p_ch,Provincia di Chieti
@@ -11516,6 +11620,7 @@ omv_li,Ordine dei Medici Veterinari della Provincia di Livorno
 assicrm,Azienda Speciale Servizi Integrati Comunali
 c_g026,Comune di Olgiate Molgora
 istsc_rcic861008,ISTITUTO COMPRENSIVO - PALMI. S.FRANCESCO
+CHQ6UA5N,Forma Camera Azienda Speciale della Camera di Commercio di Roma
 istsc_mnic80600v,ISTITUTO COMPRENSIVO - ISTITUTO COMPR. GUIDIZZOLO
 istsc_toic86800n,ISTITUTO COMPRENSIVO - I.C. - COAZZE
 c_b311,Comune di Cabella Ligure
@@ -11649,6 +11754,7 @@ c_295,Comune di Incisa Scapaccino
 istsc_rorh01000c,ISTITUTO PROFESSIONALE DI STATO PER L'ENOGASTRONOMIA E L'OSPITALITA' ALBERGHIERA (I.P.S.E.O.A.) "G. CIPRIANI"
 NNGPJP3R,ROMAGNA ACQUE - SOCIETA' DELLE FONTI SPA
 icvcmi,Istituto Comprensivo Via della Commenda
+iisspc,Istituto Istruzione Superiore Statale Pascal Comandini
 istsc_MIIS003003,ISTITUTO SUPERIORE - VITTORIO BACHELET
 cvt_tn,COMUNITA' VALSUGANA E TESINO
 fevv,Fondazione Ente Ville Vesuviane
@@ -11812,6 +11918,7 @@ istsc_mnic80800e,ISTITUTO COMPRENSIVO - I.C. CASTIGLIONE STIVIERE 1
 cv_022,Comunita' della Vallagarina
 c_b868,Comune di Casalbuono
 c_i527,Comune di Schiavon
+PY5FIR5D,TOSCANA AEROPORTI S.P.A
 ccas,Camera di Commercio Arezzo Siena
 ao_,Azienda Ospedaliero Universitaria Ospedali Riuniti di Foggia
 c_c421,Comune di Cefalu'
@@ -11849,6 +11956,7 @@ c_m263,Comune di Porto Cesareo
 asaspa,Alia Servizi Ambientali S.P.A.
 c_i065,Comune di San Pancrazio
 istsc_ctic80300r,ISTITUTO COMPRENSIVO - IC L.DA VINCI-CASTEL DI IUDICA
+EQNF6ZOI,SRR PALERMO PROVINCIA OVEST SCPA
 icct_019,Istituto Comprensivo - 'Nelson Mandela '
 ivzps,ISTITUTO COMPRENSIVO STATALE VIA ZANARDELLI PALAZZOLO S/O
 istsc_taic865007,ISTITUTO COMPRENSIVO - I.C. GIOVANNI XXIII
@@ -11875,11 +11983,13 @@ istsc_fgic82500c,ISTITUTO COMPRENSIVO - I. C. VIA NAPOLI - LESINA
 c_b666,Comune di Capo D'Orlando
 c_l764,Comune di Verghereto
 c_e439,Comune di Langosco
+MDDV4KRP,Istituto per il credito Sportivo
 c_e136,Comune di Granarolo dell'Emilia
 c_c974,Comune di Contursi Terme
 c_m121,Comune di Volpeglino
 JP7K5XMD,ASTER AGENZIA SERVIZI AL TERRITORIO SRL
 c_b740,Comune di Carbonara di Nola
+UBE06MA1,AZIENDA SPECIALE CONSORTILE AGROPOLI CILENTO SERVIZI
 oddadfro,Ordine Dei Dottori Agronomi e Dei Dottori Forestali di Rovigo
 istsc_cbis007006,ISTRUZIONE SECONDARIA SUPERIORE - BOIANO
 APSP_PR,Azienda Pubblica di Servizi alla Persona Distretto di Fidenza
@@ -11968,6 +12078,7 @@ cvtiap,Autorita' Nazionale Anticorruzione - A.N.AC.
 opdcl,Ordine Provinciale Dei Consulenti del Lavoro di Lecce
 c_g826,Comune di Pont Canavese
 c_d892,Comune di Gambarana
+8N7ZS3K4,ANDRIA MULTISERVICE SPA
 istsc_saps04000b,LICEO SCIENTIFICO - 'N.SENSALE'
 c_l075,Comune di Tavigliano
 c_f563,Comune di Montemesola
@@ -12167,6 +12278,7 @@ aspan,Asp Ambito 9
 c_b938,Comune di Casarile
 oaa_007,ORDINE DEGLI AVVOCATI DI AOSTA
 c_g648,Comune di Pieve Fosciana
+PLSXMRJM,Fondazione Anthem  - AdvaNced Technologies for Human-centrEd Medicine
 istsc_viic88300b,ISTITUTO COMPRENSIVO - IC THIENE
 c_h935,Comune di San Giustino
 L53L5UMV,AG.EN.A. SOCIETA' A RESPONSABILITA' LIMITATA
@@ -12217,6 +12329,7 @@ c_h413,Comune di Roccagorga
 c_d962,Comune di Gemona del Friuli
 silve,Soc. Italiana Lampade Votive Elettriche - S.I.L.V.E. - Spa
 istsc_mips37000t,LICEO SCIENTIFICO - L.S.S. 'R.DONATELLI-B.PASCAL'
+cdpad_ch,Collegio dei Periti Agrari e dei Periti Agrari Laureati della Provincia di Chieti e L'Aquila
 acv_vi,Automobile Club Vicenza
 istsc_vbee00300d,DIREZIONE DIDATTICA - CD 'DOMODOSSOLA II'
 istsc_pnsd020009,ISTITUTO D'ARTE - IA ENRICO GALVANI
@@ -12282,7 +12395,9 @@ istsc_fgps08000e,LICEO SCIENTIFICO - ALBERT EINSTEIN
 c_g628,Comune di Pietrasanta
 istsc_LEIS038005,ISTITUTO ISTRUZIONE - IISS ENRICO MATTEI  MAGLIE
 istsc_psic807006,ISTITUTO COMPRENSIVO - ACQUALAGNA 'E.MATTEI'
+9ENSOTX8,COMITATO DI GESTIONE AMBITO TERRITORIALE DI CACCIA "A" MATERA
 ic_071,Istituto Comprensivo Zannotti Fraccacreta
+TQNOGMFE,Azienda Siciliana Trasporti
 nauspa,Nausicaa S.P.A.
 c_l428,Comune di Trinita' D'Agultu e Vignola
 CSSV,Consorzio dei Servizi Sociali del Verbano
@@ -12386,6 +12501,7 @@ sbl,Associazione Sistema Bibliotecario Territoriale Lametino
 odmvp_0,Ordine Dei Medici Veterinari della Provincia di Alessandria
 8HFG1ZY6,AZIENDA SOCIO SANITARIA LOCALE N. 2 DELLA GALLURA
 c_h070,Comune di Prizzi
+S2V1HOY3,COGESA
 m_lps,Ministero del Lavoro e delle Politiche Sociali
 fht,Fondazione Human Technopole
 c_g158,Comune di Osini
@@ -12461,7 +12577,6 @@ udcpm,Unione Dei Comuni Parte Montis
 c_e625,Comune di Livorno
 c_f840,Comune di Narbolia
 istsc_caic84400a,ISTITUTO COMPRENSIVO - ELMAS 'M. SABA'
-c_a121,Comune di Alano di Piave
 istsc_BOIS00800D,ISTITUTO SUPERIORE - I.I.S.  J.M. KEYNES
 udce_081,Unione Dei Comuni Elimo Ericini
 cmdrc,Citta' Metropolitana di Reggio Calabria
@@ -12487,6 +12602,7 @@ istsc_miic873005,ISTITUTO COMPRENSIVO - 'G.RODARI' VERMEZZO
 cariguma,Casa di Riposo Guizzo Marseille I.P.A.B
 c_d471,Comune di Falciano del Massico
 odcec_cl,Ordine dei Dottori Commercialisti e degli Esperti Contabili di Caltanissetta
+GMBRXP8Q,Consorzio delle Residenze Reali Sabaude
 c_l846,Comune di Vicoli
 WN1OY9GN,COMMISSARIO STRAORDINARIO PER LA REALIZZAZIONE DELLA PIATTAFORMA EUROPA NEL POR TO DI LIVORNO
 c_a345,Comune di L'Aquila
@@ -12528,6 +12644,7 @@ istsc_reic83000t,ISTITUTO COMPRENSIVO - SANT'ILARIO D'ENZA
 iacp_tp,Istituto Autonomo per le Case Popolari della Provincia di Trapani
 c_h418,Comune di Roccalumera
 istsc_pdis02800n,ISTITUTO SUPERIORE -  I.I.S.'G.VALLE'
+ittlmrm,Istituto Tecnologico Trasporti e Logistica 'Marcantonio Colonna'
 c_e936,Comune di Marcon
 cnddrcc,Consiglio Notarile Dei Distretti Riuniti di Cremona e Crema
 cvc_tn,Comunita' della Valle di Cembra
@@ -12610,12 +12727,12 @@ AGENAS,Agenzia Nazionale per i Servizi Sanitari Regionali - AGENAS
 c_g568,Comune di Piano di Sorrento
 c_c550,Comune di Cervere
 c_c357,Comune di Cattolica
-GNPIHCQX,Gruppo Logistico Protezione Civile
 istsc_csic886002,ISTITUTO COMPRENSIVO - I.C. CORIGLIANO 'TIERI'
 c_f817,Comune di Muro Lucano
 istsc_baee162002,DIREZIONE DIDATTICA - 1 C.D.'HERO PARADISO' SANTERAMO
 asmp,Azienda Speciale Multiservizi Pontecorvo
 c_e564,Comune di Levice
+idispfm,Istituto D'Istruzione Superiore Petrucci Ferraris Maresca
 c_g259,Comune di Palazzago
 istsc_ssps05000g,LICEO SCIENTIFICO - LORENZO MOSSA
 c_g627,Comune di Pietrarubbia
@@ -12714,6 +12831,7 @@ c_f284,Comune di Molfetta
 c_d195,Comune di Cuccaro Vetere
 c_m062,Comune di Vinzaglio
 c_i712,Comune di Sezze
+N13LHACJ,I.A.S. INDUSTRIA ACQUA SIRACUSANA S.P.A.
 cciaa_vi,Camera di Commercio, Industria, Artigianato e Agricoltura di Vicenza
 udsm_me,Universita' degli Studi di Messina
 istsc_raic81800r,ISTITUTO COMPRENSIVO - 'BASSI C.' - CASTEL BOLOGNESE
@@ -12823,6 +12941,7 @@ c_l924,Comune di Villacidro
 icv2_bz,Istituto Comprensivo Vipiteno II
 c_e434,Comune di Lana
 c_a473,Comune di Assago
+FB89OAJZ,SASE SPA
 consocr,Consorzio Sociale Ri 1
 istsc_anic849002,ISTITUTO COMPRENSIVO - SENIGALLIA SUD - BELARDI
 consocia,Azienda Speciale Consortile Oglio Po
@@ -13067,6 +13186,7 @@ c_c267,Comune di Castelsantangelo Sul Nera
 c_h985,Comune di San Marco In Lamis
 2FATC529,Senigallia Servizi
 c_e238,Comune di Guardamiglio
+MJSP89IF,Azienda Servizi Mortara S.p.A.
 c_g607,Comune di Pietrabruna
 istsc_miic8dk00t,ISTITUTO COMPRENSIVO - VILLA CORTESE
 icsmm,Istituto Comprensivo Statale MIGNANO M.L. - MARZANO
@@ -13082,6 +13202,7 @@ c_707,Comune di Lozza
 istsc_taic866003,ISTITUTO COMPRENSIVO - SAN G.BOSCO - TARANTO
 CMAA,Comunita' Montana Argentina Armea
 c_g591,Comune di Picinisco
+53S1QVDP,Fondazione Universitaria dell'Università di Salerno
 POK5YQTU,IRPINIAMBIENTE S.p.A.
 c_i370,Comune di Santo Stefano di Camastra
 istsc_rmic8f100b,ISTITUTO COMPRENSIVO - IC L.GO DINO BUZZATI
@@ -13097,6 +13218,7 @@ c_g227,Comune di Paduli
 c_a446,Comune di Arsoli
 istsc_psic815005,ISTITUTO COMPRENSIVO - PIANDIMELETO
 c_f365,Comune di Mongiardino Ligure
+J0L7PD4N,AMBITO TERRITORIALE DI CACCIA 6 MANTOVA
 istsc_pgis00300e,ISTITUTO OMNICOMPRENSIVO SALVATORELLI-MONETA
 istsc_rmis051001,I.I.S.  BRASCHI - QUARENGHI
 icnf_053,Istituto Comprensivo N. 2 Follonica
@@ -13258,6 +13380,7 @@ c_h938,Comune di San Gregorio nelle Alpi
 opom,Ordine Professionale Ostetriche Messina
 ic_086,ISTITUTO COMPRENSIVO EDMONDO DE AMICIS
 oasrl_mi,Ordine degli Assistenti Sociali della Regione Lombardia
+NPDKI6JY,Istituto Tecnico Superiore  Efficienza Energetica
 ull,Unione Lucana del Lagonegrese
 c_l476,Comune di Saviore dell'Adamello
 istsc_vatd02000x,ISTITUTO TECNICO COMMERCIALE - I.T.C. 'E.TOSI' - BUSTO ARSIZIO
@@ -13291,6 +13414,7 @@ c_c064,Comune di Castel Boglione
 c_m347,Comune di Sillano Giuncugnano
 C_A050,Comune di Acquaviva Collecroce
 c_i519,Comune di Scena
+AOSF1DQL,Società Finanziaria Regione Sardegna SpA
 istsc_bsic878006,ISTITUTO COMPRENSIVO - IC S. MARIA BAMBINA EST 1
 odaftv,Ordine Dei Dottori Agronomi e Dottori Forestali della Provincia di Treviso
 c_c738,Comune di Cissone
@@ -13455,6 +13579,7 @@ c_i153,Comune di San Secondo Parmense
 istsc_reic847007,ISTITUTO COMPRENSIVO - 'L. DA VINCI'
 udcc,Unione Dei Comuni del Conselvano
 istsc_sais02100l,ISTRUZIONE SECONDARIA SUPERIORE - A. SACCO
+9JRJHYSM,IPE - Istituto per ricerche e attività educative
 istsc_rmee220001,DIREZIONE DIDATTICA - CIAMPINO I - V. BACHELET
 c_l384,Comune di Trequanda
 c_f640,Comune di Montescudaio
@@ -13553,6 +13678,7 @@ istsc_aric81400v,ISTITUTO COMPRENSIVO - 'L.VOLUSENO' SESTINO
 c_i644,Comune di Serradifalco
 cm_valnn,COMUNITA' MONTANA VALNERINA
 oligio,Consiglio Regionale Ligure dell'Ordine dei Giornalisti
+7HSE7NE1,ISTITUTO COMPRENSIVO 2
 istsc_cotd01000g,ISTITUTO TECNICO COMMERCIALE - CAIO PLINIO SECONDO
 c_e479,Comune di Laureana di Borrello
 udctl_le,Unione Dei Comuni Terra di Leuca
@@ -13591,6 +13717,7 @@ icfma,Istituto Comprensivo Fieramosca Martucci
 cpipr_ss,Ordine dei Periti Industriali e dei Periti Industriali Laureati per le Province di Sassari e Olbia - Tempio
 istsc_miis00100b,ISTRUZIONE SECONDARIA SUPERIORE - G.CASIRAGHI CON SEZ.STAC.L.CLAS
 c_a903,Comune di Blello
+PNCMN7X3,MINERVA SCARL
 istsc_tsic800002,Istituto Comprensivo Rainer Maria Rilke
 sepss,Societa' Entrate Pisa Spa - S.E.Pi.
 istsc_fomm02800v,ISTITUTO SECONDARIO DI I GRADO - SMS VIALE DELLA RESISTENZA
@@ -13643,7 +13770,6 @@ abflgv,Autorita' di Bacino dei Fiumi Liri Garigliano e Volturno
 istsc_mips08000t,LICEO SCIENTIFICO - VOLTA
 c_e704,Comune di Lovere
 istsc_leic895005,Istituto Comprensivo Galatone Polo 2
-istsc_fgic82900q,ISTITUTO COMPRENSIVO CROCE MOZZILLO
 c_f288,Comune di Molinella
 c_l928,Comune di Villa Cortese
 cidot_1,Ordine della Professione di Ostetrica interprovinciale di Torino e Asti
@@ -13832,7 +13958,6 @@ c_i687,Comune di Sesto Pusteria
 c_i150,Comune di San Sebastiano Curone
 c_b791,Comune di Carmagnola
 istsc_ctic894004,ISTITUTO COMPRENSIVO - IC MALERBA CATANIA
-UYUC70KN,Fondazione Dopo di Noi Insieme
 c_a084,Comune di Agosta
 icbmc,Istituto Comprensivo Bova Marina - Condofuri
 istsc_rmic868006,ISTITUTO COMPRENSIVO - CAPENA
@@ -13945,6 +14070,7 @@ c_b229,Comune di Brusnengo
 c_e052,Comune di Gissi
 istsc_ceic843001,Istituto Comprensivo L.Da Vinci Villa Literno
 icvlr_0,Istituto Comprensivo Viale Liguria - Rozzano
+1NQCFG5W,AZIENDA SERVIZI MUNICIPALIZZATI SRL
 istsc_bnis00200t,Istruzione Secondaria Superiore Telesia
 ftcas,Amministrazione Separata Dei Beni Ad Uso Civico Terento Capoluogo
 istsc_verh020008,ISTITUTO PROFESSIONALE PER I SERVIZI ALBERGHIERI E RISTORAZIONE - ELENA CORNARO
@@ -14030,6 +14156,7 @@ istsc_naic8bd00d,ISTITUTO COMPRENSIVO - MASSIMO TROISI
 istsc_imic813007,ISTITUTO COMPRENSIVO - I.C. SAN REMO CENTRO LEVANTE
 c_e414,Comune di Laigueglia
 istsc_miic8bb008,ISTITUTO COMPRENSIVO - A. DIAZ - MILANO
+D1LI8ZC2,AIDA AMBIENTE SRL
 c_g469,Comune di Persico Dosimo
 cdpid_1,Collegio Dei Periti Industriali e Dei Periti Industriali Laureati della Provincia di Genova
 c_h455,Comune di Roccella Valdemone
@@ -14069,6 +14196,7 @@ opora,Ordine della Professione Ostetrica della Regione Autonoma Valle D'Aosta
 istsc_rmic8ed008,ISTITUTO COMPRENSIVO - IC PIAZZA MINUCCIANO
 c_a571,Comune di Bagnolo Piemonte
 cov,Collegio delle Ostetriche della Provincia di Verona
+NDKJ6TA5,ATAP SPA
 cmapsp,Casa Mia Azienda Pubblica di Servizi alla Persona
 umdvm,Unione Montana Delle Valli Monregalesi
 c_l680,Comune di Varenna
@@ -14171,6 +14299,7 @@ CMVZ,Comunita' Montana del Velino 6 Zona
 odmvpbl,Ordine Dei Medici Veterinari della Provincia di Belluno
 c_e313,Comune di Inveruno
 istsc_pgtd01000v,ISTITUTO TECNICO COMMERCIALE - I.T.C.T. 'F. SCARPELLINI'
+istsc_luic815002,ISTITUTO COMPRENSIVO - IST.COMP. 'MARTIRI DI S.ANNA'
 c_c954,Comune di Condofuri
 istsc_aric839007,ISTITUTO COMPRENSIVO - SEVERI
 istsc_letd08000r,ISTITUTO TECNICO COMMERCIALE - IST.TECNICO ECONOMICO 'OLIVETTI' LECCE
@@ -14257,7 +14386,9 @@ c_h399,Comune di Rocca di Botte
 istsc_naic8af00e,ISTITUTO COMPRENSIVO - NA - I.C. VIRGILIO IV
 cpipi_tv,Ordine dei Periti Industriali e dei Periti Industriali Laureati della Provincia di Treviso
 c_c289,Comune di Castel Viscardo
+TJXFWJHR,FONDAZIONE PER LA CULTURA TORINO
 istsc_saic823004,ISTITUTO COMPRENSIVO - IST.COMPR. RAVELLO
+4E74TB2S,FONDO FORMAZIONE PMI
 c_a165,Comune di Albissola Marina
 c_f632,Comune di Potenza Picena
 oddc_024,Ordine Dei Dottori Commercialisti e Degli Esperti Contabili di Vicenza
@@ -14269,6 +14400,7 @@ c_l933,Comune di Villa del Bosco
 c_g260,Comune di Palazzo Pignano
 istsc_tvic83100b,ISTITUTO COMPRENSIVO - IC ISTRANA
 9X4DJYVC,Lereti S.p.A.
+MHG46308,SABB - SERVIZI AMBIENTALI BASSA BERGAMASCA S.P.A.
 istsc_SAIS037006,ISTITUTO SUPERIORE - LEONARDO DA VINCI
 istsc_pvic80900g,ISTITUTO COMPRENSIVO - IC M. MONTANARI-SANNAZZARO
 opclm,Ordine Provinciale Consulenti del Lavoro Messina
@@ -14332,6 +14464,7 @@ iispp,Istituto di Istruzione Superiore Petruccelli Parisi
 c_h872,Comune di Sangiano
 fpipm,Fondo di Previdenza per Il Personale del Ministero dell'Economia e Delle Finanze
 c_a240,Comune di Altomonte
+M90V9N8Q,AZIENDA CASA EMILIA ROMAGNA DELLA PROVINCIA DI PIACENZA
 c_i853,Comune di Sorianello
 istsc_vaic82400t,ISTITUTO COMPRENSIVO - I.C. LAVENA PONTE TRESA
 c_l131,Comune di Terrasini
@@ -14439,6 +14572,7 @@ c_f138,Comune di Mercato San Severino
 istsc_bsis036008,ISTITUTO SUPERIORE - I.S. TARTAGLIA-OLIVIERI'
 istsc_geis00600r,ISTRUZIONE SECONDARIA SUPERIORE - IS VITTORIO EMANUELE II-RUFFINI
 orfap_bn,Ordine dei Farmacisti della Provincia di Benevento
+I6BN6I3O,Ambito Territoriale di Caccia Provincia di Lecce
 istsc_naee13600p,DIREZIONE DIDATTICA - FRATTAMAGGIORE 1 - E. FERMI
 c_h426,Comune di Roccanova
 c_h939,Comune di San Gregorio Matese
@@ -14448,6 +14582,7 @@ c_d253,Comune di Dasa'
 irccs_bg,IRCCS Burlo Garofolo di Trieste
 istsc_ssic84400p,ISTITUTO COMPRENSIVO - ISTITUTO COMPRENSIVO N. 1 ALGHERO
 itaca,Itaca- Istituto per L'Innovazione e Trasparenza Degli Appalti e La Compatibilita Ambientale
+QWYEL3K7,Quadrifoglio Servizi Azienda Speciale
 avsp,VIACQUA SPA
 c_c389,Comune di Cavazzo Carnico
 istsc_toic810002,ISTITUTO COMPRENSIVO - I.C. - TORINO - D.M.TUROLDO
@@ -14500,6 +14635,7 @@ irsm_rm,Istituto Romano di San Michele di Roma
 c_g495,Comune di Pescolanciano
 c_d617,Comune di Fiumalbo
 istsc_pvis001005,ISTRUZIONE SECONDARIA SUPERIORE - IS A. OMODEO - MORTARA
+PFE26O18,Ambito Territoriale Caccia Roma 2
 istsc_csis03400d,ISTRUZIONE SECONDARIA SUPERIORE - I.I.S. PRAIA A MARE 'IPSAR-LC'
 istsc_namm29500a,ISTITUTO SECONDARIO DI I GRADO - CANTE -GIUGLIANO IN CAMPANIA
 istsc_viic83200e,ISTITUTO COMPRENSIVO - IC ISOLA VICENTINA'G. GALILEI'
@@ -14526,6 +14662,7 @@ istsc_rnis00200n,ISTRUZIONE SECONDARIA SUPERIORE - IS 'P. GOBETTI'
 cpipr_ve,Ordine dei Periti Industriali e dei Periti Industriali Laureati della Provincia di Verona
 c_h097,Comune di Quadrelle
 istsc_miic83800t,ISTITUTO COMPRENSIVO - I. C. ' VIA CAVOUR '
+H3KZP4VZ,Federazione Italiana Triathlon
 osma_mi,Fondazione IRCCS Ca Granda Ospedale Maggiore Policlinico
 istsc_rmic8fq006,Istituto Comprensivo Tullia Zevi
 c_e161,Comune di Greci
@@ -14576,6 +14713,7 @@ istsc_rcic82100t,ISTITUTO COMPRENSIVO - PALMI-SEMINARA
 c_m163,Comune di Zenson di Piave
 c_i976,Comune di Stresa
 c_m013,Comune di Villar Pellice
+LENATOMX,Fondimpresa
 istsc_czis00900l,ISTRUZIONE SECONDARIA SUPERIORE - IS 'GIOVANNA DE NOBILI' CATANZARO
 istsc_msic814005,ISTITUTO COMPRENSIVO - 'TIFONI' - PONTREMOLI
 istsc_nais05200t,ISTRUZIONE SECONDARIA SUPERIORE - I.S.I.S. ANTONIO SERRA- NAPOLI-
@@ -14629,6 +14767,7 @@ istsc_msic82000c,ISTITUTO COMPRENSIVO - I.C. MASSA 3
 istsc_vaic879002,ISTITUTO COMPRENSIVO - I.C. SESTO CALENDE 'UNGARETTI'
 istsc_czic87400g,ISTITUTO COMPRENSIVO - I.C. 'PERRI-PITAGORA' L.T.
 asaese,Azienda Speciale Angri Eco Servizi
+KC7ZVBKK,FORMA.TEMP
 istsc_tvtd06000r,ISTITUTO TECNICO COMMERCIALE - ITC SANSOVINO
 c_e557,Comune di Lettere
 iisaf,Istituto Istruzione Superiore - A. Farnese
@@ -14691,6 +14830,7 @@ atcpg2,Ambito Territoriale di Caccia Perugia 2
 c_g680,Comune di Pinzano al Tagliamento
 T0A9HLA8,Agenzia per la Cybersicurezza Nazionale
 cslpl,Commissario Straordinario per La Progettazione L Affidamento e La Realizzazione Dei Lavori di Adeguamento del Depuratori di Napoli Est
+istsc_miic8dg00l,ISTITUTO COMPRENSIVO - ARBE ZARA - MILANO
 c_d287,Comune di Desulo
 c_b692,Comune di Caprauna
 c_c332,Comune di Castrezzato
@@ -14770,6 +14910,7 @@ c_g164,Comune di Ospedaletti
 icct_3,Istituto Comprensivo Cremona Tre
 asucsan,Amministrazione Separata Usi Civici San Valentino
 cgglpl,Collegio Geometri e Geometri Laureati della Provincia di Lucca
+1TDVNB2B,IC OUTSOURCING S.C.R.L.
 icspstn5,Istituto Comprensivo di Scuola Primaria e Secondaria di Primo Grado Rovereto - Sud Via Benacense, 32
 c_d064,Comune di Corteno Golgi
 istsc_leic89100t,ISTITUTO COMPRENSIVO - AMMIRATO - FALCONE LECCE
@@ -14791,6 +14932,7 @@ istsc_imic81700e,ISTITUTO COMPRENSIVO - I.C. SAN REMO LEVANTE
 as_PE,Azienda USL Pescara
 istsc_bapc21000e,LICEO CLASSICO - LICEO CLASSICO E DELLE SCIENZE UMANE
 istsc_tpic836004,ISTITUTO COMPRENSIVO - G.G.CIACCIO MONTALTO (TP)
+5RY8ZQSZ,Sailpost S.p.A.
 istsc_leic82700e,ISTITUTO COMPRENSIVO - LEQUILE
 istsc_piic832003,ISTITUTO COMPRENSIVO - IC 'V.GALILEI PISA'
 umvcbdt,Unione Media Val Cavallina
@@ -14814,6 +14956,7 @@ uni_udi,Universita' degli Studi di Udine
 aorn_063,Azienda Ospedaliera di Rilievo Nazionale Antonio Cardarelli
 cbbu,Consorzio della Bonifica Burana
 odapp_mi,Ordine degli Architetti Pianificatori Paesaggisti e Conservatori della Provincia di Milano
+HRDAQNXW,SANTA TERESA SPA
 cmasa,Comunita' Montana Alto Sangro e Altopiano Delle Cinquemiglia
 istsc_miic8bn004,ISTITUTO COMPRENSIVO - ISTITUTO COMPRENSIVO L.DA VINCI
 VOJVS6ZO,LAMEZIA MULTISERVIZI S.p.A.
@@ -14925,6 +15068,7 @@ c_d542,Comune di Fermo
 c_l906,Comune di Villadossola
 c_i105,Comune di San Pietro di Morubio
 c_l386,Comune di Tresana
+7TA5W3S2,Commissariato generale di sezione per la partecipazione italiana a Expo 2025 Osaka
 c_i374,Comune di Santu Lussurgiu
 FIB31K6N,Commissario ad acta art. 3, comma 3, D.L.150_2020
 copag_pc,Collegio dei Periti Agrari e dei Periti Agrari Laureati della Provincia di Piacenza
@@ -15124,7 +15268,6 @@ c_c655,Comune di Chiusa di San Michele
 istsc_ctic89700g,IC Italo Calvino
 c_d491,Comune di Fara Olivana Con Sola
 pnam,Ente di Gestione delle Aree Protette delle Alpi Marittime
-camct,Consorzio Acquedotto Moretta-Carde-Torre San Giorgio
 c_g515,Comune di Petriolo
 c_l575,Comune di Valfloriana
 c_b783,Comune di Carisolo
@@ -15197,6 +15340,7 @@ opcrmb,Opera Pia Casa di Riposo Mons. Benedetto Balsamo
 istsc_vbps02000p,LICEO SCIENTIFICO - LS 'B. CAVALIERI'
 coda_065,Consiglio dell'Ordine Degli Avvocati di Nocera Inferiore
 istsc_reic834005,ISTITUTO COMPRENSIVO - A.LIGABUE
+KQ0W3IDK,ASTEA MULTISERVIZI SRL
 OMI7UAQ1,AZIENDA SERVIZI PUBBLICI S.P.A.
 istsc_sois00600d,ISTRUZIONE SECONDARIA SUPERIORE - LEONARDO DA VINCI - CHIAVENNA
 istsc_napc14000p,LICEO CLASSICO - L.CLAS.UMBERTO I-NAPOLI-
@@ -15231,6 +15375,7 @@ uan,Unione Accademica Nazionale
 cslpi,Centro Studi per La Programmazione Intercomunale dell'Area Metropolitana
 c_h385,Comune di Roccabruna
 inrca_rm,INRCA - IRCCS Istituto nazionale di ricovero e cura per anziani
+VLBZZUDN,ASM VIGEVANO E LOMELLINA S.P.A.
 cbp_065,Consorzio Bonifica di Paestum
 c_b218,Comune di Brunate
 istsc_taic83400g,ISTITUTO COMPRENSIVO - SEVERI
@@ -15534,6 +15679,7 @@ istsc_ratd03000r,ISTITUTO TECNICO COMMERCIALE - G.GINANNI
 sz_063,Stazione Zoologica
 092,ARNAS G. Brotzu
 c_l643,Comune di Valpelline
+OMAY2RYI,EXICOR SRL
 istsc_luic84000p,ISTITUTO COMPRENSIVO - ALTOPASCIO
 c_e858,Comune di Malgrate
 istsc_caic87600t,ISTITUTO COMPRENSIVO - CARBONIA DELEDDA
@@ -15595,10 +15741,12 @@ iisgbo,Istituto di Istruzione Superiore G.B. Odierna
 c_g283,Comune di Palma Campania
 c_i956,Comune di Stilo
 istsc_udic85400c,ISTITUTO COMPRENSIVO - TOLMEZZO
+OE200H7K,FONDAZIONE MANLIO CANEPA ONLUS
 istsc_caic84100v,ISTITUTO COMPRENSIVO - SAN SPERATE - G.DELEDDA
 ssip,Stazione Sperimentale per L'Industria Delle Pelli
 c_c585,Comune di Ceto
 istsc_vaic806008,ISTITUTO COMPRENSIVO - I.C. AZZATE 'L. DA VINCI'
+istsc_meic818009,ISTITUTO COMPRENSIVO - N.1 LIPARI
 istsc_naps72000t,LICEO SCIENTIFICO - LIC. SC, CLAS, LING ' A.M.DE' LIGUORI'
 istsc_reic81000l,Istituto Comprensivo E. Fermi
 c_d131,Comune di Crandola Valsassina
@@ -15652,6 +15800,7 @@ istsc_ltic833004,ISTITUTO COMPRENSIVO - DONNA LELIA CAETANI
 c_e473,Comune di Latisana
 c_b610,Comune di Cannero Riviera
 caltg,Consorzio Asi  di Trapani in liquidazione
+NF5G6C6R,FERROVIE DEL GARGANO S.R.L.
 odip_052,Ordine Degli Ingegneri della Provincia di Siena
 asbucpn,Amministrazione Separata Beni di Uso Civico di Penia
 icfpn,ISTITUTO COMPRENSIVO F. P. NEGLIA
@@ -15683,6 +15832,7 @@ c_e341,Comune di Isola del Cantone
 c_d166,Comune di Crevalcore
 istsc_boic83000e,ISTITUTO COMPRENSIVO - I.C. DI PIANORO
 c_a832,Comune di Bettona
+PQ01VD4J,Istituto Tecnico Superiore Turismo e Attività Culturali
 cnddrna,Consiglio Notarile Dei Distretti Riuniti di Napoli, Torre Annunziata e Nola
 c_l749,Comune di Verceia
 istsc_noic83100g,ISTITUTO COMPRENSIVO - ISTITUTO COMPRENSIVO BOTTACCHI
@@ -15736,6 +15886,7 @@ c_b350,Comune di Cafasse
 c_c252,Comune di Castel Ritaldi
 odmvp_s,Ordine Dei Medici Veterinari della Provincia di Siena
 ICPR,Istituto Comprensivo di Primiero
+D2K0HFUC,ITS NUOVE TECNOLOGIE PER IL MADE IN ITALY SISTEMA AGROALIMENTARE
 opfc_085,Ordine Provinciale Farmacisti Caltanissetta
 istsc_tvic82800g,ISTITUTO COMPRENSIVO - IC TREVIGNANO
 c_l173,Comune di Tione Degli Abruzzi
@@ -15752,6 +15903,7 @@ anla_080,Agenzia Nazionale per L'Amministrazione e La Destinazione Dei Beni Sequ
 istsc_csic857002,ISTITUTO COMPRENSIVO - IC SAN PIETRO IN GUARANO
 ioprp,Ipab Opere Pie Riunite Pastore e San Pietro
 c_g565,Comune di Pianiga
+ils_rm,Sviluppo Lavoro Italia S.p.A.
 istsc_baic875005,ISTITUTO COMPRENSIVO VITO INTINI
 c_c429,Comune di Celenza Valfortore
 aspa,Asp Eppi Manica Salvatori
@@ -15836,7 +15988,6 @@ uccbc,Unione Comuni Ciriacese e Basso Canavese
 istsc_rgee008009,DIREZIONE DIDATTICA - PAOLO VETRI
 c_l911,Comune di Spineto Scrivia
 istsc_aris00800q,Istituto Statale di Istruzione Superiore 
-c_b749,Comune di Carceri
 cncclv,Consiglio Notarile di Catanzaro Crotone Lamezia Terme e Vibo Valentia
 c_c014,Comune di Cassina De' Pecchi
 istsc_peic82900x,ISTITUTO COMPRENSIVO 2 CITTA' S.ANGELO
@@ -15900,6 +16051,7 @@ cdiuerl,SOGGETTO RESPONSABILE COMPLETAMENTO DEGLI INTERVENTI MALTEMPO 2018 OCDPC
 c_e648,Comune di Lodi
 cssirete,Consorzio Servizi Sociali In.Re.Te
 istsc_spic81000v,ISTITUTO COMPRENSIVO - ISA 18 - I.C. ARCOLA/AMEGLIA
+3YOCS45V,AZIENDA SPECIALE PALAEXPO
 istsc_mois011007,ISTRUZIONE SECONDARIA SUPERIORE - LAZZARO SPALLANZANI
 istsc_vbic804007,Istituto Comprensivo Andrea Testore
 teatsrl,Teateservizi Srl
@@ -16189,6 +16341,7 @@ c_a414,Comune di Armeno
 c_f192,Comune di Miazzina
 istsc_crps01000v,LICEO SCIENTIFICO - 'G. ASELLI'
 IVsAPIC,IVASS - Istituto per la Vigilanza sulle Assicurazioni
+5LWDEPQX,Istituto Tecnologico Superiore Academy Agroalimentare Puglia (Fondazione ITS Academy AgriPuglia)
 istsc_naic8d900t,ISTITUTO COMPRENSIVO - MASSALUBRENSE PULCARE.-PASTENA
 istsc_AQIC82400V,ISTITUTO COMPRENSIVO - IC MAGLIANO DEI MARSI
 c_d328,Comune di Domanico
@@ -16211,6 +16364,7 @@ istsc_chis00900a,ISTRUZIONE SECONDARIA SUPERIORE - V.EMANUELE II LANCIANO
 i_015,Itcg
 oddc_078,Ordine Dei Dottori Commercialisti e Degli Esperti Contabili di Cosenza
 cdpi_064,Collegio dei Periti Industriali e dei Periti Industriali Laureati di Avellino
+ADZ4T32G,PORT MOBILITY S.p.A. con Socio Unico
 istsc_mnic82900g,ISTITUTO COMPRENSIVO - I.C. MANTOVA 2
 odd_030,Ordine dei Dottori Commercialisti e degli Esperti Contabili di Udine
 c_i185,Comune di Santa Elisabetta
@@ -16241,10 +16395,12 @@ c_l582,Comune di Valgrisenche
 cptsre,Ordine dei Tecnici Sanitari di Radiologia Medica, e delle Professioni Sanitarie Tecniche, della Riabilitazione e della Prevenzione della Provincia di Enna
 dctd_075,Unione Dei Comuni Terre D'Oriente
 csole_,Consorzio S.O.L.E.
+05TY94LO,MONZA MOBILITA' S.R.L.
 c_d858,Comune di Gaiole in Chianti
 c_m059,Comune di Vinci
 istsc_baee174008,DIREZIONE DIDATTICA - 3 C.D.'D'ANNUNZIO' TRANI (BT)
 cpics,Ordine delle Professioni Infermieristiche di Cosenza
+istsc_csic88400a,ISTITUTO COMPRENSIVO - IC ACRI SAN GIACOMO
 ircs_ba,Istituto di Ricovero e Cura a Carattere Scientifico Centro di Riferimento Oncologico della Basilicata
 c_l206,Comune di San Donato di Ninea
 apng_mb,Asp 'Pio e Ninetta Gavazzi'
@@ -16337,6 +16493,7 @@ c_h860,Comune di San Gennaro Vesuviano
 c_g718,Comune di Piuro
 istsc_rmic8bj00g,ISTITUTO COMPRENSIVO - ISTITUTO COMPRENSIVO 'F.DE SANC
 odip_051,Ordine Degli Ingegneri della Provincia di Arezzo
+odcecbz,Ordine Dottori Commercialisti ed Esperti Contabili Bolzano
 C_H833,Comune di San Felice del Molise
 c_b778,Comune di Carimate
 istsc_naic8dy002,ISTITUTO COMPRENSIVO - POZZUOLI I.C. 6 QUASIMODO
@@ -16401,8 +16558,8 @@ iccluc,Istituto Comprensivo Caporizzi-lucarelli
 c_l885,Comune di Vignola
 c_g894,Comune di Portacomaro
 odmc_076,Ordine Dei Medici Chirurghi e Degli Odontoiatri di Potenza
+AWP7G71C,Fondazione ISTITUTO TECNICO SUPERIORE PER  L'AGRICOLTURA E L'ALIMENTAZIONE SICANI 
 acr_,Automobile Club Ragusa
-c_i879,Comune di Sovizzo
 cdada_02,Collegio degli Agrotecnici e degli Agrotecnici Laureati della Provincia di Verona
 ucdt,Unione Comuni della Trexenta
 c_h957,Comune di Cipressa
@@ -16453,6 +16610,7 @@ c_c076,Comune di Castel D'Ario
 asl_fg,Asl Foggia
 c_m301,Comune di Padru
 c_e910,Comune di Marano Lagunare
+cdpid_0,Ordine Dei Periti Industriali e Dei Periti Industriali Laureati della Provincia di Novara
 mcsrl,Marciana Civitas S.R.L.
 acbpa,Acquedotto Consortile Biviere
 c_m316,Comune di Mappano
@@ -16461,6 +16619,7 @@ c_m350,Comune di Altopiano della Vigolana
 c_e471,Comune di Latiano
 istsc_reic85100v,ISTITUTO COMPRENSIVO - I.C. 'SAN MARTINO IN RIO'
 SCSWXASS,Azienda Speciale Consortile Comunità Sensibile
+HI8F0SKF,FEDERAZIONE ITALIANA GIUOCO HANDBALL
 cgds,Commissione di Garanzia dell'Attuazione della Legge sullo Sciopero nei Servizi Pubblici Essenziali - CGS
 c_e167,Comune di Gressoney-la-trinite'
 istsc_geic84200q,ISTITUTO COMPRENSIVO - I.C. TEGLIA
@@ -16641,7 +16800,6 @@ istsc_boic846004,ISTITUTO COMPRENSIVO - I.C. N.4 VIA GUICCIARDINI-IMOLA
 istsc_chis01600d,ISTITUTO SUPERIORE - U. POMILIO CHIETI
 odipv1,Ordine Degli Ingegneri della Provincia di Vibo Valentia
 c_b462,Comune di Cambiano
-udcct,Unione Dei Comuni Cinque Terre - Riviera
 idispvm,Istituto D'Istruzione Superiore Publio Virgilio Marone
 ov_go,Ordine dei Medici Veterinari della Provincia di Gorizia
 istsc_fiic82200n,ISTITUTO COMPRENSIVO - IC SIGNA
@@ -16704,6 +16862,7 @@ c_g103,Comune di Origgio
 c_c205,Comune di Castelmagno
 c_i233,Comune di Santa Maria a Vico
 istsc_apic825004,ISTITUTO COMPRENSIVO - FALERONE ISC
+L88YA98S,Fondazione La Triennale di Milano
 istsc_pamm05000x,ISTITUTO SECONDARIO DI I GRADO - PUBLIO VIRGILIO MARONE
 c_i448,Comune di Sarule
 istsc_naee069005,DIREZIONE DIDATTICA - NA 69 - STEFANO BARBATO
@@ -16714,7 +16873,6 @@ c_d112,Comune di Costa Masnaga
 c_f966,Comune di Novi di Modena
 c_a405,Comune di Arignano
 c_e4557,Comune Casciana Terme Lari
-JBROPT4K,Milano Serravalle Engineering S.r.l.
 ODCECRO,Ordine dei Dottori Commercialisti e degli Esperti Contabili di Rovigo
 c_b179,Comune di Brignano Frascata
 r_toscan,Regione Toscana
@@ -16727,6 +16885,7 @@ c_b476,Comune di Camerota
 c_i394,Comune di San Vito Chietino
 c_a376,Comune di Arcore
 asbucmos,Amministrazione Separata Beni Usi Civici Moso
+M4UX0XWJ,la maddalena ambiente srl
 c_h423,Comune di Roccamonfina
 cpiale,Centro Provinciale Istruzione Adulti
 c_c038,Comune di Cassolnovo
@@ -16932,7 +17091,6 @@ istsc_paic8af00b,ISTITUTO COMPRENSIVO - I.C. CACCAMO 'BARBERA'
 uctm_110,Unione di Comuni Tavoliere Meridionale
 istsc_csic84000l,ISTITUTO COMPRENSIVO - IC SAN FILI
 istsc_pcee00300l,DIREZIONE DIDATTICA - CD TERZO CIRCOLO
-alct,Agenzia per La Coesione Territoriale
 p_vi,Provincia di Vicenza
 c_f638,Comune di Montescano
 istsc_tais02600r,ISTITUTO SUPERIORE - L. EINAUDI
@@ -17134,6 +17292,7 @@ istsc_isic815004,ISTITUTO COMPRENSIVO - IST.COMP. COLLI A VOLTURNO
 istsc_naic8cy00b,ISTITUTO COMPRENSIVO - NA IC 41 CONSOLE
 cilg_003,Consorzio Intercomunale per La Gestione Dei Servizi Socio Assistenziali
 c_f974,Comune di Nughedu Santa Vittoria
+IF74V0C0,SOCIETA' NOLANA PER IMPRESE ELETTRICHE - S.N.I.E. S.P.A.
 icpinero,Istituto Comprensivo Pinerolo I
 epa_010,Ente Parco Aveto
 oaav,Ordine Degli Avvocati di Avezzano
@@ -17173,6 +17332,7 @@ istsc_apic839002,ISTITUTO COMPRENSIVO - ISC S.ELPIDIO A MARE
 GX2WF7YZ,LICEO "GALILEO GALILEI"
 istsc_topc08000p,LICEO CLASSICO - N. ROSA
 MIW2BCQE,AMBITO TERRITORIALE CACCIA N. 5
+IT2XSB04,FONDAZIONE ITS TURISMO LIGURIA ACADEMY OF TO URISM, CULTURE AND HOSPITALITY
 istsc_naee03300a,DIREZIONE DIDATTICA - NA 33 - RISORGIMENTO
 c_b991,Comune di Casorzo
 cpiais,Centro Provinciale Istruzione Adulti
@@ -17195,11 +17355,11 @@ istsc_naee218002,DIREZIONE DIDATTICA - GIUGLIANO 3 - SAN ROCCO
 iccd_001,Istituto Comprensivo Chivasso Dasso
 istsc_bgis00800g,ISTRUZIONE SECONDARIA SUPERIORE - 'MAIRONI DA PONTE'
 istsc_czic82400e,ISTITUTO COMPRENSIVO - IC CROPANI
+BUBQ8G7S,SERUSO SPA
 istsc_bsic85300t,ISTITUTO COMPRENSIVO - ISTITUTO COMPRENSIVO DI NAVE
 prdaa,Parco Regionale Delle Alpi Apuane
 istsc_paic8ab004,Istituto Comprensivo Statale ad Indirizzo Musicale Rita Atria
 c_g415,Comune di Peglio
-opclcb,Ordine Provinciale Consulenti del Lavoro
 CMVC38,Comunita' Montana Valle di Comino
 c_f732,Comune di Morino
 ict_4TN,Istituto Comprensivo Trento 4
@@ -17307,6 +17467,8 @@ iisvn,I.I.S. Einstein Bachelet
 c_b003,Comune di Borgiallo
 odcec_mc,Ordine dei Dottori Commercialisti e degli Esperti Contabili di Macerata e Camerino
 c_h441,Comune di Rocca Santo Stefano
+JAO06DVF,arteven
+T56T1BJ9,servizi elaborazione dati spa
 c_d667,Comune di Fontana Liri
 istsc_repc030008,LICEO CLASSICO - ARIOSTO SPALLANZANI SEZZ.CL.E SC.
 oprc,Ordine Psicologi della Regione Campania
@@ -17336,6 +17498,7 @@ BHYBWM94,ISTITUTO COMPRENSIVO G. VERGA
 uc_bsabi,Unione di Comuni della Bassa Sabina
 c_e094,Comune di Gorgonzola
 citis,Consorzio Intercomunale Trasporti Isola Salina
+OOIL1IO1,Innova Camera
 istsc_vaic86300c,ISTITUTO COMPRENSIVO - I.C. VEDANO OLONA 'S.PELLICO'
 c_a882,Comune di Bisacquino
 avpisp,Agenzia Veneta per L'Innovazione nel Settore Primario - Avisp
@@ -17359,7 +17522,6 @@ istsc_sstd010001,ISTITUTO TECNICO COMMERCIALE - ATTILIO DEFFENU
 c_f218,Comune di Minerbe
 fdadftad,Federazione Dottori Agronomi e Dottori Forestali del Trentino Alto Adige
 c_c161,Comune di Castelletto Molina
-acai,Patronato Acai
 istsc_povc010005,CONVITTO NAZIONALE - 'CICOGNINI'
 istsc_gris00600c,ISTRUZIONE SECONDARIA SUPERIORE - ISTITUTO ISTR.SUP -LEOPOLDO II DI LORENA
 istsc_vaic851006,ISTITUTO COMPRENSIVO - I.C. CISLAGO ' ALDO MORO'
@@ -17379,7 +17541,6 @@ res,Ravenna Entrate Spa
 iisipsar,IIS IPSAR - MORO
 istsc_vaic87600e,ISTITUTO COMPRENSIVO - GALLARATE 'DE AMICIS'
 istsc_bapc150004,LICEO CLASSICO - SOCRATE
-istsc_svis00200e,ISTRUZIONE SECONDARIA SUPERIORE - IST. PROFESSIONALE FINALE L.
 istsc_anis01200g,ISTRUZIONE SECONDARIA SUPERIORE - L.DI SAVOIA - G. BENINCASA
 istsc_nais086001,ISTRUZIONE SECONDARIA SUPERIORE - I.S. NINO BIXIO-PIANO SORRENTO
 c_g093,Comune di Orero
@@ -17453,6 +17614,7 @@ istsc_rmis01600n,ISTRUZIONE SECONDARIA SUPERIORE - VIA DELLE SETTE CHIESE, 259
 istsc_rmic84400n,ISTITUTO COMPRENSIVO - VIA BOCCEA, 590
 uact,Universita' Agraria di Colle di Tora
 c_a215,Comune di Villa D'Alme'
+EHQTQ9NK,PARCO NATURALE REGIONALE DELLA GOLA DELLA ROSSA E DI FRASASSI
 iissb,Istituto di Istruzione Secondaria Superiore Berenini
 C_C890,Comune di Cologna Veneta
 istsc_rmic877001,ISTITUTO COMPRENSIVO - ISTITUTO COMPRENSIVO 'O.ROVERE'
@@ -17495,6 +17657,7 @@ c_b382,Comune di Calascio
 istsc_tvic820001,ISTITUTO COMPRENSIVO - IC VEDELAGO
 istsc_bsic823002,ISTITUTO COMPRENSIVO - IC AGOSTI DELLO
 istsc_ltic81600a,ISTITUTO COMPRENSIVO - DON MILANI
+etras,ETRA S.p.A. Società Benefit
 aca_av,Automobile Club Avellino
 istsc_vetf060003,Istituto Tecnico Tecnologico Statale "Vito Volterra"
 c_h478,Comune di Rodero
@@ -17512,6 +17675,7 @@ FB9OXPEK,Acque di Casalotto S.p.A.
 c_m109,Comune di Voghera
 cds_sa,Conservatorio di Salerno
 c_a931,Comune di Boissano
+S4WZR3UI,Fondo Formazione Italia - FondItalia
 istsc_saic83900n,ISTITUTO COMPRENSIVO - IST.COMPR. BATTIPAGLIA - PENNA
 istsc_rcic87300e,Istituto Comprensivo "D. Vitrioli - Principe di Piemonte"
 cciaa_sa,Camera di Commercio, Industria, Artigianato e Agricoltura di Salerno
@@ -17597,9 +17761,11 @@ c_l819,Comune di Vezzano Ligure
 c_d725,Comune di Forno Canavese
 azalea,Asp Azalea Azienda di Servizi alla Persona del Distretto di Ponente
 cdrcam,Casa di Riposo Comm. A. Michelazzo
+JWYKGKXA,aerarium p.a. srl
 istsc_cnic83500t,Istituto Comprensivo Di Sanfront e Paesana
 c_l769,Comune di Vermiglio
 iacpp_0,Agenzia Regionale per la Casa e l'Abitare - ARCA Sud Salento
+BH50P0Y4,A.T.E.R. del Comprensorio di Civitavecchia
 isrma_,Istituzione Scolastica R.M.Adelaide
 c_d718,Comune di Forni Avoltri
 cngr,Consiglio Notarile di Grosseto
@@ -17714,6 +17880,7 @@ c_l483,Comune di Udine
 istsc_topc090009,LICEO CLASSICO - V. GIOBERTI
 oringcn,Ordine degli Ingegneri della Provincia di Cuneo
 isapdcao,Istituzione scolastica Abbé Prosper Duc 
+cpdtsrs,Ordine TSRM e PSTRP di Salerno
 istsc_naic8c3008,ISTITUTO COMPRENSIVO - TERZIGNO I.C. GIUSTI
 c_c763,Comune di Civita
 apsptdb,Azienda Pubblica di Servizi alla Persona Riunite Terra di Bari
@@ -17724,6 +17891,7 @@ c_i570,Comune di Segariu
 cdsbs,Circolo Didattico San Benedetto San Severo
 cgatc_,Consorzio di Gestione Amp Torre del Cerrano
 c_g690,Comune di Pioraco
+PZ1KNN9R,San Vincenzo Servizi srl
 c_g705,Comune di Piscina
 craee_,Casa di Riposo 'Anna Ed Emilio Wild - Ospedaletto Duelli'
 istsc_PTTD01000E,ISTITUTO TECNICO COMMERCIALE - F.MARCHI
@@ -17836,14 +18004,15 @@ c_h808,Comune di San Costantino Albanese
 c_f655,Comune di Montevago
 uc_lofe,Unione dei Comuni Lombarda di Lonate Pozzolo e di Ferno 
 oddcd_og,Ordine Dei Dottori Commercialisti e Degli Esperti Contabili di Treviso
-cbtda_72,Consorzio di Bonifica Terre D'Apulia
 c_h821,Comune di Sandigliano
 istsc_MITD41000V,IST TEC COMMERCIALE E PER GEOMETRI - ACHILLE MAPELLI
 c_l330,Comune di Traona
 istsc_cnic81600c,Istituto Comprensivo Cortemilia Saliceto
 istsc_luic81100p,ISTITUTO COMPRENSIVO - SIT.COMPRENSIVO CAMAIORE 3
+ZI6XVPMT,CONSORZIO PER L'ATTUAZIONE DEL PROGETTO DIVERTOR TOKAMAK TEST DTT S.C. A R.L
 istsc_bsic857005,ISTITUTO COMPRENSIVO - IC DI RONCADELLE
 istsc_ctic857005,ISTITUTO COMPRENSIVO - I.C.'ERCOLE PATTI' TRECASTAGNI
+ULXT07HJ,VITA - Istituto Tecnico Superiore Nuove Tecnologie per la Vita
 c_i922,Comune di Spoltore
 istsc_naic8cq00b,ISTITUTO COMPRENSIVO - PALMA I.C. 1 DE CURTIS
 c_a153,Comune di Albese con Cassano
@@ -17880,7 +18049,6 @@ aeo,Associazione Espaci Occitan
 cbsud,Consorzio di Bonifica Sud
 azmm,Azienda pubblica di Servizi alla Persona Martinsheim di Malles Venosta
 cbv_0,Consiglio di Bacino Veronese
-etras,Etra Spa - Energia Territorio Risorse Ambientali
 c_a321,Comune di Anzi
 istsc_miic866002,ISTITUTO COMPRENSIVO - S.BATTISTI - COGLIATE
 c_d665,Comune di Fonni
@@ -17923,6 +18091,7 @@ c_c681,Comune di Ciglie'
 odafss,Ordine Dei Dottori Agronomi e Dei Dottori Forestali della Provincia di Sassari
 c_a527,Comune di Azzano D'Asti
 istsc_GEIS00700L,ISTITUTO SUPERIORE - IS FIRPO-BUONARROTI
+N0PNPPR5,Fondazione Museo Nazionale della Scienza e della Tecnologia Leonardo da Vinci
 as_marc,Regione Marche Azienda Sanitaria Unica Regionale
 cpiarn,Centro per Istruzione Adulti 1 Rimini
 5M1SBOLO,I.T.T A. PACINOTTI
@@ -17960,7 +18129,6 @@ istsc_rmic8ex00q,ISTITUTO COMPRENSIVO - IC OLCESE
 cndc,Convitto Nazionale Domenico Cotugno - L'Aquila
 ogc_,Ordine Geologi della Campania
 istsc_cric80500t,ISTITUTO COMPRENSIVO - IC FALCONE-BORSELLINO OFFANENGO
-CSGIKH1N,SACE S.P.A.
 ordav_lc,Consiglio dell'Ordine degli Avvocati di Lecco
 c_b310,Comune di San Paolo D'Argon
 odipc,Ordine degli Ingegneri della Provincia di Cremona
@@ -18022,12 +18190,12 @@ istsc_atmm003004,ISTITUTO SECONDARIO DI I GRADO - BROFFERIO - ASTI
 istsc_ceic806002,ISTITUTO COMPRENSIVO - I.A.C.'R.VIVIANI'-S.MARCO EV.
 c_i585,Comune di Sellano
 c_i804,Comune di Sulmona
-ucr_028,Unione di Comuni Retenus
 aoupgmme,A.O.U. Policlinico 'G. Martino' di Messina
 cdpmm,Circolo Didattico Pasquale Megali Melito di Porto Salvo
 istsc_toic8ad009,ISTITUTO COMPRENSIVO DAVID BERTRAND PIOSSASCO
 ocdpc619,Commissario Delegato Ex Ocdpc 619_2019
 istsc_CSIS06100T,ISTITUTO SUPERIORE - IIS - ACRI 'IPSIA-ITI'
+7P9NB79B,ARAP SERVIZI S.R.L.
 c_g087,Comune di Orbassano
 c_c875,Comune di Colletorto
 istsc_motf030004,ISTITUTO TECNICO INDUSTRIALE - ITI LEONARDO DA VINCI
@@ -18184,6 +18352,7 @@ clgpp,Consorzio per La Gestione Provvisoria del Parco Naturale Regionale Dune Co
 istsc_baic853008,ISTITUTO COMPRENSIVO - MARCONI - M.CARELLA PMA LOSITO
 istsc_tvis018005,ISTRUZIONE SECONDARIA SUPERIORE - IS SARTOR
 c_e610,Comune di Liscate
+UANQS8JQ,ASMare S.r.l.
 pnct_011,Parco Nazionale Delle Cinque Terre
 afs,Asst Fatebenefratelli Sacco
 istsc_gevc010002,CONVITTO NAZIONALE - CONVITTO NAZIONALE - C.COLOMBO
@@ -18389,6 +18558,7 @@ istsc_bamm281007,SCUOLA PRIMO GRADO - COTUGNO - CARDUCCI - GIOV. 23
 camcomcl,Camera di Commercio, Industria, Artigianato e Agricoltura di Caltanissetta
 c_c950,Comune di Concordia Sagittaria
 c_a577,Comune di Bagnoregio
+HS1HMYZI,Centro Padane Srl
 c_h789,Comune di San Carlo Canavese
 istsc_rmps320009,LICEO SCIENTIFICO - LS A. LANDI
 istsc_pais021003,ISTRUZIONE SECONDARIA SUPERIORE - ISTITUTO SUPERIORE DANILO DOLCI
@@ -18644,6 +18814,7 @@ istsc_vric86400a,ISTITUTO COMPRENSIVO - IC NEGRAR
 c_e893,Comune di Mansue'
 c_e423,Comune di La Loggia
 c_b175,Comune di Briga Alta
+COOYAM44,FAR.COM. SRL
 istsc_udis014006,ISTRUZIONE SECONDARIA SUPERIORE - F.SOLARI
 istsc_bnic833009,ISTITUTO COMPRENSIVO - IC COLLE SANNITA
 icsch,Istituto Comprensivo Schweitzer
@@ -18678,6 +18849,7 @@ ftcfge,Fondazione Teatro Carlo Felice
 istsc_fgic84100a,ISTITUTO COMPRENSIVO - M.LO MANICONE -VICO DEL GARGANO
 c_l660c,Comune di Valle di Casies
 istsc_peis00400q,Istituto Omnicomprensivo
+NR3DR7A8,Edison Stoccaggio S.p.A. 
 istsc_meic87900r,ISTITUTO COMPRENSIVO - N.1 'CESAREO'S.AGATA MILITELLO
 inps,Istituto Nazionale Previdenza Sociale - INPS
 c_h990,Comune di San Martino in Pensilis
@@ -18709,6 +18881,7 @@ istsc_imic801001,ISTITUTO COMPRENSIVO - IC DIANO MARINA
 LL_TN,Liceo Linguistico di Trento
 c_b642,Comune di Caorle
 c_m395,Comune di Valvarrone
+issmc,Conservatorio di Musica "Claudio Monteverdi" di Cremona
 istsc_ltis004008,ISTRUZIONE SECONDARIA SUPERIORE - CARLO E NELLO ROSSELLI
 c_g925,Comune di Porto Venere
 istsc_nais05900l,ISTRUZIONE SECONDARIA SUPERIORE - GIANCARLO SIANI
@@ -18717,6 +18890,7 @@ cciaa_pc,Camera di Commercio, Industria, Artigianato e Agricoltura di Piacenza
 odfp_pa,Ordine dei Farmacisti della Provincia di Palermo
 c_h276,Comune di Ricengo
 istsc_biic802005,ISTITUTO COMPRENSIVO - ISTITUTO COMPRENSIVO DI PRAY
+iplsd,I.P. Luigi Santarella-severina De Lilla
 istsc_baee06900x,DIREZIONE DIDATTICA - IICD.PROF.ARC.CAPUTI BISCEGLIE
 asucalm,Amministrazione Separata Usi Civici di Almazzago
 istsc_tpic807004,ISTITUTO COMPRENSIVO - IC 'L.CAPUANA' S.NINFA
@@ -18747,13 +18921,16 @@ ucve,Unione Dei Comuni Valdostani Evancon
 r_sicili,Regione Siciliana
 KD7TODQC,Mostra d'Oltremare S.p.A.
 c_h264,Comune di Rho
+FJ51736F,STAZIONE SPERIMENTALE PER L'INDUSTRIA DELLE CONSERVE ALIMENTARI - FONDAZIONE DI RICERCA 
 istsc_toic84000t,ISTITUTO COMPRENSIVO - I.C. RIVALTA - TETTI FRANCESI
 c_l503,Comune di Uri
+9T6I3DO8,UNIONE DEI COMUNI "AREA INTERNA DI TROINA"
 istsc_camm008008,ISTITUTO SECONDARIO DI I GRADO - UGO FOSCOLO
 c_h599,Comune di Rovegno
 istsc_namm15900a,ISTITUTO SECONDARIO DI I GRADO - ROCCO -AFRAGOLA-
 c_h835,Comune di San Felice Sul Panaro
 c_i418,Comune di Saonara
+1YI8V232,CBL DISTRIBUZIONE SRL
 istsc_bsic84600p,ISTITUTO COMPRENSIVO - I.C. BORGOSATOLLO
 c_d702,Comune di Forio
 istsc_rmic8ff00e,IC Poggiali Spizzichino
@@ -18794,6 +18971,7 @@ c_h564,Comune di Roscigno
 cmmmss,Comunita' Montana Dei Monti Martani, Serano e Subasio
 c_b303,Comune di Buti
 istsc_rcpc050008,LICEO CLASSICO - 'TOMMASO CAMPANELLA'
+7CWQ8IV2,NUOVA SALENTO ENERGIA S.R.L.
 istsc_fiic81000b,ISTITUTO COMPRENSIVO - CAPRAIA LIMITE
 istsc_rgis004004,ISTRUZIONE SECONDARIA SUPERIORE - GIOVANNI VERGA
 c_e340,Comune di Isola del Liri
@@ -18893,11 +19071,13 @@ c_g391,Comune di Pavone del Mella
 opmb_,Azienda Pubblica di Servizi alla Persona
 cggl_no,Collegio dei Geometri e dei Geometri Laureati della Provincia di Novara
 istsc_bric83000n,ISTITUTO COMPRENSIVO - I C LATIANO
+34D70TTH,Fon.Coop
 cndi,Consiglio Notarile di Ivrea
 istsc_rmic8dg005,ISTITUTO COMPRENSIVO ALFREDO VINCIGUERRA
 c_d464,Comune di Fagnano Castello
 co_pami,Parco Nord Milano
 istsc_atee00100d,SCUOLA PRIMARIA - IST. SCOLASTICA I CIRCOLO ASTI
+2OYCYTVM,Comitato Organizzatore dei Campionati Internazionali di Canottaggio Varese 
 icsls,Istituto Comprensivo Statale Leone Sinigaglia
 istsc_rmpc26000q,LICEO CLASSICO - UGO FOSCOLO
 istsc_bsic822006,ISTITUTO COMPRENSIVO - IST. COMPR. CORTEFRANCA
@@ -18935,10 +19115,12 @@ c_a222,Comune di Alpignano
 ascac,Azienda Speciale Comunale Assp Cortina
 c_l378,Comune di Trento
 c_m213,Comune di Ardea
+DZW7CKRB,FONDAZIONE ITS "ANTONIO CUCCOVILLO"
 c_a821,Comune di Besenello
 c_c719,Comune di Circello
 c_e383,Comune di Moiola
 c_g170,Comune di Ospitaletto
+40B59AWR,COMUNE DI SOVIZZO
 istsc_meis019009,ISTRUZIONE SECONDARIA SUPERIORE - IST.ISTR.SUP. 'ANTONELLO' MESSINA
 igc,Istituto Gregorio da Catino
 oring_po,Ordine degli Ingegneri della Provincia di Prato
@@ -19038,6 +19220,7 @@ istsc_torh010009,ISTITUTO PROFESSIONALE PER I SERVIZI ALBERGHIERI E RISTORAZIONE
 oddadnu,Ordine Dei Dottori Agronomi e Dei Dottori Forestali della Provincia di Nuoro
 istsc_rmps49000c,LICEO SCIENTIFICO - LICEO 'FARNESINA'
 c_b693,Comune di Caprese Michelangelo
+4VSXCZLC,R.S.A. SRL 
 c_d193,Comune di Veronella
 c_g961,Comune di Pozzolo Formigaro
 c_c566,Comune di Cesano Maderno
@@ -19051,6 +19234,7 @@ istsc_naee32000v,DIREZIONE DIDATTICA - VILLARICCA 2 G RODARI
 udcb_ra,Unione della Romagna Faentina
 istsc_firh01000p,ISTITUTO PROFESSIONALE PER I SERVIZI ALBERGHIERI E RISTORAZIONE - A. SAFFI
 cptro,Ordine dei Tecnici Sanitari di Radiologia Medica e delle Professioni Sanitarie Tecniche, della Riabilitazione e della Prevenzione delle Province di Sassari Olbia/Tempio
+MCW45KZC,AMBITO TERRITORIALE DI CACCIA SALERNO
 istsc_imic80900g,ISTITUTO COMPRENSIVO - G.BOINE
 c_g337,Comune di Parma
 c_b086,Comune di Botrugno
@@ -19096,6 +19280,8 @@ istsc_mctd01000v,ISTITUTO TECNICO COMMERCIALE - 'A. GENTILI' MACERATA
 istsc_viic884007,ISTITUTO COMPRENSIVO - IC MAROSTICA
 c_a424,Comune di Arnad
 istsc_ctic83900g,ISTITUTO COMPRENSIVO - IC C.DUSMET - NICOLOSI
+opclcb,Ordine Consulenti del Lavoro di Campobasso
+G28WGG9A,PARCHEGGI PERETOLA SRL
 istsc_mnic82200r,ISTITUTO COMPRENSIVO - I.C. SERMIDE
 istsc_peis00300x,ISTRUZIONE SECONDARIA SUPERIORE - IS ITC E.ALESSANDRINI CON SEZ. ITI
 c_e799,Comune di Mafalda
@@ -19177,6 +19363,7 @@ iistig,I.T.T. Allievi - Sangallo
 c_i545,Comune di Scopello
 istsc_vaic81300b,ISTITUTO COMPRENSIVO - I.C. INDUNO OLONA PASSERINI
 giss,Gal Irpinia Sannio Scarl
+HL49LMGS,azienda  servizi  igiene  e  pubblica  ulitità srl
 cmrc,Citta' Metropolitana di Roma Capitale
 c_f085,Comune di Medolago
 istsc_bsic81900a,ISTITUTO COMPRENSIVO - IC F.TONOLINI BRENO
@@ -19231,6 +19418,7 @@ acsrl,Autoservizi Cerella Srl
 c_h703,Comune di Salerno
 ivin_015,Istituto Comprensivo Via IV Novembre di Parabiago
 B9U3II01,ordine interprovinciale della professione sanitaria di fisioterapista di sassari e del nord est sardegna
+E0VH55CA,AZIENDA TRASPORTI FUNICOLARI MALCESINE MONTE BALDO
 istsc_alic815008,ISTITUTO COMPRENSIVO - ALESSANDRIA - P. STRANEO
 istsc_baic845009,ISTITUTO COMPRENSIVO - 8 CD 'G. PAOLO II' - SM 'DE MAR
 cpadp_ca,Collegio Periti Agrari e dei Periti Agrari Laureati di Catania e Siracusa
@@ -19300,6 +19488,7 @@ istsc_rmsd10000r,ISTITUTO D'ARTE - IA ROMA 3
 c_m119,Comune di Volpara
 asucsg,Amministrazione Separata Beni Usi Civici San Giacomo
 istsc_leic836009,ISTITUTO COMPRENSIVO - MINERVINO DI LECCE
+J2N38LP8,ITS - accademia ligure agroalimentare
 c_f992,Comune di Occhieppo Inferiore
 c_d807,Comune di Frontino
 istsc_udic847009,ISTITUTO COMPRENSIVO - CERVIGNANO
@@ -19337,6 +19526,7 @@ coda_010,Consiglio dell'Ordine Degli Avvocati di Genova
 icala_tn,Istituto Comprensivo - 'Ala'
 iacpct,Istituto Autonomo Case Popolari di Catania
 c_f935,Comune di Norcia
+CSN6R2QO,FONDAZIONE I.T.S. PEGASUS
 istsc_miic8dm00d,ISTITUTO COMPRENSIVO - I.C. G. MARCONI CONCOREZZO
 c_a201,Comune di Ali' Terme
 c_i978,Comune di Striano
@@ -19366,6 +19556,7 @@ asafdat,Azienda Speciale Agenzia Formativa Don Angelo Tedoldi
 istsc_avic81700g,ISTITUTO COMPRENSIVO - J F.KENNEDY- NUSCO -
 c_e698,Comune di Losine
 c_h243,Comune di Ercolano
+PNO7HGFA,Visit Piemonte Scrl
 c_e528,Comune di Lenta
 c_h488,Comune di Roggiano Gravina
 c_b080,Comune di Bosio
@@ -19378,6 +19569,7 @@ asucc,Amministrazione Separata Usi Civici di Campodenno
 oddcecl,Ordine Dei Dottori Commercialisti e Degli Esperti Contabili di Lucca
 istsc_psri02000b,ISTITUTO PROFESSIONALE INDUSTRIA E ARTIGIANATO - PESARO IPSIA'BENELLI'
 c_b275,Comune di Burgio
+K87ZJFQ4,Consorzio di Lavinio S. Olivo S. Anastasio
 c_e497d,Comune di Lavenone
 isadt,Istituto Superiore Alfano da Termoli
 orchp_me,Ordine dei Chimici e dei Fisici della Provincia di Messina
@@ -19425,6 +19617,7 @@ r_trenti,Regione Autonoma Trentino-Alto Adige/Suedtirol
 c_m007,Comune di Villar Focchiardo
 cosspa,Cosmo S.P.A
 c_i800,Comune di Soleto
+ILZABIQR,Start S.p.A.
 istsc_taic84600t,ISTITUTO COMPRENSIVO - PRUDENZANO - MANDURIA
 istsc_rmpc12000c,LICEO CLASSICO - GIULIO CESARE
 c_c583,Comune di Cessole
@@ -19554,7 +19747,6 @@ acpi,Automobile Club Pistoia
 istsc_bgic88600l,ISTITUTO COMPRENSIVO - VERDELLINO - ZINGONIA I.C.
 istsc_mcic81600c,ISTITUTO COMPRENSIVO - DON BOSCO - TOLENTINO
 cciaardl,Camera di Commercio Industria Artigianato e Agricoltura Riviere di Liguria - Imperia La Spezia Savona
-issmc,Istituto Superiore di Studi Musicali Claudio Monteverdi
 cbuf,Consorzio di Bonifica dell'Ufita
 istsc_miis074005,ISTRUZIONE SECONDARIA SUPERIORE - MARELLI
 istsc_udri040009,ISTITUTO PROFESSIONALE INDUSTRIA E ARTIGIANATO - IPSIA 'G. CECONI' UDINE
@@ -19650,6 +19842,7 @@ unite,Universita' degli Studi di Teramo
 istsc_meic85700x,ISTITUTO COMPRENSIVO - TERME VIGLIATORE
 c_a173,Comune di Albugnano
 c_d514,Comune di Favara
+DWSY0NV4,BARIMULTISERVIZI S.P.A.
 istsc_viic870009,ISTITUTO COMPRENSIVO - IC VICENZA 5
 c_b264,Comune di Bultei
 c_h841,Comune di San Fili
@@ -19924,9 +20117,12 @@ ampr,Patrimonio Mobilita Provincia di Rimini
 istsc_pric825008,ISTITUTO COMPRENSIVO - 'TOSCANINI' - PARMA
 civ_,ORDINE DELLE PROFESSIONI INFERMIERISTICHE DI VARESE
 oddcdk,ORDINE DEI DOTTORI COMMERCIALISTI E DEGLI ESPERTI CONTABILI DI CROTONE
+05GYSWFH,Fondazione di partecipazione Casa dell'Ospitalità
 istsc_caic866007,Istituto  Comprensivo Statale Serramanna
+QRLKRA1Y,SANNIO EUROPA SCARL
 asitf,Ente per Lo Sviluppo dell'Irrigazione e La Trasformazione Fondiaria in Puglia, Lucania e Irpinia in Liquidazione
 odip_003,Ordine Degli Ingegneri della Provincia di Novara
+QOCXNI4P,ASA TIVOLI SPA
 c_b564,Comune di Campo San Martino
 istsc_miic81700r,ISTITUTO COMPRENSIVO - TEODORO CIRESOLA
 c_c670,Comune di Crocetta del Montello
@@ -19972,6 +20168,7 @@ oav_027,Ordine Degli Avvocati di Venezia
 icssr,Istituto Comprensivo Statale San Rocco
 c_f328,Comune di Monasterolo del Castello
 cslpad,Commissario Straordinario per La Progettazione Affidamento e La Realizzazione Dei Lavori Relativi al Nuovo Depuratore Nell Agglomerato di Mondragone
+ict,I.C. Perotti - Toscanini
 c_i704,Comune di Settingiano
 GWQ11J62,ISTITUTO COMPRENSIVO GIOVANNI VERGA
 istsc_CEIC83800D,ISTITUTO COMPRENSIVO - I.A.C.'MAZZOCCHI'- S.MARIA C.V.
@@ -20001,6 +20198,7 @@ istsc_nais01200b,Istituto Superiore I.I.S.S. Cristofaro Mennella Casamicciola Te
 udcs,Unione Dei Comuni del Sinello
 p_CE,Provincia di Caserta
 c_b672,Comune di Caporciano
+RUY70JSW,AZIENDA SPECIALE SVILUPPO ECONOMICO E TERRITORIALE DELLA BASILICATA - AZIENDA SPECIALE DELLA CCIAA DELLA BASILICATA
 c_b590,Comune di Candida
 istsc_taic82500r,I.C. DELEDDA - SGBOSCO
 c_g030,Comune di Olginate
@@ -20087,6 +20285,7 @@ istsc_tepm010004,ISTITUTO MAGISTRALE - ISTITUTO MAGISTRALE 'G.MILLI' TERAMO
 opmed_bs,Ordine dei Medici Chirurghi e degli Odontoiatri della Provincia di Brescia
 istsc_naic8b1002,ISTITUTO COMPRENSIVO - NA - IC 83 PORCHIANO-BORDIGA
 c_e638,Comune di Locate Varesino
+D1VWHYA4,Federazione Italiana Canoa Kayak
 c_d736,Comune di Fossa
 cop_pe,Ordine della professione di Ostetrica della Provincia di Pescara
 c_g787,Comune di Polignano a Mare
@@ -20151,6 +20350,7 @@ cdip_093,Ordine delle Professioni Infermieristiche di Pordenone
 istsc_rmic8br004,ISTITUTO COMPRENSIVO - ISTITUTO COMPRENSIVO LARIANO
 c_h357,Comune di Rivolta D'Adda
 cnddrcg,Consiglio Notarile Dei Distretti Riuniti di Caltanissetta e Gela
+2M9NZFR2,AMBITO TERRITORIALE DI CACCIA N. 3
 iscmond,Istituto Comprensivo Mondovi 2
 istsc_oric829008,ISTITUTO COMPRENSIVO - TERRALBA    'A. CARTA'
 aspsmdc,ASP Solidarieta' - Mons. D. Cadore
@@ -20159,6 +20359,7 @@ istsc_rmic8e300c,ISTITUTO COMPRENSIVO - LARGO COCCONI
 2QR9KMNO,SOCIETA' FERROVIE UDINE CIVIDALE S.R.L.
 fasasads,Amministrazione Separata Beni Usi Civici Frazione di Anterselva di Sotto - Amministrazione Separata B.U.C.
 c_d608,Comune di Fiorano Canavese
+CXFTD6DF,FONDAZIONE BIOPARCO DI ROMA
 rnts,Riserva Naturale Torbiere del Sebino
 cppa_029,Collegio Provinciale Periti Agrari e Periti Agrari Laureati della Provincia di Rovigo
 udct_2,Unione Dei Comuni del Terralbese
@@ -20242,7 +20443,6 @@ ca_umbpr,Centro Residenziale per Anziani Umberto I di Piove di Sacco
 uc_amarm,Unione dei Comuni Alta Marmilla
 cbp_033,Consorzio di Bonifica di Piacenza
 cib,Consorzio Interuniversitario per Le Biotecnologie
-itsgaa,Istituto Tecnico Statale per Geometri Con Aggregato Istituto Tecnico Agrario Statale - Azienda Agraria
 C_G661,Comune di Pignataro Maggiore
 c_e573,Comune di Licata
 istsc_rmis027004,Istituto di Istruzione Superiore Giosue Carducci  I.I.S. Giosue' Carducci
@@ -20299,6 +20499,7 @@ iscomp,Istituto Comprensivo Perugia 1
 istsc_TRRI030005,ISTITUTO OMNICOMPRENSIVO IPSIA PERTINI CPIA DI TERNI 
 umdcbo,Unione Montana Dei Comuni del Biellese Orientale
 istsc_cntf010005,ISTITUTO TECNICO INDUSTRIALE - CUNEO 'MARIO DELPOZZO'
+HQVL0IPQ,ISTITUTO COMPRENSIVO "G. PASCOLI - A. DE STEFANO"
 c_b872,Comune di Casal di Principe
 istsc_rmic8gx001,ISTITUTO COMPRENSIVO - IC PARCO DELLA VITTORIA
 istsc_VEIS019001,ISTITUTO SUPERIORE - ANTONIO  PACINOTTI
@@ -20353,6 +20554,7 @@ c_h119,Comune di Quartucciu
 istsc_vris00100b,ISTRUZIONE SECONDARIA SUPERIORE - LEONARDO DA VINCI
 C_B172,Comune di Brienno
 afcrl,Fondazione Lorenzerhof APSP
+istsc_mipm06000n,Liceo Statale Carlo Porta Monza
 c_b496,Comune di Campagnano di Roma
 istsc_rcic846006,ISTITUTO COMPRENSIVO - F. DELLA SCALA
 icas_065,Istituto Comprensivo Agropoli S.Marco
@@ -20575,6 +20777,7 @@ c_f471,Comune di Montichiari
 c_a286,Comune di Andriano
 c_l093,Comune di Tempio Pausania
 p_pr,Provincia di Parma
+38WHGZZB,TOSCANA AEROPORTI ENGINEERING SRL
 istsc_blic82500q,Istituto Comprensivo di Santo Stefano di Cadore e Comelico Superiore
 C_I410,Comune di Sanza
 istsc_pdic88000e,ISTITUTO COMPRENSIVO - II DI PADOVA 'ARDIGO''
@@ -20615,7 +20818,6 @@ c_i084,Comune di San Pier Niceto
 iccq_01,Istituto Comprensivo Cremona Quattro
 istsc_caic82800c,ISTITUTO COMPRENSIVO - GUASILA
 odip_048,Ordine Degli Ingegneri della Provincia di Firenze
-orch_lig,Ordine dei Chimici della Regione Liguria
 istsc_agis013006,ISTRUZIONE SECONDARIA SUPERIORE - II.SS 'F. RE CAPRIATA'
 crbsf,Casa di Riposo Borsetti Sella Facenda
 uni_pa,Universita' degli Studi di Palermo
@@ -20754,6 +20956,7 @@ la_012,LICEO ARTISTICO A.FRATTINI
 istsc_tpic83300l,ISTITUTO COMPRENSIVO - IC 'G. XXIII' PACECO
 istsc_vric831003,ISTITUTO COMPRENSIVO - IC MONTECCHIA DI CR. E RONCA'
 istsc_veic846005,ISTITUTO COMPRENSIVO - FRANCESCO QUERINI
+istsc_fgic82900q,ISTITUTO COMPRENSIVO DON MILANI UNO-MAIORANO
 istsc_namm297002,ISTITUTO SECONDARIO DI I GRADO - SMS DON S. VITALE - GIUGLIANO
 istsc_taic81900d,ISTITUTO COMPRENSIVO - MARTELLOTTA
 c_l973,Comune di Villanova del Battista
@@ -20834,6 +21037,7 @@ c_i095,Comune di San Pietro Apostolo
 apicr,Adopera Patrimonio e Investimenti Casalecchio di Reno Srl
 atoct,Ambito Territoriale Ottimale Catania Acque in Liquidazione
 uvv_033,Unione Valnure e Valchero
+XF5RKNP1,ROMA CRUISE TERMINAL SRL
 c_g974,Comune di Pray
 c_i056,Comune di San Nicola La Strada
 istsc_PRIC839006,ISTITUTO COMPRENSIVO "L. MALERBA" DI FORNOVO
@@ -20859,6 +21063,7 @@ odmv_077,Ordine Dei Medici Veterinari della Provincia di Matera
 istsc_csrh07000q,ISTITUTO PROFESSIONALE PER L'ENOGASTRONOMIA E L'OSPITALITA' ALBERGHIERA SAN FRANCESCO
 istsc_naic892004,ISTITUTO COMPRENSIVO - I.C. CAPUOZZO - NA
 c_f054,Comune di Matino
+OI2P4JRN,Commissione amministrativa regionale di disciplina della Regione Sardegna
 istsc_bgic8aa007,ISTITUTO COMPRENSIVO - URGNANO 'B. COLLEONI'
 c_c975,Comune di Conversano
 ipinerol,Istituto Comprensivo Pinerolo 4
@@ -20894,6 +21099,8 @@ c_g218,Comune di Paderno D'Adda
 istsc_spic814006,ISTITUTO COMPRENSIVO - ISTITUTO COMPRENSIVO N 1
 r_friuve,Regione Autonoma Friuli-Venezia Giulia
 istsc_pgee042003,DIREZIONE DIDATTICA - AMMETO/SECONDO CIRC. MARSCIANO
+52F9D08Y,COMUNI DELL'ACQUEDOTTO LANGHE SUD OCCIDENTALI SPA
+245FNRH5,AGRI-CAT S.R.L.
 istsc_rcic84500a,ISTITUTO COMPRENSIVO - BOVALINO
 c_g798,Comune di Pollone
 c_h977,Comune di San Mango Piemonte
@@ -20914,6 +21121,7 @@ c_i375,Comune di Sant'Urbano
 QDGRMW90,GEOVEST S.R.L.
 M2EXTCTQ,Istituto Comprensivo "F. D. Guerrazzi"
 istsc_baee076003,DIREZIONE DIDATTICA - 1 CD.'N.FORNELLI' - BITONTO
+79OSTV8M,Autolinee Casciato S.r.L.
 c_g735,Comune di Plati'
 istsc_enee091002,DIREZIONE DIDATTICA - BORGO (TROINA)
 c_d095,Comune di Cosseria
@@ -20990,6 +21198,7 @@ istsc_ceee043003,DIREZIONE DIDATTICA - D. D. MONDRAGONE PRIMO
 icmau,Istituto Comprensivo Michelangelo Augusto
 c_f948,Comune di Novalesa
 c_d477,Comune di Falerone
+A9AHBMJJ,ENTE AUTONOMO FIERA DI FOGGIA
 acc_un63,Automobile Club Molise
 istsc_miic8cl003,ISTITUTO COMPRENSIVO - 'LINA MANDELLI' - USMATE VELATE
 c_h319,Comune di Riparbella
@@ -21178,6 +21387,7 @@ istsc_vaic822006,ISTITUTO COMPRENSIVO - I.C. MARCHIROLO GIOVANNI XXIII
 istsc_bgic82300d,ISTITUTO COMPRENSIVO - AZZANO SAN PAOLO GIOVANNI XXIII
 upi,Upi Veneto
 c_l397,Comune di Trevi
+c_a412,Comune di Arlena di Castro
 c_b036,Comune di Borgo San Lorenzo
 istsc_rnic803009,ISTITUTO COMPRENSIVO - IC VERUCCHIO
 istsc_boee068003,DIREZIONE DIDATTICA - D.D. DI CASTEL MAGGIORE
@@ -21192,7 +21402,6 @@ istsc_rmic8d400n,ISTITUTO COMPRENSIVO - IC POMEZIA VIA DELLA TECNICA
 c_e563,Comune di Leverano
 istsc_agic834003,ISTITUTO COMPRENSIVO - IC G.MARCONI
 uc_bvvi,Unione Comuni del Basso Vicentino
-ceu,Consorzio Ennese Universitario
 atpbcl,AGENZIA PER IL TRASPORTO PUBBLICO LOCALE DEL BACINO DI COMO, LECCO E VARESE
 c_h363,Comune di Roascio
 c_f599,Comune di Monte Rinaldo
@@ -21205,6 +21414,7 @@ c_a836,Comune di Beverino
 aspcm_mo,Azienda Pubblica di Servizi alla Persona dei Comuni Modenesi Area Nord
 istsc_naic8cn00x,ISTITUTO COMPRENSIVO - T.GRECO I.C. 2 SAURO-MORELLI
 c_e125,Comune di Grado
+URF05VJ9,Consorzio Area per lo Sviluppo Industriale Salerno
 icdmssa,Istituto Comprensivo 'Don Milani' Salerno
 c_d422,Comune di Erchie
 asl1_im,Azienda Sociosanitaria Ligure n.1
@@ -21272,6 +21482,7 @@ c_e687,Comune di Lorenzago di Cadore
 c_d783,Comune di Frassinoro
 istsc_blis00100b,ISTRUZIONE SECONDARIA SUPERIORE - ENRICO FERMI
 c_h308,Comune di Rionero Sannitico
+7GOVGT25,Euromilano S.p.A.
 c_f232,Comune di Mirabello Monferrato
 c_g713,Comune di Pistoia
 H3EOKUS0,Acquedotto del Fiora S.p.A.
@@ -21377,6 +21588,7 @@ istsc_mnic83200b,ISTITUTO COMPRENSIVO - I. C. PEGOGNAGA
 cmpm_na,Conservatorio di Musica San Pietro a Majella di Napoli
 c_f184,Comune di Mezzojuso
 ucpiareg,Unione Comuni Pianura Reggiana
+DMTCBY60,AZIENDA TERRITORIALE PER I SERVIZI ALLA PERSONA
 c_d964,Comune di Genazzano
 c_d594,Comune di Filighera
 c_d835,Comune di Gabiano
@@ -21405,6 +21617,7 @@ c_b239,Comune di Bucciano
 c_d871,Comune di Galliate Lombardo
 iv_vi,Ipab di Vicenza
 p_pg,Provincia di Perugia
+NFNVNUPL,SERVIZI CITTA' METROPOLITANA DI CATANIA
 istsc_mitn02000x,ISTITUTO TECNICO PER IL TURISMO - PIER PAOLO PASOLINI
 coost_no,Ordine della Professione di Ostetrica  interprovinciale di Novara, Verbano Cusio Ossola, Biella, Vercelli.
 odafva,Ordine dei Dottori Agronomi e dei Dottori Forestali di Varese
@@ -21453,6 +21666,7 @@ c_c226,Comune di Castelnuovo Belbo
 opasm,Opera Pia Asili Scuole Materne
 c_i484,Comune di Scagnello
 c_c243,Comune di Castelnuovo Scrivia
+istsc_RMIC8CV00V,Istituto Comprensivo Gino Strada
 c_g419,Comune di Peio
 c_g795,Comune di Pollena Trocchia
 c_b581,Comune di Cancello Ed Arnone
@@ -21576,6 +21790,7 @@ istsc_biic80000d,ISTITUTO COMPRENSIVO - IC ANDORNO MICCA
 c_e816,Comune di Magliolo
 odclb_2,Ordine Dei Consulenti del Lavoro di Bolzano
 c_h424,Comune di Roccamontepiano
+3JPPAJDM,GRUPPO DI AZIONE LOCALE ISC MADONIE
 istsc_ceis001003,ISTRUZIONE SECONDARIA SUPERIORE - AGOSTINO NIFO
 istsc_pnic83000x,ISTITUTO COMPRENSIVO - IC PORDENONE SUD
 6JBIWZ80,Istituto comprensivo G. Bartolena
@@ -21620,6 +21835,7 @@ GB6QL6FQ,Ordine dei Dottori Agronomi e dei Dottori Forestali della Provincia di 
 c_b071,Comune di Bosco Marengo
 c_h210,Comune di Recale
 c_d094,Comune di Cossato
+c_a338,Comune di Apricale
 c_c290,Comune di Castelvisconti
 c_l833,Comune di Viareggio
 istsc_apis00100q,Liceo Artistico Preziotti - Licini
@@ -21672,6 +21888,7 @@ c_g982,Comune di Pramollo
 cp_073,Consiglio Provinciale Consulenti del Lavoro di Taranto
 aci_is,Automobile Club Isernia
 c_h554,Comune di Rora'
+D1PM59HM,ASPM SORESINA SERVIZI SRL
 istsc_fiic83700b,ISTITUTO COMPRENSIVO - PIRANDELLO
 c_h017,Comune di Predappio
 istsc_ctic83800q,ISTITUTO COMPRENSIVO - IC S. CASELLA PEDARA
@@ -21689,6 +21906,7 @@ c_h527,Comune di Roncaro
 istsc_limm096009,Scuola Secondaria Statale Di I Grado Andrea Guardi
 c_m256,Comune di Scanzano Jonico
 c_g957,Comune di Pozzoleone
+OC1QYJAW,ITS PER LE NUOVE TECNOLOGIE PER IL MADE IN ITALY EMPORIUM DEL GOLFO
 acibz,Automobile Club Bolzano
 istsc_cbis002003,ISTRUZIONE SECONDARIA SUPERIORE - MARIO PAGANO
 coda_006,Consiglio dell'Ordine Degli Avvocati di Alessandria
@@ -21804,6 +22022,7 @@ istsc_luic836003,ISTITUTO COMPRENSIVO - CARLO PIAGGIA
 edrts,Ente di Decentramento Regionale di Trieste
 istsc_PSPC06000D,Liceo - 'Nolfi Apolloni'
 aspcs,Asp Carlo Sartori
+AW24O57P,ENTE TURISMO LANGHE MONFERRATO ROERO SCARL
 aca_ct,Automobile Club Acireale
 c_f241,Comune di Mirano
 c_l977,Comune di Villanova del Sillaro
@@ -21892,6 +22111,7 @@ istsc_pcic818008,ISTITUTO COMPRENSIVO - IC FIORENZUOLA D'ARDA
 isma,Istituti di Santa Maria in Aquiro
 c_g305,Comune di Panchia'
 c_a600,Comune di Balmuccia
+2NGFCWZO,F.A.P. AUTOSERVIZI S.P.A.
 c_g395,Comune di Peccioli
 mtso,Museo Tattile Statale Omero
 amis,Anxanum Multiservizi Intercomunali Spa
@@ -21958,7 +22178,6 @@ c_g297,Comune di Palu'
 c_g247,Comune di Paisco Loveno
 c_f497,Comune di Montefelcino
 istsc_leic85600e,ISTITUTO COMPRENSIVO - VERNOLE
-ils_rm,ANPAL Servizi S.p.A
 clasilen,Consorzio ASI di Enna in Liquidazione
 c_d050,Comune di Cortandone
 c_b752,Comune di Carcoforo
@@ -21992,12 +22211,14 @@ istsc_meic88900b,ISTITUTO COMPRENSIVO - I.C.S.TERESA DI RIVA
 orfap_te,Ordine dei Farmacisti della Provincia di Teramo
 c_d415,Comune di Eraclea
 c_c488,Comune di Cercepiccola
+L5KDPNA8,Fondazione Musei Civici di Venezia
 istsc_blis00600e,ISTRUZIONE SECONDARIA SUPERIORE - ISTITUTO ISTRUZIONE SUPERIORE FOLLADOR
 c_l348,Comune di Travo
 istsc_rmic8gp001,ISTITUTO COMPRENSIVO - IC VIA MONTANUCCI
 c_i430,Comune di Sarego
 istsc_cais00100l,ISTRUZIONE SECONDARIA SUPERIORE - GRAMSCI- AMALDI (CARBONIA)
 cogesa,Co.Ge.Sa. Consorzio Gestione Servizi Socio Assistenziali
+RS6O0UF4,Consorzio Gestori Servizi Idrici scrl
 c_e381,Comune di Jelsi
 istsc_vtic833009,ISTITUTO COMPRENSIVO - SILVIO CANEVARI
 oring_lu,Ordine degli Ingegneri della Provincia di Lucca
@@ -22101,7 +22322,6 @@ crdmi,Co.Re.Di. Commissione Amministrativa Regionale di Disciplina
 cpda_009,Collegio Provinciale Degli Agrotecnici e Degli Agrotecnici Laureati di Savona
 istsc_saps06000l,LICEO SCIENTIFICO - 'F. SEVERI'
 QNMEUGZU,Aeroporto Guglielmo Marconi di Bologna S.p.A.
-cass,Consorzio A.S.S. Albizzate Solbiate
 istsc_czic850003,ISTITUTO COMPRENSIVO - IC LAMEZIA TERME 'G.NICOTERA'
 icnqse,Istituto Comprensivo N. 2 Quartu Sant'Elena
 epm_011,Ente Parco di Montemarcello-magra
@@ -22138,6 +22358,7 @@ c_h618,Comune di Roviano
 istsc_miic87100d,ISTITUTO COMPRENSIVO - BAGATTI VALSECCHI-VAREDO
 c_h462,Comune di Rocchetta Belbo
 c_g762,Comune di Poggiomarino
+RRHX3RWL,SERVIZI INTERCOMUNALI VERONAPIANURA S.R.L.
 istsc_BAIS042002,ISTITUTO SUPERIORE - AMERIGO VESPUCCI
 c_h168,Comune di Ramacca
 istsc_vetd030001,ISTITUTO TECNICO COMMERCIALE - LEON BATTISTA ALBERTI
@@ -22164,6 +22385,7 @@ c_d680,Comune di Fonte
 istsc_tsps02000r,LICEO SCIENTIFICO - GALILEO GALILEI
 cciaaaa,Camera di Commercio Industria Artigianato e Agricoltura di Alessandria - Asti
 odgrm,Ordine Dei Geologi della Regione Molise
+PISACEFV,ARTES 4.0 Advanced Robotics and enabling digital TEchnologies & Systems 4.0
 c_d843,Comune di Gaeta
 c_l573,Comune di Valfabbrica
 V66IZTDS,I.S.   G.L. BERNINI  F. DE SANCTIS
@@ -22232,6 +22454,7 @@ istsc_pgtd11000q,ITET  'ALDO CAPITINI'
 istsc_csic8an00x,ISTITUTO COMPRENSIVO - IC ROSSANO II
 cbrbo,Consorzio della Bonifica Renana
 act_tr,Automobile Club Terni
+2Z7G71Y3,AMBITO TERRITORIALE DI CACCIA "B" PROVINCIA DI MATERA
 c_c279,Comune di Castelvecchio Subequo
 istsc_rmps110001,LICEO SCIENTIFICO - G.PEANO
 XC5J7LWC,ASSOCIAZIONE PER IL COORDINAMENTO TEATRALE TRENTINO
@@ -22472,12 +22695,14 @@ istsc_bsic83300l,ISTITUTO COMPRENSIVO - IC A.MORO CAPRIOLO
 istsc_leis017004,ISTRUZIONE SECONDARIA SUPERIORE - F. BOTTAZZI CASARANO
 istsc_ltic84200v,I.C. Don Andrea Santoro
 c_l414,Comune di Tribano
+392P3CJB,Adriafer S.r.l.
 opdmc_ge,Ordine dei Medici Chirurghi e degli Odontoiatri della Provincia di Genova
 icvdsb,I.C. Via Don Sturzo Bresso
 cisarivo,Consorzio Intercomunale Socio Assistenziale di Rivoli - Rosta - Villarbasse
 istsc_peic806007,ISTITUTO COMPRENSIVO - I.C. SPOLTORE
 istsc_tpic80500c,ISTITUTO COMPRENSIVO - 'ANTONINO RALLO'
 istsc_psic82700b,ISTITUTO COMPRENSIVO - PESARO 'GIANFRANCO GAUDIANO'
+KPSLWW8Q,DIOCESI DI ALGHERO - BOSA
 istsc_pcee00700x,DIREZIONE DIDATTICA - CD SETTIMO CIRCOLO
 regcal,Regione Calabria
 asr_068,Agenzia Sanitaria Regionale Abruzzo
@@ -22492,6 +22717,7 @@ istsc_luic83400b,ISTITUTO COMPRENSIVO - PIETRASANTA 1
 codapa,Consiglio dell'Ordine Degli Avvocati di Palmi
 c_i698,Comune di Settime
 c_l415,Comune di Tribiano
+VZXHMF59,Consorzio Irriguo Miglioramento Fondiario Angiono Foglietti
 c_c657,Comune di Chiusanico
 eprc,Ente Parco Regionale del Conero
 c_i240,Comune di Santa Maria di Licodia
@@ -22541,5 +22767,5 @@ istsc_mirc12000g,ISTITUTO PROFESSIONALE PER I SERVIZI COMMERCIALI E TURISTICI - 
 asde,Agenzia Sarda Delle Entrate
 c_a206,Comune di Alleghe
 as_pz,Azienda Sanitaria di Potenza ASP
-odap_055,Ordine Degli Architetti Pianificatori Paesaggisti e Conservatori della Provincia di Terni
+NLDFZPP7,AZIENDA MUTLISERVIZI ANDORA S.R.L.
 c_g840,Comune di Pontedassio

@@ -21,8 +21,6 @@
     date = data[0].dat_ultimo_monitoraggio;
 
     dataPaginaFormatted = df(dp(date));
-    
-    console.log(data, dataPaginaFormatted, numPA, numPDF, numSiti)
   });
 </script>
 

@@ -20,10 +20,8 @@
 
   function showThanksCard() {
   showThanks = true;
-  console.log("showThanks is true")
   setTimeout(() => {
     showThanks = false;
-    console.log("showThanks is false")
   }, 3000);
 }
 

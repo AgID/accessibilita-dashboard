@@ -27,56 +27,42 @@
   let annoRiferimento;
 
   onMount(async () => {
-    const rs = await fetch("/data/home_page.json");
-    const data = await rs.json();
-    obiettiviAccessibilità = data.find(
-      (d) => d.indicatore == "num_enti_obiettivi"
-    );
-    pagineValutate = data.find((d) => d.indicatore == "num_pagine_valutate");
-    dichiarazioniAccessibilita = data.find(
-      (d) => d.indicatore == "num_dichiarazioni"
-    );
-
-    sitiValutati = data.find((d) => d.indicatore == "num_siti_monitorati");
+    const rsMon = await fetch("/data/monitoraggio_intestazione.json");
+    const dataMon = await rsMon.json();
+    pagineValutate = dataMon[0].num_pagine_valutate;
+    sitiValutati = dataMon[0].num_siti_monitorati;
 
     const rsPDF = await fetch("/data/monitoraggio_pdf_intestazione.json");
     const dataPDF = await rsPDF.json();
     pdfValutati = dataPDF[0].num_pdf_valutati;
 
-    const riferimento = await fetch("/data/obiettivi_intestazione.json");
-    const dataRiferimento = await riferimento.json();
-    annoRiferimento = dataRiferimento[0].dat_ult_agg_obiettivi;
-
-    const rsDistribuzioneConformita = await fetch(
-      "/data/errori_distribuzione_livello_conformita.json"
-    );
-    const dataDistribuzioneConformita = await rsDistribuzioneConformita.json();
-    erroriConformita = dataDistribuzioneConformita;
-    totalerroriConformita = nf(
-      erroriConformita[0].num_sc_non_soddisfatti +
-        erroriConformita[1].num_sc_non_soddisfatti
-    );
-
     const rsMonitoraggio = await fetch("/data/monitoraggio_data.json");
     const dataMonitoraggio = await rsMonitoraggio.json();
-    monitoraggioDate = dataMonitoraggio.find(
-      (d) => d.indicatore == "data_ultimo_aggiornamento_pagina"
-    ).valore;
+    monitoraggioDate = dataMonitoraggio.find((d) => d.indicatore == "data_ultimo_aggiornamento_pagina").valore;
     monitoraggioDateFormatted = df(dp(monitoraggioDate));
+
+    const rsErr = await fetch("/data/errori_distribuzione_livello_conformita.json");
+    const erroriConformita = await rsErr.json();
+    totalerroriConformita = nf( erroriConformita[0].num_sc_non_soddisfatti + erroriConformita[1].num_sc_non_soddisfatti);
+
+    const rsDic = await fetch("/data/dichiarazione_tot_intestazione.json");
+    const dataDic = await rsDic.json();
+    dichiarazioniAccessibilita = dataDic.find((d) => d.indicatore == "num_dichiarazioni_pub_tot").valore;
 
     const rsDichiarazioni = await fetch("/data/dichiarazione_data.json");
     const dataDichiarazioni = await rsDichiarazioni.json();
-    dichiarazioniDate = dataDichiarazioni.find(
-      (d) => d.indicatore == "data_ultimo_aggiornamento_pagina"
-    ).valore;
+    dichiarazioniDate = dataDichiarazioni.find((d) => d.indicatore == "data_ultimo_aggiornamento_pagina").valore;
     dichiarazioniDateFormatted = df(dp(dichiarazioniDate));
+
+    const rsObi = await fetch("/data/obiettivi_intestazione.json");
+    const dataObi = await rsObi.json();
+    obiettiviAccessibilità = dataObi.find((d) => d.indicatore == "num_enti_obiettivi").valore;
 
     const rsObiettivi = await fetch("/data/obiettivi_data.json");
     const dataObiettivi = await rsObiettivi.json();
-    obiettiviDate = dataObiettivi.find(
-      (d) => d.indicatore == "data_ultimo_aggiornamento_pagina"
-    ).valore;
+    obiettiviDate = dataObiettivi.find((d) => d.indicatore == "data_ultimo_aggiornamento_pagina").valore;
     obiettiviDateFormatted = df(dp(obiettiviDate));
+    annoRiferimento = obiettiviDateFormatted.slice(-4)
   });
 </script>
 
@@ -87,23 +73,6 @@
 </svelte:head>
 
 <HomeMainCard />
-<div class="background p-3 d-flex justify-content-center">
-  <p class="m-0">
-    {$t("homepage.alert")}
-    <a
-      href="http://monitoraggio.accessibilita.agid.gov.it"
-      title={$t("layout.externalLink")}
-      target="_blank"
-      rel="noreferrer"
-      >monitoraggio.accessibilita.agid.gov.it<Icon
-        name="it it-external-link"
-        variant="primary"
-        size="xs"
-        customClass="mb-1"
-      /></a
-    >
-  </p>
-</div>
 
 <div class="container my-4 pb-3">
   {#if pagineValutate && pdfValutati}
@@ -126,7 +95,7 @@
                     {$t("homepage.monitoraggioCard3Title")}
                   </p>
                   <p class="cardMainData mt-2 mb-0" style="color: #0066cc">
-                    {nf(sitiValutati.valore)}
+                    {nf(sitiValutati)}
                   </p>
                 </div>
               </div>
@@ -145,7 +114,7 @@
                     {$t("homepage.monitoraggioCardTitle")}
                   </p>
                   <p class="cardMainData mt-2 mb-0" style="color: #0066cc">
-                    {nf(pagineValutate.valore)}
+                    {nf(pagineValutate)}
                   </p>
                 </div>
               </div>
@@ -211,14 +180,14 @@
                     {$t("homepage.monitoraggioCard3Title")}
                   </p>
                   <p class="cardMainData mt-2 mb-0" style="color: #0066cc">
-                    {nf(sitiValutati.valore)}
+                    {nf(sitiValutati)}
                   </p>
                   <hr class="w-75 my-4 mx-auto text-muted" />
                   <p class="cardTitle greyText">
                     {$t("homepage.monitoraggioCardTitle")}
                   </p>
                   <p class="cardMainData mt-2 mb-0" style="color: #0066cc">
-                    {nf(pagineValutate.valore)}
+                    {nf(pagineValutate)}
                   </p>
                   <hr class="w-75 my-4 mx-auto text-muted" />
                   <p class="cardTitle greyText my-4">
@@ -349,7 +318,7 @@ href={$t("homepage.erroriMAUVElink")}
         <div class="col-lg-5 ps-0 pe-0 pt-lg-5 pb-lg-4">
           <KpiCard
             title={$t("homepage.dichiarazioniCardTitle")}
-            kpi={nf(dichiarazioniAccessibilita.valore)}
+            kpi={nf(dichiarazioniAccessibilita)}
             caption="{$t('homepage.latestUpdate')}{dichiarazioniDateFormatted}"
             linkText={$t("homepage.dichiarazioniPageLink")}
             href="dichiarazione"
@@ -395,7 +364,7 @@ href={$t("homepage.erroriMAUVElink")}
         <div class="col-lg-5 ps-0 pe-0 pt-lg-5 pb-lg-4">
           <KpiCard
             title={$t("homepage.obiettiviCardTitle", { anno: annoRiferimento })}
-            kpi={nf(obiettiviAccessibilità.valore)}
+            kpi={nf(obiettiviAccessibilità)}
             caption="{$t('homepage.latestUpdate')}{obiettiviDateFormatted}"
             linkText={$t("homepage.obiettiviPageLink")}
             href="obiettivi"
