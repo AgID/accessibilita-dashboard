@@ -14,7 +14,6 @@
   let dichiarazioniAccessibilita;
   let obiettiviAccessibilità;
 
-  let erroriConformita;
   let totalerroriConformita;
 
   let monitoraggioDate;
