@@ -34,12 +34,12 @@
     ];
   
     onMount(async () => {
-      const rs = await fetch("/data/dichiarazione_per_categoria.json");
+      const rs = await fetch("/data/dichiarazione_tot_per_categoria.json");
       response = await rs.json();
       periodoMonitoraggio = response?.intestazione?.periodo_dichiarazioni;
       loading = false;
   
-      const rs2 = await fetch("/data/dichiarazione_per_categoria.json");
+      const rs2 = await fetch("/data/dichiarazione_tot_per_categoria.json");
       response2 = await rs2.json();
       ente = response2?.data?.map((r) => r[`des_tipologia_ente_${$locale}`]);
       valore = response2?.data?.map((r) => r.num_dichiarazioni_pub);

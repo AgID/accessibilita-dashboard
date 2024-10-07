@@ -1,29 +1,29 @@
-
     {
         "data": [
             {
                 "anno_dichiarazione": 2020,
-                "num_dichiarazione_app_pub_anno": 13,
-                "num_enti_dichiarazione_app_pub_anno": 10
+                "num_dichiarazione_app_pub_anno": 13
             },
             {
                 "anno_dichiarazione": 2021,
-                "num_dichiarazione_app_pub_anno": 631,
-                "num_enti_dichiarazione_app_pub_anno": 332
+                "num_dichiarazione_app_pub_anno": 631
             },
             {
                 "anno_dichiarazione": 2022,
-                "num_dichiarazione_app_pub_anno": 611,
-                "num_enti_dichiarazione_app_pub_anno": 338
+                "num_dichiarazione_app_pub_anno": 611
             },
             {
                 "anno_dichiarazione": 2023,
-                "num_dichiarazione_app_pub_anno": 714,
-                "num_enti_dichiarazione_app_pub_anno": 373
+                "num_dichiarazione_app_pub_anno": 714
+            },
+            {
+                "anno_dichiarazione": 2024,
+                "num_dichiarazione_app_pub_anno": 728
             }
         ],
         "intestazione": {
-            "periodo_dichiarazioni": "2020 - 2023",
-            "dat_ultimo_rilevamento": "2023-09-23"
+            "periodo_dichiarazioni": "2020 - 2024",
+            "dat_ult_agg_dichiarazione": "2024-09-23"
         }
     }
+

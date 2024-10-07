@@ -1,128 +1,128 @@
 [
     {
-        "anno": 2023,
+        "anno": 2024,
         "des_regione": "Lombardia",
-        "num_enti_tot": 3297,
-        "num_enti_con_dich": 2018
+        "num_enti_tot": 3394,
+        "num_enti_con_dich": 2110
     },
     {
-        "anno": 2023,
+        "anno": 2024,
         "des_regione": "Piemonte",
-        "num_enti_tot": 2243,
-        "num_enti_con_dich": 1108
+        "num_enti_tot": 2313,
+        "num_enti_con_dich": 1370
     },
     {
-        "anno": 2023,
+        "anno": 2024,
         "des_regione": "Campania",
-        "num_enti_tot": 1912,
-        "num_enti_con_dich": 1031
+        "num_enti_tot": 1965,
+        "num_enti_con_dich": 1024
     },
     {
-        "anno": 2023,
+        "anno": 2024,
         "des_regione": "Sicilia",
-        "num_enti_tot": 1820,
-        "num_enti_con_dich": 819
+        "num_enti_tot": 1857,
+        "num_enti_con_dich": 909
     },
     {
-        "anno": 2023,
+        "anno": 2024,
         "des_regione": "Lazio",
-        "num_enti_tot": 1729,
-        "num_enti_con_dich": 735
+        "num_enti_tot": 1839,
+        "num_enti_con_dich": 883
     },
     {
-        "anno": 2023,
+        "anno": 2024,
         "des_regione": "Veneto",
-        "num_enti_tot": 1655,
-        "num_enti_con_dich": 1029
+        "num_enti_tot": 1699,
+        "num_enti_con_dich": 1040
     },
     {
-        "anno": 2023,
+        "anno": 2024,
         "des_regione": "Emilia-Romagna",
-        "num_enti_tot": 1300,
-        "num_enti_con_dich": 781
+        "num_enti_tot": 1343,
+        "num_enti_con_dich": 774
     },
     {
-        "anno": 2023,
+        "anno": 2024,
         "des_regione": "Puglia",
-        "num_enti_tot": 1210,
-        "num_enti_con_dich": 657
+        "num_enti_tot": 1263,
+        "num_enti_con_dich": 691
     },
     {
-        "anno": 2023,
+        "anno": 2024,
         "des_regione": "Toscana",
-        "num_enti_tot": 1168,
-        "num_enti_con_dich": 600
+        "num_enti_tot": 1200,
+        "num_enti_con_dich": 646
     },
     {
-        "anno": 2023,
+        "anno": 2024,
         "des_regione": "Calabria",
-        "num_enti_tot": 984,
-        "num_enti_con_dich": 450
+        "num_enti_tot": 972,
+        "num_enti_con_dich": 500
     },
     {
-        "anno": 2023,
+        "anno": 2024,
         "des_regione": "Sardegna",
-        "num_enti_tot": 906,
-        "num_enti_con_dich": 491
+        "num_enti_tot": 925,
+        "num_enti_con_dich": 521
     },
     {
-        "anno": 2023,
+        "anno": 2024,
         "des_regione": "Abruzzo",
-        "num_enti_tot": 702,
-        "num_enti_con_dich": 260
+        "num_enti_tot": 728,
+        "num_enti_con_dich": 351
     },
     {
-        "anno": 2023,
+        "anno": 2024,
         "des_regione": "Marche",
-        "num_enti_tot": 686,
-        "num_enti_con_dich": 370
+        "num_enti_tot": 703,
+        "num_enti_con_dich": 394
     },
     {
-        "anno": 2023,
+        "anno": 2024,
         "des_regione": "Liguria",
-        "num_enti_tot": 607,
-        "num_enti_con_dich": 266
+        "num_enti_tot": 624,
+        "num_enti_con_dich": 286
     },
     {
-        "anno": 2023,
+        "anno": 2024,
         "des_regione": "Friuli-Venezia Giulia",
-        "num_enti_tot": 573,
-        "num_enti_con_dich": 364
+        "num_enti_tot": 584,
+        "num_enti_con_dich": 350
     },
     {
-        "anno": 2023,
+        "anno": 2024,
         "des_regione": "Provincia autonoma di Trento",
-        "num_enti_tot": 499,
-        "num_enti_con_dich": 119
+        "num_enti_tot": 509,
+        "num_enti_con_dich": 225
     },
     {
-        "anno": 2023,
+        "anno": 2024,
         "des_regione": "Provincia autonoma di Bolzano",
-        "num_enti_tot": 492,
-        "num_enti_con_dich": 123
+        "num_enti_tot": 494,
+        "num_enti_con_dich": 184
     },
     {
-        "anno": 2023,
-        "des_regione": "Basilicata",
-        "num_enti_tot": 353,
-        "num_enti_con_dich": 151
-    },
-    {
-        "anno": 2023,
+        "anno": 2024,
         "des_regione": "Umbria",
-        "num_enti_tot": 347,
-        "num_enti_con_dich": 177
+        "num_enti_tot": 354,
+        "num_enti_con_dich": 188
     },
     {
-        "anno": 2023,
+        "anno": 2024,
+        "des_regione": "Basilicata",
+        "num_enti_tot": 354,
+        "num_enti_con_dich": 169
+    },
+    {
+        "anno": 2024,
         "des_regione": "Molise",
-        "num_enti_tot": 287,
-        "num_enti_con_dich": 101
+        "num_enti_tot": 290,
+        "num_enti_con_dich": 99
     },
     {
-        "anno": 2023,
-        "des_regione": "Valle d'Aosta/Vallée d'Aoste",
-        "num_enti_tot": 163,
-        "num_enti_con_dich": 86
+        "anno": 2024,
+        "des_regione": "Valle d'Aosta/VallÃ©e d'Aoste",
+        "num_enti_tot": 169,
+        "num_enti_con_dich": 109
     }
 ]

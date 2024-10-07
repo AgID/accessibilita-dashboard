@@ -6,8 +6,6 @@
 
   export let data;
 
-  let annoRiferimento
-
   let iconeConformita = {
     conforme: "it it-check-circle",
     "parzialmente conforme": "it it-error",
@@ -26,11 +24,10 @@
       if (num) {
         num.total = num.android + num.ios;
         orderedConformita.push(num);
-      }    });
+      }
+    });
 
     data = orderedConformita;
-
-    annoRiferimento = jsonData.intestazione.dat_ult_agg_dichiarazione.substr(0, 4)
   });
 </script>
 
@@ -39,9 +36,7 @@
     <div class="mx-auto">
       <h3 class="h3 pb-4 text-center greyText">{$t("dicAutoval.APP-title")}</h3>
       <div>
-        <p class="mt-lg-3 mx-3 text-center">{$t("dicAutoval.APP-description", {
-          anno: annoRiferimento,
-        })}</p>
+        <p class="mt-lg-3 mx-3 text-center">{$t("dicAutoval.APP-description")}</p>
         <div class="d-flex justify-content-center mx-5">
           {#if data}
             <div

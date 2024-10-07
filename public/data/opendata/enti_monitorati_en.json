@@ -804,6 +804,10 @@
         "ipa_entities_des": "LICEO STATALE ANTON MARTIN SLOMSEK - Lingua d'insegnamento slovena"
     },
     {
+        "ipa_entities_cod": "WSPHIDJY",
+        "ipa_entities_des": "SOUL HEALTH SOLUTION SRL"
+    },
+    {
         "ipa_entities_cod": "udcmm",
         "ipa_entities_des": "Unione Dei Comuni di Montemarciano e Monte San Vito"
     },
@@ -1344,16 +1348,20 @@
         "ipa_entities_des": "Collegio Regionale Dei Maestri di Sci del Piemonte"
     },
     {
-        "ipa_entities_cod": "epmdcn",
-        "ipa_entities_des": "Ente Parco Metropolitano Delle Colline di Napoli"
-    },
-    {
         "ipa_entities_cod": "cmna",
         "ipa_entities_des": "Citta' Metropolitana di Napoli"
     },
     {
+        "ipa_entities_cod": "epmdcn",
+        "ipa_entities_des": "Ente Parco Metropolitano Delle Colline di Napoli"
+    },
+    {
         "ipa_entities_cod": "ars_029",
         "ipa_entities_des": "Asm Rovigo Spa"
+    },
+    {
+        "ipa_entities_cod": "KR48HK0K",
+        "ipa_entities_des": "Arcidiocesi di Manfredonia - Vieste - San Giovanni Rotondo"
     },
     {
         "ipa_entities_cod": "istsc_imic805008",
@@ -1562,6 +1570,10 @@
     {
         "ipa_entities_cod": "c_l409",
         "ipa_entities_des": "Comune di Trezzano Sul Naviglio"
+    },
+    {
+        "ipa_entities_cod": "Y9DRG59E",
+        "ipa_entities_des": "CD-Servizi S.p.a."
     },
     {
         "ipa_entities_cod": "c_e704",
@@ -2020,6 +2032,10 @@
         "ipa_entities_des": "ISTRUZIONE SECONDARIA SUPERIORE - 'FELICE ALDERISIO'"
     },
     {
+        "ipa_entities_cod": "O9S5NTQ9",
+        "ipa_entities_des": "SEBINO SERVIZI SRL"
+    },
+    {
         "ipa_entities_cod": "asp_td",
         "ipa_entities_des": "ASP delle Terre d'Argine"
     },
@@ -2468,12 +2484,12 @@
         "ipa_entities_des": "Amministrazione Separata Usi Civici di Almazzago"
     },
     {
-        "ipa_entities_cod": "iisca",
-        "ipa_entities_des": "I.I.S. Croce-Aleramo"
-    },
-    {
         "ipa_entities_cod": "J8YJ7LT6",
         "ipa_entities_des": "ACI SPORT SOCIETA' PER AZIONI"
+    },
+    {
+        "ipa_entities_cod": "iisca",
+        "ipa_entities_des": "I.I.S. Croce-Aleramo"
     },
     {
         "ipa_entities_cod": "cdopt",
@@ -3238,6 +3254,10 @@
     {
         "ipa_entities_cod": "c_e840",
         "ipa_entities_des": "Comune di Mairago"
+    },
+    {
+        "ipa_entities_cod": "ZZ9VFE0Y",
+        "ipa_entities_des": "FILIERA ORTOFRUTTICOLA ROMAGNOLA SPA"
     },
     {
         "ipa_entities_cod": "istsc_viic869005",
@@ -5072,12 +5092,12 @@
         "ipa_entities_des": "ISTITUTO COMPRENSIVO - VIA S.DOMENICO SAVIO"
     },
     {
-        "ipa_entities_cod": "otarp_3",
-        "ipa_entities_des": "Ordine Tecnologi Alimentari Regioni Piemonte e Valle D'Aosta"
-    },
-    {
         "ipa_entities_cod": "ic_bolce",
         "ipa_entities_des": "Istituto Comprensivo Bolzano/centro"
+    },
+    {
+        "ipa_entities_cod": "otarp_3",
+        "ipa_entities_des": "Ordine Tecnologi Alimentari Regioni Piemonte e Valle D'Aosta"
     },
     {
         "ipa_entities_cod": "istsc_tais02100n",
@@ -5242,10 +5262,6 @@
     {
         "ipa_entities_cod": "istsc_psic83500a",
         "ipa_entities_des": "ISTITUTO COMPRENSIVO - CAGLI 'F.MICHELINI TOCCI'"
-    },
-    {
-        "ipa_entities_cod": "istsc_leic8an008",
-        "ipa_entities_des": "ISTITUTO COMPRENSIVO - PRESICCE"
     },
     {
         "ipa_entities_cod": "c_a463",
@@ -6680,6 +6696,10 @@
         "ipa_entities_des": "Fondazione ITS Information and Communications Technology Academy"
     },
     {
+        "ipa_entities_cod": "istsc_clic81700n",
+        "ipa_entities_des": "ISTITUTO COMPRENSIVO - 'G.CARDUCCI' - RIESI -"
+    },
+    {
         "ipa_entities_cod": "istsc_saic836006",
         "ipa_entities_des": "ISTITUTO COMPRENSIVO - IST.COMPR. BARONISSI"
     },
@@ -7400,6 +7420,10 @@
         "ipa_entities_des": "Istituto Comprensivo di Fidenza"
     },
     {
+        "ipa_entities_cod": "T2M8UHXH",
+        "ipa_entities_des": "SE.VA.T. SERVIZI VALLE TROMPIA S.C.R.L."
+    },
+    {
         "ipa_entities_cod": "istsc_ssvc010009",
         "ipa_entities_des": "CONVITTO NAZIONALE - CANOPOLENO"
     },
@@ -7640,12 +7664,12 @@
         "ipa_entities_des": "Comune di Confienza"
     },
     {
-        "ipa_entities_cod": "istsc_baic85100l",
-        "ipa_entities_des": "ISTITUTO COMPRENSIVO - G. BOVIO - CD 'MAZZINI'"
-    },
-    {
         "ipa_entities_cod": "c_g606",
         "ipa_entities_des": "Comune di Pietrabbondante"
+    },
+    {
+        "ipa_entities_cod": "istsc_baic85100l",
+        "ipa_entities_des": "ISTITUTO COMPRENSIVO - G. BOVIO - CD 'MAZZINI'"
     },
     {
         "ipa_entities_cod": "c_c870",
@@ -8968,6 +8992,10 @@
         "ipa_entities_des": "ISTITUTO COMPRENSIVO - I.C. G. MARCONI CONCOREZZO"
     },
     {
+        "ipa_entities_cod": "O67XFOA6",
+        "ipa_entities_des": "ECONET S.R.L."
+    },
+    {
         "ipa_entities_cod": "istsc_peic83200q",
         "ipa_entities_des": "ISTITUTO COMPRENSIVO - I.C. PESCARA 6"
     },
@@ -9336,6 +9364,10 @@
         "ipa_entities_des": "Comune di Oggiono"
     },
     {
+        "ipa_entities_cod": "0KQQXTDD",
+        "ipa_entities_des": "Organizzazione Progetti e Servizi SpA"
+    },
+    {
         "ipa_entities_cod": "istsc_naic8c3008",
         "ipa_entities_des": "ISTITUTO COMPRENSIVO - TERZIGNO I.C. GIUSTI"
     },
@@ -9346,10 +9378,6 @@
     {
         "ipa_entities_cod": "istsc_clic822005",
         "ipa_entities_des": "ISTITUTO COMPRENSIVO - I.C. V. VENETO CL"
-    },
-    {
-        "ipa_entities_cod": "istsc_paps080008",
-        "ipa_entities_des": "LICEO SCIENTIFICO - LS SANTI SAVARINO"
     },
     {
         "ipa_entities_cod": "c_a309",
@@ -9654,6 +9682,10 @@
     {
         "ipa_entities_cod": "CU536LYL",
         "ipa_entities_des": "FONDAZIONE ISTITUTO TECNICO SUPERIORE NUOVE TECNOLOGIE DELLA VITA"
+    },
+    {
+        "ipa_entities_cod": "0AIQ5Z0T",
+        "ipa_entities_des": "Servizi Ambientali Provincia di Rieti s.r.l."
     },
     {
         "ipa_entities_cod": "ulm",
@@ -10108,10 +10140,6 @@
         "ipa_entities_des": "Istituto Comprensivo Pergine 2 di Pergine Valsugana"
     },
     {
-        "ipa_entities_cod": "sspa",
-        "ipa_entities_des": "Scuola Nazionale dell'Amministrazione"
-    },
-    {
         "ipa_entities_cod": "assch",
         "ipa_entities_des": "Associazione Tra Enti Locali per L'Attuazione del Patto Territoriale Sangro Aventino"
     },
@@ -10322,6 +10350,10 @@
     {
         "ipa_entities_cod": "istsc_viic885003",
         "ipa_entities_des": "ISTITUTO COMPRENSIVO - IC 1 ARZIGNANO"
+    },
+    {
+        "ipa_entities_cod": "E8GWU8ST",
+        "ipa_entities_des": "A.KR.E.A. Spa"
     },
     {
         "ipa_entities_cod": "c_l711",
@@ -11536,6 +11568,10 @@
         "ipa_entities_des": "CONSORZIO BACINO IMBRIFERO MONTANO FIUME LIRI - GARIGLIANO"
     },
     {
+        "ipa_entities_cod": "U5A2QPW9",
+        "ipa_entities_des": "ORDINE REGIONALE PROFESSIONE SANITARIA FISIOTERAPISTA DEL LAZIO"
+    },
+    {
         "ipa_entities_cod": "c_f376",
         "ipa_entities_des": "Comune di Monopoli"
     },
@@ -12064,6 +12100,10 @@
         "ipa_entities_des": "Comune di Borgo di Terzo"
     },
     {
+        "ipa_entities_cod": "istsc_rmic8fh006",
+        "ipa_entities_des": "Istituto Comprensivo David SASSOLI"
+    },
+    {
         "ipa_entities_cod": "c_g784",
         "ipa_entities_des": "Comune di Poli"
     },
@@ -12366,6 +12406,10 @@
     {
         "ipa_entities_cod": "istsc_fgic85400c",
         "ipa_entities_des": "Direzione Didattica I Grado Pascoli"
+    },
+    {
+        "ipa_entities_cod": "istsc_leic8aa001",
+        "ipa_entities_des": "ISTITUTO COMPRENSIVO - ISTITUTO COMPRENSIVO STATALE"
     },
     {
         "ipa_entities_cod": "lslms",
@@ -13948,6 +13992,10 @@
         "ipa_entities_des": "Istituto Istruzione Secondaria Mattei"
     },
     {
+        "ipa_entities_cod": "9Z35T315",
+        "ipa_entities_des": "Tangenziale di Napoli S.p.A."
+    },
+    {
         "ipa_entities_cod": "c_e136",
         "ipa_entities_des": "Comune di Granarolo dell'Emilia"
     },
@@ -14134,6 +14182,10 @@
     {
         "ipa_entities_cod": "istsc_rmic8fq006",
         "ipa_entities_des": "Istituto Comprensivo Tullia Zevi"
+    },
+    {
+        "ipa_entities_cod": "odcpt",
+        "ipa_entities_des": "Ordine dei Chimici e dei Fisici della Provincia di Treviso"
     },
     {
         "ipa_entities_cod": "istsc_baic80600p",
@@ -14960,6 +15012,10 @@
         "ipa_entities_des": "Provincia di Brescia"
     },
     {
+        "ipa_entities_cod": "05O9EJDW",
+        "ipa_entities_des": "CAPITALE LAVORO SPA"
+    },
+    {
         "ipa_entities_cod": "c_f002",
         "ipa_entities_des": "Comune di Marzio"
     },
@@ -15260,12 +15316,12 @@
         "ipa_entities_des": "Comune di Livraga"
     },
     {
-        "ipa_entities_cod": "icy",
-        "ipa_entities_des": "It.City Spa"
-    },
-    {
         "ipa_entities_cod": "c_d552",
         "ipa_entities_des": "Comune di Ferrera Erbognone"
+    },
+    {
+        "ipa_entities_cod": "icy",
+        "ipa_entities_des": "It.City Spa"
     },
     {
         "ipa_entities_cod": "sap",
@@ -15298,6 +15354,10 @@
     {
         "ipa_entities_cod": "istsc_naps110002",
         "ipa_entities_des": "LICEO SCIENTIFICO - L.SC.F.SEVERI-C/MMARE-"
+    },
+    {
+        "ipa_entities_cod": "asbucsp",
+        "ipa_entities_des": "Amministrazione Separata Beni Uso Civico San Pietro"
     },
     {
         "ipa_entities_cod": "istsc_pdic874007",
@@ -15964,6 +16024,10 @@
         "ipa_entities_des": "Comune di Pomaretto"
     },
     {
+        "ipa_entities_cod": "A6BF9LF1",
+        "ipa_entities_des": "AZIENDA TERRITORIALE PER L'EDILIZIA RESIDENZIALE PUBBLICA DI RIETI"
+    },
+    {
         "ipa_entities_cod": "ics_015",
         "ipa_entities_des": "ISTITUTO COMPRENSIVO VIA PAPA G. PAOLO II di MAGENTA"
     },
@@ -16374,6 +16438,10 @@
     {
         "ipa_entities_cod": "c_h634",
         "ipa_entities_des": "Comune di Ruffre'"
+    },
+    {
+        "ipa_entities_cod": "HT6OEVAN",
+        "ipa_entities_des": "SAIM - SUDTIROL ALTO ADIGE INFORMATICA MEDICA SRL"
     },
     {
         "ipa_entities_cod": "itp",
@@ -17154,6 +17222,10 @@
     {
         "ipa_entities_cod": "c_a749",
         "ipa_entities_des": "Comune di Bellegra"
+    },
+    {
+        "ipa_entities_cod": "C6MGU50W",
+        "ipa_entities_des": "Arcidiocesi di Siracusa"
     },
     {
         "ipa_entities_cod": "opisl",
@@ -18276,12 +18348,12 @@
         "ipa_entities_des": "ISTITUTO COMPRENSIVO - ISTITUTO COMPRENSIVO ANDORA/LAI"
     },
     {
-        "ipa_entities_cod": "c_l639",
-        "ipa_entities_des": "Comune di Serra San Bruno"
-    },
-    {
         "ipa_entities_cod": "istsc_nuic863008",
         "ipa_entities_des": "ISTITUTO COMPRENSIVO - BAUNEI"
+    },
+    {
+        "ipa_entities_cod": "c_l639",
+        "ipa_entities_des": "Comune di Serra San Bruno"
     },
     {
         "ipa_entities_cod": "ac_vco",
@@ -18312,12 +18384,12 @@
         "ipa_entities_des": "Ordine dei Medici Chirurghi e degli Odontoiatri della Provincia di Ragusa"
     },
     {
-        "ipa_entities_cod": "c_m297",
-        "ipa_entities_des": "Comune di Fiumicino"
-    },
-    {
         "ipa_entities_cod": "istsc_rmic8dk002",
         "ipa_entities_des": "ISTITUTO COMPRENSIVO - I.C. TORRIMPIETRA"
+    },
+    {
+        "ipa_entities_cod": "c_m297",
+        "ipa_entities_des": "Comune di Fiumicino"
     },
     {
         "ipa_entities_cod": "AUAYATCQ",
@@ -18782,6 +18854,10 @@
     {
         "ipa_entities_cod": "c_b378",
         "ipa_entities_des": "Comune di Calangianus"
+    },
+    {
+        "ipa_entities_cod": "O4O7KVQY",
+        "ipa_entities_des": "azienda territoriale edilizia residenziale"
     },
     {
         "ipa_entities_cod": "c_g521",
@@ -19370,6 +19446,10 @@
     {
         "ipa_entities_cod": "umavs",
         "ipa_entities_des": "Unione Montana Alta Valle Susa"
+    },
+    {
+        "ipa_entities_cod": "X6X93KKE",
+        "ipa_entities_des": "Servizi Ambientali per il Nord Barese Società per Azioni"
     },
     {
         "ipa_entities_cod": "istsc_ptic81900g",
@@ -19976,10 +20056,6 @@
         "ipa_entities_des": "Istituto Comprensivo Gramsci Rodari Sestu"
     },
     {
-        "ipa_entities_cod": "PZ1KNN9R",
-        "ipa_entities_des": "San Vincenzo Servizi srl"
-    },
-    {
         "ipa_entities_cod": "c_g196",
         "ipa_entities_des": "Comune di Oulx"
     },
@@ -20250,6 +20326,10 @@
     {
         "ipa_entities_cod": "c_c154",
         "ipa_entities_des": "Comune di Castellero"
+    },
+    {
+        "ipa_entities_cod": "WTNJYK0B",
+        "ipa_entities_des": "AZIENDA PROVINCIALE TRASPORTI SPA"
     },
     {
         "ipa_entities_cod": "ictg_016",
@@ -20570,10 +20650,6 @@
     {
         "ipa_entities_cod": "KDPADR44",
         "ipa_entities_des": "Associazione Italiana per la Donazione di Organi, Tessuti e Cellule"
-    },
-    {
-        "ipa_entities_cod": "istsc_geis01900v",
-        "ipa_entities_des": "ISTITUTO TECNICO E PROFESSIONALE DI CHIAVARI"
     },
     {
         "ipa_entities_cod": "c_l295",
@@ -21482,6 +21558,10 @@
     {
         "ipa_entities_cod": "istsc_naic8b300n",
         "ipa_entities_des": "ISTITUTO COMPRENSIVO '88 EDUARDO DE FILIPPO'"
+    },
+    {
+        "ipa_entities_cod": "iafam_ct",
+        "ipa_entities_des": "Conservatorio Statale di Musica V. Bellini di Catania"
     },
     {
         "ipa_entities_cod": "c_b063",
@@ -22850,6 +22930,10 @@
     {
         "ipa_entities_cod": "aspcc",
         "ipa_entities_des": "A.S.P. Castriota e Corroppoli"
+    },
+    {
+        "ipa_entities_cod": "istsc_mitf390005",
+        "ipa_entities_des": "ISTITUTO TECNICO E LICEO \"ENRICO MATTEI\""
     },
     {
         "ipa_entities_cod": "oddcdr",
@@ -24884,10 +24968,6 @@
         "ipa_entities_des": "ISTITUTO COMPRENSIVO - IC SOMMARIVA DEL BOSCO'"
     },
     {
-        "ipa_entities_cod": "iafam_ct",
-        "ipa_entities_des": "Istituto di Alta Formazione Artistica e Musicale"
-    },
-    {
         "ipa_entities_cod": "cif_",
         "ipa_entities_des": "Ordine delle Professioni Infermieristiche di Fermo"
     },
@@ -25130,6 +25210,10 @@
     {
         "ipa_entities_cod": "c_f809",
         "ipa_entities_des": "Comune di Murazzano"
+    },
+    {
+        "ipa_entities_cod": "istsc_paps080008",
+        "ipa_entities_des": "LICEO STATALE \"FELICIA E PEPPINO IMPASTATO\""
     },
     {
         "ipa_entities_cod": "c_f107",
@@ -26148,10 +26232,6 @@
         "ipa_entities_des": "Consorzio per I Servizi Territoriali del Noce"
     },
     {
-        "ipa_entities_cod": "istsc_alis016008",
-        "ipa_entities_des": "ISTRUZIONE SECONDARIA SUPERIORE - SALUZZO - PLANA"
-    },
-    {
         "ipa_entities_cod": "c_e244",
         "ipa_entities_des": "Comune di Guardialfiera"
     },
@@ -26508,12 +26588,12 @@
         "ipa_entities_des": "Ordine della professione di Ostetrica della Provincia di Pescara"
     },
     {
-        "ipa_entities_cod": "iacs",
-        "ipa_entities_des": "ISTITUTO COMPRENSIVO MATTIA DE MARE SAN CIPRIANO D'AVERSA"
-    },
-    {
         "ipa_entities_cod": "istsc_noic82400c",
         "ipa_entities_des": "ISTITUTO COMPRENSIVO - P.FORNARA - L.OSSOLA"
+    },
+    {
+        "ipa_entities_cod": "iacs",
+        "ipa_entities_des": "ISTITUTO COMPRENSIVO MATTIA DE MARE SAN CIPRIANO D'AVERSA"
     },
     {
         "ipa_entities_cod": "istsc_cois004003",
@@ -27458,10 +27538,6 @@
     {
         "ipa_entities_cod": "isfdg",
         "ipa_entities_des": "Istituto Statale Istruzione Superiore (ISIS) F. De Gennaro"
-    },
-    {
-        "ipa_entities_cod": "URF05VJ9",
-        "ipa_entities_des": "Consorzio Area per lo Sviluppo Industriale Salerno"
     },
     {
         "ipa_entities_cod": "c_a007",
@@ -28500,6 +28576,10 @@
         "ipa_entities_des": "ISTITUTO COMPRENSIVO - NA IC VOLINO - CROCE - ARCOLEO"
     },
     {
+        "ipa_entities_cod": "LJ0GM02U",
+        "ipa_entities_des": "FROSINONE FORMAZIONE E LAVORO"
+    },
+    {
         "ipa_entities_cod": "odafbr",
         "ipa_entities_des": "Ordine Dei Dottori Agronomi e Dei Dottori Forestali della Provincia di Brindisi"
     },
@@ -29044,10 +29124,6 @@
         "ipa_entities_des": "Comune di Castell'Arquato"
     },
     {
-        "ipa_entities_cod": "KBW52SNF",
-        "ipa_entities_des": "COMUNITA' DEL MEDIOFRIULI"
-    },
-    {
         "ipa_entities_cod": "istsc_tvis00300b",
         "ipa_entities_des": "ISTRUZIONE SECONDARIA SUPERIORE - IS LEVI"
     },
@@ -29056,16 +29132,16 @@
         "ipa_entities_des": "Consiglio Notarile della Provincia di Brescia"
     },
     {
-        "ipa_entities_cod": "vspa",
-        "ipa_entities_des": "Voltano S.P.A."
-    },
-    {
         "ipa_entities_cod": "istsc_rmic8fm00v",
         "ipa_entities_des": "ISTITUTO COMPRENSIVO - IC VIA MAR ROSSO"
     },
     {
         "ipa_entities_cod": "cpiamo",
         "ipa_entities_des": "Cpia 1 Modena - Centro Provinciale Istruzione Adulti"
+    },
+    {
+        "ipa_entities_cod": "vspa",
+        "ipa_entities_des": "Voltano S.P.A."
     },
     {
         "ipa_entities_cod": "c_b561",
@@ -30768,12 +30844,12 @@
         "ipa_entities_des": "FONDAZIONE MANLIO CANEPA ONLUS"
     },
     {
-        "ipa_entities_cod": "cmsl",
-        "ipa_entities_des": "Collegio Maestri di Sci del Lazio"
-    },
-    {
         "ipa_entities_cod": "istsc_rmpc05000b",
         "ipa_entities_des": "LICEO CLASSICO - BENEDETTO DA NORCIA"
+    },
+    {
+        "ipa_entities_cod": "cmsl",
+        "ipa_entities_des": "Collegio Maestri di Sci del Lazio"
     },
     {
         "ipa_entities_cod": "c_a100",
@@ -31234,6 +31310,10 @@
     {
         "ipa_entities_cod": "istsc_saee090001",
         "ipa_entities_des": "DIREZIONE DIDATTICA - NOCERA SUPERIORE I"
+    },
+    {
+        "ipa_entities_cod": "7S7BGX0F",
+        "ipa_entities_des": "Trenitalia Tper S.C.A.R.L."
     },
     {
         "ipa_entities_cod": "ciavp_0",
@@ -31780,6 +31860,10 @@
         "ipa_entities_des": "ISTITUTO TECNICO INDUSTRIALE - ITI R.ELIA- C/MMARE-"
     },
     {
+        "ipa_entities_cod": "BW2QV1IW",
+        "ipa_entities_des": "COLLEGIOREGIONALE DEI MAESTRI DI SCI DELLA LOMBARDIA"
+    },
+    {
         "ipa_entities_cod": "odip_068",
         "ipa_entities_des": "Ordine Degli Ingegneri della Provincia di Pescara"
     },
@@ -31830,6 +31914,10 @@
     {
         "ipa_entities_cod": "c_h242",
         "ipa_entities_des": "Comune di Resia"
+    },
+    {
+        "ipa_entities_cod": "TY0XW9YE",
+        "ipa_entities_des": "MONTEFELTRO SERVIZI SRL"
     },
     {
         "ipa_entities_cod": "epdmsi",
@@ -34360,6 +34448,10 @@
         "ipa_entities_des": "ISTITUTO COMPRENSIVO - CAIVANO IC 2 DE GASPERI"
     },
     {
+        "ipa_entities_cod": "3XIN54S7",
+        "ipa_entities_des": "Ambito Territoriale di Caccia n.1 - Potenza"
+    },
+    {
         "ipa_entities_cod": "istsc_csic849003",
         "ipa_entities_des": "ISTITUTO COMPRENSIVO - IC MANDATORICCIO"
     },
@@ -34580,6 +34672,10 @@
         "ipa_entities_des": "Comune di Piode"
     },
     {
+        "ipa_entities_cod": "istsc_alis016008",
+        "ipa_entities_des": "ISTITUTO DI ISTRUZIONE SUPERIORE UMBERTO ECO"
+    },
+    {
         "ipa_entities_cod": "idisae",
         "ipa_entities_des": "Istituto D'Istruzione Superiore Albert Einstein"
     },
@@ -34722,10 +34818,6 @@
     {
         "ipa_entities_cod": "c_d803",
         "ipa_entities_des": "Comune di Frisa"
-    },
-    {
-        "ipa_entities_cod": "istsc_svps02000d",
-        "ipa_entities_des": "LICEO SCIENTIFICO - 'ARTURO ISSEL' - FINALE L."
     },
     {
         "ipa_entities_cod": "ucct_vv",
@@ -35528,6 +35620,10 @@
         "ipa_entities_des": "Comune di Rovolon"
     },
     {
+        "ipa_entities_cod": "X0VD5BKP",
+        "ipa_entities_des": "NA55 IC PISCICELLI-MAIURI"
+    },
+    {
         "ipa_entities_cod": "fedna_rm",
         "ipa_entities_des": "Federazione Nazionale Ordini dei Tecnici Sanitari di Radiologia Medica e delle Professioni Sanitarie Tecniche, della riabilitazione e della prevenzione"
     },
@@ -35650,6 +35746,10 @@
     {
         "ipa_entities_cod": "istsc_mepm010009",
         "ipa_entities_des": "ISTITUTO MAGISTRALE - ' AINIS ' MESSINA"
+    },
+    {
+        "ipa_entities_cod": "F2SWGCW9",
+        "ipa_entities_des": "Università Telematica degli Studi IUL"
     },
     {
         "ipa_entities_cod": "odmc_0",
@@ -36942,6 +37042,10 @@
     {
         "ipa_entities_cod": "ctsrm_ra",
         "ipa_entities_des": "Ordine dei Tecnici Sanitari di Radiologia Medica e delle Professioni Sanitarie Tecniche della Riabilitazione e della Prevenzione di Ravenna"
+    },
+    {
+        "ipa_entities_cod": "cdop_076",
+        "ipa_entities_des": "Collegio Delle Ostetriche della Provincia di Potenza"
     },
     {
         "ipa_entities_cod": "c_ans",
@@ -39284,6 +39388,10 @@
         "ipa_entities_des": "ISTITUTO COMPRENSIVO - IST. COMPR. AGROPOLI 'R. VAIRO'"
     },
     {
+        "ipa_entities_cod": "LOPZE33J",
+        "ipa_entities_des": "ISTITUZIONE TEATRO BAGLIO"
+    },
+    {
         "ipa_entities_cod": "c_b711",
         "ipa_entities_des": "Comune di Capriolo"
     },
@@ -39918,6 +40026,10 @@
     {
         "ipa_entities_cod": "istsc_ctic856009",
         "ipa_entities_des": "ISTITUTO COMPRENSIVO - IC GIOVANNI VERGA - VIAGRANDE"
+    },
+    {
+        "ipa_entities_cod": "YDVEYO5N",
+        "ipa_entities_des": "WATER ALLIANCE ACQUE DI LOMBARDIA"
     },
     {
         "ipa_entities_cod": "c_c518",
@@ -41852,6 +41964,10 @@
         "ipa_entities_des": "Ordine Dei Dottori Commercialisti e Degli Esperti Contabili di Perugia"
     },
     {
+        "ipa_entities_cod": "4C6P4HP6",
+        "ipa_entities_des": "Bologna Servizi Cimiteriali srl"
+    },
+    {
         "ipa_entities_cod": "c_g485",
         "ipa_entities_des": "Comune di Pescate"
     },
@@ -42890,6 +43006,10 @@
     {
         "ipa_entities_cod": "istsc_naee15100r",
         "ipa_entities_des": "DIREZIONE DIDATTICA - MUGNANO 1 - SEQUINO CAPOLUOGO"
+    },
+    {
+        "ipa_entities_cod": "NW2VXORJ",
+        "ipa_entities_des": "ORDINE DEI FISIOTERAPISTI DI NAPOLI AVELLINO BENEVENTO E CASERTA"
     },
     {
         "ipa_entities_cod": "udal_98",
@@ -45784,16 +45904,16 @@
         "ipa_entities_des": "LICEO SCIENTIFICO - DANTE ALIGHIERI"
     },
     {
-        "ipa_entities_cod": "as_PC",
-        "ipa_entities_des": "Azienda USL Piacenza"
-    },
-    {
         "ipa_entities_cod": "asucmal",
         "ipa_entities_des": "Amministrazione Separata Usi Civici di Mala"
     },
     {
         "ipa_entities_cod": "sercom",
         "ipa_entities_des": "Servizi Comunali Spa"
+    },
+    {
+        "ipa_entities_cod": "as_PC",
+        "ipa_entities_des": "Azienda USL Piacenza"
     },
     {
         "ipa_entities_cod": "c_h289",
@@ -46338,6 +46458,10 @@
     {
         "ipa_entities_cod": "c_m204",
         "ipa_entities_des": "Comune di Zungri"
+    },
+    {
+        "ipa_entities_cod": "MRI3MBTT",
+        "ipa_entities_des": "AMBITO TERRITORIALE DI CACCIA AREE CONTIGUE"
     },
     {
         "ipa_entities_cod": "istsc_pdtf02000e",
@@ -47162,6 +47286,10 @@
     {
         "ipa_entities_cod": "izs_um",
         "ipa_entities_des": "Istituto Zooprofilattico Sperimentale dell'Umbria e delle Marche Togo Rosati"
+    },
+    {
+        "ipa_entities_cod": "comvalfo",
+        "ipa_entities_des": "Comune di Valfornace"
     },
     {
         "ipa_entities_cod": "smicr_",
@@ -49444,6 +49572,10 @@
         "ipa_entities_des": "Automobile Club Acireale"
     },
     {
+        "ipa_entities_cod": "msu",
+        "ipa_entities_des": "Lucca Plus s.r.l."
+    },
+    {
         "ipa_entities_cod": "edsa",
         "ipa_entities_des": "Ente di Sviluppo Agricolo"
     },
@@ -49868,10 +50000,6 @@
         "ipa_entities_des": "Istituto Comprensivo Federico II di Svevia - Avigliano Frazioni - Filiano"
     },
     {
-        "ipa_entities_cod": "istsc_rmic89300v",
-        "ipa_entities_des": "ISTITUTO COMPRENSIVO - IC BACCELLI - TIVOLI"
-    },
-    {
         "ipa_entities_cod": "TQDBU3BY",
         "ipa_entities_des": "FUNIVIE MONTE BIANCO SPA"
     },
@@ -50026,10 +50154,6 @@
     {
         "ipa_entities_cod": "c_a973",
         "ipa_entities_des": "Comune di Bonifati"
-    },
-    {
-        "ipa_entities_cod": "istsc_anic84500p",
-        "ipa_entities_des": "ISTITUTO COMPRENSIVO - FABRIANO EST 'ALDO MORO'"
     },
     {
         "ipa_entities_cod": "c_a929",
@@ -51024,10 +51148,6 @@
         "ipa_entities_des": "Comune di Scala"
     },
     {
-        "ipa_entities_cod": "iserrl",
-        "ipa_entities_des": "Isera S.R.L."
-    },
-    {
         "ipa_entities_cod": "udcin",
         "ipa_entities_des": "Unione Dei Comuni I Nuraghi di Monte Idda e Fanaris"
     },
@@ -51130,6 +51250,10 @@
     {
         "ipa_entities_cod": "istsc_vaic828005",
         "ipa_entities_des": "ISTITUTO COMPRENSIVO - I.C. CARAVATE 'G.A.FRATTINI'"
+    },
+    {
+        "ipa_entities_cod": "K0YUGDZ8",
+        "ipa_entities_des": "ORDINE DELLA PROFESSIONE SANITARIA DI FISIOTERAPISTA"
     },
     {
         "ipa_entities_cod": "c_e003",
@@ -51328,16 +51452,16 @@
         "ipa_entities_des": "Comune di Santeramo in Colle"
     },
     {
-        "ipa_entities_cod": "c_a662",
-        "ipa_entities_des": "Comune di Bari"
-    },
-    {
         "ipa_entities_cod": "istsc_fotd010002",
         "ipa_entities_des": "Istituto Tecnico Economico Statale C. Matteucci"
     },
     {
         "ipa_entities_cod": "c_e912",
         "ipa_entities_des": "Comune di Marano Vicentino"
+    },
+    {
+        "ipa_entities_cod": "c_a662",
+        "ipa_entities_des": "Comune di Bari"
     },
     {
         "ipa_entities_cod": "smsgt",
@@ -51684,6 +51808,10 @@
         "ipa_entities_des": "Comune di Cariati"
     },
     {
+        "ipa_entities_cod": "PHUSHP85",
+        "ipa_entities_des": "TERRA DI LAVORO SPA"
+    },
+    {
         "ipa_entities_cod": "upm_082",
         "ipa_entities_des": "Unione dei comuni Pizzo Marabito"
     },
@@ -51778,10 +51906,6 @@
     {
         "ipa_entities_cod": "istsc_peis00300x",
         "ipa_entities_des": "ISTRUZIONE SECONDARIA SUPERIORE - IS ITC E.ALESSANDRINI CON SEZ. ITI"
-    },
-    {
-        "ipa_entities_cod": "cmv_027",
-        "ipa_entities_des": "Conservatorio di Musica \"Benedetto Marcello\""
     },
     {
         "ipa_entities_cod": "c_l765",
@@ -52036,12 +52160,12 @@
         "ipa_entities_des": "Istituto Comprensivo P.THOUAR E L.GONZAGA/MILANO"
     },
     {
-        "ipa_entities_cod": "aspsp",
-        "ipa_entities_des": "Azienda di Servizi alla Persona di Spilimbergo"
-    },
-    {
         "ipa_entities_cod": "c_d028",
         "ipa_entities_des": "Comune di Corno Giovine"
+    },
+    {
+        "ipa_entities_cod": "aspsp",
+        "ipa_entities_des": "Azienda di Servizi alla Persona di Spilimbergo"
     },
     {
         "ipa_entities_cod": "odcec_mt",
@@ -52992,12 +53116,12 @@
         "ipa_entities_des": "Comune di Marmirolo"
     },
     {
-        "ipa_entities_cod": "itigm",
-        "ipa_entities_des": "I.I.S. Marconi Mangano"
-    },
-    {
         "ipa_entities_cod": "istsc_ctic899007",
         "ipa_entities_des": "ISTITUTO COMPRENSIVO - IC SAN GIORGIO - CATANIA"
+    },
+    {
+        "ipa_entities_cod": "itigm",
+        "ipa_entities_des": "I.I.S. Marconi Mangano"
     },
     {
         "ipa_entities_cod": "omco_cs",
@@ -53968,6 +54092,10 @@
         "ipa_entities_des": "CPIA 6 RIETI"
     },
     {
+        "ipa_entities_cod": "48LQPAQ6",
+        "ipa_entities_des": "ORDINE DEI BIOLOGI DEL PIEMONTE, DELLA LIGURIA E DELLA VALLE D'AOSTA"
+    },
+    {
         "ipa_entities_cod": "istsc_agic83100g",
         "ipa_entities_des": "ISTITUTO COMPRENSIVO - IC 'V.BRANCATI'"
     },
@@ -54342,6 +54470,10 @@
     {
         "ipa_entities_cod": "odapc",
         "ipa_entities_des": "Ordine Degli Avvocati di Pistoia"
+    },
+    {
+        "ipa_entities_cod": "VLOT61RV",
+        "ipa_entities_des": "CONSORZIO INTERUNIVERSITARIO SISTEMI INTEGRATI PER L'ACCESSO"
     },
     {
         "ipa_entities_cod": "cnz_pvdt",
@@ -55312,6 +55444,10 @@
         "ipa_entities_des": "Comune di Brusasco"
     },
     {
+        "ipa_entities_cod": "3CRB3CUM",
+        "ipa_entities_des": "Fermo Asite SrlU"
+    },
+    {
         "ipa_entities_cod": "istsc_rcic81900t",
         "ipa_entities_des": "Istituto Comprensivo S. Eufemia Sinopoli Melicucca"
     },
@@ -55708,6 +55844,10 @@
         "ipa_entities_des": "Comune di Terrazzo"
     },
     {
+        "ipa_entities_cod": "istsc_anic84500p",
+        "ipa_entities_des": "Istituto Comprensivo \"Moro - Carloni\""
+    },
+    {
         "ipa_entities_cod": "gdf",
         "ipa_entities_des": "Guardia di Finanza"
     },
@@ -55742,10 +55882,6 @@
     {
         "ipa_entities_cod": "c_c346",
         "ipa_entities_des": "Comune di Castropignano"
-    },
-    {
-        "ipa_entities_cod": "unical",
-        "ipa_entities_des": "UNIVERSITA' DELLA CALABRIA"
     },
     {
         "ipa_entities_cod": "istsc_leps04000e",
@@ -56012,12 +56148,12 @@
         "ipa_entities_des": "Consorzio Strada Vicinale Gavignano Cedda"
     },
     {
-        "ipa_entities_cod": "obpfic",
-        "ipa_entities_des": "Organismo Bilaterale per La Formazione in Campania"
-    },
-    {
         "ipa_entities_cod": "istsc_navc010009",
         "ipa_entities_des": "CONVITTO NAZIONALE - CONV.NAZ.EMAN.LE II-NAPOLI-"
+    },
+    {
+        "ipa_entities_cod": "obpfic",
+        "ipa_entities_des": "Organismo Bilaterale per La Formazione in Campania"
     },
     {
         "ipa_entities_cod": "cmdms",
@@ -56322,6 +56458,10 @@
     {
         "ipa_entities_cod": "crosc_",
         "ipa_entities_des": "Casa di Riposo Ospedale Santa Croce"
+    },
+    {
+        "ipa_entities_cod": "cmv_027",
+        "ipa_entities_des": "Conservatorio di Musica \"Benedetto Marcello\" di Venezia"
     },
     {
         "ipa_entities_cod": "soraris",
@@ -56936,12 +57076,12 @@
         "ipa_entities_des": "Comunita' Comprensoriale Wipptal - Alta Val d'Isarco"
     },
     {
-        "ipa_entities_cod": "asoom_to",
-        "ipa_entities_des": "Azienda Ospedaliera Ordine Mauriziano di Torino"
-    },
-    {
         "ipa_entities_cod": "istsc_TOIS04700R",
         "ipa_entities_des": "ISTITUTO SUPERIORE - GALILEI - FERRARI"
+    },
+    {
+        "ipa_entities_cod": "asoom_to",
+        "ipa_entities_des": "Azienda Ospedaliera Ordine Mauriziano di Torino"
     },
     {
         "ipa_entities_cod": "itmpra",
@@ -57026,6 +57166,10 @@
     {
         "ipa_entities_cod": "istsc_csic88700t",
         "ipa_entities_des": "ISTITUTO COMPRENSIVO MONTALTO U.-LATT.ROTA G-S.B. di MONTALTO UFFUGO (CS)"
+    },
+    {
+        "ipa_entities_cod": "91ADN2SF",
+        "ipa_entities_des": "CONVITTO AUDIOFONOLESI - MARSALA"
     },
     {
         "ipa_entities_cod": "istsc_vric88900p",
@@ -57284,6 +57428,10 @@
         "ipa_entities_des": "Istituto Gaudenzio De Pagave di Novara"
     },
     {
+        "ipa_entities_cod": "GXHKLN14",
+        "ipa_entities_des": "Centro Regionale Information Communication Technology"
+    },
+    {
         "ipa_entities_cod": "cisaf",
         "ipa_entities_des": "Consorzio per L'Integrazione e L'Inclusione Sociale dell'Ambito Territoriale Sociale di Cisternino Fasano Ostuni"
     },
@@ -57520,6 +57668,10 @@
         "ipa_entities_des": "ISTITUTO COMPRENSIVO - I.C. LEONARDO DA VINCI-RODARI"
     },
     {
+        "ipa_entities_cod": "H2BTSE6F",
+        "ipa_entities_des": "CONSORZIO AUTOSTRADE ITALIANE ENERGIA"
+    },
+    {
         "ipa_entities_cod": "istsc_bgsl01000t",
         "ipa_entities_des": "LICEO ARTISTICO - ' GIACOMO E PIO MANZU' '"
     },
@@ -57558,6 +57710,10 @@
     {
         "ipa_entities_cod": "isres",
         "ipa_entities_des": "Istituto Superiore Regionale Etnografico"
+    },
+    {
+        "ipa_entities_cod": "2A85YKMU",
+        "ipa_entities_des": "S.I.S.A.M. S.P.A."
     },
     {
         "ipa_entities_cod": "c_h529",
@@ -57922,6 +58078,10 @@
     {
         "ipa_entities_cod": "c_h447",
         "ipa_entities_des": "Comune di Roccasparvera"
+    },
+    {
+        "ipa_entities_cod": "VTH34HOV",
+        "ipa_entities_des": "SOCIETA' DELLA SALUTE FIORENTINA SUD EST"
     },
     {
         "ipa_entities_cod": "icfa",
@@ -59160,8 +59320,8 @@
         "ipa_entities_des": "Comune di Sperlonga"
     },
     {
-        "ipa_entities_cod": "istsc_rmic8fh006",
-        "ipa_entities_des": "ISTITUTO COMPRENSIVO - IC VIA FRIGNANI"
+        "ipa_entities_cod": "B2QSA92Z",
+        "ipa_entities_des": "SISAM SERVIZI S.R.L."
     },
     {
         "ipa_entities_cod": "cpipr_gr",
@@ -59298,6 +59458,10 @@
     {
         "ipa_entities_cod": "istsc_chtd04000g",
         "ipa_entities_des": "ISTITUTO TECNICO COMMERCIALE - 'F.PALIZZI' VASTO"
+    },
+    {
+        "ipa_entities_cod": "XURJPVZN",
+        "ipa_entities_des": "Comune di Uggiate con Ronago"
     },
     {
         "ipa_entities_cod": "PM",
@@ -59778,6 +59942,10 @@
     {
         "ipa_entities_cod": "c_e389",
         "ipa_entities_des": "Comune di Joppolo"
+    },
+    {
+        "ipa_entities_cod": "P9RZK6PI",
+        "ipa_entities_des": "GLOBAL SERVICE S.R.L."
     },
     {
         "ipa_entities_cod": "c_b892",
@@ -60916,6 +61084,10 @@
         "ipa_entities_des": "Comune di Castrolibero"
     },
     {
+        "ipa_entities_cod": "W5J1PAI1",
+        "ipa_entities_des": "CENTRO EUROPEO DI FORMAZIONE E RICERCA IN INGEGNERIA SISMICA - EUCENTRE"
+    },
+    {
         "ipa_entities_cod": "istsc_ssic834004",
         "ipa_entities_des": "ISTITUTO COMPRENSIVO - ARZACHENA N. 2"
     },
@@ -61838,10 +62010,6 @@
     {
         "ipa_entities_cod": "c_c608",
         "ipa_entities_des": "Comune di Chianciano Terme"
-    },
-    {
-        "ipa_entities_cod": "istsc_vbic81100a",
-        "ipa_entities_des": "ISTITUTO COMPRENSIVO - IC 'C. REBORA'"
     },
     {
         "ipa_entities_cod": "c_c188",
@@ -63108,6 +63276,10 @@
         "ipa_entities_des": "Istituto Tecnico Statale G. Girardi"
     },
     {
+        "ipa_entities_cod": "PZ1KNN9R",
+        "ipa_entities_des": "San Vincenzo Servizi"
+    },
+    {
         "ipa_entities_cod": "istsc_tpic836004",
         "ipa_entities_des": "ISTITUTO COMPRENSIVO - G.G.CIACCIO MONTALTO (TP)"
     },
@@ -64092,6 +64264,10 @@
         "ipa_entities_des": "Comune di Roccaforte Ligure"
     },
     {
+        "ipa_entities_cod": "MXP7BAE8",
+        "ipa_entities_des": "SERVIZI FONDO BOMBOLE METANO"
+    },
+    {
         "ipa_entities_cod": "c_h827",
         "ipa_entities_des": "Comune di San Donato Milanese"
     },
@@ -64824,6 +65000,10 @@
         "ipa_entities_des": "Comune di Fiuminata"
     },
     {
+        "ipa_entities_cod": "istsc_nasl010002",
+        "ipa_entities_des": "LICEO ARTISTICO - LIC.ARTISTICO-NAPOLI-"
+    },
+    {
         "ipa_entities_cod": "istsc_veic847001",
         "ipa_entities_des": "ISTITUTO COMPRENSIVO - CRISTOFORO COLOMBO"
     },
@@ -64882,6 +65062,10 @@
     {
         "ipa_entities_cod": "orge_mar",
         "ipa_entities_des": "Ordine dei Geologi delle Marche"
+    },
+    {
+        "ipa_entities_cod": "LBKOVX0Q",
+        "ipa_entities_des": "SOCIETA INFORMATICA SRL"
     },
     {
         "ipa_entities_cod": "istsc_miic8aj00c",
@@ -66658,6 +66842,10 @@
     {
         "ipa_entities_cod": "c_h165",
         "ipa_entities_des": "Comune di Ruviano"
+    },
+    {
+        "ipa_entities_cod": "c_b991",
+        "ipa_entities_des": "COMUNE DI CASORZO MONFERRATO"
     },
     {
         "ipa_entities_cod": "istsc_cric808009",
@@ -70836,6 +71024,10 @@
         "ipa_entities_des": "ISTITUTO COMPRENSIVO - IC CORDIGNANO"
     },
     {
+        "ipa_entities_cod": "istsc_rmic89300v",
+        "ipa_entities_des": "IC TIVOLI II - TIVOLI CENTRO"
+    },
+    {
         "ipa_entities_cod": "c_i604",
         "ipa_entities_des": "Comune di Senales"
     },
@@ -71034,6 +71226,10 @@
     {
         "ipa_entities_cod": "istsc_clee001006",
         "ipa_entities_des": "Circolo Didattico Leonardo Sciascia"
+    },
+    {
+        "ipa_entities_cod": "IABEGIZH",
+        "ipa_entities_des": "AS Retigas Srl"
     },
     {
         "ipa_entities_cod": "c_i566",
@@ -71236,12 +71432,12 @@
         "ipa_entities_des": "Comune di Miglionico"
     },
     {
-        "ipa_entities_cod": "c_e877",
-        "ipa_entities_des": "Comune di Mandas"
-    },
-    {
         "ipa_entities_cod": "cmdca",
         "ipa_entities_des": "Citta' Metropolitana di Cagliari"
+    },
+    {
+        "ipa_entities_cod": "c_e877",
+        "ipa_entities_des": "Comune di Mandas"
     },
     {
         "ipa_entities_cod": "c_e554",
@@ -71250,10 +71446,6 @@
     {
         "ipa_entities_cod": "asl_bo",
         "ipa_entities_des": "Azienda USL di Bologna"
-    },
-    {
-        "ipa_entities_cod": "PRIS0090",
-        "ipa_entities_des": "Istituto Istruzione Superiore C Rondani"
     },
     {
         "ipa_entities_cod": "istsc_baee06900x",
@@ -73052,6 +73244,10 @@
         "ipa_entities_des": "ISTITUTO COMPRENSIVO - BORGO DI TERZO"
     },
     {
+        "ipa_entities_cod": "I16DS5TO",
+        "ipa_entities_des": "FONDAZIONE ITS TEC TERRITORIO ENERGIA COSTRUIRE"
+    },
+    {
         "ipa_entities_cod": "istsc_blis008006",
         "ipa_entities_des": "Istituto Superiore di Feltre"
     },
@@ -73520,10 +73716,6 @@
         "ipa_entities_des": "Ordine Dei Medici Veterinari della Provincia di Roma"
     },
     {
-        "ipa_entities_cod": "c_b991",
-        "ipa_entities_des": "Comune di Casorzo"
-    },
-    {
         "ipa_entities_cod": "c_c623",
         "ipa_entities_des": "Comune di Chiavenna"
     },
@@ -73598,6 +73790,10 @@
     {
         "ipa_entities_cod": "istsc_imic800005",
         "ipa_entities_des": "ISTITUTO COMPRENSIVO - IC PIEVE DI TECO"
+    },
+    {
+        "ipa_entities_cod": "SQ4C1NAN",
+        "ipa_entities_des": "ISTITUTO ITALIANO DI NUMISMATICA"
     },
     {
         "ipa_entities_cod": "c_b120",
@@ -73886,10 +74082,6 @@
     {
         "ipa_entities_cod": "ftdt",
         "ipa_entities_des": "Fondazione Teatro della Toscana"
-    },
-    {
-        "ipa_entities_cod": "msu",
-        "ipa_entities_des": "Metro Srl Unipersonale"
     },
     {
         "ipa_entities_cod": "istsc_pzps12000v",
@@ -74230,6 +74422,10 @@
     {
         "ipa_entities_cod": "istsc_leic829006",
         "ipa_entities_des": "ISTITUTO COMPRENSIVO - MELENDUGNO"
+    },
+    {
+        "ipa_entities_cod": "55N6KWMK",
+        "ipa_entities_des": "EcoAmbiente Salerno SpA"
     },
     {
         "ipa_entities_cod": "istsc_apic825004",
@@ -75964,6 +76160,10 @@
         "ipa_entities_des": "Istituto Comprensivo I.C. F. Grimani"
     },
     {
+        "ipa_entities_cod": "3NJRG27J",
+        "ipa_entities_des": "Wabes srl."
+    },
+    {
         "ipa_entities_cod": "istsc_psic837002",
         "ipa_entities_des": "ISTITUTO COMPRENSIVO - IC URBINO'P. VOLPONI'"
     },
@@ -76070,6 +76270,10 @@
     {
         "ipa_entities_cod": "cpiav_0",
         "ipa_entities_des": "Ordine delle Professioni Infermieristiche di Messina"
+    },
+    {
+        "ipa_entities_cod": "DGSDOREU",
+        "ipa_entities_des": "Fondo Conoscenza"
     },
     {
         "ipa_entities_cod": "istsc_pcic80700t",
@@ -78668,6 +78872,10 @@
         "ipa_entities_des": "Ordine dei Geologi della Sardegna"
     },
     {
+        "ipa_entities_cod": "MTW844VW",
+        "ipa_entities_des": "C.I.R.A. (CENTRO ITALIANO RICERCHE AEROSPAZIALI) S.C.P.A"
+    },
+    {
         "ipa_entities_cod": "c_b351",
         "ipa_entities_des": "Comune di Caggiano"
     },
@@ -78908,10 +79116,6 @@
         "ipa_entities_des": "LICEO ARTISTICO - LA PRIMO"
     },
     {
-        "ipa_entities_cod": "MDDV4KRP",
-        "ipa_entities_des": "Istituto per il credito Sportivo"
-    },
-    {
         "ipa_entities_cod": "cof_pc",
         "ipa_entities_des": "Consorzio Fitosanitario Provinciale di Piacenza"
     },
@@ -78958,6 +79162,10 @@
     {
         "ipa_entities_cod": "cpar",
         "ipa_entities_des": "Collegio Provinciale Agrotecnici Ravenna"
+    },
+    {
+        "ipa_entities_cod": "XZR4RNHR",
+        "ipa_entities_des": "Ministero dell'Interno - Dipartimento della Pubblica Sicurezza - Polizia di Stato"
     },
     {
         "ipa_entities_cod": "istsc_siic813007",
@@ -79070,6 +79278,10 @@
     {
         "ipa_entities_cod": "c_i232",
         "ipa_entities_des": "Comune di Santa Maria a Monte"
+    },
+    {
+        "ipa_entities_cod": "DB5H2LR5",
+        "ipa_entities_des": "CONSORZIO DI BONIFICA DELLA CALABRIA"
     },
     {
         "ipa_entities_cod": "istsc_geic80500r",
@@ -80064,6 +80276,10 @@
         "ipa_entities_des": "ISTITUTO TECNICO INDUSTRIALE - ' M. GIUA'"
     },
     {
+        "ipa_entities_cod": "S6EWQUCT",
+        "ipa_entities_des": "CONSORZIO ETRURIA MERIDIONALE E SABINA"
+    },
+    {
         "ipa_entities_cod": "istsc_bsic836004",
         "ipa_entities_des": "ISTITUTO COMPRENSIVO - IC BOVEZZO"
     },
@@ -80578,6 +80794,10 @@
     {
         "ipa_entities_cod": "c_d508",
         "ipa_entities_des": "Comune di Fasano"
+    },
+    {
+        "ipa_entities_cod": "MDDV4KRP",
+        "ipa_entities_des": "Istituto per il Credito Sportivo e Culturale S.p.A."
     },
     {
         "ipa_entities_cod": "istsc_naee35100e",
@@ -81114,10 +81334,6 @@
     {
         "ipa_entities_cod": "cnt_ts",
         "ipa_entities_des": "Consiglio Notarile della Provincia di Trieste"
-    },
-    {
-        "ipa_entities_cod": "odcpt",
-        "ipa_entities_des": "Ordine Dei Chimici della Provincia di Treviso"
     },
     {
         "ipa_entities_cod": "c_a575",
@@ -82640,6 +82856,10 @@
         "ipa_entities_des": "Comune di Val di Zoldo"
     },
     {
+        "ipa_entities_cod": "YQTJUK0G",
+        "ipa_entities_des": "COMMISSARIO STRAORDINARIO RISCHIO IDROGEOLOGICO REGIONE SARDEGNA"
+    },
+    {
         "ipa_entities_cod": "c_l512",
         "ipa_entities_des": "Comune di Ussana"
     },
@@ -82700,8 +82920,16 @@
         "ipa_entities_des": "ISTITUTO COMPRENSIVO - IC SILEA"
     },
     {
+        "ipa_entities_cod": "asbucbc",
+        "ipa_entities_des": "Amministrazione Separata B.U.C. Frazione Brunico Centro"
+    },
+    {
         "ipa_entities_cod": "istsc_bgic89900p",
         "ipa_entities_des": "ISTITUTO COMPRENSIVO - COLOGNO AL SERIO 'BRAVI'"
+    },
+    {
+        "ipa_entities_cod": "UH29DKNC",
+        "ipa_entities_des": "airiminum 2014 s.p.a."
     },
     {
         "ipa_entities_cod": "istsc_boic840005",
@@ -83816,6 +84044,10 @@
         "ipa_entities_des": "Azienda Ospedaliero-Universitaria Renato Dulbecco"
     },
     {
+        "ipa_entities_cod": "unical",
+        "ipa_entities_des": "Università della Calabria"
+    },
+    {
         "ipa_entities_cod": "c_i948",
         "ipa_entities_des": "Comune di Stelvio"
     },
@@ -84212,12 +84444,12 @@
         "ipa_entities_des": "ISTITUTO COMPRENSIVO - NA - I.C. VITTORINO DA FELTRE"
     },
     {
-        "ipa_entities_cod": "istsc_rnee018005",
-        "ipa_entities_des": "DIREZIONE DIDATTICA - 2 CIRCOLO SANTARCANGELO DI R."
-    },
-    {
         "ipa_entities_cod": "istsc_caee017004",
         "ipa_entities_des": "DIREZIONE DIDATTICA - IS MIRRIONIS (CAGLIARI)"
+    },
+    {
+        "ipa_entities_cod": "istsc_rnee018005",
+        "ipa_entities_des": "DIREZIONE DIDATTICA - 2 CIRCOLO SANTARCANGELO DI R."
     },
     {
         "ipa_entities_cod": "istsc_tvic82600x",
@@ -84250,6 +84482,10 @@
     {
         "ipa_entities_cod": "iacpme",
         "ipa_entities_des": "Istituto Autonomo Case Popolari di Messina"
+    },
+    {
+        "ipa_entities_cod": "istsc_geis01900v",
+        "ipa_entities_des": "ISTITUTO DI ISTRUZIONE SECONDARIA SUPERIORE AMADEO PETER GIANNINI"
     },
     {
         "ipa_entities_cod": "c_e888",
@@ -85180,10 +85416,6 @@
         "ipa_entities_des": "Comune di Roure"
     },
     {
-        "ipa_entities_cod": "istsc_mitf390005",
-        "ipa_entities_des": "ISTITUTO TECNICO INDUSTRIALE - E.MATTEI"
-    },
-    {
         "ipa_entities_cod": "istsc_nais099003",
         "ipa_entities_des": "ISTITUTO SUPERIORE - IST. SUP.' G.SIANI'-NAPOLI-"
     },
@@ -86086,6 +86318,10 @@
     {
         "ipa_entities_cod": "istsc_rmic8er00b",
         "ipa_entities_des": "ISTITUTO COMPRENSIVO - IC VIA N.M. NICOLAI"
+    },
+    {
+        "ipa_entities_cod": "asbuclu",
+        "ipa_entities_des": "Amministrazione Separata Beni Uso Civico Lutago"
     },
     {
         "ipa_entities_cod": "istsc_BLIS011002",
@@ -87066,6 +87302,10 @@
     {
         "ipa_entities_cod": "ahs",
         "ipa_entities_des": "Aps Holding Spa"
+    },
+    {
+        "ipa_entities_cod": "3RF8YLNL",
+        "ipa_entities_des": "ENIT S.P.A."
     },
     {
         "ipa_entities_cod": "iafc_",
@@ -89232,12 +89472,12 @@
         "ipa_entities_des": "Comune Casciana Terme Lari"
     },
     {
-        "ipa_entities_cod": "istsc_rmis00900e",
-        "ipa_entities_des": "ISTRUZIONE SECONDARIA SUPERIORE - IISS ITC DI VITTORIO-ITI LATTANZIO"
-    },
-    {
         "ipa_entities_cod": "YCA3CBNF",
         "ipa_entities_des": "CINECITTA' S.p.A."
+    },
+    {
+        "ipa_entities_cod": "istsc_rmis00900e",
+        "ipa_entities_des": "ISTRUZIONE SECONDARIA SUPERIORE - IISS ITC DI VITTORIO-ITI LATTANZIO"
     },
     {
         "ipa_entities_cod": "c_e230",
@@ -90028,10 +90268,6 @@
         "ipa_entities_des": "Istituto D'Istruzione Secondaria Superiore Pilla"
     },
     {
-        "ipa_entities_cod": "NW2VXORJ",
-        "ipa_entities_des": "ORDINE INTERPROVINCIALE DELLA PROFESSIONE SANITARIA DI FISIOTERAPISTA DI NAPOLI AVELLINO BENEVENTO E CASERTA"
-    },
-    {
         "ipa_entities_cod": "c_e593",
         "ipa_entities_des": "Comune di Limido Comasco"
     },
@@ -90074,6 +90310,10 @@
     {
         "ipa_entities_cod": "istsc_vric86400a",
         "ipa_entities_des": "ISTITUTO COMPRENSIVO - IC NEGRAR"
+    },
+    {
+        "ipa_entities_cod": "istsc_leic8an008",
+        "ipa_entities_des": "ISTITUTO COMPRENSIVO \"MADRE TERESA DI CALCUTTA\" DI PRESICCE-ACQUARICA"
     },
     {
         "ipa_entities_cod": "c_i198",
@@ -90254,10 +90494,6 @@
     {
         "ipa_entities_cod": "pn_cmbos",
         "ipa_entities_des": "Ente di Gestione delle Aree Protette dell'Appennino Piemontese"
-    },
-    {
-        "ipa_entities_cod": "97PC5PQ3",
-        "ipa_entities_des": "COLLEGIO DEL MONDO UNITO DELL'ADRIATICO - ONLUS"
     },
     {
         "ipa_entities_cod": "c_h772",
@@ -90594,6 +90830,10 @@
     {
         "ipa_entities_cod": "icc_048",
         "ipa_entities_des": "Istituto Comprensivo di Castelfiorentino"
+    },
+    {
+        "ipa_entities_cod": "asbucz",
+        "ipa_entities_des": "Amministrazione Separata Beni Uso Civico San Giacomo"
     },
     {
         "ipa_entities_cod": "c_f127",

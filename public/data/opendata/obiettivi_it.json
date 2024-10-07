@@ -3,126 +3,126 @@
         "cod_anno": 2024,
         "des_regione": "Lombardia",
         "num_enti_tot": 3394,
-        "num_enti_obiettivi": 2078
+        "num_enti_obiettivi": 2110
     },
     {
         "cod_anno": 2024,
         "des_regione": "Piemonte",
-        "num_enti_tot": 2309,
-        "num_enti_obiettivi": 1067
+        "num_enti_tot": 2313,
+        "num_enti_obiettivi": 1094
     },
     {
         "cod_anno": 2024,
         "des_regione": "Campania",
-        "num_enti_tot": 1953,
-        "num_enti_obiettivi": 1060
+        "num_enti_tot": 1969,
+        "num_enti_obiettivi": 1072
     },
     {
         "cod_anno": 2024,
         "des_regione": "Veneto",
-        "num_enti_tot": 1697,
-        "num_enti_obiettivi": 974
+        "num_enti_tot": 1698,
+        "num_enti_obiettivi": 997
     },
     {
         "cod_anno": 2024,
         "des_regione": "Sicilia",
-        "num_enti_tot": 1856,
-        "num_enti_obiettivi": 845
+        "num_enti_tot": 1862,
+        "num_enti_obiettivi": 852
     },
     {
         "cod_anno": 2024,
         "des_regione": "Lazio",
-        "num_enti_tot": 1831,
-        "num_enti_obiettivi": 776
+        "num_enti_tot": 1839,
+        "num_enti_obiettivi": 792
     },
     {
         "cod_anno": 2024,
         "des_regione": "Emilia-Romagna",
-        "num_enti_tot": 1332,
-        "num_enti_obiettivi": 771
+        "num_enti_tot": 1343,
+        "num_enti_obiettivi": 786
     },
     {
         "cod_anno": 2024,
         "des_regione": "Puglia",
-        "num_enti_tot": 1245,
-        "num_enti_obiettivi": 704
+        "num_enti_tot": 1264,
+        "num_enti_obiettivi": 717
     },
     {
         "cod_anno": 2024,
         "des_regione": "Toscana",
-        "num_enti_tot": 1199,
-        "num_enti_obiettivi": 603
+        "num_enti_tot": 1200,
+        "num_enti_obiettivi": 613
     },
     {
         "cod_anno": 2024,
         "des_regione": "Sardegna",
-        "num_enti_tot": 925,
-        "num_enti_obiettivi": 468
+        "num_enti_tot": 926,
+        "num_enti_obiettivi": 482
     },
     {
         "cod_anno": 2024,
         "des_regione": "Calabria",
-        "num_enti_tot": 997,
-        "num_enti_obiettivi": 431
+        "num_enti_tot": 972,
+        "num_enti_obiettivi": 435
     },
     {
         "cod_anno": 2024,
         "des_regione": "Friuli-Venezia Giulia",
-        "num_enti_tot": 583,
-        "num_enti_obiettivi": 359
+        "num_enti_tot": 584,
+        "num_enti_obiettivi": 366
     },
     {
         "cod_anno": 2024,
         "des_regione": "Marche",
-        "num_enti_tot": 708,
-        "num_enti_obiettivi": 350
+        "num_enti_tot": 701,
+        "num_enti_obiettivi": 355
     },
     {
         "cod_anno": 2024,
         "des_regione": "Liguria",
-        "num_enti_tot": 629,
-        "num_enti_obiettivi": 286
+        "num_enti_tot": 624,
+        "num_enti_obiettivi": 293
     },
     {
         "cod_anno": 2024,
         "des_regione": "Abruzzo",
         "num_enti_tot": 728,
-        "num_enti_obiettivi": 254
+        "num_enti_obiettivi": 262
     },
     {
         "cod_anno": 2024,
         "des_regione": "Provincia autonoma di Trento",
         "num_enti_tot": 509,
-        "num_enti_obiettivi": 197
+        "num_enti_obiettivi": 203
     },
     {
         "cod_anno": 2024,
         "des_regione": "Umbria",
-        "num_enti_tot": 353,
-        "num_enti_obiettivi": 164
+        "num_enti_tot": 354,
+        "num_enti_obiettivi": 169
     },
     {
         "cod_anno": 2024,
         "des_regione": "Basilicata",
-        "num_enti_tot": 361,
-        "num_enti_obiettivi": 154
+        "num_enti_tot": 354,
+        "num_enti_obiettivi": 160
     },
     {
         "cod_anno": 2024,
         "des_regione": "Provincia autonoma di Bolzano",
         "num_enti_tot": 494,
-        "num_enti_obiettivi": 99
+        "num_enti_obiettivi": 105
     },
     {
         "cod_anno": 2024,
         "des_regione": "Molise",
-        "num_enti_tot": 289,
-        "num_enti_obiettivi": 91
+        "num_enti_tot": 290,
+        "num_enti_obiettivi": 93
     },
     {
         "cod_anno": 2024,
         "des_regione": "Valle d'Aosta/Vallée d'Aoste",
         "num_enti_tot": 169,
-        "num_enti_obiettivi": 53
+        "num_enti_obiettivi": 54
     }
 ]

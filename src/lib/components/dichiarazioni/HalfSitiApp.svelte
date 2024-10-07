@@ -10,14 +10,12 @@
   onMount(async() => {
     const rsAPP = await fetch("/data/dichiarazione_app_intestazione.json");
     const dataAPP = await rsAPP.json();
-
     totaleAPP = dataAPP.find(
       (d) => d.indicatore == "num_dichiarazioni_app_pub_tot"
     ).valore;
 
     const rsSITI = await fetch("/data/dichiarazione_intestazione.json");
     const dataSITI = await rsSITI.json();
-
     totaleSITI = dataSITI.find(
       (d) => d.indicatore == "num_dichiarazioni_pub_tot"
     ).valore;

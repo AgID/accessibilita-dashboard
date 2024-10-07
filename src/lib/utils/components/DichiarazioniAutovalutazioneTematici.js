@@ -1,6 +1,6 @@
 export default {
   it: {
-    "dicAutoTema.title": "L’autovalutazione dei siti tematici delle PA",
+    "dicAutoTema.title": "L'autovalutazione dei siti tematici delle PA",
     "dicAutoTema.tableDescription": 'La tabella riporta il numero di siti web per ciascuno dei tre possibili esiti dell’autovalutazione di accessibilità. Il sito è "conforme" se non è stato rilevato alcun errore, "parzialmente conforme" se gli errori sono inferiori al 50% dei criteri di successo, "non conforme" se gli errori superano il 50% dei criteri di successo.',
     "dicAutoTema.chartDescription": 'Il grafico riporta il numero di siti web per ciascuno dei tre possibili esiti dell’autovalutazione di accessibilità. Il sito è "conforme" se non è stato rilevato alcun errore, "parzialmente conforme" se gli errori sono inferiori al 50% dei criteri di successo, "non conforme" se gli errori superano il 50% dei criteri di successo.',
     "dicAutoTema.conformita": "Stato di conformità",

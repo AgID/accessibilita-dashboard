@@ -1,6 +1,6 @@
 export default {
     it: {
-        "dicAppConformita.title": "Confronto dell’autovalutazione dello stato di conformità delle app per sistema operativo",
+        "dicAppConformita.title": "Confronto dell'autovalutazione dello stato di conformità delle app per sistema operativo",
         "dicAppConformita.timeframe": "Periodo monitoraggio: ",
         "dicAppConformita.conformita": "Stato di conformità",
         "dicAppConformita.android": "Android",

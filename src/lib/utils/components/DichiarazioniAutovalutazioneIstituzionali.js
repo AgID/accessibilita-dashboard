@@ -1,6 +1,6 @@
 export default {
   it: {
-    "dicAutoIst.title": "L’autovalutazione dei siti istituzionali delle PA",
+    "dicAutoIst.title": "L'autovalutazione dei siti istituzionali delle PA",
     "dicAutoIst.tableDescription": 'La tabella riporta il numero di siti web per ciascuno dei tre possibili esiti dell’autovalutazione di accessibilità. Il sito è "conforme" se non è stato rilevato alcun errore, "parzialmente conforme" se gli errori sono inferiori al 50% dei criteri di successo, "non conforme" se gli errori superano il 50% dei criteri di successo.',
     "dicAutoIst.chartDescription": 'Il grafico riporta il numero di siti web per ciascuno dei tre possibili esiti dell’autovalutazione di accessibilità. Il sito è "conforme" se non è stato rilevato alcun errore, "parzialmente conforme" se gli errori sono inferiori al 50% dei criteri di successo, "non conforme" se gli errori superano il 50% dei criteri di successo.',
     "dicAutoIst.timeframe": "Periodo monitoraggio: ",

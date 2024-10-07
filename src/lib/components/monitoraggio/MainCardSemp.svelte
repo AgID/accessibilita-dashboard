@@ -5,7 +5,6 @@
   import { t } from "../../utils/i18n";
 
   let item;
-  let date;
   let innerWidth;
   let dataPagina;
   let dataPaginaFormatted;
@@ -14,14 +13,7 @@
     const rs = await fetch("/data/monitoraggio_intestazione.json");
     const data = await rs.json();
     item = data[0];
-    date = df(dp(item.dat_ultimo_monitoraggio));
-
-    const rs2 = await fetch("/data/monitoraggio_data.json");
-    const data2 = await rs2.json();
-    dataPagina = data2.find(
-      (d) => d.indicatore == "data_ultimo_aggiornamento_pagina"
-    ).valore;
-    dataPaginaFormatted = df(dp(dataPagina));
+    dataPaginaFormatted = df(dp(item.dat_ultimo_monitoraggio));
   });
 </script>
 
@@ -108,7 +100,7 @@
               {nf(item.num_pagine_valutate)}
             </p>
             <p class="captionUpdateDarker py-2">
-              {@html $t("moniMainCard.cardCaption", {aggiornamento: date})} 
+              {@html $t("moniMainCard.cardCaption", {aggiornamento: dataPaginaFormatted})} 
             </p>
           {/if}
         </div>

@@ -38,11 +38,7 @@
     const rs = await fetch("/data/dichiarazione_istituzionali_regione.json");
     response = await rs.json();
     loading = false;
-
-    const riferimento = await fetch("/data/dichiarazione_intestazione.json");
-    const dataRiferimento = await riferimento.json()
-    annoRiferimento = dataRiferimento[0].dat_ult_agg_dichiarazione.substr(0, 4)
-
+    annoRiferimento = response.intestazione.dat_ultimo_rilevamento.substr(0, 4)
   });
 </script>
 

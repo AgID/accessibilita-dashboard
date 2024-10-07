@@ -4,10 +4,20 @@
         "date_it": "2024",
         "title_en": "New monitoring datasets",
         "title_it": "Nuovo dataset monitoraggio",
-        "details_en": "Data publication for the 3rd quarter of 2024",
-        "details_it": "Pubblicazione dati 3° trimestre 2024",
+        "details_en": "Data publication for the 4th quarter of 2024",
+        "details_it": "Pubblicazione dati 4° trimestre 2024",
         "release_en": "Arriving",
         "release_it": "In Arrivo"
+    },
+    {
+        "date_en": "September 2024",
+        "date_it": "Settembre 2024",
+        "title_en": "New dataset monitoring. Updating Accessibity Statement and Accessibility Objectives",
+        "title_it": "Nuovo dataset monitoraggio e aggiornamento Obiettivi e Dichiarazioni di Accessibilità",
+        "details_en": "Publication of monitoring data Q3 2024. Annual update Accessibility Statement and quarterly update Accessibility Goals.",
+        "details_it": "Pubblicazione dati monitoraggio 3° trimestre 2024. Aggiornamento annuale Dichiarazione di Accessibiltà e aggiornamento trimestrale Obiettivi di Accessibilità",
+        "release_en": "Actual",
+        "release_it": "Attuale"
     },
     {
         "date_en": "June 2024",
@@ -16,15 +26,15 @@
         "title_it": "Nuovo dataset monitoraggio e aggiornamento Obiettivi di Accessibilità",
         "details_en": "Publication of monitoring data for the 2nd quarter of 2024 and update of accessibility objectives for the year 2024",
         "details_it": "Pubblicazione dati monitoraggio 2° trimestre 2024 e aggiornamento obiettivi di Accessibilità anno 2024",
-        "release_en": "Actual",
-        "release_it": "Attuale"
+        "release_en": "Passed",
+        "release_it": "Passata"
     },
     {
         "date_en": "March 2024",
         "date_it": "Marzo 2024",
         "title_en": "New monitoring datasets",
         "title_it": "Nuovi dataset monitoraggio",
-        "details_en": "Data publication for the 1th quarter of 2024.",
+        "details_en": "Data publication for the 1st quarter of 2024.",
         "details_it": "Pubblicazione dati 1° trimestre 2024",
         "release_en": "Passed",
         "release_it": "Passata"
@@ -70,12 +80,12 @@
         "release_it": "Passata"
     },
     {
-        "date_en": "Septmber 2023",
+        "date_en": "September 2023",
         "date_it": "Settembre 2023",
         "title_en": "Release of new data",
         "title_it": "Pubblicazione nuovi dati",
         "details_en": "Publication of new data of accessibility statements as of September 24, 2023.Publication of new monitoring data of Q3 2023",
-        "details_it": "Pubblicazione dei nuovi dati delle dichiarazioni d'accessibilità al 24 settembre 2023. Pubblicazione dei nuovi dati del moniotraggio del 3° trimestre 2023",
+        "details_it": "Pubblicazione dei nuovi dati delle dichiarazioni d'accessibilità al 24 settembre 2023. Pubblicazione dei nuovi dati del monitoraggio del 3° trimestre 2023",
         "release_en": "Passed",
         "release_it": "Passata"
     },

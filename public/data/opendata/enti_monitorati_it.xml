@@ -1006,6 +1006,11 @@
 </row>
 
 <row>
+  <cod_ente>WSPHIDJY</cod_ente>
+  <des_ente>SOUL HEALTH SOLUTION SRL</des_ente>
+</row>
+
+<row>
   <cod_ente>udcmm</cod_ente>
   <des_ente>Unione Dei Comuni di Montemarciano e Monte San Vito</des_ente>
 </row>
@@ -1681,18 +1686,23 @@
 </row>
 
 <row>
-  <cod_ente>epmdcn</cod_ente>
-  <des_ente>Ente Parco Metropolitano Delle Colline di Napoli</des_ente>
-</row>
-
-<row>
   <cod_ente>cmna</cod_ente>
   <des_ente>Citta' Metropolitana di Napoli</des_ente>
 </row>
 
 <row>
+  <cod_ente>epmdcn</cod_ente>
+  <des_ente>Ente Parco Metropolitano Delle Colline di Napoli</des_ente>
+</row>
+
+<row>
   <cod_ente>ars_029</cod_ente>
   <des_ente>Asm Rovigo Spa</des_ente>
+</row>
+
+<row>
+  <cod_ente>KR48HK0K</cod_ente>
+  <des_ente>Arcidiocesi di Manfredonia - Vieste - San Giovanni Rotondo</des_ente>
 </row>
 
 <row>
@@ -1953,6 +1963,11 @@
 <row>
   <cod_ente>c_l409</cod_ente>
   <des_ente>Comune di Trezzano Sul Naviglio</des_ente>
+</row>
+
+<row>
+  <cod_ente>Y9DRG59E</cod_ente>
+  <des_ente>CD-Servizi S.p.a.</des_ente>
 </row>
 
 <row>
@@ -2526,6 +2541,11 @@
 </row>
 
 <row>
+  <cod_ente>O9S5NTQ9</cod_ente>
+  <des_ente>SEBINO SERVIZI SRL</des_ente>
+</row>
+
+<row>
   <cod_ente>asp_td</cod_ente>
   <des_ente>ASP delle Terre d'Argine</des_ente>
 </row>
@@ -3086,13 +3106,13 @@
 </row>
 
 <row>
-  <cod_ente>iisca</cod_ente>
-  <des_ente>I.I.S. Croce-Aleramo</des_ente>
+  <cod_ente>J8YJ7LT6</cod_ente>
+  <des_ente>ACI SPORT SOCIETA' PER AZIONI</des_ente>
 </row>
 
 <row>
-  <cod_ente>J8YJ7LT6</cod_ente>
-  <des_ente>ACI SPORT SOCIETA' PER AZIONI</des_ente>
+  <cod_ente>iisca</cod_ente>
+  <des_ente>I.I.S. Croce-Aleramo</des_ente>
 </row>
 
 <row>
@@ -4048,6 +4068,11 @@
 <row>
   <cod_ente>c_e840</cod_ente>
   <des_ente>Comune di Mairago</des_ente>
+</row>
+
+<row>
+  <cod_ente>ZZ9VFE0Y</cod_ente>
+  <des_ente>FILIERA ORTOFRUTTICOLA ROMAGNOLA SPA</des_ente>
 </row>
 
 <row>
@@ -6341,13 +6366,13 @@
 </row>
 
 <row>
-  <cod_ente>otarp_3</cod_ente>
-  <des_ente>Ordine Tecnologi Alimentari Regioni Piemonte e Valle D'Aosta</des_ente>
+  <cod_ente>ic_bolce</cod_ente>
+  <des_ente>Istituto Comprensivo Bolzano/centro</des_ente>
 </row>
 
 <row>
-  <cod_ente>ic_bolce</cod_ente>
-  <des_ente>Istituto Comprensivo Bolzano/centro</des_ente>
+  <cod_ente>otarp_3</cod_ente>
+  <des_ente>Ordine Tecnologi Alimentari Regioni Piemonte e Valle D'Aosta</des_ente>
 </row>
 
 <row>
@@ -6553,11 +6578,6 @@
 <row>
   <cod_ente>istsc_psic83500a</cod_ente>
   <des_ente>ISTITUTO COMPRENSIVO - CAGLI 'F.MICHELINI TOCCI'</des_ente>
-</row>
-
-<row>
-  <cod_ente>istsc_leic8an008</cod_ente>
-  <des_ente>ISTITUTO COMPRENSIVO - PRESICCE</des_ente>
 </row>
 
 <row>
@@ -8351,6 +8371,11 @@
 </row>
 
 <row>
+  <cod_ente>istsc_clic81700n</cod_ente>
+  <des_ente>ISTITUTO COMPRENSIVO - 'G.CARDUCCI' - RIESI -</des_ente>
+</row>
+
+<row>
   <cod_ente>istsc_saic836006</cod_ente>
   <des_ente>ISTITUTO COMPRENSIVO - IST.COMPR. BARONISSI</des_ente>
 </row>
@@ -9251,6 +9276,11 @@
 </row>
 
 <row>
+  <cod_ente>T2M8UHXH</cod_ente>
+  <des_ente>SE.VA.T. SERVIZI VALLE TROMPIA S.C.R.L.</des_ente>
+</row>
+
+<row>
   <cod_ente>istsc_ssvc010009</cod_ente>
   <des_ente>CONVITTO NAZIONALE - CANOPOLENO</des_ente>
 </row>
@@ -9551,13 +9581,13 @@
 </row>
 
 <row>
-  <cod_ente>istsc_baic85100l</cod_ente>
-  <des_ente>ISTITUTO COMPRENSIVO - G. BOVIO - CD 'MAZZINI'</des_ente>
+  <cod_ente>c_g606</cod_ente>
+  <des_ente>Comune di Pietrabbondante</des_ente>
 </row>
 
 <row>
-  <cod_ente>c_g606</cod_ente>
-  <des_ente>Comune di Pietrabbondante</des_ente>
+  <cod_ente>istsc_baic85100l</cod_ente>
+  <des_ente>ISTITUTO COMPRENSIVO - G. BOVIO - CD 'MAZZINI'</des_ente>
 </row>
 
 <row>
@@ -11211,6 +11241,11 @@
 </row>
 
 <row>
+  <cod_ente>O67XFOA6</cod_ente>
+  <des_ente>ECONET S.R.L.</des_ente>
+</row>
+
+<row>
   <cod_ente>istsc_peic83200q</cod_ente>
   <des_ente>ISTITUTO COMPRENSIVO - I.C. PESCARA 6</des_ente>
 </row>
@@ -11671,6 +11706,11 @@
 </row>
 
 <row>
+  <cod_ente>0KQQXTDD</cod_ente>
+  <des_ente>Organizzazione Progetti e Servizi SpA</des_ente>
+</row>
+
+<row>
   <cod_ente>istsc_naic8c3008</cod_ente>
   <des_ente>ISTITUTO COMPRENSIVO - TERZIGNO I.C. GIUSTI</des_ente>
 </row>
@@ -11683,11 +11723,6 @@
 <row>
   <cod_ente>istsc_clic822005</cod_ente>
   <des_ente>ISTITUTO COMPRENSIVO - I.C. V. VENETO CL</des_ente>
-</row>
-
-<row>
-  <cod_ente>istsc_paps080008</cod_ente>
-  <des_ente>LICEO SCIENTIFICO - LS SANTI SAVARINO</des_ente>
 </row>
 
 <row>
@@ -12068,6 +12103,11 @@
 <row>
   <cod_ente>CU536LYL</cod_ente>
   <des_ente>FONDAZIONE ISTITUTO TECNICO SUPERIORE NUOVE TECNOLOGIE DELLA VITA</des_ente>
+</row>
+
+<row>
+  <cod_ente>0AIQ5Z0T</cod_ente>
+  <des_ente>Servizi Ambientali Provincia di Rieti s.r.l.</des_ente>
 </row>
 
 <row>
@@ -12636,11 +12676,6 @@
 </row>
 
 <row>
-  <cod_ente>sspa</cod_ente>
-  <des_ente>Scuola Nazionale dell'Amministrazione</des_ente>
-</row>
-
-<row>
   <cod_ente>assch</cod_ente>
   <des_ente>Associazione Tra Enti Locali per L'Attuazione del Patto Territoriale Sangro Aventino</des_ente>
 </row>
@@ -12903,6 +12938,11 @@
 <row>
   <cod_ente>istsc_viic885003</cod_ente>
   <des_ente>ISTITUTO COMPRENSIVO - IC 1 ARZIGNANO</des_ente>
+</row>
+
+<row>
+  <cod_ente>E8GWU8ST</cod_ente>
+  <des_ente>A.KR.E.A. Spa</des_ente>
 </row>
 
 <row>
@@ -14421,6 +14461,11 @@
 </row>
 
 <row>
+  <cod_ente>U5A2QPW9</cod_ente>
+  <des_ente>ORDINE REGIONALE PROFESSIONE SANITARIA FISIOTERAPISTA DEL LAZIO</des_ente>
+</row>
+
+<row>
   <cod_ente>c_f376</cod_ente>
   <des_ente>Comune di Monopoli</des_ente>
 </row>
@@ -15081,6 +15126,11 @@
 </row>
 
 <row>
+  <cod_ente>istsc_rmic8fh006</cod_ente>
+  <des_ente>Istituto Comprensivo David SASSOLI</des_ente>
+</row>
+
+<row>
   <cod_ente>c_g784</cod_ente>
   <des_ente>Comune di Poli</des_ente>
 </row>
@@ -15458,6 +15508,11 @@
 <row>
   <cod_ente>istsc_fgic85400c</cod_ente>
   <des_ente>Direzione Didattica I Grado Pascoli</des_ente>
+</row>
+
+<row>
+  <cod_ente>istsc_leic8aa001</cod_ente>
+  <des_ente>ISTITUTO COMPRENSIVO - ISTITUTO COMPRENSIVO STATALE</des_ente>
 </row>
 
 <row>
@@ -17436,6 +17491,11 @@
 </row>
 
 <row>
+  <cod_ente>9Z35T315</cod_ente>
+  <des_ente>Tangenziale di Napoli S.p.A.</des_ente>
+</row>
+
+<row>
   <cod_ente>c_e136</cod_ente>
   <des_ente>Comune di Granarolo dell'Emilia</des_ente>
 </row>
@@ -17668,6 +17728,11 @@
 <row>
   <cod_ente>istsc_rmic8fq006</cod_ente>
   <des_ente>Istituto Comprensivo Tullia Zevi</des_ente>
+</row>
+
+<row>
+  <cod_ente>odcpt</cod_ente>
+  <des_ente>Ordine dei Chimici e dei Fisici della Provincia di Treviso</des_ente>
 </row>
 
 <row>
@@ -18701,6 +18766,11 @@
 </row>
 
 <row>
+  <cod_ente>05O9EJDW</cod_ente>
+  <des_ente>CAPITALE LAVORO SPA</des_ente>
+</row>
+
+<row>
   <cod_ente>c_f002</cod_ente>
   <des_ente>Comune di Marzio</des_ente>
 </row>
@@ -19076,13 +19146,13 @@
 </row>
 
 <row>
-  <cod_ente>icy</cod_ente>
-  <des_ente>It.City Spa</des_ente>
+  <cod_ente>c_d552</cod_ente>
+  <des_ente>Comune di Ferrera Erbognone</des_ente>
 </row>
 
 <row>
-  <cod_ente>c_d552</cod_ente>
-  <des_ente>Comune di Ferrera Erbognone</des_ente>
+  <cod_ente>icy</cod_ente>
+  <des_ente>It.City Spa</des_ente>
 </row>
 
 <row>
@@ -19123,6 +19193,11 @@
 <row>
   <cod_ente>istsc_naps110002</cod_ente>
   <des_ente>LICEO SCIENTIFICO - L.SC.F.SEVERI-C/MMARE-</des_ente>
+</row>
+
+<row>
+  <cod_ente>asbucsp</cod_ente>
+  <des_ente>Amministrazione Separata Beni Uso Civico San Pietro</des_ente>
 </row>
 
 <row>
@@ -19956,6 +20031,11 @@
 </row>
 
 <row>
+  <cod_ente>A6BF9LF1</cod_ente>
+  <des_ente>AZIENDA TERRITORIALE PER L'EDILIZIA RESIDENZIALE PUBBLICA DI RIETI</des_ente>
+</row>
+
+<row>
   <cod_ente>ics_015</cod_ente>
   <des_ente>ISTITUTO COMPRENSIVO VIA PAPA G. PAOLO II di MAGENTA</des_ente>
 </row>
@@ -20468,6 +20548,11 @@
 <row>
   <cod_ente>c_h634</cod_ente>
   <des_ente>Comune di Ruffre'</des_ente>
+</row>
+
+<row>
+  <cod_ente>HT6OEVAN</cod_ente>
+  <des_ente>SAIM - SUDTIROL ALTO ADIGE INFORMATICA MEDICA SRL</des_ente>
 </row>
 
 <row>
@@ -21443,6 +21528,11 @@
 <row>
   <cod_ente>c_a749</cod_ente>
   <des_ente>Comune di Bellegra</des_ente>
+</row>
+
+<row>
+  <cod_ente>C6MGU50W</cod_ente>
+  <des_ente>Arcidiocesi di Siracusa</des_ente>
 </row>
 
 <row>
@@ -22846,13 +22936,13 @@
 </row>
 
 <row>
-  <cod_ente>c_l639</cod_ente>
-  <des_ente>Comune di Serra San Bruno</des_ente>
+  <cod_ente>istsc_nuic863008</cod_ente>
+  <des_ente>ISTITUTO COMPRENSIVO - BAUNEI</des_ente>
 </row>
 
 <row>
-  <cod_ente>istsc_nuic863008</cod_ente>
-  <des_ente>ISTITUTO COMPRENSIVO - BAUNEI</des_ente>
+  <cod_ente>c_l639</cod_ente>
+  <des_ente>Comune di Serra San Bruno</des_ente>
 </row>
 
 <row>
@@ -22891,13 +22981,13 @@
 </row>
 
 <row>
-  <cod_ente>c_m297</cod_ente>
-  <des_ente>Comune di Fiumicino</des_ente>
+  <cod_ente>istsc_rmic8dk002</cod_ente>
+  <des_ente>ISTITUTO COMPRENSIVO - I.C. TORRIMPIETRA</des_ente>
 </row>
 
 <row>
-  <cod_ente>istsc_rmic8dk002</cod_ente>
-  <des_ente>ISTITUTO COMPRENSIVO - I.C. TORRIMPIETRA</des_ente>
+  <cod_ente>c_m297</cod_ente>
+  <des_ente>Comune di Fiumicino</des_ente>
 </row>
 
 <row>
@@ -23478,6 +23568,11 @@
 <row>
   <cod_ente>c_b378</cod_ente>
   <des_ente>Comune di Calangianus</des_ente>
+</row>
+
+<row>
+  <cod_ente>O4O7KVQY</cod_ente>
+  <des_ente>azienda territoriale edilizia residenziale</des_ente>
 </row>
 
 <row>
@@ -24213,6 +24308,11 @@
 <row>
   <cod_ente>umavs</cod_ente>
   <des_ente>Unione Montana Alta Valle Susa</des_ente>
+</row>
+
+<row>
+  <cod_ente>X6X93KKE</cod_ente>
+  <des_ente>Servizi Ambientali per il Nord Barese Società per Azioni</des_ente>
 </row>
 
 <row>
@@ -24971,11 +25071,6 @@
 </row>
 
 <row>
-  <cod_ente>PZ1KNN9R</cod_ente>
-  <des_ente>San Vincenzo Servizi srl</des_ente>
-</row>
-
-<row>
   <cod_ente>c_g196</cod_ente>
   <des_ente>Comune di Oulx</des_ente>
 </row>
@@ -25313,6 +25408,11 @@
 <row>
   <cod_ente>c_c154</cod_ente>
   <des_ente>Comune di Castellero</des_ente>
+</row>
+
+<row>
+  <cod_ente>WTNJYK0B</cod_ente>
+  <des_ente>AZIENDA PROVINCIALE TRASPORTI SPA</des_ente>
 </row>
 
 <row>
@@ -25713,11 +25813,6 @@
 <row>
   <cod_ente>KDPADR44</cod_ente>
   <des_ente>Associazione Italiana per la Donazione di Organi, Tessuti e Cellule</des_ente>
-</row>
-
-<row>
-  <cod_ente>istsc_geis01900v</cod_ente>
-  <des_ente>ISTITUTO TECNICO E PROFESSIONALE DI CHIAVARI</des_ente>
 </row>
 
 <row>
@@ -26853,6 +26948,11 @@
 <row>
   <cod_ente>istsc_naic8b300n</cod_ente>
   <des_ente>ISTITUTO COMPRENSIVO '88 EDUARDO DE FILIPPO'</des_ente>
+</row>
+
+<row>
+  <cod_ente>iafam_ct</cod_ente>
+  <des_ente>Conservatorio Statale di Musica V. Bellini di Catania</des_ente>
 </row>
 
 <row>
@@ -28563,6 +28663,11 @@
 <row>
   <cod_ente>aspcc</cod_ente>
   <des_ente>A.S.P. Castriota e Corroppoli</des_ente>
+</row>
+
+<row>
+  <cod_ente>istsc_mitf390005</cod_ente>
+  <des_ente>ISTITUTO TECNICO E LICEO "ENRICO MATTEI"</des_ente>
 </row>
 
 <row>
@@ -31106,11 +31211,6 @@
 </row>
 
 <row>
-  <cod_ente>iafam_ct</cod_ente>
-  <des_ente>Istituto di Alta Formazione Artistica e Musicale</des_ente>
-</row>
-
-<row>
   <cod_ente>cif_</cod_ente>
   <des_ente>Ordine delle Professioni Infermieristiche di Fermo</des_ente>
 </row>
@@ -31413,6 +31513,11 @@
 <row>
   <cod_ente>c_f809</cod_ente>
   <des_ente>Comune di Murazzano</des_ente>
+</row>
+
+<row>
+  <cod_ente>istsc_paps080008</cod_ente>
+  <des_ente>LICEO STATALE "FELICIA E PEPPINO IMPASTATO"</des_ente>
 </row>
 
 <row>
@@ -32686,11 +32791,6 @@
 </row>
 
 <row>
-  <cod_ente>istsc_alis016008</cod_ente>
-  <des_ente>ISTRUZIONE SECONDARIA SUPERIORE - SALUZZO - PLANA</des_ente>
-</row>
-
-<row>
   <cod_ente>c_e244</cod_ente>
   <des_ente>Comune di Guardialfiera</des_ente>
 </row>
@@ -33136,13 +33236,13 @@
 </row>
 
 <row>
-  <cod_ente>iacs</cod_ente>
-  <des_ente>ISTITUTO COMPRENSIVO MATTIA DE MARE SAN CIPRIANO D'AVERSA</des_ente>
+  <cod_ente>istsc_noic82400c</cod_ente>
+  <des_ente>ISTITUTO COMPRENSIVO - P.FORNARA - L.OSSOLA</des_ente>
 </row>
 
 <row>
-  <cod_ente>istsc_noic82400c</cod_ente>
-  <des_ente>ISTITUTO COMPRENSIVO - P.FORNARA - L.OSSOLA</des_ente>
+  <cod_ente>iacs</cod_ente>
+  <des_ente>ISTITUTO COMPRENSIVO MATTIA DE MARE SAN CIPRIANO D'AVERSA</des_ente>
 </row>
 
 <row>
@@ -34323,11 +34423,6 @@
 <row>
   <cod_ente>isfdg</cod_ente>
   <des_ente>Istituto Statale Istruzione Superiore (ISIS) F. De Gennaro</des_ente>
-</row>
-
-<row>
-  <cod_ente>URF05VJ9</cod_ente>
-  <des_ente>Consorzio Area per lo Sviluppo Industriale Salerno</des_ente>
 </row>
 
 <row>
@@ -35626,6 +35721,11 @@
 </row>
 
 <row>
+  <cod_ente>LJ0GM02U</cod_ente>
+  <des_ente>FROSINONE FORMAZIONE E LAVORO</des_ente>
+</row>
+
+<row>
   <cod_ente>odafbr</cod_ente>
   <des_ente>Ordine Dei Dottori Agronomi e Dei Dottori Forestali della Provincia di Brindisi</des_ente>
 </row>
@@ -36306,11 +36406,6 @@
 </row>
 
 <row>
-  <cod_ente>KBW52SNF</cod_ente>
-  <des_ente>COMUNITA' DEL MEDIOFRIULI</des_ente>
-</row>
-
-<row>
   <cod_ente>istsc_tvis00300b</cod_ente>
   <des_ente>ISTRUZIONE SECONDARIA SUPERIORE - IS LEVI</des_ente>
 </row>
@@ -36321,11 +36416,6 @@
 </row>
 
 <row>
-  <cod_ente>vspa</cod_ente>
-  <des_ente>Voltano S.P.A.</des_ente>
-</row>
-
-<row>
   <cod_ente>istsc_rmic8fm00v</cod_ente>
   <des_ente>ISTITUTO COMPRENSIVO - IC VIA MAR ROSSO</des_ente>
 </row>
@@ -36333,6 +36423,11 @@
 <row>
   <cod_ente>cpiamo</cod_ente>
   <des_ente>Cpia 1 Modena - Centro Provinciale Istruzione Adulti</des_ente>
+</row>
+
+<row>
+  <cod_ente>vspa</cod_ente>
+  <des_ente>Voltano S.P.A.</des_ente>
 </row>
 
 <row>
@@ -38461,13 +38556,13 @@
 </row>
 
 <row>
-  <cod_ente>cmsl</cod_ente>
-  <des_ente>Collegio Maestri di Sci del Lazio</des_ente>
+  <cod_ente>istsc_rmpc05000b</cod_ente>
+  <des_ente>LICEO CLASSICO - BENEDETTO DA NORCIA</des_ente>
 </row>
 
 <row>
-  <cod_ente>istsc_rmpc05000b</cod_ente>
-  <des_ente>LICEO CLASSICO - BENEDETTO DA NORCIA</des_ente>
+  <cod_ente>cmsl</cod_ente>
+  <des_ente>Collegio Maestri di Sci del Lazio</des_ente>
 </row>
 
 <row>
@@ -39043,6 +39138,11 @@
 <row>
   <cod_ente>istsc_saee090001</cod_ente>
   <des_ente>DIREZIONE DIDATTICA - NOCERA SUPERIORE I</des_ente>
+</row>
+
+<row>
+  <cod_ente>7S7BGX0F</cod_ente>
+  <des_ente>Trenitalia Tper S.C.A.R.L.</des_ente>
 </row>
 
 <row>
@@ -39726,6 +39826,11 @@
 </row>
 
 <row>
+  <cod_ente>BW2QV1IW</cod_ente>
+  <des_ente>COLLEGIOREGIONALE DEI MAESTRI DI SCI DELLA LOMBARDIA</des_ente>
+</row>
+
+<row>
   <cod_ente>odip_068</cod_ente>
   <des_ente>Ordine Degli Ingegneri della Provincia di Pescara</des_ente>
 </row>
@@ -39788,6 +39893,11 @@
 <row>
   <cod_ente>c_h242</cod_ente>
   <des_ente>Comune di Resia</des_ente>
+</row>
+
+<row>
+  <cod_ente>TY0XW9YE</cod_ente>
+  <des_ente>MONTEFELTRO SERVIZI SRL</des_ente>
 </row>
 
 <row>
@@ -42951,6 +43061,11 @@
 </row>
 
 <row>
+  <cod_ente>3XIN54S7</cod_ente>
+  <des_ente>Ambito Territoriale di Caccia n.1 - Potenza</des_ente>
+</row>
+
+<row>
   <cod_ente>istsc_csic849003</cod_ente>
   <des_ente>ISTITUTO COMPRENSIVO - IC MANDATORICCIO</des_ente>
 </row>
@@ -43226,6 +43341,11 @@
 </row>
 
 <row>
+  <cod_ente>istsc_alis016008</cod_ente>
+  <des_ente>ISTITUTO DI ISTRUZIONE SUPERIORE UMBERTO ECO</des_ente>
+</row>
+
+<row>
   <cod_ente>idisae</cod_ente>
   <des_ente>Istituto D'Istruzione Superiore Albert Einstein</des_ente>
 </row>
@@ -43403,11 +43523,6 @@
 <row>
   <cod_ente>c_d803</cod_ente>
   <des_ente>Comune di Frisa</des_ente>
-</row>
-
-<row>
-  <cod_ente>istsc_svps02000d</cod_ente>
-  <des_ente>LICEO SCIENTIFICO - 'ARTURO ISSEL' - FINALE L.</des_ente>
 </row>
 
 <row>
@@ -44411,6 +44526,11 @@
 </row>
 
 <row>
+  <cod_ente>X0VD5BKP</cod_ente>
+  <des_ente>NA55 IC PISCICELLI-MAIURI</des_ente>
+</row>
+
+<row>
   <cod_ente>fedna_rm</cod_ente>
   <des_ente>Federazione Nazionale Ordini dei Tecnici Sanitari di Radiologia Medica e delle Professioni Sanitarie Tecniche, della riabilitazione e della prevenzione</des_ente>
 </row>
@@ -44563,6 +44683,11 @@
 <row>
   <cod_ente>istsc_mepm010009</cod_ente>
   <des_ente>ISTITUTO MAGISTRALE - ' AINIS ' MESSINA</des_ente>
+</row>
+
+<row>
+  <cod_ente>F2SWGCW9</cod_ente>
+  <des_ente>Università Telematica degli Studi IUL</des_ente>
 </row>
 
 <row>
@@ -46178,6 +46303,11 @@
 <row>
   <cod_ente>ctsrm_ra</cod_ente>
   <des_ente>Ordine dei Tecnici Sanitari di Radiologia Medica e delle Professioni Sanitarie Tecniche della Riabilitazione e della Prevenzione di Ravenna</des_ente>
+</row>
+
+<row>
+  <cod_ente>cdop_076</cod_ente>
+  <des_ente>Collegio Delle Ostetriche della Provincia di Potenza</des_ente>
 </row>
 
 <row>
@@ -49106,6 +49236,11 @@
 </row>
 
 <row>
+  <cod_ente>LOPZE33J</cod_ente>
+  <des_ente>ISTITUZIONE TEATRO BAGLIO</des_ente>
+</row>
+
+<row>
   <cod_ente>c_b711</cod_ente>
   <des_ente>Comune di Capriolo</des_ente>
 </row>
@@ -49898,6 +50033,11 @@
 <row>
   <cod_ente>istsc_ctic856009</cod_ente>
   <des_ente>ISTITUTO COMPRENSIVO - IC GIOVANNI VERGA - VIAGRANDE</des_ente>
+</row>
+
+<row>
+  <cod_ente>YDVEYO5N</cod_ente>
+  <des_ente>WATER ALLIANCE ACQUE DI LOMBARDIA</des_ente>
 </row>
 
 <row>
@@ -52316,6 +52456,11 @@
 </row>
 
 <row>
+  <cod_ente>4C6P4HP6</cod_ente>
+  <des_ente>Bologna Servizi Cimiteriali srl</des_ente>
+</row>
+
+<row>
   <cod_ente>c_g485</cod_ente>
   <des_ente>Comune di Pescate</des_ente>
 </row>
@@ -53613,6 +53758,11 @@
 <row>
   <cod_ente>istsc_naee15100r</cod_ente>
   <des_ente>DIREZIONE DIDATTICA - MUGNANO 1 - SEQUINO CAPOLUOGO</des_ente>
+</row>
+
+<row>
+  <cod_ente>NW2VXORJ</cod_ente>
+  <des_ente>ORDINE DEI FISIOTERAPISTI DI NAPOLI AVELLINO BENEVENTO E CASERTA</des_ente>
 </row>
 
 <row>
@@ -57231,11 +57381,6 @@
 </row>
 
 <row>
-  <cod_ente>as_PC</cod_ente>
-  <des_ente>Azienda USL Piacenza</des_ente>
-</row>
-
-<row>
   <cod_ente>asucmal</cod_ente>
   <des_ente>Amministrazione Separata Usi Civici di Mala</des_ente>
 </row>
@@ -57243,6 +57388,11 @@
 <row>
   <cod_ente>sercom</cod_ente>
   <des_ente>Servizi Comunali Spa</des_ente>
+</row>
+
+<row>
+  <cod_ente>as_PC</cod_ente>
+  <des_ente>Azienda USL Piacenza</des_ente>
 </row>
 
 <row>
@@ -57923,6 +58073,11 @@
 <row>
   <cod_ente>c_m204</cod_ente>
   <des_ente>Comune di Zungri</des_ente>
+</row>
+
+<row>
+  <cod_ente>MRI3MBTT</cod_ente>
+  <des_ente>AMBITO TERRITORIALE DI CACCIA AREE CONTIGUE</des_ente>
 </row>
 
 <row>
@@ -58953,6 +59108,11 @@
 <row>
   <cod_ente>izs_um</cod_ente>
   <des_ente>Istituto Zooprofilattico Sperimentale dell'Umbria e delle Marche Togo Rosati</des_ente>
+</row>
+
+<row>
+  <cod_ente>comvalfo</cod_ente>
+  <des_ente>Comune di Valfornace</des_ente>
 </row>
 
 <row>
@@ -61806,6 +61966,11 @@
 </row>
 
 <row>
+  <cod_ente>msu</cod_ente>
+  <des_ente>Lucca Plus s.r.l.</des_ente>
+</row>
+
+<row>
   <cod_ente>edsa</cod_ente>
   <des_ente>Ente di Sviluppo Agricolo</des_ente>
 </row>
@@ -62336,11 +62501,6 @@
 </row>
 
 <row>
-  <cod_ente>istsc_rmic89300v</cod_ente>
-  <des_ente>ISTITUTO COMPRENSIVO - IC BACCELLI - TIVOLI</des_ente>
-</row>
-
-<row>
   <cod_ente>TQDBU3BY</cod_ente>
   <des_ente>FUNIVIE MONTE BIANCO SPA</des_ente>
 </row>
@@ -62533,11 +62693,6 @@
 <row>
   <cod_ente>c_a973</cod_ente>
   <des_ente>Comune di Bonifati</des_ente>
-</row>
-
-<row>
-  <cod_ente>istsc_anic84500p</cod_ente>
-  <des_ente>ISTITUTO COMPRENSIVO - FABRIANO EST 'ALDO MORO'</des_ente>
 </row>
 
 <row>
@@ -63781,11 +63936,6 @@
 </row>
 
 <row>
-  <cod_ente>iserrl</cod_ente>
-  <des_ente>Isera S.R.L.</des_ente>
-</row>
-
-<row>
   <cod_ente>udcin</cod_ente>
   <des_ente>Unione Dei Comuni I Nuraghi di Monte Idda e Fanaris</des_ente>
 </row>
@@ -63913,6 +64063,11 @@
 <row>
   <cod_ente>istsc_vaic828005</cod_ente>
   <des_ente>ISTITUTO COMPRENSIVO - I.C. CARAVATE 'G.A.FRATTINI'</des_ente>
+</row>
+
+<row>
+  <cod_ente>K0YUGDZ8</cod_ente>
+  <des_ente>ORDINE DELLA PROFESSIONE SANITARIA DI FISIOTERAPISTA</des_ente>
 </row>
 
 <row>
@@ -64161,11 +64316,6 @@
 </row>
 
 <row>
-  <cod_ente>c_a662</cod_ente>
-  <des_ente>Comune di Bari</des_ente>
-</row>
-
-<row>
   <cod_ente>istsc_fotd010002</cod_ente>
   <des_ente>Istituto Tecnico Economico Statale C. Matteucci</des_ente>
 </row>
@@ -64173,6 +64323,11 @@
 <row>
   <cod_ente>c_e912</cod_ente>
   <des_ente>Comune di Marano Vicentino</des_ente>
+</row>
+
+<row>
+  <cod_ente>c_a662</cod_ente>
+  <des_ente>Comune di Bari</des_ente>
 </row>
 
 <row>
@@ -64606,6 +64761,11 @@
 </row>
 
 <row>
+  <cod_ente>PHUSHP85</cod_ente>
+  <des_ente>TERRA DI LAVORO SPA</des_ente>
+</row>
+
+<row>
   <cod_ente>upm_082</cod_ente>
   <des_ente>Unione dei comuni Pizzo Marabito</des_ente>
 </row>
@@ -64723,11 +64883,6 @@
 <row>
   <cod_ente>istsc_peis00300x</cod_ente>
   <des_ente>ISTRUZIONE SECONDARIA SUPERIORE - IS ITC E.ALESSANDRINI CON SEZ. ITI</des_ente>
-</row>
-
-<row>
-  <cod_ente>cmv_027</cod_ente>
-  <des_ente>Conservatorio di Musica "Benedetto Marcello"</des_ente>
 </row>
 
 <row>
@@ -65046,13 +65201,13 @@
 </row>
 
 <row>
-  <cod_ente>aspsp</cod_ente>
-  <des_ente>Azienda di Servizi alla Persona di Spilimbergo</des_ente>
+  <cod_ente>c_d028</cod_ente>
+  <des_ente>Comune di Corno Giovine</des_ente>
 </row>
 
 <row>
-  <cod_ente>c_d028</cod_ente>
-  <des_ente>Comune di Corno Giovine</des_ente>
+  <cod_ente>aspsp</cod_ente>
+  <des_ente>Azienda di Servizi alla Persona di Spilimbergo</des_ente>
 </row>
 
 <row>
@@ -66241,13 +66396,13 @@
 </row>
 
 <row>
-  <cod_ente>itigm</cod_ente>
-  <des_ente>I.I.S. Marconi Mangano</des_ente>
+  <cod_ente>istsc_ctic899007</cod_ente>
+  <des_ente>ISTITUTO COMPRENSIVO - IC SAN GIORGIO - CATANIA</des_ente>
 </row>
 
 <row>
-  <cod_ente>istsc_ctic899007</cod_ente>
-  <des_ente>ISTITUTO COMPRENSIVO - IC SAN GIORGIO - CATANIA</des_ente>
+  <cod_ente>itigm</cod_ente>
+  <des_ente>I.I.S. Marconi Mangano</des_ente>
 </row>
 
 <row>
@@ -67461,6 +67616,11 @@
 </row>
 
 <row>
+  <cod_ente>48LQPAQ6</cod_ente>
+  <des_ente>ORDINE DEI BIOLOGI DEL PIEMONTE, DELLA LIGURIA E DELLA VALLE D'AOSTA</des_ente>
+</row>
+
+<row>
   <cod_ente>istsc_agic83100g</cod_ente>
   <des_ente>ISTITUTO COMPRENSIVO - IC 'V.BRANCATI'</des_ente>
 </row>
@@ -67928,6 +68088,11 @@
 <row>
   <cod_ente>odapc</cod_ente>
   <des_ente>Ordine Degli Avvocati di Pistoia</des_ente>
+</row>
+
+<row>
+  <cod_ente>VLOT61RV</cod_ente>
+  <des_ente>CONSORZIO INTERUNIVERSITARIO SISTEMI INTEGRATI PER L'ACCESSO</des_ente>
 </row>
 
 <row>
@@ -69141,6 +69306,11 @@
 </row>
 
 <row>
+  <cod_ente>3CRB3CUM</cod_ente>
+  <des_ente>Fermo Asite SrlU</des_ente>
+</row>
+
+<row>
   <cod_ente>istsc_rcic81900t</cod_ente>
   <des_ente>Istituto Comprensivo S. Eufemia Sinopoli Melicucca</des_ente>
 </row>
@@ -69636,6 +69806,11 @@
 </row>
 
 <row>
+  <cod_ente>istsc_anic84500p</cod_ente>
+  <des_ente>Istituto Comprensivo "Moro - Carloni"</des_ente>
+</row>
+
+<row>
   <cod_ente>gdf</cod_ente>
   <des_ente>Guardia di Finanza</des_ente>
 </row>
@@ -69678,11 +69853,6 @@
 <row>
   <cod_ente>c_c346</cod_ente>
   <des_ente>Comune di Castropignano</des_ente>
-</row>
-
-<row>
-  <cod_ente>unical</cod_ente>
-  <des_ente>UNIVERSITA' DELLA CALABRIA</des_ente>
 </row>
 
 <row>
@@ -70016,13 +70186,13 @@
 </row>
 
 <row>
-  <cod_ente>obpfic</cod_ente>
-  <des_ente>Organismo Bilaterale per La Formazione in Campania</des_ente>
+  <cod_ente>istsc_navc010009</cod_ente>
+  <des_ente>CONVITTO NAZIONALE - CONV.NAZ.EMAN.LE II-NAPOLI-</des_ente>
 </row>
 
 <row>
-  <cod_ente>istsc_navc010009</cod_ente>
-  <des_ente>CONVITTO NAZIONALE - CONV.NAZ.EMAN.LE II-NAPOLI-</des_ente>
+  <cod_ente>obpfic</cod_ente>
+  <des_ente>Organismo Bilaterale per La Formazione in Campania</des_ente>
 </row>
 
 <row>
@@ -70403,6 +70573,11 @@
 <row>
   <cod_ente>crosc_</cod_ente>
   <des_ente>Casa di Riposo Ospedale Santa Croce</des_ente>
+</row>
+
+<row>
+  <cod_ente>cmv_027</cod_ente>
+  <des_ente>Conservatorio di Musica "Benedetto Marcello" di Venezia</des_ente>
 </row>
 
 <row>
@@ -71171,13 +71346,13 @@
 </row>
 
 <row>
-  <cod_ente>asoom_to</cod_ente>
-  <des_ente>Azienda Ospedaliera Ordine Mauriziano di Torino</des_ente>
+  <cod_ente>istsc_TOIS04700R</cod_ente>
+  <des_ente>ISTITUTO SUPERIORE - GALILEI - FERRARI</des_ente>
 </row>
 
 <row>
-  <cod_ente>istsc_TOIS04700R</cod_ente>
-  <des_ente>ISTITUTO SUPERIORE - GALILEI - FERRARI</des_ente>
+  <cod_ente>asoom_to</cod_ente>
+  <des_ente>Azienda Ospedaliera Ordine Mauriziano di Torino</des_ente>
 </row>
 
 <row>
@@ -71283,6 +71458,11 @@
 <row>
   <cod_ente>istsc_csic88700t</cod_ente>
   <des_ente>ISTITUTO COMPRENSIVO MONTALTO U.-LATT.ROTA G-S.B. di MONTALTO UFFUGO (CS)</des_ente>
+</row>
+
+<row>
+  <cod_ente>91ADN2SF</cod_ente>
+  <des_ente>CONVITTO AUDIOFONOLESI - MARSALA</des_ente>
 </row>
 
 <row>
@@ -71606,6 +71786,11 @@
 </row>
 
 <row>
+  <cod_ente>GXHKLN14</cod_ente>
+  <des_ente>Centro Regionale Information Communication Technology</des_ente>
+</row>
+
+<row>
   <cod_ente>cisaf</cod_ente>
   <des_ente>Consorzio per L'Integrazione e L'Inclusione Sociale dell'Ambito Territoriale Sociale di Cisternino Fasano Ostuni</des_ente>
 </row>
@@ -71901,6 +72086,11 @@
 </row>
 
 <row>
+  <cod_ente>H2BTSE6F</cod_ente>
+  <des_ente>CONSORZIO AUTOSTRADE ITALIANE ENERGIA</des_ente>
+</row>
+
+<row>
   <cod_ente>istsc_bgsl01000t</cod_ente>
   <des_ente>LICEO ARTISTICO - ' GIACOMO E PIO MANZU' '</des_ente>
 </row>
@@ -71948,6 +72138,11 @@
 <row>
   <cod_ente>isres</cod_ente>
   <des_ente>Istituto Superiore Regionale Etnografico</des_ente>
+</row>
+
+<row>
+  <cod_ente>2A85YKMU</cod_ente>
+  <des_ente>S.I.S.A.M. S.P.A.</des_ente>
 </row>
 
 <row>
@@ -72403,6 +72598,11 @@
 <row>
   <cod_ente>c_h447</cod_ente>
   <des_ente>Comune di Roccasparvera</des_ente>
+</row>
+
+<row>
+  <cod_ente>VTH34HOV</cod_ente>
+  <des_ente>SOCIETA' DELLA SALUTE FIORENTINA SUD EST</des_ente>
 </row>
 
 <row>
@@ -73951,8 +74151,8 @@
 </row>
 
 <row>
-  <cod_ente>istsc_rmic8fh006</cod_ente>
-  <des_ente>ISTITUTO COMPRENSIVO - IC VIA FRIGNANI</des_ente>
+  <cod_ente>B2QSA92Z</cod_ente>
+  <des_ente>SISAM SERVIZI S.R.L.</des_ente>
 </row>
 
 <row>
@@ -74123,6 +74323,11 @@
 <row>
   <cod_ente>istsc_chtd04000g</cod_ente>
   <des_ente>ISTITUTO TECNICO COMMERCIALE - 'F.PALIZZI' VASTO</des_ente>
+</row>
+
+<row>
+  <cod_ente>XURJPVZN</cod_ente>
+  <des_ente>Comune di Uggiate con Ronago</des_ente>
 </row>
 
 <row>
@@ -74723,6 +74928,11 @@
 <row>
   <cod_ente>c_e389</cod_ente>
   <des_ente>Comune di Joppolo</des_ente>
+</row>
+
+<row>
+  <cod_ente>P9RZK6PI</cod_ente>
+  <des_ente>GLOBAL SERVICE S.R.L.</des_ente>
 </row>
 
 <row>
@@ -76146,6 +76356,11 @@
 </row>
 
 <row>
+  <cod_ente>W5J1PAI1</cod_ente>
+  <des_ente>CENTRO EUROPEO DI FORMAZIONE E RICERCA IN INGEGNERIA SISMICA - EUCENTRE</des_ente>
+</row>
+
+<row>
   <cod_ente>istsc_ssic834004</cod_ente>
   <des_ente>ISTITUTO COMPRENSIVO - ARZACHENA N. 2</des_ente>
 </row>
@@ -77298,11 +77513,6 @@
 <row>
   <cod_ente>c_c608</cod_ente>
   <des_ente>Comune di Chianciano Terme</des_ente>
-</row>
-
-<row>
-  <cod_ente>istsc_vbic81100a</cod_ente>
-  <des_ente>ISTITUTO COMPRENSIVO - IC 'C. REBORA'</des_ente>
 </row>
 
 <row>
@@ -78886,6 +79096,11 @@
 </row>
 
 <row>
+  <cod_ente>PZ1KNN9R</cod_ente>
+  <des_ente>San Vincenzo Servizi</des_ente>
+</row>
+
+<row>
   <cod_ente>istsc_tpic836004</cod_ente>
   <des_ente>ISTITUTO COMPRENSIVO - G.G.CIACCIO MONTALTO (TP)</des_ente>
 </row>
@@ -80116,6 +80331,11 @@
 </row>
 
 <row>
+  <cod_ente>MXP7BAE8</cod_ente>
+  <des_ente>SERVIZI FONDO BOMBOLE METANO</des_ente>
+</row>
+
+<row>
   <cod_ente>c_h827</cod_ente>
   <des_ente>Comune di San Donato Milanese</des_ente>
 </row>
@@ -81031,6 +81251,11 @@
 </row>
 
 <row>
+  <cod_ente>istsc_nasl010002</cod_ente>
+  <des_ente>LICEO ARTISTICO - LIC.ARTISTICO-NAPOLI-</des_ente>
+</row>
+
+<row>
   <cod_ente>istsc_veic847001</cod_ente>
   <des_ente>ISTITUTO COMPRENSIVO - CRISTOFORO COLOMBO</des_ente>
 </row>
@@ -81103,6 +81328,11 @@
 <row>
   <cod_ente>orge_mar</cod_ente>
   <des_ente>Ordine dei Geologi delle Marche</des_ente>
+</row>
+
+<row>
+  <cod_ente>LBKOVX0Q</cod_ente>
+  <des_ente>SOCIETA INFORMATICA SRL</des_ente>
 </row>
 
 <row>
@@ -83323,6 +83553,11 @@
 <row>
   <cod_ente>c_h165</cod_ente>
   <des_ente>Comune di Ruviano</des_ente>
+</row>
+
+<row>
+  <cod_ente>c_b991</cod_ente>
+  <des_ente>COMUNE DI CASORZO MONFERRATO</des_ente>
 </row>
 
 <row>
@@ -88546,6 +88781,11 @@
 </row>
 
 <row>
+  <cod_ente>istsc_rmic89300v</cod_ente>
+  <des_ente>IC TIVOLI II - TIVOLI CENTRO</des_ente>
+</row>
+
+<row>
   <cod_ente>c_i604</cod_ente>
   <des_ente>Comune di Senales</des_ente>
 </row>
@@ -88793,6 +89033,11 @@
 <row>
   <cod_ente>istsc_clee001006</cod_ente>
   <des_ente>Circolo Didattico Leonardo Sciascia</des_ente>
+</row>
+
+<row>
+  <cod_ente>IABEGIZH</cod_ente>
+  <des_ente>AS Retigas Srl</des_ente>
 </row>
 
 <row>
@@ -89046,13 +89291,13 @@
 </row>
 
 <row>
-  <cod_ente>c_e877</cod_ente>
-  <des_ente>Comune di Mandas</des_ente>
+  <cod_ente>cmdca</cod_ente>
+  <des_ente>Citta' Metropolitana di Cagliari</des_ente>
 </row>
 
 <row>
-  <cod_ente>cmdca</cod_ente>
-  <des_ente>Citta' Metropolitana di Cagliari</des_ente>
+  <cod_ente>c_e877</cod_ente>
+  <des_ente>Comune di Mandas</des_ente>
 </row>
 
 <row>
@@ -89063,11 +89308,6 @@
 <row>
   <cod_ente>asl_bo</cod_ente>
   <des_ente>Azienda USL di Bologna</des_ente>
-</row>
-
-<row>
-  <cod_ente>PRIS0090</cod_ente>
-  <des_ente>Istituto Istruzione Superiore C Rondani</des_ente>
 </row>
 
 <row>
@@ -91316,6 +91556,11 @@
 </row>
 
 <row>
+  <cod_ente>I16DS5TO</cod_ente>
+  <des_ente>FONDAZIONE ITS TEC TERRITORIO ENERGIA COSTRUIRE</des_ente>
+</row>
+
+<row>
   <cod_ente>istsc_blis008006</cod_ente>
   <des_ente>Istituto Superiore di Feltre</des_ente>
 </row>
@@ -91901,11 +92146,6 @@
 </row>
 
 <row>
-  <cod_ente>c_b991</cod_ente>
-  <des_ente>Comune di Casorzo</des_ente>
-</row>
-
-<row>
   <cod_ente>c_c623</cod_ente>
   <des_ente>Comune di Chiavenna</des_ente>
 </row>
@@ -91998,6 +92238,11 @@
 <row>
   <cod_ente>istsc_imic800005</cod_ente>
   <des_ente>ISTITUTO COMPRENSIVO - IC PIEVE DI TECO</des_ente>
+</row>
+
+<row>
+  <cod_ente>SQ4C1NAN</cod_ente>
+  <des_ente>ISTITUTO ITALIANO DI NUMISMATICA</des_ente>
 </row>
 
 <row>
@@ -92358,11 +92603,6 @@
 <row>
   <cod_ente>ftdt</cod_ente>
   <des_ente>Fondazione Teatro della Toscana</des_ente>
-</row>
-
-<row>
-  <cod_ente>msu</cod_ente>
-  <des_ente>Metro Srl Unipersonale</des_ente>
 </row>
 
 <row>
@@ -92788,6 +93028,11 @@
 <row>
   <cod_ente>istsc_leic829006</cod_ente>
   <des_ente>ISTITUTO COMPRENSIVO - MELENDUGNO</des_ente>
+</row>
+
+<row>
+  <cod_ente>55N6KWMK</cod_ente>
+  <des_ente>EcoAmbiente Salerno SpA</des_ente>
 </row>
 
 <row>
@@ -94956,6 +95201,11 @@
 </row>
 
 <row>
+  <cod_ente>3NJRG27J</cod_ente>
+  <des_ente>Wabes srl.</des_ente>
+</row>
+
+<row>
   <cod_ente>istsc_psic837002</cod_ente>
   <des_ente>ISTITUTO COMPRENSIVO - IC URBINO'P. VOLPONI'</des_ente>
 </row>
@@ -95088,6 +95338,11 @@
 <row>
   <cod_ente>cpiav_0</cod_ente>
   <des_ente>Ordine delle Professioni Infermieristiche di Messina</des_ente>
+</row>
+
+<row>
+  <cod_ente>DGSDOREU</cod_ente>
+  <des_ente>Fondo Conoscenza</des_ente>
 </row>
 
 <row>
@@ -98336,6 +98591,11 @@
 </row>
 
 <row>
+  <cod_ente>MTW844VW</cod_ente>
+  <des_ente>C.I.R.A. (CENTRO ITALIANO RICERCHE AEROSPAZIALI) S.C.P.A</des_ente>
+</row>
+
+<row>
   <cod_ente>c_b351</cod_ente>
   <des_ente>Comune di Caggiano</des_ente>
 </row>
@@ -98636,11 +98896,6 @@
 </row>
 
 <row>
-  <cod_ente>MDDV4KRP</cod_ente>
-  <des_ente>Istituto per il credito Sportivo</des_ente>
-</row>
-
-<row>
   <cod_ente>cof_pc</cod_ente>
   <des_ente>Consorzio Fitosanitario Provinciale di Piacenza</des_ente>
 </row>
@@ -98698,6 +98953,11 @@
 <row>
   <cod_ente>cpar</cod_ente>
   <des_ente>Collegio Provinciale Agrotecnici Ravenna</des_ente>
+</row>
+
+<row>
+  <cod_ente>XZR4RNHR</cod_ente>
+  <des_ente>Ministero dell'Interno - Dipartimento della Pubblica Sicurezza - Polizia di Stato</des_ente>
 </row>
 
 <row>
@@ -98838,6 +99098,11 @@
 <row>
   <cod_ente>c_i232</cod_ente>
   <des_ente>Comune di Santa Maria a Monte</des_ente>
+</row>
+
+<row>
+  <cod_ente>DB5H2LR5</cod_ente>
+  <des_ente>CONSORZIO DI BONIFICA DELLA CALABRIA</des_ente>
 </row>
 
 <row>
@@ -100081,6 +100346,11 @@
 </row>
 
 <row>
+  <cod_ente>S6EWQUCT</cod_ente>
+  <des_ente>CONSORZIO ETRURIA MERIDIONALE E SABINA</des_ente>
+</row>
+
+<row>
   <cod_ente>istsc_bsic836004</cod_ente>
   <des_ente>ISTITUTO COMPRENSIVO - IC BOVEZZO</des_ente>
 </row>
@@ -100723,6 +100993,11 @@
 <row>
   <cod_ente>c_d508</cod_ente>
   <des_ente>Comune di Fasano</des_ente>
+</row>
+
+<row>
+  <cod_ente>MDDV4KRP</cod_ente>
+  <des_ente>Istituto per il Credito Sportivo e Culturale S.p.A.</des_ente>
 </row>
 
 <row>
@@ -101393,11 +101668,6 @@
 <row>
   <cod_ente>cnt_ts</cod_ente>
   <des_ente>Consiglio Notarile della Provincia di Trieste</des_ente>
-</row>
-
-<row>
-  <cod_ente>odcpt</cod_ente>
-  <des_ente>Ordine Dei Chimici della Provincia di Treviso</des_ente>
 </row>
 
 <row>
@@ -103301,6 +103571,11 @@
 </row>
 
 <row>
+  <cod_ente>YQTJUK0G</cod_ente>
+  <des_ente>COMMISSARIO STRAORDINARIO RISCHIO IDROGEOLOGICO REGIONE SARDEGNA</des_ente>
+</row>
+
+<row>
   <cod_ente>c_l512</cod_ente>
   <des_ente>Comune di Ussana</des_ente>
 </row>
@@ -103376,8 +103651,18 @@
 </row>
 
 <row>
+  <cod_ente>asbucbc</cod_ente>
+  <des_ente>Amministrazione Separata B.U.C. Frazione Brunico Centro</des_ente>
+</row>
+
+<row>
   <cod_ente>istsc_bgic89900p</cod_ente>
   <des_ente>ISTITUTO COMPRENSIVO - COLOGNO AL SERIO 'BRAVI'</des_ente>
+</row>
+
+<row>
+  <cod_ente>UH29DKNC</cod_ente>
+  <des_ente>airiminum 2014 s.p.a.</des_ente>
 </row>
 
 <row>
@@ -104771,6 +105056,11 @@
 </row>
 
 <row>
+  <cod_ente>unical</cod_ente>
+  <des_ente>Università della Calabria</des_ente>
+</row>
+
+<row>
   <cod_ente>c_i948</cod_ente>
   <des_ente>Comune di Stelvio</des_ente>
 </row>
@@ -105266,13 +105556,13 @@
 </row>
 
 <row>
-  <cod_ente>istsc_rnee018005</cod_ente>
-  <des_ente>DIREZIONE DIDATTICA - 2 CIRCOLO SANTARCANGELO DI R.</des_ente>
+  <cod_ente>istsc_caee017004</cod_ente>
+  <des_ente>DIREZIONE DIDATTICA - IS MIRRIONIS (CAGLIARI)</des_ente>
 </row>
 
 <row>
-  <cod_ente>istsc_caee017004</cod_ente>
-  <des_ente>DIREZIONE DIDATTICA - IS MIRRIONIS (CAGLIARI)</des_ente>
+  <cod_ente>istsc_rnee018005</cod_ente>
+  <des_ente>DIREZIONE DIDATTICA - 2 CIRCOLO SANTARCANGELO DI R.</des_ente>
 </row>
 
 <row>
@@ -105313,6 +105603,11 @@
 <row>
   <cod_ente>iacpme</cod_ente>
   <des_ente>Istituto Autonomo Case Popolari di Messina</des_ente>
+</row>
+
+<row>
+  <cod_ente>istsc_geis01900v</cod_ente>
+  <des_ente>ISTITUTO DI ISTRUZIONE SECONDARIA SUPERIORE AMADEO PETER GIANNINI</des_ente>
 </row>
 
 <row>
@@ -106476,11 +106771,6 @@
 </row>
 
 <row>
-  <cod_ente>istsc_mitf390005</cod_ente>
-  <des_ente>ISTITUTO TECNICO INDUSTRIALE - E.MATTEI</des_ente>
-</row>
-
-<row>
   <cod_ente>istsc_nais099003</cod_ente>
   <des_ente>ISTITUTO SUPERIORE - IST. SUP.' G.SIANI'-NAPOLI-</des_ente>
 </row>
@@ -107608,6 +107898,11 @@
 <row>
   <cod_ente>istsc_rmic8er00b</cod_ente>
   <des_ente>ISTITUTO COMPRENSIVO - IC VIA N.M. NICOLAI</des_ente>
+</row>
+
+<row>
+  <cod_ente>asbuclu</cod_ente>
+  <des_ente>Amministrazione Separata Beni Uso Civico Lutago</des_ente>
 </row>
 
 <row>
@@ -108833,6 +109128,11 @@
 <row>
   <cod_ente>ahs</cod_ente>
   <des_ente>Aps Holding Spa</des_ente>
+</row>
+
+<row>
+  <cod_ente>3RF8YLNL</cod_ente>
+  <des_ente>ENIT S.P.A.</des_ente>
 </row>
 
 <row>
@@ -111541,13 +111841,13 @@
 </row>
 
 <row>
-  <cod_ente>istsc_rmis00900e</cod_ente>
-  <des_ente>ISTRUZIONE SECONDARIA SUPERIORE - IISS ITC DI VITTORIO-ITI LATTANZIO</des_ente>
+  <cod_ente>YCA3CBNF</cod_ente>
+  <des_ente>CINECITTA' S.p.A.</des_ente>
 </row>
 
 <row>
-  <cod_ente>YCA3CBNF</cod_ente>
-  <des_ente>CINECITTA' S.p.A.</des_ente>
+  <cod_ente>istsc_rmis00900e</cod_ente>
+  <des_ente>ISTRUZIONE SECONDARIA SUPERIORE - IISS ITC DI VITTORIO-ITI LATTANZIO</des_ente>
 </row>
 
 <row>
@@ -112536,11 +112836,6 @@
 </row>
 
 <row>
-  <cod_ente>NW2VXORJ</cod_ente>
-  <des_ente>ORDINE INTERPROVINCIALE DELLA PROFESSIONE SANITARIA DI FISIOTERAPISTA DI NAPOLI AVELLINO BENEVENTO E CASERTA</des_ente>
-</row>
-
-<row>
   <cod_ente>c_e593</cod_ente>
   <des_ente>Comune di Limido Comasco</des_ente>
 </row>
@@ -112593,6 +112888,11 @@
 <row>
   <cod_ente>istsc_vric86400a</cod_ente>
   <des_ente>ISTITUTO COMPRENSIVO - IC NEGRAR</des_ente>
+</row>
+
+<row>
+  <cod_ente>istsc_leic8an008</cod_ente>
+  <des_ente>ISTITUTO COMPRENSIVO "MADRE TERESA DI CALCUTTA" DI PRESICCE-ACQUARICA</des_ente>
 </row>
 
 <row>
@@ -112818,11 +113118,6 @@
 <row>
   <cod_ente>pn_cmbos</cod_ente>
   <des_ente>Ente di Gestione delle Aree Protette dell'Appennino Piemontese</des_ente>
-</row>
-
-<row>
-  <cod_ente>97PC5PQ3</cod_ente>
-  <des_ente>COLLEGIO DEL MONDO UNITO DELL'ADRIATICO - ONLUS</des_ente>
 </row>
 
 <row>
@@ -113243,6 +113538,11 @@
 <row>
   <cod_ente>icc_048</cod_ente>
   <des_ente>Istituto Comprensivo di Castelfiorentino</des_ente>
+</row>
+
+<row>
+  <cod_ente>asbucz</cod_ente>
+  <des_ente>Amministrazione Separata Beni Uso Civico San Giacomo</des_ente>
 </row>
 
 <row>

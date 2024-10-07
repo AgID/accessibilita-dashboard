@@ -15,12 +15,17 @@
             {
                 "anno_dichiarazione": 2023,
                 "num_dichiarazione_pub_anno": 15406
+            },
+            {
+                "anno_dichiarazione": 2024,
+                "num_dichiarazione_pub_anno": 16521
             }
         ],
         "intestazione": [
             {
-                "periodo_dichiarazioni": "2020 - 2023",
-                "dat_ultimo_rilevamento": "2023-09-23"
+                "periodo_dichiarazioni": "2020 - 2024",
+                "dat_ultimo_rilevamento": "2024-09-23"
             }
         ]
     }
+

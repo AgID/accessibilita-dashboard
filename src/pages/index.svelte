@@ -16,29 +16,23 @@
 
   let totalerroriConformita;
 
-  let monitoraggioDate;
-  let dichiarazioniDate;
   let obiettiviDate;
   let monitoraggioDateFormatted;
   let dichiarazioniDateFormatted;
   let obiettiviDateFormatted;
 
-  let annoRiferimento;
+  let annoRiferimentoObi;
 
   onMount(async () => {
     const rsMon = await fetch("/data/monitoraggio_intestazione.json");
     const dataMon = await rsMon.json();
     pagineValutate = dataMon[0].num_pagine_valutate;
     sitiValutati = dataMon[0].num_siti_monitorati;
+    monitoraggioDateFormatted = df(dp(dataMon[0].dat_ultimo_monitoraggio));
 
     const rsPDF = await fetch("/data/monitoraggio_pdf_intestazione.json");
     const dataPDF = await rsPDF.json();
     pdfValutati = dataPDF[0].num_pdf_valutati;
-
-    const rsMonitoraggio = await fetch("/data/monitoraggio_data.json");
-    const dataMonitoraggio = await rsMonitoraggio.json();
-    monitoraggioDate = dataMonitoraggio.find((d) => d.indicatore == "data_ultimo_aggiornamento_pagina").valore;
-    monitoraggioDateFormatted = df(dp(monitoraggioDate));
 
     const rsErr = await fetch("/data/errori_distribuzione_livello_conformita.json");
     const erroriConformita = await rsErr.json();
@@ -47,21 +41,14 @@
     const rsDic = await fetch("/data/dichiarazione_tot_intestazione.json");
     const dataDic = await rsDic.json();
     dichiarazioniAccessibilita = dataDic.find((d) => d.indicatore == "num_dichiarazioni_pub_tot").valore;
-
-    const rsDichiarazioni = await fetch("/data/dichiarazione_data.json");
-    const dataDichiarazioni = await rsDichiarazioni.json();
-    dichiarazioniDate = dataDichiarazioni.find((d) => d.indicatore == "data_ultimo_aggiornamento_pagina").valore;
-    dichiarazioniDateFormatted = df(dp(dichiarazioniDate));
+    dichiarazioniDateFormatted = df(dp(dataDic[0].dat_ult_agg_dichiarazione));
 
     const rsObi = await fetch("/data/obiettivi_intestazione.json");
     const dataObi = await rsObi.json();
     obiettiviAccessibilità = dataObi.find((d) => d.indicatore == "num_enti_obiettivi").valore;
-
-    const rsObiettivi = await fetch("/data/obiettivi_data.json");
-    const dataObiettivi = await rsObiettivi.json();
-    obiettiviDate = dataObiettivi.find((d) => d.indicatore == "data_ultimo_aggiornamento_pagina").valore;
+    obiettiviDate = dataObi[0].dat_ult_agg_obiettivi
     obiettiviDateFormatted = df(dp(obiettiviDate));
-    annoRiferimento = obiettiviDateFormatted.slice(-4)
+    annoRiferimentoObi = dataObi[0].anno
   });
 </script>
 
@@ -362,7 +349,7 @@ href={$t("homepage.erroriMAUVElink")}
 
         <div class="col-lg-5 ps-0 pe-0 pt-lg-5 pb-lg-4">
           <KpiCard
-            title={$t("homepage.obiettiviCardTitle", { anno: annoRiferimento })}
+            title={$t("homepage.obiettiviCardTitle", { anno: annoRiferimentoObi })}
             kpi={nf(obiettiviAccessibilità)}
             caption="{$t('homepage.latestUpdate')}{obiettiviDateFormatted}"
             linkText={$t("homepage.obiettiviPageLink")}

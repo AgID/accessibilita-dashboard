@@ -39,10 +39,7 @@
     const rs = await fetch("/data/dichiarazione_tematici_regione.json");
     response = await rs.json();
     loading = false;
-
-    const riferimento = await fetch("/data/dichiarazione_intestazione.json");
-    const dataRiferimento = await riferimento.json()
-    annoRiferimento = dataRiferimento[0].dat_ult_agg_dichiarazione.substr(0, 4)
+    annoRiferimento = response.intestazione.dat_ultimo_rilevamento.substr(0, 4)
   });
 </script>
 
@@ -51,12 +48,12 @@
     {columns}
     rows={response?.data}
     defaultSortBy="num_siti_tematici_con_dich"
-    title={$t("dicTemaTable.title", { anno: annoRiferimento })}
+    title={$t("dicTemaTable.title")}
     periodoMonitoraggio={response?.intestazione?.periodo_dichiarazioni.slice(-4)}
     didascalia={true}
   >
     <div slot="didascaliaSlot" class="didascalia">
-      {$t("dicTemaTable.description", { year: annoRiferimento, nextYear: +annoRiferimento +1 })}
+      {$t("dicTemaTable.description", { year: annoRiferimento})}
     </div>
   </DataTable>
 {/if}

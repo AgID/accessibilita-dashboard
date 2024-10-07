@@ -1,63 +1,63 @@
     {
         "data": [
             {
-                "perc_errori_su_tot_errori": 17.41643,
+                "perc_errori_su_tot_errori": 17.40402,
                 "cod_livello_conformita_norm_e": "A",
                 "criterio_di_successo_norm_e_en": "10.2.4.2 Page Titled",
                 "criterio_di_successo_norm_e_it": "10.2.4.2 Titolazione della pagina"
             },
             {
-                "perc_errori_su_tot_errori": 17.06686,
+                "perc_errori_su_tot_errori": 17.07276,
                 "cod_livello_conformita_norm_e": "A",
                 "criterio_di_successo_norm_e_en": "10.1.3.1 Info and Relationships",
                 "criterio_di_successo_norm_e_it": "10.1.3.1 Informazioni e correlazioni"
             },
             {
-                "perc_errori_su_tot_errori": 17.03770,
+                "perc_errori_su_tot_errori": 17.04362,
                 "cod_livello_conformita_norm_e": "A",
                 "criterio_di_successo_norm_e_en": "10.2.4.1 Bypass Blocks",
                 "criterio_di_successo_norm_e_it": "10.2.4.1 Salto di blocchi"
             },
             {
-                "perc_errori_su_tot_errori": 11.90196,
-                "cod_livello_conformita_norm_e": "A",
-                "criterio_di_successo_norm_e_en": "10.2.1.1 Keyboard",
-                "criterio_di_successo_norm_e_it": "10.2.1.1 Tastiera"
-            },
-            {
-                "perc_errori_su_tot_errori": 11.90196,
+                "perc_errori_su_tot_errori": 11.91639,
                 "cod_livello_conformita_norm_e": "A",
                 "criterio_di_successo_norm_e_en": "10.1.3.2 Meaningful Sequence",
                 "criterio_di_successo_norm_e_it": "10.1.3.2 Sequenza significativa"
             },
             {
-                "perc_errori_su_tot_errori": 11.90196,
+                "perc_errori_su_tot_errori": 11.91639,
+                "cod_livello_conformita_norm_e": "A",
+                "criterio_di_successo_norm_e_en": "10.2.1.1 Keyboard",
+                "criterio_di_successo_norm_e_it": "10.2.1.1 Tastiera"
+            },
+            {
+                "perc_errori_su_tot_errori": 11.91639,
                 "cod_livello_conformita_norm_e": "A",
                 "criterio_di_successo_norm_e_en": "10.2.4.3 Focus Order",
                 "criterio_di_successo_norm_e_it": "10.2.4.3 Ordine del focus"
             },
             {
-                "perc_errori_su_tot_errori": 9.93074,
+                "perc_errori_su_tot_errori": 9.97675,
                 "cod_livello_conformita_norm_e": "A",
                 "criterio_di_successo_norm_e_en": "10.3.1.1 Language of Page",
                 "criterio_di_successo_norm_e_it": "10.3.1.1 Lingua della pagina"
             },
             {
-                "perc_errori_su_tot_errori": 2.81627,
+                "perc_errori_su_tot_errori": 2.72883,
                 "cod_livello_conformita_norm_e": "A",
                 "criterio_di_successo_norm_e_en": "10.1.1.1 Non-text Content",
                 "criterio_di_successo_norm_e_it": "10.1.1.1 Contenuti non testuali"
             },
             {
-                "perc_errori_su_tot_errori": 0.02614,
+                "perc_errori_su_tot_errori": 0.02486,
                 "cod_livello_conformita_norm_e": "A",
                 "criterio_di_successo_norm_e_en": "10.4.1.1 Parsing",
                 "criterio_di_successo_norm_e_it": "10.4.1.1 Analisi sintattica (parsing)"
             }
         ],
         "intestazione": {
-            "periodo_monitoraggio": "2-2024",
-            "dat_ultimo_aggiornamento": "2024-06-30"
+            "periodo_monitoraggio": "3-2024",
+            "dat_ultimo_aggiornamento": "2024-09-30"
         }
     }
 
