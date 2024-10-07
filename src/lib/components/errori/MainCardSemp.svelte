@@ -7,8 +7,6 @@
 
   let erroriConformita;
   let totaleErroriConformita = 0;
-
-  let dataPagina;
   let dataPaginaFormatted;
 
   onMount(async () => {
@@ -21,14 +19,7 @@
       erroriConformita[0].num_sc_non_soddisfatti +
       erroriConformita[1].num_sc_non_soddisfatti;
 
-    const rs2 = await fetch("/data/errori_data.json");
-    const data2 = await rs2.json();
-    dataPagina = data2.find(
-      (d) => d.indicatore == "data_ultimo_aggiornamento_pagina"
-    ).valore;
-    dataPaginaFormatted = df(dp(dataPagina))
-
-
+    dataPaginaFormatted = df(dp(dataDistribuzioneConformita[0].dat_ultimo_monitoraggio))
   });
 </script>
 

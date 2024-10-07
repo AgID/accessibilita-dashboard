@@ -18,15 +18,8 @@
     numObiettivi = data.find(
       (d) => d.indicatore == "num_enti_obiettivi"
     ).valore;
-    anno = data.find(
-      (d) => d.indicatore == "num_enti_obiettivi"
-    ).dat_ult_agg_obiettivi;
-
-    const rs2 = await fetch("/data/obiettivi_data.json");
-    const data2 = await rs2.json();
-    dataPagina = data2.find(
-      (d) => d.indicatore == "data_ultimo_aggiornamento_pagina"
-    ).valore;
+    anno = data[0].anno
+    dataPagina = data[0].dat_ult_agg_obiettivi
     dataPaginaFormatted = df(dp(dataPagina))
 
   });

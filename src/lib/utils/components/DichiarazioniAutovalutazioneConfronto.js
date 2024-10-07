@@ -1,6 +1,6 @@
 export default {
     it: {
-        "dicAutovalConf.title": "Confronto dell’autovalutazione dei siti tematici e istituzionali delle PA",
+        "dicAutovalConf.title": "Confronto dell'autovalutazione dei siti tematici e istituzionali delle PA",
         "dicAutovalConf.timeframe": "Periodo monitoraggio: ",
         "dicAutovalConf.conformita": "Stato di conformità",
         "dicAutovalConf.sitiIst": "Siti istituzionali",

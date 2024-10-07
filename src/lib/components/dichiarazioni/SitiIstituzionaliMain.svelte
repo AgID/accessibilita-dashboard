@@ -17,11 +17,7 @@
       (d) => d.indicatore == "num_enti_con_dich_istituzionali_tutti_anni"
     ).valore;
 
-    const rs2 = await fetch("/data/dichiarazione_istituzionali_data.json");
-    const data2 = await rs2.json();
-    date = data2.find(
-      (d) => d.indicatore == "data_ultimo_aggiornamento_pagina"
-    ).valore;
+    date = data[0].dat_ult_agg_dichiarazione
     formattedDate = df(dp(date));
   });
 </script>

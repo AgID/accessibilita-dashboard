@@ -4,168 +4,168 @@
   <des_principio>Utilizzabile</des_principio>
   <criterio_di_successo>2.4.7 Focus visibile</criterio_di_successo>
   <cod_livello_conformita>AA</cod_livello_conformita>
-  <percentuale_errore>42.23616</percentuale_errore>
-  <dat_ultimo_monitoraggio>2024-06-30</dat_ultimo_monitoraggio>
+  <percentuale_errore>42.98895</percentuale_errore>
+  <dat_ultimo_monitoraggio>2024-09-30</dat_ultimo_monitoraggio>
 </row>
 
 <row>
   <des_principio>Percepibile</des_principio>
   <criterio_di_successo>1.4.1 Uso del colore</criterio_di_successo>
   <cod_livello_conformita>A</cod_livello_conformita>
-  <percentuale_errore>19.08467</percentuale_errore>
-  <dat_ultimo_monitoraggio>2024-06-30</dat_ultimo_monitoraggio>
+  <percentuale_errore>18.53887</percentuale_errore>
+  <dat_ultimo_monitoraggio>2024-09-30</dat_ultimo_monitoraggio>
 </row>
 
 <row>
   <des_principio>Percepibile</des_principio>
   <criterio_di_successo>1.4.3 Contrasto (minimo)</criterio_di_successo>
   <cod_livello_conformita>AA</cod_livello_conformita>
-  <percentuale_errore>14.09812</percentuale_errore>
-  <dat_ultimo_monitoraggio>2024-06-30</dat_ultimo_monitoraggio>
+  <percentuale_errore>14.20934</percentuale_errore>
+  <dat_ultimo_monitoraggio>2024-09-30</dat_ultimo_monitoraggio>
 </row>
 
 <row>
   <des_principio>Percepibile</des_principio>
   <criterio_di_successo>1.1.1 Contenuti non testuali</criterio_di_successo>
   <cod_livello_conformita>A</cod_livello_conformita>
-  <percentuale_errore>8.18590</percentuale_errore>
-  <dat_ultimo_monitoraggio>2024-06-30</dat_ultimo_monitoraggio>
+  <percentuale_errore>8.52597</percentuale_errore>
+  <dat_ultimo_monitoraggio>2024-09-30</dat_ultimo_monitoraggio>
 </row>
 
 <row>
   <des_principio>Robusto</des_principio>
   <criterio_di_successo>4.1.1 Analisi sintattica (parsing)</criterio_di_successo>
   <cod_livello_conformita>A</cod_livello_conformita>
-  <percentuale_errore>4.19576</percentuale_errore>
-  <dat_ultimo_monitoraggio>2024-06-30</dat_ultimo_monitoraggio>
+  <percentuale_errore>4.06363</percentuale_errore>
+  <dat_ultimo_monitoraggio>2024-09-30</dat_ultimo_monitoraggio>
 </row>
 
 <row>
   <des_principio>Percepibile</des_principio>
   <criterio_di_successo>1.4.11 Contrasto in contenuti non testuali</criterio_di_successo>
   <cod_livello_conformita>AA</cod_livello_conformita>
-  <percentuale_errore>3.31333</percentuale_errore>
-  <dat_ultimo_monitoraggio>2024-06-30</dat_ultimo_monitoraggio>
+  <percentuale_errore>3.29969</percentuale_errore>
+  <dat_ultimo_monitoraggio>2024-09-30</dat_ultimo_monitoraggio>
 </row>
 
 <row>
   <des_principio>Utilizzabile</des_principio>
   <criterio_di_successo>2.4.4 Scopo del collegamento (nel contesto)</criterio_di_successo>
   <cod_livello_conformita>A</cod_livello_conformita>
-  <percentuale_errore>2.64824</percentuale_errore>
-  <dat_ultimo_monitoraggio>2024-06-30</dat_ultimo_monitoraggio>
+  <percentuale_errore>2.44660</percentuale_errore>
+  <dat_ultimo_monitoraggio>2024-09-30</dat_ultimo_monitoraggio>
 </row>
 
 <row>
   <des_principio>Percepibile</des_principio>
   <criterio_di_successo>1.3.1 Informazioni e correlazioni</criterio_di_successo>
   <cod_livello_conformita>A</cod_livello_conformita>
-  <percentuale_errore>1.59801</percentuale_errore>
-  <dat_ultimo_monitoraggio>2024-06-30</dat_ultimo_monitoraggio>
+  <percentuale_errore>1.55469</percentuale_errore>
+  <dat_ultimo_monitoraggio>2024-09-30</dat_ultimo_monitoraggio>
 </row>
 
 <row>
   <des_principio>Percepibile</des_principio>
   <criterio_di_successo>1.4.10 Ricalcolo del flusso</criterio_di_successo>
   <cod_livello_conformita>AA</cod_livello_conformita>
-  <percentuale_errore>1.40719</percentuale_errore>
-  <dat_ultimo_monitoraggio>2024-06-30</dat_ultimo_monitoraggio>
+  <percentuale_errore>1.32679</percentuale_errore>
+  <dat_ultimo_monitoraggio>2024-09-30</dat_ultimo_monitoraggio>
 </row>
 
 <row>
   <des_principio>Robusto</des_principio>
   <criterio_di_successo>4.1.2 Nome, ruolo, valore</criterio_di_successo>
   <cod_livello_conformita>A</cod_livello_conformita>
-  <percentuale_errore>1.24603</percentuale_errore>
-  <dat_ultimo_monitoraggio>2024-06-30</dat_ultimo_monitoraggio>
+  <percentuale_errore>1.14115</percentuale_errore>
+  <dat_ultimo_monitoraggio>2024-09-30</dat_ultimo_monitoraggio>
 </row>
 
 <row>
   <des_principio>Percepibile</des_principio>
   <criterio_di_successo>1.3.5 Identificare lo scopo degli input</criterio_di_successo>
   <cod_livello_conformita>AA</cod_livello_conformita>
-  <percentuale_errore>1.12365</percentuale_errore>
-  <dat_ultimo_monitoraggio>2024-06-30</dat_ultimo_monitoraggio>
+  <percentuale_errore>1.07494</percentuale_errore>
+  <dat_ultimo_monitoraggio>2024-09-30</dat_ultimo_monitoraggio>
 </row>
 
 <row>
   <des_principio>Comprensibile</des_principio>
   <criterio_di_successo>3.2.2 All'input</criterio_di_successo>
   <cod_livello_conformita>A</cod_livello_conformita>
-  <percentuale_errore>0.38318</percentuale_errore>
-  <dat_ultimo_monitoraggio>2024-06-30</dat_ultimo_monitoraggio>
+  <percentuale_errore>0.36904</percentuale_errore>
+  <dat_ultimo_monitoraggio>2024-09-30</dat_ultimo_monitoraggio>
 </row>
 
 <row>
   <des_principio>Comprensibile</des_principio>
   <criterio_di_successo>3.3.2 Etichette o istruzioni</criterio_di_successo>
   <cod_livello_conformita>A</cod_livello_conformita>
-  <percentuale_errore>0.22991</percentuale_errore>
-  <dat_ultimo_monitoraggio>2024-06-30</dat_ultimo_monitoraggio>
+  <percentuale_errore>0.22086</percentuale_errore>
+  <dat_ultimo_monitoraggio>2024-09-30</dat_ultimo_monitoraggio>
 </row>
 
 <row>
   <des_principio>Percepibile</des_principio>
   <criterio_di_successo>1.4.5 Immagini di testo</criterio_di_successo>
   <cod_livello_conformita>AA</cod_livello_conformita>
-  <percentuale_errore>0.17276</percentuale_errore>
-  <dat_ultimo_monitoraggio>2024-06-30</dat_ultimo_monitoraggio>
+  <percentuale_errore>0.18270</percentuale_errore>
+  <dat_ultimo_monitoraggio>2024-09-30</dat_ultimo_monitoraggio>
 </row>
 
 <row>
   <des_principio>Comprensibile</des_principio>
   <criterio_di_successo>3.1.1 Lingua della pagina</criterio_di_successo>
   <cod_livello_conformita>A</cod_livello_conformita>
-  <percentuale_errore>0.06300</percentuale_errore>
-  <dat_ultimo_monitoraggio>2024-06-30</dat_ultimo_monitoraggio>
-</row>
-
-<row>
-  <des_principio>Percepibile</des_principio>
-  <criterio_di_successo>1.2.3 Audiodescrizione o tipo di media alternativo (preregistrato)</criterio_di_successo>
-  <cod_livello_conformita>A</cod_livello_conformita>
-  <percentuale_errore>0.00616</percentuale_errore>
-  <dat_ultimo_monitoraggio>2024-06-30</dat_ultimo_monitoraggio>
+  <percentuale_errore>0.04631</percentuale_errore>
+  <dat_ultimo_monitoraggio>2024-09-30</dat_ultimo_monitoraggio>
 </row>
 
 <row>
   <des_principio>Percepibile</des_principio>
   <criterio_di_successo>1.4.12 Spaziatura del testo</criterio_di_successo>
   <cod_livello_conformita>AA</cod_livello_conformita>
-  <percentuale_errore>0.00476</percentuale_errore>
-  <dat_ultimo_monitoraggio>2024-06-30</dat_ultimo_monitoraggio>
+  <percentuale_errore>0.00402</percentuale_errore>
+  <dat_ultimo_monitoraggio>2024-09-30</dat_ultimo_monitoraggio>
+</row>
+
+<row>
+  <des_principio>Percepibile</des_principio>
+  <criterio_di_successo>1.2.3 Audiodescrizione o tipo di media alternativo (preregistrato)</criterio_di_successo>
+  <cod_livello_conformita>A</cod_livello_conformita>
+  <percentuale_errore>0.00377</percentuale_errore>
+  <dat_ultimo_monitoraggio>2024-09-30</dat_ultimo_monitoraggio>
 </row>
 
 <row>
   <des_principio>Utilizzabile</des_principio>
   <criterio_di_successo>2.4.2 Titolazione della pagina</criterio_di_successo>
   <cod_livello_conformita>A</cod_livello_conformita>
-  <percentuale_errore>0.00278</percentuale_errore>
-  <dat_ultimo_monitoraggio>2024-06-30</dat_ultimo_monitoraggio>
+  <percentuale_errore>0.00236</percentuale_errore>
+  <dat_ultimo_monitoraggio>2024-09-30</dat_ultimo_monitoraggio>
 </row>
 
 <row>
   <des_principio>Utilizzabile</des_principio>
   <criterio_di_successo>2.2.1 Regolazione tempi di esecuzione</criterio_di_successo>
   <cod_livello_conformita>A</cod_livello_conformita>
-  <percentuale_errore>0.00029</percentuale_errore>
-  <dat_ultimo_monitoraggio>2024-06-30</dat_ultimo_monitoraggio>
+  <percentuale_errore>0.00024</percentuale_errore>
+  <dat_ultimo_monitoraggio>2024-09-30</dat_ultimo_monitoraggio>
 </row>
 
 <row>
   <des_principio>Comprensibile</des_principio>
   <criterio_di_successo>3.1.2 Parti in lingua</criterio_di_successo>
   <cod_livello_conformita>AA</cod_livello_conformita>
-  <percentuale_errore>0.00008</percentuale_errore>
-  <dat_ultimo_monitoraggio>2024-06-30</dat_ultimo_monitoraggio>
+  <percentuale_errore>0.00007</percentuale_errore>
+  <dat_ultimo_monitoraggio>2024-09-30</dat_ultimo_monitoraggio>
 </row>
 
 <row>
   <des_principio>Utilizzabile</des_principio>
   <criterio_di_successo>2.2.2 Pausa, stop, nascondi</criterio_di_successo>
   <cod_livello_conformita>A</cod_livello_conformita>
-  <percentuale_errore>0.00001</percentuale_errore>
-  <dat_ultimo_monitoraggio>2024-06-30</dat_ultimo_monitoraggio>
+  <percentuale_errore>0.00000</percentuale_errore>
+  <dat_ultimo_monitoraggio>2024-09-30</dat_ultimo_monitoraggio>
 </row>
 
 </table>

@@ -2,21 +2,21 @@
     {
         "des_principio_en": "Perceivable",
         "des_principio_it": "Percepibile",
-        "perc_errore_per_principio": 48.99
+        "perc_errore_per_principio": 48.72
     },
     {
         "des_principio_en": "Usable",
         "des_principio_it": "Utilizzabile",
-        "perc_errore_per_principio": 44.89
+        "perc_errore_per_principio": 45.44
     },
     {
         "des_principio_en": "Robust",
         "des_principio_it": "Robusto",
-        "perc_errore_per_principio": 5.44
+        "perc_errore_per_principio": 5.20
     },
     {
         "des_principio_en": "Understandable",
         "des_principio_it": "Comprensibile",
-        "perc_errore_per_principio": 0.68
+        "perc_errore_per_principio": 0.64
     }
 ]

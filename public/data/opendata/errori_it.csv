@@ -1,23 +1,22 @@
-des_riga
 des_principio,criterio_di_successo,cod_livello_conformita,percentuale_errore,dat_ultimo_monitoraggio
-Comprensibile,"3.1.1 Lingua della pagina",A,"0,06300",2024-06-30
-Comprensibile,"3.1.2 Parti in lingua",AA,"0,00008",2024-06-30
-Comprensibile,"3.2.2 All'input",A,"0,38318",2024-06-30
-Comprensibile,"3.3.2 Etichette o istruzioni",A,"0,22991",2024-06-30
-Percepibile,"1.1.1 Contenuti non testuali",A,"8,18590",2024-06-30
-Percepibile,"1.2.3 Audiodescrizione o tipo di media alternativo (preregistrato)",A,"0,00616",2024-06-30
-Percepibile,"1.3.1 Informazioni e correlazioni",A,"1,59801",2024-06-30
-Percepibile,"1.3.5 Identificare lo scopo degli input",AA,"1,12365",2024-06-30
-Percepibile,"1.4.10 Ricalcolo del flusso",AA,"1,40719",2024-06-30
-Percepibile,"1.4.11 Contrasto in contenuti non testuali",AA,"3,31333",2024-06-30
-Percepibile,"1.4.12 Spaziatura del testo",AA,"0,00476",2024-06-30
-Percepibile,"1.4.1 Uso del colore",A,"19,08467",2024-06-30
-Percepibile,"1.4.3 Contrasto (minimo)",AA,"14,09812",2024-06-30
-Percepibile,"1.4.5 Immagini di testo",AA,"0,17276",2024-06-30
-Robusto,"4.1.1 Analisi sintattica (parsing)",A,"4,19576",2024-06-30
-Robusto,"4.1.2 Nome, ruolo, valore",A,"1,24603",2024-06-30
-Utilizzabile,"2.2.1 Regolazione tempi di esecuzione",A,"0,00029",2024-06-30
-Utilizzabile,"2.2.2 Pausa, stop, nascondi",A,"0,00001",2024-06-30
-Utilizzabile,"2.4.2 Titolazione della pagina",A,"0,00278",2024-06-30
-Utilizzabile,"2.4.4 Scopo del collegamento (nel contesto)",A,"2,64824",2024-06-30
-Utilizzabile,"2.4.7 Focus visibile",AA,"42,23616",2024-06-30
+Comprensibile,"3.1.1 Lingua della pagina",A,"0,04631",2024-09-30
+Comprensibile,"3.1.2 Parti in lingua",AA,"0,00007",2024-09-30
+Comprensibile,"3.2.2 All'input",A,"0,36904",2024-09-30
+Comprensibile,"3.3.2 Etichette o istruzioni",A,"0,22086",2024-09-30
+Percepibile,"1.1.1 Contenuti non testuali",A,"8,52597",2024-09-30
+Percepibile,"1.2.3 Audiodescrizione o tipo di media alternativo (preregistrato)",A,"0,00377",2024-09-30
+Percepibile,"1.3.1 Informazioni e correlazioni",A,"1,55469",2024-09-30
+Percepibile,"1.3.5 Identificare lo scopo degli input",AA,"1,07494",2024-09-30
+Percepibile,"1.4.10 Ricalcolo del flusso",AA,"1,32679",2024-09-30
+Percepibile,"1.4.11 Contrasto in contenuti non testuali",AA,"3,29969",2024-09-30
+Percepibile,"1.4.12 Spaziatura del testo",AA,"0,00402",2024-09-30
+Percepibile,"1.4.1 Uso del colore",A,"18,53887",2024-09-30
+Percepibile,"1.4.3 Contrasto (minimo)",AA,"14,20934",2024-09-30
+Percepibile,"1.4.5 Immagini di testo",AA,"0,18270",2024-09-30
+Robusto,"4.1.1 Analisi sintattica (parsing)",A,"4,06363",2024-09-30
+Robusto,"4.1.2 Nome, ruolo, valore",A,"1,14115",2024-09-30
+Utilizzabile,"2.2.1 Regolazione tempi di esecuzione",A,"0,00024",2024-09-30
+Utilizzabile,"2.2.2 Pausa, stop, nascondi",A,"0,00000",2024-09-30
+Utilizzabile,"2.4.2 Titolazione della pagina",A,"0,00236",2024-09-30
+Utilizzabile,"2.4.4 Scopo del collegamento (nel contesto)",A,"2,44660",2024-09-30
+Utilizzabile,"2.4.7 Focus visibile",AA,"42,98895",2024-09-30

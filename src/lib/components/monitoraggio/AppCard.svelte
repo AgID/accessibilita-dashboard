@@ -12,7 +12,7 @@
   onMount(async () => {
     const rs = await fetch("/data/mona_app_mon_intestazione.json");
     const data = await rs.json();
-    numApp = data[0].valore;
+    numApp = data.find((d) => d.indicatore == "num app valutate").valore;
     date = data[0].dat_ultimo_monitoraggio;
     dataPaginaFormatted = df(dp(date));
   });

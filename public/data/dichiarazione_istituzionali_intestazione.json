@@ -1,18 +1,22 @@
 [
     {
-        "valore": 22933,
-        "indicatore": "num_enti_tot"
+        "valore": 23579,
+        "indicatore": "num_enti_tot",
+        "dat_ult_agg_dichiarazione": "2024-09-23"
     },
     {
-        "valore": 13039,
-        "indicatore": "num_enti_con_dich_istituzionali_tutti_anni"
+        "valore": 14784,
+        "indicatore": "num_enti_con_dich_istituzionali_tutti_anni",
+        "dat_ult_agg_dichiarazione": "2024-09-23"
     },
     {
-        "valore": 9901,
-        "indicatore": "num_enti_con_dich_istituzionali_anno_corrente"
+        "valore": 10786,
+        "indicatore": "num_enti_con_dich_istituzionali_anno_corrente",
+        "dat_ult_agg_dichiarazione": "2024-09-23"
     },
     {
-        "valore": 43.17359263942789866100,
-        "indicatore": "num_perc_enti_con_dich_istituzionali_su_enti_tot"
+        "valore": 45.74409432121803299500,
+        "indicatore": "num_perc_enti_con_dich_istituzionali_su_enti_tot",
+        "dat_ult_agg_dichiarazione": "2024-09-23"
     }
 ]

@@ -1,22 +1,6 @@
 <script>
-  import { onMount } from "svelte";
-  import { nf } from "../utils";
-
   import Icon from "./Icon.svelte";
   import { t } from "../utils/i18n";
-
-
-  let totale;
-  onMount(async () => {
-    const res = await fetch("/data/dichiarazione_intestazione.json");
-    const datas = await res.json();
-
-    totale = datas.find(
-      (d) => d.indicatore == "num_dichiarazioni_pub_tot"
-    ).valore;
-  });
-
-
 </script>
 
 <div class="mb-5">

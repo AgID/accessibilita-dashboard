@@ -1,6 +1,6 @@
 <script lang="ts">
   import { onMount } from "svelte";
-  import { nf } from "../../utils";
+  import { nf, nf2d } from "../../utils";
   import CsvPdfButtons from "../CsvPdfButtons.svelte";
   import DataTable from "../DataTable.svelte";
   import { locale, t } from "../../utils/i18n";
@@ -24,13 +24,13 @@
     {
       field: "siti_istituzionali",
       label: $t("dicAutovalConf.sitiIst"),
-      format: (value: any) => nf(value) + "%",
+      format: (value: any) => nf2d(value) + "%",
       align: "right",
     },
     {
       field: "siti_tematici",
       label: $t("dicAutovalConf.sitiTema"),
-      format: (value: any) => nf(value) + "%",
+      format: (value: any) => nf2d(value) + "%",
       align: "right",
     },
   ];
@@ -55,7 +55,7 @@
     for (let i = 0; i < conformita.length; i++) {
       const dataObject = {
         name: conformita[i],
-        data: [sitiIst[i], sitiTema[i]],
+        data: [Number(sitiIst[i].toFixed(2)), Number(sitiTema[i].toFixed(2))],
         type: "bar",
       };
       allData.push(dataObject);

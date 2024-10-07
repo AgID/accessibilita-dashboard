@@ -7,7 +7,6 @@
   let dataTOTALE;
   let dataSITI;
   let dataAPP
-  let annoRiferimento
 
   let iconeConformita = {
     conforme: "it it-check-circle",
@@ -39,8 +38,6 @@
     });
 
     dataTOTALE = orderedConformita;
-  
-    annoRiferimento = jsonData.intestazione.dat_ult_agg_dichiarazione.substr(0, 4);
   });
 </script>
 
@@ -50,9 +47,7 @@
       <h3 class="h3 pb-4 text-center greyText">{$t("dicAutoval.title")}</h3>
 
       <div>
-        <p class="mt-lg-3 mx-3 text-center">{$t("dicAutoval.description", {
-          anno: annoRiferimento,
-        })}</p>
+        <p class="mt-lg-3 mx-3 text-center">{$t("dicAutoval.description")}</p>
         <div class="d-flex justify-content-center mx-5">
           {#if dataTOTALE}
             <div

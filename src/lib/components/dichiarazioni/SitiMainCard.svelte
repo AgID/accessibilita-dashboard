@@ -9,13 +9,14 @@
   let totale;
   let numAttuali;
   let enti;
-
-  let dataPagina;
   let dataPaginaFormatted;
 
   onMount(async () => {
     const rs = await fetch("/data/dichiarazione_intestazione.json");
     const data = await rs.json();
+    
+    annoRiferimento = data[0].dat_ult_agg_dichiarazione.substr(0, 4);
+    dataPaginaFormatted = df(dp(data[0].dat_ult_agg_dichiarazione))
 
     totale = data.find(
       (d) => d.indicatore == "num_dichiarazioni_pub_tot"
@@ -28,17 +29,6 @@
     enti = data.find(
       (d) => d.indicatore == "num_enti_dichiarazioni_pub"
     ).valore;
-
-    const rs2 = await fetch("/data/dichiarazione_data.json");
-    const data2 = await rs2.json();
-    dataPagina = data2.find(
-      (d) => d.indicatore == "data_ultimo_aggiornamento_pagina"
-    ).valore;
-    dataPaginaFormatted = df(dp(dataPagina));
-
-    const riferimento = await fetch("/data/dichiarazione_intestazione.json");
-    const dataRiferimento = await riferimento.json();
-    annoRiferimento = dataRiferimento[0].dat_ult_agg_dichiarazione.substr(0, 4);
   });
 </script>
 
