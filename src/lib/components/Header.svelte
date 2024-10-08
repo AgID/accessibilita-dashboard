@@ -411,9 +411,10 @@
             {/if}
           {/if}
           <div class="d-inline-block">
+            <a href="/">
             <img
               class="mainLogo d-inline-block align-bottom mb-lg-3 me-lg-3 mx-2"
-              src="/logo/Pittogramma_Bianco.svg"
+              src="/logo/Agid_LogoMonogramma_Pos_rgb.svg"
               alt=""
               height="63"
             />
@@ -427,6 +428,7 @@
               class="badge rounded-pill bg-white betaBadge ms-sm-0 ms-lg-3 mb-lg-3 align-bottom"
               tabindex="-1">{$t("header.monitoraggioBadge")}</span
             >
+           </a>
           </div>
         </div>
       </div>
