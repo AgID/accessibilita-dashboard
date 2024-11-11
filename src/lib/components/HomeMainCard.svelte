@@ -7,7 +7,7 @@
     <div class="row py-3 py-xl-5" style="margin-right: 0 !important">
       <div class="col-lg-7 my-auto text-center text-lg-start">
         <div class="my-4">
-          <h2 class="h11 whiteText">{$t("homeMain.title")}</h2>
+          <h1 class="h11 whiteText">{$t("homeMain.title")}</h1>
           <p class="whiteText">{$t("homeMain.subtitle")}</p>
         </div>
       </div>

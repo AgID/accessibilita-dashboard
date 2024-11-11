@@ -47,7 +47,7 @@
           class=""
         />
         </span>
-        <h2 class="lead mt-3 ">{$t("dicMain.APP-title")}</h2>
+        <h1 class="lead mt-3 ">{$t("dicMain.APP-title")}</h1>
         <p class="captionUpdateDarker mb-0">
           {@html $t("dicMain.latestUpdate", {
             ultimoAggiornamento: dataPaginaFormatted,

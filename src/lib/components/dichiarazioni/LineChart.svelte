@@ -157,12 +157,12 @@
   });
 </script>
 
-<p class="lead mb-4 ms-2">Dati generali</p>
+<h2 class="lead mb-4 ms-2">{$t("dicLineChart.halfTitle")}</h2>
 
 <div class="card-box mt-3 mt-lg-0 hide-mobile pt-3 px-3">
-  <h2 class="cardTitle py-3 ps-2 ps-lg-3 d-inline-flex greyText">
+  <h3 class="cardTitle py-3 ps-2 ps-lg-3 d-inline-flex greyText">
     {$t("dicLineChart.title")}
-  </h2>
+  </h3>
 
   <figure class="highcharts-figure">
     <div id="dichiarazioniTrendAnno" style="width:100%; height:400px;" />

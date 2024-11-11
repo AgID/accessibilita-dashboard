@@ -34,7 +34,7 @@
 <div class="backgroundLightBlue py-5 px-xxl-5 my-5">
   <div class="container">
     <div class="mx-auto">
-      <h3 class="h3 pb-4 text-center greyText">{$t("dicAutoval.APP-title")}</h3>
+      <h2 class="h3 pb-4 text-center greyText">{$t("dicAutoval.APP-title")}</h2>
       <div>
         <p class="mt-lg-3 mx-3 text-center">{$t("dicAutoval.APP-description")}</p>
         <div class="d-flex justify-content-center mx-5">

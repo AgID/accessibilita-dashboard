@@ -20,7 +20,7 @@
 </script>
 
 <div class="my-5">
-  <p class="lead pt-5">{$t("dicTemaMain.title")}</p>
+  <h2 class="lead pt-5">{$t("dicTemaMain.title")}</h2>
   <div class="row py-3">
     <div class="col-12 col-lg-7">
       <p class="pe-lg-4">

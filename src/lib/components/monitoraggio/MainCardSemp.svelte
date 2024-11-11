@@ -29,16 +29,16 @@
             size={"lg"}
           /></span
         >
-        <h2 class="lead mx-3">{$t("moniMainCard.titleSemp")}</h2>
+        <h1 class="lead mx-3">{$t("moniMainCard.titleSemp")}</h1>
       </div>
       <p class="captionUpdateDarker">
         {@html $t("moniMainCard.latestUpdate", {ultimoAggiornamento: dataPaginaFormatted})} 
       </p>
     </div>
 
-    <h3 class="h3">
+    <h2 class="h3">
       {$t("moniMainCard.subtitleSemp")}
-    </h3>
+    </h2>
     <p class="py-3 pe-xl-5 me-xl-5">
       {@html $t("moniMainCard.descriptionSemp", {doubleBreak: "<br/><br/>"})}
     </p>

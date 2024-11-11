@@ -10,12 +10,12 @@
 <section class="container" aria-label={$t("mediaPolicy.section")}>
   <div class="insideContainer mx-auto my-5">
     <div>
-      <h2 class="lead">{$t("mediaPolicy.title")}</h2>
+      <h1 class="lead">{$t("mediaPolicy.title")}</h1>
       <p class="py-3">{$t("mediaPolicy.para1")}</p>
     </div>
 
     <div class="pb-3">
-      <h4 class="h4 blueText">{$t("mediaPolicy.subtitle2")}</h4>
+      <h2 class="h4 blueText">{$t("mediaPolicy.subtitle2")}</h2>
       <p class="py-3">
         {@html $t("mediaPolicy.para2a", { doubleBreak: "<br/><br/>" })}
         <a
@@ -41,7 +41,7 @@
       </ul>
     </div>
     <div class="pb-3">
-      <h4 class="h4 blueText">{$t("mediaPolicy.subtitle3")}</h4>
+      <h2 class="h4 blueText">{$t("mediaPolicy.subtitle3")}</h2>
       <p class="py-3">{$t("mediaPolicy.para3a")}</p>
       <ol>
         {@html $t("mediaPolicy.para3aList", {
@@ -61,9 +61,9 @@
       <p>{@html $t("mediaPolicy.para3c")}</p>
     </div>
     <div class="pb-3">
-      <h4 class="h4 blueText">{$t("mediaPolicy.subtitle4")}</h4>
+      <h2 class="h4 blueText">{$t("mediaPolicy.subtitle4")}</h2>
       <p class="py-3">{$t("mediaPolicy.para4")}</p>
-      <h6 class="display6">{$t("mediaPolicy.social1")}</h6>
+      <h3 class="display6">{$t("mediaPolicy.social1")}</h3>
       <p>
         {$t("mediaPolicy.socialText1a")}
         <a
@@ -92,7 +92,7 @@
           /></a
         >. {$t("mediaPolicy.socialText1c")}
       </p>
-      <h6 class="display6">{$t("mediaPolicy.social2")}</h6>
+      <h3 class="display6">{$t("mediaPolicy.social2")}</h3>
       <p>
         {$t("mediaPolicy.socialText2a")}
         <a
@@ -108,7 +108,7 @@
           /></a
         >. {$t("mediaPolicy.socialText2b")}
       </p>
-      <h6 class="display6">{$t("mediaPolicy.social3")}</h6>
+      <h3 class="display6">{$t("mediaPolicy.social3")}</h3>
       <p>
         {$t("mediaPolicy.socialText3a")}
         <a
@@ -124,7 +124,7 @@
           /></a
         >. {$t("mediaPolicy.socialText3b")}
       </p>
-      <h6 class="display6">{$t("mediaPolicy.social4")}</h6>
+      <h3 class="display6">{$t("mediaPolicy.social4")}</h3>
       <p>
         {$t("mediaPolicy.socialText4a")}
         <a
@@ -143,7 +143,7 @@
           >comunicazione@agid.gov.it
         </a>.
       </p>
-      <h6 class="display6">{$t("mediaPolicy.social5")}</h6>
+      <h3 class="display6">{$t("mediaPolicy.social5")}</h3>
       <p>
         {$t("mediaPolicy.socialText5a")}
         <a
@@ -161,7 +161,7 @@
       </p>
     </div>
     <div class="pb-3">
-      <h4 class="h4 blueText">{$t("mediaPolicy.subtitle5")}</h4>
+      <h2 class="h4 blueText">{$t("mediaPolicy.subtitle5")}</h2>
       <p class="py-3">
         {$t("mediaPolicy.para5")}
         <a href="mailto:comunicazione@agid.gov.it" title={$t("layout.mailto")}

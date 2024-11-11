@@ -9,12 +9,12 @@
 
 <section class="container" aria-label={$t("privacyPolicy.section")}>
   <div class="insideContainer mx-auto my-5">
-    <h2 class="lead">{$t("privacyPolicy.title")}</h2>
+    <h1 class="lead">{$t("privacyPolicy.title")}</h1>
     <p>{@html $t("privacyPolicy.para1", { doubleBreak: "<br/><br/>" })}</p>
     <br />
-    <h4 class="h4 blueText">
+    <h2 class="h4 blueText">
       {@html $t("privacyPolicy.subtitle2", { break: "<br/>" })}
-    </h4>
+    </h2>
     <p>
       {@html $t("privacyPolicy.para2", { doubleBreak: "<br/><br/>" })}
       <a
@@ -23,9 +23,9 @@
       >
     </p>
     <br />
-    <h4 class="h4 blueText">
+    <h2 class="h4 blueText">
       {$t("privacyPolicy.subtitle3")}
-    </h4>
+    </h2>
     <p>
       {@html $t("privacyPolicy.para3", { doubleBreak: "<br/><br/>" })}
       <a
@@ -35,7 +35,7 @@
       >
     </p>
     <br />
-    <h4 class="h4 blueText">{$t("privacyPolicy.subtitle4")}</h4>
+    <h2 class="h4 blueText">{$t("privacyPolicy.subtitle4")}</h2>
     <p>
       {@html $t("privacyPolicy.para4", { doubleBreak: "<br/><br/>" })}
       <a
@@ -52,20 +52,20 @@
       >
     </p>
     <br />
-    <h4 class="h4 blueText">{$t("privacyPolicy.subtitle5")}</h4>
+    <h2 class="h4 blueText">{$t("privacyPolicy.subtitle5")}</h2>
     <ul>{@html $t("privacyPolicy.para5list")}</ul>
     <p>{$t("privacyPolicy.para5")}</p>
     <br />
-    <h4 class="h4 blueText">{$t("privacyPolicy.subtitle6")}</h4>
+    <h2 class="h4 blueText">{$t("privacyPolicy.subtitle6")}</h2>
     <p>{@html $t("privacyPolicy.para6", { break: "<br/>" })}</p>
     <br />
-    <h4 class="h4 blueText">{$t("privacyPolicy.subtitle7")}</h4>
+    <h2 class="h4 blueText">{$t("privacyPolicy.subtitle7")}</h2>
     <p>{$t("privacyPolicy.para7")}</p>
     <br />
-    <h4 class="h4 blueText">{$t("privacyPolicy.subtitle8")}</h4>
+    <h2 class="h4 blueText">{$t("privacyPolicy.subtitle8")}</h2>
     <p>{@html $t("privacyPolicy.para8", { doubleBreak: "<br/><br/>" })}</p>
     <br />
-    <h4 class="h4 blueText">{$t("privacyPolicy.subtitle9")}</h4>
+    <h2 class="h4 blueText">{$t("privacyPolicy.subtitle9")}</h2>
     <p>{@html $t("privacyPolicy.para9", { break: "<br/>" })}</p>
   </div>
 </section>

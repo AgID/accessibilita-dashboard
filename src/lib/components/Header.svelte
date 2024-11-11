@@ -286,7 +286,7 @@
                       >
                         <div class="it-left-zone">
                           <span class="whiteText display6"
-                            >{$t("header.tabDichiarazioni")}</span
+                            >{$t("header.tabDicPanoramica")}</span
                           >
                         </div>
                       </a>
@@ -361,7 +361,7 @@
                       >
                         <div class="it-left-zone">
                           <span class="whiteText display6"
-                            >{$t("header.tabProgetto")}</span
+                            >{$t("header.tabEsploraProgetto")}</span
                           >
                         </div>
                       </a>
@@ -413,19 +413,13 @@
           <div class="d-inline-block">
             <a href="/">
             <img
-              class="mainLogo d-inline-block align-bottom mb-lg-3 me-lg-3 mx-2"
-              src="/logo/Agid_LogoMonogramma_Pos_rgb.svg"
-              alt=""
+              class="mainLogo d-inline-block align-bottom me-lg-3 mx-2"
+              src={$t("header.logo")}
+              alt={$t("header.monitoraggio")}
               height="63"
             />
-            <h1
-              class="title1 mt-3 align-bottom d-inline-block"
-              style="width: 9rem"
-            >
-              {$t("header.monitoraggio")}
-            </h1>
             <span
-              class="badge rounded-pill bg-white betaBadge ms-sm-0 ms-lg-3 mb-lg-3 align-bottom"
+              class="badge rounded-pill bg-white betaBadge ms-0 ms-lg-3 align-bottom"
               tabindex="-1">{$t("header.monitoraggioBadge")}</span
             >
            </a>

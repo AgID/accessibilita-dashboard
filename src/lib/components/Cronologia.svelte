@@ -18,7 +18,7 @@
         <span aria-hidden="true">
           <Icon name="it it-calendar" variant="primary" size="lg" />
         </span>
-        <h2 class="lead mx-3">{$t("timeline.title")}</h2>
+        <h1 class="lead mx-3">{$t("timeline.title")}</h1>
       </div>
       <p class="display5 mb-4">
         {$t("timeline.subtitle")}

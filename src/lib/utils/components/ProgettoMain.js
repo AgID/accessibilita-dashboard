@@ -1,7 +1,7 @@
 export default {
   it: {
     "project.title":
-      "Il monitoraggio automatizzato dell'accessibilità dei siti delle PA",
+      "Esplora il progetto",
     "project.subtitle":
       "Il sito espone i dati relativi al monitoraggio semplificato dell'accessibilità e gli errori riscontrati con maggiore frequenza",
     "project.description":
@@ -22,7 +22,7 @@ export default {
     "project.WCAGlinkText": "Linee Guida e i Principi delle WCAG 2.1.",
   },
   en: {
-    "project.title": "Automated monitoring of the accessibility of Public Administration websites",
+    "project.title": "Explore the project",
     "project.subtitle": "The website displays data related to the simplified accessibility monitoring and the most commonly encountered errors on the websites of public administrations.",
     "project.description": "Making public administration services more accessible and inclusive for all citizens, including those with temporary or permanent disabilities, is one of the objectives of measure 1.4.2 of the National Recovery and Resilience Plan (PNRR), which includes the publication of the new dashboard that presents, for the first time in Italy, the accessibility monitoring data of public administration websites.",
     "project.subtitle2": "The accessibility project",

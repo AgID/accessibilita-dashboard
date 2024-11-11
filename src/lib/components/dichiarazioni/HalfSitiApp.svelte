@@ -36,11 +36,12 @@
         <p class="cardMainData pb-4">{nf(totaleSITI)}</p>
         <a
           href="/dichiarazione/siti"
-          title={$t("dicMain.moreInfo")}
+          title={$t("dicMain.moreInfoWeb")}
           class="button-text a-button d-inline-flex"
           style="text-decoration: none;"
         >
-          {$t("dicMain.moreInfo")}
+          {$t("dicMain.moreInfoWeb")}
+          <Icon name="it it-arrow-right" variant="white" size="sm" />
         </a>
       </div>
     </div>
@@ -59,11 +60,12 @@
           <p class="cardMainData pb-4">{nf(totaleAPP)}</p>
           <a
             href="/dichiarazione/app"
-            title={$t("dicMain.moreInfo")}
+            title={$t("dicMain.moreInfoApp")}
             class="button-text a-button d-inline-flex"
             style="text-decoration: none;"
           >
-            {$t("dicMain.moreInfo")}
+            {$t("dicMain.moreInfoApp")}
+            <Icon name="it it-arrow-right" variant="white" size="sm" />
           </a>
         </div>
       </div>

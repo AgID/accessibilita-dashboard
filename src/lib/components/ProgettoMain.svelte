@@ -5,9 +5,9 @@
 
 <div class="container my-5">
   <div class="my-5">
-      <h2 class="lead">
+      <h1 class="lead">
         {$t("project.title")}
-      </h2>
+      </h1>
       <p class="display5">
         {$t("project.subtitle")}
       </p>

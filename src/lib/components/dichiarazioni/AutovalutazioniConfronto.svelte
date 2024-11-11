@@ -144,9 +144,9 @@
 </script>
 
 <div class="card-box mt-2 my-lg-5 hide-mobile pt-3 px-3">
-  <h2 class="cardTitle py-3 ps-2 ps-lg-3 d-inline-flex greyText">
+  <h3 class="cardTitle py-3 ps-2 ps-lg-3 d-inline-flex greyText">
     {$t("dicAutovalConf.title")}
-  </h2>
+  </h3>
   <div class="mb-3">
     {#if periodoMonitoraggio}
       <div class="caption text-start d-inline-block px-2 px-xl-3">

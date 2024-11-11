@@ -98,9 +98,9 @@
 </script>
 
 <div class="card-box mt-3 mt-lg-0 hide-mobile pt-3 px-3">
-  <h2 class="cardTitle py-3 ps-2 ps-lg-3 d-inline-flex greyText">
+  <h3 class="cardTitle py-3 ps-2 ps-lg-3 d-inline-flex greyText">
     {$t("obiLineChart.title")}
-  </h2>
+  </h3>
 
   <figure class="highcharts-figure">
     <div id="obiettiviTrendAnno" style="width:100%; height:250px;" />

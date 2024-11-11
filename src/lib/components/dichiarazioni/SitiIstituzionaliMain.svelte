@@ -23,7 +23,7 @@
 </script>
 
 <div class="mt-5">
-  <p class="lead">{$t("dicIstMain.title")}</p>
+  <h2 class="lead">{$t("dicIstMain.title")}</h2>
   <div class="row pt-3">
     <div class="col-12 col-lg-7 pe-lg-5">
       <p>
