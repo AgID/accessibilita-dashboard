@@ -70,41 +70,41 @@
         <div class="card rounded card-bg no-after">
           {#if !showThanks}
             <div class="card-body">
-              <p class="card-title display6 greyText">
-                {$t("feedback.cardTitle")}
-              </p>
-              <div class="card-text">
-                <div class="form-check form-check-inline">
-                  <input
-                    name="sceltaFeedback"
-                    bind:group={$feedback}
-                    type="radio"
-                    value="positivo"
-                    id="si"
-                  />
-                  <label for="si">{$t("feedback.optionOne")}</label>
+              <form on:submit|preventDefault={sendOROpen}>
+                <p class="card-title display6 greyText">
+                  {$t("feedback.cardTitle")}
+                </p>
+                <div class="card-text">
+                  <div class="form-check form-check-inline">
+                    <input
+                      name="sceltaFeedback"
+                      bind:group={$feedback}
+                      type="radio"
+                      value="positivo"
+                      id="si"
+                    />
+                    <label for="si">{$t("feedback.optionOne")}</label>
+                  </div>
+                  <div class="form-check form-check-inline">
+                    <input
+                      name="sceltaFeedback"
+                      bind:group={$feedback}
+                      type="radio"
+                      value="negativo"
+                      id="no"
+                    />
+                    <label for="no">{$t("feedback.optionTwo")}</label>
+                  </div>
                 </div>
-                <div class="form-check form-check-inline">
-                  <input
-                    name="sceltaFeedback"
-                    bind:group={$feedback}
-                    type="radio"
-                    value="negativo"
-                    id="no"
-                  />
-                  <label for="no">{$t("feedback.optionTwo")}</label>
-                </div>
-              </div>
-              <div class="it-card-footer mt-2">
-                <button
-                  type="button"
-                  class="btn btn-outline-primary btn-md {$feedback == null &&
-                    'disabled'}"
-                  data-bs-toggle={$feedback == "negativo" ? "modal" : ""}
-                  data-bs-target="#feedbackModal"
-                  on:click={sendOROpen}>{$t("feedback.sendButton")}</button
-                >
-              </div>
+                  <button
+                    type="submit"
+                    class="btn btn-outline-primary btn-md {$feedback == null && 'disabled'}"
+                    data-bs-toggle={$feedback == "negativo" ? "modal" : ""}
+                    data-bs-target="#feedbackModal"
+                  >
+                    {$t("feedback.sendButton")}
+                  </button>
+              </form>
             </div>
           {:else}
             <div class="card-body">
