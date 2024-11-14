@@ -67,7 +67,7 @@
               title={$t("layout.externalLink")}
               target="_blank"
               rel="noreferrer"
-              href="https://form.agid.gov.it/view/29c16b40-7049-11ef-8a53-cb2925031eb8"
+              href="https://form.agid.gov.it/view/9cbe42f0-a0ee-11ef-93b8-1d8fdd5aa94f"
               >{$t("footer.statement")}<Icon
               name="it it-external-link"
               variant="white"

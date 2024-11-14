@@ -1,6 +1,7 @@
 export default {
   it: {
-    "erroriMain.title": "Errori di accessibilità",
+    "erroriMain.titleSemp": "Errori monitoraggio semplificato",
+    "erroriMain.titleAppr": "Errori monitoraggio approfondito",
     "erroriMain.latestUpdate": "Ultimo aggiornamento dati: {{ultimoAggiornamento}}",
     "erroriMain.subtitleSemp": "Gli errori di accessibilità identificabili automaticamente",
     "erroriMain.subtitleAppMain": "Gli errori di accessibilità rilevati dal controllo manuale nei siti web",
@@ -12,7 +13,8 @@ export default {
     "erroriMain.WCAGlink": "https://www.w3.org/Translations/WCAG21-it/",
   },
   en: {
-    "erroriMain.title": "Accessibility errors",
+    "erroriMain.titleSemp": "Simplified error monitoring",
+    "erroriMain.titleAppr": "In-depth error monitoring",
     "erroriMain.latestUpdate": "Last data update: {{ultimoAggiornamento}}",
     "erroriMain.subtitleSemp": "Automatically identifiable accessibility errors",
     "erroriMain.subtitleAppMain": "Accessibility errors detected by manual checking in websites",

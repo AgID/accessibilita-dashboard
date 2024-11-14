@@ -33,7 +33,7 @@
           size="lg"
         /></span
       >
-      <h2 class="lead mx-3">{$t("erroriMain.title")}</h2>
+      <h1 class="lead mx-3">{$t("erroriMain.titleSemp")}</h1>
     </div>
     <p class="captionUpdateDarker mb-0">
       {@html $t("erroriMain.latestUpdate", {ultimoAggiornamento: dataPaginaFormatted})}
@@ -48,9 +48,9 @@
       <div class="d-flex flex-wrap justify-content-between">
         <div class="row">
           <div class="col-12 col-lg-6">
-            <h3 class="h3 mb-4">
+            <h2 class="h3 mb-4">
               {$t("erroriMain.subtitleSemp")}
-            </h3>
+            </h2>
             <p>{@html $t("erroriMain.descriptionSemp", {break: "<br/>", numero: totaleErroriConformita})}
               <a
                 href={$t("erroriMain.WCAGlink")}

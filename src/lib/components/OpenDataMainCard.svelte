@@ -8,12 +8,12 @@
     <span aria-hidden="true" 
       ><Icon name="it it-download" variant="primary" size="lg"/></span
     >
-    <h2 class="lead mx-3">{$t("opendata.title")}</h2>
+    <h1 class="lead mx-3">{$t("opendata.title")}</h1>
   </div>
 
   <div class="row">
     <div class="col-12 col-md-6">
-      <h3 class="h3 mb-4">{$t("opendata.subtitle")}</h3>
+      <h2 class="h3 mb-4">{$t("opendata.subtitle")}</h2>
       <p>
         {$t("opendata.description")}
       </p>

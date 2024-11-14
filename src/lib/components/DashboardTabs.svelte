@@ -179,7 +179,7 @@
                         href="/dichiarazione"
                         aria-current={selectedPage == "/dichiarazione"
                           ? "true"
-                          : "false"}><span>{$t("header.tabDichiarazioni")}</span></a
+                          : "false"}><span>{$t("header.tabDicPanoramica")}</span></a
                       >
                     </li>
                     <li>
@@ -250,7 +250,7 @@
                         href="/progetto"
                         aria-current={selectedPage == "/progetto"
                           ? "true"
-                          : "false"}><span>{$t("header.tabProgetto")}</span></a
+                          : "false"}><span>{$t("header.tabEsploraProgetto")}</span></a
                       >
                     </li>
                     <li>

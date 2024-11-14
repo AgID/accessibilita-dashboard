@@ -10,9 +10,9 @@
       <div class="d-flex flex-wrap justify-content-between">
         <div class="row">
           <div class="col-12 col-lg-6">
-            <h3 class="h3 mb-4">
+            <h2 class="h3 mb-4">
               {$t("erroriMain.subtitleAppHalf")}
-            </h3>
+            </h2>
             <p>{@html $t("erroriMain.descriptionAppHalf", {doubleBreak: "<br/><br/>", break: "<br/>"})}
               <a
                 href={$t("erroriMain.WCAGlink")}

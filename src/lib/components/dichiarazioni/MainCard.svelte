@@ -39,7 +39,7 @@
         <span aria-hidden="true">
           <Icon name="it it-files" variant="primary" size="lg" />
         </span>
-        <h2 class="lead mt-3 ">{$t("dicMain.title")}</h2>
+        <h1 class="lead mt-3 ">{$t("dicMain.title")}</h1>
         <p class="captionUpdateDarker mb-0">
           {@html $t("dicMain.latestUpdate", {
             ultimoAggiornamento: dataPaginaFormatted,
@@ -48,9 +48,9 @@
       </div>
     </div>
 
-    <h3 class="h3">
+    <h2 class="h3">
       {$t("dicMain.subtitle")}
-    </h3>
+    </h2>
 
     <div class="d-flex inline mb-1 pt-4" />
     <p>

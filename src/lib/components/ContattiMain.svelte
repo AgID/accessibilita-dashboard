@@ -10,7 +10,7 @@
       <span aria-hidden="true"
         ><Icon name="it it-mail" variant="primary" size="lg" /></span
       >
-      <h2 class="lead mx-3">{$t("contacts.title")}</h2>
+      <h1 class="lead mx-3">{$t("contacts.title")}</h1>
     </div>
 
     <div class="row my-4">

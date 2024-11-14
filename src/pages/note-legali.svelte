@@ -9,11 +9,11 @@
 
 <section class="container" aria-label={$t("legalPolicy.section")}>
   <div class="insideContainer mx-auto my-5">
-    <h2 class="lead">{$t("legalPolicy.title")}</h2>
-    <p class="h3 greyText">{$t("legalPolicy.subtitle1")}</p>
+    <h1 class="lead">{$t("legalPolicy.title")}</h1>
+    <h2 class="h3 greyText">{$t("legalPolicy.subtitle1")}</h2>
     <p>{@html $t("legalPolicy.para1", { doubleBreak: "<br/><br/>" })}</p>
     <br />
-    <h4 class="h4 blueText">{$t("legalPolicy.subtitle2")}</h4>
+    <h3 class="h4 blueText">{$t("legalPolicy.subtitle2")}</h3>
     <p>
       {$t("legalPolicy.para2a")}
       <a
@@ -32,13 +32,13 @@
     </p>
     <p>{$t("legalPolicy.para2b")}</p>
     <br />
-    <h4 class="h4 blueText">{$t("legalPolicy.subtitle3")}</h4>
+    <h3 class="h4 blueText">{$t("legalPolicy.subtitle3")}</h3>
     <p>{@html $t("legalPolicy.para3", { doubleBreak: "<br/><br/>" })}</p>
     <br />
-    <h4 class="h4 blueText">{$t("legalPolicy.subtitle4")}</h4>
+    <h3 class="h4 blueText">{$t("legalPolicy.subtitle4")}</h3>
     <p>{@html $t("legalPolicy.para4", { doubleBreak: "<br/><br/>" })}</p>
     <br />
-    <h4 class="h4 blueText">{$t("legalPolicy.subtitle5")}</h4>
+    <h3 class="h4 blueText">{$t("legalPolicy.subtitle5")}</h3>
     <p>{$t("legalPolicy.para5")}</p>
   </div>
 </section>

@@ -29,7 +29,7 @@
   <div class="col-12 col-xl-6 mt-3 mb-4">
     <div class="d-inline-flex">
       <span aria-hidden="true"><img src="/icons/bullseye.svg" alt="" /></span>
-      <h2 class="lead mx-3">{$t("obiMainCard.title")}</h2>
+      <h1 class="lead mx-3">{$t("obiMainCard.title")}</h1>
     </div>
     <p class="captionUpdateDarker mb-0">
       {@html $t("obiMainCard.latestUpdate", {ultimoAggiornamento: dataPaginaFormatted, break: "<br/>" })}
@@ -41,9 +41,9 @@
 
 <div class="d-flex flex-wrap justify-content-between mt-0 pb-4">
   <div class="col-12 col-lg-7 flex-wrap">
-    <h3 class="h3">
+    <h2 class="h3">
       {$t("obiMainCard.subtitle")}
-    </h3>
+    </h2>
 
     <div class="d-flex inline mb-1 pt-4" />
     <p>

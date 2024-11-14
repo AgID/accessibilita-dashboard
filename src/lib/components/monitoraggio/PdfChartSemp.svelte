@@ -98,8 +98,8 @@
 </script>
 
 <div class="card-box mt-2 my-lg-3 hide-mobile pt-3 px-3">
-  <h2 class="cardTitle py-3 ps-2 ps-lg-3 d-inline-flex greyText">
-    {$t("moniPDFChart.title")}</h2>
+  <h3 class="cardTitle py-3 ps-2 ps-lg-3 d-inline-flex greyText">
+    {$t("moniPDFChart.title")}</h3>
   <div>
     <p class="mb-0 pb-3 px-2 px-xl-3">
       {@html $t("moniPDFChart.chartDescriptionSemp", {break: "<br/>", total: numPDF})}

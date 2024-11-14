@@ -1,6 +1,6 @@
 export default {
   it: {
-    "dicMain.title": "Dichiarazioni di accessibilità",
+    "dicMain.title": "Panoramica",
     "dicMain.SITI-title": "Dichiarazioni di accessibilità siti web",
     "dicMain.APP-title": "Dichiarazioni di accessibilità applicazioni mobile",
     "dicMain.prevCrumb": "Dichiarazioni",
@@ -19,10 +19,11 @@ export default {
     "dicMain.cardThreeTitle": "Enti che hanno pubblicato una dichiarazione",
     "dicMain.goWeb": "Dichiarazioni di accessibilità dei siti web dal 2020",
     "dicMain.goApp": "Dichiarazioni di accessibilità delle applicazioni mobile dal 2020",
-    "dicMain.moreInfo": "Scopri di più",
+    "dicMain.moreInfoWeb": "Vai ai siti web",
+    "dicMain.moreInfoApp": "Vai alle app",
   },
   en: {
-    "dicMain.title": "Accessibility statements",
+    "dicMain.title": "Overview",
     "dicMain.SITI-title": "Accessibility Statements for Websites",
     "dicMain.APP-title": "Accessibility Statements for Mobile Applications",
     "dicMain.prevCrumb": "Statements",
@@ -39,6 +40,7 @@ export default {
     "dicMain.cardThreeTitle": "Entities that have published a statement",
     "dicMain.goWeb": "Websites accessibility statements since 2020",
     "dicMain.goApp": "Mobile applications accessibility statements since 2020",
-    "dicMain.moreInfo": "Discover more",
+    "dicMain.moreInfoWeb": "Go to websites",
+    "dicMain.moreInfoApp": "Go to apps",
   },
 };
