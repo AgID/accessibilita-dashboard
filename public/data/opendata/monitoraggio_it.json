@@ -1,380 +1,380 @@
 [
     {
         "regione": "Veneto",
-        "num_siti": 664,
+        "num_siti": 673,
         "categoria_ipa": "Altre tipologie di Enti",
-        "data_ultimo_monitoraggio": "2024-09-30"
+        "data_ultimo_monitoraggio": "2024-12-31"
     },
     {
         "regione": "Veneto",
-        "num_siti": 843,
+        "num_siti": 809,
         "categoria_ipa": "Comuni e loro Consorzi e Associazioni",
-        "data_ultimo_monitoraggio": "2024-09-30"
+        "data_ultimo_monitoraggio": "2024-12-31"
     },
     {
         "regione": "Veneto",
-        "num_siti": 644,
+        "num_siti": 637,
         "categoria_ipa": "Istituti di Istruzione Statale di Ogni Ordine e Grado",
-        "data_ultimo_monitoraggio": "2024-09-30"
+        "data_ultimo_monitoraggio": "2024-12-31"
     },
     {
         "regione": "Valle d'Aosta/Vallée d'Aoste",
         "num_siti": 98,
         "categoria_ipa": "Altre tipologie di Enti",
-        "data_ultimo_monitoraggio": "2024-09-30"
+        "data_ultimo_monitoraggio": "2024-12-31"
     },
     {
         "regione": "Valle d'Aosta/Vallée d'Aoste",
-        "num_siti": 82,
+        "num_siti": 86,
         "categoria_ipa": "Comuni e loro Consorzi e Associazioni",
-        "data_ultimo_monitoraggio": "2024-09-30"
+        "data_ultimo_monitoraggio": "2024-12-31"
     },
     {
         "regione": "Valle d'Aosta/Vallée d'Aoste",
         "num_siti": 42,
         "categoria_ipa": "Istituti di Istruzione Statale di Ogni Ordine e Grado",
-        "data_ultimo_monitoraggio": "2024-09-30"
+        "data_ultimo_monitoraggio": "2024-12-31"
     },
     {
         "regione": "Umbria",
-        "num_siti": 137,
+        "num_siti": 141,
         "categoria_ipa": "Altre tipologie di Enti",
-        "data_ultimo_monitoraggio": "2024-09-30"
+        "data_ultimo_monitoraggio": "2024-12-31"
     },
     {
         "regione": "Umbria",
-        "num_siti": 117,
+        "num_siti": 112,
         "categoria_ipa": "Comuni e loro Consorzi e Associazioni",
-        "data_ultimo_monitoraggio": "2024-09-30"
+        "data_ultimo_monitoraggio": "2024-12-31"
     },
     {
         "regione": "Umbria",
-        "num_siti": 146,
+        "num_siti": 140,
         "categoria_ipa": "Istituti di Istruzione Statale di Ogni Ordine e Grado",
-        "data_ultimo_monitoraggio": "2024-09-30"
+        "data_ultimo_monitoraggio": "2024-12-31"
     },
     {
         "regione": "Toscana",
-        "num_siti": 546,
+        "num_siti": 548,
         "categoria_ipa": "Altre tipologie di Enti",
-        "data_ultimo_monitoraggio": "2024-09-30"
+        "data_ultimo_monitoraggio": "2024-12-31"
     },
     {
         "regione": "Toscana",
-        "num_siti": 491,
+        "num_siti": 487,
         "categoria_ipa": "Comuni e loro Consorzi e Associazioni",
-        "data_ultimo_monitoraggio": "2024-09-30"
+        "data_ultimo_monitoraggio": "2024-12-31"
     },
     {
         "regione": "Toscana",
-        "num_siti": 563,
+        "num_siti": 535,
         "categoria_ipa": "Istituti di Istruzione Statale di Ogni Ordine e Grado",
-        "data_ultimo_monitoraggio": "2024-09-30"
+        "data_ultimo_monitoraggio": "2024-12-31"
     },
     {
         "regione": "Sicilia",
-        "num_siti": 700,
+        "num_siti": 699,
         "categoria_ipa": "Altre tipologie di Enti",
-        "data_ultimo_monitoraggio": "2024-09-30"
+        "data_ultimo_monitoraggio": "2024-12-31"
     },
     {
         "regione": "Sicilia",
-        "num_siti": 479,
+        "num_siti": 476,
         "categoria_ipa": "Comuni e loro Consorzi e Associazioni",
-        "data_ultimo_monitoraggio": "2024-09-30"
+        "data_ultimo_monitoraggio": "2024-12-31"
     },
     {
         "regione": "Sicilia",
-        "num_siti": 970,
+        "num_siti": 890,
         "categoria_ipa": "Istituti di Istruzione Statale di Ogni Ordine e Grado",
-        "data_ultimo_monitoraggio": "2024-09-30"
+        "data_ultimo_monitoraggio": "2024-12-31"
     },
     {
         "regione": "Sardegna",
-        "num_siti": 298,
+        "num_siti": 291,
         "categoria_ipa": "Altre tipologie di Enti",
-        "data_ultimo_monitoraggio": "2024-09-30"
+        "data_ultimo_monitoraggio": "2024-12-31"
     },
     {
         "regione": "Sardegna",
-        "num_siti": 479,
+        "num_siti": 475,
         "categoria_ipa": "Comuni e loro Consorzi e Associazioni",
-        "data_ultimo_monitoraggio": "2024-09-30"
+        "data_ultimo_monitoraggio": "2024-12-31"
     },
     {
         "regione": "Sardegna",
-        "num_siti": 313,
+        "num_siti": 299,
         "categoria_ipa": "Istituti di Istruzione Statale di Ogni Ordine e Grado",
-        "data_ultimo_monitoraggio": "2024-09-30"
+        "data_ultimo_monitoraggio": "2024-12-31"
     },
     {
         "regione": "Puglia",
-        "num_siti": 426,
+        "num_siti": 424,
         "categoria_ipa": "Altre tipologie di Enti",
-        "data_ultimo_monitoraggio": "2024-09-30"
+        "data_ultimo_monitoraggio": "2024-12-31"
     },
     {
         "regione": "Puglia",
-        "num_siti": 321,
+        "num_siti": 316,
         "categoria_ipa": "Comuni e loro Consorzi e Associazioni",
-        "data_ultimo_monitoraggio": "2024-09-30"
+        "data_ultimo_monitoraggio": "2024-12-31"
     },
     {
         "regione": "Puglia",
-        "num_siti": 745,
+        "num_siti": 678,
         "categoria_ipa": "Istituti di Istruzione Statale di Ogni Ordine e Grado",
-        "data_ultimo_monitoraggio": "2024-09-30"
+        "data_ultimo_monitoraggio": "2024-12-31"
     },
     {
         "regione": "Provincia autonoma di Trento",
-        "num_siti": 300,
+        "num_siti": 312,
         "categoria_ipa": "Altre tipologie di Enti",
-        "data_ultimo_monitoraggio": "2024-09-30"
+        "data_ultimo_monitoraggio": "2024-12-31"
     },
     {
         "regione": "Provincia autonoma di Trento",
-        "num_siti": 187,
+        "num_siti": 192,
         "categoria_ipa": "Comuni e loro Consorzi e Associazioni",
-        "data_ultimo_monitoraggio": "2024-09-30"
+        "data_ultimo_monitoraggio": "2024-12-31"
     },
     {
         "regione": "Provincia autonoma di Trento",
-        "num_siti": 76,
+        "num_siti": 74,
         "categoria_ipa": "Istituti di Istruzione Statale di Ogni Ordine e Grado",
-        "data_ultimo_monitoraggio": "2024-09-30"
+        "data_ultimo_monitoraggio": "2024-12-31"
     },
     {
         "regione": "Provincia autonoma di Bolzano",
-        "num_siti": 212,
+        "num_siti": 214,
         "categoria_ipa": "Altre tipologie di Enti",
-        "data_ultimo_monitoraggio": "2024-09-30"
+        "data_ultimo_monitoraggio": "2024-12-31"
     },
     {
         "regione": "Provincia autonoma di Bolzano",
-        "num_siti": 166,
+        "num_siti": 160,
         "categoria_ipa": "Comuni e loro Consorzi e Associazioni",
-        "data_ultimo_monitoraggio": "2024-09-30"
+        "data_ultimo_monitoraggio": "2024-12-31"
     },
     {
         "regione": "Provincia autonoma di Bolzano",
-        "num_siti": 120,
+        "num_siti": 116,
         "categoria_ipa": "Istituti di Istruzione Statale di Ogni Ordine e Grado",
-        "data_ultimo_monitoraggio": "2024-09-30"
+        "data_ultimo_monitoraggio": "2024-12-31"
     },
     {
         "regione": "Piemonte",
-        "num_siti": 929,
+        "num_siti": 936,
         "categoria_ipa": "Altre tipologie di Enti",
-        "data_ultimo_monitoraggio": "2024-09-30"
+        "data_ultimo_monitoraggio": "2024-12-31"
     },
     {
         "regione": "Piemonte",
-        "num_siti": 1247,
+        "num_siti": 1296,
         "categoria_ipa": "Comuni e loro Consorzi e Associazioni",
-        "data_ultimo_monitoraggio": "2024-09-30"
+        "data_ultimo_monitoraggio": "2024-12-31"
     },
     {
         "regione": "Piemonte",
-        "num_siti": 659,
+        "num_siti": 601,
         "categoria_ipa": "Istituti di Istruzione Statale di Ogni Ordine e Grado",
-        "data_ultimo_monitoraggio": "2024-09-30"
+        "data_ultimo_monitoraggio": "2024-12-31"
     },
     {
         "regione": "Molise",
         "num_siti": 83,
         "categoria_ipa": "Altre tipologie di Enti",
-        "data_ultimo_monitoraggio": "2024-09-30"
+        "data_ultimo_monitoraggio": "2024-12-31"
     },
     {
         "regione": "Molise",
-        "num_siti": 137,
+        "num_siti": 134,
         "categoria_ipa": "Comuni e loro Consorzi e Associazioni",
-        "data_ultimo_monitoraggio": "2024-09-30"
+        "data_ultimo_monitoraggio": "2024-12-31"
     },
     {
         "regione": "Molise",
         "num_siti": 56,
         "categoria_ipa": "Istituti di Istruzione Statale di Ogni Ordine e Grado",
-        "data_ultimo_monitoraggio": "2024-09-30"
+        "data_ultimo_monitoraggio": "2024-12-31"
     },
     {
         "regione": "Marche",
-        "num_siti": 302,
+        "num_siti": 301,
         "categoria_ipa": "Altre tipologie di Enti",
-        "data_ultimo_monitoraggio": "2024-09-30"
+        "data_ultimo_monitoraggio": "2024-12-31"
     },
     {
         "regione": "Marche",
-        "num_siti": 272,
+        "num_siti": 274,
         "categoria_ipa": "Comuni e loro Consorzi e Associazioni",
-        "data_ultimo_monitoraggio": "2024-09-30"
+        "data_ultimo_monitoraggio": "2024-12-31"
     },
     {
         "regione": "Marche",
-        "num_siti": 253,
+        "num_siti": 237,
         "categoria_ipa": "Istituti di Istruzione Statale di Ogni Ordine e Grado",
-        "data_ultimo_monitoraggio": "2024-09-30"
+        "data_ultimo_monitoraggio": "2024-12-31"
     },
     {
         "regione": "Lombardia",
-        "num_siti": 1567,
+        "num_siti": 1528,
         "categoria_ipa": "Altre tipologie di Enti",
-        "data_ultimo_monitoraggio": "2024-09-30"
+        "data_ultimo_monitoraggio": "2024-12-31"
     },
     {
         "regione": "Lombardia",
-        "num_siti": 1775,
+        "num_siti": 1781,
         "categoria_ipa": "Comuni e loro Consorzi e Associazioni",
-        "data_ultimo_monitoraggio": "2024-09-30"
+        "data_ultimo_monitoraggio": "2024-12-31"
     },
     {
         "regione": "Lombardia",
-        "num_siti": 1239,
+        "num_siti": 1195,
         "categoria_ipa": "Istituti di Istruzione Statale di Ogni Ordine e Grado",
-        "data_ultimo_monitoraggio": "2024-09-30"
+        "data_ultimo_monitoraggio": "2024-12-31"
     },
     {
         "regione": "Liguria",
-        "num_siti": 233,
+        "num_siti": 226,
         "categoria_ipa": "Altre tipologie di Enti",
-        "data_ultimo_monitoraggio": "2024-09-30"
+        "data_ultimo_monitoraggio": "2024-12-31"
     },
     {
         "regione": "Liguria",
-        "num_siti": 311,
+        "num_siti": 322,
         "categoria_ipa": "Comuni e loro Consorzi e Associazioni",
-        "data_ultimo_monitoraggio": "2024-09-30"
+        "data_ultimo_monitoraggio": "2024-12-31"
     },
     {
         "regione": "Liguria",
-        "num_siti": 225,
+        "num_siti": 197,
         "categoria_ipa": "Istituti di Istruzione Statale di Ogni Ordine e Grado",
-        "data_ultimo_monitoraggio": "2024-09-30"
+        "data_ultimo_monitoraggio": "2024-12-31"
     },
     {
         "regione": "Lazio",
-        "num_siti": 2192,
+        "num_siti": 2203,
         "categoria_ipa": "Altre tipologie di Enti",
-        "data_ultimo_monitoraggio": "2024-09-30"
+        "data_ultimo_monitoraggio": "2024-12-31"
     },
     {
         "regione": "Lazio",
-        "num_siti": 430,
+        "num_siti": 428,
         "categoria_ipa": "Comuni e loro Consorzi e Associazioni",
-        "data_ultimo_monitoraggio": "2024-09-30"
+        "data_ultimo_monitoraggio": "2024-12-31"
     },
     {
         "regione": "Lazio",
-        "num_siti": 800,
+        "num_siti": 777,
         "categoria_ipa": "Istituti di Istruzione Statale di Ogni Ordine e Grado",
-        "data_ultimo_monitoraggio": "2024-09-30"
+        "data_ultimo_monitoraggio": "2024-12-31"
     },
     {
         "regione": "Friuli-Venezia Giulia",
-        "num_siti": 292,
+        "num_siti": 294,
         "categoria_ipa": "Altre tipologie di Enti",
-        "data_ultimo_monitoraggio": "2024-09-30"
+        "data_ultimo_monitoraggio": "2024-12-31"
     },
     {
         "regione": "Friuli-Venezia Giulia",
         "num_siti": 318,
         "categoria_ipa": "Comuni e loro Consorzi e Associazioni",
-        "data_ultimo_monitoraggio": "2024-09-30"
+        "data_ultimo_monitoraggio": "2024-12-31"
     },
     {
         "regione": "Friuli-Venezia Giulia",
-        "num_siti": 180,
+        "num_siti": 174,
         "categoria_ipa": "Istituti di Istruzione Statale di Ogni Ordine e Grado",
-        "data_ultimo_monitoraggio": "2024-09-30"
+        "data_ultimo_monitoraggio": "2024-12-31"
     },
     {
         "regione": "Emilia-Romagna",
-        "num_siti": 694,
+        "num_siti": 736,
         "categoria_ipa": "Altre tipologie di Enti",
-        "data_ultimo_monitoraggio": "2024-09-30"
+        "data_ultimo_monitoraggio": "2024-12-31"
     },
     {
         "regione": "Emilia-Romagna",
-        "num_siti": 516,
+        "num_siti": 510,
         "categoria_ipa": "Comuni e loro Consorzi e Associazioni",
-        "data_ultimo_monitoraggio": "2024-09-30"
+        "data_ultimo_monitoraggio": "2024-12-31"
     },
     {
         "regione": "Emilia-Romagna",
-        "num_siti": 606,
+        "num_siti": 591,
         "categoria_ipa": "Istituti di Istruzione Statale di Ogni Ordine e Grado",
-        "data_ultimo_monitoraggio": "2024-09-30"
+        "data_ultimo_monitoraggio": "2024-12-31"
     },
     {
         "regione": "Campania",
-        "num_siti": 478,
+        "num_siti": 471,
         "categoria_ipa": "Altre tipologie di Enti",
-        "data_ultimo_monitoraggio": "2024-09-30"
+        "data_ultimo_monitoraggio": "2024-12-31"
     },
     {
         "regione": "Campania",
-        "num_siti": 587,
+        "num_siti": 582,
         "categoria_ipa": "Comuni e loro Consorzi e Associazioni",
-        "data_ultimo_monitoraggio": "2024-09-30"
+        "data_ultimo_monitoraggio": "2024-12-31"
     },
     {
         "regione": "Campania",
-        "num_siti": 1161,
+        "num_siti": 1046,
         "categoria_ipa": "Istituti di Istruzione Statale di Ogni Ordine e Grado",
-        "data_ultimo_monitoraggio": "2024-09-30"
+        "data_ultimo_monitoraggio": "2024-12-31"
     },
     {
         "regione": "Calabria",
-        "num_siti": 236,
+        "num_siti": 250,
         "categoria_ipa": "Altre tipologie di Enti",
-        "data_ultimo_monitoraggio": "2024-09-30"
+        "data_ultimo_monitoraggio": "2024-12-31"
     },
     {
         "regione": "Calabria",
-        "num_siti": 436,
+        "num_siti": 424,
         "categoria_ipa": "Comuni e loro Consorzi e Associazioni",
-        "data_ultimo_monitoraggio": "2024-09-30"
+        "data_ultimo_monitoraggio": "2024-12-31"
     },
     {
         "regione": "Calabria",
-        "num_siti": 376,
+        "num_siti": 325,
         "categoria_ipa": "Istituti di Istruzione Statale di Ogni Ordine e Grado",
-        "data_ultimo_monitoraggio": "2024-09-30"
+        "data_ultimo_monitoraggio": "2024-12-31"
     },
     {
         "regione": "Basilicata",
-        "num_siti": 115,
+        "num_siti": 114,
         "categoria_ipa": "Altre tipologie di Enti",
-        "data_ultimo_monitoraggio": "2024-09-30"
+        "data_ultimo_monitoraggio": "2024-12-31"
     },
     {
         "regione": "Basilicata",
         "num_siti": 130,
         "categoria_ipa": "Comuni e loro Consorzi e Associazioni",
-        "data_ultimo_monitoraggio": "2024-09-30"
+        "data_ultimo_monitoraggio": "2024-12-31"
     },
     {
         "regione": "Basilicata",
-        "num_siti": 139,
+        "num_siti": 116,
         "categoria_ipa": "Istituti di Istruzione Statale di Ogni Ordine e Grado",
-        "data_ultimo_monitoraggio": "2024-09-30"
+        "data_ultimo_monitoraggio": "2024-12-31"
     },
     {
         "regione": "Abruzzo",
-        "num_siti": 271,
+        "num_siti": 272,
         "categoria_ipa": "Altre tipologie di Enti",
-        "data_ultimo_monitoraggio": "2024-09-30"
+        "data_ultimo_monitoraggio": "2024-12-31"
     },
     {
         "regione": "Abruzzo",
-        "num_siti": 359,
+        "num_siti": 353,
         "categoria_ipa": "Comuni e loro Consorzi e Associazioni",
-        "data_ultimo_monitoraggio": "2024-09-30"
+        "data_ultimo_monitoraggio": "2024-12-31"
     },
     {
         "regione": "Abruzzo",
-        "num_siti": 225,
+        "num_siti": 204,
         "categoria_ipa": "Istituti di Istruzione Statale di Ogni Ordine e Grado",
-        "data_ultimo_monitoraggio": "2024-09-30"
+        "data_ultimo_monitoraggio": "2024-12-31"
     }
 ]

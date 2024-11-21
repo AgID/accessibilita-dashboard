@@ -1,19 +1,19 @@
     {
         "data": [
             {
-                "percentuale": 98.35371274690443365000,
-                "tipo_pdf_en": "PDF with errors",
-                "tipo_pdf_it": "PDF con errori"
-            },
-            {
-                "percentuale": 1.64628725309556635000,
+                "percentuale": 1.88730026093598609700,
                 "tipo_pdf_en": "PDF without errors",
                 "tipo_pdf_it": "PDF senza errori"
+            },
+            {
+                "percentuale": 98.11269973906401390300,
+                "tipo_pdf_en": "PDF with errors",
+                "tipo_pdf_it": "PDF con errori"
             }
         ],
         "intestazione": {
-            "dat_ultimo_aggiornamento": "2024-09-30",
-            "monitoraggio_pdf_intestazione": "3-2024"
+            "dat_ultimo_aggiornamento": "2024-12-31",
+            "monitoraggio_pdf_intestazione": "4-2024"
         }
     }
 

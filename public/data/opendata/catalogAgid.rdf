@@ -25,17 +25,17 @@
   <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2023-04-17</dct:modified>
   <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-09-30</dct:issued>
   <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
-  <dcat:dataset rdf:resource="https://monitoraggio.accessibilita.agid.gov.it/opendata/dati-prodotti-dal-monitoraggio-automatizzato-dell'accessibilita"/>
-  <dcat:dataset rdf:resource="https://monitoraggio.accessibilita.agid.gov.it/opendata/gli-errori-di-accessibilita-identificabili-automaticamente"/>
-  <dcat:dataset rdf:resource="https://monitoraggio.accessibilita.agid.gov.it/opendata/dichiarazioni-di-accessibilita"/>
+  <dcat:dataset rdf:resource="https://monitoraggio.accessibilita.agid.gov.it/monitoraggio-semplificato"/>
+  <dcat:dataset rdf:resource="https://monitoraggio.accessibilita.agid.gov.it/errori-semplificato"/>
+  <dcat:dataset rdf:resource="https://monitoraggio.accessibilita.agid.gov.it/dichiarazione"/>
   <dcat:dataset rdf:resource="https://monitoraggio.accessibilita.agid.gov.it/opendata/elenco-open-data-accessibilita"/>
   </dcatapit:Catalog>
-  <dcatapit:Dataset rdf:about="https://monitoraggio.accessibilita.agid.gov.it/opendata/dati-prodotti-dal-monitoraggio-automatizzato-dell'accessibilita">
+  <dcatapit:Dataset rdf:about="https://monitoraggio.accessibilita.agid.gov.it/monitoraggio-semplificato">
     <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
     <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/GOVE"/>
     <dct:license/>
     <dct:title>Dati prodotti dal monitoraggio automatizzato dell'accessibilita</dct:title>
-    <dct:landingpage>https://monitoraggio.accessibilita.agid.gov.it/opendata/dati-prodotti-dal-monitoraggio-automatizzato-dell'accessibilita</dct:landingpage>
+    <dct:landingpage>https://monitoraggio.accessibilita.agid.gov.it/monitoraggio-semplificato</dct:landingpage>
     <dct:description>Distribuzione dei siti monitorati raggruppati nei 5 valori della Nomenclatura delle Unita territoriali per le Statistiche dell'Italia (NUTS) usati per fini statistici a livello dell'Unione Europea (Eurostat).</dct:description>
     <dct:identifier>agid:dati-prodotti-dal-monitoraggio-automatizzato-dell'accessibilita</dct:identifier>
     <dct:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/QUARTERLY"/>
@@ -64,14 +64,14 @@
     <dcat:keyword>Monitoraggio</dcat:keyword>
     <dcat:keyword>accessibilita</dcat:keyword>
     <dcat:keyword>regione</dcat:keyword>
-    <dcat:distribution rdf:resource="https://monitoraggio.accessibilita.agid.gov.it/opendata/dati-prodotti-dal-monitoraggio-automatizzato-dell'accessibilita/json11"/>    
+    <dcat:distribution rdf:resource="https://monitoraggio.accessibilita.agid.gov.it/monitoraggio-semplificato/json11"/>    
   </dcatapit:Dataset>
-  <dcatapit:Dataset rdf:about="https://monitoraggio.accessibilita.agid.gov.it/opendata/gli-errori-di-accessibilita-identificabili-automaticamente">
+  <dcatapit:Dataset rdf:about="https://monitoraggio.accessibilita.agid.gov.it/errori-semplificato">
     <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
     <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/GOVE"/>
     <dct:license/>
     <dct:title>Gli errori di accessibilita identificabili automaticamente</dct:title>
-    <dct:landingpage>https://monitoraggio.accessibilita.agid.gov.it/opendata/gli-errori-di-accessibilita-identificabili-automaticamente</dct:landingpage>
+    <dct:landingpage>https://monitoraggio.accessibilita.agid.gov.it/errori-semplificato</dct:landingpage>
     <dct:description>Distribuzione degli errori relativa ad ognuno dei criteri di successo valutati con il sistema automatizzato.</dct:description>
     <dct:identifier>agid:gli-errori-di-accessibilita-identificabili-automaticamente</dct:identifier>
     <dct:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/QUARTERLY"/>
@@ -100,14 +100,14 @@
     <dcat:keyword>Monitoraggio</dcat:keyword>
     <dcat:keyword>accessibilita</dcat:keyword>
     <dcat:keyword>errori</dcat:keyword>
-    <dcat:distribution rdf:resource="https://monitoraggio.accessibilita.agid.gov.it/opendata/gli-errori-di-accessibilita-identificabili-automaticamente/json13"/>
+    <dcat:distribution rdf:resource="https://monitoraggio.accessibilita.agid.gov.it/errori-semplificato/json13"/>
   </dcatapit:Dataset>
-  <dcatapit:Dataset rdf:about="https://monitoraggio.accessibilita.agid.gov.it/opendata/dichiarazioni-di-accessibilita">
+  <dcatapit:Dataset rdf:about="https://monitoraggio.accessibilita.agid.gov.it/dichiarazione">
     <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
     <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/GOVE"/>
     <dct:license/>
     <dct:title>Dichiarazioni di accessibilita</dct:title>
-    <dct:landingpage>https://monitoraggio.accessibilita.agid.gov.it/opendata/dichiarazioni-di-accessibilita</dct:landingpage>
+    <dct:landingpage>https://monitoraggio.accessibilita.agid.gov.it/dichiarazione</dct:landingpage>
     <dct:description>Lo strumento attraverso il quale le PA rendono pubblico lo stato di accessibilita di ogni loro servizio.</dct:description>
     <dct:identifier>agid:dichiarazioni-di-accessibilita</dct:identifier>
     <dct:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/QUARTERLY"/>
@@ -136,14 +136,14 @@
     <dcat:keyword>Monitoraggio</dcat:keyword>
     <dcat:keyword>accessibilita</dcat:keyword>
     <dcat:keyword>dichiarazione</dcat:keyword>
-    <dcat:distribution rdf:resource="https://monitoraggio.accessibilita.agid.gov.it/opendata/dichiarazioni-di-accessibilita/json14"/>
+    <dcat:distribution rdf:resource="https://monitoraggio.accessibilita.agid.gov.it/dichiarazione/json14"/>
   </dcatapit:Dataset>
   <dcatapit:Dataset rdf:about="https://monitoraggio.accessibilita.agid.gov.it/opendata/elenco-open-data-accessibilita">
     <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
     <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/GOVE"/>
     <dct:license/>
     <dct:title>Elenco open data accessibilita</dct:title>
-    <dct:landingpage>https://monitoraggio.accessibilita.agid.gov.it/opendata/elenco-open-data-accessibilita</dct:landingpage>
+    <dct:landingpage>https://monitoraggio.accessibilita.agid.gov.it/opendata</dct:landingpage>
     <dct:description>La pagina attraverso la quale puoi consultare e scaricare gratuitamente i dati e le informazioni presenti sul sito del monitoraggio dell’accessibilità di AgID.</dct:description>
     <dct:identifier>agid:elenco-open-data-accessibilita</dct:identifier>
     <dct:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/QUARTERLY"/>
@@ -182,8 +182,8 @@
     <dcat:distribution rdf:resource="https://monitoraggio.accessibilita.agid.gov.it/opendata/elenco-open-data-accessibilita/json9"/>
     <dcat:distribution rdf:resource="https://monitoraggio.accessibilita.agid.gov.it/opendata/elenco-open-data-accessibilita/xml10"/>
   </dcatapit:Dataset> 
-  <dcatapit:Distribution rdf:about="https://monitoraggio.accessibilita.agid.gov.it/opendata/dati-prodotti-dal-monitoraggio-automatizzato-dell'accessibilita/json11">
-    <dcat:accessURL rdf:resource="https://monitoraggio.accessibilita.agid.gov.it/data/monitoraggio_per_regione_it.json"/>
+  <dcatapit:Distribution rdf:about="https://monitoraggio.accessibilita.agid.gov.it/monitoraggio-semplificato/json11">
+    <dcat:accessURL rdf:resource="https://monitoraggio.accessibilita.agid.gov.it/data/monitoraggio_per_regione.json"/>
     <dct:license>
       <dcatapit:LicenseDocument rdf:about="https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40">
         <rdf:type rdf:resource="dct:LicenseDocument"/>
@@ -196,8 +196,8 @@
     <dct:title>Monitoraggio per aregione</dct:title>
     <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
   </dcatapit:Distribution>
-  <dcatapit:Distribution rdf:about="https://monitoraggio.accessibilita.agid.gov.it/opendata/gli-errori-di-accessibilita-identificabili-automaticamente/json13">
-    <dcat:accessURL rdf:resource="https://monitoraggio.accessibilita.agid.gov.it/data/erroririscontrati_it.json"/>
+  <dcatapit:Distribution rdf:about="https://monitoraggio.accessibilita.agid.gov.it/errori-semplificato/json13">
+    <dcat:accessURL rdf:resource="https://monitoraggio.accessibilita.agid.gov.it/data/errori_riscontrati.json"/>
     <dct:license>
       <dcatapit:LicenseDocument rdf:about="https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40">
         <rdf:type rdf:resource="dct:LicenseDocument"/>
@@ -210,8 +210,8 @@
     <dct:title>Errori riscontrati</dct:title>
     <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
   </dcatapit:Distribution>
-  <dcatapit:Distribution rdf:about="https://monitoraggio.accessibilita.agid.gov.it/opendata/dichiarazioni-di-accessibilita/json14">
-    <dcat:accessURL rdf:resource="https://monitoraggio.accessibilita.agid.gov.it/data/dichiarazionetrendanno_it.json"/>
+  <dcatapit:Distribution rdf:about="https://monitoraggio.accessibilita.agid.gov.it/dichiarazione/json14">
+    <dcat:accessURL rdf:resource="https://monitoraggio.accessibilita.agid.gov.it/data/dichiarazione_trend_anno.json"/>
     <dct:license>
       <dcatapit:LicenseDocument rdf:about="https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40">
         <rdf:type rdf:resource="dct:LicenseDocument"/>
