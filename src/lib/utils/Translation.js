@@ -14,7 +14,7 @@ import OpenDataPage from "./pages/Opendata";
 import MediaPolicy from "./pages/MediaPolicy";
 import LegalPolicy from "./pages/NoteLegali";
 import PrivacyPolicy from "./pages/PrivacyPolicy";
-import ContactPage from "./pages/Contattaci";
+import ContactPage from "./pages/Contatti";
 
 import Feedback from "./components/Feedback";
 import Downloads from "./components/CsvPdfButtons";

@@ -1,18 +1,17 @@
 export default {
   it: {
-    "moniAPPCard.title": "Accessibilità APP",
-    "moniAPPCard.latestUpdate": "Ultimo aggiornamento dati: {{ultimoAggiornamento}}",
-    "moniAPPCard.subtitle": "Dati prodotti dal monitoraggio manuale delle APP",
-    "moniAPPCard.description": "Anche le applicazioni mobili della PA rilasciate su PlayStore e AppStore sono soggette al controllo di accessibilità da parte degli esperti di accessibilità. Questi ultimi, infatti, utilizzano le tecnologie assistive per verificare la corretta navigazione all’interno delle pagine delle APP.",
-    "moniAPPCard.cardTitle1": "Applicazioni valutate",
-    "moniAPPCard.cardCaption": "Ultimo aggiornamento: {{aggiornamento}}",
+    "moniAPPCard.title": "Monitoraggio manuale delle app",
+    "moniAPPCard.subtitle":
+      "Dati prodotti dal monitoraggio approfondito delle app",
+    "moniAPPCard.description":
+      "Anche le app delle Pubbliche Amministrazioni rilasciate su Play Store e App Store sono sottoposte ad un monitoraggio approfondito da parte degli esperti di accessibilità. {{break}} La verifica viene eseguita utilizzando le tecnologie assistive, per appurare la corretta navigazione all’interno delle pagine.",
+    "moniAPPCard.cardTitle1": "App valutate nel {{anno}}",
   },
   en: {
-    "moniAPPCard.title": "Accessibility of APPs",
-    "moniAPPCard.latestUpdate": "Last data update: {{ultimoAggiornamento}}",
-    "moniAPPCard.subtitle": "Data produced by manual monitoring of APPs",
-    "moniAPPCard.description": "PA mobile applications released on PlayStore and AppStore are also subject to accessibility checks by accessibility experts. The latter, in fact, use assistive technologies to verify correct navigation within the APP pages.",
-    "moniAPPCard.cardTitle1": "Evaluated apps",
-    "moniAPPCard.cardCaption": "Last update {{aggiornamento}}",
+    "moniAPPCard.title": "Manual app monitoring",
+    "moniAPPCard.subtitle": "Data produced by in-depth app monitoring",
+    "moniAPPCard.description":
+      "Public Administration apps released on Play Store and App Store are also subjected to in-depth monitoring by accessibility experts. {{break}} Verification is performed using assistive technologies to ensure correct navigation within the pages.",
+    "moniAPPCard.cardTitle1": "Evaluated apps in {{anno}}",
   },
 };

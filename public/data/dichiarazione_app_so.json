@@ -2,15 +2,15 @@
         "data": [
             {
                 "valore": 441,
-                "des_sistema_operativo_app": "android"
+                "des_sistema_operativo_app": "Android"
             },
             {
                 "valore": 287,
-                "des_sistema_operativo_app": "ios"
+                "des_sistema_operativo_app": "iOS"
             }
         ],
         "intestazione": {
-            "periodo_dichiarazioni": "2020 - 2024",
+            "anno_dichiarazione": 2024,
             "dat_ult_agg_dichiarazione": "2024-09-23"
         }
     }

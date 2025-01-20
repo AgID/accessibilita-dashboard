@@ -4,12 +4,12 @@
   export let showDrawer = false;
   export let selectedPage;
 
-    function ignoreIndex(path) {
+  function ignoreIndex(path) {
     let correctedPath = path;
-    if (correctedPath === '/index') {
-      correctedPath = '/';
+    if (correctedPath === "/index") {
+      correctedPath = "/";
     }
-    if (correctedPath.endsWith('/index')) {
+    if (correctedPath.endsWith("/index")) {
       correctedPath = correctedPath.substring(0, correctedPath.length - 6);
     }
     return correctedPath;
@@ -85,7 +85,7 @@
               <Icon
                 name="it it-external-link"
                 variant="white"
-                size="xs"
+                size="sm"
                 customClass="mb-1"
               /></a
             >
@@ -204,8 +204,10 @@
                     <li class="w-100 pointer">
                       <a
                         href="/monitoraggio-semplificato"
-                        class:selected={selectedPage == "/monitoraggio-semplificato"}
-                        aria-current={selectedPage == "/monitoraggio-semplificato"
+                        class:selected={selectedPage ==
+                          "/monitoraggio-semplificato"}
+                        aria-current={selectedPage ==
+                        "/monitoraggio-semplificato"
                           ? "true"
                           : "false"}
                         id="monitoraggio-semplificato-ham"
@@ -222,8 +224,10 @@
                     <li class="w-100 pointer">
                       <a
                         href="/monitoraggio-approfondito"
-                        class:selected={selectedPage == "/monitoraggio-approfondito"}
-                        aria-current={selectedPage == "/monitoraggio-approfondito"
+                        class:selected={selectedPage ==
+                          "/monitoraggio-approfondito"}
+                        aria-current={selectedPage ==
+                        "/monitoraggio-approfondito"
                           ? "true"
                           : "false"}
                         id="monitoraggio-approfondito-ham"
@@ -412,17 +416,17 @@
           {/if}
           <div class="d-inline-block">
             <a href="/">
-            <img
-              class="mainLogo d-inline-block align-bottom me-lg-3 mx-2"
-              src={$t("header.logo")}
-              alt={$t("header.monitoraggio")}
-              height="63"
-            />
-            <span
-              class="badge rounded-pill bg-white betaBadge ms-0 ms-lg-3 align-bottom"
-              tabindex="-1">{$t("header.monitoraggioBadge")}</span
-            >
-           </a>
+              <img
+                class="mainLogo d-inline-block align-bottom me-lg-3 mx-2"
+                src={$t("header.logo")}
+                alt={$t("header.monitoraggio")}
+                height="63"
+              />
+              <span
+                class="badge rounded-pill bg-white betaBadge ms-0 ms-lg-3 align-bottom"
+                tabindex="-1">{$t("header.monitoraggioBadge")}</span
+              >
+            </a>
           </div>
         </div>
       </div>

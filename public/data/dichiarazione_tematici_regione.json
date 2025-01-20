@@ -128,8 +128,8 @@
             }
         ],
         "intestazione": {
-            "periodo_dichiarazioni": "2020 - 2024",
-            "dat_ultimo_rilevamento": "2024-09-23"
+            "anno_dichiarazione": 2024,
+            "dat_ult_agg_dichiarazione": "2024-09-23"
         }
     }
 

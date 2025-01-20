@@ -4,7 +4,6 @@
   import DataTable from "../DataTable.svelte";
   import { t } from "../../utils/i18n";
 
-
   let response;
   let loading = true;
   const columns = [
@@ -15,31 +14,31 @@
     },
     {
       field: "num_siti_tot",
-      label:  $t("dicTemaTable.totale"),
+      label: $t("dicTemaTable.totale"),
       format: (value: any) => nf(value),
       align: "right",
     },
     {
       field: "num_siti_tematici_con_dich",
-      label:  $t("dicTemaTable.numeroTema"),
+      label: $t("dicTemaTable.numeroTema"),
       format: (value: any) => nf(value),
       align: "right",
     },
     {
       field: "num_enti_con_dich_istituzionali",
-      label:  $t("dicTemaTable.numeroIst"),
+      label: $t("dicTemaTable.numeroIst"),
       format: (value: any) => nf(value),
       align: "right",
     },
   ];
 
-  let annoRiferimento
+  let annoRiferimento;
 
   onMount(async () => {
     const rs = await fetch("/data/dichiarazione_tematici_regione.json");
     response = await rs.json();
     loading = false;
-    annoRiferimento = response.intestazione.dat_ultimo_rilevamento.substr(0, 4)
+    annoRiferimento = response.intestazione.anno_dichiarazione;
   });
 </script>
 
@@ -49,11 +48,11 @@
     rows={response?.data}
     defaultSortBy="num_siti_tematici_con_dich"
     title={$t("dicTemaTable.title")}
-    periodoMonitoraggio={response?.intestazione?.periodo_dichiarazioni.slice(-4)}
+    periodoMonitoraggio="{$t('layout.anno')}{annoRiferimento}"
     didascalia={true}
   >
     <div slot="didascaliaSlot" class="didascalia">
-      {$t("dicTemaTable.description", { year: annoRiferimento})}
+      {@html $t("dicTemaTable.description", { break: "<br/>" })}
     </div>
   </DataTable>
 {/if}

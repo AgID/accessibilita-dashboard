@@ -25,6 +25,7 @@ export default {
     "feedback.twoFifth": "Altro",
     "feedback.questionThree": "Come possiamo migliorare la pagina?",
     "feedback.threeFirst": "Inserisci qui il tuo testo",
+    "feedback.requiredField": "Questo campo è obbligatorio",
   },
   en: {
     "feedback.cardTitle": "Did you find this page helpful?",
@@ -50,5 +51,6 @@ export default {
     "feedback.twoFifth": "Other",
     "feedback.questionThree": "How can we improve the page?",
     "feedback.threeFirst": "Enter your text here",
+    "feedback.requiredField": "This field is required",
   },
 };

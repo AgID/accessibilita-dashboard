@@ -1,13 +1,12 @@
 export default {
   it: {
-    "contacts.title": "Contattaci",
-    "contacts.info": "Domande relative ai contenuti della piattaforma",
-    "contacts.description":
-      "Ulteriori informazioni relative ai contenuti possono essere richieste a",
+    "contacts.title": "Contatti",
+    "contacts.info": "Hai dubbi o domande?",
+    "contacts.description": "Per informazioni scrivi a ",
   },
   en: {
-    "contacts.title": "Contact us",
-    "contacts.info": "Questions regarding platform content",
-    "contacts.description": "For further information regarding the platform content, you can contact us at",
+    "contacts.title": "Contacts",
+    "contacts.info": "Do you have any doubts or questions?",
+    "contacts.description": "For information write to ",
   },
 };

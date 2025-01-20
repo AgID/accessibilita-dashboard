@@ -1,26 +1,32 @@
 export default {
   it: {
-    "moniPDFCard.title": "Accessibilità PDF",
-    "moniPDFCard.latestUpdate": "Ultimo aggiornamento dati: {{ultimoAggiornamento}}",
-    "moniPDFCard.subtitleSemp": "Dati prodotti dal monitoraggio automatizzato dei PDF",
-    "moniPDFCard.subtitleApp": "Dati prodotti dal monitoraggio manuale dei PDF",
-    "moniPDFCard.descriptionSemp": "Al momento Mauve è in grado di valutare, in fase sperimentale, i {{numero}} criteri che non vengono rispettati dai PDF con la maggiore frequenza. Questi requisiti non rispettati rendono difficile l’interazione accessibile con i PDF stessi. {{break}}Di seguito i dati relativi ai PDF valutati:",
-    "moniPDFCard.descriptionApp": "Il monitoraggio approfondito dell’accessibilità digitale viene effettuato anche per i PDF contenuti all'interno dei siti web. In questo modo è possibile individuare quali documenti posso essere un ostacolo alla corretta fruizione dei servizi delle PA.",
-    "moniPDFCard.cardTitle1": "Siti con almeno un PDF valutato",
-    "moniPDFCard.cardTitle2": "PDF valutati",
-    "moniPDFCard.cardTitle3": "PA con almeno un PDF valutato",
-    "moniPDFCard.cardCaption": "Ultimo aggiornamento: {{aggiornamento}}",
+    "moniPDFCard.title": "Accessibilità documenti PDF",
+    "moniPDFCard.subtitleSemp":
+      "Dati prodotti dal monitoraggio semplificato dei documenti PDF",
+    "moniPDFCard.subtitleAppr":
+      "Dati prodotti dal monitoraggio approfondito dei documenti PDF",
+    "moniPDFCard.descrSemp":
+      "Sono {{numero}} i criteri di successo che MAUVE++ è in grado di valutare, in via sperimentale, relativamente ai documenti PDF pubblicati online dalle PA. ",
+    "moniPDFCard.descrAppr":
+      "Il monitoraggio approfondito dell’accessibilità digitale viene effettuato anche per i documenti PDF contenuti all'interno dei siti web delle Pubbliche Amministrazioni.{{break}} In questo modo è possibile individuare quali documenti possono essere un ostacolo alla corretta fruizione dei servizi digitali delle PA.",
+    "moniPDFCard.cardTitle1": "Siti web con almeno un documento PDF valutato",
+    "moniPDFCard.cardTitle2": "Documenti PDF valutati",
+    "moniPDFCard.cardTitle3": "PA con almeno un documento PDF valutato",
   },
   en: {
-    "moniPDFCard.title": "Accessibility of PDFs",
-    "moniPDFCard.latestUpdate": "Last data update: {{ultimoAggiornamento}}",
-    "moniPDFCard.subtitleSemp": "Data produced by the automated monitoring of PDFs",
-    "moniPDFCard.subtitleApp": "Data produced by the manual monitoring of PDFs",
-    "moniPDFCard.descriptionSemp": "Currently, Mauve is able to evaluate, in an experimental phase, the {{numero}} criteria that are most frequently not met by PDFs. These unmet requirements make accessible interaction with the PDFs challenging.{{break}}Below are the data related to evaluated PDFs:",
-    "moniPDFCard.descriptionApp": "In-depth monitoring of digital accessibility is also carried out for PDFs contained within websites. In this way it is possible to identify which documents can be an obstacle to the correct use of public administration services.",
-    "moniPDFCard.cardTitle1": "Websites with at least one evaluated PDF",
-    "moniPDFCard.cardTitle2": "PDFs evaluated",
-    "moniPDFCard.cardTitle3": "Public Administrations with at least one evaluated PDF",
-    "moniPDFCard.cardCaption": "Last update {{aggiornamento}}",
+    "moniPDFCard.title": "Accessibility of PDF documents",
+    "moniPDFCard.subtitleSemp":
+      "Data produced by simplified monitoring of PDF documents",
+    "moniPDFCard.subtitleAppr":
+      "Data produced by in-depth monitoring of PDF documents",
+    "moniPDFCard.descrSemp":
+      "There are {{numero}} success criteria that MAUVE++ is able to evaluate, on an experimental basis, in relation to PDF documents published online by PAs.",
+    "moniPDFCard.descrAppr":
+      "In-depth monitoring of digital accessibility is also carried out for PDF documents contained within the websites of Public Administrations.{{break}} In this way it is possible to identify which documents may be an obstacle to the correct use of digital services of PAs.",
+    "moniPDFCard.cardTitle1":
+      "Websites with at least one evaluated PDF document",
+    "moniPDFCard.cardTitle2": "PDF documents evaluated",
+    "moniPDFCard.cardTitle3":
+      "Public Administrations with at least one evaluated PDF document",
   },
 };

@@ -2,6 +2,8 @@
   import { onMount } from "svelte";
   import Icon from "./Icon.svelte";
   import { t, locale } from "../utils/i18n";
+  import Breadcrumb from "./Breadcrumb.svelte";
+  import BannerPageUpdated from "./BannerPageUpdated.svelte";
 
   let rs;
 
@@ -11,9 +13,11 @@
   });
 </script>
 
+<Breadcrumb currentPage={$t("breadcrumb.cronologia")}></Breadcrumb>
+<BannerPageUpdated pageId="cronologia" />
 <div class="d-flex mb-lg-5">
   <div class="mb-5">
-    <div class="col-12 mt-3 mb-4">
+    <div class="col-12 mb-4">
       <div class="d-inline-flex">
         <span aria-hidden="true">
           <Icon name="it it-calendar" variant="primary" size="lg" />
@@ -70,7 +74,8 @@
                         'passato.svg') ||
                         (rs.release_it == 'Attuale' && 'presente.svg') ||
                         (rs.release_it == 'In Arrivo' && 'futuro.svg')}"
-                      alt={(rs.release_it == "Passata" && $t("timeline.info3")) ||
+                      alt={(rs.release_it == "Passata" &&
+                        $t("timeline.info3")) ||
                         (rs.release_it == "Attuale" && $t("timeline.info2")) ||
                         (rs.release_it == "In Arrivo" && $t("timeline.info1a"))}
                       class="px-auto"

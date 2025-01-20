@@ -2,11 +2,15 @@
   import Icon from "./Icon.svelte";
 
   import { t } from "../utils/i18n";
+  import Breadcrumb from "./Breadcrumb.svelte";
+  import BannerPageUpdated from "./BannerPageUpdated.svelte";
 </script>
 
 <div class="container my-4">
+  <Breadcrumb currentPage={$t("breadcrumb.contatti")}></Breadcrumb>
+  <BannerPageUpdated pageId="contatti" />
   <div class="mb-5">
-    <div class="d-inline-flex my-4">
+    <div class="d-inline-flex mb-4">
       <span aria-hidden="true"
         ><Icon name="it it-mail" variant="primary" size="lg" /></span
       >
@@ -23,8 +27,8 @@
               <p class="card-text">
                 {$t("contacts.description")}
                 <a
-                  href="mailto:stampa@agid.gov.it"
-                  title={$t("layout.mailto")}>stampa@agid.gov.it</a
+                  href="mailto:comunicazione@agid.gov.it"
+                  title={$t("layout.mailto")}>comunicazione@agid.gov.it</a
                 >
               </p>
             </div>

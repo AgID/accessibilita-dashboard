@@ -1,38 +1,39 @@
     {
         "data": [
             {
-                "num_enti_valutati": 27,
+                "num_enti_valutati": 29,
                 "area_geografica_en": "North-west",
                 "area_geografica_it": "Nord-ovest",
                 "cod_ripartizione_geografica": "1"
             },
             {
-                "num_enti_valutati": 20,
+                "num_enti_valutati": 24,
                 "area_geografica_en": "North-east",
                 "area_geografica_it": "Nord-est",
                 "cod_ripartizione_geografica": "2"
             },
             {
-                "num_enti_valutati": 22,
+                "num_enti_valutati": 29,
                 "area_geografica_en": "Center",
                 "area_geografica_it": "Centro",
                 "cod_ripartizione_geografica": "3"
             },
             {
-                "num_enti_valutati": 24,
+                "num_enti_valutati": 26,
                 "area_geografica_en": "South",
                 "area_geografica_it": "Sud",
                 "cod_ripartizione_geografica": "4"
             },
             {
-                "num_enti_valutati": 10,
+                "num_enti_valutati": 11,
                 "area_geografica_en": "Islands",
                 "area_geografica_it": "Isole",
                 "cod_ripartizione_geografica": "5"
             }
         ],
         "intestazione": {
-            "periodo_monitoraggio": "4-2023",
-            "dat_ultimo_aggiornamento": "2023-12-31"
+            "anno_monitoraggio": 2024,
+            "dat_ultimo_aggiornamento": "2024-12-31"
         }
     }
+

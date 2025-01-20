@@ -1,18 +1,19 @@
     {
         "data": [
             {
-                "num_errori": 29,
+                "num_errori": 28,
                 "cod_livello_conformita": "A",
-                "des_paragrafo_principale": "Documenti non web"
+                "des_paragrafo_principale": "Software"
             },
             {
-                "num_errori": 16,
+                "num_errori": 15,
                 "cod_livello_conformita": "AA",
-                "des_paragrafo_principale": "Documenti non web"
+                "des_paragrafo_principale": "Software"
             }
         ],
         "intestazione": {
-            "periodo_monitoraggio": "4-2023",
-            "dat_ultimo_aggiornamento": "2023-12-31"
+            "anno_monitoraggio": 2024,
+            "dat_ultimo_aggiornamento": "2024-12-31"
         }
     }
+

@@ -1,4 +1,6 @@
 <script>
+  import BannerPageUpdated from "../lib/components/BannerPageUpdated.svelte";
+  import Breadcrumb from "../lib/components/Breadcrumb.svelte";
   import Icon from "../lib/components/Icon.svelte";
   import { t } from "../lib/utils/i18n";
 </script>
@@ -8,7 +10,9 @@
 </svelte:head>
 
 <section class="container" aria-label={$t("mediaPolicy.section")}>
-  <div class="insideContainer mx-auto my-5">
+  <Breadcrumb currentPage={$t("breadcrumb.media")}></Breadcrumb>
+  <BannerPageUpdated pageId="media_policy" />
+  <div class="insideContainer mx-auto mb-5">
     <div>
       <h1 class="lead">{$t("mediaPolicy.title")}</h1>
       <p class="py-3">{$t("mediaPolicy.para1")}</p>
@@ -26,8 +30,8 @@
           >{$t("mediaPolicy.para2linkText")}<Icon
             name="it it-external-link"
             variant="primary"
-            size="xs"
-            customClass="mb-1"
+            size="sm"
+            customClass="ms-1 mb-1"
           />
         </a>
         {@html $t("mediaPolicy.para2b", { doubleBreak: "<br/><br/>" })}
@@ -74,8 +78,8 @@
           >www.facebook.com/AgIDGovIT <Icon
             name="it it-external-link"
             variant="primary"
-            size="xs"
-            customClass="mb-1"
+            size="sm"
+            customClass="ms-1 mb-1"
           /></a
         >.
         {$t("mediaPolicy.socialText1b")}
@@ -87,8 +91,8 @@
           >www.facebook.com/groups/agid.spid <Icon
             name="it it-external-link"
             variant="primary"
-            size="xs"
-            customClass="mb-1"
+            size="sm"
+            customClass="ms-1 mb-1"
           /></a
         >. {$t("mediaPolicy.socialText1c")}
       </p>
@@ -96,15 +100,15 @@
       <p>
         {$t("mediaPolicy.socialText2a")}
         <a
-          href="https://twitter.com/AgidGov"
+          href="https://www.x.com/AgidGov"
           title={$t("layout.externalLink")}
           target="_blank"
           rel="noreferrer"
-          >www.twitter.com/AgidGov <Icon
+          >www.x.com/AgidGov<Icon
             name="it it-external-link"
             variant="primary"
-            size="xs"
-            customClass="mb-1"
+            size="sm"
+            customClass="ms-1 mb-1"
           /></a
         >. {$t("mediaPolicy.socialText2b")}
       </p>
@@ -119,8 +123,8 @@
           >www.medium.com/@AgidGov <Icon
             name="it it-external-link"
             variant="primary"
-            size="xs"
-            customClass="mb-1"
+            size="sm"
+            customClass="ms-1 mb-1"
           /></a
         >. {$t("mediaPolicy.socialText3b")}
       </p>
@@ -135,8 +139,8 @@
           >www.linkedin.com/company/agenzia-italia-digitale <Icon
             name="it it-external-link"
             variant="primary"
-            size="xs"
-            customClass="mb-1"
+            size="sm"
+            customClass="ms-1 mb-1"
           /></a
         >. {$t("mediaPolicy.socialText4b")}
         <a href="mailto:comunicazione@agid.gov.it" title={$t("layout.mailto")}
@@ -154,8 +158,8 @@
           >www.youtube.com/c/AGIDagenzia-italia-digitale <Icon
             name="it it-external-link"
             variant="primary"
-            size="xs"
-            customClass="mb-1"
+            size="sm"
+            customClass="ms-1 mb-1"
           /></a
         >. {$t("mediaPolicy.socialText5b")}
       </p>

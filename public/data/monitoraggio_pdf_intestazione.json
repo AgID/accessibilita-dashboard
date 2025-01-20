@@ -1,9 +1,9 @@
 [
-    {
-        "num_pdf_valutati": 780268,
-        "num_siti_monitorati": 20850,
-        "periodo_monitoraggio": "4-2024",
-        "dat_ultimo_monitoraggio": "2024-12-31",
-        "num_enti_siti_monitorati": 16129
-    }
+  {
+    "num_pdf_valutati": 780152,
+    "num_siti_monitorati": 20847,
+    "periodo_monitoraggio": "4-2024",
+    "dat_ultimo_monitoraggio": "2024-12-31",
+    "num_enti_siti_monitorati": 16126
+  }
 ]

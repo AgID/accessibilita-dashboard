@@ -1,6 +1,6 @@
 <script lang="ts">
   import { onMount } from "svelte";
-  import { nf, nf2d, pm } from "../../utils";
+  import { nf, nf1d, nf2d, pm } from "../../utils";
   import CsvPdfButtons from "../CsvPdfButtons.svelte";
   import DataTable from "../DataTable.svelte";
   import { locale, t } from "../../utils/i18n";
@@ -18,7 +18,7 @@
   onMount(async () => {
     const rs = await fetch("/data/mona_siti_pdf_mon_distr_errore.json");
     response = await rs.json();
-    periodoMonitoraggio = pm(response?.intestazione?.periodo_monitoraggio);
+    periodoMonitoraggio = response?.intestazione?.anno_monitoraggio;
     loading = false;
 
     let response2;
@@ -60,7 +60,7 @@
           borderColor: "#fff",
           dataLabels: {
             format: "{point.name} {point.y}%",
-            }
+          },
         },
       },
       tooltip: {
@@ -82,45 +82,54 @@
       field: "perc_num_pdf_senza_errori",
       label: $t("moniPDFChart.numero"),
       align: "right",
-      format: (value: any) => nf2d(value) + "%",
+      format: (value: any) => nf1d(value) + "%",
+      formatDownload: (value: any) => nf2d(value) + "%",
     },
   ];
-
 </script>
 
 <div class="card-box mt-2 mb-lg-5 hide-mobile pt-3 px-3">
-  <h3 class="cardTitle py-3 ps-2 ps-lg-3 d-inline-flex greyText">
-    {$t("moniPDFChart.title")}</h3>
+  <div class="d-flex justify-content-between">
+    <h3 class="cardTitle pt-3 ps-2 ps-lg-3 d-inline-flex greyText">
+      {$t("moniPDFChart.title")}
+    </h3>
+    <div class="pe-3 my-auto">
+      {#if !loading}
+        <CsvPdfButtons
+          rows={response?.data}
+          {columns}
+          title={$t("moniPDFChart.title")}
+          searchingName={$t("moniPDFChart.titleAppr")}
+          periodoMonitoraggio="{$t('layout.anno')}{periodoMonitoraggio}"
+        />
+      {/if}
+    </div>
+  </div>
   <div>
+    {#if periodoMonitoraggio}
+      <div class="d-inline-block px-2 px-xl-3">
+        <p class="periodoLabel mb-4">
+          {$t("layout.periodoMonitoraggio")}
+          <span class="periodoDate">
+            {$t("layout.anno")}{periodoMonitoraggio}
+          </span>
+        </p>
+      </div>
+    {/if}
     <p class="mb-0 pb-3 px-2 px-xl-3">
-      {@html $t("moniPDFChart.chartDescriptionApp", {break: "<br/>"})}
-      <br><a href="/errori-approfondito#pdf" aria-label={$t("erroriTableApp.titlePdf")}>
+      {@html $t("moniPDFChart.chartDescrAppr", { break: "<br/>" })}
+      <br /><a
+        href="/errori-approfondito#pdf"
+        aria-label={$t("erroriTableApp.titlePdf")}
+      >
         {$t("erroriTableApp.titlePdf")}
       </a>
     </p>
-    
-    {#if periodoMonitoraggio}
-      <div class="caption text-start d-inline-block px-2 px-xl-3">
-        {$t("moniPDFChart.timeframe")}{periodoMonitoraggio}
-      </div>
-    {/if}
   </div>
 
   <figure class="highcharts-figure">
     <div id="pieChartPDF" style="width:100%; height:450px;" />
   </figure>
-
-  <div class="pe-3 pb-4">
-    {#if !loading}
-      <CsvPdfButtons
-        rows={response?.data}
-        {columns}
-        title={$t("moniPDFChart.title")}
-        searchingName={$t("moniPDFChart.titleApp")}
-        {periodoMonitoraggio}
-      />
-    {/if}
-  </div>
 </div>
 
 {#if !loading}
@@ -130,13 +139,16 @@
       rows={response?.data}
       title={$t("moniPDFChart.title")}
       defaultSortBy="perc_num_pdf_senza_errori"
-      didascalia={true}        
-      searchingName={$t("moniPDFChart.titleApp")}
-      periodoMonitoraggio={periodoMonitoraggio}
+      didascalia={true}
+      searchingName={$t("moniPDFChart.titleAppr")}
+      periodoMonitoraggio="{$t('layout.anno')}{periodoMonitoraggio}"
     >
       <div slot="didascaliaSlot" class="didascalia">
-        {@html $t("moniPDFChart.tableDescriptionApp",  {break: "<br/>"})}
-        <br><a href="/errori-approfondito#pdf" aria-label={$t("erroriTableApp.titlePdf")}>
+        {@html $t("moniPDFChart.tableDescrAppr", { break: "<br/>" })}
+        <br /><a
+          href="/errori-approfondito#pdf"
+          aria-label={$t("erroriTableApp.titlePdf")}
+        >
           {$t("erroriTableApp.titlePdf")}
         </a>
       </div>

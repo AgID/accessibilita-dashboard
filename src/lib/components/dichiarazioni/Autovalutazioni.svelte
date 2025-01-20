@@ -6,30 +6,46 @@
 
   let dataTOTALE;
   let dataSITI;
-  let dataAPP
-
+  let dataAPP;
+  let periodoMonitoraggio;
   let iconeConformita = {
-    conforme: "it it-check-circle",
-    "parzialmente conforme": "it it-error",
-    "non conforme": "it it-close-circle",
+    Conforme: "it it-check-circle",
+    "Parzialmente conforme": "it it-error",
+    "Non conforme": "it it-close-circle",
   };
 
-  let ordineConformita = ["conforme", "parzialmente conforme", "non conforme"];
+  let ordineConformita = ["Conforme", "Parzialmente conforme", "Non conforme"];
 
   onMount(async () => {
     const responseSITI = await fetch("/data/dichiarazione_conformita.json");
-    dataSITI = await responseSITI.json();    
-    const responseAPP = await fetch("/data/dichiarazione_app_so_conformita.json");
+    dataSITI = await responseSITI.json();
+    const responseAPP = await fetch(
+      "/data/dichiarazione_app_so_conformita.json"
+    );
     let jsonData = await responseAPP.json();
-    dataAPP = jsonData.data;
-    
-    dataTOTALE = dataSITI.map(tipoConformita => ({ ...tipoConformita, num_dichiarazioni_pub: 0 }));
 
-    dataTOTALE.forEach(item => {
-      const siti = dataSITI.find(siti => siti.conformita_it === item.conformita_it);
-      if (siti) { item.num_dichiarazioni_pub += siti.num_dichiarazioni_pub }
-      const app = dataAPP.find(app => app.conformita_it === item.conformita_it);
-      if (app) { item.num_dichiarazioni_pub += (app.android + app.ios) }
+    periodoMonitoraggio = dataSITI[0].anno_dichiarazione;
+
+    dataAPP = jsonData.data;
+
+    dataTOTALE = dataSITI.map((tipoConformita) => ({
+      ...tipoConformita,
+      num_dichiarazioni_pub: 0,
+    }));
+
+    dataTOTALE.forEach((item) => {
+      const siti = dataSITI.find(
+        (siti) => siti.conformita_it === item.conformita_it
+      );
+      if (siti) {
+        item.num_dichiarazioni_pub += siti.num_dichiarazioni_pub;
+      }
+      const app = dataAPP.find(
+        (app) => app.conformita_it === item.conformita_it
+      );
+      if (app) {
+        item.num_dichiarazioni_pub += app.Android + app.iOS;
+      }
     });
 
     let orderedConformita = [];
@@ -44,10 +60,42 @@
 <div class="backgroundLightBlue py-5 px-xxl-5 my-5">
   <div class="container">
     <div class="mx-auto">
-      <h3 class="h3 pb-4 text-center greyText">{$t("dicAutoval.title")}</h3>
-
-      <div>
-        <p class="mt-lg-3 mx-3 text-center">{$t("dicAutoval.description")}</p>
+      <h3 class="h3 pb-2 text-center greyText">{$t("dicAutoval.title")}</h3>
+      <div class="text-center">
+        <p class="periodoLabel pb-2 d-inline-block">
+          {$t("layout.periodoMonitoraggio")}
+          <span class="periodoDate">
+            {$t("layout.anno")}{periodoMonitoraggio}
+          </span>
+        </p>
+        <p class="mx-3 text-center">
+          {@html $t("dicAutoval.description1", { break: "<br/>" })}
+          <a
+            href="https://form.agid.gov.it/home"
+            title={$t("layout.externalLink")}
+            target="_blank"
+            rel="noreferrer"
+            >form.agid.it<Icon
+              name="it it-external-link"
+              variant="primary"
+              size="sm"
+              customClass="ms-1 mb-1"
+            /></a
+          >
+          {$t("dicAutoval.description2")}
+          <a
+            href={$t("dicAutoval.direttivaLink")}
+            title={$t("layout.externalLink")}
+            target="_blank"
+            rel="noreferrer"
+            >{$t("dicAutoval.direttiva")}<Icon
+              name="it it-external-link"
+              variant="primary"
+              size="sm"
+              customClass="ms-1 mb-1"
+            /></a
+          >.
+        </p>
         <div class="d-flex justify-content-center mx-5">
           {#if dataTOTALE}
             <div
@@ -64,8 +112,8 @@
                   </span>
 
                   <p class="cardTitle mb-3 mt-3" style="color: #0066CC;">
-                    { item[`conformita_${$locale}`].charAt(0).toUpperCase() +
-                    item[`conformita_${$locale}`].slice(1)}
+                    {item[`conformita_${$locale}`].charAt(0).toUpperCase() +
+                      item[`conformita_${$locale}`].slice(1)}
                   </p>
                   <p class="cardMainData" style="color: #0066CC;">
                     {nf(item.num_dichiarazioni_pub)}

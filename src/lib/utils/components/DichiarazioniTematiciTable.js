@@ -1,16 +1,19 @@
 export default {
   it: {
-    "dicTemaTable.title": "Dichiarazioni di accessibilità dei siti tematici",
+    "dicTemaTable.title":
+      "Dichiarazioni di accessibilità dei siti web istituzionali e tematici",
     "dicTemaTable.description":
-      "La tabella riporta per ciascuna regione o provincia autonoma il numero totale delle dichiarazioni di accessibilità pubblicate entro il 23 settembre {{year}} suddivise per i siti tematici ed istituzionali.",
+      "La tabella elenca le Regioni e le Province autonome e mostra, per ciascuna di esse, il numero totale delle dichiarazioni di accessibilità pubblicate entro l’anno corrente. {{break}} Le due colonne a seguire riportano il dato dividendolo tra le dichiarazioni di accessibilità relative ai siti web tematici e le dichiarazioni di accessibilità relative ai siti web istituzionali.",
     "dicTemaTable.regione": "Regione o Provincia autonoma",
     "dicTemaTable.totale": "Totale dichiarazioni di accessibilità",
-    "dicTemaTable.numeroTema": "Dichiarazioni su siti tematici",
-    "dicTemaTable.numeroIst": "Dichiarazioni su siti istituzionali",
+    "dicTemaTable.numeroTema": "Dichiarazioni su siti web tematici",
+    "dicTemaTable.numeroIst": "Dichiarazioni su siti web istituzionali",
   },
   en: {
-    "dicTemaTable.title": "Accessibility statements of thematic websites",
-    "dicTemaTable.description": "The table shows, for each region or autonomous province, the total number of accessibility statements published by September 23, {{year}} divided by thematic and institutional websites.",
+    "dicTemaTable.title":
+      "Accessibility statements for institutional and thematic websites",
+    "dicTemaTable.description":
+      "The table lists the Regions and autonomous Provinces and shows, for each of them, the total number of accessibility statements published within the current year. {{break}} The two columns below report the data dividing it between the accessibility statements relating to thematic websites and the accessibility statements relating to institutional websites.",
     "dicTemaTable.regione": "Region or Autonomous Province",
     "dicTemaTable.totale": "Accessibility statements published",
     "dicTemaTable.numeroTema": "Thematic websites statements",

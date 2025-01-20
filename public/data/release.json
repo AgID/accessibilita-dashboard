@@ -1,132 +1,132 @@
 [
-    {
-        "date_en": "2025",
-        "date_it": "2025",
-        "title_en": "New monitoring datasets",
-        "title_it": "Nuovo dataset monitoraggio",
-        "details_en": "Data publication for the 1st quarter of 2025",
-        "details_it": "Pubblicazione dati 1° trimestre 2025",
-        "release_en": "Arriving",
-        "release_it": "In Arrivo"
-    },
-    {
-        "date_en": "November 2024",
-        "date_it": "Novembre 2024",
-        "title_en": "New monitoring datasets",
-        "title_it": "Nuovo dataset monitoraggio",
-        "details_en": "Data publication for the 4th quarter of 2024",
-        "details_it": "Pubblicazione dati 4° trimestre 2024",
-        "release_en": "Actual",
-        "release_it": "Attuale"
-    },
-    {
-        "date_en": "September 2024",
-        "date_it": "Settembre 2024",
-        "title_en": "New dataset monitoring. Updating Accessibity Statement and Accessibility Objectives",
-        "title_it": "Nuovo dataset monitoraggio e aggiornamento Obiettivi e Dichiarazioni di Accessibilità",
-        "details_en": "Publication of monitoring data Q3 2024. Annual update Accessibility Statement and quarterly update Accessibility Goals.",
-        "details_it": "Pubblicazione dati monitoraggio 3° trimestre 2024. Aggiornamento annuale Dichiarazione di Accessibiltà e aggiornamento trimestrale Obiettivi di Accessibilità",
-        "release_en": "Passed",
-        "release_it": "Passata"
-    },
-    {
-        "date_en": "June 2024",
-        "date_it": "Giugno 2024",
-        "title_en": "New dataset monitoring and updating Accessibility Objectives",
-        "title_it": "Nuovo dataset monitoraggio e aggiornamento Obiettivi di Accessibilità",
-        "details_en": "Publication of monitoring data for the 2nd quarter of 2024 and update of accessibility objectives for the year 2024",
-        "details_it": "Pubblicazione dati monitoraggio 2° trimestre 2024 e aggiornamento obiettivi di Accessibilità anno 2024",
-        "release_en": "Passed",
-        "release_it": "Passata"
-    },
-    {
-        "date_en": "March 2024",
-        "date_it": "Marzo 2024",
-        "title_en": "New monitoring datasets",
-        "title_it": "Nuovi dataset monitoraggio",
-        "details_en": "Data publication for the 1st quarter of 2024.",
-        "details_it": "Pubblicazione dati 1° trimestre 2024",
-        "release_en": "Passed",
-        "release_it": "Passata"
-    },
-    {
-        "date_en": "February 2024",
-        "date_it": "Febbraio 2024",
-        "title_en": "The new features",
-        "title_it": "Nuove funzionalità",
-        "details_en": "Addition of in-depth monitoring data, manually conducted on a limited sample of sites (103) and apps (62) for the year 2024.",
-        "details_it": "Aggiunta dei dati del monitoraggio approfondito, realizzato manualmente su un campione limitato di siti (103) e app (62) per l'anno 2023.",
-        "release_en": "Passed",
-        "release_it": "Passata"
-    },
-    {
-        "date_en": "January 2024",
-        "date_it": "Gennaio 2024",
-        "title_en": "Introduction of data relating to App Statements and publication of new monitoring data of Q4 2023",
-        "title_it": "Introduzione dei dati relativi alle Dichiarazioni delle App e pubblicazione nuovo monitoraggio Mauve",
-        "details_en": "Publication of new data relating to PA App Statements and of new monitoring data of Q4 2023",
-        "details_it": "Pubblicazione dei nuovi dati relativi alle Dichiarazioni delle App delle PA e del monitoraggio Mauve",
-        "release_en": "Passed",
-        "release_it": "Passata"
-    },
-    {
-        "date_en": "December 2023",
-        "date_it": "Dicembre 2023",
-        "title_en": "Introduction of PDF monitoring",
-        "title_it": "Introduzione del monitoraggio dei PDF",
-        "details_en": "Publication of new data relating to the automatic monitoring of PDFs present on PA websites",
-        "details_it": "Pubblicazione dei nuovi dati relativi al monitoraggio automatico dei PDF presenti sui siti delle PA",
-        "release_en": "Passed",
-        "release_it": "Passata"
-    },
-    {
-        "date_en": "November 2023",
-        "date_it": "Novembre 2023",
-        "title_en": "The new features and monitoring datasets e release web site in english.",
-        "title_it": "Introduzione di nuove informazioni e rilascio sito lingua Inglese",
-        "details_en": "Increase in the number of monitored sites following the addition of new sources (WAI). Implementation of multi-language support - inclusion of English language.",
-        "details_it": "Incremento del numero dei siti monitorati a seguito di inserimento nuove fonti (WAI). Applicazione del multi language - inclusione della lingua inglese.",
-        "release_en": "Passed",
-        "release_it": "Passata"
-    },
-    {
-        "date_en": "September 2023",
-        "date_it": "Settembre 2023",
-        "title_en": "Release of new data",
-        "title_it": "Pubblicazione nuovi dati",
-        "details_en": "Publication of new data of accessibility statements as of September 24, 2023.Publication of new monitoring data of Q3 2023",
-        "details_it": "Pubblicazione dei nuovi dati delle dichiarazioni d'accessibilità al 24 settembre 2023. Pubblicazione dei nuovi dati del monitoraggio del 3° trimestre 2023",
-        "release_en": "Passed",
-        "release_it": "Passata"
-    },
-    {
-        "date_en": "June 2023",
-        "date_it": "Giugno 2023",
-        "title_en": "Introduction of new information",
-        "title_it": "Introduzione di nuove informazioni",
-        "details_en": "New version of the accessibility declarations page which includes the new thematic sites and institutional sites sections. New page dedicated to the analysis of Accessibility Objectives data and new page dedicated to the Project.",
-        "details_it": "Nuova versione della pagina delle dichiarazioni d'accessibilità che include le nuove sezioni siti tematici e siti istituzionali. Nuova pagina dedicata all'analisi dei dati degli Obiettivi di accessibilità e nuova pagina dedicata al Progetto.",
-        "release_en": "Passed",
-        "release_it": "Passata"
-    },
-    {
-        "date_en": "April 2023",
-        "date_it": "Aprile 2023",
-        "title_en": "Introduction of data for the autonomous provinces of Trento and Bolzano",
-        "title_it": "Introduzione dati per le province Autonome di Trento e Bolzano",
-        "details_en": "The data for the provinces of Trento and Bolzano are published on the website pages and in the open data sets containing the distribution of monitoring data and accessibility declarations for regions",
-        "details_it": "Vengono pubblicati i dati delle province di Trento e Bolzano nelle pagine del sito e negli opendata che contengono le distribuzione dei dati di monitoraggio e delle dichiarazioni di accessibilità per regioni",
-        "release_en": "Passed",
-        "release_it": "Passata"
-    },
-    {
-        "date_en": "March 2023",
-        "date_it": "Marzo 2023",
-        "title_en": "Site release",
-        "title_it": "Rilascio del sito",
-        "details_en": "The new website displaying data related to simplified accessibility monitoring and the most frequently encountered errors on Public Administration websites is published.",
-        "details_it": "Viene pubblicato il nuovo sito che espone i dati relativi al monitoraggio semplificato dell'accessibilità e gli errori riscontrati con maggiore frequenza sui siti delle PA.",
-        "release_en": "Passed",
-        "release_it": "Passata"
-    }
+  {
+      "date_en": "Marzo 2025",
+      "date_it": "Marzo 2025",
+      "title_en": "New dataset monitoring and updating Accessibility objectives",
+      "title_it": "Nuovo dataset monitoraggio e aggiornamento Obiettivi di accessibilità",
+      "details_en": "Publication of data 1st quarter 2025 monitoring and Accessibility objectives.",
+      "details_it": "Pubblicazione dati 1° trimestre 2025 monitoraggio e Obiettivi di accessibilità.",
+      "release_en": "Arriving",
+      "release_it": "In Arrivo"
+  },
+  {
+      "date_en": "Gennaio 2025",
+      "date_it": "Gennaio 2025",
+      "title_en": "New dataset monitoring, new in-depth monitoring and updating Accessibility objectives",
+      "title_it": "Nuovo dataset monitoraggio, nuovo monitoraggio approfondito e aggiornamento Obiettivi di accessibilità",
+      "details_en": "Publication of monitoring data 4th quarter 2024, new in-depth monitoring 2024 and update 4th quarter 2024 Accessibility objectives.",
+      "details_it": "Pubblicazione dati monitoraggio 4° trimestre 2024, nuovo monitoraggio approfondito 2024 e aggiornamento 4° trimestre 2024 Obiettivi di accessibilità.",
+      "release_en": "Actual",
+      "release_it": "Attuale"
+  },
+  {
+      "date_en": "September 2024",
+      "date_it": "Settembre 2024",
+      "title_en": "New dataset monitoring. Updating Accessibity statements and Accessibility objectives",
+      "title_it": "Nuovo dataset monitoraggio e aggiornamento Obiettivi e Dichiarazioni di accessibilità",
+      "details_en": "Publication of monitoring data Q3 2024. Annual update Accessibility statements and quarterly update Accessibility objectives.",
+      "details_it": "Pubblicazione dati monitoraggio 3° trimestre 2024. Aggiornamento annuale Dichiarazione di accessibilità e aggiornamento trimestrale Obiettivi di accessibilità.",
+      "release_en": "Passed",
+      "release_it": "Passata"
+  },
+  {
+      "date_en": "June 2024",
+      "date_it": "Giugno 2024",
+      "title_en": "New dataset monitoring and updating Accessibility objectives",
+      "title_it": "Nuovo dataset monitoraggio e aggiornamento Obiettivi di accessibilità",
+      "details_en": "Publication of monitoring data for the 2nd quarter of 2024 and update of Accessibility objectives for the year 2024.",
+      "details_it": "Pubblicazione dati monitoraggio 2° trimestre 2024 e aggiornamento Obiettivi di accessibilità anno 2024.",
+      "release_en": "Passed",
+      "release_it": "Passata"
+  },
+  {
+      "date_en": "March 2024",
+      "date_it": "Marzo 2024",
+      "title_en": "New monitoring datasets",
+      "title_it": "Nuovo dataset monitoraggio",
+      "details_en": "Data publication for the 1st quarter of 2024.",
+      "details_it": "Pubblicazione dati 1° trimestre 2024.",
+      "release_en": "Passed",
+      "release_it": "Passata"
+  },
+  {
+      "date_en": "February 2024",
+      "date_it": "Febbraio 2024",
+      "title_en": "The new features",
+      "title_it": "Nuove funzionalità",
+      "details_en": "Addition of in-depth monitoring data, manually conducted on a limited sample of 103 websites 62 and apps for the year 2023.",
+      "details_it": "Aggiunta dei dati del monitoraggio approfondito, realizzato manualmente su un campione limitato di 103 siti e 62 app per l'anno 2023.",
+      "release_en": "Passed",
+      "release_it": "Passata"
+  },
+  {
+      "date_en": "January 2024",
+      "date_it": "Gennaio 2024",
+      "title_en": "Introduction of data relating to app Statements and publication of new monitoring data of Q4 2023",
+      "title_it": "Introduzione dei dati relativi alle Dichiarazioni delle app e pubblicazione nuovo monitoraggio MAUVE++",
+      "details_en": "Publication of new data relating to PA app Statements and of new monitoring data of Q4 2023.",
+      "details_it": "Pubblicazione dei nuovi dati relativi alle Dichiarazioni delle app delle PA e del monitoraggio MAUVE++.",
+      "release_en": "Passed",
+      "release_it": "Passata"
+  },
+  {
+      "date_en": "December 2023",
+      "date_it": "Dicembre 2023",
+      "title_en": "Introduction of PDF monitoring",
+      "title_it": "Introduzione del monitoraggio dei PDF",
+      "details_en": "Publication of new data relating to the automatic monitoring of PDFs present on PA websites.",
+      "details_it": "Pubblicazione dei nuovi dati relativi al monitoraggio automatico dei PDF presenti sui siti delle PA.",
+      "release_en": "Passed",
+      "release_it": "Passata"
+  },
+  {
+      "date_en": "November 2023",
+      "date_it": "Novembre 2023",
+      "title_en": "The new features and monitoring datasets e release web site in english.",
+      "title_it": "Introduzione di nuove informazioni e rilascio sito lingua Inglese",
+      "details_en": "Increase in the number of monitored sites following the addition of new sources (WAI). Implementation of multi-language support - inclusion of English language.",
+      "details_it": "Incremento del numero dei siti monitorati a seguito di inserimento nuove fonti (WAI). Applicazione del multi language - inclusione della lingua inglese.",
+      "release_en": "Passed",
+      "release_it": "Passata"
+  },
+  {
+      "date_en": "September 2023",
+      "date_it": "Settembre 2023",
+      "title_en": "Release of new data",
+      "title_it": "Pubblicazione nuovi dati",
+      "details_en": "Publication of new data of Accessibility statements as of September 24, 2023. Publication of new monitoring data of Q3 2023.",
+      "details_it": "Pubblicazione dei nuovi dati delle Dichiarazioni di accessibilità al 24 settembre 2023. Pubblicazione dei nuovi dati del monitoraggio del 3° trimestre 2023.",
+      "release_en": "Passed",
+      "release_it": "Passata"
+  },
+  {
+      "date_en": "June 2023",
+      "date_it": "Giugno 2023",
+      "title_en": "Introduction of new information",
+      "title_it": "Introduzione di nuove informazioni",
+      "details_en": "New version of the Accessibility statements page which includes the new thematic sites and institutional sites sections. New page dedicated to the analysis of Accessibility objectives data and new page dedicated to the Project.",
+      "details_it": "Nuova versione della pagina delle Dichiarazioni di accessibilità che include le nuove sezioni siti tematici e siti istituzionali. Nuova pagina dedicata all'analisi dei dati degli Obiettivi di accessibilità e nuova pagina dedicata al Progetto.",
+      "release_en": "Passed",
+      "release_it": "Passata"
+  },
+  {
+      "date_en": "April 2023",
+      "date_it": "Aprile 2023",
+      "title_en": "Introduction of data for the Autonomous Province of Trento and Bolzano",
+      "title_it": "Introduzione dati per le Province autonome di Trento e Bolzano",
+      "details_en": "The data for the Autonomous Province of Trento and Bolzano are published on the website pages and in the open data sets containing the distribution of monitoring data and Accessibility statements for Regions.",
+      "details_it": "Vengono pubblicati i dati delle Province autonome di Trento e Bolzano nelle pagine del sito e negli opendata che contengono le distribuzione dei dati di monitoraggio e delle Dichiarazioni di accessibilità per Regione.",
+      "release_en": "Passed",
+      "release_it": "Passata"
+  },
+  {
+      "date_en": "March 2023",
+      "date_it": "Marzo 2023",
+      "title_en": "Site release",
+      "title_it": "Rilascio del sito",
+      "details_en": "The new website displaying data related to simplified accessibility monitoring and the most frequently encountered errors on Public Administration websites is published.",
+      "details_it": "Viene pubblicato il nuovo sito che espone i dati relativi al monitoraggio semplificato dell'accessibilità e gli errori riscontrati con maggiore frequenza sui siti delle PA.",
+      "release_en": "Passed",
+      "release_it": "Passata"
+  }
 ]
