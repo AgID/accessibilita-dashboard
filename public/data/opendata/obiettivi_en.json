@@ -2,127 +2,127 @@
     {
         "year": 2024,
         "des_region": "Lombardia",
-        "num_entities_tot": 3394,
-        "num_entities_objectives": 2110
+        "num_entities_tot": 3393,
+        "num_entities_objectives": 2131
     },
     {
         "year": 2024,
         "des_region": "Piemonte",
-        "num_entities_tot": 2313,
-        "num_entities_objectives": 1094
+        "num_entities_tot": 2316,
+        "num_entities_objectives": 1104
     },
     {
         "year": 2024,
         "des_region": "Campania",
-        "num_entities_tot": 1969,
-        "num_entities_objectives": 1072
+        "num_entities_tot": 1961,
+        "num_entities_objectives": 1076
     },
     {
         "year": 2024,
         "des_region": "Veneto",
-        "num_entities_tot": 1698,
-        "num_entities_objectives": 997
+        "num_entities_tot": 1699,
+        "num_entities_objectives": 1016
     },
     {
         "year": 2024,
         "des_region": "Sicilia",
-        "num_entities_tot": 1862,
-        "num_entities_objectives": 852
+        "num_entities_tot": 1864,
+        "num_entities_objectives": 863
     },
     {
         "year": 2024,
         "des_region": "Lazio",
-        "num_entities_tot": 1839,
-        "num_entities_objectives": 792
+        "num_entities_tot": 1845,
+        "num_entities_objectives": 801
     },
     {
         "year": 2024,
         "des_region": "Emilia-Romagna",
-        "num_entities_tot": 1343,
-        "num_entities_objectives": 786
+        "num_entities_tot": 1346,
+        "num_entities_objectives": 790
     },
     {
         "year": 2024,
         "des_region": "Puglia",
-        "num_entities_tot": 1264,
-        "num_entities_objectives": 717
+        "num_entities_tot": 1262,
+        "num_entities_objectives": 724
     },
     {
         "year": 2024,
         "des_region": "Toscana",
-        "num_entities_tot": 1200,
-        "num_entities_objectives": 613
+        "num_entities_tot": 1204,
+        "num_entities_objectives": 621
     },
     {
         "year": 2024,
         "des_region": "Sardegna",
-        "num_entities_tot": 926,
-        "num_entities_objectives": 482
+        "num_entities_tot": 928,
+        "num_entities_objectives": 492
     },
     {
         "year": 2024,
         "des_region": "Calabria",
-        "num_entities_tot": 972,
+        "num_entities_tot": 973,
         "num_entities_objectives": 435
     },
     {
         "year": 2024,
         "des_region": "Friuli-Venezia Giulia",
-        "num_entities_tot": 584,
-        "num_entities_objectives": 366
+        "num_entities_tot": 585,
+        "num_entities_objectives": 368
     },
     {
         "year": 2024,
         "des_region": "Marche",
-        "num_entities_tot": 701,
-        "num_entities_objectives": 355
+        "num_entities_tot": 700,
+        "num_entities_objectives": 358
     },
     {
         "year": 2024,
         "des_region": "Liguria",
-        "num_entities_tot": 624,
-        "num_entities_objectives": 293
+        "num_entities_tot": 623,
+        "num_entities_objectives": 297
     },
     {
         "year": 2024,
         "des_region": "Abruzzo",
         "num_entities_tot": 728,
-        "num_entities_objectives": 262
+        "num_entities_objectives": 263
     },
     {
         "year": 2024,
         "des_region": "Provincia autonoma di Trento",
         "num_entities_tot": 509,
-        "num_entities_objectives": 203
+        "num_entities_objectives": 205
     },
     {
         "year": 2024,
         "des_region": "Umbria",
         "num_entities_tot": 354,
-        "num_entities_objectives": 169
+        "num_entities_objectives": 171
     },
     {
         "year": 2024,
         "des_region": "Basilicata",
         "num_entities_tot": 354,
-        "num_entities_objectives": 160
+        "num_entities_objectives": 164
     },
     {
         "year": 2024,
         "des_region": "Provincia autonoma di Bolzano",
-        "num_entities_tot": 494,
-        "num_entities_objectives": 105
+        "num_entities_tot": 495,
+        "num_entities_objectives": 106
     },
     {
         "year": 2024,
         "des_region": "Molise",
         "num_entities_tot": 290,
-        "num_entities_objectives": 93
+        "num_entities_objectives": 94
     },
     {
         "year": 2024,
         "des_region": "Valle d'Aosta/Vallée d'Aoste",
-        "num_entities_tot": 169,
+        "num_entities_tot": 172,
         "num_entities_objectives": 54
     }
 ]

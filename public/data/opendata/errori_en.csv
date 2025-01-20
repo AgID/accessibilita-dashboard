@@ -1,22 +1,22 @@
 des_principle,success_criterion,compliance_level_cod,error_percent,last_monitoring_date
-Perceivable,"1.1.1 Non-text Content",A,"8,52597",2024-09-30
-Perceivable,"1.2.3 Audio Description or Media Alternative (Prerecorded)",A,"0,00377",2024-09-30
-Perceivable,"1.3.1 Info and Relationships",A,"1,55469",2024-09-30
-Perceivable,"1.3.5 Identify Input Purpose",AA,"1,07494",2024-09-30
-Perceivable,"1.4.10 Reflow",AA,"1,32679",2024-09-30
-Perceivable,"1.4.11 Non-text Contrast",AA,"3,29969",2024-09-30
-Perceivable,"1.4.12 Text Spacing",AA,"0,00402",2024-09-30
-Perceivable,"1.4.1 Use of Color",A,"18,53887",2024-09-30
-Perceivable,"1.4.3 Contrast (Minimum)",AA,"14,20934",2024-09-30
-Perceivable,"1.4.5 Images of Text",AA,"0,18270",2024-09-30
-Robust,"4.1.1 Parsing",A,"4,06363",2024-09-30
-Robust,"4.1.2 Name, Role, Value",A,"1,14115",2024-09-30
-Understandable,"3.1.1 Language of Page",A,"0,04631",2024-09-30
-Understandable,"3.1.2 Language of Parts",AA,"0,00007",2024-09-30
-Understandable,"3.2.2 On Input",A,"0,36904",2024-09-30
-Understandable,"3.3.2 Labels or Instructions",A,"0,22086",2024-09-30
-Usable,"2.2.1 Timing Adjustable",A,"0,00024",2024-09-30
-Usable,"2.2.2 Pause, Stop, Hide",A,"0,00000",2024-09-30
-Usable,"2.4.2 Page Titled",A,"0,00236",2024-09-30
-Usable,"2.4.4 Link Purpose (In Context)",A,"2,44660",2024-09-30
-Usable,"2.4.7 Focus Visible",AA,"42,98895",2024-09-30
+Perceivable,"1.1.1 Non-text Content",A,"8,88745",2024-12-31
+Perceivable,"1.2.3 Audio Description or Media Alternative (Prerecorded)",A,"0,00299",2024-12-31
+Perceivable,"1.3.1 Info and Relationships",A,"1,58092",2024-12-31
+Perceivable,"1.3.5 Identify Input Purpose",AA,"1,10618",2024-12-31
+Perceivable,"1.4.10 Reflow",AA,"1,34448",2024-12-31
+Perceivable,"1.4.11 Non-text Contrast",AA,"3,40284",2024-12-31
+Perceivable,"1.4.12 Text Spacing",AA,"0,00287",2024-12-31
+Perceivable,"1.4.1 Use of Color",A,"18,03885",2024-12-31
+Perceivable,"1.4.3 Contrast (Minimum)",AA,"14,43191",2024-12-31
+Perceivable,"1.4.5 Images of Text",AA,"0,18466",2024-12-31
+Robust,"4.1.1 Parsing",A,"3,90296",2024-12-31
+Robust,"4.1.2 Name, Role, Value",A,"1,11238",2024-12-31
+Understandable,"3.1.1 Language of Page",A,"0,04242",2024-12-31
+Understandable,"3.1.2 Language of Parts",AA,"0,00007",2024-12-31
+Understandable,"3.2.2 On Input",A,"0,37767",2024-12-31
+Understandable,"3.3.2 Labels or Instructions",A,"0,22092",2024-12-31
+Usable,"2.2.1 Timing Adjustable",A,"0,00033",2024-12-31
+Usable,"2.2.2 Pause, Stop, Hide",A,"0,00000",2024-12-31
+Usable,"2.4.2 Page Titled",A,"0,00206",2024-12-31
+Usable,"2.4.4 Link Purpose (In Context)",A,"2,37893",2024-12-31
+Usable,"2.4.7 Focus Visible",AA,"42,97911",2024-12-31

@@ -1,15 +1,16 @@
 export default {
   it: {
-    "obiLineChart.title": "Trend degli obiettivi di accessibiltà",
-    "obiLineChart.description":
-      "Il trend degli obiettivi di accessibilità riporta l’andamento delle pubblicazioni degli obiettivi da parte delle PA per i loro siti web e applicazioni mobile nel corso degli anni. Il crescente aumento degli obiettivi mette in risalto l’impegno preso nel rendere le informazioni fruibili a tutti, senza discriminazioni",
+    "obiLineChart.title": "Trend di pubblicazione degli obiettivi di accessibilità",
+    "obiLineChart.descriptionChart": "Il grafico riporta l’andamento, nel corso degli anni, del numero degli obiettivi di accessibilità pubblicati dalle PA per i loro siti web e app. L’aumento delle pubblicazioni degli obiettivi mette in risalto l’impegno delle PA per rendere le informazioni fruibili a tutti senza discriminazioni e i servizi digitali più efficienti.",
+    "obiLineChart.descriptionTable": "La tabella riporta l’andamento, nel corso degli anni, del numero degli obiettivi di accessibilità pubblicati dalle PA per i loro siti web e app. L’aumento delle pubblicazioni degli obiettivi mette in risalto l’impegno delle PA per rendere le informazioni fruibili a tutti senza discriminazioni e i servizi digitali più efficienti.",
     "obiLineChart.label": "Obiettivi",
     "obiLineChart.anno": "Anno",
     "obiLineChart.numero": "Obiettivi di accessibiltà",
   },
   en: {
-    "obiLineChart.title": "Accessibility objectives trend",
-    "obiLineChart.description": "The accessibility objectives trend shows the trend of publications of objectives by public administrations for their websites and mobile applications over the years. The increasing rise in objectives highlights the commitment to making information accessible to everyone without discrimination.",
+    "obiLineChart.title": "Accessibility objectives publication trend",
+    "obiLineChart.descriptionChart": "The graph shows the trend, over the years, of the number of accessibility objectives published by PAs for their websites and apps. The increase in publications of objectives highlights the commitment of PAs to make information accessible to all without discrimination and digital services more efficient.",
+    "obiLineChart.descriptionTable": "The table shows the trend, over the years, of the number of accessibility objectives published by PAs for their websites and apps. The increase in publications of objectives highlights the commitment of PAs to make information accessible to all without discrimination and digital services more efficient.",
     "obiLineChart.label": "Objectives",
     "obiLineChart.anno": "Year",
     "obiLineChart.numero": "Accessibility objectives published",

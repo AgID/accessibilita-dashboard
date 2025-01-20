@@ -14,6 +14,7 @@
   // ---HIGHCHARTS END---
 
   let periodoMonitoraggio;
+  let dataRiferimento;
   let response;
   let response2;
   let loading = true;
@@ -24,7 +25,8 @@
     const rs2 = await fetch("/data/obiettivi_linea_intervento.json");
     response = await rs2.json();
     loading = false;
-    periodoMonitoraggio = response?.intestazione?.anno;
+    dataRiferimento = response?.intestazione?.anno_obiettivi;
+    periodoMonitoraggio = pm(response?.intestazione?.aggior_ultimo_trimestre);
 
     const rs3 = await fetch("/data/obiettivi_linea_intervento.json");
     response2 = await rs3.json();
@@ -59,15 +61,18 @@
           startAngle: 270,
           accessibility: {
             point: {
-              valueDescriptionFormat: ' {point.name}, {point.y} $t("obiInter.chartLabel") ',
-            }
-          }, 
+              valueDescriptionFormat:
+                ' {point.name}, {point.y} $t("obiInter.chartLabel") ',
+            },
+          },
         },
       },
       tooltip: {
-        headerFormat: '',
-        pointFormat: '<span style="color:{point.color}">\u25CF</span> {point.name}<br/>' +
-            $t("obiInter.chartLabel") + ': <b>{point.y}</b><br/>'
+        headerFormat: "",
+        pointFormat:
+          '<span style="color:{point.color}">\u25CF</span> {point.name}<br/>' +
+          $t("obiInter.chartLabel") +
+          ": <b>{point.y}</b><br/>",
       },
       series: [
         {
@@ -98,35 +103,40 @@
 
 <div class="container px-0">
   <div class="card-box mt-2 my-lg-3 hide-mobile pt-3 px-3">
-    <h3 class="cardTitle py-3 ps-2 ps-lg-3 d-inline-flex greyText">
-      {$t("obiInter.title")}
-    </h3>
+    <div class="d-flex justify-content-between">
+      <h3 class="cardTitle pt-3 ps-2 ps-lg-3 d-inline-flex greyText">
+        {$t("obiInter.title")}
+      </h3>
+      <div class="pe-3 my-auto">
+        {#if !loading}
+          <CsvPdfButtons
+            rows={response?.data}
+            {columns}
+            title={$t("obiInter.title")}
+            {periodoMonitoraggio}
+          />
+        {/if}
+      </div>
+    </div>
     <div>
-      <p class="mb-0 pb-3 px-2 px-xl-3">
-        {$t("obiInter.description", {anno: periodoMonitoraggio})}
-      </p>
       {#if periodoMonitoraggio}
-        <div class="caption text-start d-inline-block px-2 px-xl-3">
-          {$t("obiInter.timeframe")}
-          {periodoMonitoraggio}
+        <div class="d-inline-block px-2 px-xl-3">
+          <p class="periodoLabel mb-4">
+            {$t("layout.periodoMonitoraggio")}
+            <span class="periodoDate">
+              {periodoMonitoraggio}
+            </span>
+          </p>
         </div>
       {/if}
+      <p class="mb-0 pb-3 px-2 px-xl-3">
+        {$t("obiInter.descriptionChart", { anno: dataRiferimento })}
+      </p>
     </div>
 
     <figure class="highcharts-figure">
       <div id="pieChartIntervento" style="width:100%; height:450px;" />
     </figure>
-
-    <div class="pe-3 pb-4">
-      {#if !loading}
-        <CsvPdfButtons
-          rows={response?.data}
-          {columns}
-          title={$t("obiInter.title")}
-          {periodoMonitoraggio}
-        />
-      {/if}
-    </div>
   </div>
 
   {#if !loading}
@@ -137,10 +147,10 @@
         title={$t("obiInter.title")}
         defaultSortBy="num_enti_obiettivi"
         didascalia={true}
-        periodoMonitoraggio={response?.intestazione?.anno}
+        {periodoMonitoraggio}
       >
         <div slot="didascaliaSlot" class="didascalia">
-          {$t("obiInter.description", {anno: periodoMonitoraggio})}
+          {$t("obiInter.descriptionTable", { anno: dataRiferimento })}
         </div>
       </DataTable>
     </div>

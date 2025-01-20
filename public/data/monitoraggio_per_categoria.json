@@ -1,24 +1,23 @@
     {
         "data": [
             {
-                "num_siti": 10773,
-                "des_tipologia_ente_en": "Other types of organizations",
-                "des_tipologia_ente_it": "Altre tipologie di Enti"
+                "num_siti": 10814,
+                "des_tipologia_ente_en": "Other Entities",
+                "des_tipologia_ente_it": "Altri Enti"
             },
             {
-                "num_siti": 9683,
-                "des_tipologia_ente_en": "Municipalities and their consortia and associations",
+                "num_siti": 9665,
+                "des_tipologia_ente_en": "Municipalities and their Consortia and Associations",
                 "des_tipologia_ente_it": "Comuni e loro Consorzi e Associazioni"
             },
             {
-                "num_siti": 9538,
-                "des_tipologia_ente_en": "State educational institutions of all levels",
-                "des_tipologia_ente_it": "Istituti di Istruzione Statale di Ogni Ordine e Grado"
+                "num_siti": 8930,
+                "des_tipologia_ente_en": "Schools and Universities",
+                "des_tipologia_ente_it": "Scuole e Università"
             }
         ],
         "intestazione": {
-            "periodo_monitoraggio": "3-2024",
-            "dat_ultimo_aggiornamento": "2024-09-30"
+            "periodo_monitoraggio": "4-2024",
+            "dat_ultimo_aggiornamento": "2024-12-31"
         }
     }
-

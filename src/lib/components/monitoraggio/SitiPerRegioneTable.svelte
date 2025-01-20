@@ -1,6 +1,6 @@
 <script lang="ts">
   import { onMount } from "svelte";
-  import { nf, pm, nf2d } from "../../utils";
+  import { nf, pm, nf2d, nf1d } from "../../utils";
   import DataTable from "../DataTable.svelte";
   import { t } from "../../utils/i18n";
 
@@ -23,7 +23,8 @@
     {
       field: "incidenza_errori",
       label: $t("moniRegTable.errori"),
-      format: (value: any) => nf2d(value) + "%",
+      format: (value: any) => nf1d(value) + "%",
+      formatDownload: (value: any) => nf2d(value) + "%",
       align: "right",
     },
   ];

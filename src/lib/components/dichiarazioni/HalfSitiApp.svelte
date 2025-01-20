@@ -2,12 +2,12 @@
   import { onMount } from "svelte";
   import { t } from "../../utils/i18n";
   import Icon from "../Icon.svelte";
-  import { nf } from "../../utils/index"
+  import { nf } from "../../utils/index";
 
   let totaleAPP;
   let totaleSITI;
 
-  onMount(async() => {
+  onMount(async () => {
     const rsAPP = await fetch("/data/dichiarazione_app_intestazione.json");
     const dataAPP = await rsAPP.json();
     totaleAPP = dataAPP.find(
@@ -19,7 +19,7 @@
     totaleSITI = dataSITI.find(
       (d) => d.indicatore == "num_dichiarazioni_pub_tot"
     ).valore;
-  })
+  });
 </script>
 
 <div class="row mx-0 mb-5">
@@ -27,11 +27,11 @@
     <div class="d-flex justify-content-end text-center">
       <div class="container biggerLeft me-lg-0">
         <img
-        src="/images/responsive_layout.svg"
-        alt=""
-        class=""
-        aria-hidden="true"
-      />
+          src="/images/responsive_layout.svg"
+          alt=""
+          class=""
+          aria-hidden="true"
+        />
         <p class="h3 py-3 px-lg-5 greyText">{$t("dicMain.goWeb")}</p>
         <p class="cardMainData pb-4">{nf(totaleSITI)}</p>
         <a
@@ -48,27 +48,26 @@
   </div>
   <div class="col-12 col-lg-6 app py-5">
     <div class="d-flex justify-content-start text-center">
-
-        <div class="container biggerRight ms-lg-0">
-          <img
+      <div class="container biggerRight ms-lg-0">
+        <img
           src="/images/mobile_friendly.svg"
           alt=""
           class=""
           aria-hidden="true"
         />
-          <p class="h3 py-3 px-lg-5 greyText">{$t("dicMain.goApp")}</p>
-          <p class="cardMainData pb-4">{nf(totaleAPP)}</p>
-          <a
-            href="/dichiarazione/app"
-            title={$t("dicMain.moreInfoApp")}
-            class="button-text a-button d-inline-flex"
-            style="text-decoration: none;"
-          >
-            {$t("dicMain.moreInfoApp")}
-            <Icon name="it it-arrow-right" variant="white" size="sm" />
-          </a>
-        </div>
+        <p class="h3 py-3 px-lg-5 greyText">{$t("dicMain.goApp")}</p>
+        <p class="cardMainData pb-4">{nf(totaleAPP)}</p>
+        <a
+          href="/dichiarazione/app"
+          title={$t("dicMain.moreInfoApp")}
+          class="button-text a-button d-inline-flex"
+          style="text-decoration: none;"
+        >
+          {$t("dicMain.moreInfoApp")}
+          <Icon name="it it-arrow-right" variant="white" size="sm" />
+        </a>
       </div>
+    </div>
   </div>
 </div>
 
@@ -166,7 +165,7 @@
     .biggerRight {
       width: 35%;
     }
-  } 
+  }
 
   @media (min-width: 5500px) {
     .biggerLeft {
@@ -175,7 +174,7 @@
     .biggerRight {
       width: 25%;
     }
-  } 
+  }
 
   @media (min-width: 7000px) {
     .biggerLeft {
@@ -184,5 +183,5 @@
     .biggerRight {
       width: 20%;
     }
-  } 
+  }
 </style>

@@ -1,21 +1,19 @@
 <script>
-  import KpiCard from "../KpiCard.svelte";
+  import KpiSimpleCard from "../KpiSimpleCard.svelte";
   import { onMount } from "svelte";
   import { dp, df, nf } from "../../utils";
   import { t } from "../../utils/i18n";
 
   let numDichiarazioniTematici;
-  let date;
-  let formattedDate;
   let annoRiferimento;
 
   onMount(async () => {
     const rs = await fetch("/data/dichiarazione_tematici_intestazione.json");
     const data = await rs.json();
-    numDichiarazioniTematici = data.find((d) => d.indicatore == "num_siti_tematici_con_dich_anno_corrente").valore;
-    annoRiferimento = data[0].dat_ult_agg_dichiarazione.substr(0, 4)
-    date = data[0].dat_ult_agg_dichiarazione
-    formattedDate = df(dp(date))
+    numDichiarazioniTematici = data.find(
+      (d) => d.indicatore == "num_siti_tematici_con_dich_anno_corrente"
+    ).valore;
+    annoRiferimento = data[0].anno_dichiarazione;
   });
 </script>
 
@@ -24,16 +22,14 @@
   <div class="row py-3">
     <div class="col-12 col-lg-7">
       <p class="pe-lg-4">
-        {$t("dicTemaMain.description")}
+        {@html $t("dicTemaMain.description", { break: "<br/>" })}
       </p>
     </div>
     <div class="col-12 mx-lg-0 col-lg-5">
-      <KpiCard
-      title={$t("dicTemaMain.cardOneTitle", { anno: annoRiferimento })}
-      kpi={nf(numDichiarazioniTematici)}
-      imgLink="/images/bookmark-star.svg"
-      caption={$t("dicTemaMain.cardOneCaption")}{formattedDate}
-    />
+      <KpiSimpleCard
+        title={$t("dicTemaMain.cardOneTitle", { anno: annoRiferimento })}
+        kpi={nf(numDichiarazioniTematici)}
+      />
     </div>
   </div>
 </div>

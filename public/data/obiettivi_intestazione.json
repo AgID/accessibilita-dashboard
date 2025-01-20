@@ -1,8 +1,9 @@
 [
     {
-        "anno": 2024,
-        "valore": 12010,
+        "valore": 12133,
         "indicatore": "num_enti_obiettivi",
-        "dat_ult_agg_obiettivi": "2024-09-30"
+        "anno_obiettivi": 2024,
+        "dat_ult_agg_obiettivi": "2024-12-31",
+        "aggior_ultimo_trimestre": "4-2024"
     }
 ]

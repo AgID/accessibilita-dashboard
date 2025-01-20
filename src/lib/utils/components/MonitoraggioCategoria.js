@@ -1,11 +1,18 @@
 export default {
-    it: {
-      "moniCategoria.title": "Distribuzione dei siti valutati per settore",
-      "moniCategoria.subtitle": "Il monitoraggio dell'accessibilità effettuato da Agid si estende, oltre che ai numerosi ambiti in cui le PA offrono servizi web, anche all'istruzione. {{break}} MAUVE++ valuta in modalità automatizzata l'accessibilità dei siti web di scuole primarie, secondarie e università.",
-    },
-    en: {
-      "moniCategoria.title": "Distribution of evaluated websites by sector",
-      "moniCategoria.subtitle": "Accessibility monitoring conducted by AgID extends not only to the various areas where Public Administrations provide web services but also to the education sector. MAUVE++ automatically assesses the accessibility of websites for primary schools, secondary schools, and universities.",
-    },
-  };
-  
+  it: {
+    "moniCategoria.title":
+      "Distribuzione dei siti web monitorati per tipologia di ente",
+    "moniCategoria.subtitleSemp":
+      "Il monitoraggio dell'accessibilità effettuato da AgID comprende diverse PA e si estende a numerosi ambiti. {{break}} Questo il numero di siti web monitorati nel trimestre da MAUVE++, suddivisi per tipologia di PA: Comuni e loro Consorzi e Associazioni, Scuole e Università, Altri Enti.",
+    "moniCategoria.subtitleAppr":
+      "Il monitoraggio dell'accessibilità effettuato da AgID comprende diverse PA e si estende a numerosi ambiti. {{break}} Questo il numero di siti web monitorati suddivisi per tipologia di PA: Comuni e loro Consorzi e Associazioni, Scuole e Università, Altri Enti.",
+  },
+  en: {
+    "moniCategoria.title":
+      "Distribution of monitored websites by type of entity",
+    "moniCategoria.subtitleSemp":
+      "The accessibility monitoring carried out by AgID includes several PAs and extends to numerous areas. {{break}} This is the number of websites monitored in the quarter by MAUVE++, divided by type of PA: Municipalities and their Consortia and Associations, Schools and Universities, Other Entities.",
+    "moniCategoria.subtitleAppr":
+      "The accessibility monitoring carried out by AgID includes several PAs and extends to numerous areas. {{break}} This is the number of websites monitored divided by type of PA: Municipalities and their Consortia and Associations, Schools and Universities, Other Entities.",
+  },
+};

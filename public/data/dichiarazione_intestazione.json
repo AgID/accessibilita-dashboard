@@ -2,16 +2,19 @@
     {
         "valore": 62984,
         "indicatore": "num_dichiarazioni_pub_tot",
+        "anno_dichiarazione": 2024,
         "dat_ult_agg_dichiarazione": "2024-09-23"
     },
     {
         "valore": 16521,
         "indicatore": "num_dichiarazioni_pub",
+        "anno_dichiarazione": 2024,
         "dat_ult_agg_dichiarazione": "2024-09-23"
     },
     {
         "valore": 12887,
         "indicatore": "num_enti_dichiarazioni_pub",
+        "anno_dichiarazione": 2024,
         "dat_ult_agg_dichiarazione": "2024-09-23"
     }
 ]

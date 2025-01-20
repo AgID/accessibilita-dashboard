@@ -55,11 +55,10 @@
     <!-- svelte-ignore a11y-invalid-attribute -->
     <a
       href="#"
-      aria-hidden="true"
       data-bs-toggle="backtotop"
       class="back-to-top {innerWidth <= 992 && 'back-to-top-small'}"
     >
-      <Icon name="it it-arrow-up" variant="light" isButton={true} />
+      <Icon name="it it-arrow-up" variant="light" isButton={true} ariaLabel="Back-To-Top Arrow"/>
     </a>
     {#key $locale}
       <slot />

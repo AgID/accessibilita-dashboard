@@ -51,8 +51,8 @@
   }
 </script>
 
-<tr class="d-flex justify-content-end">
-  <td style="border-bottom-width: 0 !important" colspan={columns.length}>
+<div class="d-flex justify-content-end">
+  <div style="border-bottom-width: 0 !important" colspan={columns.length}>
     <div class="text-end download-text hover fw-normal">
       <button
         class="ms-2 download-buttons"
@@ -81,8 +81,8 @@
         />
       </button>
     </div>
-  </td>
-</tr>
+  </div>
+</div>
 
 <style lang="scss">
   .hover {

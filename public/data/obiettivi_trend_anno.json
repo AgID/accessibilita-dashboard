@@ -34,12 +34,12 @@
             },
             {
                 "cod_anno": 2024,
-                "num_enti_obiettivi": 12010
+                "num_enti_obiettivi": 12133
             }
         ],
         "intestazione": {
-            "periodo_obiettivi": "2016 - 2024",
-            "anno_ultimo_rilevamento": 2024
+            "anno_obiettivi": 2024,
+            "aggior_ultimo_trimestre": "4-2024"
         }
     }
 

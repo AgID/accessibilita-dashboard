@@ -6,23 +6,26 @@
 
   export let data;
 
+  let periodoMonitoraggio;
   let iconeConformita = {
-    conforme: "it it-check-circle",
-    "parzialmente conforme": "it it-error",
-    "non conforme": "it it-close-circle",
+    Conforme: "it it-check-circle",
+    "Parzialmente conforme": "it it-error",
+    "Non conforme": "it it-close-circle",
   };
 
-  let ordineConformita = ["conforme", "parzialmente conforme", "non conforme"];
+  let ordineConformita = ["Conforme", "Parzialmente conforme", "Non conforme"];
 
   onMount(async () => {
     const response = await fetch("/data/dichiarazione_app_so_conformita.json");
     let jsonData = await response.json();
     let orderedConformita = [];
 
+    periodoMonitoraggio = jsonData?.intestazione?.anno_dichiarazione;
+
     ordineConformita.forEach((op) => {
       let num = jsonData.data.find((erp) => erp.conformita_it == op);
       if (num) {
-        num.total = num.android + num.ios;
+        num.total = num.Android + num.iOS;
         orderedConformita.push(num);
       }
     });
@@ -34,9 +37,42 @@
 <div class="backgroundLightBlue py-5 px-xxl-5 my-5">
   <div class="container">
     <div class="mx-auto">
-      <h2 class="h3 pb-4 text-center greyText">{$t("dicAutoval.APP-title")}</h2>
-      <div>
-        <p class="mt-lg-3 mx-3 text-center">{$t("dicAutoval.APP-description")}</p>
+      <h2 class="h3 pb-2 text-center greyText">{$t("dicAutoval.APP-title")}</h2>
+      <div class="text-center">
+        <p class="periodoLabel pb-2 d-inline-block">
+          {$t("layout.periodoMonitoraggio")}
+          <span class="periodoDate">
+            {$t("layout.anno")}{periodoMonitoraggio}
+          </span>
+        </p>
+        <p class="mx-3 text-center">
+          {@html $t("dicAutoval.APP-description", { break: "<br/>" })}
+          <a
+            href="https://form.agid.gov.it/home"
+            title={$t("layout.externalLink")}
+            target="_blank"
+            rel="noreferrer"
+            >form.agid.it<Icon
+              name="it it-external-link"
+              variant="primary"
+              size="sm"
+              customClass="ms-1 mb-1"
+            /></a
+          >
+          {$t("dicAutoval.description2")}
+          <a
+            href={$t("dicAutoval.direttivaLink")}
+            title={$t("layout.externalLink")}
+            target="_blank"
+            rel="noreferrer"
+            >{$t("dicAutoval.direttiva")}<Icon
+              name="it it-external-link"
+              variant="primary"
+              size="sm"
+              customClass="ms-1 mb-1"
+            /></a
+          >.
+        </p>
         <div class="d-flex justify-content-center mx-5">
           {#if data}
             <div
@@ -53,8 +89,8 @@
                   </span>
 
                   <p class="cardTitle mb-3 mt-3" style="color: #0066CC;">
-                    { item[`conformita_${$locale}`].charAt(0).toUpperCase() +
-                    item[`conformita_${$locale}`].slice(1)}
+                    {item[`conformita_${$locale}`].charAt(0).toUpperCase() +
+                      item[`conformita_${$locale}`].slice(1)}
                   </p>
                   <p class="cardMainData" style="color: #0066CC;">
                     {nf(item.total)}

@@ -1,4 +1,6 @@
 <script>
+  import BannerPageUpdated from "../lib/components/BannerPageUpdated.svelte";
+  import Breadcrumb from "../lib/components/Breadcrumb.svelte";
   import Icon from "../lib/components/Icon.svelte";
   import { t } from "../lib/utils/i18n";
 </script>
@@ -8,7 +10,9 @@
 </svelte:head>
 
 <section class="container" aria-label={$t("privacyPolicy.section")}>
-  <div class="insideContainer mx-auto my-5">
+  <Breadcrumb currentPage={$t("breadcrumb.privacy")}></Breadcrumb>
+  <BannerPageUpdated pageId="privacy_policy" />
+  <div class="insideContainer mx-auto mb-5">
     <h1 class="lead">{$t("privacyPolicy.title")}</h1>
     <p>{@html $t("privacyPolicy.para1", { doubleBreak: "<br/><br/>" })}</p>
     <br />
@@ -17,9 +21,8 @@
     </h2>
     <p>
       {@html $t("privacyPolicy.para2", { doubleBreak: "<br/><br/>" })}
-      <a
-        href="mailto:protocollo@pec.agid.gov.it"
-        title={$t("layout.mailto")}>protocollo@pec.agid.gov.it</a
+      <a href="mailto:protocollo@pec.agid.gov.it" title={$t("layout.mailto")}
+        >protocollo@pec.agid.gov.it</a
       >
     </p>
     <br />
@@ -30,8 +33,7 @@
       {@html $t("privacyPolicy.para3", { doubleBreak: "<br/><br/>" })}
       <a
         href="mailto:responsabileprotezionedati@agid.gov.it"
-        title={$t("layout.mailto")}
-        >responsabileprotezionedati@agid.gov.it</a
+        title={$t("layout.mailto")}>responsabileprotezionedati@agid.gov.it</a
       >
     </p>
     <br />
@@ -43,11 +45,11 @@
         title={$t("layout.externalLink")}
         target="_blank"
         rel="noreferrer"
-        >www.garanteprivacy.it <Icon
+        >www.garanteprivacy.it<Icon
           name="it it-external-link"
           variant="primary"
-          size="xs"
-          customClass="mb-1"
+          size="sm"
+          customClass="ms-1 mb-1"
         /></a
       >
     </p>

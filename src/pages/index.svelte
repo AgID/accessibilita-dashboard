@@ -1,11 +1,13 @@
 <script>
   import { onMount } from "svelte";
-  import InfoCardSemp from "../lib/components/errori/InfoCardSemp.svelte";
+  import HomeInfoCards from "../lib/components/errori/HomeInfoCards.svelte";
   import HomeMainCard from "../lib/components/HomeMainCard.svelte";
   import Icon from "../lib/components/Icon.svelte";
   import KpiCard from "../lib/components/KpiCard.svelte";
-  import { df, dp, nf } from "../lib/utils";
+  import { df, dp, nf, pm } from "../lib/utils";
   import { t } from "../lib/utils/i18n";
+  import KpiThreeCard from "../lib/components/KpiThreeCard.svelte";
+  import BannerPageUpdated from "../lib/components/BannerPageUpdated.svelte";
 
   let innerWidth;
   let pagineValutate;
@@ -21,6 +23,7 @@
   let dichiarazioniDateFormatted;
   let obiettiviDateFormatted;
 
+  let annoRiferimentoDic;
   let annoRiferimentoObi;
 
   onMount(async () => {
@@ -28,27 +31,37 @@
     const dataMon = await rsMon.json();
     pagineValutate = dataMon[0].num_pagine_valutate;
     sitiValutati = dataMon[0].num_siti_monitorati;
-    monitoraggioDateFormatted = df(dp(dataMon[0].dat_ultimo_monitoraggio));
+    monitoraggioDateFormatted = pm(dataMon[0].periodo_monitoraggio);
 
     const rsPDF = await fetch("/data/monitoraggio_pdf_intestazione.json");
     const dataPDF = await rsPDF.json();
     pdfValutati = dataPDF[0].num_pdf_valutati;
 
-    const rsErr = await fetch("/data/errori_distribuzione_livello_conformita.json");
+    const rsErr = await fetch(
+      "/data/errori_distribuzione_livello_conformita.json"
+    );
     const erroriConformita = await rsErr.json();
-    totalerroriConformita = nf( erroriConformita[0].num_sc_non_soddisfatti + erroriConformita[1].num_sc_non_soddisfatti);
+    totalerroriConformita = nf(
+      erroriConformita[0].num_sc_non_soddisfatti +
+        erroriConformita[1].num_sc_non_soddisfatti
+    );
 
     const rsDic = await fetch("/data/dichiarazione_tot_intestazione.json");
     const dataDic = await rsDic.json();
-    dichiarazioniAccessibilita = dataDic.find((d) => d.indicatore == "num_dichiarazioni_pub_tot").valore;
+    dichiarazioniAccessibilita = dataDic.find(
+      (d) => d.indicatore == "num_dichiarazioni_pub_tot"
+    ).valore;
     dichiarazioniDateFormatted = df(dp(dataDic[0].dat_ult_agg_dichiarazione));
+    annoRiferimentoDic = dataDic[0].dat_ult_agg_dichiarazione.slice(0, 4);
 
     const rsObi = await fetch("/data/obiettivi_intestazione.json");
     const dataObi = await rsObi.json();
-    obiettiviAccessibilità = dataObi.find((d) => d.indicatore == "num_enti_obiettivi").valore;
-    obiettiviDate = dataObi[0].dat_ult_agg_obiettivi
+    obiettiviAccessibilità = dataObi.find(
+      (d) => d.indicatore == "num_enti_obiettivi"
+    ).valore;
+    obiettiviDate = dataObi[0].dat_ult_agg_obiettivi;
     obiettiviDateFormatted = df(dp(obiettiviDate));
-    annoRiferimentoObi = dataObi[0].anno
+    annoRiferimentoObi = dataObi[0].anno_obiettivi;
   });
 </script>
 
@@ -59,81 +72,31 @@
 </svelte:head>
 
 <HomeMainCard />
-
-<div class="container my-4 pb-3">
+<div class="container mt-4">
+  <BannerPageUpdated pageId="home" />
+</div>
+<div class="container mb-4 pb-3">
   {#if pagineValutate && pdfValutati}
-    <div class="row mt-5">
+    <div class="row">
       {#if innerWidth >= 992}
         <div class="col-lg-5">
-          <div class="card-box mt-0">
-            <div class="py-4 px-3 ms-xl-3">
-              <div class="row mb-2">
-                <div class="col-3 customMonBox my-auto">
-                  <img
-                    src="/images/globe.svg"
-                    alt=""
-                    class="ps-2"
-                    aria-hidden="true"
-                  />
-                </div>
-                <div class="col-9 ps-3">
-                  <p class="cardTitle greyText">
-                    {$t("homepage.monitoraggioCard3Title")}
-                  </p>
-                  <p class="cardMainData mt-2 mb-0" style="color: #0066cc">
-                    {nf(sitiValutati)}
-                  </p>
-                </div>
-              </div>
-              <hr class="w-75 my-4 mx-auto text-muted" />
-              <div class="row">
-                <div class="col-3 customMonBox my-auto">
-                  <img
-                    src="/images/window-stack.svg"
-                    alt=""
-                    class="ps-2"
-                    aria-hidden="true"
-                  />
-                </div>
-                <div class="col-9 ps-3">
-                  <p class="cardTitle greyText">
-                    {$t("homepage.monitoraggioCardTitle")}
-                  </p>
-                  <p class="cardMainData mt-2 mb-0" style="color: #0066cc">
-                    {nf(pagineValutate)}
-                  </p>
-                </div>
-              </div>
-              <hr class="w-75 my-4 mx-auto text-muted" />
-              <div class="row">
-                <div class="col-3 customMonBox my-auto">
-                  <img
-                    src="/images/PDF.svg"
-                    alt=""
-                    class="ps-2"
-                    aria-hidden="true"
-                  />
-                </div>
-                <div class="col-9 ps-3">
-                  <p class="cardTitle greyText">
-                    {$t("homepage.monitoraggioCard2Title")}
-                  </p>
-                  <p class="cardMainData mt-2 mb-0" style="color: #0066cc">
-                    {nf(pdfValutati)}
-                  </p>
-                </div>
-              </div>
-              <hr class="w-75 my-4 mx-auto text-muted" />
-              <div class="captionUpdateDarker text-center">
-                {$t("homepage.latestUpdate")}{monitoraggioDateFormatted}
-              </div>
-            </div>
-          </div>
+          <KpiThreeCard
+            periodoMonitoraggio={monitoraggioDateFormatted}
+            firstImg="globe"
+            firstLabel={$t("homepage.monitoraggioCard3Title")}
+            firstKpi={nf(sitiValutati)}
+            secondImg="window-stack"
+            secondLabel={$t("homepage.monitoraggioCardTitle")}
+            secondKpi={nf(pagineValutate)}
+            thirdImg="PDF"
+            thirdLabel={$t("homepage.monitoraggioCard2Title")}
+            thirdKpi={nf(pdfValutati)}
+          ></KpiThreeCard>
         </div>
       {/if}
 
-      <div class="col-12 col-lg-7 pe-xl-5 mt-lg-3">
-        <div class="d-inline-flex my-4">
+      <div class="col-12 col-lg-7 pe-xl-5">
+        <div class="d-inline-flex mb-4">
           <span aria-hidden="true">
             <Icon name="it it-chart-line" variant="primary" size="lg" />
           </span>
@@ -141,15 +104,29 @@
         </div>
         <h3 class="h3 pb-lg-4 mb-0">{$t("homepage.monitoraggioSubtitle")}</h3>
         <p class="pe-lg-5">
-          {$t("homepage.monitoraggioParagraphPt1")}
-          <a href="/monitoraggio-semplificato"  rel="noreferrer"
+          {@html $t("homepage.monitoraggioParagraphPt1", {
+            doubleBreak: "<br/><br/>",
+          })}
+          <a href="/monitoraggio-semplificato" rel="noreferrer"
             >{$t("homepage.monitoraggioSempLink")}</a
           >
-          {@html $t("homepage.monitoraggioParagraphPt2", {
+          {$t("homepage.monitoraggioParagraphPt2a")}
+          <a
+            title={$t("layout.externalLink")}
+            target="_blank"
+            rel="noreferrer"
+            href="https://mauve.isti.cnr.it/singleValidation.jsp"
+            >MAUVE++<Icon
+              name="it it-external-link"
+              variant="primary"
+              size="sm"
+              customClass="ms-1 mb-1"
+            />
+          </a>
+          {@html $t("homepage.monitoraggioParagraphPt2b", {
             doubleBreak: "<br/><br/>",
-            break: "<br>",
           })}
-          <a href="/monitoraggio-approfondito"  rel="noreferrer"
+          <a href="/monitoraggio-approfondito" rel="noreferrer"
             >{$t("homepage.monitoraggioAppLink")}</a
           >
           {$t("homepage.monitoraggioParagraphPt3")}
@@ -158,39 +135,18 @@
 
       {#if innerWidth < 992}
         <div class="col-12 pt-5">
-          <div class="card-box">
-            <div class="py-4 px-3 ms-xl-3">
-              <div class="row mb-2 text-center">
-                <div class="col-12">
-                  <p class="cardTitle greyText">
-                    {$t("homepage.monitoraggioCard3Title")}
-                  </p>
-                  <p class="cardMainData mt-2 mb-0" style="color: #0066cc">
-                    {nf(sitiValutati)}
-                  </p>
-                  <hr class="w-75 my-4 mx-auto text-muted" />
-                  <p class="cardTitle greyText">
-                    {$t("homepage.monitoraggioCardTitle")}
-                  </p>
-                  <p class="cardMainData mt-2 mb-0" style="color: #0066cc">
-                    {nf(pagineValutate)}
-                  </p>
-                  <hr class="w-75 my-4 mx-auto text-muted" />
-                  <p class="cardTitle greyText my-4">
-                    {$t("homepage.monitoraggioCard2Title")}
-                  </p>
-                  <p class="cardMainData mt-2 mb-0" style="color: #0066cc">
-                    {nf(pdfValutati)}
-                  </p>
-                </div>
-              </div>
-              <hr class="w-75 my-4 mx-auto text-muted" />
-
-              <div class="captionUpdateDarker text-center">
-                {$t("homepage.latestUpdate")}{monitoraggioDateFormatted}
-              </div>
-            </div>
-          </div>
+          <KpiThreeCard
+            periodoMonitoraggio={monitoraggioDateFormatted}
+            firstImg="globe"
+            firstLabel={$t("homepage.monitoraggioCard3Title")}
+            firstKpi={nf(sitiValutati)}
+            secondImg="window-stack"
+            secondLabel={$t("homepage.monitoraggioCardTitle")}
+            secondKpi={nf(pagineValutate)}
+            thirdImg="PDF"
+            thirdLabel={$t("homepage.monitoraggioCard2Title")}
+            thirdKpi={nf(pdfValutati)}
+          ></KpiThreeCard>
         </div>
       {/if}
     </div>
@@ -214,57 +170,57 @@
         <h3 class="h3 pe-lg-3 pb-lg-4">
           {$t("homepage.erroriSubtitle")}
         </h3>
-<p>
-  {$t("homepage.erroriParagraphPt1")}
-  <a
-  href={$t("homepage.erroriWCAGLink")}
-  title={$t("layout.externalLink")}
-  target="_blank"
-  rel="noreferrer"
-  >WCAG 2.1 (Web Content Accessibility Guidelines 2.1)<Icon
-    name="it it-external-link"
-    variant="primary"
-    size="xs"
-    customClass="mb-1"
-  /></a
->
-{@html $t("homepage.erroriParagraphPt2", {
-  doubleBreak: "<br/><br/>",
-})}
-
-<a href="/errori-semplificato"  rel="noreferrer"
->{$t("homepage.erroriParagraphPt3")}</a
->
-
-{$t("homepage.erroriParagraphPt4")}
-
-<a
-title={$t("layout.externalLink")}
-target="_blank"
-rel="noreferrer"
-href={$t("homepage.erroriMAUVElink")}
->MAUVE++<Icon
-  name="it it-external-link"
-  variant="primary"
-  size="xs"
-  customClass="mb-1"
-/>
-</a>
-
-{@html $t("homepage.erroriParagraphPt5", {
-  totErrori: totalerroriConformita, doubleBreak: "<br/><br/>"
-})}
-
-
-<a href="/errori-approfondito"  rel="noreferrer"
->{$t("homepage.erroriParagraphPt6")}</a
->
-{$t("homepage.erroriParagraphPt7")}
-</p>
+        <p>
+          {$t("homepage.erroriParagraph1")}
+          <a
+            href="https://www.etsi.org/deliver/etsi_en/301500_301599/301549/03.02.01_60/en_301549v030201p.pdf"
+            title={$t("layout.externalLink")}
+            target="_blank"
+            rel="noreferrer"
+            >UNI EN 301 549<Icon
+              name="it it-external-link"
+              variant="primary"
+              size="sm"
+              customClass="ms-1 mb-1"
+            /></a
+          >
+          {$t("homepage.erroriParagraph2")}
+          <a
+            href={$t("homepage.erroriDirettivaLink")}
+            title={$t("layout.externalLink")}
+            target="_blank"
+            rel="noreferrer"
+            >{$t("homepage.erroriDirettiva")}<Icon
+              name="it it-external-link"
+              variant="primary"
+              size="sm"
+              customClass="ms-1 mb-1"
+            /></a
+          >.
+        </p>
+        <p>
+          {$t("homepage.erroriParagraph3")}
+          <a
+            href={$t("homepage.erroriWCAGLink")}
+            title={$t("layout.externalLink")}
+            target="_blank"
+            rel="noreferrer"
+            >WCAG 2.1<Icon
+              name="it it-external-link"
+              variant="primary"
+              size="sm"
+              customClass="ms-1 mb-1"
+            /></a
+          >
+          {@html $t("homepage.erroriParagraph4", {
+            totErrori: totalerroriConformita,
+            break: "<br/>",
+            doubleBreak: "<br/><br/>",
+          })}
+        </p>
       </div>
-
       <div class="col-lg-5 px-0">
-        <InfoCardSemp />
+        <HomeInfoCards />
       </div>
     </div>
   </div>
@@ -282,10 +238,7 @@ href={$t("homepage.erroriMAUVElink")}
           </div>
           <h3 class="h3 pb-lg-4">{$t("homepage.dichiarazioniSubtitle")}</h3>
           <p class="me-lg-3">
-            {@html $t("homepage.dichiarazioniParagraph", {
-              doubleBreak: "<br/><br/>",
-              break: "<br/>",
-            })}
+            {$t("homepage.dichiarazioniParagraph1")}
             <a
               href={$t("homepage.dichiarazioniAGIDlink")}
               title={$t("layout.externalLink")}
@@ -294,18 +247,34 @@ href={$t("homepage.erroriMAUVElink")}
               >{$t("homepage.dichiarazioniLink")}<Icon
                 name="it it-external-link"
                 variant="primary"
-                size="xs"
-                customClass="mb-1"
+                size="sm"
+                customClass="ms-1 mb-1"
               />
             </a>
+            {@html $t("homepage.dichiarazioniParagraph2", {
+              doubleBreak: "<br/><br/>",
+            })}
+            (<a
+              title={$t("layout.externalLink")}
+              target="_blank"
+              rel="noreferrer"
+              href="https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:legge:2004-01-09;4!vig="
+              >{$t("homeMain.dichiarazioniLegge")}<Icon
+                name="it it-external-link"
+                variant="primary"
+                size="sm"
+                customClass="ms-1 mb-1"
+              /></a
+            >).
           </p>
         </div>
 
         <div class="col-lg-5 ps-0 pe-0 pt-lg-5 pb-lg-4">
           <KpiCard
-            title={$t("homepage.dichiarazioniCardTitle")}
+            title={$t("homepage.dichiarazioniCardTitle", {
+              anno: annoRiferimentoDic,
+            })}
             kpi={nf(dichiarazioniAccessibilita)}
-            caption="{$t('homepage.latestUpdate')}{dichiarazioniDateFormatted}"
             linkText={$t("homepage.dichiarazioniPageLink")}
             href="dichiarazione"
           />
@@ -328,10 +297,7 @@ href={$t("homepage.erroriMAUVElink")}
           </div>
           <h3 class="h3 pb-lg-4">{$t("homepage.obiettiviSubtitle")}</h3>
           <p class="me-lg-3">
-            {@html $t("homepage.obiettiviParagraph", {
-              doubleBreak: "<br/><br/>",
-              break: "<br/>",
-            })}
+            {$t("homepage.obiettiviParagraph1")}
             <a
               href={$t("homepage.obiettiviAGIDlink")}
               title={$t("layout.externalLink")}
@@ -340,18 +306,35 @@ href={$t("homepage.erroriMAUVElink")}
               >{$t("homepage.obiettiviLink")}<Icon
                 name="it it-external-link"
                 variant="primary"
-                size="xs"
-                customClass="mb-1"
+                size="sm"
+                customClass="ms-1 mb-1"
               /></a
             >
+            {@html $t("homepage.obiettiviParagraph2", {
+              doubleBreak: "<br/><br/>",
+            })}
+            (<a
+              href="https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legge:2012-10-18;179"
+              title={$t("layout.externalLink")}
+              target="_blank"
+              rel="noreferrer"
+              >{$t("homepage.obiettiviDecreto")}<Icon
+                name="it it-external-link"
+                variant="primary"
+                size="sm"
+                customClass="ms-1 mb-1"
+              /></a
+            >)
+            {$t("homepage.obiettiviParagraph3")}
           </p>
         </div>
 
         <div class="col-lg-5 ps-0 pe-0 pt-lg-5 pb-lg-4">
           <KpiCard
-            title={$t("homepage.obiettiviCardTitle", { anno: annoRiferimentoObi })}
+            title={$t("homepage.obiettiviCardTitle", {
+              anno: annoRiferimentoObi,
+            })}
             kpi={nf(obiettiviAccessibilità)}
-            caption="{$t('homepage.latestUpdate')}{obiettiviDateFormatted}"
             linkText={$t("homepage.obiettiviPageLink")}
             href="obiettivi"
           />
@@ -362,6 +345,9 @@ href={$t("homepage.erroriMAUVElink")}
 {/if}
 
 <style>
+  .bannerPageUpdated {
+    background-color: #f2f7fc;
+  }
   .background {
     background-color: #f2f7fc;
   }

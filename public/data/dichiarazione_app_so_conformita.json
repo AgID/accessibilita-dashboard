@@ -1,26 +1,26 @@
     {
         "data": [
             {
-                "ios": 188,
-                "android": 299,
-                "conformita_en": "partially-compliant",
-                "conformita_it": "parzialmente conforme"
+                "iOS": 188,
+                "Android": 299,
+                "conformita_en": "Partially-compliant",
+                "conformita_it": "Parzialmente conforme"
             },
             {
-                "ios": 93,
-                "android": 134,
-                "conformita_en": "compliant",
-                "conformita_it": "conforme"
+                "iOS": 93,
+                "Android": 134,
+                "conformita_en": "Compliant",
+                "conformita_it": "Conforme"
             },
             {
-                "ios": 6,
-                "android": 8,
-                "conformita_en": "non-compliant",
-                "conformita_it": "non conforme"
+                "iOS": 6,
+                "Android": 8,
+                "conformita_en": "Non-compliant",
+                "conformita_it": "Non conforme"
             }
         ],
         "intestazione": {
-            "periodo_dichiarazioni": "2020 - 2024",
+            "anno_dichiarazione": 2024,
             "dat_ult_agg_dichiarazione": "2024-09-23"
         }
     }

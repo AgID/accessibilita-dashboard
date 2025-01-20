@@ -1,4 +1,6 @@
 <script>
+  import BannerPageUpdated from "../lib/components/BannerPageUpdated.svelte";
+  import Breadcrumb from "../lib/components/Breadcrumb.svelte";
   import Icon from "../lib/components/Icon.svelte";
   import { t } from "../lib/utils/i18n";
 </script>
@@ -8,7 +10,9 @@
 </svelte:head>
 
 <section class="container" aria-label={$t("legalPolicy.section")}>
-  <div class="insideContainer mx-auto my-5">
+  <Breadcrumb currentPage={$t("breadcrumb.legali")}></Breadcrumb>
+  <BannerPageUpdated pageId="note_legali" />
+  <div class="insideContainer mx-auto mb-5">
     <h1 class="lead">{$t("legalPolicy.title")}</h1>
     <h2 class="h3 greyText">{$t("legalPolicy.subtitle1")}</h2>
     <p>{@html $t("legalPolicy.para1", { doubleBreak: "<br/><br/>" })}</p>
@@ -21,12 +25,11 @@
         title={$t("layout.externalLink")}
         target="_blank"
         rel="noreferrer"
-        >http://creativecommons.org/licenses/by/3.0/it/legalcode
-        <Icon
+        >http://creativecommons.org/licenses/by/3.0/it/legalcode<Icon
           name="it it-external-link"
           variant="primary"
-          size="xs"
-          customClass="mb-1"
+          size="sm"
+          customClass="ms-1 mb-1"
         /></a
       >
     </p>

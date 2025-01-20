@@ -6,7 +6,6 @@
   }
 
   import { t } from "../utils/i18n";
-
 </script>
 
 <div class="footer">
@@ -23,6 +22,7 @@
           <img
             alt={$t("footer.logoUE")}
             src="/logo/unioneEuropa.svg"
+            class="logo"
           />
         </a>
       </div>
@@ -34,10 +34,7 @@
           target="_blank"
           rel="noreferrer"
         >
-          <img
-            alt={$t("footer.logoDTD")}
-            src="/logo/dipartimentoDigitale.svg"
-          />
+          <img alt={$t("footer.logoDTD")} src="/logo/logo-dtd-white.svg" />
         </a>
       </div>
       <div class="col-12 col-md-6 col-lg-4 pb-5 d-inline">
@@ -48,11 +45,7 @@
           target="_blank"
           rel="noreferrer"
         >
-          <img
-            alt={$t("footer.logoAGID")}
-            src="/logo/AGIDlogoW.png"
-            class="logo"
-          />
+          <img alt={$t("footer.logoAGID")} src="/logo/AGIDlogoW.png" />
         </a>
       </div>
     </div>
@@ -69,11 +62,11 @@
               rel="noreferrer"
               href="https://form.agid.gov.it/view/9cbe42f0-a0ee-11ef-93b8-1d8fdd5aa94f"
               >{$t("footer.statement")}<Icon
-              name="it it-external-link"
-              variant="white"
-              size="xs"
-              customClass="mb-1"
-            /></a
+                name="it it-external-link"
+                variant="white"
+                size="sm"
+                customClass="ms-1 mb-1"
+              /></a
             >
           </li>
           <li class="nav-item">
@@ -98,10 +91,8 @@
             >
           </li>
           <li class="nav-item">
-            <a
-              class="nav-link linkSM"
-              href="/contattaci"
-              on:click={onAnchorClick}>{$t("footer.contacts")}</a
+            <a class="nav-link linkSM" href="/contatti" on:click={onAnchorClick}
+              >{$t("footer.contacts")}</a
             >
           </li>
         </ul>
@@ -116,11 +107,11 @@
   }
 
   .dashboard-footer img {
-    max-width: 70%;
+    max-width: 85%;
   }
 
   .dashboard-footer img.logo {
-    max-width: 90% !important;
+    max-width: 75% !important;
   }
 
   ul,

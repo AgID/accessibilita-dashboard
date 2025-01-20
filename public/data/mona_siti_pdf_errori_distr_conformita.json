@@ -1,122 +1,111 @@
     {
         "data": [
             {
-                "num_perc_errori": 25.27301092043681747300,
-                "cod_livello_conformita": "A",
-                "des_success_criteria_en": "10.2.4.2 Page Titled",
-                "des_success_criteria_it": "10.2.4.2 Titolazione del documento"
-            },
-            {
-                "num_perc_errori": 25.19500780031201248000,
+                "num_perc_errori": 32.45663122551762730800,
                 "cod_livello_conformita": "A",
                 "des_success_criteria_en": "10.1.3.1 Info and Relationships",
                 "des_success_criteria_it": "10.1.3.1 Informazioni e correlazioni"
             },
             {
-                "num_perc_errori": 12.24648985959438377500,
+                "num_perc_errori": 27.97985450475657526600,
+                "cod_livello_conformita": "A",
+                "des_success_criteria_en": "10.2.4.2 Page Titled",
+                "des_success_criteria_it": "10.2.4.2 Titolazione del documento"
+            },
+            {
+                "num_perc_errori": 8.56183547845551203100,
                 "cod_livello_conformita": "A",
                 "des_success_criteria_en": "10.1.1.1 Non-text Content",
                 "des_success_criteria_it": "10.1.1.1 Contenuti non testuali"
             },
             {
-                "num_perc_errori": 9.12636505460218408700,
-                "cod_livello_conformita": "AA",
-                "des_success_criteria_en": "10.2.4.6 Headings and Labels",
-                "des_success_criteria_it": "10.2.4.6 Intestazioni ed etichette"
-            },
-            {
-                "num_perc_errori": 7.09828393135725429000,
+                "num_perc_errori": 7.27476217123670956900,
                 "cod_livello_conformita": "A",
                 "des_success_criteria_en": "10.3.1.1 Language of Page",
                 "des_success_criteria_it": "10.3.1.1 Lingua del documento"
             },
             {
-                "num_perc_errori": 5.53822152886115444600,
-                "cod_livello_conformita": "AA",
-                "des_success_criteria_en": "10.1.4.3 Contrast (Minimum)",
-                "des_success_criteria_it": "10.1.4.3 Contrasto (minimo)"
-            },
-            {
-                "num_perc_errori": 5.38221528861154446200,
-                "cod_livello_conformita": "A",
-                "des_success_criteria_en": "10.4.1.1 Parsing",
-                "des_success_criteria_it": "10.4.1.1 Analisi sintattica (parsing)"
-            },
-            {
-                "num_perc_errori": 3.43213728549141965700,
+                "num_perc_errori": 6.54728595411303861200,
                 "cod_livello_conformita": "AA",
                 "des_success_criteria_en": "10.3.1.2 Language of Parts",
                 "des_success_criteria_it": "10.3.1.2 Parti in lingua"
             },
             {
-                "num_perc_errori": 2.18408736349453978200,
+                "num_perc_errori": 5.14829322887520984900,
+                "cod_livello_conformita": "AA",
+                "des_success_criteria_en": "10.1.4.3 Contrast (Minimum)",
+                "des_success_criteria_it": "10.1.4.3 Contrasto (minimo)"
+            },
+            {
+                "num_perc_errori": 4.86849468382764409600,
+                "cod_livello_conformita": "A",
+                "des_success_criteria_en": "10.4.1.1 Parsing",
+                "des_success_criteria_it": "10.4.1.1 Analisi sintattica (parsing)"
+            },
+            {
+                "num_perc_errori": 3.41354224958030218200,
+                "cod_livello_conformita": "AA",
+                "des_success_criteria_en": "10.2.4.6 Headings and Labels",
+                "des_success_criteria_it": "10.2.4.6 Intestazioni ed etichette"
+            },
+            {
+                "num_perc_errori": 2.23838836038052602100,
                 "cod_livello_conformita": "A",
                 "des_success_criteria_en": "10.2.4.3 Focus Order",
                 "des_success_criteria_it": "10.2.4.3 Ordine del focus"
             },
             {
-                "num_perc_errori": 2.10608424336973478900,
-                "cod_livello_conformita": "A",
-                "des_success_criteria_en": "10.2.1.1 Keyboard",
-                "des_success_criteria_it": "10.2.1.1 Tastiera"
-            },
-            {
-                "num_perc_errori": 0.70202808112324493000,
-                "cod_livello_conformita": "A",
-                "des_success_criteria_en": "10.1.3.2 Meaningful Sequence",
-                "des_success_criteria_it": "10.1.3.2 Sequenza significativa"
-            },
-            {
-                "num_perc_errori": 0.31201248049921996900,
+                "num_perc_errori": 0.33575825405707890300,
                 "cod_livello_conformita": "A",
                 "des_success_criteria_en": "10.4.1.2 Name, Role, Value",
                 "des_success_criteria_it": "10.4.1.2 Nome, ruolo, valore"
             },
             {
-                "num_perc_errori": 0.31201248049921996900,
-                "cod_livello_conformita": "AA",
-                "des_success_criteria_en": "10.1.4.11 Non-text Contrast",
-                "des_success_criteria_it": "10.1.4.11 Contrasto in contenuti non testuali"
-            },
-            {
-                "num_perc_errori": 0.31201248049921996900,
+                "num_perc_errori": 0.22383883603805260200,
                 "cod_livello_conformita": "AA",
                 "des_success_criteria_en": "10.1.4.10 Reflow",
                 "des_success_criteria_it": "10.1.4.10 Ricalcolo del flusso"
             },
             {
-                "num_perc_errori": 0.23400936037441497700,
+                "num_perc_errori": 0.22383883603805260200,
+                "cod_livello_conformita": "AA",
+                "des_success_criteria_en": "10.1.4.12 Text Spacing",
+                "des_success_criteria_it": "10.1.4.12 Spaziatura del testo"
+            },
+            {
+                "num_perc_errori": 0.16787912702853945200,
+                "cod_livello_conformita": "A",
+                "des_success_criteria_en": "10.1.3.2 Meaningful Sequence",
+                "des_success_criteria_it": "10.1.3.2 Sequenza significativa"
+            },
+            {
+                "num_perc_errori": 0.16787912702853945200,
+                "cod_livello_conformita": "AA",
+                "des_success_criteria_en": "10.1.4.4 Resize text",
+                "des_success_criteria_it": "10.1.4.4 Ridimensionamento del testo"
+            },
+            {
+                "num_perc_errori": 0.16787912702853945200,
                 "cod_livello_conformita": "AA",
                 "des_success_criteria_en": "10.1.4.5 Images of Text",
                 "des_success_criteria_it": "10.1.4.5 Immagini di testo"
             },
             {
-                "num_perc_errori": 0.23400936037441497700,
+                "num_perc_errori": 0.16787912702853945200,
                 "cod_livello_conformita": "A",
-                "des_success_criteria_en": "10.1.4.1 Use of Color",
-                "des_success_criteria_it": "10.1.4.1 Uso del colore"
+                "des_success_criteria_en": "10.2.5.3 Label in Name",
+                "des_success_criteria_it": "10.2.5.3 Etichetta nel nome"
             },
             {
-                "num_perc_errori": 0.15600624024960998400,
-                "cod_livello_conformita": "A",
-                "des_success_criteria_en": "10.1.3.3 Sensory Characteristics",
-                "des_success_criteria_it": "10.1.3.3 Caratteristiche sensoriali"
-            },
-            {
-                "num_perc_errori": 0.07800312012480499200,
-                "cod_livello_conformita": "A",
-                "des_success_criteria_en": "10.3.3.2 Labels or Instructions",
-                "des_success_criteria_it": "10.3.3.2 Etichette o istruzioni"
-            },
-            {
-                "num_perc_errori": 0.07800312012480499200,
-                "cod_livello_conformita": "A",
-                "des_success_criteria_en": "10.2.4.4 Link Purpose (In Context)",
-                "des_success_criteria_it": "10.2.4.4 Scopo del collegamento (nel contesto)"
+                "num_perc_errori": 0.05595970900951315100,
+                "cod_livello_conformita": "AA",
+                "des_success_criteria_en": "10.2.4.7 Focus Visible",
+                "des_success_criteria_it": "10.2.4.7 Focus visibile"
             }
         ],
         "intestazione": {
-            "periodo_monitoraggio": "4-2023",
-            "dat_ultimo_aggiornamento": "2023-12-31"
+            "anno_monitoraggio": 2024,
+            "dat_ultimo_aggiornamento": "2024-12-31"
         }
     }
+
