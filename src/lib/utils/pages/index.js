@@ -42,7 +42,7 @@ export default {
       "è lo strumento con cui una PA rende noto lo stato di accessibilità di un suo sito web o di un'app. {{doubleBreak}} La dichiarazione di accessibilità va compilata e pubblicata, entro il 23 settembre di ogni anno, per ciascun sito web e ciascuna app di cui ogni Amministrazione è titolare ",
     "homeMain.dichiarazioniLegge": "Legge n. 4/2004",
     "homepage.dichiarazioniCardTitle":
-      "Totale delle dichiarazioni di accessibilità compilate nel {{anno}}",
+      "Totale delle dichiarazioni di accessibilità compilate dal 2020",
     "homepage.dichiarazioniPageLink": "Vai alle dichiarazioni",
     "homepage.obiettiviTitle": "Obiettivi di accessibilità",
     "homepage.obiettiviSubtitle": "Cosa sono gli obiettivi di accessibilità?",
@@ -101,7 +101,7 @@ export default {
       "is the tool with which a PA makes known the accessibility status of its website or app. {{doubleBreak}} The accessibility statement must be completed and published by 23 September every year, for each website and each app owned by each Administration",
     "homeMain.dichiarazioniLegge": "Law no. 4/2004",
     "homepage.dichiarazioniCardTitle":
-      "Total accessibility statements completed in {{anno}}",
+      "Total accessibility statements completed since 2020",
     "homepage.dichiarazioniPageLink": "Go to the statements",
     "homepage.obiettiviTitle": "Accessibility objectives",
     "homepage.obiettiviSubtitle": "What are accessibility objectives?",

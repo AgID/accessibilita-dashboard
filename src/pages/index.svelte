@@ -271,9 +271,7 @@
 
         <div class="col-lg-5 ps-0 pe-0 pt-lg-5 pb-lg-4">
           <KpiCard
-            title={$t("homepage.dichiarazioniCardTitle", {
-              anno: annoRiferimentoDic,
-            })}
+            title={$t("homepage.dichiarazioniCardTitle")}
             kpi={nf(dichiarazioniAccessibilita)}
             linkText={$t("homepage.dichiarazioniPageLink")}
             href="dichiarazione"
