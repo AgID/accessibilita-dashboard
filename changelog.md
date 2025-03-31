@@ -9,7 +9,7 @@ e questo progetto aderisce a [Semantic Versioning](https://semver.org/spec/v2.0.
 
 ### Fix
 
-- Download file opendata
+- Download file opendata [Issue #32](https://github.com/AgID/accessibilita-monitoraggio/issues/32)
 
 ## [1.0.1](https://github.com/AgID/accessibilita-dashboard/releases/tag/1.0.1) - 2025-01-22
 
