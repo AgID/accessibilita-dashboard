@@ -166,14 +166,14 @@
   }
 
   function filename(name) {
-    if (name == "Monitoraggio") return "monitoraggio";
-    else if (name == "Monitoring") return "monitoring";
+    if (name == "Monitoraggio semplificato") return "monitoraggio";
+    else if (name == "Simplified monitoring") return "monitoring";
     else if (name == "Dichiarazione di accessibilità") return "dichiarazioni";
     else if (name == "Accessibility statement") return "statement";
     else if (name == "Errori") return "errori";
     else if (name == "Errors") return "errors";
-    else if (name == "Elenco Pa valutate da Mauve") return "Pa_valutate";
-    else if (name == "List of PAs evaluated by Mauve") return "evaluated_Pa";
+    else if (name == "Elenco PA valutate da MAUVE++") return "Pa_valutate";
+    else if (name == "List of PAs evaluated by MAUVE++") return "evaluated_Pa";
     else if (name == "Obiettivi di accessibilità") return "obiettivi";
     else if (name == "Accessibility objectives") return "objectives";
     else return "file_non_trovato";
