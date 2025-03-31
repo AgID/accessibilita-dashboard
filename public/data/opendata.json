@@ -1,5 +1,13 @@
 [
   {
+    "nome_en": "Accessibility statement",
+    "nome_it": "Dichiarazione di accessibilità",
+    "periodo_en": "September 2024",
+    "periodo_it": "Settembre 2024",
+    "descrizione_en": "The file contains aggregate data for the last year, distributed by Region or autonomous Province.",
+    "descrizione_it": "Il file contiene i dati aggregati dell'ultimo anno, distribuiti per Regione o Provincia autonoma."
+  },
+  {
     "nome_en": "Errors",
     "nome_it": "Errori",
     "periodo_en": "December 2024",
@@ -16,27 +24,19 @@
     "descrizione_it": "Il file contiene l'elenco delle PA valutate dell'ultimo monitoraggio."
   },
   {
-    "nome_en": "Accessibility objectives",
-    "nome_it": "Obiettivi di accessibilità",
-    "periodo_en": "Year 2024",
-    "periodo_it": "Anno 2024",
-    "descrizione_en": "The file contains aggregate data for the last year, distributed by Region or autonomous Province.",
-    "descrizione_it": "Il file contiene i dati aggregati dell'ultimo anno, distribuiti per Regione o Provincia autonoma."
-  },
-  {
-    "nome_en": "Accessibility statement",
-    "nome_it": "Dichiarazione di accessibilità",
-    "periodo_en": "September 2024",
-    "periodo_it": "Settembre 2024",
-    "descrizione_en": "The file contains aggregate data for the last year, distributed by Region or autonomous Province.",
-    "descrizione_it": "Il file contiene i dati aggregati dell'ultimo anno, distribuiti per Regione o Provincia autonoma."
-  },
-  {
     "nome_en": "Simplified monitoring",
     "nome_it": "Monitoraggio semplificato",
     "periodo_en": "December 2024",
     "periodo_it": "Dicembre 2024",
     "descrizione_en": "The file contains aggregate data from the latest monitoring, distributed by IPA category and Region or autonomous Province.",
     "descrizione_it": "Il file contiene i dati aggregati dell'ultimo monitoraggio, distribuiti per categoria IPA e Regione o Provincia autonoma."
+  },
+  {
+    "nome_en": "Accessibility objectives",
+    "nome_it": "Obiettivi di accessibilità",
+    "periodo_en": "Year 2024",
+    "periodo_it": "Anno 2024",
+    "descrizione_en": "The file contains aggregate data for the last year, distributed by Region or autonomous Province.",
+    "descrizione_it": "Il file contiene i dati aggregati dell'ultimo anno, distribuiti per Regione o Provincia autonoma."
   }
 ]
