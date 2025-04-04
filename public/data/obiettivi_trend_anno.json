@@ -35,11 +35,15 @@
             {
                 "cod_anno": 2024,
                 "num_enti_obiettivi": 12133
+            },
+            {
+                "cod_anno": 2025,
+                "num_enti_obiettivi": 10989
             }
         ],
         "intestazione": {
-            "anno_obiettivi": 2024,
-            "aggior_ultimo_trimestre": "4-2024"
+            "anno_obiettivi": 2025,
+            "aggior_ultimo_trimestre": "1-2025"
         }
     }
 

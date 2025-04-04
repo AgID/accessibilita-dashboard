@@ -3,349 +3,315 @@
   <rdf:RDF xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:locn="http://www.w3.org/ns/locn#" xmlns:hydra="http://www.w3.org/ns/hydra/core#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcat="http://www.w3.org/ns/dcat#" xmlns:dct="http://purl.org/dc/terms/" xmlns:dcatapit="http://dati.gov.it/onto/dcatapit#" xmlns:vcard="http://www.w3.org/2006/vcard/ns#" xmlns:adms="http://www.w3.org/ns/adms#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:gsp="http://www.opengis.net/ont/geosparql#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
 
 
-<dcatapit:Catalog rdf:about="https://github.com/pcm-dpc/UKR-2022/tree/master/data">
+<dcatapit:Catalog rdf:about="https://monitoraggio.accessibilita.agid.gov.it/opendata">
   <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Catalog"/>
-  <dct:title>PCM - Dipartimento della Protezione Civile</dct:title>
+  <dct:title>AGID - Monitoraggio accessiblita delle PA</dct:title>
   <dct:publisher>
-    <dcatapit:Agent rdf:about="PCM_DPC">
+    <dcatapit:Agent rdf:about="agid">
       <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
       <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
-      <dct:identifier>PCM_DPC</dct:identifier>
-      <foaf:name>PCM - Dipartimento della Protezione Civile - Redazione OpenData</foaf:name>
+      <dct:identifier>agid</dct:identifier>
+      <foaf:name>AGID - Iniziative Piano Nazionale di Ripresa e Resilienza - DXC</foaf:name>
     </dcatapit:Agent>
   </dct:publisher>
-  <dct:description>Dati emergenza Ucraina 2022</dct:description>
+  <dct:description>Il sito espone un primo set di dati relativi all'accessibilità digitale della pubblica amministrazione.</dct:description>
   <dct:language>it</dct:language>
-  <foaf:homepage rdf:resource="https://github.com/pcm-dpc/UKR-2022/tree/master/data#"/>
+  <foaf:homepage rdf:resource="https://monitoraggio.accessibilita.agid.gov.it/opendata#"/>
   <dcat:themeTaxonomy>
     <skos:ConceptScheme rdf:about="http://publications.europa.eu/resource/authority/data-theme">
       <dct:title>Data Theme Vocabulary</dct:title>
     </skos:ConceptScheme>
   </dcat:themeTaxonomy>
-  <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2022-07-16</dct:modified>
-  <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2022-05-19</dct:issued>
+  <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2025-03-27</dct:modified>
+  <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2023-03-30</dct:issued>
   <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
-  <dcat:dataset rdf:resource="https://github.com/pcm-dpc/UKR-2022/tree/master/data/border-entry"/>
-  <dcat:dataset rdf:resource="https://github.com/pcm-dpc/UKR-2022/tree/master/data/subsistence-allowance"/>
-  <dcat:dataset rdf:resource="https://github.com/pcm-dpc/UKR-2022/tree/master/data/expressions-of-interest-diffused-hospitality"/>
-  <dcat:dataset rdf:resource="https://github.com/pcm-dpc/UKR-2022/tree/master/data/humanitarian-aid"/>
-  <dcat:dataset rdf:resource="https://github.com/pcm-dpc/UKR-2022/tree/master/data/temporary-protection"/>
+  <dcat:dataset rdf:resource="https://monitoraggio.accessibilita.agid.gov.it/opendata/dati-prodotti-dal-monitoraggio-automatizzato-dell'accessibilita"/>
+  <dcat:dataset rdf:resource="https://monitoraggio.accessibilita.agid.gov.it/opendata/gli-errori-di-accessibilita-identificabili-automaticamente"/>
+  <dcat:dataset rdf:resource="https://monitoraggio.accessibilita.agid.gov.it/opendata/dichiarazioni-di-accessibilita"/>
+  <dcat:dataset rdf:resource="https://monitoraggio.accessibilita.agid.gov.it/opendata/elenco-open-data-accessibilita"/>
+  <dcat:dataset rdf:resource="https://monitoraggio.accessibilita.agid.gov.it/opendata/obiettivi-di-accessibilita"/>
   </dcatapit:Catalog>
-  <skos:Concept rdf:about="http://publications.europa.eu/resource/authority/data-theme/JUST">
-    <skos:prefLabel>Giustizia, sistema giuridico e sicurezza pubblica</skos:prefLabel>
+  <skos:Concept rdf:about="http://publications.europa.eu/resource/authority/data-theme/GOVE">
+    <skos:prefLabel>Governo e settore pubblico</skos:prefLabel>
   </skos:Concept>
-  <dcatapit:Dataset rdf:about="https://github.com/pcm-dpc/UKR-2022/tree/master/data/border-entry">
+  <dcatapit:Dataset rdf:about="https://monitoraggio.accessibilita.agid.gov.it/opendata/dati-prodotti-dal-monitoraggio-automatizzato-dell'accessibilita">
     <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
     <dct:accessRights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
-    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/JUST"/>
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/GOVE"/>
     <dct:license/>
-    <dct:title>Border entry</dct:title>
-    <dcat:landingPage rdf:resource="https://github.com/pcm-dpc/UKR-2022/blob/master/pages/dpc-ukr-2022--border-entry.md/"/>
-    <dct:description>Fornisce i dati sugli ingressi in Italia su base giornaliera.
-In seguito alla guerra scoppiata in Ucraina a partire dal 24 febbraio 2022, la popolazione in fuga dal Paese è stata accolta e assistita in primo luogo dagli Stati confinanti. Contestualmente, anche in Italia sono state avviate le attività necessarie a garantire l’accoglienza delle persone in arrivo nel nostro Paese.</dct:description>
-    <dct:identifier>PCM_DPC:border-entry</dct:identifier>
-    <dct:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/WEEKLY"/>
-    <dcat:contactPoint rdf:resource="https://emergenze.protezionecivile.gov.it/it/umanitarie"/>
+    <dct:title>Dati prodotti dal monitoraggio automatizzato dell'accessibilita</dct:title>
+    <dcat:landingPage rdf:resource="https://monitoraggio.accessibilita.agid.gov.it/opendata/"/>
+    <dct:description>Distribuzione dei siti monitorati raggruppati nei 5 valori della Nomenclatura delle Unita territoriali per le Statistiche dell'Italia (NUTS) usati per fini statistici a livello dell'Unione Europea (Eurostat).</dct:description>
+    <dct:identifier>agid:dati-prodotti-dal-monitoraggio-automatizzato-dell'accessibilita</dct:identifier>
+    <dct:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/QUARTERLY"/>
+    <dcat:contactPoint rdf:resource="https://monitoraggio.accessibilita.agid.gov.it/"/>
     <dct:rightsHolder>
-      <dcatapit:Agent rdf:about="PCM_DPC">
+      <dcatapit:Agent rdf:about="agid">
         <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
-        <dct:identifier>PCM_DPC</dct:identifier>
-        <foaf:name>Dipartimento XXX</foaf:name>
+        <dct:identifier>agid</dct:identifier>
+        <foaf:name>Iniziative Piano Nazionale di Ripresa e Resilienza</foaf:name>
       </dcatapit:Agent>
     </dct:rightsHolder>
     <dct:publisher>
       <dcatapit:Agent rdf:nodeID="Nd117aa7f2e7b47fb9481d4a8aca59c7d">
         <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
         <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
-        <dct:identifier>PCM_DPC</dct:identifier>
-        <foaf:name>Dipartimento XXX</foaf:name>
+        <dct:identifier>agid</dct:identifier>
+        <foaf:name>Iniziative Piano Nazionale di Ripresa e Resilienza</foaf:name>
       </dcatapit:Agent>
     </dct:publisher>
     <dct:subject>
-      <skos:Concept rdf:about="http://eurovoc.europa.eu/100183">
+      <skos:Concept rdf:about="http://eurovoc.europa.eu/100169">
         <rdf:type rdf:resource="http://dati.gov.it/onto/dcatapit#subTheme"/>
-        <skos:prefLabel xml:lang="it">1231 diritto internazionale</skos:prefLabel>
+        <skos:prefLabel xml:lang="it">0436 potere esecutivo e amministrazione pubblica</skos:prefLabel>
       </skos:Concept>
     </dct:subject>
     <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/ITA"/>
     <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
-    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2022-07-16</dct:modified>
-    <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2022-05-19</dct:issued>
-    <dcat:contactPoint rdf:resource="https://emergenze.protezionecivile.gov.it/it/umanitarie"/>
-    <dcat:keyword>Ucraina</dcat:keyword>
-    <dcat:keyword>ingressi</dcat:keyword>
-    <dcat:keyword>accoglienza</dcat:keyword>
-    <dcat:distribution rdf:resource="https://github.com/pcm-dpc/UKR-2022/tree/master/data/border-entry/csv2"/>
-    <dcat:distribution rdf:resource="https://github.com/pcm-dpc/UKR-2022/tree/master/data/border-entry/json3"/>
+    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2025-03-27</dct:modified>
+    <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-12-31</dct:issued>
+    <dcat:contactPoint rdf:resource="https://monitoraggio.accessibilita.agid.gov.it/"/>
+    <dcat:keyword>Monitoraggio</dcat:keyword>
+    <dcat:keyword>accessibilita</dcat:keyword>
+    <dcat:keyword>regione</dcat:keyword>
+    <dcat:distribution rdf:resource="https://monitoraggio.accessibilita.agid.gov.it/opendata/dati-prodotti-dal-monitoraggio-automatizzato-dell'accessibilita/json11"/>
   </dcatapit:Dataset>
-  <skos:Concept rdf:about="http://publications.europa.eu/resource/authority/data-theme/JUST">
-    <skos:prefLabel>Giustizia, sistema giuridico e sicurezza pubblica</skos:prefLabel>
+  <skos:Concept rdf:about="http://publications.europa.eu/resource/authority/data-theme/GOVE">
+    <skos:prefLabel>Governo e settore pubblico</skos:prefLabel>
   </skos:Concept>
-  <dcatapit:Dataset rdf:about="https://github.com/pcm-dpc/UKR-2022/tree/master/data/subsistence-allowance">
+  <dcatapit:Dataset rdf:about="https://monitoraggio.accessibilita.agid.gov.it/opendata/gli-errori-di-accessibilita-identificabili-automaticamente">
     <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
     <dct:accessRights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
-    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/JUST"/>
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/GOVE"/>
     <dct:license/>
-    <dct:title>Subsistence allowance</dct:title>
-    <dcat:landingPage rdf:resource="https://github.com/pcm-dpc/UKR-2022/blob/master/pages/dpc-ukr-2022--expression-interest-diffused-hospitality.md/"/>
-    <dct:description>Possono ottenere il contributo di sostentamento le persone provenienti dall'Ucraina che hanno presentato domanda di permesso di soggiorno per protezione temporanea. Il contributo è riconosciuto in quote mensili da 300 euro per un massimo di tre mesi a partire dalla data della ricevuta di presentazione della domanda di permesso.
-Può essere richiesto entro il 30 settembre 2022 tramite la piattaforma dedicata: https://contributo-emergenzaucraina.protezionecivile.gov.it</dct:description>
-    <dct:identifier>PCM_DPC:subsistence-allowance</dct:identifier>
-    <dct:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/WEEKLY"/>
-    <dcat:contactPoint rdf:resource="https://emergenze.protezionecivile.gov.it/it/umanitarie"/>
+    <dct:title>Gli errori di accessibilita identificabili automaticamente</dct:title>
+    <dcat:landingPage rdf:resource="https://monitoraggio.accessibilita.agid.gov.it/opendata/"/>
+    <dct:description>Distribuzione degli errori relativa ad ognuno dei criteri di successo valutati con il sistema automatizzato.</dct:description>
+    <dct:identifier>agid:gli-errori-di-accessibilita-identificabili-automaticamente</dct:identifier>
+    <dct:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/QUARTERLY"/>
+    <dcat:contactPoint rdf:resource="https://monitoraggio.accessibilita.agid.gov.it/"/>
     <dct:rightsHolder>
-      <dcatapit:Agent rdf:about="PCM_DPC">
+      <dcatapit:Agent rdf:about="agid">
         <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
-        <dct:identifier>PCM_DPC</dct:identifier>
-        <foaf:name>Dipartimento XXX</foaf:name>
+        <dct:identifier>agid</dct:identifier>
+        <foaf:name>Iniziative Piano Nazionale di Ripresa e Resilienza</foaf:name>
       </dcatapit:Agent>
     </dct:rightsHolder>
     <dct:publisher>
       <dcatapit:Agent rdf:nodeID="Nd117aa7f2e7b47fb9481d4a8aca59c7d">
         <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
         <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
-        <dct:identifier>PCM_DPC</dct:identifier>
-        <foaf:name>Dipartimento XXX</foaf:name>
+        <dct:identifier>agid</dct:identifier>
+        <foaf:name>Iniziative Piano Nazionale di Ripresa e Resilienza</foaf:name>
       </dcatapit:Agent>
     </dct:publisher>
     <dct:subject>
-      <skos:Concept rdf:about="http://eurovoc.europa.eu/100183">
+      <skos:Concept rdf:about="http://eurovoc.europa.eu/100169">
         <rdf:type rdf:resource="http://dati.gov.it/onto/dcatapit#subTheme"/>
-        <skos:prefLabel xml:lang="it">1231 diritto internazionale</skos:prefLabel>
+        <skos:prefLabel xml:lang="it">0436 potere esecutivo e amministrazione pubblica</skos:prefLabel>
       </skos:Concept>
     </dct:subject>
     <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/ITA"/>
     <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
-    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2022-07-16</dct:modified>
-    <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2022-05-19</dct:issued>
-    <dcat:contactPoint rdf:resource="https://emergenze.protezionecivile.gov.it/it/umanitarie"/>
-    <dcat:keyword>Ucraina</dcat:keyword>
-    <dcat:keyword>contributi</dcat:keyword>
-    <dcat:keyword>protezione temporanea</dcat:keyword>
-    <dcat:distribution rdf:resource="https://github.com/pcm-dpc/UKR-2022/tree/master/data/subsistence-allowance/csv4"/>
-    <dcat:distribution rdf:resource="https://github.com/pcm-dpc/UKR-2022/tree/master/data/subsistence-allowance/json5"/>
+    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2025-03-27</dct:modified>
+    <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-12-31</dct:issued>
+    <dcat:contactPoint rdf:resource="https://monitoraggio.accessibilita.agid.gov.it/"/>
+    <dcat:keyword>Monitoraggio</dcat:keyword>
+    <dcat:keyword>accessibilita</dcat:keyword>
+    <dcat:keyword>errori</dcat:keyword>
+    <dcat:distribution rdf:resource="https://monitoraggio.accessibilita.agid.gov.it/opendata/gli-errori-di-accessibilita-identificabili-automaticamente/json12"/>
   </dcatapit:Dataset>
-  <skos:Concept rdf:about="http://publications.europa.eu/resource/authority/data-theme/JUST">
-    <skos:prefLabel>Giustizia, sistema giuridico e sicurezza pubblica</skos:prefLabel>
+  <skos:Concept rdf:about="http://publications.europa.eu/resource/authority/data-theme/GOVE">
+    <skos:prefLabel>Governo e settore pubblico</skos:prefLabel>
   </skos:Concept>
-  <dcatapit:Dataset rdf:about="https://github.com/pcm-dpc/UKR-2022/tree/master/data/expressions-of-interest-diffused-hospitality">
+  <dcatapit:Dataset rdf:about="https://monitoraggio.accessibilita.agid.gov.it/opendata/dichiarazioni-di-accessibilita">
     <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
     <dct:accessRights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
-    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/JUST"/>
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/GOVE"/>
     <dct:license/>
-    <dct:title>Expressions of interest diffused hospitality</dct:title>
-    <dcat:landingPage rdf:resource="https://github.com/pcm-dpc/UKR-2022/blob/master/pages/dpc-ukr-2022--humanitarian-aid.md/"/>
-    <dct:description>Si è chiuso alle ore 18 del 22 aprile 2022 il termine di presentazione per le manifestazioni d'interesse, previste dall'avviso pubblicato l'11 aprile 2022 dal Dipartimento, sulla base dell'art. 1 dell'Ocdpc n. 881 del 29 marzo 2022, da parte degli enti individuati dall'art. 31 del decreto-legge n. 21 del 21 marzo 2022.
-Obiettivo: offrire misure di accoglienza diffusa e di accompagnamento per l'integrazione e l'autonomia alle persone provenienti dall'Ucraina.
-Con decreto del Capo del Dipartimento del 22 aprile 2022 è stata nominata la Commissione di valutazione che ha esaminato le manifestazioni di interesse pervenute per lo svolgimento di attività di accoglienza diffusa nel territorio nazionale a beneficio delle persone in fuga dalla guerra in Ucraina.
-Delle 48 manifestazioni di interesse caricate sulla piattaforma Avvisi e bandi, una è stata esclusa dalla valutazione perché il soggetto proponente non ha presentato la documentazione richiesta.
-All'esito dei lavori della Commissione, sul totale delle 47 manifestazioni esaminate, 29 sono state valutate positivamente, per un totale di 17.012 posti offerti, mentre 18 hanno ricevuto una valutazione negativa.</dct:description>
-    <dct:identifier>PCM_DPC:expressions-of-interest-diffused-hospitality</dct:identifier>
-    <dct:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/IRREG"/>
-    <dcat:contactPoint rdf:resource="https://emergenze.protezionecivile.gov.it/it/umanitarie"/>
+    <dct:title>Dichiarazioni di accessibilita</dct:title>
+    <dcat:landingPage rdf:resource="https://monitoraggio.accessibilita.agid.gov.it/opendata/"/>
+    <dct:description>Lo strumento attraverso il quale le PA rendono pubblico lo stato di accessibilita di ogni loro servizio.</dct:description>
+    <dct:identifier>agid:dichiarazioni-di-accessibilita</dct:identifier>
+    <dct:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/ANNUAL"/>
+    <dcat:contactPoint rdf:resource="https://monitoraggio.accessibilita.agid.gov.it/"/>
     <dct:rightsHolder>
-      <dcatapit:Agent rdf:about="PCM_DPC">
+      <dcatapit:Agent rdf:about="agid">
         <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
-        <dct:identifier>PCM_DPC</dct:identifier>
-        <foaf:name>Dipartimento XXX</foaf:name>
+        <dct:identifier>agid</dct:identifier>
+        <foaf:name>Iniziative Piano Nazionale di Ripresa e Resilienza</foaf:name>
       </dcatapit:Agent>
     </dct:rightsHolder>
     <dct:publisher>
       <dcatapit:Agent rdf:nodeID="Nd117aa7f2e7b47fb9481d4a8aca59c7d">
         <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
         <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
-        <dct:identifier>PCM_DPC</dct:identifier>
-        <foaf:name>Dipartimento XXX</foaf:name>
+        <dct:identifier>agid</dct:identifier>
+        <foaf:name>Iniziative Piano Nazionale di Ripresa e Resilienza</foaf:name>
       </dcatapit:Agent>
     </dct:publisher>
     <dct:subject>
-      <skos:Concept rdf:about="http://eurovoc.europa.eu/100183">
+      <skos:Concept rdf:about="http://eurovoc.europa.eu/100169">
         <rdf:type rdf:resource="http://dati.gov.it/onto/dcatapit#subTheme"/>
-        <skos:prefLabel xml:lang="it">1231 diritto internazionale</skos:prefLabel>
+        <skos:prefLabel xml:lang="it">0436 potere esecutivo e amministrazione pubblica</skos:prefLabel>
       </skos:Concept>
     </dct:subject>
     <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/ITA"/>
     <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
-    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2022-07-16</dct:modified>
-    <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2022-05-19</dct:issued>
-    <dcat:contactPoint rdf:resource="https://emergenze.protezionecivile.gov.it/it/umanitarie"/>
-    <dcat:keyword>Ucraina</dcat:keyword>
-    <dcat:keyword>accoglienza diffusa</dcat:keyword>
-    <dcat:keyword>integrazione</dcat:keyword>
-    <dcat:distribution rdf:resource="https://github.com/pcm-dpc/UKR-2022/tree/master/data/expressions-of-interest-diffused-hospitality/csv6"/>
-    <dcat:distribution rdf:resource="https://github.com/pcm-dpc/UKR-2022/tree/master/data/expressions-of-interest-diffused-hospitality/json7"/>
+    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2025-03-27</dct:modified>
+    <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-09-29</dct:issued>
+    <dcat:contactPoint rdf:resource="https://monitoraggio.accessibilita.agid.gov.it/"/>
+    <dcat:keyword>Monitoraggio</dcat:keyword>
+    <dcat:keyword>accessibilita</dcat:keyword>
+    <dcat:keyword>dichiarazione</dcat:keyword>
+    <dcat:distribution rdf:resource="https://monitoraggio.accessibilita.agid.gov.it/opendata/dichiarazioni-di-accessibilita/json13"/>
+    <dcat:distribution rdf:resource="https://monitoraggio.accessibilita.agid.gov.it/opendata/dichiarazioni-di-accessibilita/json14"/>
+    <dcat:distribution rdf:resource="https://monitoraggio.accessibilita.agid.gov.it/opendata/dichiarazioni-di-accessibilita/json15"/>
   </dcatapit:Dataset>
-  <skos:Concept rdf:about="http://publications.europa.eu/resource/authority/data-theme/JUST">
-    <skos:prefLabel>Giustizia, sistema giuridico e sicurezza pubblica</skos:prefLabel>
+  <skos:Concept rdf:about="http://publications.europa.eu/resource/authority/data-theme/GOVE">
+    <skos:prefLabel>Governo e settore pubblico</skos:prefLabel>
   </skos:Concept>
-  <dcatapit:Dataset rdf:about="https://github.com/pcm-dpc/UKR-2022/tree/master/data/humanitarian-aid">
+  <dcatapit:Dataset rdf:about="https://monitoraggio.accessibilita.agid.gov.it/opendata/elenco-open-data-accessibilita">
     <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
     <dct:accessRights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
-    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/JUST"/>
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/GOVE"/>
     <dct:license/>
-    <dct:title>Humanitarian aid</dct:title>
-    <dcat:landingPage rdf:resource="https://github.com/pcm-dpc/UKR-2022/blob/master/pages/dpc-ukr-2022--subsistence-allowance.md/"/>
-    <dct:description>L'impegno del sistema italiano di protezione civile nell'assistenza umanitaria.
-Dall'inizio dell'emergenza, il Dipartimento della Protezione Civile sta garantendo assistenza umanitaria all'Ucraina e ai Paesi interessati dai consistenti flussi di profughi in fuga dal conflitto sia nell'ambito del Meccanismo Unionale di Protezione Civile, sia di accordi bilaterali.
-Sulla base delle richieste di assistenza internazionale, il Dipartimento coordina la ricognizione e l'invio delle risorse disponibili di Componenti, Strutture operative e soggetti concorrenti del Servizio Nazionale di Protezione Civile.
-Nell'ambito dell'emergenza, il Dipartimento sta inoltre garantendo l'evacuazione medica MedEvac-Medical Evacuation – anche con modulo DisEvac-Disability Evacuation – di pazienti con necessità di assistenza specialistica, trasportati in Italia e ricoverati in diversi centri nazionali.</dct:description>
-    <dct:identifier>PCM_DPC:humanitarian-aid</dct:identifier>
-    <dct:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/IRREG"/>
-    <dcat:contactPoint rdf:resource="https://emergenze.protezionecivile.gov.it/it/umanitarie"/>
+    <dct:title>Elenco open data accessibilita</dct:title>
+    <dcat:landingPage rdf:resource="https://monitoraggio.accessibilita.agid.gov.it/opendata/"/>
+    <dct:description>La pagina attraverso la quale puoi consultare e scaricare gratuitamente i dati e le informazioni presenti sul sito del monitoraggio dell’accessibilità di AgID.</dct:description>
+    <dct:identifier>agid:elenco-open-data-accessibilita</dct:identifier>
+    <dct:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/QUARTERLY"/>
+    <dcat:contactPoint rdf:resource="https://monitoraggio.accessibilita.agid.gov.it/"/>
     <dct:rightsHolder>
-      <dcatapit:Agent rdf:about="PCM_DPC">
+      <dcatapit:Agent rdf:about="agid">
         <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
-        <dct:identifier>PCM_DPC</dct:identifier>
-        <foaf:name>Dipartimento XXX</foaf:name>
+        <dct:identifier>agid</dct:identifier>
+        <foaf:name>Iniziative Piano Nazionale di Ripresa e Resilienza</foaf:name>
       </dcatapit:Agent>
     </dct:rightsHolder>
     <dct:publisher>
       <dcatapit:Agent rdf:nodeID="Nd117aa7f2e7b47fb9481d4a8aca59c7d">
         <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
         <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
-        <dct:identifier>PCM_DPC</dct:identifier>
-        <foaf:name>Dipartimento XXX</foaf:name>
+        <dct:identifier>agid</dct:identifier>
+        <foaf:name>Iniziative Piano Nazionale di Ripresa e Resilienza</foaf:name>
       </dcatapit:Agent>
     </dct:publisher>
     <dct:subject>
-      <skos:Concept rdf:about="http://eurovoc.europa.eu/100183">
+      <skos:Concept rdf:about="http://eurovoc.europa.eu/100169">
         <rdf:type rdf:resource="http://dati.gov.it/onto/dcatapit#subTheme"/>
-        <skos:prefLabel xml:lang="it">1231 diritto internazionale</skos:prefLabel>
+        <skos:prefLabel xml:lang="it">0436 potere esecutivo e amministrazione pubblica</skos:prefLabel>
       </skos:Concept>
     </dct:subject>
     <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/ITA"/>
     <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
-    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2022-07-16</dct:modified>
-    <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2022-05-19</dct:issued>
-    <dcat:contactPoint rdf:resource="https://emergenze.protezionecivile.gov.it/it/umanitarie"/>
-    <dcat:keyword>Ucraina</dcat:keyword>
-    <dcat:keyword>assistenza umanitaria</dcat:keyword>
-    <dcat:keyword>profughi</dcat:keyword>
-    <dcat:distribution rdf:resource="https://github.com/pcm-dpc/UKR-2022/tree/master/data/humanitarian-aid/csv8"/>
-    <dcat:distribution rdf:resource="https://github.com/pcm-dpc/UKR-2022/tree/master/data/humanitarian-aid/json9"/>
+    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2025-03-27</dct:modified>
+    <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-12-31</dct:issued>
+    <dcat:contactPoint rdf:resource="https://monitoraggio.accessibilita.agid.gov.it/"/>
+    <dcat:keyword>Monitoraggio</dcat:keyword>
+    <dcat:keyword>accessibilita</dcat:keyword>
+    <dcat:keyword>opendata</dcat:keyword>
+    <dcat:distribution rdf:resource="https://monitoraggio.accessibilita.agid.gov.it/opendata/elenco-open-data-accessibilita/csv2"/>
+    <dcat:distribution rdf:resource="https://monitoraggio.accessibilita.agid.gov.it/opendata/elenco-open-data-accessibilita/json3"/>
+    <dcat:distribution rdf:resource="https://monitoraggio.accessibilita.agid.gov.it/opendata/elenco-open-data-accessibilita/xml4"/>
+    <dcat:distribution rdf:resource="https://monitoraggio.accessibilita.agid.gov.it/opendata/elenco-open-data-accessibilita/csv5"/>
+    <dcat:distribution rdf:resource="https://monitoraggio.accessibilita.agid.gov.it/opendata/elenco-open-data-accessibilita/json6"/>
+    <dcat:distribution rdf:resource="https://monitoraggio.accessibilita.agid.gov.it/opendata/elenco-open-data-accessibilita/xml7"/>
+    <dcat:distribution rdf:resource="https://monitoraggio.accessibilita.agid.gov.it/opendata/elenco-open-data-accessibilita/csv8"/>
+    <dcat:distribution rdf:resource="https://monitoraggio.accessibilita.agid.gov.it/opendata/elenco-open-data-accessibilita/json9"/>
+    <dcat:distribution rdf:resource="https://monitoraggio.accessibilita.agid.gov.it/opendata/elenco-open-data-accessibilita/xml10"/>
   </dcatapit:Dataset>
-  <skos:Concept rdf:about="http://publications.europa.eu/resource/authority/data-theme/JUST">
-    <skos:prefLabel>Giustizia, sistema giuridico e sicurezza pubblica</skos:prefLabel>
+  <skos:Concept rdf:about="http://publications.europa.eu/resource/authority/data-theme/GOVE">
+    <skos:prefLabel>Governo e settore pubblico</skos:prefLabel>
   </skos:Concept>
-  <dcatapit:Dataset rdf:about="https://github.com/pcm-dpc/UKR-2022/tree/master/data/temporary-protection">
+  <dcatapit:Dataset rdf:about="https://monitoraggio.accessibilita.agid.gov.it/opendata/obiettivi-di-accessibilita">
     <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
     <dct:accessRights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
-    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/JUST"/>
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/GOVE"/>
     <dct:license/>
-    <dct:title>Temporary Protection</dct:title>
-    <dcat:landingPage rdf:resource="https://github.com/pcm-dpc/UKR-2022/blob/master/pages/dpc-ukr-2022--temporary-protection.md/"/>
-    <dct:description>All'arrivo in Italia, le persone in fuga dalla guerra in Ucraina possono presentare richiesta di permesso di soggiorno per protezione temporanea presso gli Uffici immigrazione delle Questure.</dct:description>
-    <dct:identifier>PCM_DPC:temporary-protection</dct:identifier>
-    <dct:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/ANNUAL_2"/>
-    <dcat:contactPoint rdf:resource="https://emergenze.protezionecivile.gov.it/it/umanitarie"/>
+    <dct:title>Obiettivi di accessibilita</dct:title>
+    <dcat:landingPage rdf:resource="https://monitoraggio.accessibilita.agid.gov.it/opendata/"/>
+    <dct:description>Lo strumento attraverso il quale le PA rendono pubblici gli obiettivi definiti per l'anno in corso</dct:description>
+    <dct:identifier>agid:obiettivi-di-accessibilita</dct:identifier>
+    <dct:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/ANNUAL"/>
+    <dcat:contactPoint rdf:resource="https://monitoraggio.accessibilita.agid.gov.it/"/>
     <dct:rightsHolder>
-      <dcatapit:Agent rdf:about="PCM_DPC">
+      <dcatapit:Agent rdf:about="agid">
         <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
-        <dct:identifier>PCM_DPC</dct:identifier>
-        <foaf:name>Dipartimento XXX</foaf:name>
+        <dct:identifier>agid</dct:identifier>
+        <foaf:name>Iniziative Piano Nazionale di Ripresa e Resilienza</foaf:name>
       </dcatapit:Agent>
     </dct:rightsHolder>
     <dct:publisher>
       <dcatapit:Agent rdf:nodeID="Nd117aa7f2e7b47fb9481d4a8aca59c7d">
         <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
         <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
-        <dct:identifier>PCM_DPC</dct:identifier>
-        <foaf:name>Dipartimento XXX</foaf:name>
+        <dct:identifier>agid</dct:identifier>
+        <foaf:name>Iniziative Piano Nazionale di Ripresa e Resilienza</foaf:name>
       </dcatapit:Agent>
     </dct:publisher>
     <dct:subject>
-      <skos:Concept rdf:about="http://eurovoc.europa.eu/100183">
+      <skos:Concept rdf:about="http://eurovoc.europa.eu/100169">
         <rdf:type rdf:resource="http://dati.gov.it/onto/dcatapit#subTheme"/>
-        <skos:prefLabel xml:lang="it">1231 diritto internazionale</skos:prefLabel>
+        <skos:prefLabel xml:lang="it">0436 potere esecutivo e amministrazione pubblica</skos:prefLabel>
       </skos:Concept>
     </dct:subject>
     <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/ITA"/>
     <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
-    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2022-07-16</dct:modified>
-    <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2022-05-20</dct:issued>
-    <dcat:contactPoint rdf:resource="https://emergenze.protezionecivile.gov.it/it/umanitarie"/>
-    <dcat:keyword>Ucraina</dcat:keyword>
-    <dcat:keyword>permesso di soggiorno</dcat:keyword>
-    <dcat:keyword>Temporary Protection</dcat:keyword>
-    <dcat:distribution rdf:resource="https://github.com/pcm-dpc/UKR-2022/tree/master/data/temporary-protection/csv10"/>
+    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2025-03-27</dct:modified>
+    <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2025-03-30</dct:issued>
+    <dcat:contactPoint rdf:resource="https://monitoraggio.accessibilita.agid.gov.it/"/>
+    <dcat:keyword>Monitoraggio</dcat:keyword>
+    <dcat:keyword>accessibilita</dcat:keyword>
+    <dcat:keyword>obiettivi</dcat:keyword>
   </dcatapit:Dataset>
-  <dcatapit:Distribution rdf:about="https://github.com/pcm-dpc/UKR-2022/tree/master/data/border-entry/csv2">
-    <dcat:accessURL rdf:resource="https://raw.githubusercontent.com/pcm-dpc/UKR-2022/master/data/border-entry/dpc-ukr-2022--border-entry.csv"/>
+  <dcatapit:Distribution rdf:about="https://monitoraggio.accessibilita.agid.gov.it/opendata/dati-prodotti-dal-monitoraggio-automatizzato-dell'accessibilita/json11">
+    <dcat:accessURL rdf:resource="https://monitoraggio.accessibilita.agid.gov.it/data/monitoraggio%5Fper%5Fregione%5Fit.json"/>
     <dct:license>
-      <dcatapit:LicenseDocument rdf:about="https://creativecommons.org/publicdomain/zero/1.0/">
-        <rdf:type rdf:resource="dct:LicenseDocument"/>
-        <dct:type rdf:resource="http://purl.org/adms/licencetype/Attribution"/>
-        <foaf:name>Creative Commons CC0 1.0 Universale - Public Domain Dedication (CC0 1.0)</foaf:name>
-      </dcatapit:LicenseDocument>
-    </dct:license>
-    <dct:format rdf:resource="CSV"/>
-    <dct:rights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
-    <dct:description>File in formato CSV per l'interoperabilità</dct:description>
-    <dct:title>Border entry CSV</dct:title>
-    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
-  </dcatapit:Distribution>
-  <dcatapit:Distribution rdf:about="https://github.com/pcm-dpc/UKR-2022/tree/master/data/border-entry/json3">
-    <dcat:accessURL rdf:resource="https://raw.githubusercontent.com/pcm-dpc/UKR-2022/master/data/border-entry/dpc-ukr-2022--border-entry.json"/>
-    <dct:license>
-      <dcatapit:LicenseDocument rdf:about="#N/A">
-        <rdf:type rdf:resource="dct:LicenseDocument"/>
-        <dct:type rdf:resource="http://purl.org/adms/licencetype/Attribution"/>
-        <foaf:name>Italian Open Data License 2.0 (IODL 2.0)</foaf:name>
-      </dcatapit:LicenseDocument>
-    </dct:license>
-    <dct:format rdf:resource="JSON"/>
-    <dct:rights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
-    <dct:description>File in formato JSON per l'interoperabilità</dct:description>
-    <dct:title>Border entry JSON</dct:title>
-    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
-  </dcatapit:Distribution>
-  <dcatapit:Distribution rdf:about="https://github.com/pcm-dpc/UKR-2022/tree/master/data/subsistence-allowance/csv4">
-    <dcat:accessURL rdf:resource="https://raw.githubusercontent.com/pcm-dpc/UKR-2022/master/data/subsistence-allowance/dpc-ukr-2022--subsistence-allowance.csv"/>
-    <dct:license>
-      <dcatapit:LicenseDocument rdf:about="https://creativecommons.org/licenses/by/4.0/">
+      <dcatapit:LicenseDocument rdf:about="">
         <rdf:type rdf:resource="dct:LicenseDocument"/>
         <dct:type rdf:resource="http://purl.org/adms/licencetype/Attribution"/>
         <foaf:name>Creative Commons Attribuzione 4.0 Internazionale (CC BY 4.0)</foaf:name>
       </dcatapit:LicenseDocument>
     </dct:license>
-    <dct:format rdf:resource="CSV"/>
+    <dct:format rdf:resource="JSON"/>
     <dct:rights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
-    <dct:description>File in formato CSV per l'interoperabilità</dct:description>
-    <dct:title>subsistence-allowance CSV</dct:title>
+    <dct:description>File in formato JSON del monitoraggio per regione</dct:description>
+    <dct:title>Monitoraggio per aregione</dct:title>
     <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
   </dcatapit:Distribution>
-  <dcatapit:Distribution rdf:about="https://github.com/pcm-dpc/UKR-2022/tree/master/data/subsistence-allowance/json5">
-    <dcat:accessURL rdf:resource="https://raw.githubusercontent.com/pcm-dpc/UKR-2022/master/data/subsistence-allowance/dpc-ukr-2022--subsistence-allowance.json"/>
+  <dcatapit:Distribution rdf:about="https://monitoraggio.accessibilita.agid.gov.it/opendata/gli-errori-di-accessibilita-identificabili-automaticamente/json12">
+    <dcat:accessURL rdf:resource="https://monitoraggio.accessibilita.agid.gov.it/data/errori%5Friscontrati%5Fit.json"/>
     <dct:license>
-      <dcatapit:LicenseDocument rdf:about="#N/A">
+      <dcatapit:LicenseDocument rdf:about="">
         <rdf:type rdf:resource="dct:LicenseDocument"/>
         <dct:type rdf:resource="http://purl.org/adms/licencetype/Attribution"/>
-        <foaf:name>Open Data Commons Open Database License 1.0 (ODbL)</foaf:name>
+        <foaf:name>Creative Commons Attribuzione 4.0 Internazionale (CC BY 4.0)</foaf:name>
       </dcatapit:LicenseDocument>
     </dct:license>
     <dct:format rdf:resource="JSON"/>
     <dct:rights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
-    <dct:description>File in formato JSON per l'interoperabilità</dct:description>
-    <dct:title>subsistence-allowance JSON</dct:title>
+    <dct:description>File in formato JSON degli errori riscontrati</dct:description>
+    <dct:title>Errori riscontrati</dct:title>
     <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
   </dcatapit:Distribution>
-  <dcatapit:Distribution rdf:about="https://github.com/pcm-dpc/UKR-2022/tree/master/data/expressions-of-interest-diffused-hospitality/csv6">
-    <dcat:accessURL rdf:resource="https://raw.githubusercontent.com/pcm-dpc/UKR-2022/master/data/expression-interest-diffused-hospitality/dpc-ukr-2022--expression-interest-diffused-hospitality-applications.csv"/>
+  <dcatapit:Distribution rdf:about="https://monitoraggio.accessibilita.agid.gov.it/opendata/dichiarazioni-di-accessibilita/json13">
+    <dcat:accessURL rdf:resource="https://monitoraggio.accessibilita.agid.gov.it/data/dichiarazione%5Ftrend%5Fanno.json"/>
     <dct:license>
-      <dcatapit:LicenseDocument rdf:about="#N/A">
+      <dcatapit:LicenseDocument rdf:about="">
         <rdf:type rdf:resource="dct:LicenseDocument"/>
         <dct:type rdf:resource="http://purl.org/adms/licencetype/Attribution"/>
-        <foaf:name>Creative Commons Attribuzione-Condividi allo stesso modo 4.0 Internazionale (CC BY-SA 4.0)</foaf:name>
+        <foaf:name>Creative Commons Attribuzione 4.0 Internazionale (CC BY 4.0)</foaf:name>
       </dcatapit:LicenseDocument>
     </dct:license>
-    <dct:format rdf:resource="CSV"/>
+    <dct:format rdf:resource="JSON"/>
     <dct:rights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
-    <dct:description>File in formato CSV per l'interoperabilità</dct:description>
-    <dct:title>expression-interest-diffused-hospitality CSV</dct:title>
+    <dct:description>File in formato JSON del trend delle dichiarazioni</dct:description>
+    <dct:title>Trend delle dichiarazioni</dct:title>
     <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
   </dcatapit:Distribution>
-  <dcatapit:Distribution rdf:about="https://github.com/pcm-dpc/UKR-2022/tree/master/data/expressions-of-interest-diffused-hospitality/json7">
-    <dcat:accessURL rdf:resource="https://raw.githubusercontent.com/pcm-dpc/UKR-2022/master/data/expression-interest-diffused-hospitality/dpc-ukr-2022--expression-interest-diffused-hospitality-applications.json"/>
+  <dcatapit:Distribution rdf:about="https://monitoraggio.accessibilita.agid.gov.it/opendata/dichiarazioni-di-accessibilita/json14">
+    <dcat:accessURL rdf:resource="https://monitoraggio.accessibilita.agid.gov.it/data/obiettivi%5Flinea%5Fintervento.json"/>
     <dct:license>
       <dcatapit:LicenseDocument rdf:about="https://creativecommons.org/licenses/by/4.0/">
         <rdf:type rdf:resource="dct:LicenseDocument"/>
@@ -355,27 +321,12 @@ Nell'ambito dell'emergenza, il Dipartimento sta inoltre garantendo l'evacuazione
     </dct:license>
     <dct:format rdf:resource="JSON"/>
     <dct:rights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
-    <dct:description>File in formato JSON per l'interoperabilità</dct:description>
-    <dct:title>expression-interest-diffused-hospitality JSON</dct:title>
+    <dct:description>File in formato JSON delle obiettivi per linee d'intervento</dct:description>
+    <dct:title>Interventi di accessibilità pubblicati per linea di intervento</dct:title>
     <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
   </dcatapit:Distribution>
-  <dcatapit:Distribution rdf:about="https://github.com/pcm-dpc/UKR-2022/tree/master/data/humanitarian-aid/csv8">
-    <dcat:accessURL rdf:resource="https://raw.githubusercontent.com/pcm-dpc/UKR-2022/master/data/humanitarian-aid/dpc-ukr-2022--humanitarian-aid.csv"/>
-    <dct:license>
-      <dcatapit:LicenseDocument rdf:about="https://creativecommons.org/licenses/by/4.0/">
-        <rdf:type rdf:resource="dct:LicenseDocument"/>
-        <dct:type rdf:resource="http://purl.org/adms/licencetype/Attribution"/>
-        <foaf:name>Creative Commons Attribuzione 4.0 Internazionale (CC BY 4.0)</foaf:name>
-      </dcatapit:LicenseDocument>
-    </dct:license>
-    <dct:format rdf:resource="CSV"/>
-    <dct:rights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
-    <dct:description>File in formato CSV per l'interoperabilità</dct:description>
-    <dct:title>humanitarian-aid CSV</dct:title>
-    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
-  </dcatapit:Distribution>
-  <dcatapit:Distribution rdf:about="https://github.com/pcm-dpc/UKR-2022/tree/master/data/humanitarian-aid/json9">
-    <dcat:accessURL rdf:resource="https://raw.githubusercontent.com/pcm-dpc/UKR-2022/master/data/humanitarian-aid/dpc-ukr-2022--humanitarian-aid.json"/>
+  <dcatapit:Distribution rdf:about="https://monitoraggio.accessibilita.agid.gov.it/opendata/dichiarazioni-di-accessibilita/json15">
+    <dcat:accessURL rdf:resource="https://monitoraggio.accessibilita.agid.gov.it/data/obiettivi%5Fregione.json"/>
     <dct:license>
       <dcatapit:LicenseDocument rdf:about="https://creativecommons.org/licenses/by/4.0/">
         <rdf:type rdf:resource="dct:LicenseDocument"/>
@@ -385,12 +336,12 @@ Nell'ambito dell'emergenza, il Dipartimento sta inoltre garantendo l'evacuazione
     </dct:license>
     <dct:format rdf:resource="JSON"/>
     <dct:rights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
-    <dct:description>File in formato JSON per l'interoperabilità</dct:description>
-    <dct:title>humanitarian-aid JSON</dct:title>
+    <dct:description>File in formato JSON delle obiettivi per regione</dct:description>
+    <dct:title>Interventi di accessibilità pubblicati per regieone</dct:title>
     <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
   </dcatapit:Distribution>
-  <dcatapit:Distribution rdf:about="https://github.com/pcm-dpc/UKR-2022/tree/master/data/temporary-protection/csv10">
-    <dcat:accessURL rdf:resource="https://raw.githubusercontent.com/pcm-dpc/UKR-2022/master/data/temporary-protection/dpc-ukr-2022--temporary-protection.csv"/>
+  <dcatapit:Distribution rdf:about="https://monitoraggio.accessibilita.agid.gov.it/opendata/elenco-open-data-accessibilita/csv2">
+    <dcat:accessURL rdf:resource="https://monitoraggio.accessibilita.agid.gov.it/data/opendata/dichiarazioni%5Fit.csv"/>
     <dct:license>
       <dcatapit:LicenseDocument rdf:about="https://creativecommons.org/licenses/by/4.0/">
         <rdf:type rdf:resource="dct:LicenseDocument"/>
@@ -400,19 +351,139 @@ Nell'ambito dell'emergenza, il Dipartimento sta inoltre garantendo l'evacuazione
     </dct:license>
     <dct:format rdf:resource="CSV"/>
     <dct:rights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
-    <dct:description>File in formato CSV per l'interoperabilità</dct:description>
-    <dct:title>temporary-protection CSV</dct:title>
+    <dct:description>File in formato CSV delle dichiarazioni</dct:description>
+    <dct:title>Open Data dichiarazioni csv</dct:title>
     <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
   </dcatapit:Distribution>
-<dcatapit:Organization rdf:about="https://emergenze.protezionecivile.gov.it/it/umanitarie">
+  <dcatapit:Distribution rdf:about="https://monitoraggio.accessibilita.agid.gov.it/opendata/elenco-open-data-accessibilita/json3">
+    <dcat:accessURL rdf:resource="https://monitoraggio.accessibilita.agid.gov.it/data/opendata/dichiarazioni%5Fit.json"/>
+    <dct:license>
+      <dcatapit:LicenseDocument rdf:about="https://creativecommons.org/licenses/by/4.0/">
+        <rdf:type rdf:resource="dct:LicenseDocument"/>
+        <dct:type rdf:resource="http://purl.org/adms/licencetype/Attribution"/>
+        <foaf:name>Creative Commons Attribuzione 4.0 Internazionale (CC BY 4.0)</foaf:name>
+      </dcatapit:LicenseDocument>
+    </dct:license>
+    <dct:format rdf:resource="JSON"/>
+    <dct:rights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
+    <dct:description>File in formato JSON delle dichiarazioni</dct:description>
+    <dct:title>Open Data dichiarazioni json</dct:title>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+  </dcatapit:Distribution>
+  <dcatapit:Distribution rdf:about="https://monitoraggio.accessibilita.agid.gov.it/opendata/elenco-open-data-accessibilita/xml4">
+    <dcat:accessURL rdf:resource="https://monitoraggio.accessibilita.agid.gov.it/data/opendata/dichiarazioni%5Fit.xml"/>
+    <dct:license>
+      <dcatapit:LicenseDocument rdf:about="https://creativecommons.org/licenses/by/4.0/">
+        <rdf:type rdf:resource="dct:LicenseDocument"/>
+        <dct:type rdf:resource="http://purl.org/adms/licencetype/Attribution"/>
+        <foaf:name>Creative Commons Attribuzione 4.0 Internazionale (CC BY 4.0)</foaf:name>
+      </dcatapit:LicenseDocument>
+    </dct:license>
+    <dct:format rdf:resource="XML"/>
+    <dct:rights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
+    <dct:description>File in formato XML delle dichiarazioni</dct:description>
+    <dct:title>Open Data dichiarazioni xml</dct:title>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+  </dcatapit:Distribution>
+  <dcatapit:Distribution rdf:about="https://monitoraggio.accessibilita.agid.gov.it/opendata/elenco-open-data-accessibilita/csv5">
+    <dcat:accessURL rdf:resource="https://monitoraggio.accessibilita.agid.gov.it/data/opendata/errori%5Fit.csv"/>
+    <dct:license>
+      <dcatapit:LicenseDocument rdf:about="https://creativecommons.org/licenses/by/4.0/">
+        <rdf:type rdf:resource="dct:LicenseDocument"/>
+        <dct:type rdf:resource="http://purl.org/adms/licencetype/Attribution"/>
+        <foaf:name>Creative Commons Attribuzione 4.0 Internazionale (CC BY 4.0)</foaf:name>
+      </dcatapit:LicenseDocument>
+    </dct:license>
+    <dct:format rdf:resource="CSV"/>
+    <dct:rights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
+    <dct:description>File in formato CSV degli errori</dct:description>
+    <dct:title>Open Data errori csv</dct:title>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+  </dcatapit:Distribution>
+  <dcatapit:Distribution rdf:about="https://monitoraggio.accessibilita.agid.gov.it/opendata/elenco-open-data-accessibilita/json6">
+    <dcat:accessURL rdf:resource="https://monitoraggio.accessibilita.agid.gov.it/data/opendata/errori%5Fit.json"/>
+    <dct:license>
+      <dcatapit:LicenseDocument rdf:about="https://creativecommons.org/licenses/by/4.0/">
+        <rdf:type rdf:resource="dct:LicenseDocument"/>
+        <dct:type rdf:resource="http://purl.org/adms/licencetype/Attribution"/>
+        <foaf:name>Creative Commons Attribuzione 4.0 Internazionale (CC BY 4.0)</foaf:name>
+      </dcatapit:LicenseDocument>
+    </dct:license>
+    <dct:format rdf:resource="JSON"/>
+    <dct:rights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
+    <dct:description>File in formato JSON degli errori</dct:description>
+    <dct:title>Open Data errori json</dct:title>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+  </dcatapit:Distribution>
+  <dcatapit:Distribution rdf:about="https://monitoraggio.accessibilita.agid.gov.it/opendata/elenco-open-data-accessibilita/xml7">
+    <dcat:accessURL rdf:resource="https://monitoraggio.accessibilita.agid.gov.it/data/opendata/errori%5Fit.xml"/>
+    <dct:license>
+      <dcatapit:LicenseDocument rdf:about="https://creativecommons.org/licenses/by/4.0/">
+        <rdf:type rdf:resource="dct:LicenseDocument"/>
+        <dct:type rdf:resource="http://purl.org/adms/licencetype/Attribution"/>
+        <foaf:name>Creative Commons Attribuzione 4.0 Internazionale (CC BY 4.0)</foaf:name>
+      </dcatapit:LicenseDocument>
+    </dct:license>
+    <dct:format rdf:resource="XML"/>
+    <dct:rights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
+    <dct:description>File in formato XML degli errori</dct:description>
+    <dct:title>Open Data errori xml</dct:title>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+  </dcatapit:Distribution>
+  <dcatapit:Distribution rdf:about="https://monitoraggio.accessibilita.agid.gov.it/opendata/elenco-open-data-accessibilita/csv8">
+    <dcat:accessURL rdf:resource="https://monitoraggio.accessibilita.agid.gov.it/data/opendata/monitoraggio%5Fit.csv"/>
+    <dct:license>
+      <dcatapit:LicenseDocument rdf:about="https://creativecommons.org/licenses/by/4.0/">
+        <rdf:type rdf:resource="dct:LicenseDocument"/>
+        <dct:type rdf:resource="http://purl.org/adms/licencetype/Attribution"/>
+        <foaf:name>Creative Commons Attribuzione 4.0 Internazionale (CC BY 4.0)</foaf:name>
+      </dcatapit:LicenseDocument>
+    </dct:license>
+    <dct:format rdf:resource="CSV"/>
+    <dct:rights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
+    <dct:description>File in formato CSV del monitoraggio</dct:description>
+    <dct:title>Open Data monitoragigo csv</dct:title>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+  </dcatapit:Distribution>
+  <dcatapit:Distribution rdf:about="https://monitoraggio.accessibilita.agid.gov.it/opendata/elenco-open-data-accessibilita/json9">
+    <dcat:accessURL rdf:resource="https://monitoraggio.accessibilita.agid.gov.it/data/opendata/monitoraggio%5Fit.json"/>
+    <dct:license>
+      <dcatapit:LicenseDocument rdf:about="https://creativecommons.org/licenses/by/4.0/">
+        <rdf:type rdf:resource="dct:LicenseDocument"/>
+        <dct:type rdf:resource="http://purl.org/adms/licencetype/Attribution"/>
+        <foaf:name>Creative Commons Attribuzione 4.0 Internazionale (CC BY 4.0)</foaf:name>
+      </dcatapit:LicenseDocument>
+    </dct:license>
+    <dct:format rdf:resource="JSON"/>
+    <dct:rights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
+    <dct:description>File in formato JSON del monitoraggio</dct:description>
+    <dct:title>Open Data monitoragigo json</dct:title>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+  </dcatapit:Distribution>
+  <dcatapit:Distribution rdf:about="https://monitoraggio.accessibilita.agid.gov.it/opendata/elenco-open-data-accessibilita/xml10">
+    <dcat:accessURL rdf:resource="https://monitoraggio.accessibilita.agid.gov.it/data/opendata/monitoraggio%5Fit.xml"/>
+    <dct:license>
+      <dcatapit:LicenseDocument rdf:about="https://creativecommons.org/licenses/by/4.0/">
+        <rdf:type rdf:resource="dct:LicenseDocument"/>
+        <dct:type rdf:resource="http://purl.org/adms/licencetype/Attribution"/>
+        <foaf:name>Creative Commons Attribuzione 4.0 Internazionale (CC BY 4.0)</foaf:name>
+      </dcatapit:LicenseDocument>
+    </dct:license>
+    <dct:format rdf:resource="XML"/>
+    <dct:rights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
+    <dct:description>File in formato XML del monitoraggio</dct:description>
+    <dct:title>Open Data monitoragigo xml</dct:title>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+  </dcatapit:Distribution>
+<dcatapit:Organization rdf:about="https://monitoraggio.accessibilita.agid.gov.it/">
   <rdf:type rdf:resource="vcard:Organization"/>
   <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
   <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Kind"/>
   <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Organization"/>
   <rdf:type rdf:resource="vcard:Kind"/>
-  <vcard:fn>Dipartimento XXX</vcard:fn>
-  <vcard:hasEmail rdf:resource="protezionecivile@pec.governo.it"/>
-  <vcard:hasTelephone>800840840</vcard:hasTelephone>
-  <vcard:hasURL rdf:resource="https://emergenze.protezionecivile.gov.it/it/umanitarie"/>
+  <vcard:fn>Iniziative Piano Nazionale di Ripresa e Resilienza</vcard:fn>
+  <vcard:hasEmail rdf:resource="segreteriadg@agid.gov.it"/>
+  <vcard:hasTelephone>6852641</vcard:hasTelephone>
+  <vcard:hasURL rdf:resource="https://monitoraggio.accessibilita.agid.gov.it/"/>
 </dcatapit:Organization>
 </rdf:RDF>

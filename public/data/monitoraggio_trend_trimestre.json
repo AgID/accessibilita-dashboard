@@ -1,0 +1,72 @@
+    {
+        "data": [
+            {
+                "data_monitoraggio": "2023-03-31",
+                "num_pdf_monitorati": 0,
+                "num_siti_monitorati": 14483,
+                "periodo_monitoraggio": "Q1-2023",
+                "num_pagine_web_monitorate": 2777479
+            },
+            {
+                "data_monitoraggio": "2023-06-30",
+                "num_pdf_monitorati": 0,
+                "num_siti_monitorati": 18263,
+                "periodo_monitoraggio": "Q2-2023",
+                "num_pagine_web_monitorate": 3424153
+            },
+            {
+                "data_monitoraggio": "2023-09-30",
+                "num_pdf_monitorati": 605724,
+                "num_siti_monitorati": 22808,
+                "periodo_monitoraggio": "Q3-2023",
+                "num_pagine_web_monitorate": 3630390
+            },
+            {
+                "data_monitoraggio": "2023-12-31",
+                "num_pdf_monitorati": 729991,
+                "num_siti_monitorati": 24391,
+                "periodo_monitoraggio": "Q4-2023",
+                "num_pagine_web_monitorate": 4234130
+            },
+            {
+                "data_monitoraggio": "2024-03-31",
+                "num_pdf_monitorati": 759804,
+                "num_siti_monitorati": 27112,
+                "periodo_monitoraggio": "Q1-2024",
+                "num_pagine_web_monitorate": 3724088
+            },
+            {
+                "data_monitoraggio": "2024-06-30",
+                "num_pdf_monitorati": 719138,
+                "num_siti_monitorati": 27699,
+                "periodo_monitoraggio": "Q2-2024",
+                "num_pagine_web_monitorate": 4222033
+            },
+            {
+                "data_monitoraggio": "2024-09-30",
+                "num_pdf_monitorati": 776040,
+                "num_siti_monitorati": 29994,
+                "periodo_monitoraggio": "Q3-2024",
+                "num_pagine_web_monitorate": 4871116
+            },
+            {
+                "data_monitoraggio": "2024-12-31",
+                "num_pdf_monitorati": 780152,
+                "num_siti_monitorati": 29409,
+                "periodo_monitoraggio": "Q4-2024",
+                "num_pagine_web_monitorate": 4786777
+            },
+            {
+                "data_monitoraggio": "2025-03-31",
+                "num_pdf_monitorati": 762510,
+                "num_siti_monitorati": 29470,
+                "periodo_monitoraggio": "Q1-2025",
+                "num_pagine_web_monitorate": 4659653
+            }
+        ],
+        "intestazione": {
+            "dat_ult_monitoraggio": "2025-03-31",
+            "ult_periodo_monitoraggio": "Q1-2025"
+        }
+    }
+
