@@ -165,8 +165,6 @@
     <dcat:keyword>accessibilita</dcat:keyword>
     <dcat:keyword>dichiarazione</dcat:keyword>
     <dcat:distribution rdf:resource="https://monitoraggio.accessibilita.agid.gov.it/opendata/dichiarazioni-di-accessibilita/json13"/>
-    <dcat:distribution rdf:resource="https://monitoraggio.accessibilita.agid.gov.it/opendata/dichiarazioni-di-accessibilita/json14"/>
-    <dcat:distribution rdf:resource="https://monitoraggio.accessibilita.agid.gov.it/opendata/dichiarazioni-di-accessibilita/json15"/>
   </dcatapit:Dataset>
   <skos:Concept rdf:about="http://publications.europa.eu/resource/authority/data-theme/GOVE">
     <skos:prefLabel>Governo e settore pubblico</skos:prefLabel>
@@ -264,11 +262,13 @@
     <dcat:keyword>Monitoraggio</dcat:keyword>
     <dcat:keyword>accessibilita</dcat:keyword>
     <dcat:keyword>obiettivi</dcat:keyword>
+    <dcat:distribution rdf:resource="https://monitoraggio.accessibilita.agid.gov.it/opendata/obiettivi-di-accessibilita/json14"/>
+    <dcat:distribution rdf:resource="https://monitoraggio.accessibilita.agid.gov.it/opendata/obiettivi-di-accessibilita/json15"/>
   </dcatapit:Dataset>
   <dcatapit:Distribution rdf:about="https://monitoraggio.accessibilita.agid.gov.it/opendata/dati-prodotti-dal-monitoraggio-automatizzato-dell'accessibilita/json11">
-    <dcat:accessURL rdf:resource="https://monitoraggio.accessibilita.agid.gov.it/data/monitoraggio%5Fper%5Fregione%5Fit.json"/>
+    <dcat:accessURL rdf:resource="https://monitoraggio.accessibilita.agid.gov.it/data/monitoraggio%5Fper%5Fregione.json"/>
     <dct:license>
-      <dcatapit:LicenseDocument rdf:about="">
+      <dcatapit:LicenseDocument rdf:about="https://creativecommons.org/licenses/by/4.0/">
         <rdf:type rdf:resource="dct:LicenseDocument"/>
         <dct:type rdf:resource="http://purl.org/adms/licencetype/Attribution"/>
         <foaf:name>Creative Commons Attribuzione 4.0 Internazionale (CC BY 4.0)</foaf:name>
@@ -281,9 +281,9 @@
     <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
   </dcatapit:Distribution>
   <dcatapit:Distribution rdf:about="https://monitoraggio.accessibilita.agid.gov.it/opendata/gli-errori-di-accessibilita-identificabili-automaticamente/json12">
-    <dcat:accessURL rdf:resource="https://monitoraggio.accessibilita.agid.gov.it/data/errori%5Friscontrati%5Fit.json"/>
+    <dcat:accessURL rdf:resource="https://monitoraggio.accessibilita.agid.gov.it/data/errori%5Friscontrati.json"/>
     <dct:license>
-      <dcatapit:LicenseDocument rdf:about="">
+      <dcatapit:LicenseDocument rdf:about="https://creativecommons.org/licenses/by/4.0/">
         <rdf:type rdf:resource="dct:LicenseDocument"/>
         <dct:type rdf:resource="http://purl.org/adms/licencetype/Attribution"/>
         <foaf:name>Creative Commons Attribuzione 4.0 Internazionale (CC BY 4.0)</foaf:name>
@@ -298,7 +298,7 @@
   <dcatapit:Distribution rdf:about="https://monitoraggio.accessibilita.agid.gov.it/opendata/dichiarazioni-di-accessibilita/json13">
     <dcat:accessURL rdf:resource="https://monitoraggio.accessibilita.agid.gov.it/data/dichiarazione%5Ftrend%5Fanno.json"/>
     <dct:license>
-      <dcatapit:LicenseDocument rdf:about="">
+      <dcatapit:LicenseDocument rdf:about="https://creativecommons.org/licenses/by/4.0/">
         <rdf:type rdf:resource="dct:LicenseDocument"/>
         <dct:type rdf:resource="http://purl.org/adms/licencetype/Attribution"/>
         <foaf:name>Creative Commons Attribuzione 4.0 Internazionale (CC BY 4.0)</foaf:name>
@@ -308,36 +308,6 @@
     <dct:rights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
     <dct:description>File in formato JSON del trend delle dichiarazioni</dct:description>
     <dct:title>Trend delle dichiarazioni</dct:title>
-    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
-  </dcatapit:Distribution>
-  <dcatapit:Distribution rdf:about="https://monitoraggio.accessibilita.agid.gov.it/opendata/dichiarazioni-di-accessibilita/json14">
-    <dcat:accessURL rdf:resource="https://monitoraggio.accessibilita.agid.gov.it/data/obiettivi%5Flinea%5Fintervento.json"/>
-    <dct:license>
-      <dcatapit:LicenseDocument rdf:about="https://creativecommons.org/licenses/by/4.0/">
-        <rdf:type rdf:resource="dct:LicenseDocument"/>
-        <dct:type rdf:resource="http://purl.org/adms/licencetype/Attribution"/>
-        <foaf:name>Creative Commons Attribuzione 4.0 Internazionale (CC BY 4.0)</foaf:name>
-      </dcatapit:LicenseDocument>
-    </dct:license>
-    <dct:format rdf:resource="JSON"/>
-    <dct:rights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
-    <dct:description>File in formato JSON delle obiettivi per linee d'intervento</dct:description>
-    <dct:title>Interventi di accessibilità pubblicati per linea di intervento</dct:title>
-    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
-  </dcatapit:Distribution>
-  <dcatapit:Distribution rdf:about="https://monitoraggio.accessibilita.agid.gov.it/opendata/dichiarazioni-di-accessibilita/json15">
-    <dcat:accessURL rdf:resource="https://monitoraggio.accessibilita.agid.gov.it/data/obiettivi%5Fregione.json"/>
-    <dct:license>
-      <dcatapit:LicenseDocument rdf:about="https://creativecommons.org/licenses/by/4.0/">
-        <rdf:type rdf:resource="dct:LicenseDocument"/>
-        <dct:type rdf:resource="http://purl.org/adms/licencetype/Attribution"/>
-        <foaf:name>Creative Commons Attribuzione 4.0 Internazionale (CC BY 4.0)</foaf:name>
-      </dcatapit:LicenseDocument>
-    </dct:license>
-    <dct:format rdf:resource="JSON"/>
-    <dct:rights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
-    <dct:description>File in formato JSON delle obiettivi per regione</dct:description>
-    <dct:title>Interventi di accessibilità pubblicati per regieone</dct:title>
     <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
   </dcatapit:Distribution>
   <dcatapit:Distribution rdf:about="https://monitoraggio.accessibilita.agid.gov.it/opendata/elenco-open-data-accessibilita/csv2">
@@ -473,6 +443,36 @@
     <dct:rights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
     <dct:description>File in formato XML del monitoraggio</dct:description>
     <dct:title>Open Data monitoragigo xml</dct:title>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+  </dcatapit:Distribution>
+  <dcatapit:Distribution rdf:about="https://monitoraggio.accessibilita.agid.gov.it/opendata/obiettivi-di-accessibilita/json14">
+    <dcat:accessURL rdf:resource="https://monitoraggio.accessibilita.agid.gov.it/data/obiettivi%5Flinea%5Fintervento.json"/>
+    <dct:license>
+      <dcatapit:LicenseDocument rdf:about="https://creativecommons.org/licenses/by/4.0/">
+        <rdf:type rdf:resource="dct:LicenseDocument"/>
+        <dct:type rdf:resource="http://purl.org/adms/licencetype/Attribution"/>
+        <foaf:name>Creative Commons Attribuzione 4.0 Internazionale (CC BY 4.0)</foaf:name>
+      </dcatapit:LicenseDocument>
+    </dct:license>
+    <dct:format rdf:resource="JSON"/>
+    <dct:rights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
+    <dct:description>File in formato JSON delle obiettivi per linee d'intervento</dct:description>
+    <dct:title>Interventi di accessibilità pubblicati per linea di intervento</dct:title>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+  </dcatapit:Distribution>
+  <dcatapit:Distribution rdf:about="https://monitoraggio.accessibilita.agid.gov.it/opendata/obiettivi-di-accessibilita/json15">
+    <dcat:accessURL rdf:resource="https://monitoraggio.accessibilita.agid.gov.it/data/obiettivi%5Fregione.json"/>
+    <dct:license>
+      <dcatapit:LicenseDocument rdf:about="https://creativecommons.org/licenses/by/4.0/">
+        <rdf:type rdf:resource="dct:LicenseDocument"/>
+        <dct:type rdf:resource="http://purl.org/adms/licencetype/Attribution"/>
+        <foaf:name>Creative Commons Attribuzione 4.0 Internazionale (CC BY 4.0)</foaf:name>
+      </dcatapit:LicenseDocument>
+    </dct:license>
+    <dct:format rdf:resource="JSON"/>
+    <dct:rights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
+    <dct:description>File in formato JSON delle obiettivi per regione</dct:description>
+    <dct:title>Interventi di accessibilità pubblicati per regieone</dct:title>
     <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
   </dcatapit:Distribution>
 <dcatapit:Organization rdf:about="https://monitoraggio.accessibilita.agid.gov.it/">
