@@ -5,6 +5,7 @@ import Footer from "./components/Footer";
 
 import HomePage from "./pages/index";
 import MoniPage from "./pages/Monitoraggio";
+import HomeMoniDetail from "./components/HomeMoniDetail";
 import ErrPage from "./pages/Errori";
 import DicPage from "./pages/Dichiarazione";
 import ObiPage from "./pages/Obiettivi";
@@ -14,7 +15,8 @@ import OpenDataPage from "./pages/Opendata";
 import MediaPolicy from "./pages/MediaPolicy";
 import LegalPolicy from "./pages/NoteLegali";
 import PrivacyPolicy from "./pages/PrivacyPolicy";
-import ContactPage from "./pages/Contattaci";
+import GuidaPiattaforma from "./pages/GuidaAllaPiattaforma";
+import ContactPage from "./pages/Contatti";
 
 import Feedback from "./components/Feedback";
 import Downloads from "./components/CsvPdfButtons";
@@ -56,7 +58,7 @@ import DicAutoIvsT from "./components/DichiarazioniAutovalutazioneConfronto";
 import DicPie from "./components/DichiarazioniPieChart";
 import DicAppTable from "./components/DichiarazioniAppTable";
 import DicAppPie from "./components/DichiarazioniAppConfrontoChart";
-import DicAppConf from "./components/DichiarazioneAppConfrontoConformita"
+import DicAppConf from "./components/DichiarazioneAppConfrontoConformita";
 
 import ObiMainCard from "./components/ObiettiviMainCard";
 import ObiLineChart from "./components/ObiettiviLineChart";
@@ -79,6 +81,7 @@ export default {
     ...LegalPolicy.it,
     ...PrivacyPolicy.it,
     ...ContactPage.it,
+    ...GuidaPiattaforma.it,
     ...Header.it,
     ...Footer.it,
     ...Feedback.it,
@@ -86,6 +89,7 @@ export default {
     ...DataTable.it,
     ...HomeMain.it,
     ...MoniMain.it,
+    ...HomeMoniDetail.it,
     ...MoniCategoria.it,
     ...MoniAreaGeo.it,
     ...MoniTable.it,
@@ -138,6 +142,7 @@ export default {
     ...LegalPolicy.en,
     ...PrivacyPolicy.en,
     ...ContactPage.en,
+    ...GuidaPiattaforma.en,
     ...Header.en,
     ...Footer.en,
     ...Feedback.en,
@@ -145,6 +150,7 @@ export default {
     ...DataTable.en,
     ...HomeMain.en,
     ...MoniMain.en,
+    ...HomeMoniDetail.en,
     ...MoniCategoria.en,
     ...MoniAreaGeo.en,
     ...MoniTable.en,

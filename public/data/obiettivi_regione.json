@@ -1,133 +1,135 @@
+{
+  "data": [
     {
-        "data": [
-            {
-                "des_regione": "Lombardia",
-                "num_enti_tot": 3297,
-                "num_enti_obiettivi": 1928,
-                "perc_enti_obiettivi_su_tot": 58.47740370033363663900
-            },
-            {
-                "des_regione": "Piemonte",
-                "num_enti_tot": 2239,
-                "num_enti_obiettivi": 1009,
-                "perc_enti_obiettivi_su_tot": 45.06476105404198302800
-            },
-            {
-                "des_regione": "Campania",
-                "num_enti_tot": 1904,
-                "num_enti_obiettivi": 953,
-                "perc_enti_obiettivi_su_tot": 50.05252100840336134500
-            },
-            {
-                "des_regione": "Veneto",
-                "num_enti_tot": 1654,
-                "num_enti_obiettivi": 924,
-                "perc_enti_obiettivi_su_tot": 55.86457073760580411100
-            },
-            {
-                "des_regione": "Sicilia",
-                "num_enti_tot": 1812,
-                "num_enti_obiettivi": 779,
-                "perc_enti_obiettivi_su_tot": 42.99116997792494481200
-            },
-            {
-                "des_regione": "Emilia-Romagna",
-                "num_enti_tot": 1296,
-                "num_enti_obiettivi": 764,
-                "perc_enti_obiettivi_su_tot": 58.95061728395061728400
-            },
-            {
-                "des_regione": "Lazio",
-                "num_enti_tot": 1719,
-                "num_enti_obiettivi": 736,
-                "perc_enti_obiettivi_su_tot": 42.81559045956951716100
-            },
-            {
-                "des_regione": "Puglia",
-                "num_enti_tot": 1204,
-                "num_enti_obiettivi": 651,
-                "perc_enti_obiettivi_su_tot": 54.06976744186046511600
-            },
-            {
-                "des_regione": "Toscana",
-                "num_enti_tot": 1164,
-                "num_enti_obiettivi": 560,
-                "perc_enti_obiettivi_su_tot": 48.10996563573883161500
-            },
-            {
-                "des_regione": "Sardegna",
-                "num_enti_tot": 905,
-                "num_enti_obiettivi": 534,
-                "perc_enti_obiettivi_su_tot": 59.00552486187845303900
-            },
-            {
-                "des_regione": "Calabria",
-                "num_enti_tot": 984,
-                "num_enti_obiettivi": 423,
-                "perc_enti_obiettivi_su_tot": 42.98780487804878048800
-            },
-            {
-                "des_regione": "Marche",
-                "num_enti_tot": 683,
-                "num_enti_obiettivi": 360,
-                "perc_enti_obiettivi_su_tot": 52.70863836017569546100
-            },
-            {
-                "des_regione": "Friuli-Venezia Giulia",
-                "num_enti_tot": 572,
-                "num_enti_obiettivi": 342,
-                "perc_enti_obiettivi_su_tot": 59.79020979020979021000
-            },
-            {
-                "des_regione": "Liguria",
-                "num_enti_tot": 606,
-                "num_enti_obiettivi": 279,
-                "perc_enti_obiettivi_su_tot": 46.03960396039603960400
-            },
-            {
-                "des_regione": "Abruzzo",
-                "num_enti_tot": 702,
-                "num_enti_obiettivi": 252,
-                "perc_enti_obiettivi_su_tot": 35.89743589743589743600
-            },
-            {
-                "des_regione": "Basilicata",
-                "num_enti_tot": 354,
-                "num_enti_obiettivi": 145,
-                "perc_enti_obiettivi_su_tot": 40.96045197740112994400
-            },
-            {
-                "des_regione": "Umbria",
-                "num_enti_tot": 347,
-                "num_enti_obiettivi": 144,
-                "perc_enti_obiettivi_su_tot": 41.49855907780979827100
-            },
-            {
-                "des_regione": "Provincia autonoma di Trento",
-                "num_enti_tot": 499,
-                "num_enti_obiettivi": 141,
-                "perc_enti_obiettivi_su_tot": 28.25651302605210420800
-            },
-            {
-                "des_regione": "Molise",
-                "num_enti_tot": 286,
-                "num_enti_obiettivi": 113,
-                "perc_enti_obiettivi_su_tot": 39.51048951048951049000
-            },
-            {
-                "des_regione": "Provincia autonoma di Bolzano",
-                "num_enti_tot": 489,
-                "num_enti_obiettivi": 108,
-                "perc_enti_obiettivi_su_tot": 22.08588957055214723900
-            },
-            {
-                "des_regione": "Valle d'Aosta/Vallée d'Aoste",
-                "num_enti_tot": 163,
-                "num_enti_obiettivi": 80,
-                "perc_enti_obiettivi_su_tot": 49.07975460122699386500
-            }
-        ],
-        "intestazione": {
-            "anno": 2023
-        }
+      "des_regione": "Lombardia",
+      "num_enti_tot": 3394,
+      "num_enti_obiettivi": 1987,
+      "perc_enti_obiettivi_su_tot": 58.544490276959340012
+    },
+    {
+      "des_regione": "Piemonte",
+      "num_enti_tot": 2320,
+      "num_enti_obiettivi": 1078,
+      "perc_enti_obiettivi_su_tot": 46.465517241379310345
+    },
+    {
+      "des_regione": "Veneto",
+      "num_enti_tot": 1700,
+      "num_enti_obiettivi": 968,
+      "perc_enti_obiettivi_su_tot": 56.941176470588235294
+    },
+    {
+      "des_regione": "Campania",
+      "num_enti_tot": 1969,
+      "num_enti_obiettivi": 871,
+      "perc_enti_obiettivi_su_tot": 44.235652615540883697
+    },
+    {
+      "des_regione": "Emilia-Romagna",
+      "num_enti_tot": 1351,
+      "num_enti_obiettivi": 805,
+      "perc_enti_obiettivi_su_tot": 59.585492227979274611
+    },
+    {
+      "des_regione": "Sicilia",
+      "num_enti_tot": 1867,
+      "num_enti_obiettivi": 720,
+      "perc_enti_obiettivi_su_tot": 38.564542046063202999
+    },
+    {
+      "des_regione": "Lazio",
+      "num_enti_tot": 1854,
+      "num_enti_obiettivi": 697,
+      "perc_enti_obiettivi_su_tot": 37.594390507011866235
+    },
+    {
+      "des_regione": "Puglia",
+      "num_enti_tot": 1266,
+      "num_enti_obiettivi": 610,
+      "perc_enti_obiettivi_su_tot": 48.18325434439178515
+    },
+    {
+      "des_regione": "Toscana",
+      "num_enti_tot": 1205,
+      "num_enti_obiettivi": 583,
+      "perc_enti_obiettivi_su_tot": 48.381742738589211618
+    },
+    {
+      "des_regione": "Sardegna",
+      "num_enti_tot": 933,
+      "num_enti_obiettivi": 443,
+      "perc_enti_obiettivi_su_tot": 47.481243301178992497
+    },
+    {
+      "des_regione": "Calabria",
+      "num_enti_tot": 977,
+      "num_enti_obiettivi": 361,
+      "perc_enti_obiettivi_su_tot": 36.94984646878198567
+    },
+    {
+      "des_regione": "Friuli-Venezia Giulia",
+      "num_enti_tot": 583,
+      "num_enti_obiettivi": 340,
+      "perc_enti_obiettivi_su_tot": 58.319039451114922813
+    },
+    {
+      "des_regione": "Marche",
+      "num_enti_tot": 701,
+      "num_enti_obiettivi": 335,
+      "perc_enti_obiettivi_su_tot": 47.788873038516405136
+    },
+    {
+      "des_regione": "Liguria",
+      "num_enti_tot": 623,
+      "num_enti_obiettivi": 236,
+      "perc_enti_obiettivi_su_tot": 37.881219903691813804
+    },
+    {
+      "des_regione": "Abruzzo",
+      "num_enti_tot": 729,
+      "num_enti_obiettivi": 226,
+      "perc_enti_obiettivi_su_tot": 31.001371742112482853
+    },
+    {
+      "des_regione": "Provincia autonoma di Trento",
+      "num_enti_tot": 502,
+      "num_enti_obiettivi": 178,
+      "perc_enti_obiettivi_su_tot": 35.458167330677290837
+    },
+    {
+      "des_regione": "Basilicata",
+      "num_enti_tot": 353,
+      "num_enti_obiettivi": 153,
+      "perc_enti_obiettivi_su_tot": 43.342776203966005666
+    },
+    {
+      "des_regione": "Umbria",
+      "num_enti_tot": 354,
+      "num_enti_obiettivi": 149,
+      "perc_enti_obiettivi_su_tot": 42.090395480225988701
+    },
+    {
+      "des_regione": "Valle d'Aosta/Vallée d'Aoste",
+      "num_enti_tot": 171,
+      "num_enti_obiettivi": 109,
+      "perc_enti_obiettivi_su_tot": 63.742690058479532164
+    },
+    {
+      "des_regione": "Molise",
+      "num_enti_tot": 291,
+      "num_enti_obiettivi": 99,
+      "perc_enti_obiettivi_su_tot": 34.020618556701030928
+    },
+    {
+      "des_regione": "Provincia autonoma di Bolzano",
+      "num_enti_tot": 495,
+      "num_enti_obiettivi": 41,
+      "perc_enti_obiettivi_su_tot": 8.282828282828282828
     }
+  ],
+  "intestazione": {
+    "anno_obiettivi": 2025,
+    "aggior_ultimo_trimestre": "1-2025",
+    "dat_ult_agg_obiettivi": "2025-03-31"
+  }
+}

@@ -1,8 +1,9 @@
 <script>
-  import KpiCard from "../KpiCard.svelte";
+  import KpiSimpleCard from "../KpiSimpleCard.svelte";
   import { onMount } from "svelte";
   import { dp, df, nf } from "../../utils";
   import { t } from "../../utils/i18n";
+  import Icon from "../Icon.svelte";
 
   let numDichiarazioniIstituzionali;
   let date;
@@ -17,30 +18,38 @@
       (d) => d.indicatore == "num_enti_con_dich_istituzionali_tutti_anni"
     ).valore;
 
-    const rs2 = await fetch("/data/dichiarazione_istituzionali_data.json");
-    const data2 = await rs2.json();
-    date = data2.find(
-      (d) => d.indicatore == "data_ultimo_aggiornamento_pagina"
-    ).valore;
+    date = data[0].dat_ult_agg_dichiarazione;
     formattedDate = df(dp(date));
   });
 </script>
 
 <div class="mt-5">
-  <p class="lead">{$t("dicIstMain.title")}</p>
+  <h2 class="lead">{$t("dicIstMain.title")}</h2>
   <div class="row pt-3">
     <div class="col-12 col-lg-7 pe-lg-5">
       <p>
-        {@html $t("dicIstMain.description", { doubleBreak: "<br/><br/>" })}
+        {$t("dicIstMain.description1")}<a
+          href="https://www.indicepa.gov.it/ipa-portale/"
+          title={$t("layout.externalLink")}
+          target="_blank"
+          rel="noreferrer"
+          >{$t("dicIstMain.ipa")}<Icon
+            name="it it-external-link"
+            variant="primary"
+            size="sm"
+            customClass="ms-1 mb-1"
+          /></a
+        >{@html $t("dicIstMain.description2", {
+          break: "<br/>",
+          doubleBreak: "<br/><br/>",
+        })}
       </p>
     </div>
     <div class="col-12 mx-lg-0 col-lg-5">
-      <KpiCard
+      <KpiSimpleCard
         title={$t("dicIstMain.cardOneTitle")}
         kpi={nf(numDichiarazioniIstituzionali)}
-        imgLink="/images/bookmark-star.svg"
-        caption={$t('dicIstMain.cardOneCaption')}{formattedDate}
-      />
+      ></KpiSimpleCard>
     </div>
   </div>
 </div>

@@ -15,7 +15,7 @@ function translate(locale, key, vars) {
   if (!text) throw new Error(`no translation found for ${locale}.${key}`);
 
   // Replace any passed in variables in the translation string.
-  Object.keys(vars).map((k) => {
+  Object.keys(vars).forEach((k) => {
     const regex = new RegExp(`{{${k}}}`, "g");
     text = text.replace(regex, vars[k]);
   });

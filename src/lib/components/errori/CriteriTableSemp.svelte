@@ -1,5 +1,5 @@
 <script lang="ts">
-  import { pm, nf5d } from "../../utils";
+  import { pm, nf1d, nf2d } from "../../utils";
   import { onMount } from "svelte";
   import DataTable from "../DataTable.svelte";
   import Icon from "../Icon.svelte";
@@ -9,24 +9,26 @@
   let innerWidth;
   let response;
   let columns = [];
+  let totaleErroriConformita;
   let loading = true;
+  let slicedResp;
 
   $: innerWidth < 768 ? (columns = smallColumns) : (columns = bigColumns);
   const bigColumns = [
     {
       field: `criterio_di_successo_${$locale}`,
-      label: $t("erroriTable.criterio")
+      label: $t("erroriTable.criterio"),
     },
     {
       field: "cod_livello_conformita",
-      label: $t("erroriTable.livello")
+      label: $t("erroriTable.livello"),
     },
     {
       align: "right",
       field: "perc_round",
       label: $t("erroriTable.percentuale"),
-      format: (value: any) => nf5d(value) + "%",
-      formatDownload: (value: any) => nf5d(value) + "%",
+      format: (value: any) => nf1d(value) + "%",
+      formatDownload: (value: any) => nf2d(value) + "%",
     },
   ];
 
@@ -38,14 +40,14 @@
     },
     {
       field: "cod_livello_conformita",
-      label: $t("erroriTable.livello")
+      label: $t("erroriTable.livello"),
     },
     {
       align: "right",
       field: "perc_round",
       label: $t("erroriTable.percentuale"),
-      format: (value: any) => nf5d(value) + "%",
-      formatDownload: (value: any) => nf5d(value) + "%",
+      format: (value: any) => nf1d(value) + "%",
+      formatDownload: (value: any) => nf2d(value) + "%",
     },
   ];
 
@@ -93,6 +95,34 @@
         "https://www.w3.org/Translations/WCAG21-it/#audio-description-prerecorded",
     },
     {
+      id: "1.2.6",
+      icon: "",
+      href_en: "https://www.w3.org/TR/WCAG21/#sign-language-prerecorded",
+      href_it:
+        "https://www.w3.org/Translations/WCAG21-it/#sign-language-prerecorded",
+    },
+    {
+      id: "1.2.7",
+      icon: "",
+      href_en:
+        "https://www.w3.org/TR/WCAG21/#extended-audio-description-prerecorded",
+      href_it:
+        "https://www.w3.org/Translations/WCAG21-it/#extended-audio-description-prerecorded",
+    },
+    {
+      id: "1.2.8",
+      icon: "",
+      href_en: "https://www.w3.org/TR/WCAG21/#media-alternative-prerecorded",
+      href_it:
+        "https://www.w3.org/Translations/WCAG21-it/#media-alternative-prerecorded",
+    },
+    {
+      id: "1.2.9",
+      icon: "",
+      href_en: "https://www.w3.org/TR/WCAG21/#audio-only-live",
+      href_it: "https://www.w3.org/Translations/WCAG21-it/#audio-only-live",
+    },
+    {
       id: "1.3.1",
       icon: "info-lg",
       href_en: "https://www.w3.org/TR/WCAG21/#info-and-relationships",
@@ -103,8 +133,7 @@
       id: "1.3.2",
       icon: "ui-checks",
       href_en: "https://www.w3.org/TR/WCAG21/#meaningful-sequence",
-      href_it:
-        "https://www.w3.org/Translations/WCAG21-it/#meaningful-sequence",
+      href_it: "https://www.w3.org/Translations/WCAG21-it/#meaningful-sequence",
     },
     {
       id: "1.3.3",
@@ -125,6 +154,12 @@
       href_en: "https://www.w3.org/TR/WCAG21/#identify-input-purpose",
       href_it:
         "https://www.w3.org/Translations/WCAG21-it/#identify-input-purpose",
+    },
+    {
+      id: "1.3.6",
+      icon: "",
+      href_en: "https://www.w3.org/TR/WCAG21/#identify-purpose",
+      href_it: "https://www.w3.org/Translations/WCAG21-it/#identify-purpose",
     },
     {
       id: "1.4.1",
@@ -155,6 +190,32 @@
       icon: "image",
       href_en: "https://www.w3.org/TR/WCAG21/#images-of-text",
       href_it: "https://www.w3.org/Translations/WCAG21-it/#images-of-text",
+    },
+    {
+      id: "1.4.6",
+      icon: "",
+      href_en: "https://www.w3.org/TR/WCAG21/#contrast-enhanced",
+      href_it: "https://www.w3.org/Translations/WCAG21-it/#contrast-enhanced",
+    },
+    {
+      id: "1.4.7",
+      icon: "",
+      href_en: "https://www.w3.org/TR/WCAG21/#low-or-no-background-audio",
+      href_it:
+        "https://www.w3.org/Translations/WCAG21-it/#low-or-no-background-audio",
+    },
+    {
+      id: "1.4.8",
+      icon: "",
+      href_en: "https://www.w3.org/TR/WCAG21/#visual-presentation",
+      href_it: "https://www.w3.org/Translations/WCAG21-it/#visual-presentation",
+    },
+    {
+      id: "1.4.9",
+      icon: "",
+      href_en: "https://www.w3.org/TR/WCAG21/#images-of-text-no-exception",
+      href_it:
+        "https://www.w3.org/Translations/WCAG21-it/#images-of-text-no-exception",
     },
     {
       id: "1.4.10",
@@ -194,6 +255,13 @@
       href_it: "https://www.w3.org/Translations/WCAG21-it/#no-keyboard-trap",
     },
     {
+      id: "2.1.3",
+      icon: "",
+      href_en: "https://www.w3.org/TR/WCAG21/#keyboard-no-exception",
+      href_it:
+        "https://www.w3.org/Translations/WCAG21-it/#keyboard-no-exception",
+    },
+    {
       id: "2.1.4",
       icon: "command",
       href_en: "https://www.w3.org/TR/WCAG21/#character-key-shortcuts",
@@ -213,18 +281,60 @@
       href_it: "https://www.w3.org/Translations/WCAG21-it/#pause-stop-hide",
     },
     {
+      id: "2.2.3",
+      icon: "",
+      href_en: "https://www.w3.org/TR/WCAG21/#no-timing",
+      href_it: "https://www.w3.org/Translations/WCAG21-it/#no-timing",
+    },
+    {
+      id: "2.2.4",
+      icon: "",
+      href_en: "https://www.w3.org/TR/WCAG21/#interruptions",
+      href_it: "https://www.w3.org/Translations/WCAG21-it/#interruptions",
+    },
+    {
+      id: "2.2.5",
+      icon: "",
+      href_en: "https://www.w3.org/TR/WCAG21/#re-authenticating",
+      href_it: "https://www.w3.org/Translations/WCAG21-it/#re-authenticating",
+    },
+    {
+      id: "2.2.6",
+      icon: "",
+      href_en: "https://www.w3.org/TR/WCAG21/#timeouts",
+      href_it: "https://www.w3.org/Translations/WCAG21-it/#timeouts",
+    },
+    {
       id: "2.3.1",
       icon: "brightness-alt-high",
-      href_en:
-        "https://www.w3.org/TR/WCAG21/#three-flashes-or-below-threshold",
+      href_en: "https://www.w3.org/TR/WCAG21/#three-flashes-or-below-threshold",
       href_it:
         "https://www.w3.org/Translations/WCAG21-it/#three-flashes-or-below-threshold",
+    },
+    {
+      id: "2.3.2",
+      icon: "",
+      href_en: "https://www.w3.org/TR/WCAG21/#three-flashes",
+      href_it: "https://www.w3.org/Translations/WCAG21-it/#three-flashes",
+    },
+    {
+      id: "2.3.3",
+      icon: "",
+      href_en: "https://www.w3.org/TR/WCAG21/#animation-from-interactions",
+      href_it:
+        "https://www.w3.org/Translations/WCAG21-it/#animation-from-interactions",
     },
     {
       id: "2.4.1",
       icon: "columns-gap",
       href_en: "https://www.w3.org/TR/WCAG21/#bypass-blocks",
       href_it: "https://www.w3.org/Translations/WCAG21-it/#bypass-blocks",
+    },
+    {
+      id: "2.4.2",
+      icon: "window",
+      href_en: "https://www.w3.org/TR/WCAG21/#page-titled",
+      href_it: "https://www.w3.org/Translations/WCAG21-it/#page-titled",
     },
     {
       id: "2.4.3",
@@ -249,8 +359,7 @@
       id: "2.4.6",
       icon: "type-h1",
       href_en: "https://www.w3.org/TR/WCAG21/#headings-and-labels",
-      href_it:
-        "https://www.w3.org/Translations/WCAG21-it/#headings-and-labels",
+      href_it: "https://www.w3.org/Translations/WCAG21-it/#headings-and-labels",
     },
     {
       id: "2.4.7",
@@ -259,10 +368,23 @@
       href_it: "https://www.w3.org/Translations/WCAG21-it/#focus-visible",
     },
     {
-      id: "2.4.2",
-      icon: "window",
-      href_en: "https://www.w3.org/TR/WCAG21/#page-titled",
-      href_it: "https://www.w3.org/Translations/WCAG21-it/#page-titled",
+      id: "2.4.8",
+      icon: "",
+      href_en: "https://www.w3.org/TR/WCAG21/#location",
+      href_it: "https://www.w3.org/Translations/WCAG21-it/#location",
+    },
+    {
+      id: "2.4.9",
+      icon: "",
+      href_en: "https://www.w3.org/TR/WCAG21/#link-purpose-link-only",
+      href_it:
+        "https://www.w3.org/Translations/WCAG21-it/#link-purpose-link-only",
+    },
+    {
+      id: "2.4.10",
+      icon: "",
+      href_en: "https://www.w3.org/TR/WCAG21/#section-headings",
+      href_it: "https://www.w3.org/Translations/WCAG21-it/#section-headings",
     },
     {
       id: "2.5.1",
@@ -284,10 +406,23 @@
       href_it: "https://www.w3.org/Translations/WCAG21-it/#label-in-name",
     },
     {
+      id: "2.5.4",
+      icon: "",
+      href_en: "https://www.w3.org/TR/WCAG21/#motion-actuation",
+      href_it: "https://www.w3.org/Translations/WCAG21-it/#motion-actuation",
+    },
+    {
       id: "2.5.5",
       icon: "joystick",
       href_en: "https://www.w3.org/TR/WCAG21/#motion-actuation",
       href_it: "https://www.w3.org/Translations/WCAG21-it/#motion-actuation",
+    },
+    {
+      id: "2.5.6",
+      icon: "",
+      href_en: "https://www.w3.org/TR/WCAG21/#concurrent-input-mechanisms",
+      href_it:
+        "https://www.w3.org/Translations/WCAG21-it/#concurrent-input-mechanisms",
     },
     {
       id: "3.1.1",
@@ -300,6 +435,30 @@
       icon: "parti-lingua",
       href_en: "https://www.w3.org/TR/WCAG21/#language-of-parts",
       href_it: "https://www.w3.org/Translations/WCAG21-it/#language-of-parts",
+    },
+    {
+      id: "3.1.3",
+      icon: "",
+      href_en: "https://www.w3.org/TR/WCAG21/#unusual-words",
+      href_it: "https://www.w3.org/Translations/WCAG21-it/#unusual-words",
+    },
+    {
+      id: "3.1.4",
+      icon: "",
+      href_en: "https://www.w3.org/TR/WCAG21/#abbreviations",
+      href_it: "https://www.w3.org/Translations/WCAG21-it/#abbreviations",
+    },
+    {
+      id: "3.1.5",
+      icon: "",
+      href_en: "https://www.w3.org/TR/WCAG21/#reading-level",
+      href_it: "https://www.w3.org/Translations/WCAG21-it/#reading-level",
+    },
+    {
+      id: "3.1.6",
+      icon: "",
+      href_en: "https://www.w3.org/TR/WCAG21/#pronunciation",
+      href_it: "https://www.w3.org/Translations/WCAG21-it/#pronunciation",
     },
     {
       id: "3.2.1",
@@ -326,6 +485,12 @@
       href_en: "https://www.w3.org/TR/WCAG21/#consistent-identification",
       href_it:
         "https://www.w3.org/Translations/WCAG21-it/#consistent-identification",
+    },
+    {
+      id: "3.2.5",
+      icon: "",
+      href_en: "https://www.w3.org/TR/WCAG21/#change-on-request",
+      href_it: "https://www.w3.org/Translations/WCAG21-it/#change-on-request",
     },
     {
       id: "3.3.1",
@@ -356,16 +521,23 @@
         "https://www.w3.org/Translations/WCAG21-it/#error-prevention-legal-financial-data",
     },
     {
+      id: "3.3.5",
+      icon: "",
+      href_en: "https://www.w3.org/TR/WCAG21/#help",
+      href_it: "https://www.w3.org/Translations/WCAG21-it/#help",
+    },
+    {
+      id: "3.3.6",
+      icon: "",
+      href_en: "https://www.w3.org/TR/WCAG21/#error-prevention-all",
+      href_it:
+        "https://www.w3.org/Translations/WCAG21-it/#error-prevention-all",
+    },
+    {
       id: "4.1.1",
       icon: "diagram-2",
       href_en: "https://www.w3.org/TR/WCAG21/#parsing",
       href_it: "https://www.w3.org/Translations/WCAG21-it/#parsing",
-    },
-    {
-      id: "4.1.3",
-      icon: "question-diamond",
-      href_en: "https://www.w3.org/TR/WCAG21/#status-messages",
-      href_it: "https://www.w3.org/Translations/WCAG21-it/#status-messages",
     },
     {
       id: "4.1.2",
@@ -373,25 +545,38 @@
       href_en: "https://www.w3.org/TR/WCAG21/#name-role-value",
       href_it: "https://www.w3.org/Translations/WCAG21-it/#name-role-value",
     },
+    {
+      id: "4.1.3",
+      icon: "question-diamond",
+      href_en: "https://www.w3.org/TR/WCAG21/#status-messages",
+      href_it: "https://www.w3.org/Translations/WCAG21-it/#status-messages",
+    },
   ];
 
   let data;
 
   onMount(async () => {
+    const rsDistribuzioneConformita = await fetch(
+      "/data/errori_distribuzione_livello_conformita.json"
+    );
+    const dataDistribuzioneConformita = await rsDistribuzioneConformita.json();
+    let erroriConformita = dataDistribuzioneConformita;
+    totaleErroriConformita =
+      erroriConformita[0].num_sc_non_soddisfatti +
+      erroriConformita[1].num_sc_non_soddisfatti;
+
     const rs = await fetch("/data/errori_riscontrati.json");
     response = await rs.json();
     loading = false;
-
-    for (let i = 0; i < response.data.length; i++) {
-      for (let z = 0; z < arrayIcone.length; z++) {
-        if (
-          response.data[i].criterio_di_successo_it.substring(0, 6).trim() ==
-          arrayIcone[z].id
-        ) {
-          response.data[i].link = arrayIcone[z][`href_${$locale}`];
-        }
+    response.data.forEach((item) => {
+      const targetId = item.criterio_di_successo_it.substring(0, 6).trim();
+      const matchingIcon = arrayIcone.find((icon) => icon.id === targetId);
+      if (matchingIcon) {
+        item.link = matchingIcon[`href_${$locale}`];
       }
-    }
+    });
+    slicedResp = response.data.slice(0, 10);
+
     return response;
   });
 </script>
@@ -400,27 +585,40 @@
 {#if !loading}
   <DataTable
     {columns}
-    rows={response?.data}
+    rows={slicedResp}
+    csvRows={response.data}
     defaultSortBy="perc_round"
     periodoMonitoraggio={pm(response?.intestazione?.periodo_monitoraggio)}
     title={$t("erroriTable.title")}
-    downloadFilename={$t("erroriTable.downloadName")}
+    searchingName={$t("erroriTable.titleSemp")}
     didascalia={true}
   >
     <div slot="didascaliaSlot" class="didascalia">
-      {$t("erroriTable.description")}
+      {$t("erroriTable.description1")}
+      <a
+        title={$t("layout.externalLink")}
+        target="_blank"
+        rel="noreferrer"
+        href="https://mauve.isti.cnr.it/singleValidation.jsp"
+        >MAUVE++<Icon
+          name="it it-external-link"
+          variant="primary"
+          size="sm"
+          customClass="ms-1 mb-1"
+        /></a
+      >{@html $t("erroriTable.description2", { break: "<br/>" })}
       <a
         title={$t("layout.externalLink")}
         target="_blank"
         rel="noreferrer"
         href={$t("erroriTable.WCAGlink")}
-        >{$t("erroriTable.link")}<Icon
+        >{$t("erroriTable.linkText")}<Icon
           name="it it-external-link"
           variant="primary"
-          size="xs"
-          customClass="mb-1"
+          size="sm"
+          customClass="ms-1 mb-1"
         /></a
-      >{$t("erroriTable.moreDescription")}
+      >{@html $t("erroriTable.description3", { break: "<br/>" })}
     </div>
   </DataTable>
 {/if}

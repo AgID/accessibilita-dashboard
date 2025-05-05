@@ -1,6 +1,6 @@
 <script lang="ts">
   import { onMount } from "svelte";
-  import { nf, nf2d, pm } from "../../utils";
+  import { nf, nf1d, nf2d, pm } from "../../utils";
   import CsvPdfButtons from "../CsvPdfButtons.svelte";
   import DataTable from "../DataTable.svelte";
   import { locale, t } from "../../utils/i18n";
@@ -16,18 +16,17 @@
   let loading = true;
   let numPDF;
 
-
   onMount(async () => {
-
     const rsData = await fetch("/data/monitoraggio_pdf_intestazione.json");
     const data = await rsData.json();
     const pdfEvaluated = data[0].num_pdf_valutati;
-    numPDF = nf(pdfEvaluated)
-
+    numPDF = nf(pdfEvaluated);
 
     const rs = await fetch("/data/monitoraggio_pdf_distr_errore.json");
     response = await rs.json();
-    periodoMonitoraggio = pm(response?.intestazione?.monitoraggio_pdf_intestazione);
+    periodoMonitoraggio = pm(
+      response?.intestazione?.monitoraggio_pdf_intestazione
+    );
     loading = false;
 
     let response2;
@@ -69,7 +68,7 @@
           borderColor: "#fff",
           dataLabels: {
             format: "{point.name} {point.y}%",
-            }
+          },
         },
       },
       tooltip: {
@@ -91,42 +90,54 @@
       field: "percentuale",
       label: $t("moniPDFChart.numero"),
       align: "right",
-      format: (value: any) => nf2d(value) + "%",
+      format: (value: any) => nf1d(value) + "%",
+      formatDownload: (value: any) => nf2d(value) + "%",
     },
   ];
-
 </script>
 
 <div class="card-box mt-2 my-lg-3 hide-mobile pt-3 px-3">
-  <h2 class="cardTitle py-3 ps-2 ps-lg-3 d-inline-flex greyText">
-    {$t("moniPDFChart.title")}</h2>
+  <div class="d-flex justify-content-between">
+    <h3 class="cardTitle pt-3 ps-2 ps-lg-3 d-inline-flex greyText">
+      {$t("moniPDFChart.title")}
+    </h3>
+    <div class="pe-3 my-auto">
+      {#if !loading}
+        <CsvPdfButtons
+          rows={response?.data}
+          {columns}
+          title={$t("moniPDFChart.title")}
+          {periodoMonitoraggio}
+        />
+      {/if}
+    </div>
+  </div>
   <div>
-    <p class="mb-0 pb-3 px-2 px-xl-3">
-      {@html $t("moniPDFChart.chartDescriptionSemp", {break: "<br/>", total: numPDF})}
-      <br><a href="/errori-semplificato#pdf" aria-label={$t("errPdfTable.title")}>{$t("errPdfTable.title")}</a>
-    </p>
-    
     {#if periodoMonitoraggio}
-      <div class="caption text-start d-inline-block px-2 px-xl-3">
-        {$t("moniPDFChart.timeframe")}{periodoMonitoraggio}
+      <div class="d-inline-block px-2 px-xl-3">
+        <p class="periodoLabel mb-4">
+          {$t("layout.periodoMonitoraggio")}
+          <span class="periodoDate">
+            {periodoMonitoraggio}
+          </span>
+        </p>
       </div>
     {/if}
+    <p class="mb-0 pb-3 px-2 px-xl-3">
+      {@html $t("moniPDFChart.chartDescrSemp", {
+        break: "<br/>",
+        total: numPDF,
+      })}
+      <br /><a
+        href="/errori-semplificato#pdf"
+        aria-label={$t("errPdfTable.title")}>{$t("errPdfTable.title")}</a
+      >
+    </p>
   </div>
 
   <figure class="highcharts-figure">
     <div id="pieChartPDF" style="width:100%; height:450px;" />
   </figure>
-
-  <div class="pe-3 pb-4">
-    {#if !loading}
-      <CsvPdfButtons
-        rows={response?.data}
-        {columns}
-        title={$t("moniPDFChart.title")}
-        {periodoMonitoraggio}
-      />
-    {/if}
-  </div>
 </div>
 
 {#if !loading}
@@ -137,11 +148,17 @@
       title={$t("moniPDFChart.title")}
       defaultSortBy="percentuale"
       didascalia={true}
-      periodoMonitoraggio={periodoMonitoraggio}
+      {periodoMonitoraggio}
     >
       <div slot="didascaliaSlot" class="didascalia">
-        {@html $t("moniPDFChart.tableDescriptionSemp",  {break: "<br/>", total: numPDF})}
-        <br><a href="/errori-semplificato#pdf" aria-label={$t("errPdfTable.title")}>{$t("errPdfTable.title")}</a>
+        {@html $t("moniPDFChart.tableDescrSemp", {
+          break: "<br/>",
+          total: numPDF,
+        })}
+        <br /><a
+          href="/errori-semplificato#pdf"
+          aria-label={$t("errPdfTable.title")}>{$t("errPdfTable.title")}</a
+        >
       </div>
     </DataTable>
   </div>

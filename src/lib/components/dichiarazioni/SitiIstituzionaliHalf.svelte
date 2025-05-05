@@ -1,16 +1,8 @@
 <script>
   import { onMount } from "svelte";
-  import KpiCard from "../KpiCard.svelte";
-  import { nf, nf2d } from "../../utils";
+  import { nf, nf1d, nf2d } from "../../utils";
   import { t } from "../../utils/i18n";
-
-  // ---HIGHCHARTS BEGIN---
-  import Highcharts from "highcharts";
-  import HighchartsAccessibility from "highcharts/modules/accessibility";
-  import HighchartsVariablePie from "highcharts/modules/variable-pie";
-  HighchartsAccessibility(Highcharts);
-  HighchartsVariablePie(Highcharts);
-  // ---HIGHCHARTS END---
+  import KpiSimpleCard from "../KpiSimpleCard.svelte";
 
   let numIstituzionaliCorrente;
   let percentuale;
@@ -19,6 +11,9 @@
   let datoVisibile;
   let totale;
   let annoRiferimento;
+
+  let height = "";
+  $: mainHeight = height ? `height:${height};` : "";
 
   onMount(async () => {
     const rs = await fetch(
@@ -35,96 +30,29 @@
 
     datoXgrafico = +percentuale.toFixed(2);
     restoDelGrafico = 100 - datoXgrafico;
-    datoVisibile = nf2d(percentuale);
+    datoVisibile = nf1d(percentuale);
 
-    const riferimento = await fetch("/data/dichiarazione_intestazione.json");
-    const dataRiferimento = await riferimento.json();
-    annoRiferimento = dataRiferimento[0].dat_ult_agg_dichiarazione.substr(0, 4);
-
-    var semivariablepie = Highcharts.chart("semicerchio", {
-      chart: {
-        type: "variablepie",
-        backgroundColor: "transparent",
-        spacing: [0, 0, 0, 0],
-      },
-      title: {
-        text: datoVisibile + "%",
-        align: "center",
-        verticalAlign: "middle",
-        y: 100,
-        style: {
-            fontSize: "2em",
-            fontFamily: "Titillium Web",
-            color: "#2F475E"
-          },
-      },
-      tooltip: {
-        enabled: false,
-      },
-      plotOptions: {
-        variablepie: {
-          startAngle: -90,
-          size: null,
-          endAngle: 90,
-          center: ["50%", "75%"],
-          dataLabels: {
-            enabled: false,
-          },
-        },
-      },
-      series: [
-        {
-          minPointSize: 10,
-          innerSize: "50%",
-          zMin: 0,
-          type: "variablepie",
-          data: [
-            {
-              name: "",
-              y: datoXgrafico,
-              color: "#0066cc",
-              z: 0.2,
-            },
-            {
-              name: "",
-              color: "#cdcdcd",
-              y: restoDelGrafico,
-              z: 0.1,
-            },
-          ],
-        },
-      ],
-    });
+    annoRiferimento = data[0].anno_dichiarazione;
   });
 </script>
 
-<div class="px-xxl-5 mb-5">
-  <div class="container">
-    <div class="mx-auto">
-      <div class="row justify-content-between">
-        <div class="col-12 col-lg-6 pb-3 mt-0">
-          <figure class="highcharts-figure">
-            <div id="semicerchio" style="height:400px" />
-            <p class="px-xl-5 ms-xl-4 me-xl-5">
-              {@html $t("dicIstHalf.description", {
-                percentuale: datoVisibile,
-                anno: annoRiferimento,
-              })}
-            </p>
-          </figure>
-        </div>
-        <div class="col-12 col-lg-6 pb-3 mt-0 px-xl-5 mt-3">
-          <div class="blueKpiCard mt-5">
-            <div class="cardTitle mx-lg-3 py-3 d-inline-flex greyText">
-              {$t("dicIstHalf.cardOneTitle")}
-            </div>
-            <div class="cardMainData mx-lg-3 pb-4">{nf(numIstituzionaliCorrente)}</div>
+<div class="blueKpiCard py-5 my-5">
+  <div class="px-xxl-5">
+    <div class="container">
+      <div class="mx-auto">
+        <div class="row justify-content-between text-left">
+          <div class="col-lg-6">
+            <KpiSimpleCard
+              title={$t("dicIstHalf.cardTwoTitle", { anno: annoRiferimento })}
+              kpi={nf(totale)}
+            ></KpiSimpleCard>
           </div>
-          <div class="blueKpiCard mt-5">
-            <div class="cardTitle mx-lg-3 py-3 d-inline-flex greyText">
-              {$t("dicIstHalf.cardTwoTitle")}
-            </div>
-            <div class="cardMainData mx-lg-3 pb-4">{nf(totale)}</div>
+          <div class="col-lg-6">
+            <KpiSimpleCard
+              title={$t("dicIstHalf.cardOneTitle", { anno: annoRiferimento })}
+              kpi={nf(numIstituzionaliCorrente)}
+              smallerKpi="({datoVisibile}%)"
+            ></KpiSimpleCard>
           </div>
         </div>
       </div>
@@ -132,9 +60,8 @@
   </div>
 </div>
 
-
 <style>
-  .blueKpiCard{
-    background-color: #f5f9fc;
+  .blueKpiCard {
+    background-color: #f2f7fc;
   }
 </style>

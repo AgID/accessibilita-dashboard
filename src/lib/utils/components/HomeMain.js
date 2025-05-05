@@ -1,11 +1,15 @@
 export default {
     it: {
       "homeMain.title": "Monitoriamo l’accessibilità digitale delle Pubbliche Amministrazioni",
-      "homeMain.subtitle": 'L’Agenzia per l’Italia Digitale, nell’ambito delle iniziative del PNRR ha la responsabilità di realizzare il progetto "Inclusione dei cittadini: Miglioramento dell’accessibilità dei servizi pubblici digitali". La norma di riferimento per l’accessibilità digitale è la Legge n. 4/2004, attribuisce ad AGID il compito di monitorare i siti web e le applicazioni mobile delle PA.'
+      "homeMain.subtitle1": 'AgID, Agenzia per l’Italia Digitale, monitora l’accessibilità di siti web, documenti PDF e app delle PA per renderli più fruibili e inclusivi. {{break}} Un compito attribuitole dalla',
+      "homeMain.subtitle2": 'e una linea di azione della misura',
+      "homeMain.subtitleExtLink": "Legge n. 4/2004"
     },
     en: {
       "homeMain.title": "We monitor the digital accessibility of Public Administrations",
-      "homeMain.subtitle": 'The Agency for Digital Italy, as part of the initiatives of the National Recovery and Resilience Plan (PNRR), is responsible for implementing the project "Inclusion of Citizens: Improvement of the Accessibility of Public Digital Services." The reference standard for digital accessibility is Law No. 4/2004, which assigns to AGID the task of monitoring the websites and mobile applications of Public Administrations.'
+      "homeMain.subtitle1": 'AgID, Agency for Digital Italy, monitors the accessibility of PA websites, PDF documents and apps to make them more usable and inclusive. {{break}} A task assigned to her by',
+      "homeMain.subtitle2": 'and an action line of measure',
+      "homeMain.subtitleExtLink": "Law no. 4/2004"
     },
   };
   

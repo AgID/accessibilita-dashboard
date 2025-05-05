@@ -1,28 +1,39 @@
 export default {
   it: {
     "obiMainCard.title": "Obiettivi di accessibilità",
-    "obiMainCard.latestUpdate":
-      "Ultimo aggiornamento dati: {{ultimoAggiornamento}}",
     "obiMainCard.subtitle":
-      "Lo strumento con il quale le PA pianificano gli interventi per migliorare l’accessibilità dei servizi web e delle applicazioni mobile.",
-    "obiMainCard.paragraph":
-      "Le pubbliche amministrazioni hanno l'obbligo di pubblicare, entro il 31 marzo di ogni anno, gli obiettivi di accessibilità relativi all'anno corrente, come ribadito anche nelle Linee Guida sull’accessibilità degli strumenti informatici (capitolo 4 paragrafo 2), e lo stato di attuazione del piano per l'utilizzo del telelavoro, come stabilito dal Decreto legge n. 179/2012, articolo 9, comma 7. {{doubleBreak}} Ogni PA compila gli obiettivi elencati e gli interventi ad essi associabili in sei linee di intervento: postazioni di lavoro, siti tematici, sito istituzionale, intranet, formazione e organizzazione del lavoro. {{break}} Scopri di più sugli",
-    "obiMainCard.WCAGlinkText": "obiettivi di accessibilità",
-    "obiMainCard.WCAGlink":
+      "Lo strumento con il quale le PA pianificano gli interventi per migliorare l’accessibilità dei loro servizi digitali",
+    "obiMainCard.paragraph1":
+      "Le PA hanno l'obbligo di pubblicare, entro il 31 marzo di ogni anno, gli obiettivi di accessibilità relativi all'anno corrente e lo stato di attuazione del Piano per l'utilizzo del telelavoro, come stabilito nelle ",
+    "obiMainCard.lineeGuidaAcc":
+      "Linee Guida sull’accessibilità degli strumenti informatici",
+    "obiMainCard.paragraph1b": " e nel ",
+    "obiMainCard.decretoText": "Decreto Legge n. 179/2012",
+    "obiMainCard.paragraph2":
+      "Ogni PA compila gli obiettivi elencati per sei linee di intervento: postazioni di lavoro, siti web tematici, sito intranet, sito web istituzionale, formazione, organizzazione del lavoro. AgID mette a disposizione delle PA lo strumento ",
+    "obiMainCard.paragraph3": "per compilare gli",
+    "obiMainCard.obiText": "obiettivi di accessibilità",
+    "obiMainCard.obiLink":
       "https://www.agid.gov.it/it/design-servizi/accessibilita/obiettivi-accessibilita",
-    "obiMainCard.cardTitle": "Enti che hanno pubblicato un obiettivo",
-    "obiMainCard.cardCaption":
-      "Il numero degli enti che hanno pubblicato un obiettivo di accessibilità nel ",
+    "obiMainCard.cardTitle":
+      "Enti che hanno pubblicato almeno un obiettivo nel {{anno}}",
   },
   en: {
     "obiMainCard.title": "Accessibility objectives",
-    "obiMainCard.latestUpdate": "Last data update: {{ultimoAggiornamento}}",
-    "obiMainCard.subtitle": "The tool through which public administrations plan interventions to improve the accessibility of web services and mobile applications.",
-    "obiMainCard.paragraph": "Public administrations are required to publish accessibility objectives for the current year by March 31 of each year, as reiterated in the Guidelines on the Accessibility of Information Technology Tools (Chapter 4, Section 2), and the implementation status of the telecommuting plan, as established by Legislative Decree No. 179/2012, Article 9, Paragraph 7. {{doubleBreak}} Each public administration compiles the listed objectives and associated interventions in six intervention areas: workstations, thematic websites, institutional website, intranet, training, and work organization. {{break}} Learn more about",
-    "obiMainCard.WCAGlinkText": "Accessibility objectives",
-    "obiMainCard.WCAGlink":
+    "obiMainCard.subtitle":
+      "The tool with which PAs plan interventions to improve the accessibility of their digital services",
+    "obiMainCard.paragraph1":
+      "PAs are required to publish, by March 31 of each year, the accessibility objectives for the current year and the implementation status of the Plan for the use of teleworking, as established in the ",
+    "obiMainCard.lineeGuidaAcc": "Guidelines on the accessibility of IT tools",
+    "obiMainCard.paragraph1b": " and in the ",
+    "obiMainCard.decretoText": "Legislative Decree no. 179/2012",
+    "obiMainCard.paragraph2":
+      "Each PA compiles the objectives listed for six lines of intervention: workstations, thematic websites, intranet site, institutional website, training, work organization. AgID provides PAs with the ",
+    "obiMainCard.paragraph3": "tool to compile the ",
+    "obiMainCard.obiText": "accessibility objectives",
+    "obiMainCard.obiLink":
       "https://www.agid.gov.it/en/design-servizi/web-accessibility",
-    "obiMainCard.cardTitle": "Entities that have published an objective",
-    "obiMainCard.cardCaption": "The number of entities that have published an accessibility objective in ",
+    "obiMainCard.cardTitle":
+      "Entities that have published at least one objective in {{anno}}",
   },
 };

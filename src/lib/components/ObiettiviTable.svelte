@@ -1,10 +1,12 @@
 <script lang="ts">
   import { onMount } from "svelte";
-  import { nf, nf2d } from "../utils";
+  import { nf, nf1d, nf2d, pm } from "../utils";
   import DataTable from "./DataTable.svelte";
   import { t } from "../utils/i18n";
-  
+  import Icon from "./Icon.svelte";
+
   let response;
+  let periodoRiferimento;
   let loading = true;
   const columns = [
     {
@@ -27,7 +29,8 @@
     {
       field: "perc_enti_obiettivi_su_tot",
       label: $t("obiTable.percentuale"),
-      format: (value: any) => nf2d(value) + "%",
+      format: (value: any) => nf1d(value) + "%",
+      formatDownload: (value: any) => nf2d(value) + "%",
       align: "right",
     },
   ];
@@ -35,6 +38,7 @@
     const rs = await fetch("/data/obiettivi_regione.json");
     response = await rs.json();
     loading = false;
+    periodoRiferimento = pm(response?.intestazione?.aggior_ultimo_trimestre);
   });
 </script>
 
@@ -44,11 +48,23 @@
     rows={response?.data}
     defaultSortBy="num_enti_obiettivi"
     title={$t("obiTable.title")}
-    periodoMonitoraggio={response?.intestazione?.anno}
+    periodoMonitoraggio={periodoRiferimento}
     didascalia={true}
   >
     <div slot="didascaliaSlot" class="didascalia">
-      {$t("obiTable.description")}
+      {$t("obiTable.description1")}
+      <a
+        title={$t("layout.externalLink")}
+        target="_blank"
+        rel="noreferrer"
+        href="https://www.indicepa.gov.it/ipa-portale/"
+        >{$t("obiTable.description2")}<Icon
+          name="it it-external-link"
+          variant="primary"
+          size="sm"
+          customClass="ms-1 mb-1"
+        /></a
+      >{$t("obiTable.description3")}
     </div>
   </DataTable>
 {/if}

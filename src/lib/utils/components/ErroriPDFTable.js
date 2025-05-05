@@ -1,13 +1,20 @@
 export default {
   it: {
-    "errPdfTable.title": "Gli errori di accessibilità rilevati da Mauve++ nei PDF",
-    "errPdfTable.description": "In questa sezione è riportata la percentuale dei PDF che non rispettano {{numero}} criteri di successo tra quelli previsti dalla normativa europea UNI CEI EN 301549 che Mauve++ è in grado di valutare in modo automatico. Per ogni criterio è riportata la percentuale dei PDF che non sono conformi.",
+    "errPdfTable.title":
+      "Gli errori rilevati nei documenti PDF per criterio di successo",
+    "errPdfTable.description1":
+      "La tabella mostra i criteri di successo con le più alte percentuali di errore rilevate automaticamente da MAUVE++ nei documenti PDF, per il trimestre di monitoraggio. {{break}} Di tutti i criteri previsti dalla norma tecnica ",
+    "errPdfTable.description2":
+      ", MAUVE++ analizza i {{numero}} che non vengono rispettati con più frequenza.",
     "errPdfTable.criterio": "Criteri di successo",
     "errPdfTable.errori": "Distribuzione errori",
   },
   en: {
-    "errPdfTable.title": "Accessibility errors found by Mauve++ in PDFs",
-    "errPdfTable.description": "This section reports the percentage of PDFs that do not comply with {{numero}} success criteria outlined by the European standard UNI CEI EN 301549, which Mauve++ can automatically evaluate. For each criterion, the percentage of non-compliant PDFs is indicated.",
+    "errPdfTable.title": "Errors detected in PDF documents by success criteria",
+    "errPdfTable.description1":
+      "The table shows the success criteria with the highest error rates automatically detected by MAUVE++ in PDF documents, for the monitoring quarter. {{break}} Of all the criteria provided by the technical standard ",
+    "errPdfTable.description2":
+      ", MAUVE++ analyses the {{numero}} that are not respected most frequently.",
     "errPdfTable.criterio": "Success Criteria",
     "errPdfTable.errori": "Error Distribution",
   },

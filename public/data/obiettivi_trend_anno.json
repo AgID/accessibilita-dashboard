@@ -1,40 +1,49 @@
+{
+  "data": [
     {
-        "data": [
-            {
-                "cod_anno": 2016,
-                "num_enti_obiettivi": 3287
-            },
-            {
-                "cod_anno": 2017,
-                "num_enti_obiettivi": 4879
-            },
-            {
-                "cod_anno": 2018,
-                "num_enti_obiettivi": 5687
-            },
-            {
-                "cod_anno": 2019,
-                "num_enti_obiettivi": 6002
-            },
-            {
-                "cod_anno": 2020,
-                "num_enti_obiettivi": 7151
-            },
-            {
-                "cod_anno": 2021,
-                "num_enti_obiettivi": 9005
-            },
-            {
-                "cod_anno": 2022,
-                "num_enti_obiettivi": 10203
-            },
-            {
-                "cod_anno": 2023,
-                "num_enti_obiettivi": 11225
-            }
-        ],
-        "intestazione": {
-            "periodo_obiettivi": "2016 - 2023",
-            "anno_ultimo_rilevamento": 2023
-        }
+      "cod_anno": 2016,
+      "num_enti_obiettivi": 3287
+    },
+    {
+      "cod_anno": 2017,
+      "num_enti_obiettivi": 4879
+    },
+    {
+      "cod_anno": 2018,
+      "num_enti_obiettivi": 5687
+    },
+    {
+      "cod_anno": 2019,
+      "num_enti_obiettivi": 6002
+    },
+    {
+      "cod_anno": 2020,
+      "num_enti_obiettivi": 7151
+    },
+    {
+      "cod_anno": 2021,
+      "num_enti_obiettivi": 9005
+    },
+    {
+      "cod_anno": 2022,
+      "num_enti_obiettivi": 9806
+    },
+    {
+      "cod_anno": 2023,
+      "num_enti_obiettivi": 11573
+    },
+    {
+      "cod_anno": 2024,
+      "num_enti_obiettivi": 12133
+    },
+    {
+      "cod_anno": 2025,
+      "num_enti_obiettivi": 10989
     }
+  ],
+  "intestazione": {
+    "anno_obiettivi": 2025,
+    "aggior_ultimo_trimestre": "1-2025",
+    "dat_ult_agg_obiettivi": "2025-03-31"
+  }
+}

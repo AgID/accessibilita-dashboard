@@ -2,9 +2,11 @@
   import type { TooltipData } from "../../model/TooltipData";
   import Icon from "./Icon.svelte";
   import Tooltip from "./Tooltip.svelte";
+  import { t } from "../utils/i18n";
 
   export let title: string;
   export let caption: string = "";
+  export let periodoMonitoraggio = "";
   export let kpi: string;
   export let imgLink: string = "";
   export let linkText: string = "";
@@ -12,15 +14,18 @@
   export let height: string = "";
   export let customStyle: string = "";
   export let tooltipData: TooltipData = null;
-  export let cardWithIcon: boolean = false
-  export let iconName: string = ""
-  export let iconSize: string = ""
+  export let cardWithIcon: boolean = false;
+  export let iconName: string = "";
+  export let iconSize: string = "";
 
   $: mainHeight = height ? `height:${height};` : "";
 </script>
 
 <div class="card-box mt-0" style={`${mainHeight}; ${customStyle}`}>
-  <div class="{imgLink ? "" : "text-center"} py-4 px-3 px-md-0" class:vertical-align={height}>
+  <div
+    class="{imgLink ? '' : 'text-left'} py-4 px-3 mx-lg-3"
+    class:vertical-align={height}
+  >
     {#if imgLink}
       <div class="row">
         <div class="col-3 customBoxIcon">
@@ -32,50 +37,49 @@
           />
         </div>
         <div class="col-9 ps-md-0 pe-md-3 ps-lg-1">
-          <p class="cardTitle greyText pe-md-4">
+          <p class="display4 pe-md-4">
             {title}
             {#if tooltipData?.id}
               <Tooltip id={tooltipData.id} tooltip={tooltipData.content} />
             {/if}
           </p>
-          <p class="cardMainData py-2" style="color: #0066cc">{kpi}</p>
-          <div class="captionUpdateDarker">
-            {caption}
-          </div>
+          <div class="cardMainData py-1" style="color: #0066cc">{kpi}</div>
         </div>
       </div>
-    
     {:else if cardWithIcon}
-    <div class="row mx-0">
-      <div class="col-3 p-0 customBoxIcon">
-        <Icon name={iconName} variant="primary" size={iconSize} />
-      </div>
-      <div class="col-9 p-0 pe-xl-4">
+      <div class="row mx-0">
+        <div class="col-3 p-0 customBoxIcon">
+          <Icon name={iconName} variant="primary" size={iconSize} />
+        </div>
+        <div class="col-9 p-0 pe-xl-4">
           <p class="cardTitle greyText text-start">{title}</p>
           <p class="cardMainData my-2 text-start" style="color: #0066cc">
             {kpi}
           </p>
+        </div>
       </div>
-    </div>
     {:else}
-      <div class="cardTitle mx-lg-3 px-xl-3 py-3 d-inline-flex greyText">
+      <div class="display4 pb-2 d-inline-flex">
         {title}
         {#if tooltipData?.id}
           <Tooltip id={tooltipData.id} tooltip={tooltipData.content} />
         {/if}
       </div>
-      <div class="cardMainData py-1">{kpi}</div>
-      <div
-        class="captionUpdateDarker pt-0 pt-sm-4 px-1 px-sm-5 mx-md-5 px-lg-5 mx-lg-2"
-      >
-        {caption}
-      </div>
+      {#if periodoMonitoraggio}
+        <div class="periodoLabel p-0 m-0">
+          {$t("layout.periodoMonitoraggio")}
+          <span class="periodoDate">
+            {periodoMonitoraggio}
+          </span>
+        </div>
+      {/if}
+      <div class="cardMainData pt-4 pb-3">{kpi}</div>
     {/if}
   </div>
   {#if linkText && href}
     <div class="kpi-footer cursor">
       <a {href}
-        ><span class="text"
+        ><span class="ps-3"
           >{linkText}
           <Icon name="it it-arrow-right" variant="white" size="sm" /></span
         ></a
@@ -103,17 +107,14 @@
     }
   }
 
-
-.customBoxIcon {
-  padding-top: 8px;
-}
+  .customBoxIcon {
+    padding-top: 8px;
+  }
 
   @media screen and (max-width: 400px) {
     .customBoxIcon {
       padding-left: 0 !important;
       padding-right: 0 !important;
-      
     }
   }
-
 </style>

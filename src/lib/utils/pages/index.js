@@ -1,83 +1,121 @@
 export default {
   it: {
     "homepage.pagename": "Monitoraggio Accessibilità",
-    "homepage.latestUpdate": "Ultimo aggiornamento ",
-    "homepage.alert": "Questo sito verrà spostato a breve sul nuovo indirizzo ",
     "homepage.monitoraggioTitle": "Monitoraggio accessibilità",
-    "homepage.monitoraggioSubtitle": "Monitorare l’accessibilità permette di intervenire per rendere le informazioni fruibili a tutti, senza discriminazioni.",
-    "homepage.monitoraggioParagraphPt1": "Tramite un progetto condiviso tra AgID e il CNR è stato implementato un sistema automatizzato che supporta il",
-    "homepage.monitoraggioSempLink": "monitoraggio di accessibilità semplificato",
-    "homepage.monitoraggioParagraphPt2": " dei siti delle PA e dei PDF messi a disposizione all’interno dei servizi web. {{break}} Le informazioni prodotte dal monitoraggio automatizzato vengono arricchite con ulteriori dettagli acquisiti dal sito Indice PA e ISTAT. {{doubleBreak}} Oltre al monitoraggio semplificato, AgID svolge il ",
+    "homepage.monitoraggioSubtitle":
+      "Monitorare l’accessibilità permette di intervenire per rendere le informazioni fruibili a tutti, senza discriminazioni",
+    "homepage.monitoraggioParagraphPt1":
+      "Il monitoraggio avviene in forma semplificata e in forma approfondita. {{doubleBreak}} Il ",
+    "homepage.monitoraggioSempLink": "monitoraggio semplificato",
+    "homepage.monitoraggioParagraphPt2a":
+      " riguarda i siti web e i documenti PDF delle Pubbliche Amministrazioni. È realizzato ogni tre mesi attraverso ",
+    "homepage.monitoraggioParagraphPt2b":
+      " - Multiguideline Accessibility and Usability Validation Environment, un sistema automatizzato sviluppato dal Consiglio Nazionale delle Ricerche. {{doubleBreak}} Il ",
     "homepage.monitoraggioAppLink": "monitoraggio approfondito",
-    "homepage.monitoraggioParagraphPt3": " dei siti web, dei PDF e delle APP delle PA condotto manualmente da esperti di accessibilità.",
+    "homepage.monitoraggioParagraphPt3":
+      " è condotto ogni anno, in maniera manuale, da un gruppo di esperti di accessibilità. Riguarda siti web, documenti PDF e app delle PA ed è svolto utilizzando più strumenti e metodologie, con un’analisi accurata del codice web e l’uso di tecnologie assistive.",
     "homepage.monitoraggioCardTitle": "Pagine web valutate",
-    "homepage.monitoraggioCard3Title": "Siti valutati",
-    "homepage.monitoraggioCard2Title": "PDF valutati",
+    "homepage.monitoraggioCard3Title": "Siti web valutati",
+    "homepage.monitoraggioCard2Title": "Documenti PDF valutati",
     "homepage.erroriTitle": "Errori di accessibilità",
-    "homepage.erroriSubtitle": "Gli errori di accessibilità identificabili",
-    "homepage.erroriParagraphPt1": "Le",
-    "homepage.erroriParagraphPt2": "sono le linee guida pubblicate dal W3C (World Wide Web Consortium) e definiscono i principi per la creazione di siti web accessibili a tutti, comprese le persone con disabilità. Il sistema di valutazione dell'accessibilità dei siti web si basa sulla verifica (sia manuale che automatica) di un insieme di criteri di successo distinti per tre livelli di conformità: A, AA e AAA. A livello normativo il soddisfacimento dei livelli A e AA è obbligatorio. {{doubleBreak}} Gli ",
-    "homepage.erroriParagraphPt3": "errori del monitoraggio semplificato",
-    "homepage.erroriParagraphPt4": "vengono identificati dal sistema automatico",
-    "homepage.erroriParagraphPt5": ", in grado di analizzare autonomamente {{totErrori}} dei 50 criteri di successo per la valutazione dell’accessibilità dei siti della PA, appartenenti ai livelli A e AA. {{doubleBreak}} Gli ",
-    "homepage.erroriParagraphPt6": "errori del monitoraggio approfondito",
-    "homepage.erroriParagraphPt7": "vengono identificati tramite un’analisi manuale condotta dagli esperti di accessibilità su tutti i 50 criteri di successo previsti per i siti web e su tutti i 41 criteri di successo previsti per le APP.",
+    "homepage.erroriSubtitle":
+      "Monitorare l’accessibilità permette di identificare gli errori più frequenti e introdurre interventi correttivi",
+    "homepage.erroriParagraph1":
+      "Gli errori di accessibilità su siti web, documenti PDF e app sono individuati tramite il monitoraggio semplificato e il monitoraggio approfondito, tenendo conto delle prescrizioni della norma tecnica ",
+    "homepage.erroriParagraph2": " richiamata nella ",
+    "homepage.erroriDirettiva": "Direttiva europea 2016/2102",
+    "homepage.erroriDirettivaLink":
+      "https://eur-lex.europa.eu/IT/legal-content/summary/accessibility-of-public-sector-websites-and-mobile-apps.html",
+    "homepage.erroriParagraph3":
+      "La norma tecnica UNI EN 301 549 incorpora le ",
+    "homepage.erroriParagraph4":
+      " - Web Content Accessibility Guidelines, linee guida internazionali per creare siti web, documenti PDF e app accessibili da chiunque. {{doubleBreak}} Le WCAG sono pubblicate dal World Wide Web Consortium (W3C) e individuano dei criteri di successo da soddisfare, per i livelli di conformità A, AA e AAA. {{doubleBreak}} La legge italiana prescrive di rispettare i criteri di livello A e AA, che per i siti web sono 50. Il sistema automatizzato MAUVE++ analizza automaticamente {{totErrori}} di questi 50 criteri di successo obbligatori.",
     "homepage.erroriWCAGLink": "https://www.w3.org/Translations/WCAG21-it/",
-    "homepage.erroriMAUVElink": "https://mauve.isti.cnr.it/",
-    "homepage.dichiarazioniAGIDlink": "https://www.agid.gov.it/it/design-servizi/accessibilita/dichiarazione-accessibilita",
+    "homepage.dichiarazioniAGIDlink":
+      "https://www.agid.gov.it/it/design-servizi/accessibilita/dichiarazione-accessibilita",
     "homepage.dichiarazioniTitle": "Dichiarazione di accessibilità",
-    "homepage.dichiarazioniSubtitle": "Cos'è la dichiarazione di accessibilità?",
-    "homepage.dichiarazioniParagraph": "La dichiarazione di accessibilità è lo strumento attraverso il quale le Amministrazioni effettuano una autovalutazione dello stato di accessibilità di ogni sito web e applicazione mobile di cui sono titolari. {{doubleBreak}} Le dichiarazioni non sono oggetto del processo di monitoraggio ma devono essere compilate e pubblicate per adempimento normativo (9 della Legge n. 4/2004) da ogni singola PA. {{break}} Per ulteriori informazioni: ",
-    "homepage.dichiarazioniLink": "Dichiarazione di accessibilità",
-    "homepage.dichiarazioniCardTitle": "Totale delle dichiarazioni di accessibilità compilate",
-    "homepage.dichiarazioniPageLink": "Scopri le dichiarazioni",
+    "homepage.dichiarazioniSubtitle":
+      "Cos'è la dichiarazione di accessibilità?",
+    "homepage.dichiarazioniParagraph1": "La ",
+    "homepage.dichiarazioniLink": "dichiarazione di accessibilità",
+    "homepage.dichiarazioniParagraph2":
+      "è lo strumento con cui una PA rende noto lo stato di accessibilità di un suo sito web o di un'app. {{doubleBreak}} La dichiarazione di accessibilità va compilata e pubblicata, entro il 23 settembre di ogni anno, per ciascun sito web e ciascuna app di cui ogni Amministrazione è titolare ",
+    "homeMain.dichiarazioniLegge": "Legge n. 4/2004",
+    "homepage.dichiarazioniCardTitle":
+      "Totale delle dichiarazioni di accessibilità compilate dal 2020",
+    "homepage.dichiarazioniPageLink": "Vai alle dichiarazioni",
     "homepage.obiettiviTitle": "Obiettivi di accessibilità",
     "homepage.obiettiviSubtitle": "Cosa sono gli obiettivi di accessibilità?",
-    "homepage.obiettiviParagraph": "Gli obiettivi di accessibilità delle pubbliche amministrazioni mirano a migliorare l’accessibilità dei servizi web e delle applicazioni mobile di cui sono titolari a tutti i cittadini, indipendentemente dalle loro abilità, affinché possano accedere e fruire dei servizi pubblici in modo equo, efficace e senza discriminazioni. {{doubleBreak}} Gli obiettivi di accessibilità vengono pubblicati dalle Pubbliche Amministrazione obbligatoriamente entro il 31 Marzo di ogni anno. {{break}} Per ulteriori informazioni: ",
-    "homepage.obiettiviLink": "Obiettivi di accessibilità",
-    "homepage.obiettiviCardTitle": "Totale degli obiettivi di accessibilità dichiarati nel {{anno}}",
-    "homepage.obiettiviPageLink": "Scopri gli obiettivi",
-    "homepage.obiettiviAGIDlink": "https://www.agid.gov.it/it/design-servizi/accessibilita/obiettivi-accessibilita",
-
+    "homepage.obiettiviParagraph1": "Gli ",
+    "homepage.obiettiviLink": "obiettivi di accessibilità",
+    "homepage.obiettiviParagraph2":
+      " indicano come una PA intende migliorare l’accessibilità dei servizi web e delle app di cui è titolare, per fare in modo che siano fruibili da chiunque in modo efficace, equo e senza discriminazioni. {{doubleBreak}} Gli obiettivi di accessibilità vengono pubblicati dalle PA entro il 31 marzo di ogni anno",
+    "homepage.obiettiviDecreto": "Decreto Legge n. 179/2012",
+    "homepage.obiettiviParagraph3":
+      " e comprendono anche interventi per migliorare l'organizzazione del lavoro e la formazione del personale.",
+    "homepage.obiettiviCardTitle":
+      "Totale degli obiettivi di accessibilità dichiarati nel {{anno}}",
+    "homepage.obiettiviPageLink": "Vai agli obiettivi",
+    "homepage.obiettiviAGIDlink":
+      "https://www.agid.gov.it/it/design-servizi/accessibilita/obiettivi-accessibilita",
   },
   en: {
     "homepage.pagename": "Accessibility Monitoring",
-    "homepage.latestUpdate": "Last update ",
-    "homepage.alert": "This site will soon be moved to the new address ",
     "homepage.monitoraggioTitle": "Accessibility monitoring",
-    "homepage.monitoraggioSubtitle": "Monitoring accessibility allows for intervention to make information accessible to everyone, without discrimination.",
-    "homepage.monitoraggioParagraphPt1": "Through a shared project between AgID and CNR, an automated system has been implemented to support the ",
-    "homepage.monitoraggioSempLink": "simplified accessibility monitoring",
-    "homepage.monitoraggioParagraphPt2": " of public administration websites and PDFs provided within web services. {{break}} The information generated by the automated monitoring is enriched with additional details acquired from the Indice PA and ISTAT websites. {{doubleBreak}} In addition to simplified monitoring, AgID carries out ",
+    "homepage.monitoraggioSubtitle":
+      "Monitoring accessibility allows for intervention to make information accessible to everyone, without discrimination",
+    "homepage.monitoraggioParagraphPt1":
+      "Monitoring takes place in a simplified and in-depth form. {{doubleBreak}} The ",
+    "homepage.monitoraggioSempLink": "simplified monitoring",
+    "homepage.monitoraggioParagraphPt2a":
+      " concerns the websites and PDF documents of the Public Administrations. It is carried out every three months through ",
+    "homepage.monitoraggioParagraphPt2b":
+      " - Multiguideline Accessibility and Usability Validation Environment, an automated system developed by the National Research Council. {{doubleBreak}} The ",
     "homepage.monitoraggioAppLink": "in-depth monitoring",
-    "homepage.monitoraggioParagraphPt3": " of PA websites, PDFs and APPs conducted manually by accessibility experts.",
+    "homepage.monitoraggioParagraphPt3":
+      "is conducted every year, manually, by a group of accessibility experts. It concerns websites, PDF documents and PA apps and is carried out using multiple tools and methodologies, with an accurate analysis of the code web and the use of assistive technologies.",
     "homepage.monitoraggioCardTitle": "Web pages evaluated",
     "homepage.monitoraggioCard3Title": "Evaluated websites",
-    "homepage.monitoraggioCard2Title": "PDF evaluated",
+    "homepage.monitoraggioCard2Title": "PDF documents evaluated",
     "homepage.erroriTitle": "Accessibility errors",
-    "homepage.erroriSubtitle": "Identifiable Accessibility Errors",
-    "homepage.erroriParagraphPt1": "The",
-    "homepage.erroriParagraphPt2": "are guidelines published by the W3C (World Wide Web Consortium) and define principles for creating websites accessible to everyone, including individuals with disabilities. The website accessibility evaluation system is based on the verification of a set of success criteria, both manually and automatically, categorized into three levels of compliance: A, AA, and AAA. From a regulatory standpoint, meeting levels A and AA is mandatory. {{doubleBreak}} The ",
-    "homepage.erroriParagraphPt3": "simplified monitoring errors",
-    "homepage.erroriParagraphPt4": " are identified by the automatic system",
-    "homepage.erroriParagraphPt5": ", capable of independently analyzing {{totErrori}} of the 50 success criteria for evaluating the accessibility of PA sites, belonging to levels A and AA. {{doubleBreak}} The ",
-    "homepage.erroriParagraphPt6": "in-depth monitoring errors",
-    "homepage.erroriParagraphPt7": " are identified through a manual analysis conducted by accessibility experts on all 50 success criteria for websites and on all 41 success criteria for APPs.",
+    "homepage.erroriSubtitle":
+      "Monitoring accessibility allows you to identify the most frequent errors and introduce corrective measuress",
+    "homepage.erroriParagraph1":
+      "Accessibility errors on websites, PDF documents and apps are identified through simplified monitoring and in-depth monitoring, taking into account the requirements of the technical standard",
+    "homepage.erroriParagraph2": " referred to in the ",
+    "homepage.erroriDirettiva": "European Directive 2016/2102",
+    "homepage.erroriDirettivaLink":
+      "https://eur-lex.europa.eu/IT/legal-content/summary/accessibility-of-public-sector-websites-and-mobile-apps.html",
+    "homepage.erroriParagraph3":
+      "The technical standard UNI EN 301 549 incorporates the ",
+    "homepage.erroriParagraph4":
+      " - Web Content Accessibility Guidelines, international guidelines for creating websites, PDF documents and apps accessible by anyone. {{doubleBreak}} The WCAG are published by the World Wide Web Consortium (W3C) and identify criteria successful to satisfy, for the A, AA and AAA compliance levels. {{doubleBreak}} Italian law requires compliance with the A and AA level criteria, which for websites are 50. The MAUVE++ automated system automatically analyzes {{totErrori}} of these 50 mandatory success criteria.",
     "homepage.erroriWCAGLink": "https://www.w3.org/TR/WCAG21/",
-    "homepage.erroriMAUVElink": "https://mauve.isti.cnr.it/",
-    "homepage.dichiarazioniAGIDlink": "https://www.agid.gov.it/en/design-servizi/web-accessibility",
+    "homepage.dichiarazioniAGIDlink":
+      "https://www.agid.gov.it/en/design-servizi/web-accessibility",
     "homepage.dichiarazioniTitle": "Accessibility statement",
     "homepage.dichiarazioniSubtitle": "What is an accessibility statement?",
-    "homepage.dichiarazioniParagraph": "The accessibility statement is the tool through which administrations perform a self-assessment of the accessibility status of each website and mobile application they own. {{doubleBreak}} Statements are not subject to the monitoring process but must be completed and published for regulatory compliance (Article 9 of Law No. 4/2004) by each individual public administration. {{break}} For further information:",
-    "homepage.dichiarazioniLink": "Accessibility Statement",
-    "homepage.dichiarazioniCardTitle": "Total accessibility statements completed",
-    "homepage.dichiarazioniPageLink": "Explore the statement",
+    "homepage.dichiarazioniParagraph1": "The ",
+    "homepage.dichiarazioniLink": "accessibility statement",
+    "homepage.dichiarazioniParagraph2":
+      "is the tool with which a PA makes known the accessibility status of its website or app. {{doubleBreak}} The accessibility statement must be completed and published by 23 September every year, for each website and each app owned by each Administration",
+    "homeMain.dichiarazioniLegge": "Law no. 4/2004",
+    "homepage.dichiarazioniCardTitle":
+      "Total accessibility statements completed since 2020",
+    "homepage.dichiarazioniPageLink": "Go to the statements",
     "homepage.obiettiviTitle": "Accessibility objectives",
     "homepage.obiettiviSubtitle": "What are accessibility objectives?",
-    "homepage.obiettiviParagraph": "The accessibility objectives of public administrations aim to improve the accessibility of the web services and mobile applications they own for all citizens, regardless of their abilities, so that they can access and use public services fairly, effectively, and without discrimination. {{doubleBreak}} Accessibility objectives are mandatory for public administrations to publish by March 31st of each year. {{break}} For further information:",
-    "homepage.obiettiviLink": "Accessibility Objectives",
-    "homepage.obiettiviCardTitle": "Total accessibility objectives declared in {{anno}}",
-    "homepage.obiettiviPageLink": "Explore the objectives",
-    "homepage.obiettiviAGIDlink": "https://www.agid.gov.it/en/design-servizi/web-accessibility",
+    "homepage.obiettiviParagraph1": "The ",
+    "homepage.obiettiviLink": "accessibility objectives",
+    "homepage.obiettiviParagraph2":
+      " indicate how a PA intends to improve the accessibility of the web services and apps it owns, to ensure that they can be used by anyone effectively, fairly and without discrimination. {{doubleBreak}} Accessibility objectives are published by PAs by March 31st of each year",
+    "homepage.obiettiviDecreto": "Legislative Decree no. 179/2012",
+    "homepage.obiettiviParagraph3":
+      " and also include interventions to improve work organization and staff training.",
+    "homepage.obiettiviCardTitle":
+      "Total accessibility objectives declared in {{anno}}",
+    "homepage.obiettiviPageLink": "Go to the objectives",
+    "homepage.obiettiviAGIDlink":
+      "https://www.agid.gov.it/en/design-servizi/web-accessibility",
   },
 };

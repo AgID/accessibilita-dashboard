@@ -16,7 +16,7 @@
     <MainCard />
   </div>
 
-  <HalfSitiApp/>
+  <HalfSitiApp />
 
   <div
     class="d-flex flex-wrap container px-0 justify-content-between flex-wrap align-items-stretch"
@@ -32,9 +32,8 @@
     class="container mb-5"
     style="padding-left: 0 !important; padding-right: 0 !important;"
   >
-  <PieChart/>
+    <PieChart />
   </div>
-
 </section>
 
 <style lang="scss">

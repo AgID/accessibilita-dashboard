@@ -1,20 +1,24 @@
 export default {
   it: {
-    "dicAutoTema.title": "L’autovalutazione dei siti tematici delle PA",
-    "dicAutoTema.tableDescription": 'La tabella riporta il numero di siti web per ciascuno dei tre possibili esiti dell’autovalutazione di accessibilità. Il sito è "conforme" se non è stato rilevato alcun errore, "parzialmente conforme" se gli errori sono inferiori al 50% dei criteri di successo, "non conforme" se gli errori superano il 50% dei criteri di successo.',
-    "dicAutoTema.chartDescription": 'Il grafico riporta il numero di siti web per ciascuno dei tre possibili esiti dell’autovalutazione di accessibilità. Il sito è "conforme" se non è stato rilevato alcun errore, "parzialmente conforme" se gli errori sono inferiori al 50% dei criteri di successo, "non conforme" se gli errori superano il 50% dei criteri di successo.',
+    "dicAutoTema.title":
+      "L'autovalutazione dello stato di conformità dei siti web tematici delle PA",
+    "dicAutoTema.chartDescription":
+      "Il grafico mostra i tre possibili esiti dell’autovalutazione contenuta nella dichiarazione di accessibilità e il numero di siti web tematici per ciascun esito. {{break}} Un sito web è dichiarato “conforme” se non è stato rilevato alcun errore di accessibilità, cioè se i punti di controllo soddisfatti sono pari al 100%; è dichiarato “parzialmente conforme” se i punti di controllo soddisfatti sono superiori al 50%, ma inferiori al 100%; è dichiarato “non conforme” se i punti di controllo soddisfatti sono inferiori al 50%.",
+    "dicAutoTema.tableDescription":
+      "La tabella mostra i tre possibili esiti dell’autovalutazione contenuta nella dichiarazione di accessibilità e il numero di siti web tematici per ciascun esito. {{break}} Un sito web è dichiarato “conforme” se non è stato rilevato alcun errore di accessibilità, cioè se i punti di controllo soddisfatti sono pari al 100%; è dichiarato “parzialmente conforme” se i punti di controllo soddisfatti sono superiori al 50%, ma inferiori al 100%; è dichiarato “non conforme” se i punti di controllo soddisfatti sono inferiori al 50%.",
     "dicAutoTema.conformita": "Stato di conformità",
-    "dicAutoTema.numero": "Numero di siti",
-    "dicAutoTema.timeframe": "Periodo monitoraggio: ",
-    "dicAutoTema.chartLabel": "Siti: ",
+    "dicAutoTema.numero": "Numero di siti web",
+    "dicAutoTema.chartLabel": "Siti web: ",
   },
   en: {
-    "dicAutoTema.title": "Self-assessment of thematic websites of PAs",
-    "dicAutoTema.tableDescription": 'The table displays the number of websites for each of the three possible outcomes of accessibility self-assessment. The website is considered "compliant" if no errors are detected, "partially compliant" if errors are less than 50% of the success criteria, and "non-compliant" if errors exceed 50% of the success criteria.',
-    "dicAutoTema.chartDescription": 'The chart displays the number of websites for each of the three possible outcomes of accessibility self-assessment. The website is considered "compliant" if no errors are detected, "partially compliant" if errors are less than 50% of the success criteria, and "non-compliant" if errors exceed 50% of the success criteria.',
+    "dicAutoTema.title":
+      "Self-assessment of compliance status of thematic websites of PAs",
+    "dicAutoTema.chartDescription":
+      "The graph shows the three possible outcomes of the self-assessment contained in the accessibility statement and the number of thematic websites for each outcome. {{break}} A website is declared “compliant” if no accessibility errors have been detected, i.e. if the satisfied checkpoints are equal to 100%; it is declared “partially compliant” if the satisfied checkpoints are more than 50%, but less than 100%; it is declared “non-compliant” if the satisfied checkpoints are less than 50%.",
+    "dicAutoTema.tableDescription":
+      "The table shows the three possible outcomes of the self-assessment contained in the accessibility statement and the number of thematic websites for each outcome. {{break}} A website is declared “compliant” if no accessibility errors have been detected, i.e. if the satisfied checkpoints are equal to 100%; it is declared “partially compliant” if the satisfied checkpoints are more than 50%, but less than 100%; it is declared “non-compliant” if the satisfied checkpoints are less than 50%.",
     "dicAutoTema.conformita": "Compliance status",
     "dicAutoTema.numero": "Websites",
-    "dicAutoTema.timeframe": "Monitoring period: ",
     "dicAutoTema.chartLabel": "Websites: ",
   },
 };

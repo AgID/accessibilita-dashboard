@@ -10,8 +10,8 @@
   import { onMount } from "svelte";
   export let columns: any[];
   export let rows: any[];
+  export let csvRows: any[] = [];
   export let title: string = "";
-  export let dataMonitoraggio = "";
   export let periodoMonitoraggio = "";
   export let defaultSortBy = "";
   export let descending = false;
@@ -41,8 +41,8 @@
       a[column] < b[column]
         ? -1 * sortModifier
         : a[column] > b[column]
-        ? 1 * sortModifier
-        : 0;
+          ? 1 * sortModifier
+          : 0;
     rowsToShow = rowsToShow.sort(sort);
   };
 
@@ -88,7 +88,7 @@
     }
   }
   function jsonToCSV() {
-    const items = rows;
+    const items = csvRows.length > 0 ? csvRows : rows;
     const replacer = (key, value) => (value === null ? "" : value);
     const header = columns.map((c) => c.label);
     const csv = [
@@ -100,8 +100,8 @@
               col.formatDownload
                 ? col.formatDownload(row[col.field])
                 : col.format
-                ? col.format(row[col.field])
-                : row[col.field],
+                  ? col.format(row[col.field])
+                  : row[col.field],
               replacer
             )
           )
@@ -124,24 +124,26 @@
   }
 
   function getMappedName(name) {
-  const mapping = {
-    'monitoraggio_it': ['monitoraggio'],
-    'monitoraggio_en': ['monitoring'],
-    'dichiarazioni': ['dichiarazioni', 'statement'],
-    'errori_it': ['errori'],
-    'errori_en': ['errors'],
-    'enti_monitorati_it': ['Pa_valutate'],
-    'enti_monitorati_en': ['evaluated_Pa'],
-    'obiettivi': ['obiettivi', 'objectives']
-  };
-  
-  for (const key in mapping) {
-    if (mapping[key].includes(name)) {
-      return key;
-    }
-  }
+    const mapping = {
+      monitoraggio_it: ["monitoraggio"],
+      monitoraggio_en: ["monitoring"],
+      dichiarazioni_it: ["dichiarazioni"],
+      dichiarazioni_en: ["statement"],
+      errori_it: ["errori"],
+      errori_en: ["errors"],
+      enti_monitorati_it: ["Pa_valutate"],
+      enti_monitorati_en: ["evaluated_Pa"],
+      obiettivi_it: ["obiettivi"],
+      obiettivi_en: ["objectives"],
+    };
 
-  return name;
+    for (const key in mapping) {
+      if (mapping[key].includes(name)) {
+        return key;
+      }
+    }
+
+    return name;
   }
 
   async function openDataDownload(filename, ext, downloadFilename) {
@@ -164,14 +166,14 @@
   }
 
   function filename(name) {
-    if (name == "Monitoraggio") return "monitoraggio";
-    else if (name == "Monitoring") return "monitoring";
+    if (name == "Monitoraggio semplificato") return "monitoraggio";
+    else if (name == "Simplified monitoring") return "monitoring";
     else if (name == "Dichiarazione di accessibilità") return "dichiarazioni";
     else if (name == "Accessibility statement") return "statement";
     else if (name == "Errori") return "errori";
     else if (name == "Errors") return "errors";
-    else if (name == "Elenco Pa valutate da Mauve") return "Pa_valutate";
-    else if (name == "List of PAs evaluated by Mauve") return "evaluated_Pa";
+    else if (name == "Elenco PA valutate da MAUVE++") return "Pa_valutate";
+    else if (name == "List of PAs evaluated by MAUVE++") return "evaluated_Pa";
     else if (name == "Obiettivi di accessibilità") return "obiettivi";
     else if (name == "Accessibility objectives") return "objectives";
     else return "file_non_trovato";
@@ -186,9 +188,11 @@
 <svelte:window bind:innerWidth />
 <div class="mb-lg-5">
   <div class="card-box pt-4 pb-2 px-2 px-sm-4">
-    <div class="row justify-content-between ">
+    <div class="row justify-content-between">
       {#if title}
-        <div class="cardTitle justify-content-start d-inline-flex col-lg-10 greyText">
+        <div
+          class="col-xl-10 cardTitle mb-2 justify-content-start d-inline-flex greyText"
+        >
           {title}
           {#if tooltipData?.id}
             <Tooltip
@@ -199,25 +203,14 @@
           {/if}
         </div>
       {/if}
-    </div>
-    {#if didascalia}
-      <div class="mt-2">
-        <p class="mb-2"><slot name="didascaliaSlot" /></p>
-      </div>
-    {/if}
-    <div class="d-flex justify-content-between">
-      {#if periodoMonitoraggio}
-        <div class="caption text-start d-inline-block">
-          {$t("dataTable.timeframe")}
-          {periodoMonitoraggio}
-        </div>
-      {/if}
       {#if canDownload}
-        <div class="text-end download-text fw-normal mb-2 d-inline-block">
+        <div
+          class="col-xl-2 text-xl-end download-text fw-normal mb-2 d-inline-block"
+        >
           <button
             class="download-buttons"
             on:click={downloadCSV}
-            title={$t("dataTable.generalDownload")}{`${title}.csv`}
+            title="{$t('dataTable.generalDownload')}{`${title}.csv`}"
           >
             CSV
             <img
@@ -227,28 +220,37 @@
             />
           </button>
           <button
-          class="download-buttons"
-          on:click={downloadPDF}
-          title={$t("dataTable.generalDownload")}{`${title}.pdf`}
-        >
-          PDF
-          <img
-            class="download-icon"
-            alt={$t("dataTable.pdfDownload")}
-            src="/icons/icon-arrow-down-1.png"
-          />
-        </button>
+            class="download-buttons"
+            on:click={downloadPDF}
+            title="{$t('dataTable.generalDownload')}{`${title}.pdf`}"
+          >
+            PDF
+            <img
+              class="download-icon"
+              alt={$t("dataTable.pdfDownload")}
+              src="/icons/icon-arrow-down-1.png"
+            />
+          </button>
         </div>
       {/if}
     </div>
-    {#if dataMonitoraggio}
-      <div class="captionUpdateLighter text-start pb-4">
-        {$t("dataTable.update")}
-        {df(dp(dataMonitoraggio))}
+    <div class="d-flex justify-content-between">
+      {#if periodoMonitoraggio}
+        <p class="periodoLabel text-start d-inline-block">
+          {$t("layout.periodoMonitoraggio")}
+          <span class="periodoDate">
+            {periodoMonitoraggio}
+          </span>
+        </p>
+      {/if}
+    </div>
+    {#if didascalia}
+      <div class="mt-2">
+        <p class="mb-2"><slot name="didascaliaSlot" /></p>
       </div>
     {/if}
 
-    <div class="table-responsive">
+    <div class="table-responsive mt-3">
       <table class="table mb-4" aria-rowcount={rows.length}>
         <thead>
           <tr>
@@ -258,14 +260,17 @@
                   aria-sort={sortBy.col == c.field && sortBy.ascending
                     ? "ascending"
                     : sortBy.col == c.field && !sortBy.ascending
-                    ? "descending"
-                    : "none"}
+                      ? "descending"
+                      : "none"}
                   class="head caption tableHeader align-middle selectableColumns"
                   scope="col"
                   style="text-align: {c.align ||
                     'start'} !important; height: 2em !important; white-space: wrap;"
                   on:click={() => {
-                    if (c.field == `criterio_di_successo_${$locale}` || c.field == `criterio_di_successo_norm_e_${$locale}`)
+                    if (
+                      c.field == `criterio_di_successo_${$locale}` ||
+                      c.field == `criterio_di_successo_norm_e_${$locale}`
+                    )
                       successCriteriaSort(c.field);
                     else sort(c.field);
                   }}
@@ -315,8 +320,8 @@
                   aria-sort={sortBy.col == c.field && sortBy.ascending
                     ? "ascending"
                     : sortBy.col == c.field && !sortBy.ascending
-                    ? "descending"
-                    : "none"}
+                      ? "descending"
+                      : "none"}
                   class="head caption tableHeader align-middle"
                   scope="col"
                   style="text-align: {c.align ||
@@ -362,13 +367,12 @@
                       <button
                         class="download-buttons"
                         on:click={() =>
-                            openDataDownload(
+                          openDataDownload(
                             filename(row[`nome_${$locale}`]),
                             "xml",
                             `${filename(row[`nome_${$locale}`])}_${row[`periodo_${$locale}`]}`
                           )}
-                          on:mousedown={() => {
-                          }}
+                        on:mousedown={() => {}}
                         aria-hidden="false"
                         title={`${filename(row[`nome_${$locale}`])}_${row[`periodo_${$locale}`]}`}
                       >
@@ -396,7 +400,7 @@
                     </td>
                   {:else}
                     <td role="cell" align={col.align || "left"}>
-                      {#if col.field == `criterio_di_successo_${$locale}` || col.field == `criterio_di_successo_norm_e_${$locale}` || col.field == `des_success_criteria_${$locale}`}
+                      {#if (col.field == `criterio_di_successo_${$locale}` || col.field == `criterio_di_successo_norm_e_${$locale}` || col.field == `des_success_criteria_${$locale}`) && rows[i].link}
                         <a
                           title={$t("layout.externalLink")}
                           target="_blank"
@@ -405,7 +409,7 @@
                           >{format(col, row)}<Icon
                             name="it it-external-link"
                             variant="primary"
-                            size="xs"
+                            size="sm"
                             customClass="ms-1 mb-1"
                           /></a
                         >

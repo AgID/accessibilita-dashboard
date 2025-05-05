@@ -13,7 +13,6 @@
   import SitiTematiciTable from "../../../lib/components/dichiarazioni/SitiTematiciTable.svelte";
   import AutovalutazioniConfronto from "../../../lib/components/dichiarazioni/AutovalutazioniConfronto.svelte";
   import { t } from "../../../lib/utils/i18n";
-
 </script>
 
 <svelte:head>
@@ -33,7 +32,7 @@
   </div>
 
   <SITIAutovalutazioni />
-  <div class="container">
+  <div class="container pt-4">
     <SitiIstituzionaliMain />
   </div>
 
@@ -42,27 +41,25 @@
     class="container pb-3"
     style="padding-left: 0 !important; padding-right: 0 !important;"
   >
-  <AutovalutazioneIstituzionali/>
-  <br>
+    <AutovalutazioneIstituzionali />
+    <br />
     <SitiIstituzionaliTable />
   </div>
 
-
   <div class="backgroundLightBlue my-5">
-   <div class="container pb-4">
-    <SitiTematiciMain />
-    <AutovalutazioneTematici/>
-    <br>
-    <SitiTematiciTable />
+    <div class="container pb-4">
+      <SitiTematiciMain />
+      <AutovalutazioneTematici />
+      <br />
+      <SitiTematiciTable />
+    </div>
   </div>
-  </div> 
 
   <div
     class="container my-5"
     style="padding-left: 0 !important; padding-right: 0 !important;"
   >
-
-  <AutovalutazioniConfronto/>
+    <AutovalutazioniConfronto />
   </div>
 </section>
 

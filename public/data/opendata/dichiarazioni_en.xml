@@ -1,0 +1,151 @@
+<table xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+
+<row>
+  <year>2024</year>
+  <des_region>Lombardia</des_region>
+  <num_entities_tot>3394</num_entities_tot>
+  <num_entities_with_stat>2110</num_entities_with_stat>
+</row>
+
+<row>
+  <year>2024</year>
+  <des_region>Piemonte</des_region>
+  <num_entities_tot>2313</num_entities_tot>
+  <num_entities_with_stat>1370</num_entities_with_stat>
+</row>
+
+<row>
+  <year>2024</year>
+  <des_region>Campania</des_region>
+  <num_entities_tot>1965</num_entities_tot>
+  <num_entities_with_stat>1024</num_entities_with_stat>
+</row>
+
+<row>
+  <year>2024</year>
+  <des_region>Sicilia</des_region>
+  <num_entities_tot>1857</num_entities_tot>
+  <num_entities_with_stat>909</num_entities_with_stat>
+</row>
+
+<row>
+  <year>2024</year>
+  <des_region>Lazio</des_region>
+  <num_entities_tot>1839</num_entities_tot>
+  <num_entities_with_stat>883</num_entities_with_stat>
+</row>
+
+<row>
+  <year>2024</year>
+  <des_region>Veneto</des_region>
+  <num_entities_tot>1699</num_entities_tot>
+  <num_entities_with_stat>1040</num_entities_with_stat>
+</row>
+
+<row>
+  <year>2024</year>
+  <des_region>Emilia-Romagna</des_region>
+  <num_entities_tot>1343</num_entities_tot>
+  <num_entities_with_stat>774</num_entities_with_stat>
+</row>
+
+<row>
+  <year>2024</year>
+  <des_region>Puglia</des_region>
+  <num_entities_tot>1263</num_entities_tot>
+  <num_entities_with_stat>691</num_entities_with_stat>
+</row>
+
+<row>
+  <year>2024</year>
+  <des_region>Toscana</des_region>
+  <num_entities_tot>1200</num_entities_tot>
+  <num_entities_with_stat>646</num_entities_with_stat>
+</row>
+
+<row>
+  <year>2024</year>
+  <des_region>Calabria</des_region>
+  <num_entities_tot>972</num_entities_tot>
+  <num_entities_with_stat>500</num_entities_with_stat>
+</row>
+
+<row>
+  <year>2024</year>
+  <des_region>Sardegna</des_region>
+  <num_entities_tot>925</num_entities_tot>
+  <num_entities_with_stat>521</num_entities_with_stat>
+</row>
+
+<row>
+  <year>2024</year>
+  <des_region>Abruzzo</des_region>
+  <num_entities_tot>728</num_entities_tot>
+  <num_entities_with_stat>351</num_entities_with_stat>
+</row>
+
+<row>
+  <year>2024</year>
+  <des_region>Marche</des_region>
+  <num_entities_tot>703</num_entities_tot>
+  <num_entities_with_stat>394</num_entities_with_stat>
+</row>
+
+<row>
+  <year>2024</year>
+  <des_region>Liguria</des_region>
+  <num_entities_tot>624</num_entities_tot>
+  <num_entities_with_stat>286</num_entities_with_stat>
+</row>
+
+<row>
+  <year>2024</year>
+  <des_region>Friuli-Venezia Giulia</des_region>
+  <num_entities_tot>584</num_entities_tot>
+  <num_entities_with_stat>350</num_entities_with_stat>
+</row>
+
+<row>
+  <year>2024</year>
+  <des_region>Provincia autonoma di Trento</des_region>
+  <num_entities_tot>509</num_entities_tot>
+  <num_entities_with_stat>225</num_entities_with_stat>
+</row>
+
+<row>
+  <year>2024</year>
+  <des_region>Provincia autonoma di Bolzano</des_region>
+  <num_entities_tot>494</num_entities_tot>
+  <num_entities_with_stat>184</num_entities_with_stat>
+</row>
+
+<row>
+  <year>2024</year>
+  <des_region>Umbria</des_region>
+  <num_entities_tot>354</num_entities_tot>
+  <num_entities_with_stat>188</num_entities_with_stat>
+</row>
+
+<row>
+  <year>2024</year>
+  <des_region>Basilicata</des_region>
+  <num_entities_tot>354</num_entities_tot>
+  <num_entities_with_stat>169</num_entities_with_stat>
+</row>
+
+<row>
+  <year>2024</year>
+  <des_region>Molise</des_region>
+  <num_entities_tot>290</num_entities_tot>
+  <num_entities_with_stat>99</num_entities_with_stat>
+</row>
+
+<row>
+  <year>2024</year>
+  <des_region>Valle d'Aosta/Vallée d'Aoste</des_region>
+  <num_entities_tot>169</num_entities_tot>
+  <num_entities_with_stat>109</num_entities_with_stat>
+</row>
+
+</table>
+

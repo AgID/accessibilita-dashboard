@@ -1,37 +1,39 @@
+{
+  "data": [
     {
-        "data": [
-            {
-                "num_enti_obiettivi": 11020,
-                "des_linea_intervento_it": "Sito web istituzionale",
-                "des_linea_intervento_en": "Institutional website"
-            },
-            {
-                "num_enti_obiettivi": 8218,
-                "des_linea_intervento_it": "Formazione",
-                "des_linea_intervento_en": "Training"
-            },
-            {
-                "num_enti_obiettivi": 6417,
-                "des_linea_intervento_it": "Organizzazione del lavoro",
-                "des_linea_intervento_en": "Work organization"
-            },
-            {
-                "num_enti_obiettivi": 4082,
-                "des_linea_intervento_it": "Postazioni di lavoro",
-                "des_linea_intervento_en": "Workstations"
-            },
-            {
-                "num_enti_obiettivi": 3547,
-                "des_linea_intervento_it": "Siti web tematici",
-                "des_linea_intervento_en": "Thematic websites"
-            },
-            {
-                "num_enti_obiettivi": 2638,
-                "des_linea_intervento_it": "Sito intranet",
-                "des_linea_intervento_en": "Intranet site"
-            }
-        ],
-        "intestazione": {
-            "anno": 2023
-        }
+      "num_enti_obiettivi": 10696,
+      "des_linea_intervento_en": "Institutional website",
+      "des_linea_intervento_it": "Sito web istituzionale"
+    },
+    {
+      "num_enti_obiettivi": 8502,
+      "des_linea_intervento_en": "Training",
+      "des_linea_intervento_it": "Formazione"
+    },
+    {
+      "num_enti_obiettivi": 7208,
+      "des_linea_intervento_en": "Work organization",
+      "des_linea_intervento_it": "Organizzazione del lavoro"
+    },
+    {
+      "num_enti_obiettivi": 4701,
+      "des_linea_intervento_en": "Workstations",
+      "des_linea_intervento_it": "Postazioni di lavoro"
+    },
+    {
+      "num_enti_obiettivi": 4493,
+      "des_linea_intervento_en": "Thematic websites",
+      "des_linea_intervento_it": "Siti web tematici"
+    },
+    {
+      "num_enti_obiettivi": 3400,
+      "des_linea_intervento_en": "Intranet site",
+      "des_linea_intervento_it": "Sito intranet"
     }
+  ],
+  "intestazione": {
+    "anno_obiettivi": 2025,
+    "aggior_ultimo_trimestre": "1-2025",
+    "dat_ult_agg_obiettivi": "2025-03-31"
+  }
+}

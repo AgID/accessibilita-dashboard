@@ -16,9 +16,16 @@
     );
     const dataDistribuzioneConformita = await rsDistribuzioneConformita.json();
     erroriConformita = dataDistribuzioneConformita.data;
+
+    // Sovrascrive il dato per fissare i criteri di successo del livello di conformità AA a 20.
+    erroriConformita.forEach((item) => {
+      if (item.cod_livello_conformita === "AA" && item.num_errori < 20) {
+        item.num_errori = 20;
+      }
+    });
+
     totaleErroriConformita = nf(
-      erroriConformita[0].num_errori +
-        erroriConformita[1].num_errori
+      erroriConformita[0].num_errori + erroriConformita[1].num_errori
     );
   });
 </script>
@@ -30,12 +37,13 @@
         <div class="row">
           <div class="col-10 mx-auto">
             <div class="cardTitle whiteText py-3">
-              {$t("errcard.titleApp")}
+              {$t("errcard.titleSiti")}
             </div>
           </div>
         </div>
         <div class="cardMainData whiteText py-2">
-          {totaleErroriConformita} {$t("errcard.data")}
+          {totaleErroriConformita}
+          {$t("errcard.data")}
         </div>
       </div>
       <div class="ms-lg-4 mb-3">
@@ -48,7 +56,9 @@
             </div>
             <div class="col-8 text-left ps-lg-0 mx-lg-auto">
               <p class="cardSmallTitle mt-2 mb-0">
-                {$t("errcard.type", {specificLevel: item.cod_livello_conformita})}
+                {$t("errcard.type", {
+                  specificLevel: item.cod_livello_conformita,
+                })}
               </p>
               <p class="h3 blueText mb-0">
                 {nf(item.num_errori)}

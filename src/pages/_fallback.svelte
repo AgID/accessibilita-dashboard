@@ -7,7 +7,7 @@
 </svelte:head>
 
 <section class="section text-center" aria-label={$t("fallback.errorMessage")}>
-  <h2 class="error-page-title">{$t("fallback.error")}</h2>
+  <h1 class="error-page-title">{$t("fallback.error")}</h1>
   <p class="lead mb-3">{$t("fallback.errorMessage")}</p>
   <p class="mb-5">
     <!-- svelte-ignore a11y-invalid-attribute -->

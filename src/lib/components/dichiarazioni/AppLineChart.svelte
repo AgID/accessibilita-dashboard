@@ -17,6 +17,8 @@
   let annoSpecifico;
   let loading = true;
   let response;
+  let annoRiferimento;
+
   const columns = [
     { field: "anno_dichiarazione", label: $t("dicLineChart.anno") },
     {
@@ -34,8 +36,9 @@
     numDichiarazioniAnno = response?.data?.map(
       (r) => r.num_dichiarazione_app_pub_anno
     );
-    
+
     annoSpecifico = response?.data?.map((r) => r.anno_dichiarazione);
+    annoRiferimento = response?.intestazione?.anno_dichiarazione;
 
     const chart1 = Highcharts.chart({
       chart: { renderTo: "dichiarazioniTrendAnnoAPP", type: "line" },
@@ -71,16 +74,21 @@
       yAxis: {
         title: { text: "" },
       },
+      tooltip: {
+        headerFormat: "",
+        pointFormat:
+          '<span style="color:{point.color}">\u25CF</span> {point.x} <br/>{point.series.name}: <b>{point.y}</b>',
+      },
       plotOptions: {
         series: {
           lineWidth: 3,
           marker: {
-                enabled: true,
-                fillColor: '#FFFFFF',
-                lineWidth: 1,
-                lineColor: null,
-                symbol: "cicrle",
-            },
+            enabled: true,
+            fillColor: "#FFFFFF",
+            lineWidth: 1,
+            lineColor: null,
+            symbol: "cicrle",
+          },
           label: {
             connectorAllowed: false,
           },
@@ -89,7 +97,7 @@
       },
       series: [
         {
-          name: $t("dicLineChart.label"),
+          name: $t("dicLineChart.labelAPP"),
           type: "line",
           data: numDichiarazioniAnno,
         },
@@ -102,30 +110,35 @@
 </script>
 
 <div class="card-box mt-3 mt-lg-0 hide-mobile pt-3 px-3">
-  <h2 class="cardTitle py-3 ps-2 ps-lg-3 d-inline-flex greyText">
-    {$t("dicLineChart.title")}
-  </h2>
-
+  <div class="d-flex justify-content-between">
+    <h2 class="cardTitle pt-3 ps-2 ps-lg-3 d-inline-flex greyText">
+      {$t("dicLineChart.APPtitle")}
+    </h2>
+    <div class="pe-3 my-auto">
+      {#if !loading}
+        <CsvPdfButtons
+          rows={response?.data}
+          {columns}
+          title={$t("dicLineChart.APPtitle")}
+          periodoMonitoraggio="{$t('layout.anno')}{annoRiferimento}"
+        />
+      {/if}
+    </div>
+  </div>
+  <div class="px-2 px-xl-3">
+    <p class="periodoLabel mb-4">
+      {$t("layout.periodoMonitoraggio")}
+      <span class="periodoDate">
+        {$t("layout.anno")}{annoRiferimento}
+      </span>
+    </p>
+  </div>
+  <p class="mb-0 pb-3 px-2 px-xl-3">
+    {@html $t("dicLineChart.APPchartDescription", { break: "<br/>" })}
+  </p>
   <figure class="highcharts-figure">
     <div id="dichiarazioniTrendAnnoAPP" style="width:100%; height:250px;" />
   </figure>
-
-  <p class="mb-0 pb-3 px-2 px-xl-4">
-    {$t("dicLineChart.APPchartDescription")}
-
-  </p>
-
-  <div class="pe-3 pb-4">
-    {#if !loading}
-      <CsvPdfButtons
-        rows={response?.data}
-        {columns}
-        title={$t("dicLineChart.title")}
-        searchingName={$t("dicLineChart.APPtitle")}
-        periodoMonitoraggio={response?.intestazione?.periodo_dichiarazioni}
-      />
-    {/if}
-  </div>
 </div>
 
 {#if !loading}
@@ -133,15 +146,14 @@
     <DataTable
       rows={response?.data}
       {columns}
-      title={$t("dicLineChart.title")}
-      searchingName={$t("dicLineChart.APPtitle")}
+      title={$t("dicLineChart.APPtitle")}
       defaultSortBy="anno_dichiarazione"
       descending={true}
       didascalia={true}
-      periodoMonitoraggio={response?.intestazione?.periodo_dichiarazioni}
+      periodoMonitoraggio="{$t('layout.anno')}{annoRiferimento}"
     >
       <div slot="didascaliaSlot" class="didascalia">
-        {$t("dicLineChart.APPtableDescription")}
+        {@html $t("dicLineChart.APPtableDescription", { break: "<br/>" })}
       </div>
     </DataTable>
   </div>

@@ -1,7 +1,8 @@
 [
     {
-        "valore": 62,
+        "valore": 68,
         "indicatore": "num app valutate",
-        "dat_ultimo_monitoraggio": "2023-12-31"
+        "anno_monitoraggio": 2024,
+        "dat_ultimo_monitoraggio": "2024-12-31"
     }
 ]

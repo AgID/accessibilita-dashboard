@@ -3,7 +3,7 @@
   <rdf:RDF xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:locn="http://www.w3.org/ns/locn#" xmlns:hydra="http://www.w3.org/ns/hydra/core#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcat="http://www.w3.org/ns/dcat#" xmlns:dct="http://purl.org/dc/terms/" xmlns:dcatapit="http://dati.gov.it/onto/dcatapit#" xmlns:vcard="http://www.w3.org/2006/vcard/ns#" xmlns:adms="http://www.w3.org/ns/adms#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:gsp="http://www.opengis.net/ont/geosparql#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
 
 
-<dcatapit:Catalog rdf:about="https://accessibilita.agid.gov.it/opendata">
+<dcatapit:Catalog rdf:about="https://monitoraggio.accessibilita.agid.gov.it/opendata">
   <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Catalog"/>
   <dct:title>AGID - Monitoraggio accessiblita delle PA</dct:title>
   <dct:publisher>
@@ -11,378 +11,479 @@
       <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
       <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
       <dct:identifier>agid</dct:identifier>
-      <foaf:name>AGID - Monitoraggio accessiblita delle PA</foaf:name>
+      <foaf:name>AGID - Iniziative Piano Nazionale di Ripresa e Resilienza - DXC</foaf:name>
     </dcatapit:Agent>
   </dct:publisher>
   <dct:description>Il sito espone un primo set di dati relativi all'accessibilità digitale della pubblica amministrazione.</dct:description>
   <dct:language>it</dct:language>
-  <foaf:homepage rdf:resource="https://accessibilita.agid.gov.it/opendata#"/>
+  <foaf:homepage rdf:resource="https://monitoraggio.accessibilita.agid.gov.it/opendata#"/>
   <dcat:themeTaxonomy>
     <skos:ConceptScheme rdf:about="http://publications.europa.eu/resource/authority/data-theme">
       <dct:title>Data Theme Vocabulary</dct:title>
     </skos:ConceptScheme>
   </dcat:themeTaxonomy>
-  <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2023-04-17</dct:modified>
+  <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2025-03-27</dct:modified>
   <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2023-03-30</dct:issued>
   <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
-  <dcat:dataset rdf:resource="https://accessibilita.agid.gov.it/opendata/dati-prodotti-dal-monitoraggio-automatizzato-dell'accessibilita"/>
-  <dcat:dataset rdf:resource="https://accessibilita.agid.gov.it/opendata/gli-errori-di-accessibilita-identificabili-automaticamente"/>
-  <dcat:dataset rdf:resource="https://accessibilita.agid.gov.it/opendata/dichiarazioni-di-accessibilita"/>
-  <dcat:dataset rdf:resource="https://accessibilita.agid.gov.it/opendata/elenco-open-data-accessibilita"/>
+  <dcat:dataset rdf:resource="https://monitoraggio.accessibilita.agid.gov.it/opendata/dati-prodotti-dal-monitoraggio-automatizzato-dell'accessibilita"/>
+  <dcat:dataset rdf:resource="https://monitoraggio.accessibilita.agid.gov.it/opendata/gli-errori-di-accessibilita-identificabili-automaticamente"/>
+  <dcat:dataset rdf:resource="https://monitoraggio.accessibilita.agid.gov.it/opendata/dichiarazioni-di-accessibilita"/>
+  <dcat:dataset rdf:resource="https://monitoraggio.accessibilita.agid.gov.it/opendata/elenco-open-data-accessibilita"/>
+  <dcat:dataset rdf:resource="https://monitoraggio.accessibilita.agid.gov.it/opendata/obiettivi-di-accessibilita"/>
   </dcatapit:Catalog>
-  <dcatapit:Dataset rdf:about="https://accessibilita.agid.gov.it/opendata/dati-prodotti-dal-monitoraggio-automatizzato-dell'accessibilita">
+  <skos:Concept rdf:about="http://publications.europa.eu/resource/authority/data-theme/GOVE">
+    <skos:prefLabel>Governo e settore pubblico</skos:prefLabel>
+  </skos:Concept>
+  <dcatapit:Dataset rdf:about="https://monitoraggio.accessibilita.agid.gov.it/opendata/dati-prodotti-dal-monitoraggio-automatizzato-dell'accessibilita">
     <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
+    <dct:accessRights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
     <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/GOVE"/>
     <dct:license/>
     <dct:title>Dati prodotti dal monitoraggio automatizzato dell'accessibilita</dct:title>
-    <dct:landingpage>https://accessibilita.agid.gov.it/opendata/dati-prodotti-dal-monitoraggio-automatizzato-dell'accessibilita</dct:landingpage>
+    <dcat:landingPage rdf:resource="https://monitoraggio.accessibilita.agid.gov.it/opendata/"/>
     <dct:description>Distribuzione dei siti monitorati raggruppati nei 5 valori della Nomenclatura delle Unita territoriali per le Statistiche dell'Italia (NUTS) usati per fini statistici a livello dell'Unione Europea (Eurostat).</dct:description>
     <dct:identifier>agid:dati-prodotti-dal-monitoraggio-automatizzato-dell'accessibilita</dct:identifier>
     <dct:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/QUARTERLY"/>
-    <dcat:contactPoint rdf:resource="https://accessibilita.agid.gov.it/"/>
+    <dcat:contactPoint rdf:resource="https://monitoraggio.accessibilita.agid.gov.it/"/>
     <dct:rightsHolder>
       <dcatapit:Agent rdf:about="agid">
         <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
         <dct:identifier>agid</dct:identifier>
-        <foaf:name>AGID - Monitoraggio accessiblita delle PA</foaf:name>
+        <foaf:name>Iniziative Piano Nazionale di Ripresa e Resilienza</foaf:name>
       </dcatapit:Agent>
     </dct:rightsHolder>
     <dct:publisher>
-      <dcatapit:Agent rdf:nodeID="O1sG5TJ9mujA2MYJSsrgLe1HOzxsh7oPK">
+      <dcatapit:Agent rdf:nodeID="Nd117aa7f2e7b47fb9481d4a8aca59c7d">
         <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
         <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
         <dct:identifier>agid</dct:identifier>
         <foaf:name>Iniziative Piano Nazionale di Ripresa e Resilienza</foaf:name>
       </dcatapit:Agent>
     </dct:publisher>
-    <dct:subject rdf:resource="http://eurovoc.europa.eu/100169"/>
+    <dct:subject>
+      <skos:Concept rdf:about="http://eurovoc.europa.eu/100169">
+        <rdf:type rdf:resource="http://dati.gov.it/onto/dcatapit#subTheme"/>
+        <skos:prefLabel xml:lang="it">0436 potere esecutivo e amministrazione pubblica</skos:prefLabel>
+      </skos:Concept>
+    </dct:subject>
     <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/ITA"/>
     <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
-    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2023-03-30</dct:modified>
-    <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2023-03-30</dct:issued>
-    <dcat:contactPoint rdf:resource="https://accessibilita.agid.gov.it/"/>
+    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2025-03-27</dct:modified>
+    <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-12-31</dct:issued>
+    <dcat:contactPoint rdf:resource="https://monitoraggio.accessibilita.agid.gov.it/"/>
     <dcat:keyword>Monitoraggio</dcat:keyword>
     <dcat:keyword>accessibilita</dcat:keyword>
     <dcat:keyword>regione</dcat:keyword>
-    <dcat:distribution rdf:resource="https://accessibilita.agid.gov.it/opendata/dati-prodotti-dal-monitoraggio-automatizzato-dell'accessibilita/json11"/>    
+    <dcat:distribution rdf:resource="https://monitoraggio.accessibilita.agid.gov.it/opendata/dati-prodotti-dal-monitoraggio-automatizzato-dell'accessibilita/json11"/>
   </dcatapit:Dataset>
-  <dcatapit:Dataset rdf:about="https://accessibilita.agid.gov.it/opendata/gli-errori-di-accessibilita-identificabili-automaticamente">
+  <skos:Concept rdf:about="http://publications.europa.eu/resource/authority/data-theme/GOVE">
+    <skos:prefLabel>Governo e settore pubblico</skos:prefLabel>
+  </skos:Concept>
+  <dcatapit:Dataset rdf:about="https://monitoraggio.accessibilita.agid.gov.it/opendata/gli-errori-di-accessibilita-identificabili-automaticamente">
     <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
+    <dct:accessRights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
     <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/GOVE"/>
     <dct:license/>
     <dct:title>Gli errori di accessibilita identificabili automaticamente</dct:title>
-    <dct:landingpage>https://accessibilita.agid.gov.it/opendata/gli-errori-di-accessibilita-identificabili-automaticamente</dct:landingpage>
+    <dcat:landingPage rdf:resource="https://monitoraggio.accessibilita.agid.gov.it/opendata/"/>
     <dct:description>Distribuzione degli errori relativa ad ognuno dei criteri di successo valutati con il sistema automatizzato.</dct:description>
     <dct:identifier>agid:gli-errori-di-accessibilita-identificabili-automaticamente</dct:identifier>
     <dct:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/QUARTERLY"/>
-    <dcat:contactPoint rdf:resource="https://accessibilita.agid.gov.it/"/>
+    <dcat:contactPoint rdf:resource="https://monitoraggio.accessibilita.agid.gov.it/"/>
     <dct:rightsHolder>
       <dcatapit:Agent rdf:about="agid">
         <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
         <dct:identifier>agid</dct:identifier>
-        <foaf:name>AGID - Monitoraggio accessiblita delle PA</foaf:name>
+        <foaf:name>Iniziative Piano Nazionale di Ripresa e Resilienza</foaf:name>
       </dcatapit:Agent>
     </dct:rightsHolder>
     <dct:publisher>
-      <dcatapit:Agent rdf:nodeID="OzgyrCR6iid6u6lS5I32yc1LYLQtANSQk">
+      <dcatapit:Agent rdf:nodeID="Nd117aa7f2e7b47fb9481d4a8aca59c7d">
         <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
         <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
         <dct:identifier>agid</dct:identifier>
         <foaf:name>Iniziative Piano Nazionale di Ripresa e Resilienza</foaf:name>
       </dcatapit:Agent>
     </dct:publisher>
-    <dct:subject rdf:resource="http://eurovoc.europa.eu/100169"/>
+    <dct:subject>
+      <skos:Concept rdf:about="http://eurovoc.europa.eu/100169">
+        <rdf:type rdf:resource="http://dati.gov.it/onto/dcatapit#subTheme"/>
+        <skos:prefLabel xml:lang="it">0436 potere esecutivo e amministrazione pubblica</skos:prefLabel>
+      </skos:Concept>
+    </dct:subject>
     <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/ITA"/>
     <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
-    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2023-03-30</dct:modified>
-    <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2023-03-30</dct:issued>
-    <dcat:contactPoint rdf:resource="https://accessibilita.agid.gov.it/"/>
+    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2025-03-27</dct:modified>
+    <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-12-31</dct:issued>
+    <dcat:contactPoint rdf:resource="https://monitoraggio.accessibilita.agid.gov.it/"/>
     <dcat:keyword>Monitoraggio</dcat:keyword>
     <dcat:keyword>accessibilita</dcat:keyword>
     <dcat:keyword>errori</dcat:keyword>
-    <dcat:distribution rdf:resource="https://accessibilita.agid.gov.it/opendata/gli-errori-di-accessibilita-identificabili-automaticamente/json13"/>
+    <dcat:distribution rdf:resource="https://monitoraggio.accessibilita.agid.gov.it/opendata/gli-errori-di-accessibilita-identificabili-automaticamente/json12"/>
   </dcatapit:Dataset>
-  <dcatapit:Dataset rdf:about="https://accessibilita.agid.gov.it/opendata/dichiarazioni-di-accessibilita">
+  <skos:Concept rdf:about="http://publications.europa.eu/resource/authority/data-theme/GOVE">
+    <skos:prefLabel>Governo e settore pubblico</skos:prefLabel>
+  </skos:Concept>
+  <dcatapit:Dataset rdf:about="https://monitoraggio.accessibilita.agid.gov.it/opendata/dichiarazioni-di-accessibilita">
     <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
+    <dct:accessRights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
     <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/GOVE"/>
     <dct:license/>
     <dct:title>Dichiarazioni di accessibilita</dct:title>
-    <dct:landingpage>https://accessibilita.agid.gov.it/opendata/dichiarazioni-di-accessibilita</dct:landingpage>
+    <dcat:landingPage rdf:resource="https://monitoraggio.accessibilita.agid.gov.it/opendata/"/>
     <dct:description>Lo strumento attraverso il quale le PA rendono pubblico lo stato di accessibilita di ogni loro servizio.</dct:description>
     <dct:identifier>agid:dichiarazioni-di-accessibilita</dct:identifier>
-    <dct:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/QUARTERLY"/>
-    <dcat:contactPoint rdf:resource="https://accessibilita.agid.gov.it/"/>
+    <dct:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/ANNUAL"/>
+    <dcat:contactPoint rdf:resource="https://monitoraggio.accessibilita.agid.gov.it/"/>
     <dct:rightsHolder>
       <dcatapit:Agent rdf:about="agid">
         <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
         <dct:identifier>agid</dct:identifier>
-        <foaf:name>AGID - Monitoraggio accessiblita delle PA</foaf:name>
+        <foaf:name>Iniziative Piano Nazionale di Ripresa e Resilienza</foaf:name>
       </dcatapit:Agent>
     </dct:rightsHolder>
     <dct:publisher>
-      <dcatapit:Agent rdf:nodeID="N2edcbdc440e24951bc02175c72550f71">
+      <dcatapit:Agent rdf:nodeID="Nd117aa7f2e7b47fb9481d4a8aca59c7d">
         <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
         <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
         <dct:identifier>agid</dct:identifier>
         <foaf:name>Iniziative Piano Nazionale di Ripresa e Resilienza</foaf:name>
       </dcatapit:Agent>
     </dct:publisher>
-    <dct:subject rdf:resource="http://eurovoc.europa.eu/100169"/>
+    <dct:subject>
+      <skos:Concept rdf:about="http://eurovoc.europa.eu/100169">
+        <rdf:type rdf:resource="http://dati.gov.it/onto/dcatapit#subTheme"/>
+        <skos:prefLabel xml:lang="it">0436 potere esecutivo e amministrazione pubblica</skos:prefLabel>
+      </skos:Concept>
+    </dct:subject>
     <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/ITA"/>
     <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
-    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2023-03-30</dct:modified>
-    <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2023-03-30</dct:issued>
-    <dcat:contactPoint rdf:resource="https://accessibilita.agid.gov.it/"/>
+    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2025-03-27</dct:modified>
+    <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-09-29</dct:issued>
+    <dcat:contactPoint rdf:resource="https://monitoraggio.accessibilita.agid.gov.it/"/>
     <dcat:keyword>Monitoraggio</dcat:keyword>
     <dcat:keyword>accessibilita</dcat:keyword>
     <dcat:keyword>dichiarazione</dcat:keyword>
-    <dcat:distribution rdf:resource="https://accessibilita.agid.gov.it/opendata/dichiarazioni-di-accessibilita/json14"/>
+    <dcat:distribution rdf:resource="https://monitoraggio.accessibilita.agid.gov.it/opendata/dichiarazioni-di-accessibilita/json13"/>
   </dcatapit:Dataset>
-  <dcatapit:Dataset rdf:about="https://accessibilita.agid.gov.it/opendata/elenco-open-data-accessibilita">
+  <skos:Concept rdf:about="http://publications.europa.eu/resource/authority/data-theme/GOVE">
+    <skos:prefLabel>Governo e settore pubblico</skos:prefLabel>
+  </skos:Concept>
+  <dcatapit:Dataset rdf:about="https://monitoraggio.accessibilita.agid.gov.it/opendata/elenco-open-data-accessibilita">
     <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
+    <dct:accessRights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
     <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/GOVE"/>
     <dct:license/>
     <dct:title>Elenco open data accessibilita</dct:title>
-    <dct:landingpage>https://accessibilita.agid.gov.it/opendata/elenco-open-data-accessibilita</dct:landingpage>
+    <dcat:landingPage rdf:resource="https://monitoraggio.accessibilita.agid.gov.it/opendata/"/>
     <dct:description>La pagina attraverso la quale puoi consultare e scaricare gratuitamente i dati e le informazioni presenti sul sito del monitoraggio dell’accessibilità di AgID.</dct:description>
     <dct:identifier>agid:elenco-open-data-accessibilita</dct:identifier>
     <dct:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/QUARTERLY"/>
-    <dcat:contactPoint rdf:resource="https://accessibilita.agid.gov.it/"/>
+    <dcat:contactPoint rdf:resource="https://monitoraggio.accessibilita.agid.gov.it/"/>
     <dct:rightsHolder>
       <dcatapit:Agent rdf:about="agid">
         <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
         <dct:identifier>agid</dct:identifier>
-        <foaf:name>AGID - Monitoraggio accessiblita delle PA</foaf:name>
+        <foaf:name>Iniziative Piano Nazionale di Ripresa e Resilienza</foaf:name>
       </dcatapit:Agent>
     </dct:rightsHolder>
     <dct:publisher>
-      <dcatapit:Agent rdf:nodeID="csCuZo8XNuiTddYFTY79gI8umKovawghr">
+      <dcatapit:Agent rdf:nodeID="Nd117aa7f2e7b47fb9481d4a8aca59c7d">
         <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
         <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
         <dct:identifier>agid</dct:identifier>
         <foaf:name>Iniziative Piano Nazionale di Ripresa e Resilienza</foaf:name>
       </dcatapit:Agent>
     </dct:publisher>
-    <dct:subject rdf:resource="http://eurovoc.europa.eu/100169"/>
+    <dct:subject>
+      <skos:Concept rdf:about="http://eurovoc.europa.eu/100169">
+        <rdf:type rdf:resource="http://dati.gov.it/onto/dcatapit#subTheme"/>
+        <skos:prefLabel xml:lang="it">0436 potere esecutivo e amministrazione pubblica</skos:prefLabel>
+      </skos:Concept>
+    </dct:subject>
     <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/ITA"/>
     <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
-    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2023-03-30</dct:modified>
-    <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2023-03-30</dct:issued>
-    <dcat:contactPoint rdf:resource="https://accessibilita.agid.gov.it/"/>
+    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2025-03-27</dct:modified>
+    <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-12-31</dct:issued>
+    <dcat:contactPoint rdf:resource="https://monitoraggio.accessibilita.agid.gov.it/"/>
     <dcat:keyword>Monitoraggio</dcat:keyword>
     <dcat:keyword>accessibilita</dcat:keyword>
     <dcat:keyword>opendata</dcat:keyword>
-    <dcat:distribution rdf:resource="https://accessibilita.agid.gov.it/opendata/elenco-open-data-accessibilita/csv2"/>
-    <dcat:distribution rdf:resource="https://accessibilita.agid.gov.it/opendata/elenco-open-data-accessibilita/json3"/>
-    <dcat:distribution rdf:resource="https://accessibilita.agid.gov.it/opendata/elenco-open-data-accessibilita/xml4"/>
-    <dcat:distribution rdf:resource="https://accessibilita.agid.gov.it/opendata/elenco-open-data-accessibilita/csv5"/>
-    <dcat:distribution rdf:resource="https://accessibilita.agid.gov.it/opendata/elenco-open-data-accessibilita/json6"/>
-    <dcat:distribution rdf:resource="https://accessibilita.agid.gov.it/opendata/elenco-open-data-accessibilita/xml7"/>
-    <dcat:distribution rdf:resource="https://accessibilita.agid.gov.it/opendata/elenco-open-data-accessibilita/csv8"/>
-    <dcat:distribution rdf:resource="https://accessibilita.agid.gov.it/opendata/elenco-open-data-accessibilita/json9"/>
-    <dcat:distribution rdf:resource="https://accessibilita.agid.gov.it/opendata/elenco-open-data-accessibilita/xml10"/>
-  </dcatapit:Dataset> 
-  <dcatapit:Distribution rdf:about="https://accessibilita.agid.gov.it/opendata/dati-prodotti-dal-monitoraggio-automatizzato-dell'accessibilita/json11">
-    <dcat:accessURL rdf:resource="https://accessibilita.agid.gov.it/data/monitoraggio_per_regione.json"/>
+    <dcat:distribution rdf:resource="https://monitoraggio.accessibilita.agid.gov.it/opendata/elenco-open-data-accessibilita/csv2"/>
+    <dcat:distribution rdf:resource="https://monitoraggio.accessibilita.agid.gov.it/opendata/elenco-open-data-accessibilita/json3"/>
+    <dcat:distribution rdf:resource="https://monitoraggio.accessibilita.agid.gov.it/opendata/elenco-open-data-accessibilita/xml4"/>
+    <dcat:distribution rdf:resource="https://monitoraggio.accessibilita.agid.gov.it/opendata/elenco-open-data-accessibilita/csv5"/>
+    <dcat:distribution rdf:resource="https://monitoraggio.accessibilita.agid.gov.it/opendata/elenco-open-data-accessibilita/json6"/>
+    <dcat:distribution rdf:resource="https://monitoraggio.accessibilita.agid.gov.it/opendata/elenco-open-data-accessibilita/xml7"/>
+    <dcat:distribution rdf:resource="https://monitoraggio.accessibilita.agid.gov.it/opendata/elenco-open-data-accessibilita/csv8"/>
+    <dcat:distribution rdf:resource="https://monitoraggio.accessibilita.agid.gov.it/opendata/elenco-open-data-accessibilita/json9"/>
+    <dcat:distribution rdf:resource="https://monitoraggio.accessibilita.agid.gov.it/opendata/elenco-open-data-accessibilita/xml10"/>
+  </dcatapit:Dataset>
+  <skos:Concept rdf:about="http://publications.europa.eu/resource/authority/data-theme/GOVE">
+    <skos:prefLabel>Governo e settore pubblico</skos:prefLabel>
+  </skos:Concept>
+  <dcatapit:Dataset rdf:about="https://monitoraggio.accessibilita.agid.gov.it/opendata/obiettivi-di-accessibilita">
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
+    <dct:accessRights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/GOVE"/>
+    <dct:license/>
+    <dct:title>Obiettivi di accessibilita</dct:title>
+    <dcat:landingPage rdf:resource="https://monitoraggio.accessibilita.agid.gov.it/opendata/"/>
+    <dct:description>Lo strumento attraverso il quale le PA rendono pubblici gli obiettivi definiti per l'anno in corso</dct:description>
+    <dct:identifier>agid:obiettivi-di-accessibilita</dct:identifier>
+    <dct:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/ANNUAL"/>
+    <dcat:contactPoint rdf:resource="https://monitoraggio.accessibilita.agid.gov.it/"/>
+    <dct:rightsHolder>
+      <dcatapit:Agent rdf:about="agid">
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+        <dct:identifier>agid</dct:identifier>
+        <foaf:name>Iniziative Piano Nazionale di Ripresa e Resilienza</foaf:name>
+      </dcatapit:Agent>
+    </dct:rightsHolder>
+    <dct:publisher>
+      <dcatapit:Agent rdf:nodeID="Nd117aa7f2e7b47fb9481d4a8aca59c7d">
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+        <dct:identifier>agid</dct:identifier>
+        <foaf:name>Iniziative Piano Nazionale di Ripresa e Resilienza</foaf:name>
+      </dcatapit:Agent>
+    </dct:publisher>
+    <dct:subject>
+      <skos:Concept rdf:about="http://eurovoc.europa.eu/100169">
+        <rdf:type rdf:resource="http://dati.gov.it/onto/dcatapit#subTheme"/>
+        <skos:prefLabel xml:lang="it">0436 potere esecutivo e amministrazione pubblica</skos:prefLabel>
+      </skos:Concept>
+    </dct:subject>
+    <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/ITA"/>
+    <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2025-03-27</dct:modified>
+    <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2025-03-30</dct:issued>
+    <dcat:contactPoint rdf:resource="https://monitoraggio.accessibilita.agid.gov.it/"/>
+    <dcat:keyword>Monitoraggio</dcat:keyword>
+    <dcat:keyword>accessibilita</dcat:keyword>
+    <dcat:keyword>obiettivi</dcat:keyword>
+    <dcat:distribution rdf:resource="https://monitoraggio.accessibilita.agid.gov.it/opendata/obiettivi-di-accessibilita/json14"/>
+    <dcat:distribution rdf:resource="https://monitoraggio.accessibilita.agid.gov.it/opendata/obiettivi-di-accessibilita/json15"/>
+  </dcatapit:Dataset>
+  <dcatapit:Distribution rdf:about="https://monitoraggio.accessibilita.agid.gov.it/opendata/dati-prodotti-dal-monitoraggio-automatizzato-dell'accessibilita/json11">
+    <dcat:accessURL rdf:resource="https://monitoraggio.accessibilita.agid.gov.it/data/monitoraggio%5Fper%5Fregione.json"/>
     <dct:license>
-      <dcatapit:LicenseDocument rdf:about="https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40">
+      <dcatapit:LicenseDocument rdf:about="https://creativecommons.org/licenses/by/4.0/">
         <rdf:type rdf:resource="dct:LicenseDocument"/>
         <dct:type rdf:resource="http://purl.org/adms/licencetype/Attribution"/>
         <foaf:name>Creative Commons Attribuzione 4.0 Internazionale (CC BY 4.0)</foaf:name>
       </dcatapit:LicenseDocument>
     </dct:license>
     <dct:format rdf:resource="JSON"/>
+    <dct:rights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
     <dct:description>File in formato JSON del monitoraggio per regione</dct:description>
     <dct:title>Monitoraggio per aregione</dct:title>
     <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
   </dcatapit:Distribution>
-  <dcatapit:Distribution rdf:about="https://accessibilita.agid.gov.it/opendata/gli-errori-di-accessibilita-identificabili-automaticamente/json13">
-    <dcat:accessURL rdf:resource="https://accessibilita.agid.gov.it/data/erroririscontrati.json"/>
+  <dcatapit:Distribution rdf:about="https://monitoraggio.accessibilita.agid.gov.it/opendata/gli-errori-di-accessibilita-identificabili-automaticamente/json12">
+    <dcat:accessURL rdf:resource="https://monitoraggio.accessibilita.agid.gov.it/data/errori%5Friscontrati.json"/>
     <dct:license>
-      <dcatapit:LicenseDocument rdf:about="https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40">
+      <dcatapit:LicenseDocument rdf:about="https://creativecommons.org/licenses/by/4.0/">
         <rdf:type rdf:resource="dct:LicenseDocument"/>
         <dct:type rdf:resource="http://purl.org/adms/licencetype/Attribution"/>
         <foaf:name>Creative Commons Attribuzione 4.0 Internazionale (CC BY 4.0)</foaf:name>
       </dcatapit:LicenseDocument>
     </dct:license>
     <dct:format rdf:resource="JSON"/>
+    <dct:rights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
     <dct:description>File in formato JSON degli errori riscontrati</dct:description>
     <dct:title>Errori riscontrati</dct:title>
     <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
   </dcatapit:Distribution>
-  <dcatapit:Distribution rdf:about="https://accessibilita.agid.gov.it/opendata/dichiarazioni-di-accessibilita/json14">
-    <dcat:accessURL rdf:resource="https://accessibilita.agid.gov.it/data/dichiarazionetrendanno.json"/>
+  <dcatapit:Distribution rdf:about="https://monitoraggio.accessibilita.agid.gov.it/opendata/dichiarazioni-di-accessibilita/json13">
+    <dcat:accessURL rdf:resource="https://monitoraggio.accessibilita.agid.gov.it/data/dichiarazione%5Ftrend%5Fanno.json"/>
     <dct:license>
-      <dcatapit:LicenseDocument rdf:about="https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40">
+      <dcatapit:LicenseDocument rdf:about="https://creativecommons.org/licenses/by/4.0/">
         <rdf:type rdf:resource="dct:LicenseDocument"/>
         <dct:type rdf:resource="http://purl.org/adms/licencetype/Attribution"/>
         <foaf:name>Creative Commons Attribuzione 4.0 Internazionale (CC BY 4.0)</foaf:name>
       </dcatapit:LicenseDocument>
     </dct:license>
     <dct:format rdf:resource="JSON"/>
+    <dct:rights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
     <dct:description>File in formato JSON del trend delle dichiarazioni</dct:description>
     <dct:title>Trend delle dichiarazioni</dct:title>
     <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
   </dcatapit:Distribution>
-  <dcatapit:Distribution rdf:about="https://accessibilita.agid.gov.it/opendata/elenco-open-data-accessibilita/csv2">
-    <dcat:accessURL rdf:resource="https://accessibilita.agid.gov.it/data/opendata/dichiarazioni.csv"/>
+  <dcatapit:Distribution rdf:about="https://monitoraggio.accessibilita.agid.gov.it/opendata/elenco-open-data-accessibilita/csv2">
+    <dcat:accessURL rdf:resource="https://monitoraggio.accessibilita.agid.gov.it/data/opendata/dichiarazioni%5Fit.csv"/>
     <dct:license>
-      <dcatapit:LicenseDocument rdf:about="https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40">
+      <dcatapit:LicenseDocument rdf:about="https://creativecommons.org/licenses/by/4.0/">
         <rdf:type rdf:resource="dct:LicenseDocument"/>
         <dct:type rdf:resource="http://purl.org/adms/licencetype/Attribution"/>
         <foaf:name>Creative Commons Attribuzione 4.0 Internazionale (CC BY 4.0)</foaf:name>
       </dcatapit:LicenseDocument>
     </dct:license>
     <dct:format rdf:resource="CSV"/>
+    <dct:rights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
     <dct:description>File in formato CSV delle dichiarazioni</dct:description>
     <dct:title>Open Data dichiarazioni csv</dct:title>
     <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
   </dcatapit:Distribution>
-  <dcatapit:Distribution rdf:about="https://accessibilita.agid.gov.it/opendata/elenco-open-data-accessibilita/json3">
-    <dcat:accessURL rdf:resource="https://accessibilita.agid.gov.it/data/opendata/dichiarazioni.json"/>
+  <dcatapit:Distribution rdf:about="https://monitoraggio.accessibilita.agid.gov.it/opendata/elenco-open-data-accessibilita/json3">
+    <dcat:accessURL rdf:resource="https://monitoraggio.accessibilita.agid.gov.it/data/opendata/dichiarazioni%5Fit.json"/>
     <dct:license>
-      <dcatapit:LicenseDocument rdf:about="https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40">
+      <dcatapit:LicenseDocument rdf:about="https://creativecommons.org/licenses/by/4.0/">
         <rdf:type rdf:resource="dct:LicenseDocument"/>
         <dct:type rdf:resource="http://purl.org/adms/licencetype/Attribution"/>
         <foaf:name>Creative Commons Attribuzione 4.0 Internazionale (CC BY 4.0)</foaf:name>
       </dcatapit:LicenseDocument>
     </dct:license>
     <dct:format rdf:resource="JSON"/>
+    <dct:rights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
     <dct:description>File in formato JSON delle dichiarazioni</dct:description>
     <dct:title>Open Data dichiarazioni json</dct:title>
     <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
   </dcatapit:Distribution>
-  <dcatapit:Distribution rdf:about="https://accessibilita.agid.gov.it/opendata/elenco-open-data-accessibilita/xml4">
-    <dcat:accessURL rdf:resource="https://accessibilita.agid.gov.it/data/opendata/dichiarazioni.xml"/>
+  <dcatapit:Distribution rdf:about="https://monitoraggio.accessibilita.agid.gov.it/opendata/elenco-open-data-accessibilita/xml4">
+    <dcat:accessURL rdf:resource="https://monitoraggio.accessibilita.agid.gov.it/data/opendata/dichiarazioni%5Fit.xml"/>
     <dct:license>
-      <dcatapit:LicenseDocument rdf:about="https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40">
+      <dcatapit:LicenseDocument rdf:about="https://creativecommons.org/licenses/by/4.0/">
         <rdf:type rdf:resource="dct:LicenseDocument"/>
         <dct:type rdf:resource="http://purl.org/adms/licencetype/Attribution"/>
         <foaf:name>Creative Commons Attribuzione 4.0 Internazionale (CC BY 4.0)</foaf:name>
       </dcatapit:LicenseDocument>
     </dct:license>
     <dct:format rdf:resource="XML"/>
+    <dct:rights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
     <dct:description>File in formato XML delle dichiarazioni</dct:description>
     <dct:title>Open Data dichiarazioni xml</dct:title>
     <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
   </dcatapit:Distribution>
-  <dcatapit:Distribution rdf:about="https://accessibilita.agid.gov.it/opendata/elenco-open-data-accessibilita/csv5">
-    <dcat:accessURL rdf:resource="https://accessibilita.agid.gov.it/data/opendata/errori.csv"/>
+  <dcatapit:Distribution rdf:about="https://monitoraggio.accessibilita.agid.gov.it/opendata/elenco-open-data-accessibilita/csv5">
+    <dcat:accessURL rdf:resource="https://monitoraggio.accessibilita.agid.gov.it/data/opendata/errori%5Fit.csv"/>
     <dct:license>
-      <dcatapit:LicenseDocument rdf:about="https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40">
+      <dcatapit:LicenseDocument rdf:about="https://creativecommons.org/licenses/by/4.0/">
         <rdf:type rdf:resource="dct:LicenseDocument"/>
         <dct:type rdf:resource="http://purl.org/adms/licencetype/Attribution"/>
         <foaf:name>Creative Commons Attribuzione 4.0 Internazionale (CC BY 4.0)</foaf:name>
       </dcatapit:LicenseDocument>
     </dct:license>
     <dct:format rdf:resource="CSV"/>
+    <dct:rights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
     <dct:description>File in formato CSV degli errori</dct:description>
     <dct:title>Open Data errori csv</dct:title>
     <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
   </dcatapit:Distribution>
-  <dcatapit:Distribution rdf:about="https://accessibilita.agid.gov.it/opendata/elenco-open-data-accessibilita/json6">
-    <dcat:accessURL rdf:resource="https://accessibilita.agid.gov.it/data/opendata/errori.json"/>
+  <dcatapit:Distribution rdf:about="https://monitoraggio.accessibilita.agid.gov.it/opendata/elenco-open-data-accessibilita/json6">
+    <dcat:accessURL rdf:resource="https://monitoraggio.accessibilita.agid.gov.it/data/opendata/errori%5Fit.json"/>
     <dct:license>
-      <dcatapit:LicenseDocument rdf:about="https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40">
+      <dcatapit:LicenseDocument rdf:about="https://creativecommons.org/licenses/by/4.0/">
         <rdf:type rdf:resource="dct:LicenseDocument"/>
         <dct:type rdf:resource="http://purl.org/adms/licencetype/Attribution"/>
         <foaf:name>Creative Commons Attribuzione 4.0 Internazionale (CC BY 4.0)</foaf:name>
       </dcatapit:LicenseDocument>
     </dct:license>
     <dct:format rdf:resource="JSON"/>
+    <dct:rights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
     <dct:description>File in formato JSON degli errori</dct:description>
     <dct:title>Open Data errori json</dct:title>
     <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
   </dcatapit:Distribution>
-  <dcatapit:Distribution rdf:about="https://accessibilita.agid.gov.it/opendata/elenco-open-data-accessibilita/xml7">
-    <dcat:accessURL rdf:resource="https://accessibilita.agid.gov.it/data/opendata/errori.xml"/>
+  <dcatapit:Distribution rdf:about="https://monitoraggio.accessibilita.agid.gov.it/opendata/elenco-open-data-accessibilita/xml7">
+    <dcat:accessURL rdf:resource="https://monitoraggio.accessibilita.agid.gov.it/data/opendata/errori%5Fit.xml"/>
     <dct:license>
-      <dcatapit:LicenseDocument rdf:about="https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40">
+      <dcatapit:LicenseDocument rdf:about="https://creativecommons.org/licenses/by/4.0/">
         <rdf:type rdf:resource="dct:LicenseDocument"/>
         <dct:type rdf:resource="http://purl.org/adms/licencetype/Attribution"/>
         <foaf:name>Creative Commons Attribuzione 4.0 Internazionale (CC BY 4.0)</foaf:name>
       </dcatapit:LicenseDocument>
     </dct:license>
     <dct:format rdf:resource="XML"/>
+    <dct:rights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
     <dct:description>File in formato XML degli errori</dct:description>
     <dct:title>Open Data errori xml</dct:title>
     <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
   </dcatapit:Distribution>
-  <dcatapit:Distribution rdf:about="https://accessibilita.agid.gov.it/opendata/elenco-open-data-accessibilita/csv8">
-    <dcat:accessURL rdf:resource="https://accessibilita.agid.gov.it/data/opendata/monitoraggio.csv"/>
+  <dcatapit:Distribution rdf:about="https://monitoraggio.accessibilita.agid.gov.it/opendata/elenco-open-data-accessibilita/csv8">
+    <dcat:accessURL rdf:resource="https://monitoraggio.accessibilita.agid.gov.it/data/opendata/monitoraggio%5Fit.csv"/>
     <dct:license>
-      <dcatapit:LicenseDocument rdf:about="https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40">
+      <dcatapit:LicenseDocument rdf:about="https://creativecommons.org/licenses/by/4.0/">
         <rdf:type rdf:resource="dct:LicenseDocument"/>
         <dct:type rdf:resource="http://purl.org/adms/licencetype/Attribution"/>
         <foaf:name>Creative Commons Attribuzione 4.0 Internazionale (CC BY 4.0)</foaf:name>
       </dcatapit:LicenseDocument>
     </dct:license>
     <dct:format rdf:resource="CSV"/>
+    <dct:rights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
     <dct:description>File in formato CSV del monitoraggio</dct:description>
     <dct:title>Open Data monitoragigo csv</dct:title>
     <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
   </dcatapit:Distribution>
-  <dcatapit:Distribution rdf:about="https://accessibilita.agid.gov.it/opendata/elenco-open-data-accessibilita/json9">
-    <dcat:accessURL rdf:resource="https://accessibilita.agid.gov.it/data/opendata/monitoraggio.json"/>
+  <dcatapit:Distribution rdf:about="https://monitoraggio.accessibilita.agid.gov.it/opendata/elenco-open-data-accessibilita/json9">
+    <dcat:accessURL rdf:resource="https://monitoraggio.accessibilita.agid.gov.it/data/opendata/monitoraggio%5Fit.json"/>
     <dct:license>
-      <dcatapit:LicenseDocument rdf:about="https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40">
+      <dcatapit:LicenseDocument rdf:about="https://creativecommons.org/licenses/by/4.0/">
         <rdf:type rdf:resource="dct:LicenseDocument"/>
         <dct:type rdf:resource="http://purl.org/adms/licencetype/Attribution"/>
         <foaf:name>Creative Commons Attribuzione 4.0 Internazionale (CC BY 4.0)</foaf:name>
       </dcatapit:LicenseDocument>
     </dct:license>
     <dct:format rdf:resource="JSON"/>
+    <dct:rights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
     <dct:description>File in formato JSON del monitoraggio</dct:description>
     <dct:title>Open Data monitoragigo json</dct:title>
     <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
   </dcatapit:Distribution>
-  <dcatapit:Distribution rdf:about="https://accessibilita.agid.gov.it/opendata/elenco-open-data-accessibilita/xml10">
-    <dcat:accessURL rdf:resource="https://accessibilita.agid.gov.it/data/opendata/monitoraggio.xml"/>
+  <dcatapit:Distribution rdf:about="https://monitoraggio.accessibilita.agid.gov.it/opendata/elenco-open-data-accessibilita/xml10">
+    <dcat:accessURL rdf:resource="https://monitoraggio.accessibilita.agid.gov.it/data/opendata/monitoraggio%5Fit.xml"/>
     <dct:license>
-      <dcatapit:LicenseDocument rdf:about="https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40">
+      <dcatapit:LicenseDocument rdf:about="https://creativecommons.org/licenses/by/4.0/">
         <rdf:type rdf:resource="dct:LicenseDocument"/>
         <dct:type rdf:resource="http://purl.org/adms/licencetype/Attribution"/>
         <foaf:name>Creative Commons Attribuzione 4.0 Internazionale (CC BY 4.0)</foaf:name>
       </dcatapit:LicenseDocument>
     </dct:license>
     <dct:format rdf:resource="XML"/>
+    <dct:rights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
     <dct:description>File in formato XML del monitoraggio</dct:description>
     <dct:title>Open Data monitoragigo xml</dct:title>
     <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
   </dcatapit:Distribution>
-  <skos:Concept rdf:about="http://publications.europa.eu/resource/authority/data-theme/GOVE">
-    <skos:prefLabel>Governo e settore pubblico</skos:prefLabel>
-  </skos:Concept>
-  <skos:Concept rdf:about="http://eurovoc.europa.eu/100169">
-    <skos:prefLabel xml:lang="it">0436 potere esecutivo e amministrazione pubblica</skos:prefLabel>
-  </skos:Concept>
-  <skos:Concept rdf:about="http://publications.europa.eu/resource/authority/data-theme/GOVE">
-    <skos:prefLabel>Governo e settore pubblico</skos:prefLabel>
-  </skos:Concept>
-  <skos:Concept rdf:about="http://eurovoc.europa.eu/100169">
-    <skos:prefLabel xml:lang="it">0436 potere esecutivo e amministrazione pubblica</skos:prefLabel>
-  </skos:Concept>
-  <skos:Concept rdf:about="http://publications.europa.eu/resource/authority/data-theme/GOVE">
-    <skos:prefLabel>Governo e settore pubblico</skos:prefLabel>
-  </skos:Concept>
-  <skos:Concept rdf:about="http://eurovoc.europa.eu/100169">
-    <skos:prefLabel xml:lang="it">0436 potere esecutivo e amministrazione pubblica</skos:prefLabel>
-  </skos:Concept>
-  <skos:Concept rdf:about="http://publications.europa.eu/resource/authority/data-theme/GOVE">
-    <skos:prefLabel>Governo e settore pubblico</skos:prefLabel>
-  </skos:Concept>
-  <skos:Concept rdf:about="http://eurovoc.europa.eu/100169">
-    <skos:prefLabel xml:lang="it">0436 potere esecutivo e amministrazione pubblica</skos:prefLabel>
-  </skos:Concept>
-<dcatapit:Organization rdf:about="https://accessibilita.agid.gov.it/">
+  <dcatapit:Distribution rdf:about="https://monitoraggio.accessibilita.agid.gov.it/opendata/obiettivi-di-accessibilita/json14">
+    <dcat:accessURL rdf:resource="https://monitoraggio.accessibilita.agid.gov.it/data/obiettivi%5Flinea%5Fintervento.json"/>
+    <dct:license>
+      <dcatapit:LicenseDocument rdf:about="https://creativecommons.org/licenses/by/4.0/">
+        <rdf:type rdf:resource="dct:LicenseDocument"/>
+        <dct:type rdf:resource="http://purl.org/adms/licencetype/Attribution"/>
+        <foaf:name>Creative Commons Attribuzione 4.0 Internazionale (CC BY 4.0)</foaf:name>
+      </dcatapit:LicenseDocument>
+    </dct:license>
+    <dct:format rdf:resource="JSON"/>
+    <dct:rights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
+    <dct:description>File in formato JSON delle obiettivi per linee d'intervento</dct:description>
+    <dct:title>Interventi di accessibilità pubblicati per linea di intervento</dct:title>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+  </dcatapit:Distribution>
+  <dcatapit:Distribution rdf:about="https://monitoraggio.accessibilita.agid.gov.it/opendata/obiettivi-di-accessibilita/json15">
+    <dcat:accessURL rdf:resource="https://monitoraggio.accessibilita.agid.gov.it/data/obiettivi%5Fregione.json"/>
+    <dct:license>
+      <dcatapit:LicenseDocument rdf:about="https://creativecommons.org/licenses/by/4.0/">
+        <rdf:type rdf:resource="dct:LicenseDocument"/>
+        <dct:type rdf:resource="http://purl.org/adms/licencetype/Attribution"/>
+        <foaf:name>Creative Commons Attribuzione 4.0 Internazionale (CC BY 4.0)</foaf:name>
+      </dcatapit:LicenseDocument>
+    </dct:license>
+    <dct:format rdf:resource="JSON"/>
+    <dct:rights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
+    <dct:description>File in formato JSON delle obiettivi per regione</dct:description>
+    <dct:title>Interventi di accessibilità pubblicati per regieone</dct:title>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+  </dcatapit:Distribution>
+<dcatapit:Organization rdf:about="https://monitoraggio.accessibilita.agid.gov.it/">
   <rdf:type rdf:resource="vcard:Organization"/>
   <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
   <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Kind"/>
   <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Organization"/>
   <rdf:type rdf:resource="vcard:Kind"/>
   <vcard:fn>Iniziative Piano Nazionale di Ripresa e Resilienza</vcard:fn>
-  <vcard:hasEmail rdf:resource="accessibilita@agid.gov.it"/>
-  <vcard:hasTelephone>06852641</vcard:hasTelephone>
-  <vcard:hasURL rdf:resource="https://accessibilita.agid.gov.it/"/>
+  <vcard:hasEmail rdf:resource="segreteriadg@agid.gov.it"/>
+  <vcard:hasTelephone>6852641</vcard:hasTelephone>
+  <vcard:hasURL rdf:resource="https://monitoraggio.accessibilita.agid.gov.it/"/>
 </dcatapit:Organization>
 </rdf:RDF>

@@ -9,47 +9,61 @@ let periodo = "";
 
 locale.subscribe(($locale) => {
   let currentLocale = $locale;
-  if (currentLocale == "it"){
-    lingua = "it-IT"
-    uno = "primo"
-    due = "secondo"
-    tre = "terzo"
-    quattro = "quarto"
-    periodo = "trimestre"
+  if (currentLocale == "it") {
+    lingua = "it-IT";
+    uno = "primo";
+    due = "secondo";
+    tre = "terzo";
+    quattro = "quarto";
+    periodo = "trimestre";
   } else {
-    lingua = "en-US"
-    uno = "first"
-    due = "second"
-    tre = "third"
-    quattro = "fourth"
-    periodo = "quarter"
+    lingua = "en-US";
+    uno = "first";
+    due = "second";
+    tre = "third";
+    quattro = "fourth";
+    periodo = "quarter";
   }
 });
 
 export const nf = (value) => new Intl.NumberFormat(lingua).format(value);
-export const nf2d = (value) =>  new Intl.NumberFormat(lingua, {
-  maximumFractionDigits: 2,
-  minimumFractionDigits: 2,
-}).format(value);
+export const nf1d = (value) =>
+  new Intl.NumberFormat(lingua, {
+    maximumFractionDigits: 1,
+    minimumFractionDigits: 1,
+  }).format(value);
 
-export const nf5d = (value) => new Intl.NumberFormat(lingua, {
-  maximumFractionDigits: 5,
-  minimumFractionDigits: 5,
-}).format(value);
+export const nf2d = (value) =>
+  new Intl.NumberFormat(lingua, {
+    maximumFractionDigits: 2,
+    minimumFractionDigits: 2,
+  }).format(value);
 
-export const df = (value) => new Intl.DateTimeFormat(lingua, {
-  year: "numeric",
-  month: "2-digit",
-  day: "2-digit",
-}).format(value);
+export const nf5d = (value) =>
+  new Intl.NumberFormat(lingua, {
+    maximumFractionDigits: 5,
+    minimumFractionDigits: 5,
+  }).format(value);
+
+export const df = (value) =>
+  new Intl.DateTimeFormat(lingua, {
+    year: "numeric",
+    month: "2-digit",
+    day: "2-digit",
+  }).format(value);
 
 export const dp = Date.parse;
 
 export const pm = (value) => {
-
   let newValue;
   let formattedPm;
-  let trimestre = value[0];
+
+  if (value.startsWith("Q")) {
+    value = value.slice(1);
+  }
+
+  const trimestre = value[0];
+  const anno = value.slice(2);
 
   switch (trimestre) {
     case "1":
@@ -67,6 +81,6 @@ export const pm = (value) => {
     default:
       newValue = "";
   }
-  formattedPm = `${newValue} ${periodo} ${value.slice(2, value.length)}`;
+  formattedPm = `${newValue} ${periodo} ${anno}`;
   return formattedPm;
 };

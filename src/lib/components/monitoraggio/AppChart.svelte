@@ -12,118 +12,125 @@
   // ---HIGHCHARTS END---
 
   let periodoMonitoraggio;
-    let response;
-    let loading = true;
-  
-    const columns = [
-      {
-        field: "des_sistema_operativo",
-        label: $t("moniAPPChart.os"),
-        align: "left",
-      },
-      {
-        field: "num_tot_app",
-        label: $t("moniAPPChart.numero"),
-        format: (value: any) => nf(value),
-        align: "right",
-      },
-    ];
-  
-    onMount(async () => {
-      const rs = await fetch("/data/mona_app_mon_distr_so.json");
-      response = await rs.json();
-      periodoMonitoraggio = response?.intestazione?.periodo_monitoraggio;
-      loading = false;
-  
-      let response2;
-      let os;
-      let valore;
-  
-      const rs2 = await fetch(
-        "/data/mona_app_mon_distr_so.json"
-      );
-      response2 = await rs2.json();
-      os = response2?.data?.map((r) => r.des_sistema_operativo);
-      valore = response2?.data?.map((r) => r.num_tot_app);
-  
-      let allData = [];
-  
-      for (let i = 0; i < os.length; i++) {
-        const dataObject = {
-          name: os[i],
-          y: valore[i],
-        };
-  
-        allData.push(dataObject);
-      }
-  
-      const pieAppOSchart = Highcharts.chart({
-        chart: {
-          renderTo: "pieAppOSchart",
-          plotBackgroundColor: null,
-          plotBorderWidth: null,
-          plotShadow: false,
-          type: "pie",
-        },
-        colors: [ "#993AB0", "#329574"],
-        title: { text: "" },
-        plotOptions: {
-          pie: {
-            startAngle: 0,
-            borderRadius: 0,
-            borderWidth: 8,
-            borderColor: "#fff",
-          },
-        },
-        tooltip: {
-          headerFormat: "",
-          pointFormat:
-            '<span style="color:{point.color}">\u25CF</span> <b>{point.name}</b><br/> {point.y}',
-        },
-        series: [
-          {
-            name: "Siti",
-            type: "pie",
-            data: allData,
-          },
-        ],
-      });
-    });
+  let response;
+  let loading = true;
 
+  const columns = [
+    {
+      field: "des_sistema_operativo",
+      label: $t("moniAPPChart.os"),
+      align: "left",
+    },
+    {
+      field: "num_tot_app",
+      label: $t("moniAPPChart.numero"),
+      format: (value: any) => nf(value),
+      align: "right",
+    },
+  ];
+
+  onMount(async () => {
+    const rs = await fetch("/data/mona_app_mon_distr_so.json");
+    response = await rs.json();
+    periodoMonitoraggio = response?.intestazione?.anno_monitoraggio;
+    loading = false;
+
+    let response2;
+    let os;
+    let valore;
+
+    const rs2 = await fetch("/data/mona_app_mon_distr_so.json");
+    response2 = await rs2.json();
+    os = response2?.data?.map((r) => r.des_sistema_operativo);
+    valore = response2?.data?.map((r) => r.num_tot_app);
+
+    let allData = [];
+
+    for (let i = 0; i < os.length; i++) {
+      const dataObject = {
+        name: os[i],
+        y: valore[i],
+      };
+
+      allData.push(dataObject);
+    }
+
+    const pieAppOSchart = Highcharts.chart({
+      chart: {
+        renderTo: "pieAppOSchart",
+        plotBackgroundColor: null,
+        plotBorderWidth: null,
+        plotShadow: false,
+        type: "pie",
+      },
+      colors: ["#993AB0", "#329574"],
+      title: { text: "" },
+      plotOptions: {
+        pie: {
+          startAngle: 0,
+          borderRadius: 0,
+          borderWidth: 8,
+          borderColor: "#fff",
+        },
+      },
+      tooltip: {
+        headerFormat: "",
+        pointFormat:
+          '<span style="color:{point.color}">\u25CF</span> {point.name}<br/>' +
+          $t("moniAPPChart.label") + '<b>{point.y}</b>',
+      },
+      series: [
+        {
+          name: "Siti",
+          type: "pie",
+          data: allData,
+        },
+      ],
+    });
+  });
 </script>
 
 <div class="card-box mt-2 mb-lg-5 hide-mobile pt-3 px-3">
-  <h2 class="cardTitle py-3 ps-2 ps-lg-3 d-inline-flex greyText">
-    {$t("moniAPPChart.title")}</h2>
+  <div class="d-flex justify-content-between">
+    <h3 class="cardTitle pt-3 ps-2 ps-lg-3 d-inline-flex greyText">
+      {$t("moniAPPChart.title")}
+    </h3>
+    <div class="pe-3 my-auto">
+      {#if !loading}
+        <CsvPdfButtons
+          rows={response?.data}
+          {columns}
+          title={$t("moniAPPChart.title")}
+          periodoMonitoraggio="{$t('layout.anno')}{periodoMonitoraggio}"
+        />
+      {/if}
+    </div>
+  </div>
   <div>
-    <p class="mb-0 pb-3 px-2 px-xl-3">
-      {$t("moniAPPChart.chartDescription")}
-      <br><a href="/errori-approfondito#app" aria-label={$t("erroriTableApp.titleApp")}>
-        {$t("erroriTableApp.titleApp")}
-      </a>
-    </p>
-    
     {#if periodoMonitoraggio}
-      <div class="caption text-start d-inline-block px-2 px-xl-3">
-        {$t("moniAPPChart.timeframe")}{pm(periodoMonitoraggio)}
+      <div class="d-inline-block px-2 px-xl-3">
+        <p class="periodoLabel mb-4">
+          {$t("layout.periodoMonitoraggio")}
+          <span class="periodoDate">
+            {$t("layout.anno")}{periodoMonitoraggio}
+          </span>
+        </p>
       </div>
     {/if}
+    <p class="mb-0 pb-3 px-2 px-xl-3">
+      {$t("moniAPPChart.chartDescription")}
+      <br /><a
+        href="/errori-approfondito#app"
+        aria-label={$t("moniAPPChart.learnMore")}
+      >
+        {$t("moniAPPChart.learnMore")}
+      </a>
+    </p>
   </div>
 
   <figure class="highcharts-figure">
     <div id="pieAppOSchart" style="width:100%; height:450px;" />
   </figure>
-
-  <div class="pe-3 pb-4">
-    {#if !loading}
-      <CsvPdfButtons
-        rows={response?.data}
-        {columns}
-        title={$t("moniAPPChart.title")}
-        periodoMonitoraggio={pm(periodoMonitoraggio)}
-      />
-    {/if}
-  </div>
 </div>
 
 {#if !loading}
@@ -134,12 +141,15 @@
       title={$t("moniAPPChart.title")}
       defaultSortBy="percentuale"
       didascalia={true}
-      periodoMonitoraggio={pm(periodoMonitoraggio)}
-      >
+      periodoMonitoraggio="{$t('layout.anno')}{periodoMonitoraggio}"
+    >
       <div slot="didascaliaSlot" class="didascalia">
         {$t("moniAPPChart.tableDescription")}
-        <br><a href="/errori-approfondito#app" aria-label={$t("erroriTableApp.titleApp")}>
-          {$t("erroriTableApp.titleApp")}
+        <br /><a
+          href="/errori-approfondito#app"
+          aria-label={$t("moniAPPChart.learnMore")}
+        >
+          {$t("moniAPPChart.learnMore")}
         </a>
       </div>
     </DataTable>

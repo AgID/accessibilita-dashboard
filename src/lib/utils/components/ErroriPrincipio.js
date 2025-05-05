@@ -1,12 +1,10 @@
 export default {
   it: {
-    "erroriPrincipio.WCAGlink": "https://www.w3.org/Translations/WCAG21-it/",
-    "erroriPrincipio.title": "Distribuzione errori per principio",
-    "erroriPrincipio.description": "Distribuzione degli errori rilevati tramite il sistema automatizzato all’interno dei quattro principi previsti dalle",
+    "erroriPrincipio.title": "Gli errori rilevati nei siti web per principio di accessibilità",
+    "erroriPrincipio.description": "Il grafico mostra i quattro principi di accessibilità (Percepibile, Utilizzabile, Comprensibile e Robusto) e la percentuale di errore rilevata automaticamente da MAUVE++ nei siti web delle PA per ciascun principio, nel trimestre di monitoraggio. {{break}} I principi di accessibilità sono definiti dalle WCAG 2.1.",
   },
   en: {
-    "erroriPrincipio.WCAGlink": "https://www.w3.org/TR/WCAG21/",
-    "erroriPrincipio.title": "Distribution of errors by principle",
-    "erroriPrincipio.description": "Distribution of errors detected through the automated system within the four principles outlined by",
+    "erroriPrincipio.title": "Errors detected in websites for accessibility principle",
+    "erroriPrincipio.description": "The graph shows the four accessibility principles (Perceivable, Usable, Understandable and Robust) and the percentage of errors automatically detected by MAUVE++ in PA websites for each principle, in the monitoring quarter. {{break}} The accessibility principles are defined by WCAG 2.1.",
   },
 };

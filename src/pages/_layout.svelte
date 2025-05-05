@@ -11,6 +11,11 @@
 
   let innerWidth;
   let selectedPage = $page.path || "";
+  let innerHeight;
+  let scrollY = 0;
+  let isSticky = false;
+  $: isSticky = scrollY > innerHeight * 0.05;
+
   $: {
     selectedPage = $page.path || "";
     resetValue();
@@ -37,29 +42,37 @@
       onClick(e);
     }
   }}
+  bind:innerHeight
+  on:scroll={() => {
+    scrollY = window.scrollY;
+  }}
 />
 
-<a href="#main" class="m-1 px-1 screenreader-text skip-style" id="skipContentuto"
-  >{$t("layout.skipLink")}</a
+<a
+  href="#main"
+  class="m-1 px-1 screenreader-text skip-style"
+  id="skipContentuto">{$t("layout.skipLink")}</a
 >
 <div>
-  <div>
-    <header class="it-header-wrapper">
-      <Header bind:selectedPage />
-      {#if innerWidth >= 992}
-        <DashboardTabs bind:selectedPage />
-      {/if}
-    </header>
-  </div>
+  <header class="it-header-wrapper">
+    <Header bind:selectedPage bind:isSticky />
+    {#if innerWidth >= 992}
+      <DashboardTabs bind:selectedPage bind:isSticky />
+    {/if}
+  </header>
   <main id="main">
     <!-- svelte-ignore a11y-invalid-attribute -->
     <a
       href="#"
-      aria-hidden="true"
       data-bs-toggle="backtotop"
       class="back-to-top {innerWidth <= 992 && 'back-to-top-small'}"
     >
-      <Icon name="it it-arrow-up" variant="light" isButton={true} />
+      <Icon
+        name="it it-arrow-up"
+        variant="light"
+        isButton={true}
+        ariaLabel="Back-To-Top Arrow"
+      />
     </a>
     {#key $locale}
       <slot />
@@ -91,8 +104,8 @@
   }
 
   .skip-style {
-      &:focus {
-        border: 2px solid #f90 !important
-      }
+    &:focus {
+      border: 2px solid #f90 !important;
     }
+  }
 </style>

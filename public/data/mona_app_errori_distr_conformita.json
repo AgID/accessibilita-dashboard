@@ -1,38 +1,338 @@
     {
         "data": [
             {
-                "num_perc_errori": 31.57894736842105263200,
+                "num_perc_errori": 27.32060566161948650400,
                 "cod_livello_conformita": "A",
-                "des_success_criteria_en": "10.1.1.1 Non-text Content",
-                "des_success_criteria_it": "10.1.1.1 Contenuti non testuali"
+                "des_success_criteria_en": "11.4.1.2.1 Name, role, value (open functionality)",
+                "des_success_criteria_it": "11.4.1.2.1 Nome, ruolo, valore (funzionalità aperta)",
+                "cod_mona_app_macro_success_criteria": "11.4.1.2"
             },
             {
-                "num_perc_errori": 26.31578947368421052600,
+                "num_perc_errori": 15.00987491770901909200,
+                "cod_livello_conformita": "A",
+                "des_success_criteria_en": "11.1.3.1.1 Info and relationships (open functionality)",
+                "des_success_criteria_it": "11.1.3.1.1 Informazioni e correlazioni (funzionalità aperta)",
+                "cod_mona_app_macro_success_criteria": "11.1.3.1"
+            },
+            {
+                "num_perc_errori": 10.07241606319947333800,
                 "cod_livello_conformita": "AA",
-                "des_success_criteria_en": "10.2.4.6 Headings and Labels",
-                "des_success_criteria_it": "10.2.4.6 Intestazioni ed etichette"
+                "des_success_criteria_en": "11.1.4.3 Contrast (Minimum)",
+                "des_success_criteria_it": "11.1.4.3 Contrasto (minimo)",
+                "cod_mona_app_macro_success_criteria": "11.1.4.3"
             },
             {
-                "num_perc_errori": 15.78947368421052631600,
-                "cod_livello_conformita": "A",
-                "des_success_criteria_en": "10.1.3.1 Info and Relationships",
-                "des_success_criteria_it": "10.1.3.1 Informazioni e correlazioni"
+                "num_perc_errori": 6.38578011849901250800,
+                "cod_livello_conformita": "AA",
+                "des_success_criteria_en": "11.1.4.11 Non-text Contrast",
+                "des_success_criteria_it": "11.1.4.11 Contrasto in contenuti non testuali",
+                "cod_mona_app_macro_success_criteria": "11.1.4.11"
             },
             {
-                "num_perc_errori": 15.78947368421052631600,
+                "num_perc_errori": 6.12244897959183673500,
                 "cod_livello_conformita": "A",
-                "des_success_criteria_en": "10.4.1.1 Parsing",
-                "des_success_criteria_it": "10.4.1.1 Analisi sintattica (parsing)"
+                "des_success_criteria_en": "11.1.3.3 Sensory Characteristics",
+                "des_success_criteria_it": "11.1.3.3 Caratteristiche sensoriali",
+                "cod_mona_app_macro_success_criteria": "11.1.3.3"
             },
             {
-                "num_perc_errori": 10.52631578947368421100,
+                "num_perc_errori": 6.05661619486504279100,
                 "cod_livello_conformita": "A",
-                "des_success_criteria_en": "10.4.1.2 Name, Role, Value",
-                "des_success_criteria_it": "10.4.1.2 Nome, ruolo, valore"
+                "des_success_criteria_en": "11.1.1.1.1 Non-text content (open functionality)",
+                "des_success_criteria_it": "11.1.1.1.1 Contenuti non testuali (funzionalità aperta)",
+                "cod_mona_app_macro_success_criteria": "11.1.1.1"
+            },
+            {
+                "num_perc_errori": 4.60829493087557603700,
+                "cod_livello_conformita": "AA",
+                "des_success_criteria_en": "11.2.4.6 Headings and Labels",
+                "des_success_criteria_it": "11.2.4.6 Intestazioni ed etichette",
+                "cod_mona_app_macro_success_criteria": "11.2.4.6"
+            },
+            {
+                "num_perc_errori": 3.29163923633969716900,
+                "cod_livello_conformita": "A",
+                "des_success_criteria_en": "11.4.1.1.1 Parsing (open functionality)",
+                "des_success_criteria_it": "11.4.1.1.1 Analisi sintattica - parsing (funzionalità aperta)",
+                "cod_mona_app_macro_success_criteria": "11.4.1.1"
+            },
+            {
+                "num_perc_errori": 2.56747860434496379200,
+                "cod_livello_conformita": "AA",
+                "des_success_criteria_en": "11.1.4.4.1 Resize text (open functionality)",
+                "des_success_criteria_it": "11.1.4.4.1 Ridimensionamento del testo (funzionalità aperta)",
+                "cod_mona_app_macro_success_criteria": "11.1.4.4"
+            },
+            {
+                "num_perc_errori": 2.50164581961816984900,
+                "cod_livello_conformita": "AA",
+                "des_success_criteria_en": "11.1.3.4 Orientation",
+                "des_success_criteria_it": "11.1.3.4 Orientamento",
+                "cod_mona_app_macro_success_criteria": "11.1.3.4"
+            },
+            {
+                "num_perc_errori": 2.30414746543778801800,
+                "cod_livello_conformita": "A",
+                "des_success_criteria_en": "11.2.4.3 Focus Order",
+                "des_success_criteria_it": "11.2.4.3 Ordine del focus",
+                "cod_mona_app_macro_success_criteria": "11.2.4.3"
+            },
+            {
+                "num_perc_errori": 1.51415404871626069800,
+                "cod_livello_conformita": "AA",
+                "des_success_criteria_en": "11.1.3.5.1 Identify input purpose (open functionality)",
+                "des_success_criteria_it": "11.1.3.5.1 Identificare lo scopo degli input (funzionalità aperta)",
+                "cod_mona_app_macro_success_criteria": "11.1.3.5"
+            },
+            {
+                "num_perc_errori": 1.38248847926267281100,
+                "cod_livello_conformita": "A",
+                "des_success_criteria_en": "11.3.3.2 Labels or Instructions",
+                "des_success_criteria_it": "11.3.3.2 Etichette o istruzioni",
+                "cod_mona_app_macro_success_criteria": "11.3.3.2"
+            },
+            {
+                "num_perc_errori": 1.38248847926267281100,
+                "cod_livello_conformita": "A",
+                "des_success_criteria_en": "11.2.4.4 Link Purpose (In Context)",
+                "des_success_criteria_it": "11.2.4.4 Scopo del collegamento (nel contesto)",
+                "cod_mona_app_macro_success_criteria": "11.2.4.4"
+            },
+            {
+                "num_perc_errori": 1.05332455562870309400,
+                "cod_livello_conformita": "A",
+                "des_success_criteria_en": "11.1.3.2.1 Meaningful sequence (open functionality)",
+                "des_success_criteria_it": "11.1.3.2.1 Sequenza significativa (funzionalità aperta)",
+                "cod_mona_app_macro_success_criteria": "11.1.3.2"
+            },
+            {
+                "num_perc_errori": 0.98749177090190915100,
+                "cod_livello_conformita": "A",
+                "des_success_criteria_en": "11.3.3.1.1 Error identification (open functionality)",
+                "des_success_criteria_it": "11.3.3.1.1 Identificazione degli errori (funzionalità aperta)",
+                "cod_mona_app_macro_success_criteria": "11.3.3.1"
+            },
+            {
+                "num_perc_errori": 0.92165898617511520700,
+                "cod_livello_conformita": "A",
+                "des_success_criteria_en": "11.3.1.1.1 Language of software (open functionality)",
+                "des_success_criteria_it": "11.3.1.1.1 Lingua del software (funzionalità aperta)",
+                "cod_mona_app_macro_success_criteria": "11.3.1.1"
+            },
+            {
+                "num_perc_errori": 0.92165898617511520700,
+                "cod_livello_conformita": "A",
+                "des_success_criteria_en": "11.1.4.1 Use of Color",
+                "des_success_criteria_it": "11.1.4.1 Uso del colore",
+                "cod_mona_app_macro_success_criteria": "11.1.4.1"
+            },
+            {
+                "num_perc_errori": 0.92165898617511520700,
+                "cod_livello_conformita": "AA",
+                "des_success_criteria_en": "11.3.3.3 Error Suggestion",
+                "des_success_criteria_it": "11.3.3.3 Suggerimenti per gli errori",
+                "cod_mona_app_macro_success_criteria": "11.3.3.3"
+            },
+            {
+                "num_perc_errori": 0.59249506254114549000,
+                "cod_livello_conformita": "A",
+                "des_success_criteria_en": "11.1.1.1.2 Non-text content (closed functionality)",
+                "des_success_criteria_it": "11.1.1.1.2 Contenuti non testuali (funzionalità chiusa)",
+                "cod_mona_app_macro_success_criteria": "11.1.1.1"
+            },
+            {
+                "num_perc_errori": 0.52666227781435154700,
+                "cod_livello_conformita": "AA",
+                "des_success_criteria_en": "11.1.4.10 Reflow",
+                "des_success_criteria_it": "11.1.4.10 Ricalcolo del flusso",
+                "cod_mona_app_macro_success_criteria": "11.1.4.10"
+            },
+            {
+                "num_perc_errori": 0.52666227781435154700,
+                "cod_livello_conformita": "A",
+                "des_success_criteria_en": "11.3.2.1 On Focus",
+                "des_success_criteria_it": "11.3.2.1 Al focus",
+                "cod_mona_app_macro_success_criteria": "11.3.2.1"
+            },
+            {
+                "num_perc_errori": 0.39499670836076366000,
+                "cod_livello_conformita": "",
+                "des_success_criteria_en": "11.5.2.3 Use of accessibility services",
+                "des_success_criteria_it": "11.5.2.3 Uso dei servizi di accessibilità",
+                "cod_mona_app_macro_success_criteria": "11.5.2.3"
+            },
+            {
+                "num_perc_errori": 0.26333113890717577400,
+                "cod_livello_conformita": "A",
+                "des_success_criteria_en": "11.2.2.2 Pause, Stop, Hide",
+                "des_success_criteria_it": "11.2.2.2 Pausa, stop, nascondi",
+                "cod_mona_app_macro_success_criteria": "11.2.2.2"
+            },
+            {
+                "num_perc_errori": 0.19749835418038183000,
+                "cod_livello_conformita": "AA",
+                "des_success_criteria_en": "11.2.4.7 Focus Visible",
+                "des_success_criteria_it": "11.2.4.7 Focus visibile",
+                "cod_mona_app_macro_success_criteria": "11.2.4.7"
+            },
+            {
+                "num_perc_errori": 0.19749835418038183000,
+                "cod_livello_conformita": "",
+                "des_success_criteria_en": "11.5.2.15 Change notification",
+                "des_success_criteria_it": "11.5.2.15 Notifica delle modifiche",
+                "cod_mona_app_macro_success_criteria": "11.5.2.15"
+            },
+            {
+                "num_perc_errori": 0.19749835418038183000,
+                "cod_livello_conformita": "A",
+                "des_success_criteria_en": "11.2.5.1 Pointer Gestures",
+                "des_success_criteria_it": "11.2.5.1 Movimenti del puntatore",
+                "cod_mona_app_macro_success_criteria": "11.2.5.1"
+            },
+            {
+                "num_perc_errori": 0.13166556945358788700,
+                "cod_livello_conformita": "A",
+                "des_success_criteria_en": "11.3.2.2 On Input",
+                "des_success_criteria_it": "11.3.2.2 All'input",
+                "cod_mona_app_macro_success_criteria": "11.3.2.2"
+            },
+            {
+                "num_perc_errori": 0.13166556945358788700,
+                "cod_livello_conformita": "",
+                "des_success_criteria_en": "11.5.2.10 Text",
+                "des_success_criteria_it": "11.5.2.10 Testo",
+                "cod_mona_app_macro_success_criteria": "11.5.2.10"
+            },
+            {
+                "num_perc_errori": 0.13166556945358788700,
+                "cod_livello_conformita": "AA",
+                "des_success_criteria_en": "11.1.4.4.2 Resize text (closed functionality)",
+                "des_success_criteria_it": "11.1.4.4.2 Ridimensionamento del testo (funzionalità chiusa)",
+                "cod_mona_app_macro_success_criteria": "11.1.4.4"
+            },
+            {
+                "num_perc_errori": 0.13166556945358788700,
+                "cod_livello_conformita": "",
+                "des_success_criteria_en": "11.5.2.14 Modification of focus and selection attributes",
+                "des_success_criteria_it": "11.5.2.14 Modifica degli attributi di focus e selezione",
+                "cod_mona_app_macro_success_criteria": "11.5.2.14"
+            },
+            {
+                "num_perc_errori": 0.13166556945358788700,
+                "cod_livello_conformita": "AA",
+                "des_success_criteria_en": "11.4.1.3.1 Status messages (open functionality)",
+                "des_success_criteria_it": "11.4.1.3.1 Messaggi di stato (funzionalità aperta)",
+                "cod_mona_app_macro_success_criteria": "11.4.1.3"
+            },
+            {
+                "num_perc_errori": 0.13166556945358788700,
+                "cod_livello_conformita": "",
+                "des_success_criteria_en": "11.5.2.8 Label relationships",
+                "des_success_criteria_it": "11.5.2.8 Relazioni etichetta",
+                "cod_mona_app_macro_success_criteria": "11.5.2.8"
+            },
+            {
+                "num_perc_errori": 0.13166556945358788700,
+                "cod_livello_conformita": "A",
+                "des_success_criteria_en": "11.2.2.1 Timing Adjustable",
+                "des_success_criteria_it": "11.2.2.1 Regolazione tempi di esecuzione",
+                "cod_mona_app_macro_success_criteria": "11.2.2.1"
+            },
+            {
+                "num_perc_errori": 0.06583278472679394300,
+                "cod_livello_conformita": "",
+                "des_success_criteria_en": "11.5.2.9 Parent-child relationships",
+                "des_success_criteria_it": "11.5.2.9 Relazioni genitore-figlio",
+                "cod_mona_app_macro_success_criteria": "11.5.2.9"
+            },
+            {
+                "num_perc_errori": 0.06583278472679394300,
+                "cod_livello_conformita": "A",
+                "des_success_criteria_en": "11.1.4.2 Audio Control",
+                "des_success_criteria_it": "11.1.4.2 Controllo del sonoro",
+                "cod_mona_app_macro_success_criteria": "11.1.4.2"
+            },
+            {
+                "num_perc_errori": 0.06583278472679394300,
+                "cod_livello_conformita": "AA",
+                "des_success_criteria_en": "11.1.4.13 Content on Hover or Focus",
+                "des_success_criteria_it": "11.1.4.13 Contenuto con Hover o Focus",
+                "cod_mona_app_macro_success_criteria": "11.1.4.13"
+            },
+            {
+                "num_perc_errori": 0.06583278472679394300,
+                "cod_livello_conformita": "A",
+                "des_success_criteria_en": "11.2.5.3.1 Label in Name (open functionality)",
+                "des_success_criteria_it": "11.2.5.3.1 Etichetta nel nome (funzionalità aperta)",
+                "cod_mona_app_macro_success_criteria": "11.2.5.3"
+            },
+            {
+                "num_perc_errori": 0.06583278472679394300,
+                "cod_livello_conformita": "A",
+                "des_success_criteria_en": "11.3.1.1.2 Language of software (closed functionality)",
+                "des_success_criteria_it": "11.3.1.1.2 Lingua del software (funzionalità chiusa)",
+                "cod_mona_app_macro_success_criteria": "11.3.1.1"
+            },
+            {
+                "num_perc_errori": 0.06583278472679394300,
+                "cod_livello_conformita": "AA",
+                "des_success_criteria_en": "11.3.3.4 Error Prevention (Legal, Financial, Data)",
+                "des_success_criteria_it": "11.3.3.4 Prevenzione degli errori (legali, finanziari, dati)",
+                "cod_mona_app_macro_success_criteria": "11.3.3.4"
+            },
+            {
+                "num_perc_errori": 0.06583278472679394300,
+                "cod_livello_conformita": "AA",
+                "des_success_criteria_en": "11.1.2.5 Audio Description (Prerecorded)",
+                "des_success_criteria_it": "11.1.2.5 Audiodescrizione (preregistrata)",
+                "cod_mona_app_macro_success_criteria": "11.1.2.5"
+            },
+            {
+                "num_perc_errori": 0.06583278472679394300,
+                "cod_livello_conformita": "",
+                "des_success_criteria_en": "11.5.2.11 List of available actions",
+                "des_success_criteria_it": "11.5.2.11 Elenco delle azioni disponibili",
+                "cod_mona_app_macro_success_criteria": "11.5.2.11"
+            },
+            {
+                "num_perc_errori": 0.06583278472679394300,
+                "cod_livello_conformita": "",
+                "des_success_criteria_en": "11.5.2.12 Execution of available actions",
+                "des_success_criteria_it": "11.5.2.12 Esecuzione di azioni disponibili",
+                "cod_mona_app_macro_success_criteria": "11.5.2.12"
+            },
+            {
+                "num_perc_errori": 0.06583278472679394300,
+                "cod_livello_conformita": "",
+                "des_success_criteria_en": "11.5.2.13 Tracking of focus and selection attributes",
+                "des_success_criteria_it": "11.5.2.13 Tracciamento degli attributi di focus e selezione",
+                "cod_mona_app_macro_success_criteria": "11.5.2.13"
+            },
+            {
+                "num_perc_errori": 0.06583278472679394300,
+                "cod_livello_conformita": "",
+                "des_success_criteria_en": "11.5.2.17 Modifications of values and text",
+                "des_success_criteria_it": "11.5.2.17 Modifica di valori e testo",
+                "cod_mona_app_macro_success_criteria": "11.5.2.17"
+            },
+            {
+                "num_perc_errori": 0.06583278472679394300,
+                "cod_livello_conformita": "",
+                "des_success_criteria_en": "11.5.2.5 Object information",
+                "des_success_criteria_it": "11.5.2.5 Informazioni sull'oggetto",
+                "cod_mona_app_macro_success_criteria": "11.5.2.5"
+            },
+            {
+                "num_perc_errori": 0.06583278472679394300,
+                "cod_livello_conformita": "",
+                "des_success_criteria_en": "11.5.2.7 Values",
+                "des_success_criteria_it": "11.5.2.7 Valori",
+                "cod_mona_app_macro_success_criteria": "11.5.2.7"
             }
         ],
         "intestazione": {
-            "periodo_monitoraggio": "4-2023",
-            "dat_ultimo_aggiornamento": "2023-12-31"
+            "anno_monitoraggio": 2024,
+            "dat_ultimo_aggiornamento": "2024-12-31"
         }
     }
+

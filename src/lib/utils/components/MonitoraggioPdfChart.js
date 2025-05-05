@@ -1,24 +1,30 @@
 export default {
-    it: {
-      "moniPDFChart.title": "Risultati della valutazione dei PDF",
-      "moniPDFChart.titleApp": "Risultati della valutazione manuale dei PDF",
-      "moniPDFChart.chartDescriptionSemp": "Il grafico riporta la percentuale dei PDF valutati ({{total}}) che presentano almeno un errore di accessibilità. {{break}} L’analisi è stata condotta da Mauvee++ in maniera automatica.",
-      "moniPDFChart.tableDescriptionSemp": "In tabella è riportata la percentuale dei PDF valutati ({{total}}) che presentano almeno un errore di accessibilità. {{break}} L’analisi è stata condotta da Mauvee++ in maniera automatica.",
-      "moniPDFChart.chartDescriptionApp": "Il grafico riporta la percentuale dei PDF che presentano almeno un errore di accessibilità.",
-      "moniPDFChart.tableDescriptionApp": "La tabella riporta la percentuale dei PDF che presentano almeno un errore di accessibilità.",
-      "moniPDFChart.timeframe": "Periodo monitoraggio: ",
-      "moniPDFChart.area": "PDF",
-      "moniPDFChart.numero": "Percentuale",
-    },
-    en: {
-      "moniPDFChart.title": "Results of PDF Evaluation",
-      "moniPDFChart.titleApp": "Results of PDF manual evaluation",
-      "moniPDFChart.chartDescriptionSemp": "The chart shows the percentage of evaluated PDFs ({{total}}) that have at least one accessibility error. {{break}} The analysis was conducted automatically by Mauvee++.",
-      "moniPDFChart.tableDescriptionSemp": "The table shows the percentage of evaluated PDFs ({{total}}) that have at least one accessibility error. {{break}} The analysis was conducted automatically by Mauvee++.",
-      "moniPDFChart.chartDescriptionApp": "The chart shows the percentage of PDFs that have at least one accessibility error.",
-      "moniPDFChart.tableDescriptionApp": "The table shows the percentage of PDFs that have at least one accessibility error.",
-      "moniPDFChart.timeframe": "Monitoring period: ",
-      "moniPDFChart.area": "PDF",
-      "moniPDFChart.numero": "Percentage",
-    },
-  };
+  it: {
+    "moniPDFChart.title": "Valutazione dei documenti PDF",
+    "moniPDFChart.titleAppr": "Valutazione approfondita dei documenti PDF",
+    "moniPDFChart.chartDescrSemp":
+      "Il grafico mostra la percentuale dei documenti PDF monitorati da MAUVE++ nel trimestre che presentano almeno un errore di accessibilità.",
+    "moniPDFChart.tableDescrSemp":
+      "La tabella mostra la percentuale dei documenti PDF monitorati da MAUVE++ nel trimestre che presentano almeno un errore di accessibilità.",
+    "moniPDFChart.chartDescrAppr":
+      "Il grafico mostra la percentuale dei documenti PDF monitorati manualmente che presentano almeno un errore di accessibilità.",
+    "moniPDFChart.tableDescrAppr":
+      "La tabella mostra la percentuale dei documenti PDF monitorati manualmente che presentano almeno un errore di accessibilità.",
+    "moniPDFChart.area": "Documenti PDF",
+    "moniPDFChart.numero": "Percentuale",
+  },
+  en: {
+    "moniPDFChart.title": "Evaluation of PDF documents",
+    "moniPDFChart.titleAppr": "In-depth evaluation of PDF documents",
+    "moniPDFChart.chartDescrSemp":
+      "The chart shows the percentage of PDF documents monitored by MAUVE++ in the quarter that have at least one accessibility error.",
+    "moniPDFChart.tableDescrSemp":
+      "The table shows the percentage of PDF documents monitored by MAUVE++ in the quarter that have at least one accessibility error.",
+    "moniPDFChart.chartDescrAppr":
+      "The chart shows the percentage of manually monitored PDF documents that have at least one accessibility error.",
+    "moniPDFChart.tableDescrAppr":
+      "The table shows the percentage of manually monitored PDF documents that have at least one accessibility error.",
+    "moniPDFChart.area": "PDF documents",
+    "moniPDFChart.numero": "Percentage",
+  },
+};

@@ -50,5 +50,6 @@
     rows={response}
     canDownload={false}
     defaultSortBy={`periodo_${$locale}`}
+    title={$t("opendata.subtitle")}
   />
 {/if}

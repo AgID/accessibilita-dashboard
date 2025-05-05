@@ -1,22 +1,29 @@
-[
     {
-        "des_principio_en": "Perceivable",
-        "des_principio_it": "Percepibile",
-        "perc_errore_per_principio": 50.27
-    },
-    {
-        "des_principio_en": "Usable",
-        "des_principio_it": "Utilizzabile",
-        "perc_errore_per_principio": 43.35
-    },
-    {
-        "des_principio_en": "Robust",
-        "des_principio_it": "Robusto",
-        "perc_errore_per_principio": 5.70
-    },
-    {
-        "des_principio_en": "Understandable",
-        "des_principio_it": "Comprensibile",
-        "perc_errore_per_principio": 0.68
+        "data": [
+            {
+                "des_principio_en": "Perceivable",
+                "des_principio_it": "Percepibile",
+                "perc_errore_per_principio": 50.28
+            },
+            {
+                "des_principio_en": "Usable",
+                "des_principio_it": "Utilizzabile",
+                "perc_errore_per_principio": 44.30
+            },
+            {
+                "des_principio_en": "Robust",
+                "des_principio_it": "Robusto",
+                "perc_errore_per_principio": 4.77
+            },
+            {
+                "des_principio_en": "Understandable",
+                "des_principio_it": "Comprensibile",
+                "perc_errore_per_principio": 0.66
+            }
+        ],
+        "intestazione": {
+            "periodo_monitoraggio": "1-2025",
+            "dat_ultimo_aggiornamento": "2025-03-31"
+        }
     }
-]
+

@@ -1,17 +1,20 @@
 [
     {
-        "valore": 1969,
+        "valore": 2697,
         "indicatore": "num_dichiarazioni_app_pub_tot",
-        "dat_ult_agg_dichiarazione": "2023-09-23"
+        "anno_dichiarazione": 2024,
+        "dat_ult_agg_dichiarazione": "2024-09-23"
     },
     {
-        "valore": 714,
+        "valore": 728,
         "indicatore": "num_dichiarazioni_app_pub",
-        "dat_ult_agg_dichiarazione": "2023-09-23"
+        "anno_dichiarazione": 2024,
+        "dat_ult_agg_dichiarazione": "2024-09-23"
     },
     {
-        "valore": 373,
+        "valore": 385,
         "indicatore": "num_enti_dichiarazioni_app_pub",
-        "dat_ult_agg_dichiarazione": "2023-09-23"
+        "anno_dichiarazione": 2024,
+        "dat_ult_agg_dichiarazione": "2024-09-23"
     }
 ]

@@ -1,113 +1,114 @@
-{
-  "data": [
     {
-      "ios": 90,
-      "android": 128,
-      "des_regione": "Lombardia"
-    },
-    {
-      "ios": 31,
-      "android": 58,
-      "des_regione": "Lazio"
-    },
-    {
-      "ios": 42,
-      "android": 55,
-      "des_regione": "Veneto"
-    },
-    {
-      "ios": 24,
-      "android": 40,
-      "des_regione": "Piemonte"
-    },
-    {
-      "ios": 27,
-      "android": 29,
-      "des_regione": "Sardegna"
-    },
-    {
-      "ios": 12,
-      "android": 19,
-      "des_regione": "Toscana"
-    },
-    {
-      "ios": 11,
-      "android": 19,
-      "des_regione": "Emilia-Romagna"
-    },
-    {
-      "ios": 12,
-      "android": 13,
-      "des_regione": "Puglia"
-    },
-    {
-      "ios": 9,
-      "android": 12,
-      "des_regione": "Marche"
-    },
-    {
-      "ios": 8,
-      "android": 10,
-      "des_regione": "Liguria"
-    },
-    {
-      "ios": 7,
-      "android": 9,
-      "des_regione": "Sicilia"
-    },
-    {
-      "ios": 8,
-      "android": 9,
-      "des_regione": "Friuli-Venezia Giulia"
-    },
-    {
-      "ios": 1,
-      "android": 9,
-      "des_regione": "Campania"
-    },
-    {
-      "ios": 2,
-      "android": 3,
-      "des_regione": "Provincia autonoma di Trento"
-    },
-    {
-      "ios": 1,
-      "android": 2,
-      "des_regione": "Valle d'Aosta/Vallée d'Aoste"
-    },
-    {
-      "ios": 2,
-      "android": 2,
-      "des_regione": "Umbria"
-    },
-    {
-      "ios": 2,
-      "android": 2,
-      "des_regione": "Calabria"
-    },
-    {
-      "ios": 1,
-      "android": 1,
-      "des_regione": "Molise"
-    },
-    {
-      "ios": 3,
-      "android": 1,
-      "des_regione": "Abruzzo"
-    },
-    {
-      "ios": 0,
-      "android": 0,
-      "des_regione": "Provincia autonoma di Bolzano"
-    },
-    {
-      "ios": 0,
-      "android": 0,
-      "des_regione": "Basilicata"
+        "data": [
+            {
+                "iOS": 79,
+                "Android": 129,
+                "des_regione": "Lombardia"
+            },
+            {
+                "iOS": 20,
+                "Android": 51,
+                "des_regione": "Lazio"
+            },
+            {
+                "iOS": 35,
+                "Android": 51,
+                "des_regione": "Piemonte"
+            },
+            {
+                "iOS": 36,
+                "Android": 50,
+                "des_regione": "Veneto"
+            },
+            {
+                "iOS": 15,
+                "Android": 24,
+                "des_regione": "Toscana"
+            },
+            {
+                "iOS": 23,
+                "Android": 21,
+                "des_regione": "Sardegna"
+            },
+            {
+                "iOS": 10,
+                "Android": 19,
+                "des_regione": "Puglia"
+            },
+            {
+                "iOS": 13,
+                "Android": 15,
+                "des_regione": "Emilia-Romagna"
+            },
+            {
+                "iOS": 9,
+                "Android": 14,
+                "des_regione": "Friuli-Venezia Giulia"
+            },
+            {
+                "iOS": 9,
+                "Android": 14,
+                "des_regione": "Marche"
+            },
+            {
+                "iOS": 9,
+                "Android": 11,
+                "des_regione": "Sicilia"
+            },
+            {
+                "iOS": 6,
+                "Android": 11,
+                "des_regione": "Campania"
+            },
+            {
+                "iOS": 5,
+                "Android": 9,
+                "des_regione": "Liguria"
+            },
+            {
+                "iOS": 5,
+                "Android": 7,
+                "des_regione": "Valle d'Aosta/Vallée d'Aoste"
+            },
+            {
+                "iOS": 5,
+                "Android": 6,
+                "des_regione": "Calabria"
+            },
+            {
+                "iOS": 3,
+                "Android": 4,
+                "des_regione": "Abruzzo"
+            },
+            {
+                "iOS": 4,
+                "Android": 4,
+                "des_regione": "Provincia autonoma di Trento"
+            },
+            {
+                "iOS": 0,
+                "Android": 1,
+                "des_regione": "Umbria"
+            },
+            {
+                "iOS": 0,
+                "Android": 0,
+                "des_regione": "Provincia autonoma di Bolzano"
+            },
+            {
+                "iOS": 0,
+                "Android": 0,
+                "des_regione": "Molise"
+            },
+            {
+                "iOS": 1,
+                "Android": 0,
+                "des_regione": "Basilicata"
+            }
+        ],
+        "intestazione": {
+            "anno_dichiarazione": 2024,
+            "dat_ult_agg_dichiarazione": "2024-09-23"
+        }
     }
-  ],
-  "intestazione": {
-    "periodo_dichiarazioni": "2020 - 2023",
-    "dat_ult_agg_dichiarazione": "2023-09-23"
-  }
-}
+

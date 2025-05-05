@@ -1,11 +1,12 @@
 <script>
   import { onMount } from "svelte";
-  import { nf } from "../../utils";
+  import { nf, nf1d, pm } from "../../utils";
   import Icon from "../Icon.svelte";
   import Tooltip from "../Tooltip.svelte";
   import { locale, t } from "../../utils/i18n";
 
   let erroriRiscontratiPrincipio;
+  let periodoMonitoraggio;
 
   let principleTextMap = {
     Percepibile: "https://www.w3.org/Translations/WCAG21-it/#perceivable",
@@ -28,10 +29,15 @@
   onMount(async () => {
     const rsPrincipio = await fetch("/data/errori_principio.json");
     erroriRiscontratiPrincipio = await rsPrincipio.json();
+    periodoMonitoraggio = pm(
+      erroriRiscontratiPrincipio?.intestazione?.periodo_monitoraggio
+    );
     let orderedErrors = [];
     ordinePrincipi.forEach((op) => {
       orderedErrors.push(
-        erroriRiscontratiPrincipio.find((erp) => erp.des_principio_it == op)
+        erroriRiscontratiPrincipio.data.find(
+          (erp) => erp.des_principio_it == op
+        )
       );
     });
     erroriRiscontratiPrincipio = orderedErrors;
@@ -41,22 +47,19 @@
 <div class="backgroundLightBlue pt-5 pb-3 px-xxl-5">
   <div class="container">
     <div class="text-center">
-      <h3 class="h3 pb-3">{$t("erroriPrincipio.title")}</h3>
+      <h3 class="h3 pb-2">{$t("erroriPrincipio.title")}</h3>
     </div>
+    <div class="text-center">
+      <p class="periodoLabel pb-2 d-inline-block">
+        {$t("layout.periodoMonitoraggio")}
+        <span class="periodoDate">
+          {periodoMonitoraggio}
+        </span>
+      </p>
+    </div>
+
     <p class=" mx-3 mx-lg-5 px-lg-5 text-center">
-      {$t("erroriPrincipio.description")}
-      <a
-        href={$t("erroriPrincipio.WCAGlink")}
-        title={$t("layout.externalLink")}
-        target="_blank"
-        rel="noreferrer"
-        >WCAG 2.1 <Icon
-          name="it it-external-link"
-          size="xs"
-          customClass="mb-1"
-          variant="primary"
-        /></a
-      >
+      {@html $t("erroriPrincipio.description", { break: "<br/>" })}
     </p>
     {#if erroriRiscontratiPrincipio}
       <div class="row text-center">
@@ -82,7 +85,7 @@
             </p>
 
             <p class="cardMainData">
-              {nf(item.perc_errore_per_principio)}%
+              {nf1d(item.perc_errore_per_principio)}%
             </p>
           </div>
         {/each}

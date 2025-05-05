@@ -1,0 +1,22 @@
+    {
+        "data": [
+            {
+                "anno_monitoraggio": 2023,
+                "num_app_monitorate": 62,
+                "num_pdf_monitorati": 305,
+                "num_siti_monitorati": 103,
+                "num_pagine_web_monitorate": 1333
+            },
+            {
+                "anno_monitoraggio": 2024,
+                "num_app_monitorate": 68,
+                "num_pdf_monitorati": 321,
+                "num_siti_monitorati": 119,
+                "num_pagine_web_monitorate": 1769
+            }
+        ],
+        "intestazione": {
+            "anno_ult_monitoraggio": 2024,
+            "dat_ult_aggiornamento": "2024-12-31"
+        }
+    }

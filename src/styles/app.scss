@@ -4,7 +4,7 @@
 
 body {
   overflow-x: hidden;
-  position: relative
+  position: relative;
 }
 
 body {
@@ -24,8 +24,8 @@ body {
   color: #0066cc;
 }
 
-.greyText{
-  color:#2F475E;
+.greyText {
+  color: #2f475e;
 }
 
 .h11 {
@@ -53,6 +53,11 @@ body {
   line-height: 40px;
 }
 
+.display4 {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 32px;
+}
 
 .display5 {
   font-weight: 600;
@@ -84,7 +89,7 @@ body {
   font-weight: 700;
   font-size: 48px;
   line-height: 60px;
-  color: #0066CC;
+  color: #0066cc;
 }
 
 .cardSmallTitle {
@@ -95,6 +100,29 @@ body {
   line-height: 32px;
 }
 
+.cardSmallData {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: normal !important;
+  color: #0066cc;
+}
+
+.periodoLabel {
+  font-size: 16px;
+  color: #1a1a1a;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.periodoDate {
+  font-size: 16px;
+  font-weight: 600;
+  color: #1a1a1a;
+  line-height: 24px;
+}
+
 .caption {
   font-size: 16px;
   line-height: 24px;
@@ -103,13 +131,13 @@ body {
 .captionUpdateLighter {
   font-size: 16px;
   line-height: 24px;
-  color: #004C98;
+  color: #004c98;
 }
 
 .captionUpdateDarker {
   font-size: 16px;
   line-height: 24px;
-  color: #2F475E;
+  color: #2f475e;
 }
 
 .title1 {
@@ -119,7 +147,7 @@ body {
   color: #f5f5f5;
 }
 
-a:hover{
+a:hover {
   text-decoration: underline;
 }
 
@@ -152,6 +180,12 @@ a:hover{
     line-height: 32px;
   }
 
+  .display4 {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 32px;
+  }
+
   .cardTitle {
     font-weight: 600;
     font-size: 24px;
@@ -160,7 +194,7 @@ a:hover{
 
   .cardMainData {
     font-weight: 700;
-    font-size: 40px;
+    font-size: 38px;
     line-height: 48px;
   }
 
@@ -194,7 +228,6 @@ a:hover{
 
 .kpi-footer {
   background-color: $primary;
-  text-align: right;
   padding: 0.6em 1.1em;
 
   & > * {

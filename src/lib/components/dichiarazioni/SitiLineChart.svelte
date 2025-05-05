@@ -17,6 +17,8 @@
   let annoSpecifico;
   let loading = true;
   let response;
+  let annoRiferimento;
+
   const columns = [
     { field: "anno_dichiarazione", label: $t("dicLineChart.anno") },
     {
@@ -35,6 +37,7 @@
       (r) => r.num_dichiarazione_pub_anno
     );
     annoSpecifico = response?.data?.map((r) => r.anno_dichiarazione);
+    annoRiferimento = response?.intestazione?.anno_dichiarazione;
 
     const chart1 = Highcharts.chart({
       chart: { renderTo: "dichiarazioniTrendAnnoSITI", type: "line" },
@@ -70,16 +73,21 @@
       yAxis: {
         title: { text: "" },
       },
+      tooltip: {
+        headerFormat: "",
+        pointFormat:
+          '<span style="color:{point.color}">\u25CF</span> {point.x} <br/>{point.series.name}: <b>{point.y}</b>',
+      },
       plotOptions: {
         series: {
           lineWidth: 3,
           marker: {
-                enabled: true,
-                fillColor: '#FFFFFF',
-                lineWidth: 1,
-                lineColor: null,
-                symbol: "cicrle",
-            },
+            enabled: true,
+            fillColor: "#FFFFFF",
+            lineWidth: 1,
+            lineColor: null,
+            symbol: "cicrle",
+          },
           label: {
             connectorAllowed: false,
           },
@@ -88,7 +96,7 @@
       },
       series: [
         {
-          name: $t("dicLineChart.label"),
+          name: $t("dicLineChart.labelSITI"),
           type: "line",
           data: numDichiarazioniAnno,
         },
@@ -101,30 +109,37 @@
 </script>
 
 <div class="card-box mt-3 mt-lg-0 hide-mobile pt-3 px-3">
-  <h2 class="cardTitle py-3 ps-2 ps-lg-3 d-inline-flex greyText">
-    {$t("dicLineChart.title")}
-  </h2>
+  <div class="d-flex justify-content-between">
+    <h2 class="cardTitle pt-3 ps-2 ps-lg-3 d-inline-flex greyText">
+      {$t("dicLineChart.SITItitle")}
+    </h2>
+    <div class="pe-3 my-auto">
+      {#if !loading}
+        <CsvPdfButtons
+          rows={response?.data}
+          {columns}
+          title={$t("dicLineChart.SITItitle")}
+          searchingName={$t("dicLineChart.SITItitle")}
+          periodoMonitoraggio="{$t('layout.anno')}{annoRiferimento}"
+        />
+      {/if}
+    </div>
+  </div>
+  <div class="px-2 px-xl-3">
+    <p class="periodoLabel mb-4">
+      {$t("layout.periodoMonitoraggio")}
+      <span class="periodoDate">
+        {$t("layout.anno")}{annoRiferimento}
+      </span>
+    </p>
+  </div>
+  <p class="mb-0 pb-3 px-2 px-xl-3">
+    {@html $t("dicLineChart.SITIchartDescription", { break: "<br/>" })}
+  </p>
 
   <figure class="highcharts-figure">
     <div id="dichiarazioniTrendAnnoSITI" style="width:100%; height:250px;" />
   </figure>
-
-  <p class="mb-0 pb-3 px-2 px-xl-4">
-    {$t("dicLineChart.SITIchartDescription")}
-
-  </p>
-
-  <div class="pe-3 pb-4">
-    {#if !loading}
-      <CsvPdfButtons
-        rows={response?.data}
-        {columns}
-        title={$t("dicLineChart.title")}
-        searchingName={$t("dicLineChart.SITItitle")}
-        periodoMonitoraggio={response?.intestazione?.periodo_dichiarazioni}
-      />
-    {/if}
-  </div>
 </div>
 
 {#if !loading}
@@ -136,11 +151,11 @@
       defaultSortBy="anno_dichiarazione"
       descending={true}
       didascalia={true}
-      periodoMonitoraggio={response?.intestazione?.periodo_dichiarazioni}
+      periodoMonitoraggio="{$t('layout.anno')}{annoRiferimento}"
       searchingName={$t("dicLineChart.SITItitle")}
     >
       <div slot="didascaliaSlot" class="didascalia">
-        {$t("dicLineChart.SITItableDescription")}
+        {@html $t("dicLineChart.SITItableDescription", { break: "<br/>" })}
       </div>
     </DataTable>
   </div>
