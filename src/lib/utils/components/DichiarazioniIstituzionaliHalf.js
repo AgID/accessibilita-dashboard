@@ -9,10 +9,10 @@ export default {
   },
   en: {
     "dicIstHalf.cardOneTitle":
-      "Institutional websites listed in the IPA catalog that published the statement in {{anno}}",
+      "Institutional websites listed in the PA Index that published the statement in {{anno}}",
     "dicIstHalf.cardTwoTitle":
-      "Total number of institutional websites listed in the IPA catalog in {{anno}}",
+      "Total number of institutional websites listed in the PA Index in {{anno}}",
     "dicIstHalf.description":
-      "In {{anno}}, {{percentuale}}% of institutional websites listed in the IPA catalog have published their accessibility statement.",
+      "In {{anno}}, {{percentuale}}% of institutional websites listed in the PA Index have published their accessibility statement.",
   },
 };

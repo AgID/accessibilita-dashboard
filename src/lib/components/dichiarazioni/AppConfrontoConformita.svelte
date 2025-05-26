@@ -32,14 +32,14 @@
       field: "Android",
       label: $t("dicAppConformita.android"),
       format: (value: any) => nf1d(value) + "%",
-      formatDownload: (value: any) => nf2d(value),
+      formatDownload: (value: any) => nf2d(value) + "%",
       align: "right",
     },
     {
       field: "iOS",
       label: $t("dicAppConformita.ios"),
       format: (value: any) => nf1d(value) + "%",
-      formatDownload: (value: any) => nf2d(value),
+      formatDownload: (value: any) => nf2d(value) + "%",
       align: "right",
     },
   ];

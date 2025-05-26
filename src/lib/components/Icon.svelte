@@ -8,13 +8,15 @@
   export let bgColor: string = "";
   export let customClass: string = "";
   export let ariaLabel: string = "";
-  export let ariaHidden: boolean = false
-  export let isButton: boolean = false
+  export let ariaHidden: boolean = false;
+  export let isImg: boolean = false;
 
   let iconHref: string = "";
-  let role = isButton ? "button" : "";
-  let tabindex = role ? 0 : -1;
+  let role = isImg ? "img" : "";
+
+  let tabindex = -1;
   const dispatch = createEventDispatcher();
+
   $: {
     const tokens = name.split(" ");
     iconHref =

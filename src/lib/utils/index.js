@@ -26,7 +26,8 @@ locale.subscribe(($locale) => {
   }
 });
 
-export const nf = (value) => new Intl.NumberFormat(lingua).format(value);
+export const nf = (value) =>
+  new Intl.NumberFormat(lingua, { useGrouping: "always" }).format(value);
 export const nf1d = (value) =>
   new Intl.NumberFormat(lingua, {
     maximumFractionDigits: 1,

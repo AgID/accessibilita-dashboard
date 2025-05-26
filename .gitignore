@@ -23,3 +23,10 @@ node_modules
 *.sln
 *.sw?
 .routify/routes.js
+.env
+
+# Playwright
+/test-results/
+/playwright-report/
+/blob-report/
+/playwright/.cache/

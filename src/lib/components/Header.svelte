@@ -613,10 +613,6 @@
                   alt={$t("header.monitoraggio")}
                   height="56"
                 />
-                <span
-                  class="badge rounded-pill bg-white betaBadge ms-0 ms-lg-3 align-bottom"
-                  tabindex="-1">{$t("header.monitoraggioBadge")}</span
-                >
               </a>
             </div>
           </div>
@@ -651,13 +647,6 @@
 
   .subListItem {
     margin-left: 40px !important;
-  }
-
-  .betaBadge {
-    font-size: 12px !important;
-    color: #000;
-    margin-left: 10px;
-    font-weight: 700;
   }
 
   .wrap-top {

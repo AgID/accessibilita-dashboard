@@ -1,8 +1,8 @@
 export default {
   it: {
-    "privacyPolicy.pagename": "Privacy Policy - Monitoraggio Accessibilità",
-    "privacyPolicy.section": "Privacy Policy",
-    "privacyPolicy.title": "Privacy Policy",
+    "privacyPolicy.pagename": "Privacy policy - Monitoraggio Accessibilità",
+    "privacyPolicy.section": "Privacy policy",
+    "privacyPolicy.title": "Privacy policy",
     "privacyPolicy.para1":
       "Ai sensi degli artt. 13-14 del Regolamento (UE) 2016/679 del Parlamento europeo e del Consiglio. {{doubleBreak}} Questa pagina descrive le modalità di trattamento dei dati personali degli utenti che consultano il presente sito web. {{doubleBreak}} Le informazioni rese non riguardano altri siti web, pagine o servizi online raggiungibili tramite link ipertestuali riferiti a risorse esterne al dominio del presente sito web.",
     "privacyPolicy.subtitle2":
@@ -32,14 +32,14 @@ export default {
     "privacyPolicy.subtitle8": "Diritti degli interessati",
     "privacyPolicy.para8":
       "Gli interessati hanno il diritto di ottenere da AgID l’accesso ai propri dati personali, la rettifica o la cancellazione degli stessi, la limitazione del relativo trattamento, il diritto di opporvisi e il diritto alla portabilità dei dati, laddove ne ricorrano i presupposti. {{doubleBreak}} Fatto salvo ogni altro ricorso amministrativo o giurisdizionale, è diritto degli interessati proporre reclamo al Garante per la protezione dei dati personali qualora ritengano che il trattamento dei propri dati violi il Regolamento. AgID garantisce che non è prevista alcuna forma di processo decisionale esclusivamente automatizzato che comporti effetti giuridici sull’interessato.",
-    "privacyPolicy.subtitle9": "Cookie Policy",
+    "privacyPolicy.subtitle9": "Cookie policy",
     "privacyPolicy.para9":
       "Sono in uso cookie tecnici di sessione non persistenti in modo strettamente limitato a quanto necessario per la navigazione sicura ed efficiente del sito web. {{break}} Non viene fatto uso di cookie per la profilazione degli utenti.",
   },
   en: {
-    "privacyPolicy.pagename": "Privacy Policy - Accessibility Monitoring",
-    "privacyPolicy.section": "Privacy Policy",
-    "privacyPolicy.title": "Privacy Policy",
+    "privacyPolicy.pagename": "Privacy policy - Accessibility Monitoring",
+    "privacyPolicy.section": "Privacy policy",
+    "privacyPolicy.title": "Privacy policy",
     "privacyPolicy.para1":
       "In accordance with Articles 13-14 of Regulation (EU) 2016/679 of the European Parliament and of the Council. {{doubleBreak}} This page describes the methods of processing the personal data of users who consult this website. {{doubleBreak}} The information provided does not concern other websites, pages, or online services that can be accessed via hyperlinks that may be referenced on resources external to the domain of this website.",
     "privacyPolicy.subtitle2":
@@ -69,7 +69,7 @@ export default {
     "privacyPolicy.subtitle8": "Rights of Data Subjects",
     "privacyPolicy.para8":
       "Data subjects have the right to obtain from AgID access to their personal data, rectification or erasure of the same, the restriction of processing, the right to object to processing, and the right to data portability, where the conditions apply. {{doubleBreak}} Without prejudice to any other administrative or judicial remedy, data subjects have the right to lodge a complaint with the Data Protection Authority if they consider that the processing of their data violates the Regulation. AgID guarantees that there is no form of exclusively automated decision-making that has legal effects on the data subject.",
-    "privacyPolicy.subtitle9": "Cookie Policy",
+    "privacyPolicy.subtitle9": "Cookie policy",
     "privacyPolicy.para9":
       "Session technical cookies are used, which are not persistent, and are strictly limited to what is necessary for safe and efficient navigation of the website. {{break}} No cookies are used for user profiling.",
   },

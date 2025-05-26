@@ -66,12 +66,14 @@
       href="#"
       data-bs-toggle="backtotop"
       class="back-to-top {innerWidth <= 992 && 'back-to-top-small'}"
+      aria-label={$t("layout.tornaSu")}
     >
       <Icon
         name="it it-arrow-up"
+        isImg={true}
         variant="light"
-        isButton={true}
-        ariaLabel="Back-To-Top Arrow"
+        ariaLabel={$t("layout.tornaSu")}
+        ariaHidden={true}
       />
     </a>
     {#key $locale}
@@ -107,5 +109,9 @@
     &:focus {
       border: 2px solid #f90 !important;
     }
+  }
+
+  #main {
+    min-height: 66vh;
   }
 </style>

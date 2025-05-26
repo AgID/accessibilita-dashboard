@@ -1,8 +1,8 @@
 export default {
   it: {
-    "mediaPolicy.pagename": "Media Policy - Monitoraggio Accessibilità",
-    "mediaPolicy.section": "Media Policy",
-    "mediaPolicy.title": "Media Policy",
+    "mediaPolicy.pagename": "Media policy - Monitoraggio Accessibilità",
+    "mediaPolicy.section": "Media policy",
+    "mediaPolicy.title": "Media policy",
     "mediaPolicy.para1":
       "La media policy esterna illustra agli utenti le regole di comportamento da tenere negli spazi di presidio di AgID e indica quali contenuti e quali modalità di relazione ci si deve aspettare. L’Agenzia per l’Italia Digitale (di seguito Agenzia o AgID) utilizza il proprio sito web e i social media per informare gli utenti e comunicare con loro attraverso Internet. Il sito web e i canali social sono gestiti dall’Ufficio Comunicazione e Relazioni esterne dell’Agenzia che può avvalersi di collaboratori e consulenti esterni.",
     "mediaPolicy.subtitle2": "I nostri contenuti",
@@ -59,9 +59,9 @@ export default {
       "Gli utenti possono inviare segnalazioni relative ai contenuti di questa media policy all’indirizzo",
   },
   en: {
-    "mediaPolicy.pagename": "Media Policy - Accessibility Monitoring",
-    "mediaPolicy.section": "Media Policy",
-    "mediaPolicy.title": "Media Policy",
+    "mediaPolicy.pagename": "Media policy - Accessibility Monitoring",
+    "mediaPolicy.section": "Media policy",
+    "mediaPolicy.title": "Media policy",
     "mediaPolicy.para1":
       "The external media policy outlines the rules of conduct for users in AgID's public spaces and indicates what content and interaction methods to expect. The Agenzia per l’Italia Digitale (hereinafter referred to as the Agency or AgID) uses its website and social media to inform users and communicate with them via the Internet. The website and social channels are managed by the Communication and External Relations Office of the Agency, which may also enlist external collaborators and consultants.",
     "mediaPolicy.subtitle2": "Our Content",
