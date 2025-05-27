@@ -2,7 +2,8 @@ import { defineConfig } from "@playwright/test";
 
 export default defineConfig({
   testDir: "./e2e/",
-  timeout: 60_000,             // 60 s per test
+  testMatch: "*.spec.ts",
+  timeout: 60_000, // 60 s per test
   retries: 1,
   workers: 4,
   use: {

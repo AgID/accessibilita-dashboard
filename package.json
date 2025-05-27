@@ -9,7 +9,7 @@
     "dev:routify": "routify",
     "build": "routify -b && vite build",
     "preview": "vite preview",
-    "test:e2e": "playwright test",
+    "test:e2e": "playwright test --ui",
     "check": "svelte-check --tsconfig ./tsconfig.json"
   },
   "devDependencies": {
