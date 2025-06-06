@@ -27,3 +27,10 @@ yarn dev
 ```
 
 Creare nuovo file .env con la copia dei file coll.env e prod.env a seconda dell'ambiente di rilascio.
+
+## Browser test
+I test sono presenti nella cartella e2e e vengono lanciati con il seguente comando:
+
+```shell
+npm run test:e2e
+```
