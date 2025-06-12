@@ -301,11 +301,11 @@ export default {
     "guida.paginefooterparagraphlist2a": "Media policy: ",
     "guida.paginefooterparagraphlist2b":
       "This page explains the rules for user behavior in AgID’s digital spaces, detailing content and interaction methods. AgID uses the website and social channels to provide information and communicate with users about its activities, projects, initiatives, and events, promoting transparency and sharing.",
-    "guida.paginefooterparagraphlist3a": "Legal notices: ",
+    "guida.paginefooterparagraphlist3a": "Legal notice: ",
     "guida.paginefooterparagraphlist3b":
       "This page provides guidelines for users on:",
     "guida.paginefooterlistnotelegali":
-      "Copyright; {{newLi}} o	Permissions for using and downloading content and data published on the website; {{newLi}} Disclaimers regarding links to external websites, provided as a simple service to users.",
+      "Copyright; {{newLi}} Permissions for using and downloading content and data published on the website; {{newLi}} Disclaimers regarding links to external websites, provided as a simple service to users.",
     "guida.paginefooterparagraphlist4a": "Privacy policy: ",
     "guida.paginefooterparagraphlist4b":
       "This page informs users about the processing of personal data under Article 13 of Regulation (EU) 2016/679.",
@@ -383,7 +383,7 @@ export default {
     "guida.navigazione.paragraph7":
       "The links at the bottom of the website (footer) allow you to reach these pages:",
     "guida.navigazione.collegamentifooterlist":
-      "Accessibility statement; {{newLi}} Media policy; {{newLi}} Legal notes; {{newLi}} Privacy policy; {{newLi}} Guide to the platform; {{newLi}} Contacts.",
+      "Accessibility statement; {{newLi}} Media policy; {{newLi}} Legal notice; {{newLi}} Privacy policy; {{newLi}} Guide to the platform; {{newLi}} Contacts.",
     "guida.scelta_lingua": "/guida-piattaforma/scelta-lingua-en.png",
     "guida.grafico": "/guida-piattaforma/grafico-en.png",
     "guida.tabella": "/guida-piattaforma/tabella-en.png",

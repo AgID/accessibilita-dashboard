@@ -24,9 +24,9 @@
         </span>
         <h1 class="lead mx-3">{$t("timeline.title")}</h1>
       </div>
-      <p class="display5 mb-4">
+      <h2 class="display5 mb-4">
         {$t("timeline.subtitle")}
-      </p>
+      </h2>
 
       <div class="pb-3 pb-lg-5 pt-2 mb-5">
         <p class="display6 mb-3">{$t("timeline.caption")}</p>
@@ -82,19 +82,21 @@
                     />
                   </div>
                   <div class="pin-text">
-                    <span>
-                      {#if rs.release_it == "In Arrivo"}
-                        {$t("timeline.futureDate")}
-                      {:else}
-                        {rs[`date_${$locale}`]}
-                      {/if}
-                    </span>
+                    <h3>
+                      <span class="p-0">
+                        {#if rs.release_it == "In Arrivo"}
+                          {$t("timeline.futureDate")}
+                        {:else}
+                          {rs[`date_${$locale}`]}
+                        {/if}
+                      </span>
+                    </h3>
                   </div>
                 </div>
                 <div class="card-wrapper">
                   <div class="card">
                     <div class="card-body pt-lg-0 customPadding">
-                      <h5 class="card-title">{rs[`title_${$locale}`]}</h5>
+                      <h4 class="card-title">{rs[`title_${$locale}`]}</h4>
                       <p class="card-text">
                         {rs[`details_${$locale}`]}
                       </p>
@@ -111,6 +113,52 @@
 </div>
 
 <style>
+  .pin-text > h3 {
+    margin-bottom: 0 !important;
+    font-size: 16px;
+    line-height: 28px;
+    padding: 4px 0;
+  }
+
+  .it-timeline-wrapper .col-12:nth-child(odd) .it-pin-wrapper .pin-text > h3 {
+    padding-left: 16px;
+  }
+
+  .it-timeline-wrapper
+    .col-12:nth-child(odd)
+    .it-pin-wrapper
+    .pin-text
+    > h3
+    > span {
+    padding-right: 16px !important;
+  }
+
+  .it-timeline-wrapper .col-12:nth-child(even) .it-pin-wrapper .pin-text > h3 {
+    padding-right: 16px;
+  }
+
+  .it-timeline-wrapper
+    .col-12:nth-child(even)
+    .it-pin-wrapper
+    .pin-text
+    > h3
+    > span {
+    padding-left: 16px !important;
+  }
+
+  .card .card-body h4.card-title {
+    font-size: 1rem;
+    line-height: 1.4444444444rem;
+    font-weight: 700;
+    color: #17324d;
+    margin-bottom: 16px;
+    transition: all 0.3s;
+  }
+
+  .card .card-body h4.card-title + .card-text {
+    padding-top: 0;
+  }
+
   .card::after {
     margin: 0px !important;
   }

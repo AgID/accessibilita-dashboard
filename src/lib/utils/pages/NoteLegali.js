@@ -5,7 +5,7 @@ export default {
     "legalPolicy.title": "Note legali",
     "legalPolicy.subtitle1": "Premessa",
     "legalPolicy.para1":
-      'L’Agenzia per l’Italia Digitale (AgID) ha realizzato il sito web "monitoraggio.agid.gov.it" (di seguito "il sito web") con l’obiettivo di raccogliere informazioni strutturate dalle varie amministrazioni, tramite l’utilizzo di moduli autenticati. {{doubleBreak}} Nella presente pagina sono riportate le Note legali relative all’utilizzo del sito web. {{doubleBreak}} Il presente documento potrà essere modificato in qualsiasi momento e senza preavviso. L’utente è pertanto invitato a prendere regolarmente visione dell’ultima versione aggiornata delle stesse, disponibile e permanentemente accessibile da qualunque pagina del sito web, cliccando sul collegamento "Note legali".',
+      'L’Agenzia per l’Italia Digitale (AgID) ha realizzato il sito web "monitoraggio.accessibilita.agid.gov.it" (di seguito "il sito web") con l’obiettivo di raccogliere informazioni strutturate dalle varie amministrazioni, tramite l’utilizzo di moduli autenticati. {{doubleBreak}} Nella presente pagina sono riportate le Note legali relative all’utilizzo del sito web. {{doubleBreak}} Il presente documento potrà essere modificato in qualsiasi momento e senza preavviso. L’utente è pertanto invitato a prendere regolarmente visione dell’ultima versione aggiornata delle stesse, disponibile e permanentemente accessibile da qualunque pagina del sito web, cliccando sul collegamento "Note legali".',
     "legalPolicy.subtitle2": "Copyright",
     "legalPolicy.para2a":
       "La visualizzazione, il download e qualunque utilizzo dei dati pubblicati sul presente sito web comporta l’accettazione delle presenti Note legali e delle condizioni della licenza con cui sono pubblicati. Salvo ove diversamente indicato, i dati pubblicati sul presente sito web sono messi a disposizione con licenza cc-by 3.0, il cui testo integrale è disponibile al seguente indirizzo:",
@@ -22,15 +22,15 @@ export default {
       "La privacy degli utenti è molto importante. Per questo motivo è stata predisposta un’apposita informativa sulla privacy che l’utente, utilizzando il presente sito web, accetta.",
   },
   en: {
-    "legalPolicy.pagename": "Legal notices - Accessibility Monitoring",
-    "legalPolicy.section": "Legal notices",
-    "legalPolicy.title": "Legal notices",
+    "legalPolicy.pagename": "Legal notice - Accessibility Monitoring",
+    "legalPolicy.section": "Legal notice",
+    "legalPolicy.title": "Legal notice",
     "legalPolicy.subtitle1": "Introduction",
     "legalPolicy.para1":
-      'The Agenzia per l’Italia Digitale (AgID) has created the website "accessibilita.agid.gov.it" (hereinafter "the website") with the aim of collecting structured information from various administrations through the use of authenticated forms. {{doubleBreak}} This page contains the legal notes related to the use of the website. {{doubleBreak}} This document may be modified at any time without notice. Therefore, users are invited to regularly review the latest updated version, which is available and permanently accessible from any page of the website by clicking on the "Legal Notes" link.',
+      'The Agenzia per l’Italia Digitale (AgID) has created the website "monitoraggio.accessibilita.agid.gov.it" (hereinafter "the website") with the aim of collecting structured information from various administrations through the use of authenticated forms. {{doubleBreak}} This page contains the legal notice related to the use of the website. {{doubleBreak}} This document may be modified at any time without notice. Therefore, users are invited to regularly review the latest updated version, which is available and permanently accessible from any page of the website by clicking on the "Legal Notice" link.',
     "legalPolicy.subtitle2": "Copyright",
     "legalPolicy.para2a":
-      "Viewing, downloading, and any use of the data published on this website implies acceptance of these legal notes and the conditions of the license under which they are published. Unless otherwise indicated, the data published on this website is made available under a cc-by 3.0 license, the full text of which is available at the following address: ",
+      "Viewing, downloading, and any use of the data published on this website implies acceptance of these legal notice and the conditions of the license under which they are published. Unless otherwise indicated, the data published on this website is made available under a cc-by 3.0 license, the full text of which is available at the following address: ",
     "legalPolicy.para2b":
       "This means that, unless otherwise specified, the contents of this website are freely distributable and reusable, provided that the source is always cited, and, where possible, the web address of the original page is included.",
     "legalPolicy.subtitle3": "Use of the Website and Downloads",

@@ -47,7 +47,7 @@ export default {
     "breadcrumb.contatti": "Contacts",
     "breadcrumb.guida": "Guide to the platform",
     "breadcrumb.media": "Media policy",
-    "breadcrumb.legali": "Legal notes",
+    "breadcrumb.legali": "Legal notice",
     "breadcrumb.privacy": "Privacy policy",
   },
 };
