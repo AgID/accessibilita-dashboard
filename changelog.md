@@ -5,7 +5,7 @@ Tutte le principali modifiche saranno documentate in questo file.
 Il formato del file è basato su [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 e questo progetto aderisce a [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-## [1.2.1](https://github.com/AgID/accessibilita-dashboard/releases/tag/1.2.1) - 2025-05-26
+## [1.2.1](https://github.com/AgID/accessibilita-dashboard/releases/tag/1.2.1) - 2025-06-13
 
 ### Fix
 
@@ -14,6 +14,7 @@ e questo progetto aderisce a [Semantic Versioning](https://semver.org/spec/v2.0.
 - [Issue #37](https://github.com/AgID/accessibilita-monitoraggio/issues/37)
 - [Issue #38](https://github.com/AgID/accessibilita-monitoraggio/issues/38)
 - [Issue #41](https://github.com/AgID/accessibilita-monitoraggio/issues/41)
+- [Issue #43](https://github.com/AgID/accessibilita-monitoraggio/issues/43)
 
 ## [1.2.0](https://github.com/AgID/accessibilita-dashboard/releases/tag/1.2.0) - 2025-05-05
 
