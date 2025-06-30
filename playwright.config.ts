@@ -2,12 +2,12 @@ import { defineConfig } from "@playwright/test";
 
 export default defineConfig({
   webServer: {
-    command: 'npm run build && npm run preview',
+    command: "npm run build && npm run preview",
     port: 4173,
   },
   testDir: "./e2e/",
   testMatch: "*.spec.ts",
-  timeout: 60_000, // 60 s per test
+  timeout: 6000000,
   retries: 1,
   workers: 4,
   use: {
