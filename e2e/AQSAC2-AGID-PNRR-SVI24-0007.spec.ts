@@ -2117,6 +2117,88 @@ testSiteImprove("Piano di test", async ({ page }) => {
     await page.getByRole("link", { name: "ITALIANO" }).click();
   });
 
+    await testSiteImprove.step(`ID 181`, async () => {
+    page.goto("/errori-semplificato");
+    await page.getByRole("link", { name: "ITA espandi" }).click();
+    await page.getByRole("link", { name: "ENGLISH" }).click();
+    await expect(page.locator("h1")).toContainText(
+      "Simplified error monitoring"
+    );
+    await expect(page.locator("h2")).toContainText(
+      "Automatically identifiable accessibility errors"
+    );
+    await expect(page.getByLabel("Accessibility errors section")).toContainText(
+      "The indicators for automatic accessibility analysis are structured on the basis of compliance with the requirements contained in the technical standard UNI EN 301 549, that incorporates the WCAG 2.1 guidelines."
+    );
+    await expect(page.getByLabel("Accessibility errors section")).toContainText(
+      "MAUVE++ automatically analyzes the occurrence of errors on 31 of the 50 legally required success criteria and supports validation against WCAG 2.1 guidelines."
+    );
+
+    await expect(page.locator("h3")).toContainText(
+      "Errors detected in websites for accessibility principle"
+    );
+    await expect(page.getByLabel("Accessibility errors section")).toContainText(
+      "Monitoring period: first quarter 2025"
+    );
+    await expect(page.getByLabel("Accessibility errors section")).toContainText(
+      "The graph shows the four accessibility principles (Perceivable, Usable, Understandable and Robust) and the percentage of errors automatically detected by MAUVE++ in PA websites for each principle, in the monitoring quarter. The accessibility principles are defined by WCAG 2.1."
+    );
+    await page.evaluate(() => window.scrollTo(0, 0));
+    await page.getByRole("link", { name: "ENG espandi" }).click();
+    await page.getByRole("link", { name: "ITALIANO" }).click();
+  });
+
+  await testSiteImprove.step(`ID 191`, async () => {
+    page.goto("/progetto");
+    await page.getByRole("link", { name: "ITA espandi" }).click();
+    await page.getByRole("link", { name: "ENGLISH" }).click();
+    await expect(
+      page.getByRole("heading", { name: "The monitoring project" })
+    ).toBeVisible();
+    await expect(page.getByRole("heading")).toContainText(
+      "The monitoring project"
+    );
+    await expect(page.getByLabel("Project section")).toContainText(
+      "For the first time in Italy, data on accessibility monitoring and the most frequently encountered errors are published"
+    );
+    await expect(page.getByLabel("Project section")).toContainText(
+      "Monitoring is carried out on the websites, PDF documents and apps of Italian Public Administrations. Monitoring allows AgID to support PAs, through training sessions , handbooks, specialist documentation and other resources, to improve their digital services."
+    );
+    await expect(page.getByText("The accessibility project")).toBeVisible();
+    await expect(page.getByLabel("Project section")).toContainText(
+      "The accessibility project"
+    );
+    await expect(page.getByLabel("Project section")).toContainText(
+      "The monitoring is carried out within the scope of the 1.4.2 “Citizen inclusion” measure of the PNRR, National Recovery and Resilience Plan, of which AgID is the implementing body for a total investment of 80 million euros. The measure aims to make Public Administration services more accessible and inclusive for all, including those with temporary or permanent disabilities, and to promote the culture of accessibility."
+    );
+    await expect(page.getByRole("blockquote")).toMatchAriaSnapshot(`
+      - blockquote:
+        - paragraph: “This is a step forward in the right direction to guarantee equal rights of access to Public Administration services - he declared - so that no citizen is excluded from the benefits that new technology is able to bring to the lives of all of us.”
+        - paragraph: ― Alessio Butti, Undersecretary of State in charge of Technological Innovation
+      `);
+    await expect(page.getByText("The current status of the")).toBeVisible();
+    await expect(page.getByLabel("Project section")).toContainText(
+      "The current status of the project"
+    );
+    await expect(page.getByLabel("Project section")).toContainText(
+      "AgID has already largely passed the accessibility check on the 23,000 items requested to date. Since the activities envisaged by measure 1.4.2 began, checks have been carried out, several times, both on websites registered through the  PA Index and on other PA websites not registered on IPA, involving tens of millions of web pages in total. Furthermore, more than 400 checks on websites and more than 200 checks on apps were carried out in in-depth and manual mode."
+    );
+    await expect(page.getByText("Collaboration with CNR and")).toBeVisible();
+    await expect(page.getByLabel("Project section")).toContainText(
+      "Collaboration with CNR and the MAUVE++ tool"
+    );
+    await expect(page.getByLabel("Project section")).toContainText(
+      "The National Research Council has created, in collaboration with AgID, the automated system MAUVE++ Multiguideline Accessibility and Usability Validation Environment. The system is able to analyze 31 of the 50 success criteria that websites and PDF documents must satisfy for the A and AA compliance levels required by the WCAG 2.1."
+    );
+    await expect(page.getByLabel("Project section")).toContainText(
+      "Thanks to this tool, which takes a snapshot of the current state of PA websites, it is also possible to observe changes over time, with a view to transparency and continuous improvement of digital services."
+    );
+
+    await page.evaluate(() => window.scrollTo(0, 0));
+    await page.getByRole("link", { name: "ENG espandi" }).click();
+    await page.getByRole("link", { name: "ITALIANO" }).click();
+  });
+
   await testSiteImprove.step(`ID 201`, async () => {
     await page.goto("/monitoraggio-semplificato");
 
