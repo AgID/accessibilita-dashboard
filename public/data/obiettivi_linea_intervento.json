@@ -1,39 +1,39 @@
 {
   "data": [
     {
-      "num_enti_obiettivi": 10696,
+      "num_enti_obiettivi": 11833,
       "des_linea_intervento_en": "Institutional website",
       "des_linea_intervento_it": "Sito web istituzionale"
     },
     {
-      "num_enti_obiettivi": 8502,
+      "num_enti_obiettivi": 9315,
       "des_linea_intervento_en": "Training",
       "des_linea_intervento_it": "Formazione"
     },
     {
-      "num_enti_obiettivi": 7208,
+      "num_enti_obiettivi": 7885,
       "des_linea_intervento_en": "Work organization",
       "des_linea_intervento_it": "Organizzazione del lavoro"
     },
     {
-      "num_enti_obiettivi": 4701,
+      "num_enti_obiettivi": 5187,
       "des_linea_intervento_en": "Workstations",
       "des_linea_intervento_it": "Postazioni di lavoro"
     },
     {
-      "num_enti_obiettivi": 4493,
+      "num_enti_obiettivi": 4979,
       "des_linea_intervento_en": "Thematic websites",
       "des_linea_intervento_it": "Siti web tematici"
     },
     {
-      "num_enti_obiettivi": 3400,
+      "num_enti_obiettivi": 3767,
       "des_linea_intervento_en": "Intranet site",
       "des_linea_intervento_it": "Sito intranet"
     }
   ],
   "intestazione": {
     "anno_obiettivi": 2025,
-    "aggior_ultimo_trimestre": "1-2025",
-    "dat_ult_agg_obiettivi": "2025-03-31"
+    "aggior_ultimo_trimestre": "3-2025",
+    "dat_ult_agg_obiettivi": "2025-09-30"
   }
 }

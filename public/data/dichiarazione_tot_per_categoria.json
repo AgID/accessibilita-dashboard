@@ -1,24 +1,24 @@
     {
         "data": [
             {
-                "des_tipologia_ente_en": "Schools and Universities",
-                "des_tipologia_ente_it": "Scuole e Università",
-                "num_dichiarazioni_pub": 7005
-            },
-            {
                 "des_tipologia_ente_en": "Municipalities and their Consortia and Associations",
                 "des_tipologia_ente_it": "Comuni e loro Consorzi e Associazioni",
-                "num_dichiarazioni_pub": 6611
+                "num_dichiarazioni_pub": 7856
+            },
+            {
+                "des_tipologia_ente_en": "Schools and Universities",
+                "des_tipologia_ente_it": "Scuole e Università",
+                "num_dichiarazioni_pub": 6570
             },
             {
                 "des_tipologia_ente_en": "Other Entities",
                 "des_tipologia_ente_it": "Altri Enti",
-                "num_dichiarazioni_pub": 3633
+                "num_dichiarazioni_pub": 4411
             }
         ],
         "intestazione": {
-            "anno_dichiarazione": 2024,
-            "dat_ult_agg_dichiarazione": "2024-09-23"
+            "anno_dichiarazione": 2025,
+            "dat_ult_agg_dichiarazione": "2025-09-23"
         }
     }
 

@@ -38,12 +38,12 @@
     },
     {
       "cod_anno": 2025,
-      "num_enti_obiettivi": 10989
+      "num_enti_obiettivi": 12145
     }
   ],
   "intestazione": {
     "anno_obiettivi": 2025,
-    "aggior_ultimo_trimestre": "1-2025",
-    "dat_ult_agg_obiettivi": "2025-03-31"
+    "aggior_ultimo_trimestre": "3-2025",
+    "dat_ult_agg_obiettivi": "2025-09-30"
   }
 }

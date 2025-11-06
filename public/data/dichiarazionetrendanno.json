@@ -19,11 +19,15 @@
             {
                 "anno_dichiarazione": 2024,
                 "num_dichiarazione_pub_anno": 16521
+            },
+            {
+                "anno_dichiarazione": 2025,
+                "num_dichiarazione_pub_anno": 17745
             }
         ],
         "intestazione": {
-            "anno_dichiarazione": 2024,
-            "dat_ult_agg_dichiarazione": "2024-09-23"
+            "anno_dichiarazione": 2025,
+            "dat_ult_agg_dichiarazione": "2025-09-23"
         }
     }
 

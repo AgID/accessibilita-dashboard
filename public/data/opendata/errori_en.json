@@ -1,149 +1,149 @@
 [
     {
         "des_principle": "Usable",
-        "error_percent": 41.95415,
+        "error_percent": 42.44738,
         "success_criterion": "2.4.7 Focus visibile",
         "compliance_level_cod": "AA",
-        "last_monitoring_date": "2025-03-31"
+        "last_monitoring_date": "2025-06-30"
     },
     {
         "des_principle": "Perceivable",
-        "error_percent": 17.83774,
+        "error_percent": 17.43901,
         "success_criterion": "1.4.1 Uso del colore",
         "compliance_level_cod": "A",
-        "last_monitoring_date": "2025-03-31"
+        "last_monitoring_date": "2025-06-30"
     },
     {
         "des_principle": "Perceivable",
-        "error_percent": 14.77057,
+        "error_percent": 15.05626,
         "success_criterion": "1.4.3 Contrasto (minimo)",
         "compliance_level_cod": "AA",
-        "last_monitoring_date": "2025-03-31"
+        "last_monitoring_date": "2025-06-30"
     },
     {
         "des_principle": "Perceivable",
-        "error_percent": 9.68391,
+        "error_percent": 9.71693,
         "success_criterion": "1.1.1 Contenuti non testuali",
         "compliance_level_cod": "A",
-        "last_monitoring_date": "2025-03-31"
-    },
-    {
-        "des_principle": "Robust",
-        "error_percent": 3.63857,
-        "success_criterion": "4.1.1 Analisi sintattica (parsing)",
-        "compliance_level_cod": "A",
-        "last_monitoring_date": "2025-03-31"
+        "last_monitoring_date": "2025-06-30"
     },
     {
         "des_principle": "Perceivable",
-        "error_percent": 3.60038,
+        "error_percent": 3.49296,
         "success_criterion": "1.4.11 Contrasto in contenuti non testuali",
         "compliance_level_cod": "AA",
-        "last_monitoring_date": "2025-03-31"
-    },
-    {
-        "des_principle": "Usable",
-        "error_percent": 2.34131,
-        "success_criterion": "2.4.4 Scopo del collegamento (nel contesto)",
-        "compliance_level_cod": "A",
-        "last_monitoring_date": "2025-03-31"
-    },
-    {
-        "des_principle": "Perceivable",
-        "error_percent": 1.64465,
-        "success_criterion": "1.3.1 Informazioni e correlazioni",
-        "compliance_level_cod": "A",
-        "last_monitoring_date": "2025-03-31"
-    },
-    {
-        "des_principle": "Perceivable",
-        "error_percent": 1.39508,
-        "success_criterion": "1.4.10 Ricalcolo del flusso",
-        "compliance_level_cod": "AA",
-        "last_monitoring_date": "2025-03-31"
-    },
-    {
-        "des_principle": "Perceivable",
-        "error_percent": 1.14812,
-        "success_criterion": "1.3.5 Identificare lo scopo degli input",
-        "compliance_level_cod": "AA",
-        "last_monitoring_date": "2025-03-31"
+        "last_monitoring_date": "2025-06-30"
     },
     {
         "des_principle": "Robust",
-        "error_percent": 1.12800,
+        "error_percent": 3.47614,
+        "success_criterion": "4.1.1 Analisi sintattica (parsing)",
+        "compliance_level_cod": "A",
+        "last_monitoring_date": "2025-06-30"
+    },
+    {
+        "des_principle": "Usable",
+        "error_percent": 2.25025,
+        "success_criterion": "2.4.4 Scopo del collegamento (nel contesto)",
+        "compliance_level_cod": "A",
+        "last_monitoring_date": "2025-06-30"
+    },
+    {
+        "des_principle": "Perceivable",
+        "error_percent": 1.62369,
+        "success_criterion": "1.3.1 Informazioni e correlazioni",
+        "compliance_level_cod": "A",
+        "last_monitoring_date": "2025-06-30"
+    },
+    {
+        "des_principle": "Perceivable",
+        "error_percent": 1.48188,
+        "success_criterion": "1.4.10 Ricalcolo del flusso",
+        "compliance_level_cod": "AA",
+        "last_monitoring_date": "2025-06-30"
+    },
+    {
+        "des_principle": "Robust",
+        "error_percent": 1.08658,
         "success_criterion": "4.1.2 Nome, ruolo, valore",
         "compliance_level_cod": "A",
-        "last_monitoring_date": "2025-03-31"
+        "last_monitoring_date": "2025-06-30"
+    },
+    {
+        "des_principle": "Perceivable",
+        "error_percent": 1.07858,
+        "success_criterion": "1.3.5 Identificare lo scopo degli input",
+        "compliance_level_cod": "AA",
+        "last_monitoring_date": "2025-06-30"
     },
     {
         "des_principle": "Understandable",
-        "error_percent": 0.39491,
+        "error_percent": 0.36305,
         "success_criterion": "3.2.2 All'input",
         "compliance_level_cod": "A",
-        "last_monitoring_date": "2025-03-31"
+        "last_monitoring_date": "2025-06-30"
     },
     {
         "des_principle": "Understandable",
-        "error_percent": 0.22323,
+        "error_percent": 0.24351,
         "success_criterion": "3.3.2 Etichette o istruzioni",
         "compliance_level_cod": "A",
-        "last_monitoring_date": "2025-03-31"
+        "last_monitoring_date": "2025-06-30"
     },
     {
         "des_principle": "Perceivable",
-        "error_percent": 0.18857,
+        "error_percent": 0.19370,
         "success_criterion": "1.4.5 Immagini di testo",
         "compliance_level_cod": "AA",
-        "last_monitoring_date": "2025-03-31"
+        "last_monitoring_date": "2025-06-30"
     },
     {
         "des_principle": "Understandable",
-        "error_percent": 0.04084,
+        "error_percent": 0.04094,
         "success_criterion": "3.1.1 Lingua della pagina",
         "compliance_level_cod": "A",
-        "last_monitoring_date": "2025-03-31"
+        "last_monitoring_date": "2025-06-30"
     },
     {
         "des_principle": "Perceivable",
-        "error_percent": 0.00509,
+        "error_percent": 0.00438,
         "success_criterion": "1.4.12 Spaziatura del testo",
         "compliance_level_cod": "AA",
-        "last_monitoring_date": "2025-03-31"
+        "last_monitoring_date": "2025-06-30"
     },
     {
         "des_principle": "Perceivable",
-        "error_percent": 0.00241,
+        "error_percent": 0.00233,
         "success_criterion": "1.2.3 Audiodescrizione o tipo di media alternativo (preregistrato)",
         "compliance_level_cod": "A",
-        "last_monitoring_date": "2025-03-31"
+        "last_monitoring_date": "2025-06-30"
     },
     {
         "des_principle": "Usable",
-        "error_percent": 0.00209,
+        "error_percent": 0.00201,
         "success_criterion": "2.4.2 Titolazione della pagina",
         "compliance_level_cod": "A",
-        "last_monitoring_date": "2025-03-31"
+        "last_monitoring_date": "2025-06-30"
     },
     {
         "des_principle": "Usable",
-        "error_percent": 0.00029,
+        "error_percent": 0.00032,
         "success_criterion": "2.2.1 Regolazione tempi di esecuzione",
         "compliance_level_cod": "A",
-        "last_monitoring_date": "2025-03-31"
+        "last_monitoring_date": "2025-06-30"
     },
     {
         "des_principle": "Understandable",
         "error_percent": 0.00008,
         "success_criterion": "3.1.2 Parti in lingua",
         "compliance_level_cod": "AA",
-        "last_monitoring_date": "2025-03-31"
+        "last_monitoring_date": "2025-06-30"
     },
     {
         "des_principle": "Usable",
-        "error_percent": 0.00000,
+        "error_percent": 0.00001,
         "success_criterion": "2.2.2 Pausa, stop, nascondi",
         "compliance_level_cod": "A",
-        "last_monitoring_date": "2025-03-31"
+        "last_monitoring_date": "2025-06-30"
     }
 ]

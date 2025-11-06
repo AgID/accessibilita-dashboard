@@ -2,134 +2,134 @@
   "data": [
     {
       "des_regione": "Lombardia",
-      "num_enti_tot": 3394,
-      "num_enti_obiettivi": 1987,
-      "perc_enti_obiettivi_su_tot": 58.544490276959340012
+      "num_enti_tot": 3395,
+      "num_enti_obiettivi": 2180,
+      "perc_enti_obiettivi_su_tot": 64.212076583210603829
     },
     {
       "des_regione": "Piemonte",
-      "num_enti_tot": 2320,
-      "num_enti_obiettivi": 1078,
-      "perc_enti_obiettivi_su_tot": 46.465517241379310345
+      "num_enti_tot": 2316,
+      "num_enti_obiettivi": 1221,
+      "perc_enti_obiettivi_su_tot": 52.720207253886010363
     },
     {
       "des_regione": "Veneto",
-      "num_enti_tot": 1700,
-      "num_enti_obiettivi": 968,
-      "perc_enti_obiettivi_su_tot": 56.941176470588235294
+      "num_enti_tot": 1697,
+      "num_enti_obiettivi": 1049,
+      "perc_enti_obiettivi_su_tot": 61.814967589864466706
     },
     {
       "des_regione": "Campania",
-      "num_enti_tot": 1969,
-      "num_enti_obiettivi": 871,
-      "perc_enti_obiettivi_su_tot": 44.235652615540883697
+      "num_enti_tot": 1975,
+      "num_enti_obiettivi": 970,
+      "perc_enti_obiettivi_su_tot": 49.113924050632911392
     },
     {
       "des_regione": "Emilia-Romagna",
-      "num_enti_tot": 1351,
-      "num_enti_obiettivi": 805,
-      "perc_enti_obiettivi_su_tot": 59.585492227979274611
+      "num_enti_tot": 1356,
+      "num_enti_obiettivi": 859,
+      "perc_enti_obiettivi_su_tot": 63.34808259587020649
     },
     {
       "des_regione": "Sicilia",
-      "num_enti_tot": 1867,
-      "num_enti_obiettivi": 720,
-      "perc_enti_obiettivi_su_tot": 38.564542046063202999
+      "num_enti_tot": 1860,
+      "num_enti_obiettivi": 798,
+      "perc_enti_obiettivi_su_tot": 42.903225806451612903
     },
     {
       "des_regione": "Lazio",
-      "num_enti_tot": 1854,
-      "num_enti_obiettivi": 697,
-      "perc_enti_obiettivi_su_tot": 37.594390507011866235
+      "num_enti_tot": 1864,
+      "num_enti_obiettivi": 781,
+      "perc_enti_obiettivi_su_tot": 41.899141630901287554
     },
     {
       "des_regione": "Puglia",
-      "num_enti_tot": 1266,
-      "num_enti_obiettivi": 610,
-      "perc_enti_obiettivi_su_tot": 48.18325434439178515
+      "num_enti_tot": 1264,
+      "num_enti_obiettivi": 671,
+      "perc_enti_obiettivi_su_tot": 53.085443037974683544
     },
     {
       "des_regione": "Toscana",
-      "num_enti_tot": 1205,
-      "num_enti_obiettivi": 583,
-      "perc_enti_obiettivi_su_tot": 48.381742738589211618
+      "num_enti_tot": 1204,
+      "num_enti_obiettivi": 643,
+      "perc_enti_obiettivi_su_tot": 53.405315614617940199
     },
     {
       "des_regione": "Sardegna",
-      "num_enti_tot": 933,
-      "num_enti_obiettivi": 443,
-      "perc_enti_obiettivi_su_tot": 47.481243301178992497
+      "num_enti_tot": 932,
+      "num_enti_obiettivi": 493,
+      "perc_enti_obiettivi_su_tot": 52.896995708154506438
     },
     {
       "des_regione": "Calabria",
-      "num_enti_tot": 977,
-      "num_enti_obiettivi": 361,
-      "perc_enti_obiettivi_su_tot": 36.94984646878198567
-    },
-    {
-      "des_regione": "Friuli-Venezia Giulia",
-      "num_enti_tot": 583,
-      "num_enti_obiettivi": 340,
-      "perc_enti_obiettivi_su_tot": 58.319039451114922813
+      "num_enti_tot": 974,
+      "num_enti_obiettivi": 393,
+      "perc_enti_obiettivi_su_tot": 40.349075975359342916
     },
     {
       "des_regione": "Marche",
       "num_enti_tot": 701,
-      "num_enti_obiettivi": 335,
-      "perc_enti_obiettivi_su_tot": 47.788873038516405136
+      "num_enti_obiettivi": 384,
+      "perc_enti_obiettivi_su_tot": 54.778887303851640514
+    },
+    {
+      "des_regione": "Friuli-Venezia Giulia",
+      "num_enti_tot": 585,
+      "num_enti_obiettivi": 361,
+      "perc_enti_obiettivi_su_tot": 61.709401709401709402
     },
     {
       "des_regione": "Liguria",
-      "num_enti_tot": 623,
-      "num_enti_obiettivi": 236,
-      "perc_enti_obiettivi_su_tot": 37.881219903691813804
+      "num_enti_tot": 624,
+      "num_enti_obiettivi": 269,
+      "perc_enti_obiettivi_su_tot": 43.108974358974358974
     },
     {
       "des_regione": "Abruzzo",
-      "num_enti_tot": 729,
-      "num_enti_obiettivi": 226,
-      "perc_enti_obiettivi_su_tot": 31.001371742112482853
+      "num_enti_tot": 728,
+      "num_enti_obiettivi": 255,
+      "perc_enti_obiettivi_su_tot": 35.027472527472527473
     },
     {
       "des_regione": "Provincia autonoma di Trento",
-      "num_enti_tot": 502,
-      "num_enti_obiettivi": 178,
-      "perc_enti_obiettivi_su_tot": 35.458167330677290837
-    },
-    {
-      "des_regione": "Basilicata",
-      "num_enti_tot": 353,
-      "num_enti_obiettivi": 153,
-      "perc_enti_obiettivi_su_tot": 43.342776203966005666
+      "num_enti_tot": 503,
+      "num_enti_obiettivi": 200,
+      "perc_enti_obiettivi_su_tot": 39.761431411530815109
     },
     {
       "des_regione": "Umbria",
       "num_enti_tot": 354,
-      "num_enti_obiettivi": 149,
-      "perc_enti_obiettivi_su_tot": 42.090395480225988701
+      "num_enti_obiettivi": 169,
+      "perc_enti_obiettivi_su_tot": 47.740112994350282486
     },
     {
-      "des_regione": "Valle d'Aosta/Vallée d'Aoste",
-      "num_enti_tot": 171,
-      "num_enti_obiettivi": 109,
-      "perc_enti_obiettivi_su_tot": 63.742690058479532164
+      "des_regione": "Basilicata",
+      "num_enti_tot": 352,
+      "num_enti_obiettivi": 167,
+      "perc_enti_obiettivi_su_tot": 47.443181818181818182
     },
     {
       "des_regione": "Molise",
-      "num_enti_tot": 291,
-      "num_enti_obiettivi": 99,
-      "perc_enti_obiettivi_su_tot": 34.020618556701030928
+      "num_enti_tot": 288,
+      "num_enti_obiettivi": 113,
+      "perc_enti_obiettivi_su_tot": 39.236111111111111111
+    },
+    {
+      "des_regione": "Valle d'Aosta/Vallée d'Aoste",
+      "num_enti_tot": 172,
+      "num_enti_obiettivi": 113,
+      "perc_enti_obiettivi_su_tot": 65.697674418604651163
     },
     {
       "des_regione": "Provincia autonoma di Bolzano",
       "num_enti_tot": 495,
-      "num_enti_obiettivi": 41,
-      "perc_enti_obiettivi_su_tot": 8.282828282828282828
+      "num_enti_obiettivi": 56,
+      "perc_enti_obiettivi_su_tot": 11.313131313131313131
     }
   ],
   "intestazione": {
     "anno_obiettivi": 2025,
-    "aggior_ultimo_trimestre": "1-2025",
-    "dat_ult_agg_obiettivi": "2025-03-31"
+    "aggior_ultimo_trimestre": "3-2025",
+    "dat_ult_agg_obiettivi": "2025-09-30"
   }
 }

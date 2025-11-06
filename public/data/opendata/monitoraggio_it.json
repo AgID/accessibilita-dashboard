@@ -1,380 +1,380 @@
 [
     {
         "regione": "Veneto",
-        "num_siti": 703,
+        "num_siti": 704,
         "categoria_ipa": "Altri Enti",
-        "data_ultimo_monitoraggio": "2025-03-31"
+        "data_ultimo_monitoraggio": "2025-06-30"
     },
     {
         "regione": "Veneto",
-        "num_siti": 812,
+        "num_siti": 814,
         "categoria_ipa": "Comuni e loro Consorzi e Associazioni",
-        "data_ultimo_monitoraggio": "2025-03-31"
+        "data_ultimo_monitoraggio": "2025-06-30"
     },
     {
         "regione": "Veneto",
-        "num_siti": 627,
+        "num_siti": 615,
         "categoria_ipa": "Scuole e Università",
-        "data_ultimo_monitoraggio": "2025-03-31"
+        "data_ultimo_monitoraggio": "2025-06-30"
     },
     {
         "regione": "Valle d'Aosta/Vallée d'Aoste",
-        "num_siti": 97,
+        "num_siti": 101,
         "categoria_ipa": "Altri Enti",
-        "data_ultimo_monitoraggio": "2025-03-31"
+        "data_ultimo_monitoraggio": "2025-06-30"
     },
     {
         "regione": "Valle d'Aosta/Vallée d'Aoste",
-        "num_siti": 90,
+        "num_siti": 93,
         "categoria_ipa": "Comuni e loro Consorzi e Associazioni",
-        "data_ultimo_monitoraggio": "2025-03-31"
+        "data_ultimo_monitoraggio": "2025-06-30"
     },
     {
         "regione": "Valle d'Aosta/Vallée d'Aoste",
-        "num_siti": 42,
+        "num_siti": 41,
         "categoria_ipa": "Scuole e Università",
-        "data_ultimo_monitoraggio": "2025-03-31"
+        "data_ultimo_monitoraggio": "2025-06-30"
     },
     {
         "regione": "Umbria",
-        "num_siti": 141,
+        "num_siti": 142,
         "categoria_ipa": "Altri Enti",
-        "data_ultimo_monitoraggio": "2025-03-31"
+        "data_ultimo_monitoraggio": "2025-06-30"
     },
     {
         "regione": "Umbria",
-        "num_siti": 111,
+        "num_siti": 110,
         "categoria_ipa": "Comuni e loro Consorzi e Associazioni",
-        "data_ultimo_monitoraggio": "2025-03-31"
+        "data_ultimo_monitoraggio": "2025-06-30"
     },
     {
         "regione": "Umbria",
-        "num_siti": 140,
+        "num_siti": 138,
         "categoria_ipa": "Scuole e Università",
-        "data_ultimo_monitoraggio": "2025-03-31"
+        "data_ultimo_monitoraggio": "2025-06-30"
     },
     {
         "regione": "Toscana",
-        "num_siti": 555,
+        "num_siti": 559,
         "categoria_ipa": "Altri Enti",
-        "data_ultimo_monitoraggio": "2025-03-31"
+        "data_ultimo_monitoraggio": "2025-06-30"
     },
     {
         "regione": "Toscana",
-        "num_siti": 495,
+        "num_siti": 505,
         "categoria_ipa": "Comuni e loro Consorzi e Associazioni",
-        "data_ultimo_monitoraggio": "2025-03-31"
+        "data_ultimo_monitoraggio": "2025-06-30"
     },
     {
         "regione": "Toscana",
-        "num_siti": 536,
+        "num_siti": 523,
         "categoria_ipa": "Scuole e Università",
-        "data_ultimo_monitoraggio": "2025-03-31"
+        "data_ultimo_monitoraggio": "2025-06-30"
     },
     {
         "regione": "Sicilia",
-        "num_siti": 703,
+        "num_siti": 698,
         "categoria_ipa": "Altri Enti",
-        "data_ultimo_monitoraggio": "2025-03-31"
+        "data_ultimo_monitoraggio": "2025-06-30"
     },
     {
         "regione": "Sicilia",
-        "num_siti": 461,
+        "num_siti": 476,
         "categoria_ipa": "Comuni e loro Consorzi e Associazioni",
-        "data_ultimo_monitoraggio": "2025-03-31"
+        "data_ultimo_monitoraggio": "2025-06-30"
     },
     {
         "regione": "Sicilia",
-        "num_siti": 877,
+        "num_siti": 849,
         "categoria_ipa": "Scuole e Università",
-        "data_ultimo_monitoraggio": "2025-03-31"
+        "data_ultimo_monitoraggio": "2025-06-30"
     },
     {
         "regione": "Sardegna",
-        "num_siti": 294,
+        "num_siti": 293,
         "categoria_ipa": "Altri Enti",
-        "data_ultimo_monitoraggio": "2025-03-31"
+        "data_ultimo_monitoraggio": "2025-06-30"
     },
     {
         "regione": "Sardegna",
-        "num_siti": 465,
+        "num_siti": 483,
         "categoria_ipa": "Comuni e loro Consorzi e Associazioni",
-        "data_ultimo_monitoraggio": "2025-03-31"
+        "data_ultimo_monitoraggio": "2025-06-30"
     },
     {
         "regione": "Sardegna",
-        "num_siti": 285,
+        "num_siti": 273,
         "categoria_ipa": "Scuole e Università",
-        "data_ultimo_monitoraggio": "2025-03-31"
+        "data_ultimo_monitoraggio": "2025-06-30"
     },
     {
         "regione": "Puglia",
-        "num_siti": 424,
+        "num_siti": 427,
         "categoria_ipa": "Altri Enti",
-        "data_ultimo_monitoraggio": "2025-03-31"
+        "data_ultimo_monitoraggio": "2025-06-30"
     },
     {
         "regione": "Puglia",
-        "num_siti": 312,
+        "num_siti": 328,
         "categoria_ipa": "Comuni e loro Consorzi e Associazioni",
-        "data_ultimo_monitoraggio": "2025-03-31"
+        "data_ultimo_monitoraggio": "2025-06-30"
     },
     {
         "regione": "Puglia",
-        "num_siti": 658,
+        "num_siti": 656,
         "categoria_ipa": "Scuole e Università",
-        "data_ultimo_monitoraggio": "2025-03-31"
+        "data_ultimo_monitoraggio": "2025-06-30"
     },
     {
         "regione": "Provincia autonoma di Trento",
-        "num_siti": 322,
+        "num_siti": 314,
         "categoria_ipa": "Altri Enti",
-        "data_ultimo_monitoraggio": "2025-03-31"
+        "data_ultimo_monitoraggio": "2025-06-30"
     },
     {
         "regione": "Provincia autonoma di Trento",
-        "num_siti": 194,
+        "num_siti": 187,
         "categoria_ipa": "Comuni e loro Consorzi e Associazioni",
-        "data_ultimo_monitoraggio": "2025-03-31"
+        "data_ultimo_monitoraggio": "2025-06-30"
     },
     {
         "regione": "Provincia autonoma di Trento",
         "num_siti": 74,
         "categoria_ipa": "Scuole e Università",
-        "data_ultimo_monitoraggio": "2025-03-31"
+        "data_ultimo_monitoraggio": "2025-06-30"
     },
     {
         "regione": "Provincia autonoma di Bolzano",
-        "num_siti": 215,
+        "num_siti": 213,
         "categoria_ipa": "Altri Enti",
-        "data_ultimo_monitoraggio": "2025-03-31"
+        "data_ultimo_monitoraggio": "2025-06-30"
     },
     {
         "regione": "Provincia autonoma di Bolzano",
-        "num_siti": 159,
+        "num_siti": 165,
         "categoria_ipa": "Comuni e loro Consorzi e Associazioni",
-        "data_ultimo_monitoraggio": "2025-03-31"
+        "data_ultimo_monitoraggio": "2025-06-30"
     },
     {
         "regione": "Provincia autonoma di Bolzano",
         "num_siti": 111,
         "categoria_ipa": "Scuole e Università",
-        "data_ultimo_monitoraggio": "2025-03-31"
+        "data_ultimo_monitoraggio": "2025-06-30"
     },
     {
         "regione": "Piemonte",
-        "num_siti": 942,
+        "num_siti": 944,
         "categoria_ipa": "Altri Enti",
-        "data_ultimo_monitoraggio": "2025-03-31"
+        "data_ultimo_monitoraggio": "2025-06-30"
     },
     {
         "regione": "Piemonte",
-        "num_siti": 1270,
+        "num_siti": 1406,
         "categoria_ipa": "Comuni e loro Consorzi e Associazioni",
-        "data_ultimo_monitoraggio": "2025-03-31"
+        "data_ultimo_monitoraggio": "2025-06-30"
     },
     {
         "regione": "Piemonte",
-        "num_siti": 606,
+        "num_siti": 595,
         "categoria_ipa": "Scuole e Università",
-        "data_ultimo_monitoraggio": "2025-03-31"
+        "data_ultimo_monitoraggio": "2025-06-30"
     },
     {
         "regione": "Molise",
-        "num_siti": 83,
+        "num_siti": 84,
         "categoria_ipa": "Altri Enti",
-        "data_ultimo_monitoraggio": "2025-03-31"
+        "data_ultimo_monitoraggio": "2025-06-30"
     },
     {
         "regione": "Molise",
-        "num_siti": 133,
+        "num_siti": 137,
         "categoria_ipa": "Comuni e loro Consorzi e Associazioni",
-        "data_ultimo_monitoraggio": "2025-03-31"
+        "data_ultimo_monitoraggio": "2025-06-30"
     },
     {
         "regione": "Molise",
-        "num_siti": 56,
+        "num_siti": 55,
         "categoria_ipa": "Scuole e Università",
-        "data_ultimo_monitoraggio": "2025-03-31"
+        "data_ultimo_monitoraggio": "2025-06-30"
     },
     {
         "regione": "Marche",
-        "num_siti": 298,
-        "categoria_ipa": "Altri Enti",
-        "data_ultimo_monitoraggio": "2025-03-31"
-    },
-    {
-        "regione": "Marche",
-        "num_siti": 216,
-        "categoria_ipa": "Comuni e loro Consorzi e Associazioni",
-        "data_ultimo_monitoraggio": "2025-03-31"
-    },
-    {
-        "regione": "Marche",
-        "num_siti": 241,
-        "categoria_ipa": "Scuole e Università",
-        "data_ultimo_monitoraggio": "2025-03-31"
-    },
-    {
-        "regione": "Lombardia",
-        "num_siti": 1562,
-        "categoria_ipa": "Altri Enti",
-        "data_ultimo_monitoraggio": "2025-03-31"
-    },
-    {
-        "regione": "Lombardia",
-        "num_siti": 1801,
-        "categoria_ipa": "Comuni e loro Consorzi e Associazioni",
-        "data_ultimo_monitoraggio": "2025-03-31"
-    },
-    {
-        "regione": "Lombardia",
-        "num_siti": 1201,
-        "categoria_ipa": "Scuole e Università",
-        "data_ultimo_monitoraggio": "2025-03-31"
-    },
-    {
-        "regione": "Liguria",
-        "num_siti": 232,
-        "categoria_ipa": "Altri Enti",
-        "data_ultimo_monitoraggio": "2025-03-31"
-    },
-    {
-        "regione": "Liguria",
-        "num_siti": 317,
-        "categoria_ipa": "Comuni e loro Consorzi e Associazioni",
-        "data_ultimo_monitoraggio": "2025-03-31"
-    },
-    {
-        "regione": "Liguria",
-        "num_siti": 199,
-        "categoria_ipa": "Scuole e Università",
-        "data_ultimo_monitoraggio": "2025-03-31"
-    },
-    {
-        "regione": "Lazio",
-        "num_siti": 2332,
-        "categoria_ipa": "Altri Enti",
-        "data_ultimo_monitoraggio": "2025-03-31"
-    },
-    {
-        "regione": "Lazio",
-        "num_siti": 431,
-        "categoria_ipa": "Comuni e loro Consorzi e Associazioni",
-        "data_ultimo_monitoraggio": "2025-03-31"
-    },
-    {
-        "regione": "Lazio",
-        "num_siti": 778,
-        "categoria_ipa": "Scuole e Università",
-        "data_ultimo_monitoraggio": "2025-03-31"
-    },
-    {
-        "regione": "Friuli-Venezia Giulia",
         "num_siti": 295,
         "categoria_ipa": "Altri Enti",
-        "data_ultimo_monitoraggio": "2025-03-31"
+        "data_ultimo_monitoraggio": "2025-06-30"
+    },
+    {
+        "regione": "Marche",
+        "num_siti": 270,
+        "categoria_ipa": "Comuni e loro Consorzi e Associazioni",
+        "data_ultimo_monitoraggio": "2025-06-30"
+    },
+    {
+        "regione": "Marche",
+        "num_siti": 238,
+        "categoria_ipa": "Scuole e Università",
+        "data_ultimo_monitoraggio": "2025-06-30"
+    },
+    {
+        "regione": "Lombardia",
+        "num_siti": 1564,
+        "categoria_ipa": "Altri Enti",
+        "data_ultimo_monitoraggio": "2025-06-30"
+    },
+    {
+        "regione": "Lombardia",
+        "num_siti": 1809,
+        "categoria_ipa": "Comuni e loro Consorzi e Associazioni",
+        "data_ultimo_monitoraggio": "2025-06-30"
+    },
+    {
+        "regione": "Lombardia",
+        "num_siti": 1203,
+        "categoria_ipa": "Scuole e Università",
+        "data_ultimo_monitoraggio": "2025-06-30"
+    },
+    {
+        "regione": "Liguria",
+        "num_siti": 231,
+        "categoria_ipa": "Altri Enti",
+        "data_ultimo_monitoraggio": "2025-06-30"
+    },
+    {
+        "regione": "Liguria",
+        "num_siti": 336,
+        "categoria_ipa": "Comuni e loro Consorzi e Associazioni",
+        "data_ultimo_monitoraggio": "2025-06-30"
+    },
+    {
+        "regione": "Liguria",
+        "num_siti": 190,
+        "categoria_ipa": "Scuole e Università",
+        "data_ultimo_monitoraggio": "2025-06-30"
+    },
+    {
+        "regione": "Lazio",
+        "num_siti": 2359,
+        "categoria_ipa": "Altri Enti",
+        "data_ultimo_monitoraggio": "2025-06-30"
+    },
+    {
+        "regione": "Lazio",
+        "num_siti": 441,
+        "categoria_ipa": "Comuni e loro Consorzi e Associazioni",
+        "data_ultimo_monitoraggio": "2025-06-30"
+    },
+    {
+        "regione": "Lazio",
+        "num_siti": 761,
+        "categoria_ipa": "Scuole e Università",
+        "data_ultimo_monitoraggio": "2025-06-30"
     },
     {
         "regione": "Friuli-Venezia Giulia",
-        "num_siti": 299,
-        "categoria_ipa": "Comuni e loro Consorzi e Associazioni",
-        "data_ultimo_monitoraggio": "2025-03-31"
+        "num_siti": 296,
+        "categoria_ipa": "Altri Enti",
+        "data_ultimo_monitoraggio": "2025-06-30"
     },
     {
         "regione": "Friuli-Venezia Giulia",
-        "num_siti": 171,
+        "num_siti": 302,
+        "categoria_ipa": "Comuni e loro Consorzi e Associazioni",
+        "data_ultimo_monitoraggio": "2025-06-30"
+    },
+    {
+        "regione": "Friuli-Venezia Giulia",
+        "num_siti": 166,
         "categoria_ipa": "Scuole e Università",
-        "data_ultimo_monitoraggio": "2025-03-31"
+        "data_ultimo_monitoraggio": "2025-06-30"
     },
     {
         "regione": "Emilia-Romagna",
-        "num_siti": 760,
+        "num_siti": 770,
         "categoria_ipa": "Altri Enti",
-        "data_ultimo_monitoraggio": "2025-03-31"
+        "data_ultimo_monitoraggio": "2025-06-30"
     },
     {
         "regione": "Emilia-Romagna",
-        "num_siti": 512,
+        "num_siti": 501,
         "categoria_ipa": "Comuni e loro Consorzi e Associazioni",
-        "data_ultimo_monitoraggio": "2025-03-31"
+        "data_ultimo_monitoraggio": "2025-06-30"
     },
     {
         "regione": "Emilia-Romagna",
-        "num_siti": 589,
+        "num_siti": 586,
         "categoria_ipa": "Scuole e Università",
-        "data_ultimo_monitoraggio": "2025-03-31"
+        "data_ultimo_monitoraggio": "2025-06-30"
     },
     {
         "regione": "Campania",
-        "num_siti": 468,
+        "num_siti": 475,
         "categoria_ipa": "Altri Enti",
-        "data_ultimo_monitoraggio": "2025-03-31"
+        "data_ultimo_monitoraggio": "2025-06-30"
     },
     {
         "regione": "Campania",
-        "num_siti": 592,
+        "num_siti": 605,
         "categoria_ipa": "Comuni e loro Consorzi e Associazioni",
-        "data_ultimo_monitoraggio": "2025-03-31"
+        "data_ultimo_monitoraggio": "2025-06-30"
     },
     {
         "regione": "Campania",
-        "num_siti": 1025,
+        "num_siti": 974,
         "categoria_ipa": "Scuole e Università",
-        "data_ultimo_monitoraggio": "2025-03-31"
+        "data_ultimo_monitoraggio": "2025-06-30"
     },
     {
         "regione": "Calabria",
-        "num_siti": 251,
+        "num_siti": 255,
         "categoria_ipa": "Altri Enti",
-        "data_ultimo_monitoraggio": "2025-03-31"
+        "data_ultimo_monitoraggio": "2025-06-30"
     },
     {
         "regione": "Calabria",
-        "num_siti": 419,
+        "num_siti": 432,
         "categoria_ipa": "Comuni e loro Consorzi e Associazioni",
-        "data_ultimo_monitoraggio": "2025-03-31"
+        "data_ultimo_monitoraggio": "2025-06-30"
     },
     {
         "regione": "Calabria",
-        "num_siti": 311,
+        "num_siti": 304,
         "categoria_ipa": "Scuole e Università",
-        "data_ultimo_monitoraggio": "2025-03-31"
+        "data_ultimo_monitoraggio": "2025-06-30"
     },
     {
         "regione": "Basilicata",
-        "num_siti": 114,
+        "num_siti": 119,
         "categoria_ipa": "Altri Enti",
-        "data_ultimo_monitoraggio": "2025-03-31"
+        "data_ultimo_monitoraggio": "2025-06-30"
     },
     {
         "regione": "Basilicata",
-        "num_siti": 129,
+        "num_siti": 134,
         "categoria_ipa": "Comuni e loro Consorzi e Associazioni",
-        "data_ultimo_monitoraggio": "2025-03-31"
+        "data_ultimo_monitoraggio": "2025-06-30"
     },
     {
         "regione": "Basilicata",
-        "num_siti": 110,
+        "num_siti": 97,
         "categoria_ipa": "Scuole e Università",
-        "data_ultimo_monitoraggio": "2025-03-31"
+        "data_ultimo_monitoraggio": "2025-06-30"
     },
     {
         "regione": "Abruzzo",
         "num_siti": 269,
         "categoria_ipa": "Altri Enti",
-        "data_ultimo_monitoraggio": "2025-03-31"
+        "data_ultimo_monitoraggio": "2025-06-30"
     },
     {
         "regione": "Abruzzo",
-        "num_siti": 349,
+        "num_siti": 354,
         "categoria_ipa": "Comuni e loro Consorzi e Associazioni",
-        "data_ultimo_monitoraggio": "2025-03-31"
+        "data_ultimo_monitoraggio": "2025-06-30"
     },
     {
         "regione": "Abruzzo",
-        "num_siti": 206,
+        "num_siti": 202,
         "categoria_ipa": "Scuole e Università",
-        "data_ultimo_monitoraggio": "2025-03-31"
+        "data_ultimo_monitoraggio": "2025-06-30"
     }
 ]

@@ -3,147 +3,147 @@
 <row>
   <year>2025</year>
   <des_region>Lombardia</des_region>
-  <num_entities_objectives>1987</num_entities_objectives>
-  <num_entities_tot>3394</num_entities_tot>
+  <num_entities_objectives>2180</num_entities_objectives>
+  <num_entities_tot>3395</num_entities_tot>
 </row>
 
 <row>
   <year>2025</year>
   <des_region>Piemonte</des_region>
-  <num_entities_objectives>1078</num_entities_objectives>
-  <num_entities_tot>2320</num_entities_tot>
+  <num_entities_objectives>1221</num_entities_objectives>
+  <num_entities_tot>2316</num_entities_tot>
 </row>
 
 <row>
   <year>2025</year>
   <des_region>Veneto</des_region>
-  <num_entities_objectives>968</num_entities_objectives>
-  <num_entities_tot>1700</num_entities_tot>
+  <num_entities_objectives>1049</num_entities_objectives>
+  <num_entities_tot>1697</num_entities_tot>
 </row>
 
 <row>
   <year>2025</year>
   <des_region>Campania</des_region>
-  <num_entities_objectives>871</num_entities_objectives>
-  <num_entities_tot>1969</num_entities_tot>
+  <num_entities_objectives>970</num_entities_objectives>
+  <num_entities_tot>1975</num_entities_tot>
 </row>
 
 <row>
   <year>2025</year>
   <des_region>Emilia-Romagna</des_region>
-  <num_entities_objectives>805</num_entities_objectives>
-  <num_entities_tot>1351</num_entities_tot>
+  <num_entities_objectives>859</num_entities_objectives>
+  <num_entities_tot>1356</num_entities_tot>
 </row>
 
 <row>
   <year>2025</year>
   <des_region>Sicilia</des_region>
-  <num_entities_objectives>720</num_entities_objectives>
-  <num_entities_tot>1867</num_entities_tot>
+  <num_entities_objectives>798</num_entities_objectives>
+  <num_entities_tot>1860</num_entities_tot>
 </row>
 
 <row>
   <year>2025</year>
   <des_region>Lazio</des_region>
-  <num_entities_objectives>697</num_entities_objectives>
-  <num_entities_tot>1854</num_entities_tot>
+  <num_entities_objectives>781</num_entities_objectives>
+  <num_entities_tot>1864</num_entities_tot>
 </row>
 
 <row>
   <year>2025</year>
   <des_region>Puglia</des_region>
-  <num_entities_objectives>610</num_entities_objectives>
-  <num_entities_tot>1266</num_entities_tot>
+  <num_entities_objectives>671</num_entities_objectives>
+  <num_entities_tot>1264</num_entities_tot>
 </row>
 
 <row>
   <year>2025</year>
   <des_region>Toscana</des_region>
-  <num_entities_objectives>583</num_entities_objectives>
-  <num_entities_tot>1205</num_entities_tot>
+  <num_entities_objectives>643</num_entities_objectives>
+  <num_entities_tot>1204</num_entities_tot>
 </row>
 
 <row>
   <year>2025</year>
   <des_region>Sardegna</des_region>
-  <num_entities_objectives>443</num_entities_objectives>
-  <num_entities_tot>933</num_entities_tot>
+  <num_entities_objectives>493</num_entities_objectives>
+  <num_entities_tot>932</num_entities_tot>
 </row>
 
 <row>
   <year>2025</year>
   <des_region>Calabria</des_region>
-  <num_entities_objectives>361</num_entities_objectives>
-  <num_entities_tot>977</num_entities_tot>
-</row>
-
-<row>
-  <year>2025</year>
-  <des_region>Friuli-Venezia Giulia</des_region>
-  <num_entities_objectives>340</num_entities_objectives>
-  <num_entities_tot>583</num_entities_tot>
+  <num_entities_objectives>393</num_entities_objectives>
+  <num_entities_tot>974</num_entities_tot>
 </row>
 
 <row>
   <year>2025</year>
   <des_region>Marche</des_region>
-  <num_entities_objectives>335</num_entities_objectives>
+  <num_entities_objectives>384</num_entities_objectives>
   <num_entities_tot>701</num_entities_tot>
 </row>
 
 <row>
   <year>2025</year>
+  <des_region>Friuli-Venezia Giulia</des_region>
+  <num_entities_objectives>361</num_entities_objectives>
+  <num_entities_tot>585</num_entities_tot>
+</row>
+
+<row>
+  <year>2025</year>
   <des_region>Liguria</des_region>
-  <num_entities_objectives>236</num_entities_objectives>
-  <num_entities_tot>623</num_entities_tot>
+  <num_entities_objectives>269</num_entities_objectives>
+  <num_entities_tot>624</num_entities_tot>
 </row>
 
 <row>
   <year>2025</year>
   <des_region>Abruzzo</des_region>
-  <num_entities_objectives>226</num_entities_objectives>
-  <num_entities_tot>729</num_entities_tot>
+  <num_entities_objectives>255</num_entities_objectives>
+  <num_entities_tot>728</num_entities_tot>
 </row>
 
 <row>
   <year>2025</year>
   <des_region>Provincia autonoma di Trento</des_region>
-  <num_entities_objectives>178</num_entities_objectives>
-  <num_entities_tot>502</num_entities_tot>
-</row>
-
-<row>
-  <year>2025</year>
-  <des_region>Basilicata</des_region>
-  <num_entities_objectives>153</num_entities_objectives>
-  <num_entities_tot>353</num_entities_tot>
+  <num_entities_objectives>200</num_entities_objectives>
+  <num_entities_tot>503</num_entities_tot>
 </row>
 
 <row>
   <year>2025</year>
   <des_region>Umbria</des_region>
-  <num_entities_objectives>149</num_entities_objectives>
+  <num_entities_objectives>169</num_entities_objectives>
   <num_entities_tot>354</num_entities_tot>
 </row>
 
 <row>
   <year>2025</year>
-  <des_region>Valle d'Aosta/Vallée d'Aoste</des_region>
-  <num_entities_objectives>109</num_entities_objectives>
-  <num_entities_tot>171</num_entities_tot>
+  <des_region>Basilicata</des_region>
+  <num_entities_objectives>167</num_entities_objectives>
+  <num_entities_tot>352</num_entities_tot>
 </row>
 
 <row>
   <year>2025</year>
   <des_region>Molise</des_region>
-  <num_entities_objectives>99</num_entities_objectives>
-  <num_entities_tot>291</num_entities_tot>
+  <num_entities_objectives>113</num_entities_objectives>
+  <num_entities_tot>288</num_entities_tot>
+</row>
+
+<row>
+  <year>2025</year>
+  <des_region>Valle d'Aosta/Vallée d'Aoste</des_region>
+  <num_entities_objectives>113</num_entities_objectives>
+  <num_entities_tot>172</num_entities_tot>
 </row>
 
 <row>
   <year>2025</year>
   <des_region>Provincia autonoma di Bolzano</des_region>
-  <num_entities_objectives>41</num_entities_objectives>
+  <num_entities_objectives>56</num_entities_objectives>
   <num_entities_tot>495</num_entities_tot>
 </row>
 

@@ -1,9 +1,9 @@
 [
-  {
-    "valore": 10989,
-    "indicatore": "num_enti_obiettivi",
-    "anno_obiettivi": 2025,
-    "dat_ult_agg_obiettivi": "2025-03-31",
-    "aggior_ultimo_trimestre": "1-2025"
-  }
+    {
+        "valore": 12145,
+        "indicatore": "num_enti_obiettivi",
+        "anno_obiettivi": 2025,
+        "dat_ult_agg_obiettivi": "2025-09-30",
+        "aggior_ultimo_trimestre": "3-2025"
+    }
 ]

@@ -3,133 +3,133 @@
             {
                 "des_regione": "Lombardia",
                 "num_enti_tot": 3394,
-                "num_enti_con_dich_istituzionali": 1947,
-                "perc_enti_con_dich_istit_su_enti_tot": 57.36593989393046552700
+                "num_enti_con_dich_istituzionali": 2169,
+                "perc_enti_con_dich_istit_su_enti_tot": 63.90689451974071891600
             },
             {
                 "des_regione": "Piemonte",
-                "num_enti_tot": 2313,
-                "num_enti_con_dich_istituzionali": 1216,
-                "perc_enti_con_dich_istit_su_enti_tot": 52.57241677475140510200
+                "num_enti_tot": 2317,
+                "num_enti_con_dich_istituzionali": 1197,
+                "perc_enti_con_dich_istit_su_enti_tot": 51.66163141993957703900
             },
             {
                 "des_regione": "Veneto",
-                "num_enti_tot": 1699,
-                "num_enti_con_dich_istituzionali": 932,
-                "perc_enti_con_dich_istit_su_enti_tot": 54.85579752795762213100
+                "num_enti_tot": 1697,
+                "num_enti_con_dich_istituzionali": 1025,
+                "perc_enti_con_dich_istit_su_enti_tot": 60.40070713022981732500
             },
             {
                 "des_regione": "Campania",
-                "num_enti_tot": 1965,
-                "num_enti_con_dich_istituzionali": 772,
-                "perc_enti_con_dich_istit_su_enti_tot": 39.28753180661577608100
-            },
-            {
-                "des_regione": "Lazio",
-                "num_enti_tot": 1839,
-                "num_enti_con_dich_istituzionali": 697,
-                "perc_enti_con_dich_istit_su_enti_tot": 37.90103317020119630200
-            },
-            {
-                "des_regione": "Sicilia",
-                "num_enti_tot": 1857,
-                "num_enti_con_dich_istituzionali": 684,
-                "perc_enti_con_dich_istit_su_enti_tot": 36.83360258481421647800
+                "num_enti_tot": 1976,
+                "num_enti_con_dich_istituzionali": 848,
+                "perc_enti_con_dich_istit_su_enti_tot": 42.91497975708502024300
             },
             {
                 "des_regione": "Emilia-Romagna",
-                "num_enti_tot": 1343,
-                "num_enti_con_dich_istituzionali": 665,
-                "perc_enti_con_dich_istit_su_enti_tot": 49.51600893521965748300
+                "num_enti_tot": 1357,
+                "num_enti_con_dich_istituzionali": 791,
+                "perc_enti_con_dich_istit_su_enti_tot": 58.29034635224760501100
             },
             {
-                "des_regione": "Puglia",
-                "num_enti_tot": 1263,
-                "num_enti_con_dich_istituzionali": 531,
-                "perc_enti_con_dich_istit_su_enti_tot": 42.04275534441805225700
+                "des_regione": "Lazio",
+                "num_enti_tot": 1864,
+                "num_enti_con_dich_istituzionali": 759,
+                "perc_enti_con_dich_istit_su_enti_tot": 40.71888412017167382000
+            },
+            {
+                "des_regione": "Sicilia",
+                "num_enti_tot": 1858,
+                "num_enti_con_dich_istituzionali": 735,
+                "perc_enti_con_dich_istit_su_enti_tot": 39.55866523143164693200
             },
             {
                 "des_regione": "Toscana",
-                "num_enti_tot": 1200,
-                "num_enti_con_dich_istituzionali": 513,
-                "perc_enti_con_dich_istit_su_enti_tot": 42.75000000000000000000
+                "num_enti_tot": 1205,
+                "num_enti_con_dich_istituzionali": 619,
+                "perc_enti_con_dich_istit_su_enti_tot": 51.36929460580912863100
+            },
+            {
+                "des_regione": "Puglia",
+                "num_enti_tot": 1264,
+                "num_enti_con_dich_istituzionali": 564,
+                "perc_enti_con_dich_istit_su_enti_tot": 44.62025316455696202500
             },
             {
                 "des_regione": "Calabria",
-                "num_enti_tot": 972,
-                "num_enti_con_dich_istituzionali": 415,
-                "perc_enti_con_dich_istit_su_enti_tot": 42.69547325102880658400
+                "num_enti_tot": 974,
+                "num_enti_con_dich_istituzionali": 429,
+                "perc_enti_con_dich_istit_su_enti_tot": 44.04517453798767967100
             },
             {
                 "des_regione": "Sardegna",
-                "num_enti_tot": 925,
-                "num_enti_con_dich_istituzionali": 398,
-                "perc_enti_con_dich_istit_su_enti_tot": 43.02702702702702702700
+                "num_enti_tot": 932,
+                "num_enti_con_dich_istituzionali": 408,
+                "perc_enti_con_dich_istit_su_enti_tot": 43.77682403433476394800
             },
             {
                 "des_regione": "Marche",
-                "num_enti_tot": 703,
-                "num_enti_con_dich_istituzionali": 357,
-                "perc_enti_con_dich_istit_su_enti_tot": 50.78236130867709815100
+                "num_enti_tot": 701,
+                "num_enti_con_dich_istituzionali": 385,
+                "perc_enti_con_dich_istit_su_enti_tot": 54.92154065620542082700
             },
             {
                 "des_regione": "Friuli-Venezia Giulia",
                 "num_enti_tot": 584,
-                "num_enti_con_dich_istituzionali": 308,
-                "perc_enti_con_dich_istit_su_enti_tot": 52.73972602739726027400
+                "num_enti_con_dich_istituzionali": 337,
+                "perc_enti_con_dich_istit_su_enti_tot": 57.70547945205479452100
             },
             {
                 "des_regione": "Abruzzo",
                 "num_enti_tot": 728,
-                "num_enti_con_dich_istituzionali": 293,
-                "perc_enti_con_dich_istit_su_enti_tot": 40.24725274725274725300
+                "num_enti_con_dich_istituzionali": 289,
+                "perc_enti_con_dich_istit_su_enti_tot": 39.69780219780219780200
             },
             {
                 "des_regione": "Liguria",
                 "num_enti_tot": 624,
-                "num_enti_con_dich_istituzionali": 231,
-                "perc_enti_con_dich_istit_su_enti_tot": 37.01923076923076923100
+                "num_enti_con_dich_istituzionali": 259,
+                "perc_enti_con_dich_istit_su_enti_tot": 41.50641025641025641000
             },
             {
                 "des_regione": "Provincia autonoma di Trento",
-                "num_enti_tot": 509,
-                "num_enti_con_dich_istituzionali": 204,
-                "perc_enti_con_dich_istit_su_enti_tot": 40.07858546168958742600
+                "num_enti_tot": 503,
+                "num_enti_con_dich_istituzionali": 218,
+                "perc_enti_con_dich_istit_su_enti_tot": 43.33996023856858846900
             },
             {
                 "des_regione": "Umbria",
                 "num_enti_tot": 354,
-                "num_enti_con_dich_istituzionali": 159,
-                "perc_enti_con_dich_istit_su_enti_tot": 44.91525423728813559300
+                "num_enti_con_dich_istituzionali": 183,
+                "perc_enti_con_dich_istit_su_enti_tot": 51.69491525423728813600
             },
             {
                 "des_regione": "Basilicata",
-                "num_enti_tot": 354,
-                "num_enti_con_dich_istituzionali": 145,
-                "perc_enti_con_dich_istit_su_enti_tot": 40.96045197740112994400
-            },
-            {
-                "des_regione": "Provincia autonoma di Bolzano",
-                "num_enti_tot": 494,
-                "num_enti_con_dich_istituzionali": 136,
-                "perc_enti_con_dich_istit_su_enti_tot": 27.53036437246963562800
-            },
-            {
-                "des_regione": "Valle d'Aosta/Vallée d'Aoste",
-                "num_enti_tot": 169,
-                "num_enti_con_dich_istituzionali": 98,
-                "perc_enti_con_dich_istit_su_enti_tot": 57.98816568047337278100
+                "num_enti_tot": 352,
+                "num_enti_con_dich_istituzionali": 157,
+                "perc_enti_con_dich_istit_su_enti_tot": 44.60227272727272727300
             },
             {
                 "des_regione": "Molise",
-                "num_enti_tot": 290,
-                "num_enti_con_dich_istituzionali": 85,
-                "perc_enti_con_dich_istit_su_enti_tot": 29.31034482758620689700
+                "num_enti_tot": 288,
+                "num_enti_con_dich_istituzionali": 133,
+                "perc_enti_con_dich_istit_su_enti_tot": 46.18055555555555555600
+            },
+            {
+                "des_regione": "Provincia autonoma di Bolzano",
+                "num_enti_tot": 495,
+                "num_enti_con_dich_istituzionali": 122,
+                "perc_enti_con_dich_istit_su_enti_tot": 24.64646464646464646500
+            },
+            {
+                "des_regione": "Valle d'Aosta/Vallée d'Aoste",
+                "num_enti_tot": 172,
+                "num_enti_con_dich_istituzionali": 110,
+                "perc_enti_con_dich_istit_su_enti_tot": 63.95348837209302325600
             }
         ],
         "intestazione": {
-            "anno_dichiarazione": 2024,
-            "dat_ult_agg_dichiarazione": "2024-09-23"
+            "anno_dichiarazione": 2025,
+            "dat_ult_agg_dichiarazione": "2025-09-23"
         }
     }
 

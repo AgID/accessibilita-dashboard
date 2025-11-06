@@ -1,115 +1,115 @@
     {
         "data": [
             {
-                "perc_round": 41.95415,
+                "perc_round": 42.44738,
                 "cod_livello_conformita": "AA",
                 "criterio_di_successo_en": "2.4.7 Focus Visible",
                 "criterio_di_successo_it": "2.4.7 Focus visibile"
             },
             {
-                "perc_round": 17.83774,
+                "perc_round": 17.43901,
                 "cod_livello_conformita": "A",
                 "criterio_di_successo_en": "1.4.1 Use of Color",
                 "criterio_di_successo_it": "1.4.1 Uso del colore"
             },
             {
-                "perc_round": 14.77057,
+                "perc_round": 15.05626,
                 "cod_livello_conformita": "AA",
                 "criterio_di_successo_en": "1.4.3 Contrast (Minimum)",
                 "criterio_di_successo_it": "1.4.3 Contrasto (minimo)"
             },
             {
-                "perc_round": 9.68391,
+                "perc_round": 9.71693,
                 "cod_livello_conformita": "A",
                 "criterio_di_successo_en": "1.1.1 Non-text Content",
                 "criterio_di_successo_it": "1.1.1 Contenuti non testuali"
             },
             {
-                "perc_round": 3.63857,
-                "cod_livello_conformita": "A",
-                "criterio_di_successo_en": "4.1.1 Parsing",
-                "criterio_di_successo_it": "4.1.1 Analisi sintattica (parsing)"
-            },
-            {
-                "perc_round": 3.60038,
+                "perc_round": 3.49296,
                 "cod_livello_conformita": "AA",
                 "criterio_di_successo_en": "1.4.11 Non-text Contrast",
                 "criterio_di_successo_it": "1.4.11 Contrasto in contenuti non testuali"
             },
             {
-                "perc_round": 2.34131,
+                "perc_round": 3.47614,
+                "cod_livello_conformita": "A",
+                "criterio_di_successo_en": "4.1.1 Parsing",
+                "criterio_di_successo_it": "4.1.1 Analisi sintattica (parsing)"
+            },
+            {
+                "perc_round": 2.25025,
                 "cod_livello_conformita": "A",
                 "criterio_di_successo_en": "2.4.4 Link Purpose (In Context)",
                 "criterio_di_successo_it": "2.4.4 Scopo del collegamento (nel contesto)"
             },
             {
-                "perc_round": 1.64465,
+                "perc_round": 1.62369,
                 "cod_livello_conformita": "A",
                 "criterio_di_successo_en": "1.3.1 Info and Relationships",
                 "criterio_di_successo_it": "1.3.1 Informazioni e correlazioni"
             },
             {
-                "perc_round": 1.39508,
+                "perc_round": 1.48188,
                 "cod_livello_conformita": "AA",
                 "criterio_di_successo_en": "1.4.10 Reflow",
                 "criterio_di_successo_it": "1.4.10 Ricalcolo del flusso"
             },
             {
-                "perc_round": 1.14812,
-                "cod_livello_conformita": "AA",
-                "criterio_di_successo_en": "1.3.5 Identify Input Purpose",
-                "criterio_di_successo_it": "1.3.5 Identificare lo scopo degli input"
-            },
-            {
-                "perc_round": 1.12800,
+                "perc_round": 1.08658,
                 "cod_livello_conformita": "A",
                 "criterio_di_successo_en": "4.1.2 Name, Role, Value",
                 "criterio_di_successo_it": "4.1.2 Nome, ruolo, valore"
             },
             {
-                "perc_round": 0.39491,
+                "perc_round": 1.07858,
+                "cod_livello_conformita": "AA",
+                "criterio_di_successo_en": "1.3.5 Identify Input Purpose",
+                "criterio_di_successo_it": "1.3.5 Identificare lo scopo degli input"
+            },
+            {
+                "perc_round": 0.36305,
                 "cod_livello_conformita": "A",
                 "criterio_di_successo_en": "3.2.2 On Input",
                 "criterio_di_successo_it": "3.2.2 All'input"
             },
             {
-                "perc_round": 0.22323,
+                "perc_round": 0.24351,
                 "cod_livello_conformita": "A",
                 "criterio_di_successo_en": "3.3.2 Labels or Instructions",
                 "criterio_di_successo_it": "3.3.2 Etichette o istruzioni"
             },
             {
-                "perc_round": 0.18857,
+                "perc_round": 0.19370,
                 "cod_livello_conformita": "AA",
                 "criterio_di_successo_en": "1.4.5 Images of Text",
                 "criterio_di_successo_it": "1.4.5 Immagini di testo"
             },
             {
-                "perc_round": 0.04084,
+                "perc_round": 0.04094,
                 "cod_livello_conformita": "A",
                 "criterio_di_successo_en": "3.1.1 Language of Page",
                 "criterio_di_successo_it": "3.1.1 Lingua della pagina"
             },
             {
-                "perc_round": 0.00509,
+                "perc_round": 0.00438,
                 "cod_livello_conformita": "AA",
                 "criterio_di_successo_en": "1.4.12 Text Spacing",
                 "criterio_di_successo_it": "1.4.12 Spaziatura del testo"
             },
             {
-                "perc_round": 0.00241,
+                "perc_round": 0.00233,
                 "cod_livello_conformita": "A",
                 "criterio_di_successo_en": "1.2.3 Audio Description or Media Alternative (Prerecorded)",
                 "criterio_di_successo_it": "1.2.3 Audiodescrizione o tipo di media alternativo (preregistrato)"
             },
             {
-                "perc_round": 0.00209,
+                "perc_round": 0.00201,
                 "cod_livello_conformita": "A",
                 "criterio_di_successo_en": "2.4.2 Page Titled",
                 "criterio_di_successo_it": "2.4.2 Titolazione della pagina"
             },
             {
-                "perc_round": 0.00029,
+                "perc_round": 0.00032,
                 "cod_livello_conformita": "A",
                 "criterio_di_successo_en": "2.2.1 Timing Adjustable",
                 "criterio_di_successo_it": "2.2.1 Regolazione tempi di esecuzione"
@@ -121,15 +121,15 @@
                 "criterio_di_successo_it": "3.1.2 Parti in lingua"
             },
             {
-                "perc_round": 0.00000,
+                "perc_round": 0.00001,
                 "cod_livello_conformita": "A",
                 "criterio_di_successo_en": "2.2.2 Pause, Stop, Hide",
                 "criterio_di_successo_it": "2.2.2 Pausa, stop, nascondi"
             }
         ],
         "intestazione": {
-            "periodo_monitoraggio": "1-2025",
-            "dat_ultimo_aggiornamento": "2025-03-31"
+            "periodo_monitoraggio": "2-2025",
+            "dat_ultimo_aggiornamento": "2025-06-30"
         }
     }
 

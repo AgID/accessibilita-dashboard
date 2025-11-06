@@ -1,17 +1,17 @@
     {
         "data": [
             {
-                "valore": 441,
+                "valore": 617,
                 "des_sistema_operativo_app": "Android"
             },
             {
-                "valore": 287,
+                "valore": 475,
                 "des_sistema_operativo_app": "iOS"
             }
         ],
         "intestazione": {
-            "anno_dichiarazione": 2024,
-            "dat_ult_agg_dichiarazione": "2024-09-23"
+            "anno_dichiarazione": 2025,
+            "dat_ult_agg_dichiarazione": "2025-09-23"
         }
     }
 

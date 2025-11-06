@@ -2,127 +2,127 @@
     {
         "cod_anno": 2025,
         "des_regione": "Lombardia",
-        "num_enti_tot": 3394,
-        "num_enti_obiettivi": 1987
+        "num_enti_tot": 3395,
+        "num_enti_obiettivi": 2180
     },
     {
         "cod_anno": 2025,
         "des_regione": "Piemonte",
-        "num_enti_tot": 2320,
-        "num_enti_obiettivi": 1078
+        "num_enti_tot": 2316,
+        "num_enti_obiettivi": 1221
     },
     {
         "cod_anno": 2025,
         "des_regione": "Veneto",
-        "num_enti_tot": 1700,
-        "num_enti_obiettivi": 968
+        "num_enti_tot": 1697,
+        "num_enti_obiettivi": 1049
     },
     {
         "cod_anno": 2025,
         "des_regione": "Campania",
-        "num_enti_tot": 1969,
-        "num_enti_obiettivi": 871
+        "num_enti_tot": 1975,
+        "num_enti_obiettivi": 970
     },
     {
         "cod_anno": 2025,
         "des_regione": "Emilia-Romagna",
-        "num_enti_tot": 1351,
-        "num_enti_obiettivi": 805
+        "num_enti_tot": 1356,
+        "num_enti_obiettivi": 859
     },
     {
         "cod_anno": 2025,
         "des_regione": "Sicilia",
-        "num_enti_tot": 1867,
-        "num_enti_obiettivi": 720
+        "num_enti_tot": 1860,
+        "num_enti_obiettivi": 798
     },
     {
         "cod_anno": 2025,
         "des_regione": "Lazio",
-        "num_enti_tot": 1854,
-        "num_enti_obiettivi": 697
+        "num_enti_tot": 1864,
+        "num_enti_obiettivi": 781
     },
     {
         "cod_anno": 2025,
         "des_regione": "Puglia",
-        "num_enti_tot": 1266,
-        "num_enti_obiettivi": 610
+        "num_enti_tot": 1264,
+        "num_enti_obiettivi": 671
     },
     {
         "cod_anno": 2025,
         "des_regione": "Toscana",
-        "num_enti_tot": 1205,
-        "num_enti_obiettivi": 583
+        "num_enti_tot": 1204,
+        "num_enti_obiettivi": 643
     },
     {
         "cod_anno": 2025,
         "des_regione": "Sardegna",
-        "num_enti_tot": 933,
-        "num_enti_obiettivi": 443
+        "num_enti_tot": 932,
+        "num_enti_obiettivi": 493
     },
     {
         "cod_anno": 2025,
         "des_regione": "Calabria",
-        "num_enti_tot": 977,
-        "num_enti_obiettivi": 361
-    },
-    {
-        "cod_anno": 2025,
-        "des_regione": "Friuli-Venezia Giulia",
-        "num_enti_tot": 583,
-        "num_enti_obiettivi": 340
+        "num_enti_tot": 974,
+        "num_enti_obiettivi": 393
     },
     {
         "cod_anno": 2025,
         "des_regione": "Marche",
         "num_enti_tot": 701,
-        "num_enti_obiettivi": 335
+        "num_enti_obiettivi": 384
+    },
+    {
+        "cod_anno": 2025,
+        "des_regione": "Friuli-Venezia Giulia",
+        "num_enti_tot": 585,
+        "num_enti_obiettivi": 361
     },
     {
         "cod_anno": 2025,
         "des_regione": "Liguria",
-        "num_enti_tot": 623,
-        "num_enti_obiettivi": 236
+        "num_enti_tot": 624,
+        "num_enti_obiettivi": 269
     },
     {
         "cod_anno": 2025,
         "des_regione": "Abruzzo",
-        "num_enti_tot": 729,
-        "num_enti_obiettivi": 226
+        "num_enti_tot": 728,
+        "num_enti_obiettivi": 255
     },
     {
         "cod_anno": 2025,
         "des_regione": "Provincia autonoma di Trento",
-        "num_enti_tot": 502,
-        "num_enti_obiettivi": 178
-    },
-    {
-        "cod_anno": 2025,
-        "des_regione": "Basilicata",
-        "num_enti_tot": 353,
-        "num_enti_obiettivi": 153
+        "num_enti_tot": 503,
+        "num_enti_obiettivi": 200
     },
     {
         "cod_anno": 2025,
         "des_regione": "Umbria",
         "num_enti_tot": 354,
-        "num_enti_obiettivi": 149
+        "num_enti_obiettivi": 169
     },
     {
         "cod_anno": 2025,
-        "des_regione": "Valle d'Aosta/Vallée d'Aoste",
-        "num_enti_tot": 171,
-        "num_enti_obiettivi": 109
+        "des_regione": "Basilicata",
+        "num_enti_tot": 352,
+        "num_enti_obiettivi": 167
     },
     {
         "cod_anno": 2025,
         "des_regione": "Molise",
-        "num_enti_tot": 291,
-        "num_enti_obiettivi": 99
+        "num_enti_tot": 288,
+        "num_enti_obiettivi": 113
+    },
+    {
+        "cod_anno": 2025,
+        "des_regione": "Valle d'Aosta/Vallée d'Aoste",
+        "num_enti_tot": 172,
+        "num_enti_obiettivi": 113
     },
     {
         "cod_anno": 2025,
         "des_regione": "Provincia autonoma di Bolzano",
         "num_enti_tot": 495,
-        "num_enti_obiettivi": 41
+        "num_enti_obiettivi": 56
     }
 ]

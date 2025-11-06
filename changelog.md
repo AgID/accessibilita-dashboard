@@ -5,6 +5,12 @@ Tutte le principali modifiche saranno documentate in questo file.
 Il formato del file è basato su [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 e questo progetto aderisce a [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.3.0](https://github.com/AgID/accessibilita-dashboard/releases/tag/1.3.0) - 2025-11-06
+
+### Changed
+
+- Aggiornamento dati monitoraggio MAUVE Q2 2025, dichiarazioni 2025 e obiettivi Q3 2025
+
 ## [1.2.2](https://github.com/AgID/accessibilita-dashboard/releases/tag/1.2.2) - 2025-10-10
 
 ### Update
@@ -51,7 +57,7 @@ e questo progetto aderisce a [Semantic Versioning](https://semver.org/spec/v2.0.
 
 ## [1.1.0](https://github.com/AgID/accessibilita-dashboard/releases/tag/1.1.0) - 2025-04-04
 
-### Change
+### Changed
 
 - Aggiornamento dati monitoraggio MAUVE Q1 2025 e obiettivi Q1 2025
 
