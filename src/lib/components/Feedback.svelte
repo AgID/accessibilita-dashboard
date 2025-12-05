@@ -1,4 +1,6 @@
 <script>
+  import { run, preventDefault } from "svelte/legacy";
+
   import Icon from "./Icon.svelte";
   import { t } from "../utils/i18n";
   import {
@@ -8,18 +10,18 @@
     details,
     resetValue,
   } from "../../store/feedback";
-  import { page } from "@roxi/routify";
 
-  let showModal;
+  let showModal = $state();
 
   let baseUrl = window.location.origin;
-  $: currentPath = $page.path || "";
+  let currentPath = $derived("");
 
-  let charCounter;
-  $: charCounter = $details.length;
+  let charCounter = $derived($details.length);
 
-  let showThanks = false;
-  $: showThanks;
+  let showThanks = $state(false);
+  run(() => {
+    showThanks;
+  });
 
   function showThanksCard() {
     showThanks = true;
@@ -28,8 +30,12 @@
     }, 3000);
   }
 
-  let isSubmitted = false;
-  let errors = { sceltaProfessione: false, sceltaWeb: false, details: false };
+  let isSubmitted = $state(false);
+  let errors = $state({
+    sceltaProfessione: false,
+    sceltaWeb: false,
+    details: false,
+  });
 
   function handleInputChange() {
     if (isSubmitted) {
@@ -109,7 +115,7 @@
         <div class="card rounded card-bg no-after">
           {#if !showThanks}
             <div class="card-body">
-              <form on:submit|preventDefault={sendOROpen}>
+              <form onsubmit={preventDefault(sendOROpen)}>
                 <p class="card-title display6 greyText">
                   {$t("feedback.cardTitle")}
                 </p>
@@ -139,7 +145,7 @@
                   type="submit"
                   class="btn btn-outline-primary btn-md {$feedback == null &&
                     'disabled'}"
-                  on:click|preventDefault={sendOROpen}
+                  onclick={preventDefault(sendOROpen)}
                 >
                   {$t("feedback.sendButton")}
                 </button>
@@ -186,7 +192,7 @@
           <button
             class="btn-close mb-auto"
             type="button"
-            on:click={() => {
+            onclick={() => {
               resetValue();
               showModal = false;
             }}
@@ -225,7 +231,7 @@
                     type="radio"
                     value="Pubblica amministrazione"
                     bind:group={$sceltaProfessione}
-                    on:change={handleInputChange}
+                    onchange={handleInputChange}
                     id="radio1"
                   />
                   <label for="radio1" class="mb-0"
@@ -238,7 +244,7 @@
                     type="radio"
                     value="Cittadino"
                     bind:group={$sceltaProfessione}
-                    on:change={handleInputChange}
+                    onchange={handleInputChange}
                     id="radio2"
                   />
                   <label for="radio2" class="mb-0"
@@ -251,7 +257,7 @@
                     type="radio"
                     value="Giornalista e/o addetto stampa"
                     bind:group={$sceltaProfessione}
-                    on:change={handleInputChange}
+                    onchange={handleInputChange}
                     id="radio3"
                   />
                   <label for="radio3" class="mb-0"
@@ -264,7 +270,7 @@
                     type="radio"
                     value="Azienda privata"
                     bind:group={$sceltaProfessione}
-                    on:change={handleInputChange}
+                    onchange={handleInputChange}
                     id="radio4"
                   />
                   <label for="radio4" class="mb-0"
@@ -277,7 +283,7 @@
                     type="radio"
                     value="Altro"
                     bind:group={$sceltaProfessione}
-                    on:change={handleInputChange}
+                    onchange={handleInputChange}
                     id="radio5"
                   />
                   <label for="radio5" class="mb-0"
@@ -307,7 +313,7 @@
                     type="radio"
                     value="Motore di ricerca"
                     bind:group={$sceltaWeb}
-                    on:change={handleInputChange}
+                    onchange={handleInputChange}
                     id="radio6"
                   />
                   <label for="radio6" class="mb-0"
@@ -320,7 +326,7 @@
                     type="radio"
                     value="Messaggio e/o post social"
                     bind:group={$sceltaWeb}
-                    on:change={handleInputChange}
+                    onchange={handleInputChange}
                     id="radio7"
                   />
                   <label for="radio7" class="mb-0"
@@ -333,7 +339,7 @@
                     type="radio"
                     value="Navigazione del sito"
                     bind:group={$sceltaWeb}
-                    on:change={handleInputChange}
+                    onchange={handleInputChange}
                     id="radio8"
                   />
                   <label for="radio8" class="mb-0"
@@ -346,7 +352,7 @@
                     type="radio"
                     value="Altro sito web"
                     bind:group={$sceltaWeb}
-                    on:change={handleInputChange}
+                    onchange={handleInputChange}
                     id="radio9"
                   />
                   <label for="radio9" class="mb-0"
@@ -357,7 +363,7 @@
                   <input
                     name="sceltaWeb"
                     bind:group={$sceltaWeb}
-                    on:change={handleInputChange}
+                    onchange={handleInputChange}
                     type="radio"
                     value="Altro"
                     id="radio10"
@@ -389,7 +395,7 @@
                 <textarea
                   autocomplete="off"
                   id="textAreaFeedback"
-                  on:input={handleInputChange}
+                  oninput={handleInputChange}
                   bind:value={$details}
                   rows="3"
                   maxlength="200"
@@ -401,7 +407,7 @@
 
             <button
               class="btn btn-primary btn-md my-4"
-              on:click|preventDefault={sendFeedback}
+              onclick={preventDefault(sendFeedback)}
               type="submit">{$t("feedback.sendButton")}</button
             >
           </form>
@@ -471,11 +477,6 @@
 
   .labelTextArea {
     top: -40px;
-  }
-
-  .modal-footer {
-    background-color: unset !important;
-    justify-content: flex-start;
   }
 
   @media (min-width: 576px) {

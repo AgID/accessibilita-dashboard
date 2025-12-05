@@ -1,35 +1,51 @@
-<svelte:options accessors />
+<svelte:options />
 
 <script lang="ts">
-  import { df, dp } from "../utils";
   import Icon from "./Icon.svelte";
-  import Tooltip from "./Tooltip.svelte";
-  import type { TooltipData } from "../../model/TooltipData";
   import { locale, t } from "../utils/i18n";
-
   import { onMount } from "svelte";
-  export let columns: any[];
-  export let rows: any[];
-  export let csvRows: any[] = [];
-  export let title: string = "";
-  export let periodoMonitoraggio = "";
-  export let defaultSortBy = "";
-  export let descending = false;
-  export let tooltipClasses = "";
-  export let tooltipData: TooltipData = null;
-  export let rowsLimit: number = 0;
-  export let downloadFilename: string = "";
-  export let searchingName: string = "";
-  export let canDownload: boolean = true;
-  export let didascalia: boolean = false;
 
-  let innerWidth;
-  let rowsToShow;
+  interface Props {
+    columns: any[];
+    rows: any[];
+    csvRows?: any[];
+    title?: string;
+    periodoMonitoraggio?: string;
+    defaultSortBy?: string;
+    descending?: boolean;
+    rowsLimit?: number;
+    downloadFilename?: string;
+    searchingName?: string;
+    canDownload?: boolean;
+    didascalia?: boolean;
+    isCardBox?: boolean;
+    didascaliaSlot?: import("svelte").Snippet;
+  }
 
-  let sortBy = { col: defaultSortBy, ascending: !descending };
-  $: keyCol = columns.find((c) => c.key);
+  let {
+    columns,
+    rows,
+    csvRows = [],
+    title = "",
+    periodoMonitoraggio = "",
+    defaultSortBy = "",
+    descending = false,
+    rowsLimit = 0,
+    downloadFilename = "",
+    searchingName = "",
+    canDownload = true,
+    didascalia = false,
+    isCardBox = false,
+    didascaliaSlot,
+  }: Props = $props();
 
-  $: sort = (column) => {
+  let innerWidth = $state(0);
+  let rowsToShow = $state([]);
+
+  let sortBy = $state({ col: defaultSortBy, ascending: !descending });
+  let keyCol = $derived(columns.find((c) => c.key));
+
+  let sort = $derived((column) => {
     if (sortBy.col == column) {
       sortBy.ascending = !sortBy.ascending;
     } else {
@@ -44,7 +60,7 @@
           ? 1 * sortModifier
           : 0;
     rowsToShow = rowsToShow.sort(sort);
-  };
+  });
 
   const successCriteriaSort = (column) => {
     if (sortBy.col == column) {
@@ -183,247 +199,254 @@
     if (rowsLimit) rowsToShow = rows.slice(0, rowsLimit);
     else rowsToShow = rows;
   });
+
+  export {
+    columns,
+    rows,
+    csvRows,
+    title,
+    periodoMonitoraggio,
+    defaultSortBy,
+    descending,
+    rowsLimit,
+    downloadFilename,
+    searchingName,
+    canDownload,
+    didascalia,
+    isCardBox,
+  };
 </script>
 
 <svelte:window bind:innerWidth />
-<div class="mb-lg-5">
-  <div class="card-box pt-4 pb-2 px-2 px-sm-4">
-    <div class="row justify-content-between">
-      {#if title}
-        <div
-          class="col-xl-10 cardTitle mb-2 justify-content-start d-inline-flex greyText"
-        >
-          {title}
-          {#if tooltipData?.id}
-            <Tooltip
-              id={tooltipData.id}
-              tooltip={tooltipData.content}
-              classes={tooltipClasses}
-            />
-          {/if}
-        </div>
-      {/if}
-      {#if canDownload}
-        <div
-          class="col-xl-2 text-xl-end download-text fw-normal mb-2 d-inline-block"
-        >
-          <button
-            class="download-buttons"
-            on:click={downloadCSV}
-            title="{$t('dataTable.generalDownload')}{`${title}.csv`}"
-          >
-            CSV
-            <img
-              class="download-icon"
-              alt={$t("dataTable.csvDownload")}
-              src="/icons/icon-arrow-down-1.png"
-            />
-          </button>
-          <button
-            class="download-buttons"
-            on:click={downloadPDF}
-            title="{$t('dataTable.generalDownload')}{`${title}.pdf`}"
-          >
-            PDF
-            <img
-              class="download-icon"
-              alt={$t("dataTable.pdfDownload")}
-              src="/icons/icon-arrow-down-1.png"
-            />
-          </button>
-        </div>
-      {/if}
-    </div>
-    <div class="d-flex justify-content-between">
-      {#if periodoMonitoraggio}
-        <p class="periodoLabel text-start d-inline-block">
-          {$t("layout.periodoMonitoraggio")}
-          <span class="periodoDate">
-            {periodoMonitoraggio}
-          </span>
-        </p>
-      {/if}
-    </div>
-    {#if didascalia}
-      <div class="mt-2">
-        <p class="mb-2"><slot name="didascaliaSlot" /></p>
+<div
+  class="customSpacing {isCardBox ? 'card-box px-2 px-sm-4 pt-4 pb-2' : ''}"
+  style={isCardBox ? "box-shadow: none !important;" : ""}
+>
+  <div class="row justify-content-between">
+    {#if title}
+      <div
+        class="cardTitle col-lg-8 mb-2 justify-content-start d-inline-flex greyText"
+      >
+        {title}
       </div>
     {/if}
+    {#if canDownload}
+      <div
+        class="col-lg-2 text-lg-end download-text fw-normal mb-2 d-inline-block"
+      >
+        <button
+          class="download-buttons"
+          onclick={downloadCSV}
+          title="{$t('dataTable.generalDownload')}{`${title}.csv`}"
+        >
+          CSV
+          <img
+            class="download-icon"
+            alt={$t("dataTable.csvDownload")}
+            src="/icons/icon-arrow-down-1.png"
+          />
+        </button>
+        <button
+          class="download-buttons"
+          onclick={downloadPDF}
+          title="{$t('dataTable.generalDownload')}{`${title}.pdf`}"
+        >
+          PDF
+          <img
+            class="download-icon"
+            alt={$t("dataTable.pdfDownload")}
+            src="/icons/icon-arrow-down-1.png"
+          />
+        </button>
+      </div>
+    {/if}
+  </div>
+  <div class="d-flex justify-content-between">
+    {#if periodoMonitoraggio}
+      <p class="periodoLabel text-start d-inline-block">
+        {$t("layout.periodoMonitoraggio")}
+        <span class="periodoDate">
+          {periodoMonitoraggio}
+        </span>
+      </p>
+    {/if}
+  </div>
+  {#if didascalia}
+    <div class="mt-2 col-lg-8">
+      <p class="mb-2">{@render didascaliaSlot?.()}</p>
+    </div>
+  {/if}
 
-    <div class="table-responsive mt-3">
-      <table class="table mb-4" aria-rowcount={rows.length}>
-        <thead>
-          <tr>
-            {#each columns as c}
-              {#if c.label != "Formato file"}
-                <th
-                  aria-sort={sortBy.col == c.field && sortBy.ascending
-                    ? "ascending"
-                    : sortBy.col == c.field && !sortBy.ascending
-                      ? "descending"
-                      : "none"}
-                  class="head caption tableHeader align-middle selectableColumns"
-                  scope="col"
-                  style="text-align: {c.align ||
-                    'start'} !important; height: 2em !important; white-space: wrap;"
-                  on:click={() => {
-                    if (
-                      c.field == `criterio_di_successo_${$locale}` ||
-                      c.field == `criterio_di_successo_norm_e_${$locale}`
-                    )
-                      successCriteriaSort(c.field);
-                    else sort(c.field);
-                  }}
+  <div class="table-responsive mt-3 {columns.length >= 4 ? '' : 'col-lg-8'}">
+    <table class="table mb-0" aria-rowcount={rows.length}>
+      <thead>
+        <tr>
+          {#each columns as c}
+            {#if c.label != "Formato file"}
+              <th
+                aria-sort={sortBy.col == c.field && sortBy.ascending
+                  ? "ascending"
+                  : sortBy.col == c.field && !sortBy.ascending
+                    ? "descending"
+                    : "none"}
+                class="head caption tableHeader align-middle selectableColumns"
+                scope="col"
+                style="text-align: {c.align ||
+                  'start'} !important; height: 2em !important; white-space: wrap;"
+                onclick={() => {
+                  if (
+                    c.field == `criterio_di_successo_${$locale}` ||
+                    c.field == `criterio_di_successo_norm_e_${$locale}`
+                  )
+                    successCriteriaSort(c.field);
+                  else sort(c.field);
+                }}
+              >
+                <div
+                  class="flex-nowrap d-flex justify-content-between"
+                  style="justify-content: {c.align || 'start'}"
                 >
-                  <div
-                    class="flex-nowrap d-flex justify-content-between"
-                    style="justify-content: {c.align || 'start'}"
+                  <button
+                    style="width: 100% !important; all: unset;"
+                    class="d-flex justify-content-{c.position || 'between'}"
                   >
-                    <button
-                      style="width: 100% !important; all: unset;"
-                      class="d-flex justify-content-{c.position || 'between'}"
-                    >
-                      <div class="show-mobile">
-                        {c.label}
-                      </div>
-                      <div class="d-inline-block">
-                        {#if sortBy.col == c.field}
-                          {#if sortBy.ascending}
-                            <img
-                              src="/icons/Decrescente.svg"
-                              alt=""
-                              class="mx-2 iconaOrdinamento"
-                              aria-hidden="true"
-                            />
-                          {:else}
-                            <img
-                              src="/icons/Crescente.svg"
-                              alt=""
-                              class="mx-2 iconaOrdinamento"
-                              aria-hidden="true"
-                            />
-                          {/if}
+                    <div class="show-mobile">
+                      {c.label}
+                    </div>
+                    <div class="d-inline-block">
+                      {#if sortBy.col == c.field}
+                        {#if sortBy.ascending}
+                          <img
+                            src="/icons/Decrescente.svg"
+                            alt=""
+                            class="mx-2 iconaOrdinamento"
+                            aria-hidden="true"
+                          />
                         {:else}
                           <img
-                            src="/icons/Null.svg"
+                            src="/icons/Crescente.svg"
                             alt=""
                             class="mx-2 iconaOrdinamento"
                             aria-hidden="true"
                           />
                         {/if}
-                      </div>
-                    </button>
-                  </div>
-                </th>
-              {:else}
-                <th
-                  aria-sort={sortBy.col == c.field && sortBy.ascending
-                    ? "ascending"
-                    : sortBy.col == c.field && !sortBy.ascending
-                      ? "descending"
-                      : "none"}
-                  class="head caption tableHeader align-middle"
-                  scope="col"
-                  style="text-align: {c.align ||
-                    'start'} !important; height: 2em !important; white-space: wrap;"
-                >
-                  <div
-                    class="flex-nowrap d-flex justify-content-between"
-                    style="justify-content: {c.align || 'start'}"
-                  >
-                    <div class="show-mobile">
-                      {c.label}
+                      {:else}
+                        <img
+                          src="/icons/Null.svg"
+                          alt=""
+                          class="mx-2 iconaOrdinamento"
+                          aria-hidden="true"
+                        />
+                      {/if}
                     </div>
+                  </button>
+                </div>
+              </th>
+            {:else}
+              <th
+                aria-sort={sortBy.col == c.field && sortBy.ascending
+                  ? "ascending"
+                  : sortBy.col == c.field && !sortBy.ascending
+                    ? "descending"
+                    : "none"}
+                class="head caption tableHeader align-middle"
+                scope="col"
+                style="text-align: {c.align ||
+                  'start'} !important; height: 2em !important; white-space: wrap;"
+              >
+                <div
+                  class="flex-nowrap d-flex justify-content-between"
+                  style="justify-content: {c.align || 'start'}"
+                >
+                  <div class="show-mobile">
+                    {c.label}
                   </div>
-                </th>
-              {/if}
-            {/each}
-          </tr>
-        </thead>
+                </div>
+              </th>
+            {/if}
+          {/each}
+        </tr>
+      </thead>
 
-        {#if rowsToShow?.length}
-          <tbody class="caption tableBody">
-            {#each rowsToShow as row, i (keyCol ? row[keyCol] : JSON.stringify(row))}
-              <tr>
-                {#each columns as col}
-                  {#if col.field == "action"}
-                    <td style="width: {window.innerWidth < 768 ? 25 : 14}%">
-                      <button
-                        class="download-buttons"
-                        on:click={() =>
-                          openDataDownload(
-                            filename(row[`nome_${$locale}`]),
-                            "csv",
-                            `${filename(row[`nome_${$locale}`])}_${row[`periodo_${$locale}`]}`
-                          )}
-                        aria-hidden="false"
-                        title={`${filename(row[`nome_${$locale}`])}_${row[`periodo_${$locale}`]}`}
-                      >
-                        <span
-                          style="font-size: 16px; text-decoration: underline"
-                          >csv</span
-                        >
-                      </button>
-                      <button
-                        class="download-buttons"
-                        on:click={() =>
-                          openDataDownload(
-                            filename(row[`nome_${$locale}`]),
-                            "xml",
-                            `${filename(row[`nome_${$locale}`])}_${row[`periodo_${$locale}`]}`
-                          )}
-                        on:mousedown={() => {}}
-                        aria-hidden="false"
-                        title={`${filename(row[`nome_${$locale}`])}_${row[`periodo_${$locale}`]}`}
-                      >
-                        <span
-                          style="font-size: 16px; text-decoration: underline"
-                          >xml</span
-                        >
-                      </button>
-                      <button
-                        class="download-buttons"
-                        on:click={() =>
-                          openDataDownload(
-                            filename(row[`nome_${$locale}`]),
-                            "json",
-                            `${filename(row[`nome_${$locale}`])}_${row[`periodo_${$locale}`]}`
-                          )}
-                        aria-hidden="false"
-                        title={`${filename(row[`nome_${$locale}`])}_${row[`periodo_${$locale}`]}`}
-                      >
-                        <span
-                          style="font-size: 16px; text-decoration: underline"
-                          >json</span
-                        >
-                      </button>
-                    </td>
-                  {:else}
-                    <td role="cell" align={col.align || "left"}>
-                      {#if (col.field == `criterio_di_successo_${$locale}` || col.field == `criterio_di_successo_norm_e_${$locale}` || col.field == `des_success_criteria_${$locale}`) && rows[i].link}
-                        <a
-                          title={$t("layout.externalLink")}
-                          target="_blank"
-                          rel="noreferrer"
-                          href={rows[i].link}
-                          >{format(col, row)}<Icon
-                            name="it it-external-link"
-                            variant="primary"
-                            size="sm"
-                            customClass="ms-1 mb-1"
-                          /></a
-                        >
-                      {:else}{format(col, row)}
-                      {/if}</td
+      {#if rowsToShow?.length}
+        <tbody class="caption tableBody">
+          {#each rowsToShow as row, i (keyCol ? row[keyCol] : JSON.stringify(row))}
+            <tr>
+              {#each columns as col}
+                {#if col.field == "action"}
+                  <td style="width: {window.innerWidth < 768 ? 25 : 14}%">
+                    <button
+                      class="download-buttons"
+                      onclick={() =>
+                        openDataDownload(
+                          filename(row[`nome_${$locale}`]),
+                          "csv",
+                          `${filename(row[`nome_${$locale}`])}_${row[`periodo_${$locale}`]}`
+                        )}
+                      aria-hidden="false"
+                      title={`${filename(row[`nome_${$locale}`])}_${row[`periodo_${$locale}`]}`}
                     >
-                  {/if}
-                {/each}
-              </tr>
-            {/each}
-          </tbody>
-        {/if}
-      </table>
-    </div>
+                      <span style="font-size: 16px; text-decoration: underline"
+                        >csv</span
+                      >
+                    </button>
+                    <button
+                      class="download-buttons"
+                      onclick={() =>
+                        openDataDownload(
+                          filename(row[`nome_${$locale}`]),
+                          "xml",
+                          `${filename(row[`nome_${$locale}`])}_${row[`periodo_${$locale}`]}`
+                        )}
+                      onmousedown={() => {}}
+                      aria-hidden="false"
+                      title={`${filename(row[`nome_${$locale}`])}_${row[`periodo_${$locale}`]}`}
+                    >
+                      <span style="font-size: 16px; text-decoration: underline"
+                        >xml</span
+                      >
+                    </button>
+                    <button
+                      class="download-buttons"
+                      onclick={() =>
+                        openDataDownload(
+                          filename(row[`nome_${$locale}`]),
+                          "json",
+                          `${filename(row[`nome_${$locale}`])}_${row[`periodo_${$locale}`]}`
+                        )}
+                      aria-hidden="false"
+                      title={`${filename(row[`nome_${$locale}`])}_${row[`periodo_${$locale}`]}`}
+                    >
+                      <span style="font-size: 16px; text-decoration: underline"
+                        >json</span
+                      >
+                    </button>
+                  </td>
+                {:else}
+                  <td role="cell" style="text-align: {col.align || 'left'}">
+                    {#if (col.field == `criterio_di_successo_${$locale}` || col.field == `criterio_di_successo_norm_e_${$locale}` || col.field == `des_success_criteria_${$locale}`) && rows[i].link}
+                      <a
+                        title={$t("layout.externalLink")}
+                        target="_blank"
+                        rel="noreferrer"
+                        href={rows[i].link}
+                        >{format(col, row)}<Icon
+                          name="it it-external-link"
+                          variant="primary"
+                          size="sm"
+                          customClass="ms-1 mb-1"
+                        /></a
+                      >
+                    {:else}{format(col, row)}
+                    {/if}</td
+                  >
+                {/if}
+              {/each}
+            </tr>
+          {/each}
+        </tbody>
+      {/if}
+    </table>
   </div>
 </div>
 
@@ -453,7 +476,7 @@
   }
 
   .download-buttons {
-    background-color: white;
+    background-color: transparent;
     color: #0066cc;
     border: none;
   }

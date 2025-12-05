@@ -7,10 +7,10 @@
   import KpiThreeCard from "../KpiThreeCard.svelte";
   import BannerPageUpdated from "../BannerPageUpdated.svelte";
 
-  let annoRiferimento;
-  let totale;
-  let numAttuali;
-  let enti;
+  let annoRiferimento = $state();
+  let totale = $state();
+  let numAttuali = $state();
+  let enti = $state();
   let monitoraggioDateFormatted;
 
   onMount(async () => {
@@ -52,7 +52,7 @@
       {$t("dicMain.subtitle")}
     </h2>
 
-    <div class="d-flex inline mb-1 pt-4" />
+    <div class="d-flex inline mb-1 pt-4"></div>
     <p>
       {$t("dicMain.description1")}
       <a

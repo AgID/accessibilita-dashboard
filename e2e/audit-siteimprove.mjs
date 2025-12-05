@@ -14,9 +14,6 @@ export async function runAccessibilityAudit(page) {
   const audit = await Audit.of(alfaPage, rules).evaluate();
   const violations = Sequence.from(audit).filter(Outcome.isFailed);
 
-  // console.log("\n🔍 Siteimprove Accessibility Violations:\n");
-  // console.dir(violations.toJSON(), { depth: null });
-
   if (violations.size > 0) {
     throw new Error(`❌ ${violations.size} violazioni di accessibilità`);
   }

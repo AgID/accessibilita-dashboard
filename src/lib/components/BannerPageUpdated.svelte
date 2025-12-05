@@ -1,16 +1,20 @@
-<script>
+<script lang="ts">
   import { onMount } from "svelte";
   import { t, locale } from "../utils/i18n";
 
-  export let dataPagina = "";
-  export let pageId = "";
+  interface Props {
+    dataPagina?: string;
+    pageId?: string;
+  }
+
+  let { dataPagina = $bindable(""), pageId = "" }: Props = $props();
 
   let response;
-  $: isPubFooter =
-    pageId === "media_policy" ||
+  let isPubFooter =
+    $derived(pageId === "media_policy" ||
     pageId === "note_legali" ||
     pageId === "privacy_policy" ||
-    pageId === "guida_piattaforma";
+    pageId === "guida_piattaforma");
 
   onMount(async () => {
     const rs = await fetch("/data/date_pagine.json");

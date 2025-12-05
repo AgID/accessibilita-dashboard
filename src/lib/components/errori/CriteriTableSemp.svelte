@@ -6,14 +6,19 @@
   import type { IconaErrori } from "../../../model/IconeErrori";
   import { locale, t } from "../../utils/i18n";
 
-  let innerWidth;
-  let response;
-  let columns = [];
+  let innerWidth = $state(0);
+  let response = $state({
+    intestazione: {
+      periodo_monitoraggio: "",
+      dat_ultimo_aggiornamento: "",
+    },
+    data: [],
+  });
+  let columns = $state([]);
   let totaleErroriConformita;
-  let loading = true;
-  let slicedResp;
+  let loading = $state(true);
+  let slicedResp = $state([]);
 
-  $: innerWidth < 768 ? (columns = smallColumns) : (columns = bigColumns);
   const bigColumns = [
     {
       field: `criterio_di_successo_${$locale}`,
@@ -579,6 +584,9 @@
 
     return response;
   });
+  $effect(() => {
+    innerWidth < 768 ? (columns = smallColumns) : (columns = bigColumns);
+  });
 </script>
 
 <svelte:window bind:innerWidth />
@@ -593,32 +601,34 @@
     searchingName={$t("erroriTable.titleSemp")}
     didascalia={true}
   >
-    <div slot="didascaliaSlot" class="didascalia">
-      {$t("erroriTable.description1")}
-      <a
-        title={$t("layout.externalLink")}
-        target="_blank"
-        rel="noreferrer"
-        href="https://mauve.isti.cnr.it/singleValidation.jsp"
-        >MAUVE++<Icon
-          name="it it-external-link"
-          variant="primary"
-          size="sm"
-          customClass="ms-1 mb-1"
-        /></a
-      >{@html $t("erroriTable.description2", { break: "<br/>" })}
-      <a
-        title={$t("layout.externalLink")}
-        target="_blank"
-        rel="noreferrer"
-        href={$t("erroriTable.WCAGlink")}
-        >{$t("erroriTable.linkText")}<Icon
-          name="it it-external-link"
-          variant="primary"
-          size="sm"
-          customClass="ms-1 mb-1"
-        /></a
-      >{@html $t("erroriTable.description3", { break: "<br/>" })}
-    </div>
+    {#snippet didascaliaSlot()}
+      <div class="didascalia">
+        {$t("erroriTable.description1")}
+        <a
+          title={$t("layout.externalLink")}
+          target="_blank"
+          rel="noreferrer"
+          href="https://mauve.isti.cnr.it/singleValidation.jsp"
+          >MAUVE++<Icon
+            name="it it-external-link"
+            variant="primary"
+            size="sm"
+            customClass="ms-1 mb-1"
+          /></a
+        >{@html $t("erroriTable.description2", { break: "<br/>" })}
+        <a
+          title={$t("layout.externalLink")}
+          target="_blank"
+          rel="noreferrer"
+          href={$t("erroriTable.WCAGlink")}
+          >{$t("erroriTable.linkText")}<Icon
+            name="it it-external-link"
+            variant="primary"
+            size="sm"
+            customClass="ms-1 mb-1"
+          /></a
+        >{@html $t("erroriTable.description3", { break: "<br/>" })}
+      </div>
+    {/snippet}
   </DataTable>
 {/if}

@@ -11,9 +11,15 @@
   HighchartsAccessibility(Highcharts);
   // ---HIGHCHARTS END---
 
-  let periodoMonitoraggio;
-  let response;
-  let loading = true;
+  let periodoMonitoraggio = $state(0);
+  let response = $state({
+    intestazione: {
+      anno_dichiarazione: 0,
+      dat_ult_agg_dichiarazione: "",
+    },
+    data: [],
+  });
+  let loading = $state(true);
   const columns = [
     {
       field: `conformita_${$locale}`,
@@ -90,9 +96,9 @@
   });
 </script>
 
-<div class="card-box mt-2 my-lg-3 hide-mobile pt-3 px-3">
+<div class="card-box customSpacing hide-mobile pt-3 px-3">
   <div class="d-flex justify-content-between">
-    <h3 class="cardTitle pt-3 ps-2 ps-lg-3 d-inline-flex greyText">
+    <h3 class="cardTitle col-lg-8 pt-3 ps-2 ps-lg-3 d-inline-flex greyText">
       {$t("dicAutoTema.title")}
     </h3>
     <div class="pe-3 my-auto">
@@ -101,12 +107,11 @@
           rows={response?.data}
           {columns}
           title={$t("dicAutoTema.title")}
-          periodoMonitoraggio="{$t('layout.anno')}{periodoMonitoraggio}"
         />
       {/if}
     </div>
   </div>
-  <div>
+  <div class="col-lg-8">
     {#if periodoMonitoraggio}
       <div class="d-inline-block px-2 px-xl-3">
         <p class="periodoLabel mb-4">
@@ -123,7 +128,7 @@
   </div>
 
   <figure class="highcharts-figure">
-    <div id="pieAutovalTema" style="width:100%; height:450px;" />
+    <div id="pieAutovalTema" style="width:100%; height:450px;"></div>
   </figure>
 </div>
 
@@ -137,14 +142,16 @@
       periodoMonitoraggio="{$t('layout.anno')}{periodoMonitoraggio}"
       didascalia={true}
     >
-      <div slot="didascaliaSlot" class="didascalia">
-        {@html $t("dicAutoTema.tableDescription", { break: "<br/>" })}
-      </div>
+      {#snippet didascaliaSlot()}
+        <div class="didascalia">
+          {@html $t("dicAutoTema.tableDescription", { break: "<br/>" })}
+        </div>
+      {/snippet}
     </DataTable>
   </div>
 {/if}
 
-<style lang="scss">
+<style>
   :global(.highcharts-credits) {
     display: none !important;
   }

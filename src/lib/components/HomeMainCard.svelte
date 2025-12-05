@@ -32,7 +32,7 @@
         </div>
       </div>
       <div class="col-lg-5 my-auto d-none d-lg-flex">
-        <div class="header-img" aria-hidden="true" />
+        <div class="header-img" aria-hidden="true"></div>
       </div>
     </div>
   </div>

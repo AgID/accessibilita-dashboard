@@ -28,15 +28,12 @@
 
   <Autovalutazioni />
 
-  <div
-    class="container mb-5"
-    style="padding-left: 0 !important; padding-right: 0 !important;"
-  >
+  <div class="container mb-5">
     <PieChart />
   </div>
 </section>
 
-<style lang="scss">
+<style>
   section {
     margin-top: 1.3em;
   }

@@ -7,11 +7,11 @@
   import KpiThreeCard from "../KpiThreeCard.svelte";
   import BannerPageUpdated from "../BannerPageUpdated.svelte";
 
-  let monitoraggioDateFormatted;
-  let innerWidth;
-  let numPag;
-  let numSiti;
-  let numPA;
+  let monitoraggioDateFormatted = $state();
+  let innerWidth = $state(0);
+  let numPag = $state();
+  let numSiti = $state();
+  let numPA = $state();
 
   onMount(async () => {
     const rs = await fetch("/data/mona_siti_mon_intestazione.json");

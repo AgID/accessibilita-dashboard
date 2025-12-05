@@ -1,13 +1,11 @@
 <script lang="ts">
   import { onMount } from "svelte";
-  import DataTable from "./DataTable.svelte";
-  let response;
-  let loading = true;
-  let columns = [];
-  let innerWidth;
-  $: innerWidth < 768 ? (columns = smallColumns) : (columns = bigColumns);
-
   import { locale, t } from "../utils/i18n";
+  import DataTable from "./DataTable.svelte";
+  let response = $state([]);
+  let loading = $state(true);
+  let columns = $state([]);
+  let innerWidth = $state(0);
 
   const bigColumns = [
     { field: `periodo_${$locale}`, label: $t("opendata.tablePeriod") },
@@ -36,10 +34,15 @@
       label: $t("opendata.tableFormat"),
     },
   ];
+
   onMount(async () => {
     const rs = await fetch("/data/opendata.json");
     response = await rs.json();
     loading = false;
+  });
+
+  $effect(() => {
+    innerWidth < 768 ? (columns = smallColumns) : (columns = bigColumns);
   });
 </script>
 

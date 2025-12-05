@@ -1,14 +1,18 @@
-<script>
+<script lang="ts">
   import { onMount } from "svelte";
   import { nf, df, dp } from "../../utils";
   import { t } from "../../utils/i18n";
 
-  export let height = "";
+  interface Props {
+    height?: string;
+  }
 
-  $: mainHeight = height ? `height:${height};` : "";
+  let { height = "" }: Props = $props();
 
-  let erroriConformita;
-  let totaleErroriConformita;
+  let mainHeight = $derived(height ? `height:${height};` : "");
+
+  let erroriConformita = $state([]);
+  let totaleErroriConformita = $state();
 
   onMount(async () => {
     const rsDistribuzioneConformita = await fetch(
@@ -24,7 +28,7 @@
 </script>
 
 {#if erroriConformita}
-  <div class="card-box mt-0" style={`${mainHeight}`}>
+  <div class="card-box my-0" style={`${mainHeight}`}>
     <div class:vertical-align={height}>
       <div class="blueInit py-2 px-auto text-center">
         <div class="row">
@@ -65,7 +69,7 @@
   </div>
 {/if}
 
-<style lang="scss">
+<style>
   .vertical-align {
     padding-top: 1.2em;
   }

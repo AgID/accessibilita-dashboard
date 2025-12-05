@@ -7,33 +7,31 @@
   import PdfChartApp from "../lib/components/monitoraggio/PdfChartApp.svelte";
   import AppCard from "../lib/components/monitoraggio/AppCard.svelte";
   import AppChart from "../lib/components/monitoraggio/AppChart.svelte";
+</script>
 
-  </script>
-  
-  <svelte:head>
-    <title>{$t("monitoraggio.pagename")}</title>
-  </svelte:head>
-  
-  <section aria-label={$t("monitoraggio.section")}>
-    <div class="container">
-      <MainCardApp />
-      <SitiAreaGeoApp />
-    </div>
-  
-     <SitiSettoreApp /> 
+<svelte:head>
+  <title>{$t("monitoraggio.pagename")}</title>
+</svelte:head>
 
-     <div class="container">
-      <PdfCardApp />
-      <PdfChartApp />
+<section aria-label={$t("monitoraggio.section")}>
+  <div class="container">
+    <MainCardApp />
+    <SitiAreaGeoApp />
+  </div>
 
-      <AppCard />
-      <AppChart />
-     </div>
-  </section>
-  
-  <style lang="scss">
-    section {
-      margin-top: 1.3em;
-    }
-  </style>
-  
+  <SitiSettoreApp />
+
+  <div class="container">
+    <PdfCardApp />
+    <PdfChartApp />
+
+    <AppCard />
+    <AppChart />
+  </div>
+</section>
+
+<style>
+  section {
+    margin-top: 1.3em;
+  }
+</style>

@@ -5,9 +5,9 @@
   import { t } from "../../utils/i18n";
   import KpiCard from "../KpiCard.svelte";
 
-  let innerWidth;
-  let numApp;
-  let annoRiferimento;
+  let innerWidth = $state(0);
+  let numApp = $state();
+  let annoRiferimento = $state();
   onMount(async () => {
     const rs = await fetch("/data/mona_app_mon_intestazione.json");
     const data = await rs.json();
@@ -17,7 +17,7 @@
 </script>
 
 <svelte:window bind:innerWidth />
-<div class="d-flex flex-wrap mb-3">
+<div class="d-flex flex-wrap">
   <div class="col-12 col-lg-6 col-xl-7 flex-wrap">
     <div class="mt-5 mb-4">
       <div class="d-inline-flex">
@@ -35,17 +35,15 @@
     <h3 class="h3">
       {$t("moniAPPCard.subtitle")}
     </h3>
-    <p class="py-3 pe-xl-5 me-xl-5">
+    <p class="py-3 pe-xl-5 me-xl-5 mb-0 pb-0">
       {@html $t("moniAPPCard.description", { break: "<br/>" })}
     </p>
   </div>
   <div class="col-12 col-md-9 col-lg-6 col-xl-5 mt-5">
-    <div class="mt-1">
-      <KpiCard
-        imgLink="/images/mobile_friendly.svg"
-        title={$t("moniAPPCard.cardTitle1", { anno: annoRiferimento })}
-        kpi={nf(numApp)}
-      ></KpiCard>
-    </div>
+    <KpiCard
+      imgLink="/images/mobile_friendly.svg"
+      title={$t("moniAPPCard.cardTitle1", { anno: annoRiferimento })}
+      kpi={nf(numApp)}
+    ></KpiCard>
   </div>
 </div>

@@ -27,7 +27,7 @@ locale.subscribe(($locale) => {
 });
 
 export const nf = (value) =>
-  new Intl.NumberFormat(lingua, { useGrouping: "always" }).format(value);
+  new Intl.NumberFormat(lingua, { useGrouping: true }).format(value);
 export const nf1d = (value) =>
   new Intl.NumberFormat(lingua, {
     maximumFractionDigits: 1,
@@ -54,6 +54,13 @@ export const df = (value) =>
   }).format(value);
 
 export const dp = Date.parse;
+
+export const dmF = (value) => {
+  return new Date(value).toLocaleString(lingua, {
+    month: "long",
+    year: "numeric",
+  });
+};
 
 export const pm = (value) => {
   let newValue;

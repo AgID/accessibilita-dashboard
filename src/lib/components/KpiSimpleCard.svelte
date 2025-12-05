@@ -1,10 +1,14 @@
 <script lang="ts">
-  export let title: string;
-  export let kpi: string;
-  export let smallerKpi: string = "";
-  export let height: string = "";
+  interface Props {
+    title: string;
+    kpi: string;
+    smallerKpi?: string;
+    height?: string;
+  }
 
-  $: mainHeight = height ? `height:${height};` : "";
+  let { title, kpi, smallerKpi = "", height = "" }: Props = $props();
+
+  let mainHeight = $derived(height ? `height:${height};` : "");
 </script>
 
 <div class="card-box mt-0" style={`${mainHeight}`}>
@@ -25,33 +29,8 @@
   </div>
 </div>
 
-<style lang="scss">
+<style>
   .vertical-align {
     padding-top: 1.2em;
-  }
-
-  .kpi-footer a:hover {
-    color: white;
-  }
-
-  .cursor {
-    cursor: pointer;
-  }
-
-  @media (max-width: 400px) {
-    .svgImage {
-      padding-left: 0 !important;
-    }
-  }
-
-  .customBoxIcon {
-    padding-top: 8px;
-  }
-
-  @media screen and (max-width: 400px) {
-    .customBoxIcon {
-      padding-left: 0 !important;
-      padding-right: 0 !important;
-    }
   }
 </style>

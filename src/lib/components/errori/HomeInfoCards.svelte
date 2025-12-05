@@ -1,18 +1,22 @@
-<script>
+<script lang="ts">
   import { onMount } from "svelte";
   import { nf, df, dp } from "../../utils";
   import { t } from "../../utils/i18n";
 
-  export let height = "";
+  interface Props {
+    height?: string;
+  }
 
-  $: mainHeight = height ? `height:${height};` : "";
+  let { height = "" }: Props = $props();
 
-  let errSemp;
-  let totErrSemp;
+  let mainHeight = $derived(height ? `height:${height};` : "");
+
+  let errSemp = $state();
+  let totErrSemp = $state();
   let errSiti;
-  let totErrSiti;
+  let totErrSiti = $state();
   let errApp;
-  let totErrApp;
+  let totErrApp = $state();
 
   onMount(async () => {
     const rsSemp = await fetch(
@@ -91,7 +95,7 @@
   </div>
 {/if}
 
-<style lang="scss">
+<style>
   .vertical-align {
     padding-top: 1.2em;
   }
@@ -104,13 +108,5 @@
 
   .whiteText {
     color: #f5f5f5 !important;
-  }
-  .circle {
-    width: 70px;
-    height: 70px;
-    border-radius: 50px;
-    border: 3px solid #0066cc;
-    line-height: 65px;
-    text-align: center;
   }
 </style>

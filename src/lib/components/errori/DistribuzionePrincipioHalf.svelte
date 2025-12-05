@@ -2,11 +2,10 @@
   import { onMount } from "svelte";
   import { nf, nf1d, pm } from "../../utils";
   import Icon from "../Icon.svelte";
-  import Tooltip from "../Tooltip.svelte";
   import { locale, t } from "../../utils/i18n";
 
-  let erroriRiscontratiPrincipio;
-  let periodoMonitoraggio;
+  let erroriRiscontratiPrincipio = $state();
+  let periodoMonitoraggio = $state();
 
   let principleTextMap = {
     Percepibile: "https://www.w3.org/Translations/WCAG21-it/#perceivable",
@@ -46,21 +45,18 @@
 
 <div class="backgroundLightBlue pt-5 pb-3 px-xxl-5">
   <div class="container">
-    <div class="text-center">
+    <div class="col-lg-8 mx-auto">
       <h3 class="h3 pb-2">{$t("erroriPrincipio.title")}</h3>
-    </div>
-    <div class="text-center">
-      <p class="periodoLabel pb-2 d-inline-block">
+      <p class="periodoLabel pb-2">
         {$t("layout.periodoMonitoraggio")}
         <span class="periodoDate">
           {periodoMonitoraggio}
         </span>
       </p>
+      <p>
+        {@html $t("erroriPrincipio.description", { break: "<br/>" })}
+      </p>
     </div>
-
-    <p class=" mx-3 mx-lg-5 px-lg-5 text-center">
-      {@html $t("erroriPrincipio.description", { break: "<br/>" })}
-    </p>
     {#if erroriRiscontratiPrincipio}
       <div class="row text-center">
         {#each erroriRiscontratiPrincipio as item}

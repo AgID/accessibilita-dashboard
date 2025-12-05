@@ -2117,7 +2117,7 @@ testSiteImprove("Piano di test", async ({ page }) => {
     await page.getByRole("link", { name: "ITALIANO" }).click();
   });
 
-    await testSiteImprove.step(`ID 181`, async () => {
+  await testSiteImprove.step(`ID 181`, async () => {
     page.goto("/errori-semplificato");
     await page.getByRole("link", { name: "ITA espandi" }).click();
     await page.getByRole("link", { name: "ENGLISH" }).click();

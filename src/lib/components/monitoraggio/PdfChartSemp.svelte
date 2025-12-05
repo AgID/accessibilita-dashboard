@@ -11,10 +11,16 @@
   HighchartsAccessibility(Highcharts);
   // ---HIGHCHARTS END---
 
-  let response;
-  let periodoMonitoraggio;
-  let loading = true;
-  let numPDF;
+  let response = $state({
+    intestazione: {
+      monitoraggio_pdf_intestazione: "",
+      dat_ultimo_aggiornamento: "",
+    },
+    data: [],
+  });
+  let periodoMonitoraggio = $state("");
+  let loading = $state(true);
+  let numPDF = $state();
 
   onMount(async () => {
     const rsData = await fetch("/data/monitoraggio_pdf_intestazione.json");
@@ -96,9 +102,9 @@
   ];
 </script>
 
-<div class="card-box mt-2 my-lg-3 hide-mobile pt-3 px-3">
+<div class="card-box customSpacing hide-mobile pt-3 px-3">
   <div class="d-flex justify-content-between">
-    <h3 class="cardTitle pt-3 ps-2 ps-lg-3 d-inline-flex greyText">
+    <h3 class="cardTitle col-lg-8 pt-3 ps-2 ps-lg-3 d-inline-flex greyText">
       {$t("moniPDFChart.title")}
     </h3>
     <div class="pe-3 my-auto">
@@ -107,12 +113,11 @@
           rows={response?.data}
           {columns}
           title={$t("moniPDFChart.title")}
-          {periodoMonitoraggio}
         />
       {/if}
     </div>
   </div>
-  <div>
+  <div class="col-lg-8">
     {#if periodoMonitoraggio}
       <div class="d-inline-block px-2 px-xl-3">
         <p class="periodoLabel mb-4">
@@ -136,7 +141,7 @@
   </div>
 
   <figure class="highcharts-figure">
-    <div id="pieChartPDF" style="width:100%; height:450px;" />
+    <div id="pieChartPDF" style="width:100%; height:450px;"></div>
   </figure>
 </div>
 
@@ -150,21 +155,23 @@
       didascalia={true}
       {periodoMonitoraggio}
     >
-      <div slot="didascaliaSlot" class="didascalia">
-        {@html $t("moniPDFChart.tableDescrSemp", {
-          break: "<br/>",
-          total: numPDF,
-        })}
-        <br /><a
-          href="/errori-semplificato#pdf"
-          aria-label={$t("errPdfTable.title")}>{$t("errPdfTable.title")}</a
-        >
-      </div>
+      {#snippet didascaliaSlot()}
+        <div class="didascalia">
+          {@html $t("moniPDFChart.tableDescrSemp", {
+            break: "<br/>",
+            total: numPDF,
+          })}
+          <br /><a
+            href="/errori-semplificato#pdf"
+            aria-label={$t("errPdfTable.title")}>{$t("errPdfTable.title")}</a
+          >
+        </div>
+      {/snippet}
     </DataTable>
   </div>
 {/if}
 
-<style lang="scss">
+<style>
   :global(.highcharts-credits) {
     display: none !important;
   }

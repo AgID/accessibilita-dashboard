@@ -37,33 +37,25 @@
   </div>
 
   <SitiIstituzionaliHalf />
-  <div
-    class="container pb-3"
-    style="padding-left: 0 !important; padding-right: 0 !important;"
-  >
+  <div class="container">
     <AutovalutazioneIstituzionali />
-    <br />
     <SitiIstituzionaliTable />
   </div>
 
   <div class="backgroundLightBlue my-5">
-    <div class="container pb-4">
+    <div class="container pb-1">
       <SitiTematiciMain />
       <AutovalutazioneTematici />
-      <br />
       <SitiTematiciTable />
     </div>
   </div>
 
-  <div
-    class="container my-5"
-    style="padding-left: 0 !important; padding-right: 0 !important;"
-  >
+  <div class="container">
     <AutovalutazioniConfronto />
   </div>
 </section>
 
-<style lang="scss">
+<style>
   section {
     margin-top: 1.3em;
   }

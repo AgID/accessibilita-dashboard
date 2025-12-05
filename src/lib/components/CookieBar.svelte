@@ -33,13 +33,13 @@
     nella navigazione accetti l'utilizzo dei cookie.
   </p>
   <div class="cookiebar-buttons">
-    <!-- svelte-ignore a11y-invalid-attribute -->
+    <!-- svelte-ignore a11y_invalid_attribute -->
     <!-- <a href="#" class="cookiebar-btn">Preferenze<span class="visually-hidden">cookies</span></a> -->
     <button
       data-bs-accept="cookiebar"
       class="cookiebar-btn cookiebar-confirm"
       id="resumeTabButton"
-      on:click={onAcceptClick}
+      onclick={onAcceptClick}
       >Accetto<span class="visually-hidden"> i cookies</span></button
     >
   </div>

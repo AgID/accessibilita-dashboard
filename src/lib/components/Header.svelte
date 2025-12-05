@@ -1,14 +1,11 @@
-<script>
+<script lang="ts">
+  import { locale, locales, t } from "../utils/i18n";
   import Icon from "./Icon.svelte";
-  let innerWidth;
-  export let showDrawer = false;
-  export let selectedPage;
-  export let isSticky;
-
-  let moniOpen = false;
-  let dicOpen = false;
-  let errOpen = false;
-  let progOpen = false;
+  let innerWidth = $state(0);
+  let moniOpen = $state(false);
+  let dicOpen = $state(false);
+  let errOpen = $state(false);
+  let progOpen = $state(false);
 
   function closeAllSubMenu() {
     moniOpen = false;
@@ -28,25 +25,38 @@
     return correctedPath;
   }
 
-  $: selectedPage = ignoreIndex(selectedPage);
+  $effect(() => {
+    selectedPage = ignoreIndex(selectedPage);
+
+    if (showDrawer) {
+      if (typeof window != "undefined" && window.document) {
+        document.body.style.overflow = "hidden";
+      }
+    } else {
+      document.body.style.overflow = "";
+    }
+  });
 
   let defaultLanguage = "ITA";
-  import { locale, locales, t } from "../utils/i18n";
-
-  $: if (showDrawer) {
-    if (typeof window != "undefined" && window.document) {
-      document.body.style.overflow = "hidden";
-    }
-  } else {
-    document.body.style.overflow = "";
+  interface Props {
+    showDrawer?: boolean;
+    selectedPage: any;
+    isSticky: any;
   }
+
+  let {
+    showDrawer = $bindable(false),
+    selectedPage = $bindable(),
+    isSticky = $bindable(),
+  }: Props = $props();
+
   function closeDrawer() {
     showDrawer = false;
     closeAllSubMenu();
   }
 
-  let firstElement;
-  let lastElement;
+  let firstElement = $state<HTMLElement>();
+  let lastElement = $state<HTMLElement>();
 
   function tabFocusRestrictor(e) {
     if (e.target.id == "close-ham") {
@@ -56,6 +66,7 @@
   }
 
   // Matomo Code
+  // @ts-ignore
   var _paq = (window._paq = window._paq || []);
   /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
   _paq.push(["trackPageView"]);
@@ -77,7 +88,7 @@
 
 <svelte:window
   bind:innerWidth
-  on:keydown={(e) => {
+  onkeydown={(e) => {
     if (e.code == "Escape") closeDrawer();
     if (e.code == "Tab") tabFocusRestrictor(e);
   }}
@@ -133,10 +144,11 @@
                 >
                   {#each locales as l}
                     <li>
+                      <!-- svelte-ignore a11y_invalid_attribute -->
                       <a
                         class="dropdown-item"
                         href="#"
-                        on:click={() => ($locale = l)}
+                        onclick={() => ($locale = l)}
                         style=" color: #0066cc;"
                       >
                         {#if l == "it"}ITALIANO{:else if l == "en"}ENGLISH{/if}</a
@@ -171,7 +183,7 @@
                 aria-controls="nav1"
                 aria-expanded={showDrawer}
                 aria-label="Mostra/Nascondi la navigazione"
-                on:click={() => (showDrawer = true)}
+                onclick={() => (showDrawer = true)}
                 bind:this={firstElement}
               >
                 <Icon
@@ -182,13 +194,14 @@
                 />
               </button>
               {#if showDrawer}
-                <!-- svelte-ignore a11y-click-events-have-key-events -->
+                <!-- svelte-ignore a11y_click_events_have_key_events -->
+                <!-- svelte-ignore a11y_no_static_element_interactions -->
                 <div
                   class="modal-backdrop fade show"
                   style="background: #000; opacity: 48%;"
                   class:stop-scroll={showDrawer}
-                  on:click={closeDrawer}
-                />
+                  onclick={closeDrawer}
+                ></div>
                 <div
                   class="offcanvas-custom"
                   id="offcanvas1"
@@ -196,7 +209,7 @@
                   data-bs-scroll="false"
                 >
                   <div class="it-list-wrapper" role="navigation">
-                    <a href="/" on:click={closeDrawer}>
+                    <a href="/" onclick={closeDrawer}>
                       <img
                         class="my-4 mx-3"
                         src="/logo/Logo Dash Ext ITA.svg"
@@ -205,16 +218,16 @@
                       />
                     </a>
                     <ul class="it-list">
-                      <!-- svelte-ignore a11y-click-events-have-key-events -->
+                      <!-- svelte-ignore a11y_click_events_have_key_events -->
                       <li class="w-100 pointer">
-                        <!-- svelte-ignore a11y-missing-attribute -->
-                        <!-- svelte-ignore a11y-invalid-attribute -->
+                        <!-- svelte-ignore a11y_missing_attribute -->
+                        <!-- svelte-ignore a11y_invalid_attribute -->
                         <a
                           href="/"
-                          class:selected={selectedPage == "/"}
-                          aria-current={selectedPage == "/" ? "true" : "false"}
+                          class:selected={selectedPage == ""}
+                          aria-current={selectedPage == "" ? "true" : "false"}
                           id="home-ham"
-                          on:click={closeDrawer}
+                          onclick={closeDrawer}
                           class="list-item w-100 p-3"
                         >
                           <div class="it-left-zone">
@@ -225,12 +238,12 @@
                         </a>
                       </li>
                       <li class="w-100 pointer">
-                        <!-- svelte-ignore a11y-invalid-attribute -->
+                        <!-- svelte-ignore a11y_invalid_attribute -->
                         <a
                           class="list-item w-100 p-3"
                           href="javascript:void(0)"
                           id="menu-monitoraggio-ham"
-                          on:click={() => {
+                          onclick={() => {
                             moniOpen = !moniOpen;
                           }}
                         >
@@ -255,7 +268,7 @@
                               ? "true"
                               : "false"}
                             id="monitoraggio-semplificato-ham"
-                            on:click={closeDrawer}
+                            onclick={closeDrawer}
                             class="list-item w-100 p-3"
                           >
                             <div class="it-left-zone">
@@ -275,7 +288,7 @@
                               ? "true"
                               : "false"}
                             id="monitoraggio-approfondito-ham"
-                            on:click={closeDrawer}
+                            onclick={closeDrawer}
                             class="list-item w-100 p-3"
                           >
                             <div class="it-left-zone">
@@ -287,12 +300,12 @@
                         </li>
                       {/if}
                       <li class="w-100 pointer">
-                        <!-- svelte-ignore a11y-invalid-attribute -->
+                        <!-- svelte-ignore a11y_invalid_attribute -->
                         <a
                           class="list-item w-100 p-3"
                           href="javascript:void(0)"
                           id="menu-errori-ham"
-                          on:click={() => {
+                          onclick={() => {
                             errOpen = !errOpen;
                           }}
                         >
@@ -316,7 +329,7 @@
                               ? "true"
                               : "false"}
                             id="errori-semplificato-ham"
-                            on:click={closeDrawer}
+                            onclick={closeDrawer}
                             class="list-item w-100 p-3"
                           >
                             <div class="it-left-zone">
@@ -335,7 +348,7 @@
                               ? "true"
                               : "false"}
                             id="errori-approfondito-ham"
-                            on:click={closeDrawer}
+                            onclick={closeDrawer}
                             class="list-item w-100 p-3"
                           >
                             <div class="it-left-zone">
@@ -347,12 +360,12 @@
                         </li>
                       {/if}
                       <li class="w-100 pointer">
-                        <!-- svelte-ignore a11y-invalid-attribute -->
+                        <!-- svelte-ignore a11y_invalid_attribute -->
                         <a
                           class="list-item w-100 p-3"
                           href="javascript:void(0)"
                           id="menu-dichiarazioni-ham"
-                          on:click={() => {
+                          onclick={() => {
                             dicOpen = !dicOpen;
                           }}
                         >
@@ -375,7 +388,7 @@
                               ? "true"
                               : "false"}
                             id="dichiarazioni-ham"
-                            on:click={closeDrawer}
+                            onclick={closeDrawer}
                             class="list-item w-100 p-3"
                           >
                             <div class="it-left-zone">
@@ -394,7 +407,7 @@
                               ? "true"
                               : "false"}
                             id="dichiarazioni-siti-ham"
-                            on:click={closeDrawer}
+                            onclick={closeDrawer}
                             class="list-item w-100 p-3"
                           >
                             <div class="it-left-zone">
@@ -413,7 +426,7 @@
                               ? "true"
                               : "false"}
                             id="dichiarazioni-app-ham"
-                            on:click={closeDrawer}
+                            onclick={closeDrawer}
                             class="list-item w-100 p-3"
                           >
                             <div class="it-left-zone">
@@ -424,9 +437,9 @@
                           </a>
                         </li>
                       {/if}
-                      <!-- svelte-ignore a11y-click-events-have-key-events -->
+                      <!-- svelte-ignore a11y_click_events_have_key_events -->
                       <li class="w-100 pointer">
-                        <!-- svelte-ignore a11y-missing-attribute -->
+                        <!-- svelte-ignore a11y_missing_attribute -->
                         <a
                           href="/obiettivi"
                           class:selected={selectedPage == "/obiettivi"}
@@ -434,7 +447,7 @@
                             ? "true"
                             : "false"}
                           id="obiettivi-ham"
-                          on:click={closeDrawer}
+                          onclick={closeDrawer}
                           class="list-item w-100 p-3"
                         >
                           <div class="it-left-zone">
@@ -445,12 +458,12 @@
                         </a>
                       </li>
                       <li class="w-100 pointer">
-                        <!-- svelte-ignore a11y-invalid-attribute -->
+                        <!-- svelte-ignore a11y_invalid_attribute -->
                         <a
                           class="list-item w-100 p-3"
                           href="javascript:void(0)"
                           id="menu-progetto-ham"
-                          on:click={() => {
+                          onclick={() => {
                             progOpen = !progOpen;
                           }}
                         >
@@ -466,7 +479,7 @@
                       </li>
                       {#if progOpen}
                         <li class="w-100 pointer">
-                          <!-- svelte-ignore a11y-missing-attribute -->
+                          <!-- svelte-ignore a11y_missing_attribute -->
                           <a
                             href="/progetto"
                             class:selected={selectedPage == "/progetto"}
@@ -474,7 +487,7 @@
                               ? "true"
                               : "false"}
                             id="progetto-ham"
-                            on:click={closeDrawer}
+                            onclick={closeDrawer}
                             class="list-item w-100 p-3"
                           >
                             <div class="it-left-zone">
@@ -492,7 +505,7 @@
                               ? "true"
                               : "false"}
                             id="cronologia-ham"
-                            on:click={closeDrawer}
+                            onclick={closeDrawer}
                             class="list-item w-100 p-3"
                           >
                             <div class="it-left-zone">
@@ -502,9 +515,9 @@
                             </div>
                           </a>
                         </li>
-                        <!-- svelte-ignore a11y-click-events-have-key-events -->
+                        <!-- svelte-ignore a11y_click_events_have_key_events -->
                         <li class="w-100 pointer">
-                          <!-- svelte-ignore a11y-missing-attribute -->
+                          <!-- svelte-ignore a11y_missing_attribute -->
                           <a
                             href="/opendata"
                             class:selected={selectedPage == "/opendata"}
@@ -512,7 +525,7 @@
                               ? "true"
                               : "false"}
                             id="opendata-ham"
-                            on:click={closeDrawer}
+                            onclick={closeDrawer}
                             class="list-item w-100 p-3"
                           >
                             <div class="it-left-zone">
@@ -597,7 +610,7 @@
                     id="close-ham"
                     class="btn p-2"
                     aria-label="Chiudi"
-                    on:click={closeDrawer}
+                    onclick={closeDrawer}
                     bind:this={lastElement}
                     ><Icon name="it it-close-big" variant="white" size="32px"
                     ></Icon></button
@@ -622,7 +635,7 @@
   </div>
 {/if}
 
-<style lang="scss">
+<style>
   .sticky-top {
     position: fixed;
     top: 0;

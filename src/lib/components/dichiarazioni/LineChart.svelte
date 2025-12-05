@@ -16,12 +16,12 @@
   let numDichiarazioniAnnoSITI;
   let numDichiarazioniAnnoAPP;
   let annoSpecifico;
-  let loading = true;
-  let responseTOTALE;
+  let loading = $state(true);
+  let responseTOTALE = $state([]);
   let responseSITI;
   let responseAPP;
 
-  let annoRiferimento;
+  let annoRiferimento = $state();
 
   const columns = [
     { field: "anno_dichiarazione", label: $t("dicLineChart.anno") },
@@ -165,60 +165,66 @@
   });
 </script>
 
-<h2 class="lead mb-4 ms-2">{$t("dicLineChart.halfTitle")}</h2>
+<div class="container">
+  <h2 class="lead">{$t("dicLineChart.halfTitle")}</h2>
 
-<div class="card-box mt-3 mt-lg-0 hide-mobile pt-3 px-3">
-  <div class="d-flex justify-content-between">
-    <h3 class="cardTitle pt-3 ps-2 ps-lg-3 d-inline-flex greyText">
-      {$t("dicLineChart.title")}
-    </h3>
-    <div class="pe-3 my-auto">
-      {#if !loading}
-        <CsvPdfButtons
-          rows={responseTOTALE}
-          {columns}
-          title={$t("dicLineChart.title")}
-          periodoMonitoraggio="{$t('layout.anno')}{annoRiferimento}"
-        />
-      {/if}
+  <div class="card-box customSpacing hide-mobile pt-3 px-3">
+    <div class="d-flex justify-content-between">
+      <h3 class="cardTitle col-lg-8 pt-3 ps-2 ps-lg-3 d-inline-flex greyText">
+        {$t("dicLineChart.title")}
+      </h3>
+      <div class="pe-3 my-auto">
+        {#if !loading}
+          <CsvPdfButtons
+            rows={responseTOTALE}
+            {columns}
+            title={$t("dicLineChart.title")}
+          />
+        {/if}
+      </div>
     </div>
+
+    <div class="col-lg-8">
+      <div class="px-2 px-xl-3">
+        <p class="periodoLabel mb-4">
+          {$t("layout.periodoMonitoraggio")}
+          <span class="periodoDate">
+            {$t("layout.anno")}{annoRiferimento}
+          </span>
+        </p>
+      </div>
+      <p class="mb-0 pb-3 px-2 px-xl-3">
+        {@html $t("dicLineChart.chartDescription", { break: "<br/>" })}
+      </p>
+    </div>
+
+    <figure class="highcharts-figure">
+      <div id="dichiarazioniTrendAnno" style="width:100%; height:400px;"></div>
+    </figure>
   </div>
 
-  <div class="px-2 px-xl-3">
-    <p class="periodoLabel mb-4">
-      {$t("layout.periodoMonitoraggio")}
-      <span class="periodoDate">
-        {$t("layout.anno")}{annoRiferimento}
-      </span>
-    </p>
-  </div>
-  <p class="mb-0 pb-3 px-2 px-xl-3">
-    {@html $t("dicLineChart.chartDescription", { break: "<br/>" })}
-  </p>
-  <figure class="highcharts-figure">
-    <div id="dichiarazioniTrendAnno" style="width:100%; height:400px;" />
-  </figure>
+  {#if !loading}
+    <div class="show-mobile">
+      <DataTable
+        rows={responseTOTALE}
+        {columns}
+        title={$t("dicLineChart.title")}
+        defaultSortBy="anno_dichiarazione"
+        descending={true}
+        didascalia={true}
+        periodoMonitoraggio="{$t('layout.anno')}{annoRiferimento}"
+      >
+        {#snippet didascaliaSlot()}
+          <div class="didascalia">
+            {@html $t("dicLineChart.tableDescription", { break: "<br/>" })}
+          </div>
+        {/snippet}
+      </DataTable>
+    </div>
+  {/if}
 </div>
 
-{#if !loading}
-  <div class="show-mobile">
-    <DataTable
-      rows={responseTOTALE}
-      {columns}
-      title={$t("dicLineChart.title")}
-      defaultSortBy="anno_dichiarazione"
-      descending={true}
-      didascalia={true}
-      periodoMonitoraggio="{$t('layout.anno')}{annoRiferimento}"
-    >
-      <div slot="didascaliaSlot" class="didascalia">
-        {@html $t("dicLineChart.tableDescription", { break: "<br/>" })}
-      </div>
-    </DataTable>
-  </div>
-{/if}
-
-<style lang="scss">
+<style>
   :global(.highcharts-credits) {
     display: none !important;
   }

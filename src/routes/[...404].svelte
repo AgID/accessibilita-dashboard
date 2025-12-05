@@ -10,8 +10,8 @@
   <h1 class="error-page-title">{$t("fallback.error")}</h1>
   <p class="lead mb-3">{$t("fallback.errorMessage")}</p>
   <p class="mb-5">
-    <!-- svelte-ignore a11y-invalid-attribute -->
     {$t("fallback.description")}, <br />
+    <!-- svelte-ignore a11y_invalid_attribute -->
     <a href="javascript:history.back();" title={$t("fallback.link")}
       >{$t("fallback.linkText")}</a
     >
@@ -27,7 +27,7 @@
   >
 </section>
 
-<style lang="scss">
+<style>
   .error-page-title {
     font-size: 11.2em;
     font-weight: 700;
@@ -49,9 +49,11 @@
 
   .a-button:hover {
     background: #004c99;
+    color: #fff;
   }
 
   .a-button:active {
     background: #003366;
+    color: #fff;
   }
 </style>

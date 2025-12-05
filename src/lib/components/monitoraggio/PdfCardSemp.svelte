@@ -5,12 +5,12 @@
   import { t } from "../../utils/i18n";
   import KpiThreeCard from "../KpiThreeCard.svelte";
 
-  let innerWidth;
-  let numPDF;
-  let numSiti;
-  let numPA;
-  let monitoraggioDateFormatted;
-  let criteriTotali;
+  let innerWidth = $state(0);
+  let numPDF = $state();
+  let numSiti = $state();
+  let numPA = $state();
+  let monitoraggioDateFormatted = $state();
+  let criteriTotali = $state();
   let responseJson;
 
   onMount(async () => {

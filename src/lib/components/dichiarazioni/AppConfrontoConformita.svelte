@@ -11,11 +11,11 @@
   HighchartsAccessibility(Highcharts);
   // ---HIGHCHARTS END---
 
-  let periodoMonitoraggio;
+  let periodoMonitoraggio = $state();
   let data;
-  let loading = true;
+  let loading = $state(true);
   let chartData = [];
-  let tableData = [];
+  let tableData = $state([]);
   let ordineConformita = ["Conforme", "Parzialmente conforme", "Non conforme"];
 
   const normalizeNumber = (value, locale) => {
@@ -122,7 +122,8 @@
       },
       tooltip: {
         formatter: function () {
-          return `<span style="color:${this.color}">\u25CF</span> ${this.series.name}<br/>${this.x}: <b>${this.point.display}%</b>`;
+          const pct = (this.point.options as any).display;
+          return `<span style="color:${this.color}">\u25CF</span> ${this.series.name}<br/>${this.x}: <b>${pct}%</b>`;
         },
       },
       plotOptions: {
@@ -160,9 +161,9 @@
   });
 </script>
 
-<div class="card-box mt-2 my-lg-5 hide-mobile pt-3 px-3">
+<div class="card-box customSpacing hide-mobile pt-3 px-3">
   <div class="d-flex justify-content-between">
-    <h2 class="cardTitle pt-3 ps-2 ps-lg-3 d-inline-flex greyText">
+    <h2 class="cardTitle col-lg-8 pt-3 ps-2 ps-lg-3 d-inline-flex greyText">
       {$t("dicAppConformita.title")}
     </h2>
     <div class="pe-3 my-auto">
@@ -171,7 +172,6 @@
           rows={tableData}
           {columns}
           title={$t("dicAppConformita.title")}
-          periodoMonitoraggio="{$t('layout.anno')}{periodoMonitoraggio}"
         />
       {/if}
     </div>
@@ -188,7 +188,7 @@
   {/if}
 
   <figure class="highcharts-figure">
-    <div id="androidVSios" style="width:100%; height:450px;" />
+    <div id="androidVSios" style="width:100%; height:450px;"></div>
   </figure>
 </div>
 
@@ -204,7 +204,7 @@
   </div>
 {/if}
 
-<style lang="scss">
+<style>
   :global(.highcharts-credits) {
     display: none !important;
   }

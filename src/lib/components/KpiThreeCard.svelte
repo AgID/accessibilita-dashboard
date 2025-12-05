@@ -1,18 +1,33 @@
 <script lang="ts">
   import { t } from "../utils/i18n";
-  export let periodoMonitoraggio: string = "";
-  export let firstImg: string = "";
-  export let firstLabel: string = "";
-  export let firstKpi: string = "";
-  export let secondImg: string = "";
-  export let secondLabel: string = "";
-  export let secondKpi: string = "";
-  export let thirdImg: string = "";
-  export let thirdLabel: string = "";
-  export let thirdKpi: string = "";
+  interface Props {
+    periodoMonitoraggio?: string;
+    firstImg?: string;
+    firstLabel?: string;
+    firstKpi?: string;
+    secondImg?: string;
+    secondLabel?: string;
+    secondKpi?: string;
+    thirdImg?: string;
+    thirdLabel?: string;
+    thirdKpi?: string;
+  }
+
+  let {
+    periodoMonitoraggio = "",
+    firstImg = "",
+    firstLabel = "",
+    firstKpi = "",
+    secondImg = "",
+    secondLabel = "",
+    secondKpi = "",
+    thirdImg = "",
+    thirdLabel = "",
+    thirdKpi = ""
+  }: Props = $props();
 </script>
 
-<div class="card-box mt-0 pt-5 pb-4">
+<div class="card-box m-0 pt-5 pb-4">
   <div class="px-3 ms-xl-3 me-xl-3">
     <p class="periodoLabel mb-4">
       {$t("layout.periodoMonitoraggio")}

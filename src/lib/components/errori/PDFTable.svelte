@@ -6,13 +6,19 @@
   import type { IconaErrori } from "../../../model/IconeErrori";
   import Icon from "../Icon.svelte";
 
-  let response;
-  let loading = true;
-  let pdfRef;
-  let innerWidth;
-  let columns;
-  let criteriTotali;
-  let slicedResp;
+  let response = $state({
+    intestazione: {
+      periodo_monitoraggio: "",
+      dat_ultimo_aggiornamento: "",
+    },
+    data: [],
+  });
+  let loading = $state(true);
+  let pdfRef = $state<HTMLElement>();
+  let innerWidth = $state(0);
+  let columns = $state([]);
+  let criteriTotali = $state();
+  let slicedResp = $state([]);
 
   let linksArray: Array<IconaErrori> = [
     {
@@ -544,8 +550,6 @@
     return response;
   });
 
-  $: innerWidth < 768 ? (columns = smallColumns) : (columns = bigColumns);
-
   const bigColumns = [
     {
       field: `criterio_di_successo_norm_e_${$locale}`,
@@ -574,10 +578,14 @@
       align: "right",
     },
   ];
+
+  $effect(() => {
+    innerWidth < 768 ? (columns = smallColumns) : (columns = bigColumns);
+  });
 </script>
 
 <svelte:window bind:innerWidth />
-<div bind:this={pdfRef} class="my-3">
+<div bind:this={pdfRef}>
   {#if !loading}
     <DataTable
       {columns}
@@ -587,26 +595,27 @@
       didascalia={true}
       defaultSortBy="perc_errori_su_tot_errori"
       periodoMonitoraggio={pm(response?.intestazione?.periodo_monitoraggio)}
-      tooltipClasses="mx-1"
     >
-      <div slot="didascaliaSlot" class="didascalia">
-        {@html $t("errPdfTable.description1", {
-          numero: criteriTotali,
-          break: "<br/>",
-        })}
-        <a
-          href="https://www.etsi.org/deliver/etsi_en/301500_301599/301549/03.02.01_60/en_301549v030201p.pdf"
-          title={$t("layout.externalLink")}
-          target="_blank"
-          rel="noreferrer"
-          >UNI EN 301 549<Icon
-            name="it it-external-link"
-            variant="primary"
-            size="sm"
-            customClass="ms-1 mb-1"
-          /></a
-        >{@html $t("errPdfTable.description2", { numero: criteriTotali })}
-      </div>
+      {#snippet didascaliaSlot()}
+        <div class="didascalia">
+          {@html $t("errPdfTable.description1", {
+            numero: criteriTotali,
+            break: "<br/>",
+          })}
+          <a
+            href="https://www.etsi.org/deliver/etsi_en/301500_301599/301549/03.02.01_60/en_301549v030201p.pdf"
+            title={$t("layout.externalLink")}
+            target="_blank"
+            rel="noreferrer"
+            >UNI EN 301 549<Icon
+              name="it it-external-link"
+              variant="primary"
+              size="sm"
+              customClass="ms-1 mb-1"
+            /></a
+          >{@html $t("errPdfTable.description2", { numero: criteriTotali })}
+        </div>
+      {/snippet}
     </DataTable>
   {/if}
 </div>

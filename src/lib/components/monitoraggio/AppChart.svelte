@@ -11,9 +11,15 @@
   HighchartsAccessibility(Highcharts);
   // ---HIGHCHARTS END---
 
-  let periodoMonitoraggio;
-  let response;
-  let loading = true;
+  let periodoMonitoraggio = $state(0);
+  let response = $state({
+    intestazione: {
+      anno_monitoraggio: 0,
+      dat_ultimo_aggiornamento: "",
+    },
+    data: [],
+  });
+  let loading = $state(true);
 
   const columns = [
     {
@@ -77,7 +83,8 @@
         headerFormat: "",
         pointFormat:
           '<span style="color:{point.color}">\u25CF</span> {point.name}<br/>' +
-          $t("moniAPPChart.label") + '<b>{point.y}</b>',
+          $t("moniAPPChart.label") +
+          "<b>{point.y}</b>",
       },
       series: [
         {
@@ -90,9 +97,9 @@
   });
 </script>
 
-<div class="card-box mt-2 mb-lg-5 hide-mobile pt-3 px-3">
+<div class="card-box customSpacing hide-mobile pt-3 px-3">
   <div class="d-flex justify-content-between">
-    <h3 class="cardTitle pt-3 ps-2 ps-lg-3 d-inline-flex greyText">
+    <h3 class="cardTitle col-lg-8 pt-3 ps-2 ps-lg-3 d-inline-flex greyText">
       {$t("moniAPPChart.title")}
     </h3>
     <div class="pe-3 my-auto">
@@ -101,12 +108,11 @@
           rows={response?.data}
           {columns}
           title={$t("moniAPPChart.title")}
-          periodoMonitoraggio="{$t('layout.anno')}{periodoMonitoraggio}"
         />
       {/if}
     </div>
   </div>
-  <div>
+  <div class="col-lg-8">
     {#if periodoMonitoraggio}
       <div class="d-inline-block px-2 px-xl-3">
         <p class="periodoLabel mb-4">
@@ -129,7 +135,7 @@
   </div>
 
   <figure class="highcharts-figure">
-    <div id="pieAppOSchart" style="width:100%; height:450px;" />
+    <div id="pieAppOSchart" style="width:100%; height:450px;"></div>
   </figure>
 </div>
 
@@ -143,20 +149,22 @@
       didascalia={true}
       periodoMonitoraggio="{$t('layout.anno')}{periodoMonitoraggio}"
     >
-      <div slot="didascaliaSlot" class="didascalia">
-        {$t("moniAPPChart.tableDescription")}
-        <br /><a
-          href="/errori-approfondito#app"
-          aria-label={$t("moniAPPChart.learnMore")}
-        >
-          {$t("moniAPPChart.learnMore")}
-        </a>
-      </div>
+      {#snippet didascaliaSlot()}
+        <div class="didascalia">
+          {$t("moniAPPChart.tableDescription")}
+          <br /><a
+            href="/errori-approfondito#app"
+            aria-label={$t("moniAPPChart.learnMore")}
+          >
+            {$t("moniAPPChart.learnMore")}
+          </a>
+        </div>
+      {/snippet}
     </DataTable>
   </div>
 {/if}
 
-<style lang="scss">
+<style>
   :global(.highcharts-credits) {
     display: none !important;
   }

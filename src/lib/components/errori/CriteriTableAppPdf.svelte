@@ -5,13 +5,19 @@
   import { t, locale } from "../../utils/i18n";
   import type { IconaErrori } from "../../../model/IconeErrori";
 
-  let response;
-  let loading = true;
-  let pdfRef;
-  let innerWidth;
-  let columns;
-  let slicedResp;
-  let dataPeriodo;
+  let response = $state({
+    intestazione: {
+      anno_monitoraggio: 0,
+      dat_ultimo_aggiornamento: "",
+    },
+    data: [],
+  });
+  let loading = $state(true);
+  let pdfRef = $state<HTMLElement>();
+  let innerWidth = $state(0);
+  let columns = $state([]);
+  let slicedResp = $state([]);
+  let dataPeriodo = $state();
 
   let linksArray: Array<IconaErrori> = [
     {
@@ -540,8 +546,6 @@
     return response;
   });
 
-  $: innerWidth < 768 ? (columns = smallColumns) : (columns = bigColumns);
-
   const bigColumns = [
     {
       field: `des_success_criteria_${$locale}`,
@@ -578,10 +582,14 @@
       align: "right",
     },
   ];
+
+  $effect(() => {
+    innerWidth < 768 ? (columns = smallColumns) : (columns = bigColumns);
+  });
 </script>
 
 <svelte:window bind:innerWidth />
-<div bind:this={pdfRef} class="my-3">
+<div bind:this={pdfRef}>
   {#if !loading}
     <DataTable
       {columns}
@@ -592,11 +600,12 @@
       defaultSortBy="num_perc_errori"
       searchingName={$t("erroriTableApp.titlePdfSearch")}
       periodoMonitoraggio="{$t('layout.anno')}{dataPeriodo}"
-      tooltipClasses="mx-1"
     >
-      <div slot="didascaliaSlot" class="didascalia">
-        {$t("erroriTableApp.descriptionPdf")}
-      </div>
+      {#snippet didascaliaSlot()}
+        <div class="didascalia">
+          {$t("erroriTableApp.descriptionPdf")}
+        </div>
+      {/snippet}
     </DataTable>
   {/if}
 </div>

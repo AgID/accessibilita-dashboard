@@ -5,7 +5,7 @@
   import { t } from "../../utils/i18n";
   import Icon from "../Icon.svelte";
 
-  let numDichiarazioniIstituzionali;
+  let numDichiarazioniIstituzionali = $state();
   let date;
   let formattedDate;
 

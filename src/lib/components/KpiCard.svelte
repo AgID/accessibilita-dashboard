@@ -1,24 +1,36 @@
 <script lang="ts">
-  import type { TooltipData } from "../../model/TooltipData";
   import Icon from "./Icon.svelte";
-  import Tooltip from "./Tooltip.svelte";
   import { t } from "../utils/i18n";
 
-  export let title: string;
-  export let caption: string = "";
-  export let periodoMonitoraggio = "";
-  export let kpi: string;
-  export let imgLink: string = "";
-  export let linkText: string = "";
-  export let href: string = "";
-  export let height: string = "";
-  export let customStyle: string = "";
-  export let tooltipData: TooltipData = null;
-  export let cardWithIcon: boolean = false;
-  export let iconName: string = "";
-  export let iconSize: string = "";
+  interface Props {
+    title: string;
+    periodoMonitoraggio?: string;
+    kpi: string;
+    imgLink?: string;
+    linkText?: string;
+    href?: string;
+    height?: string;
+    customStyle?: string;
+    cardWithIcon?: boolean;
+    iconName?: string;
+    iconSize?: string;
+  }
 
-  $: mainHeight = height ? `height:${height};` : "";
+  let {
+    title,
+    periodoMonitoraggio = "",
+    kpi,
+    imgLink = "",
+    linkText = "",
+    href = "",
+    height = "",
+    customStyle = "",
+    cardWithIcon = false,
+    iconName = "",
+    iconSize = ""
+  }: Props = $props();
+
+  let mainHeight = $derived(height ? `height:${height};` : "");
 </script>
 
 <div class="card-box mt-0" style={`${mainHeight}; ${customStyle}`}>
@@ -39,9 +51,6 @@
         <div class="col-9 ps-md-0 pe-md-3 ps-lg-1">
           <p class="display4 pe-md-4">
             {title}
-            {#if tooltipData?.id}
-              <Tooltip id={tooltipData.id} tooltip={tooltipData.content} />
-            {/if}
           </p>
           <div class="cardMainData py-1" style="color: #0066cc">{kpi}</div>
         </div>
@@ -61,9 +70,6 @@
     {:else}
       <div class="display4 pb-2 d-inline-flex">
         {title}
-        {#if tooltipData?.id}
-          <Tooltip id={tooltipData.id} tooltip={tooltipData.content} />
-        {/if}
       </div>
       {#if periodoMonitoraggio}
         <div class="periodoLabel p-0 m-0">
@@ -88,7 +94,7 @@
   {/if}
 </div>
 
-<style lang="scss">
+<style>
   .vertical-align {
     padding-top: 1.2em;
   }

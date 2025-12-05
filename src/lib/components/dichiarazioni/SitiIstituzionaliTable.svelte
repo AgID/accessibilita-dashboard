@@ -4,8 +4,14 @@
   import DataTable from "../DataTable.svelte";
   import { t } from "../../utils/i18n";
 
-  let response;
-  let loading = true;
+  let response = $state({
+    intestazione: {
+      anno_dichiarazione: 0,
+      dat_ult_agg_dichiarazione: "",
+    },
+    data: [],
+  });
+  let loading = $state(true);
   const columns = [
     {
       field: "des_regione",
@@ -33,7 +39,7 @@
     },
   ];
 
-  let annoRiferimento;
+  let annoRiferimento = $state(0);
 
   onMount(async () => {
     const rs = await fetch("/data/dichiarazione_istituzionali_regione.json");
@@ -52,11 +58,13 @@
     periodoMonitoraggio="{$t('layout.anno')}{annoRiferimento}"
     didascalia={true}
   >
-    <div slot="didascaliaSlot" class="didascalia">
-      {@html $t("dicIstTable.description", {
-        anno: annoRiferimento,
-        break: "<br/>",
-      })}
-    </div>
+    {#snippet didascaliaSlot()}
+      <div class="didascalia">
+        {@html $t("dicIstTable.description", {
+          anno: annoRiferimento,
+          break: "<br/>",
+        })}
+      </div>
+    {/snippet}
   </DataTable>
 {/if}

@@ -13,9 +13,16 @@
 
   let numObiettivi;
   let annoSpecifico;
-  let loading = true;
-  let response;
-  let dataRiferimento;
+  let loading = $state(true);
+  let response = $state({
+    intestazione: {
+      anno_obiettivi: 0,
+      aggior_ultimo_trimestre: "",
+      dat_ult_agg_obiettivi: "",
+    },
+    data: [],
+  });
+  let dataRiferimento = $state("");
 
   const columns = [
     { field: "cod_anno", label: $t("obiLineChart.anno") },
@@ -104,9 +111,9 @@
   });
 </script>
 
-<div class="card-box mt-3 mt-lg-0 hide-mobile pt-3 px-3">
+<div class="card-box customSpacing hide-mobile pt-3 px-3">
   <div class="d-flex justify-content-between">
-    <h3 class="cardTitle pt-3 ps-2 ps-lg-3 d-inline-flex greyText">
+    <h3 class="cardTitle col-lg-8 pt-3 ps-2 ps-lg-3 d-inline-flex greyText">
       {$t("obiLineChart.title")}
     </h3>
     <div class="pe-3 my-auto">
@@ -115,26 +122,27 @@
           rows={response?.data}
           {columns}
           title={$t("obiLineChart.title")}
-          periodoMonitoraggio={dataRiferimento}
         />
       {/if}
     </div>
   </div>
-  <div class="px-2 px-xl-3">
-    <p class="periodoLabel mb-4">
-      {$t("layout.periodoMonitoraggio")}
-      <span class="periodoDate">
-        {dataRiferimento}
-      </span>
+  <div class="col-lg-8">
+    <div class="px-2 px-xl-3">
+      <p class="periodoLabel mb-4">
+        {$t("layout.periodoMonitoraggio")}
+        <span class="periodoDate">
+          {dataRiferimento}
+        </span>
+      </p>
+    </div>
+
+    <p class="mb-0 pb-3 px-2 px-xl-3">
+      {$t("obiLineChart.descriptionChart")}
     </p>
   </div>
 
-  <p class="mb-0 pb-3 px-2 px-xl-3">
-    {$t("obiLineChart.descriptionChart")}
-  </p>
-
   <figure class="highcharts-figure">
-    <div id="obiettiviTrendAnno" style="width:100%; height:250px;" />
+    <div id="obiettiviTrendAnno" style="width:100%; height:250px;"></div>
   </figure>
 </div>
 
@@ -149,14 +157,16 @@
       didascalia={true}
       periodoMonitoraggio={dataRiferimento}
     >
-      <div slot="didascaliaSlot" class="didascalia">
-        {$t("obiLineChart.descriptionTable")}
-      </div>
+      {#snippet didascaliaSlot()}
+        <div class="didascalia">
+          {$t("obiLineChart.descriptionTable")}
+        </div>
+      {/snippet}
     </DataTable>
   </div>
 {/if}
 
-<style lang="scss">
+<style>
   :global(.highcharts-credits) {
     display: none !important;
   }

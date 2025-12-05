@@ -1,12 +1,22 @@
-<svelte:options accessors />
+<svelte:options />
 
 <script lang="ts">
-  export let columns: any[];
-  export let rows: any[];
-  export let title: string = "";
-  export let downloadFilename: string = "";
-  export let searchingName: string = "";
   import { t } from "../utils/i18n";
+  interface Props {
+    columns: any[];
+    rows: any[];
+    title?: string;
+    downloadFilename?: string;
+    searchingName?: string;
+  }
+
+  let {
+    columns,
+    rows,
+    title = "",
+    downloadFilename = "",
+    searchingName = "",
+  }: Props = $props();
 
   function jsonToCSV() {
     const items = rows;
@@ -21,8 +31,8 @@
               col.formatDownload
                 ? col.formatDownload(row[col.field])
                 : col.format
-                ? col.format(row[col.field])
-                : row[col.field],
+                  ? col.format(row[col.field])
+                  : row[col.field],
               replacer
             )
           )
@@ -49,16 +59,18 @@
     pdf.download = `${downloadFilename ? downloadFilename : title}.pdf`;
     pdf.click();
   }
+
+  export { columns, rows, title, downloadFilename, searchingName };
 </script>
 
 <div class="d-flex justify-content-end">
-  <div style="border-bottom-width: 0 !important" colspan={columns.length}>
+  <div style="border-bottom-width: 0 !important">
     <div class="text-end download-text hover fw-normal">
       <button
         class="ms-2 download-buttons"
-        on:click={downloadCSV}
+        onclick={downloadCSV}
         aria-hidden="false"
-        title={$t("download.general")}{`${title}.csv`}
+        title="{$t('download.general')}{`${title}.csv`}"
       >
         CSV
         <img
@@ -69,9 +81,9 @@
       </button>
       <button
         class="ms-2 download-buttons"
-        on:click={downloadPDF}
+        onclick={downloadPDF}
         aria-hidden="false"
-        title={$t("download.general")}{`${title}.pdf`}
+        title="{$t('download.general')}{`${title}.pdf`}"
       >
         PDF
         <img

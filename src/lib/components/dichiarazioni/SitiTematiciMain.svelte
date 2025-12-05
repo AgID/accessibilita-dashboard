@@ -4,8 +4,8 @@
   import { dp, df, nf } from "../../utils";
   import { t } from "../../utils/i18n";
 
-  let numDichiarazioniTematici;
-  let annoRiferimento;
+  let numDichiarazioniTematici = $state();
+  let annoRiferimento = $state();
 
   onMount(async () => {
     const rs = await fetch("/data/dichiarazione_tematici_intestazione.json");
@@ -19,7 +19,7 @@
 
 <div class="my-5">
   <h2 class="lead pt-5">{$t("dicTemaMain.title")}</h2>
-  <div class="row py-3">
+  <div class="row">
     <div class="col-12 col-lg-7">
       <p class="pe-lg-4">
         {@html $t("dicTemaMain.description", { break: "<br/>" })}

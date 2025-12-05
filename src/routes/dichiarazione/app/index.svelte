@@ -7,7 +7,6 @@
   import AppTable from "../../../lib/components/dichiarazioni/AppTable.svelte";
 
   import { t } from "../../../lib/utils/i18n";
-
 </script>
 
 <svelte:head>
@@ -23,32 +22,21 @@
   >
     <div class="col-12">
       <APPLineChart />
-      <ConfrontoAppChart/>
+      <ConfrontoAppChart />
     </div>
   </div>
 
   <APPAutovalutazioni />
 
-
-  <div
-    class="container"
-    style="padding-left: 0 !important; padding-right: 0 !important;"
-  >
- 
-   <AppConformita/>
+  <div class="container">
+    <AppConformita />
     <AppTable />
   </div>
 
-
-  <div
-    class="container mb-5"
-    style="padding-left: 0 !important; padding-right: 0 !important;"
-  >
-
-  </div>
+  <div class="container mb-5"></div>
 </section>
 
-<style lang="scss">
+<style>
   section {
     margin-top: 1.3em;
   }

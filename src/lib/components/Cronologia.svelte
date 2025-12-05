@@ -5,7 +5,7 @@
   import Breadcrumb from "./Breadcrumb.svelte";
   import BannerPageUpdated from "./BannerPageUpdated.svelte";
 
-  let rs;
+  let rs = $state();
 
   onMount(async () => {
     const response = await fetch("/data/release.json");

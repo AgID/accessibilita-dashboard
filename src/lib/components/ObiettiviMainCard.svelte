@@ -7,9 +7,9 @@
   import Breadcrumb from "./Breadcrumb.svelte";
   import BannerPageUpdated from "./BannerPageUpdated.svelte";
 
-  let numObiettivi;
-  let anno;
-  let periodoMonitoraggio;
+  let numObiettivi = $state(0);
+  let anno = $state(0);
+  let periodoMonitoraggio = $state("");
 
   onMount(async () => {
     const rs = await fetch("/data/obiettivi_intestazione.json");
@@ -32,16 +32,16 @@
       <h1 class="lead mx-3">{$t("obiMainCard.title")}</h1>
     </div>
   </div>
-  <div class="d-none d-xl-flex col-xl-6" />
+  <div class="d-none d-xl-flex col-xl-6"></div>
 </div>
 
-<div class="d-flex flex-wrap justify-content-between mt-0 pb-4">
+<div class="d-flex flex-wrap justify-content-between mt-0">
   <div class="col-12 col-lg-7 flex-wrap">
     <h2 class="h3">
       {$t("obiMainCard.subtitle")}
     </h2>
 
-    <div class="d-flex inline mb-1 pt-4" />
+    <div class="d-flex inline mb-1 pt-4"></div>
     <p>
       {$t("obiMainCard.paragraph1")}
       <a

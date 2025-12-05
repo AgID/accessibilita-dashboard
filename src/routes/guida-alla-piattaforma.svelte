@@ -4,8 +4,7 @@
   import Icon from "../lib/components/Icon.svelte";
   import { t } from "../lib/utils/i18n";
 
-  let activeTab = 1;
-  $: activeTab;
+  let activeTab = $state(1);
 </script>
 
 <svelte:head>
@@ -33,64 +32,43 @@
           <p class="darkText mb-0 ps-4 py-3">{$t("guida.legend")}</p>
           <div
             class="nav nav-tabs nav-tabs-vertical"
-            id="nav-vertical-tab"
-            role="tablist"
             aria-orientation="vertical"
           >
-            <a
+            <button
               class="nav-link {activeTab === 1 ? 'active' : ''}"
-              id="nav-vertical-tab1-tab"
-              on:click={() => (activeTab = 1)}
-              data-bs-toggle="tab"
-              href="#nav-vertical-tab1"
-              role="tab"
-              aria-controls="nav-vertical-tab1"
-              aria-selected={activeTab === 1 ? "true" : "false"}
+              onclick={() => (activeTab = 1)}
             >
               {$t("guida.subtitle1")}
-            </a>
-            <a
+            </button>
+            <button
               class="nav-link {activeTab === 2 ? 'active' : ''}"
-              id="nav-vertical-tab2-tab"
-              on:click={() => (activeTab = 2)}
-              data-bs-toggle="tab"
-              href="#nav-vertical-tab2"
-              role="tab"
-              aria-controls="nav-vertical-tab2"
-              aria-selected={activeTab === 2 ? "true" : "false"}
+              onclick={() => (activeTab = 2)}
             >
               {$t("guida.subtitle2")}
-            </a>
-            <a
+            </button>
+            <button
               class="nav-link {activeTab === 3 ? 'active' : ''}"
-              id="nav-vertical-tab3-tab"
-              on:click={() => (activeTab = 3)}
-              data-bs-toggle="tab"
-              href="#nav-vertical-tab3"
-              role="tab"
-              aria-controls="nav-vertical-tab3"
-              aria-selected={activeTab === 3 ? "true" : "false"}
+              onclick={() => (activeTab = 3)}
             >
               {$t("guida.subtitle3")}
-            </a>
-            <a
+            </button>
+            <button
               class="nav-link {activeTab === 4 ? 'active' : ''}"
-              id="nav-vertical-tab4-tab"
-              on:click={() => (activeTab = 4)}
-              data-bs-toggle="tab"
-              href="#nav-vertical-tab4"
-              role="tab"
-              aria-controls="nav-vertical-tab4"
-              aria-selected={activeTab === 4 ? "true" : "false"}
+              onclick={() => (activeTab = 4)}
             >
               {$t("guida.subtitle4")}
-            </a>
+            </button>
           </div>
         </div>
 
         <div class="d-lg-none select-wrapper form-group mb-4">
           <label class="visually-hidden" for="faq">{$t("guida.title")}</label>
-          <select bind:value={activeTab} id="faq" class="text16600">
+          <select
+            bind:value={activeTab}
+            id="faq"
+            autocomplete="off"
+            class="text16600"
+          >
             <option value={1}>{$t("guida.subtitle1")}</option>
             <option value={2}>{$t("guida.subtitle2")}</option>
             <option value={3}>{$t("guida.subtitle3")}</option>
@@ -99,12 +77,10 @@
         </div>
 
         <div class="col-12 col-lg-8 col-xl-9 borderLeft">
-          <div class="tab-content" id="nav-vertical-tabContent">
+          <div class="tab-content">
             <div
               class="tab-pane fade {activeTab === 1 ? 'show active' : ''}"
-              id="nav-vertical-tab1"
               role="tabpanel"
-              aria-labelledby="nav-vertical-tab1-tab"
             >
               <h2 class="sub-h2">{$t("guida.subtitle1")}</h2>
               <p>
@@ -128,15 +104,13 @@
                 <a href="/progetto">{$t("guida.link2Text")}</a>
                 {$t("guida.paragraph1d")}
               </p>
-              <button class="invisibleBtn" on:click={() => (activeTab = 2)}>
+              <button class="invisibleBtn" onclick={() => (activeTab = 2)}>
                 {$t("guida.next")}{$t("guida.subtitle2")}
               </button>
             </div>
             <div
               class="tab-pane fade {activeTab === 2 ? 'show active' : ''}"
-              id="nav-vertical-tab2"
               role="tabpanel"
-              aria-labelledby="nav-vertical-tab2-tab"
             >
               <h2 class="sub-h2">{$t("guida.subtitle2")}</h2>
               <p>{$t("guida.paragraph2a")}</p>
@@ -362,15 +336,13 @@
                 </ul>
               </div>
 
-              <button class="invisibleBtn" on:click={() => (activeTab = 3)}>
+              <button class="invisibleBtn" onclick={() => (activeTab = 3)}>
                 {$t("guida.next")}{$t("guida.subtitle3")}
               </button>
             </div>
             <div
               class="tab-pane fade {activeTab === 3 ? 'show active' : ''}"
-              id="nav-vertical-tab3"
               role="tabpanel"
-              aria-labelledby="nav-vertical-tab3-tab"
             >
               <h2 class="sub-h2">{$t("guida.subtitle3")}</h2>
               <div>
@@ -448,15 +420,13 @@
                 </ul>
               </div>
 
-              <button class="invisibleBtn" on:click={() => (activeTab = 4)}>
+              <button class="invisibleBtn" onclick={() => (activeTab = 4)}>
                 {$t("guida.next")}{$t("guida.subtitle4")}
               </button>
             </div>
             <div
               class="tab-pane fade {activeTab === 4 ? 'show active' : ''}"
-              id="nav-vertical-tab4"
               role="tabpanel"
-              aria-labelledby="nav-vertical-tab4-tab"
             >
               <h2 class="sub-h2">{$t("guida.subtitle4")}</h2>
               <h3 class="sub-h3">{$t("guida.navigazione.subtitle5")}</h3>
@@ -668,5 +638,10 @@
     border-left-width: 2px !important;
     color: #003366 !important;
     border-right-color: unset !important;
+  }
+
+  :global(button.nav-link[data-focus-mouse="true"]:focus:not(:focus-visible)) {
+    box-shadow: none !important;
+    border-bottom-color: #06c !important;
   }
 </style>

@@ -6,14 +6,19 @@
   import type { IconaErrori } from "../../../model/IconeErrori";
   import { locale, t } from "../../utils/i18n";
 
-  let response;
-  let innerWidth;
-  let columns = [];
-  let loading = true;
-  let slicedResp;
-  let dataPeriodo;
+  let response = $state({
+    intestazione: {
+      anno_monitoraggio: 0,
+      dat_ultimo_aggiornamento: "",
+    },
+    data: [],
+  });
+  let innerWidth = $state(0);
+  let columns = $state([]);
+  let loading = $state(true);
+  let slicedResp = $state([]);
+  let dataPeriodo = $state(0);
 
-  $: innerWidth < 768 ? (columns = smallColumns) : (columns = bigColumns);
   const bigColumns = [
     {
       field: `des_success_criteria_${$locale}`,
@@ -571,6 +576,9 @@
 
     return response;
   });
+  $effect(() => {
+    innerWidth < 768 ? (columns = smallColumns) : (columns = bigColumns);
+  });
 </script>
 
 <svelte:window bind:innerWidth />
@@ -584,21 +592,23 @@
     title={$t("erroriTableApp.titleSiti")}
     didascalia={true}
   >
-    <div slot="didascaliaSlot" class="didascalia">
-      {@html $t("erroriTableApp.descrSiti", { break: "<br/>" })}
-      <a
-        title={$t("layout.externalLink")}
-        target="_blank"
-        rel="noreferrer"
-        href={$t("erroriTableApp.WCAGlink")}
-        >{$t("erroriTableApp.linkText")}<Icon
-          name="it it-external-link"
-          variant="primary"
-          size="sm"
-          customClass="ms-1 mb-1"
-        /></a
-      >
-      {@html $t("erroriTableApp.description", { break: "<br/>" })}
-    </div>
+    {#snippet didascaliaSlot()}
+      <div class="didascalia">
+        {@html $t("erroriTableApp.descrSiti", { break: "<br/>" })}
+        <a
+          title={$t("layout.externalLink")}
+          target="_blank"
+          rel="noreferrer"
+          href={$t("erroriTableApp.WCAGlink")}
+          >{$t("erroriTableApp.linkText")}<Icon
+            name="it it-external-link"
+            variant="primary"
+            size="sm"
+            customClass="ms-1 mb-1"
+          /></a
+        >
+        {@html $t("erroriTableApp.description", { break: "<br/>" })}
+      </div>
+    {/snippet}
   </DataTable>
 {/if}

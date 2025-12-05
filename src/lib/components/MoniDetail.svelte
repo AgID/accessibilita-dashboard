@@ -1,360 +1,236 @@
-<script>
+<script lang="ts">
+  import { onMount } from "svelte";
   import { nf } from "../utils";
   import { t } from "../utils/i18n";
 
-  export let activeTab;
-  export let rows = [];
-
-  const quarters = [1, 2, 3, 4];
-  function hasQuarter(items, qNum) {
-    return items.some(
-      (r) =>
-        typeof r.periodo_monitoraggio === "string" &&
-        r.periodo_monitoraggio.startsWith(`Q${qNum}-`)
-    );
+  interface Props {
+    activeTab: any;
+    id: any;
+    lastPeriod?: string;
+    rows?: any;
   }
 
-  function quarterValue(items, qNum, field) {
-    const rec = items.find(
-      (r) =>
-        typeof r.periodo_monitoraggio === "string" &&
-        r.periodo_monitoraggio.startsWith(`Q${qNum}-`)
-    );
-    return rec ? nf(rec[field]) : 0;
+  let {
+    activeTab = $bindable(""),
+    id,
+    lastPeriod = $bindable(""),
+    rows = [],
+  }: Props = $props();
+
+  let lastYear = $state();
+  let lastQuarter = $state();
+
+  onMount(async () => {
+    const rs = await fetch("/data/monitoraggio_trend_trimestre.json");
+    const resp = await rs.json();
+    let data = resp?.data;
+    lastPeriod = data[data.length - 1].data_monitoraggio;
+    lastQuarter = getQuarter(lastPeriod);
+    lastYear = lastPeriod.slice(0, 4);
+  });
+
+  function getQuarter(dateStr) {
+    const month = Number(dateStr.substring(5, 7));
+    if (month <= 3) return "1°";
+    if (month <= 6) return "2°";
+    if (month <= 9) return "3°";
+    return "4°";
   }
 
   function yearSum(items, field) {
     return nf(items.reduce((sum, row) => sum + row[field], 0));
   }
 
-  let byYear = {};
-  let totaleSiti = 0,
-    totalePagine = 0,
-    totalePdf = 0,
-    totaleApp = 0;
+  let byYear = $state({});
+  let totaleSiti = $state(0),
+    totalePagine = $state(0),
+    totalePdf = $state(0),
+    totaleApp = $state(0);
 
-  $: {
-    byYear = {};
-    totaleSiti = totalePagine = totalePdf = totaleApp = 0;
+  function calc(rows, tab) {
+    const byYear = {};
+    let siti = 0,
+      pagine = 0,
+      pdf = 0,
+      app = 0;
 
-    rows.forEach((r) => {
+    for (const r of rows) {
       const year =
-        activeTab === "tab1"
+        tab === "tab1"
           ? new Date(r.data_monitoraggio).getFullYear()
           : r.anno_monitoraggio;
 
-      if (!byYear[year]) byYear[year] = [];
-      byYear[year].push(r);
+      (byYear[year] ||= []).push(r);
 
-      totaleSiti += r.num_siti_monitorati;
-      totalePagine += r.num_pagine_web_monitorate;
-      totalePdf += r.num_pdf_monitorati;
-      if (activeTab === "tab2") totaleApp += r.num_app_monitorate;
-    });
+      siti += r.num_siti_monitorati;
+      pagine += r.num_pagine_web_monitorate;
+      pdf += r.num_pdf_monitorati;
+      if (tab === "tab2") app += r.num_app_monitorate;
+    }
+
+    return { byYear, siti, pagine, pdf, app };
   }
+
+  $effect(() => {
+    const inputRows = rows;
+    const tab = activeTab;
+    const result = calc(inputRows, tab);
+
+    byYear = result.byYear;
+    totaleSiti = result.siti;
+    totalePagine = result.pagine;
+    totalePdf = result.pdf;
+    totaleApp = result.app;
+  });
 </script>
 
-<div class="accordion" id="collapseExample">
+<div class="accordion">
   <!-- SITI -->
   <div class="accordion-item">
-    <h2 class="accordion-header" id="headSiti">
+    <h2 class="accordion-header" id="{id}headSiti">
       <button
-        class="accordion-button d-block d-lg-flex collapsed"
+        class="accordion-button collapsed d-flex align-items-center w-100"
         type="button"
         data-bs-toggle="collapse"
-        data-bs-target="#collapseSiti"
-        aria-expanded="false"
-        aria-controls="collapseSiti"
+        data-bs-target="#{id}collapseSiti"
+        aria-controls="{id}collapseSiti"
       >
-        <span class="d-flex d-lg-inline mb-3 mb-lg-0">
-          <span class="pe-3 pe-lg-0">
-            <span class="oggettoValutazione">{$t("moniDettaglio.siti")}</span>
-            <span class="periodoValutazione">{$t("moniDettaglio.totale")}</span>
-          </span>
-          <span class="totaleValutazione ms-auto ms-lg-4">{nf(totaleSiti)}</span
-          >
+        <span class="fixedWidth text-start oggettoValutazione"
+          >{$t("moniDettaglio.siti")}
         </span>
-        <span class="ms-auto dettaglioText">{$t("moniDettaglio.dettAnno")}</span
+        <span class="value text-end totaleValutazione">{nf(totaleSiti)}</span>
+        <span class="ms-auto" title={$t("moniDettaglio.dettSiti")}
+          >{$t("moniDettaglio.dettaglio")}</span
         >
       </button>
     </h2>
     <div
-      id="collapseSiti"
+      id="{id}collapseSiti"
       class="accordion-collapse collapse"
       role="region"
-      aria-labelledby="headSiti"
+      aria-labelledby="{id}headSiti"
     >
       <div class="accordion-body">
-        {#if activeTab === "tab1"}
+        <div class="row mx-0">
           {#each Object.entries(byYear) as [year, items]}
-            <div class="accordion-item accordionBorders">
-              <h2 class="accordion-header" id="headingAnnoSiti-{year}">
-                <button
-                  class="accordion-button d-block d-lg-flex px-3 collapsed"
-                  type="button"
-                  data-bs-toggle="collapse"
-                  data-bs-target="#collapseAnnoSiti-{year}"
-                  aria-expanded="false"
-                  aria-controls="collapseAnnoSiti-{year}"
-                >
-                  <span
-                    class="d-flex justify-content-between d-lg-inline mb-3 mb-lg-0"
-                  >
-                    <span class="blueItaText"
-                      >{$t("moniDettaglio.anno")} {year}</span
-                    >
-                    <span class="totAnnoText"
-                      >{yearSum(items, "num_siti_monitorati")}</span
-                    >
-                  </span>
-                  <span class="ms-auto dettaglioText"
-                    >{$t("moniDettaglio.dettTrimestre")}</span
-                  >
-                </button>
-              </h2>
-              <div
-                id="collapseAnnoSiti-{year}"
-                class="accordion-collapse collapse"
-                role="region"
-                aria-labelledby="headingAnnoSiti-{year}"
-              >
-                <div class="accordion-body">
-                  <div class="d-lg-flex mx-0 gap-4">
-                    {#each quarters as qNum}
-                      {#if hasQuarter(items, qNum)}
-                        <div class="blueBox mb-4 mb-lg-0">
-                          <p class="mb-3" style="font-size:16px;">
-                            {@html $t(`moniDettaglio.trimestre${qNum}`)}
-                          </p>
-                          <p class="pb-3 mb-0 fw-bold">
-                            {quarterValue(items, qNum, "num_siti_monitorati")}
-                          </p>
-                        </div>
-                      {/if}
-                    {/each}
-                  </div>
-                </div>
-              </div>
-            </div>
-          {/each}
-        {:else}
-          <div>
-            {#each Object.entries(byYear) as [year, items]}
-              <p class="mb-0 fakeTable">
-                <span class="oggettoValutazione"
-                  >{$t("moniDettaglio.anno")} {year}</span
-                >
-                <span class="totaleValutazione"
+            <div
+              class="col-12 col-md-6 {id === 'a-'
+                ? 'col-lg-3'
+                : 'col-lg-4'} px-0"
+            >
+              <p class="mb-lg-0">
+                {$t("moniDettaglio.anno")}
+                {year}
+                {#if activeTab === "tab1" && year === lastYear}
+                  ({lastQuarter} {$t("moniDettaglio.quarter")})
+                {/if}:
+                <span class="fw-semibold blueText"
                   >{yearSum(items, "num_siti_monitorati")}</span
                 >
               </p>
-            {/each}
-          </div>
-        {/if}
+            </div>
+          {/each}
+        </div>
       </div>
     </div>
   </div>
 
   <!-- PAGINE -->
   <div class="accordion-item">
-    <h2 class="accordion-header" id="headingPag">
+    <h2 class="accordion-header" id="{id}headingPag">
       <button
-        class="accordion-button d-block d-lg-flex collapsed"
+        class="accordion-button collapsed d-flex align-items-center w-100"
         type="button"
         data-bs-toggle="collapse"
-        data-bs-target="#collapsePag"
-        aria-expanded="false"
-        aria-controls="collapsePag"
+        data-bs-target="#{id}collapsePag"
+        aria-controls="{id}collapsePag"
       >
-        <span class="d-flex d-lg-inline mb-3 mb-lg-0">
-          <span class="pe-3 pe-lg-0">
-            <span class="oggettoValutazione">{$t("moniDettaglio.pagine")}</span>
-            <span class="periodoValutazione">{$t("moniDettaglio.totale")}</span>
-          </span>
-          <span class="totaleValutazione ms-auto ms-lg-4"
-            >{nf(totalePagine)}</span
-          >
+        <span class="fixedWidth text-start oggettoValutazione"
+          >{$t("moniDettaglio.pagine")}
         </span>
-        <span class="ms-auto dettaglioText">{$t("moniDettaglio.dettAnno")}</span
+        <span class="value text-end totaleValutazione">{nf(totalePagine)}</span>
+        <span class="ms-auto" title={$t("moniDettaglio.dettPag")}
+          >{$t("moniDettaglio.dettaglio")}</span
         >
       </button>
     </h2>
     <div
-      id="collapsePag"
+      id="{id}collapsePag"
       class="accordion-collapse collapse"
       role="region"
-      aria-labelledby="headingPag"
+      aria-labelledby="{id}headingPag"
     >
       <div class="accordion-body">
-        {#if activeTab === "tab1"}
+        <div class="row mx-0">
           {#each Object.entries(byYear) as [year, items]}
-            <div class="accordion-item accordionBorders">
-              <h2 class="accordion-header" id="headingAnnoPag-{year}">
-                <button
-                  class="accordion-button d-block d-lg-flex px-3 collapsed"
-                  type="button"
-                  data-bs-toggle="collapse"
-                  data-bs-target="#collapseAnnoPag-{year}"
-                  aria-expanded="false"
-                  aria-controls="collapseAnnoPag-{year}"
-                >
-                  <span
-                    class="d-flex justify-content-between d-lg-inline mb-3 mb-lg-0"
-                  >
-                    <span class="blueItaText"
-                      >{$t("moniDettaglio.anno")} {year}</span
-                    >
-                    <span class="totAnnoText"
-                      >{yearSum(items, "num_pagine_web_monitorate")}</span
-                    >
-                  </span>
-                  <span class="ms-auto dettaglioText"
-                    >{$t("moniDettaglio.dettTrimestre")}</span
-                  >
-                </button>
-              </h2>
-              <div
-                id="collapseAnnoPag-{year}"
-                class="accordion-collapse collapse"
-                role="region"
-                aria-labelledby="headingAnnoPag-{year}"
-              >
-                <div class="accordion-body">
-                  <div class="d-lg-flex mx-0 gap-4">
-                    {#each quarters as qNum}
-                      {#if hasQuarter(items, qNum)}
-                        <div class="blueBox mb-4 mb-lg-0">
-                          <p class="mb-3" style="font-size:16px;">
-                            {@html $t(`moniDettaglio.trimestre${qNum}`)}
-                          </p>
-                          <p class="pb-3 mb-0 fw-bold">
-                            {quarterValue(
-                              items,
-                              qNum,
-                              "num_pagine_web_monitorate"
-                            )}
-                          </p>
-                        </div>
-                      {/if}
-                    {/each}
-                  </div>
-                </div>
-              </div>
-            </div>
-          {/each}
-        {:else}
-          <div>
-            {#each Object.entries(byYear) as [year, items]}
-              <p class="mb-0 fakeTable">
-                <span class="oggettoValutazione"
-                  >{$t("moniDettaglio.anno")} {year}</span
-                >
-                <span class="totaleValutazione"
+            <div
+              class="col-12 col-md-6 {id === 'a-'
+                ? 'col-lg-3'
+                : 'col-lg-4'} px-0"
+            >
+              <p class="mb-lg-0">
+                {$t("moniDettaglio.anno")}
+                {year}
+                {#if activeTab === "tab1" && year === lastYear}
+                  ({lastQuarter} {$t("moniDettaglio.quarter")})
+                {/if}:
+                <span class="fw-semibold blueText"
                   >{yearSum(items, "num_pagine_web_monitorate")}</span
                 >
               </p>
-            {/each}
-          </div>
-        {/if}
+            </div>
+          {/each}
+        </div>
       </div>
     </div>
   </div>
 
   <!-- PDF -->
   <div class="accordion-item">
-    <h2 class="accordion-header" id="headingPdf">
+    <h2 class="accordion-header" id="{id}headingPdf">
       <button
-        class="accordion-button d-block d-lg-flex collapsed"
+        class="accordion-button collapsed d-flex align-items-center w-100"
         type="button"
         data-bs-toggle="collapse"
-        data-bs-target="#collapsePdf"
-        aria-expanded="false"
-        aria-controls="collapsePdf"
+        data-bs-target="#{id}collapsePdf"
+        aria-controls="{id}collapsePdf"
       >
-        <span class="d-flex d-lg-inline mb-3 mb-lg-0">
-          <span class="pe-3 pe-lg-0">
-            <span class="oggettoValutazione">{$t("moniDettaglio.pdf")}</span>
-            <span class="periodoValutazione">{$t("moniDettaglio.totale")}</span>
-          </span>
-          <span class="totaleValutazione ms-auto ms-lg-4">{nf(totalePdf)}</span>
+        <span class="fixedWidth text-start oggettoValutazione"
+          >{$t("moniDettaglio.pdf")}
         </span>
-        <span class="ms-auto dettaglioText">{$t("moniDettaglio.dettAnno")}</span
+        <span class="value text-end totaleValutazione">{nf(totalePdf)}</span>
+        <span class="ms-auto" title={$t("moniDettaglio.dettPdf")}
+          >{$t("moniDettaglio.dettaglio")}</span
         >
       </button>
     </h2>
     <div
-      id="collapsePdf"
+      id="{id}collapsePdf"
       class="accordion-collapse collapse"
       role="region"
-      aria-labelledby="headingPdf"
+      aria-labelledby="{id}headingPdf"
     >
       <div class="accordion-body">
-        {#if activeTab === "tab1"}
+        <div class="row mx-0">
           {#each Object.entries(byYear) as [year, items]}
-            <div class="accordion-item accordionBorders">
-              <h2 class="accordion-header" id="headingAnnoPdf-{year}">
-                <button
-                  class="accordion-button d-block d-lg-flex px-3 collapsed"
-                  type="button"
-                  data-bs-toggle="collapse"
-                  data-bs-target="#collapseAnnoPdf-{year}"
-                  aria-expanded="false"
-                  aria-controls="collapseAnnoPdf-{year}"
-                >
-                  <span
-                    class="d-flex justify-content-between d-lg-inline mb-3 mb-lg-0"
-                  >
-                    <span class="blueItaText"
-                      >{$t("moniDettaglio.anno")} {year}</span
-                    >
-                    <span class="totAnnoText"
-                      >{yearSum(items, "num_pdf_monitorati")}</span
-                    >
-                  </span>
-                  <span class="ms-auto dettaglioText"
-                    >{$t("moniDettaglio.dettTrimestre")}</span
-                  >
-                </button>
-              </h2>
-              <div
-                id="collapseAnnoPdf-{year}"
-                class="accordion-collapse collapse"
-                role="region"
-                aria-labelledby="headingAnnoPdf-{year}"
-              >
-                <div class="accordion-body">
-                  <div class="d-lg-flex mx-0 gap-4">
-                    {#each quarters as qNum}
-                      {#if hasQuarter(items, qNum)}
-                        <div class="blueBox mb-4 mb-lg-0">
-                          <p class="mb-3" style="font-size:16px;">
-                            {@html $t(`moniDettaglio.trimestre${qNum}`)}
-                          </p>
-                          <p class="pb-3 mb-0 fw-bold">
-                            {quarterValue(items, qNum, "num_pdf_monitorati")}
-                          </p>
-                        </div>
-                      {/if}
-                    {/each}
-                  </div>
-                </div>
-              </div>
-            </div>
-          {/each}
-        {:else}
-          <div>
-            {#each Object.entries(byYear) as [year, items]}
-              <p class="mb-0 fakeTable">
-                <span class="oggettoValutazione"
-                  >{$t("moniDettaglio.anno")} {year}</span
-                >
-                <span class="totaleValutazione"
+            <div
+              class="col-12 col-md-6 {id === 'a-'
+                ? 'col-lg-3'
+                : 'col-lg-4'} px-0"
+            >
+              <p class="mb-lg-0">
+                {$t("moniDettaglio.anno")}
+                {year}
+                {#if activeTab === "tab1" && year === lastYear}
+                  ({lastQuarter} {$t("moniDettaglio.quarter")})
+                {/if}:
+                <span class="fw-semibold blueText"
                   >{yearSum(items, "num_pdf_monitorati")}</span
                 >
               </p>
-            {/each}
-          </div>
-        {/if}
+            </div>
+          {/each}
+        </div>
       </div>
     </div>
   </div>
@@ -362,48 +238,45 @@
   <!-- APP (only in tab2) -->
   {#if activeTab === "tab2"}
     <div class="accordion-item">
-      <h2 class="accordion-header" id="headingApp">
+      <h2 class="accordion-header" id="a-headingApp">
         <button
-          class="accordion-button d-block d-lg-flex collapsed"
+          class="accordion-button collapsed d-flex align-items-center w-100"
           type="button"
           data-bs-toggle="collapse"
-          data-bs-target="#collapseApp"
-          aria-expanded="false"
-          aria-controls="collapseApp"
+          data-bs-target="#a-collapseApp"
+          aria-controls="a-collapseApp"
         >
-          <span class="d-flex d-lg-inline mb-3 mb-lg-0"
-            ><span class="pe-3 pe-lg-0">
-              <span class="oggettoValutazione">{$t("moniDettaglio.app")}</span>
-              <span class="periodoValutazione"
-                >{$t("moniDettaglio.totale")}</span
-              >
-            </span>
-            <span class="totaleValutazione ms-auto ms-lg-4"
-              >{nf(totaleApp)}</span
-            >
+          <span class="fixedWidth text-start oggettoValutazione"
+            >{$t("moniDettaglio.app")}
           </span>
-          <span class="ms-auto dettaglioText"
-            >{$t("moniDettaglio.dettAnno")}</span
+          <span class="value text-end totaleValutazione">{nf(totaleApp)}</span>
+          <span class="ms-auto" title={$t("moniDettaglio.dettApp")}
+            >{$t("moniDettaglio.dettaglio")}</span
           >
         </button>
       </h2>
       <div
-        id="collapseApp"
+        id="a-collapseApp"
         class="accordion-collapse collapse"
         role="region"
-        aria-labelledby="headingApp"
+        aria-labelledby="a-headingApp"
       >
         <div class="accordion-body">
-          <div>
+          <div class="row mx-0">
             {#each Object.entries(byYear) as [year, items]}
-              <p class="mb-0 fakeTable">
-                <span class="oggettoValutazione"
-                  >{$t("moniDettaglio.anno")} {year}</span
-                >
-                <span class="totaleValutazione"
-                  >{yearSum(items, "num_app_monitorate")}</span
-                >
-              </p>
+              <div
+                class="col-12 col-md-6 {id === 'a-'
+                  ? 'col-lg-3'
+                  : 'col-lg-4'} px-0"
+              >
+                <p class="mb-lg-0">
+                  {$t("moniDettaglio.anno")}
+                  {year}:
+                  <span class="fw-semibold blueText"
+                    >{yearSum(items, "num_app_monitorate")}</span
+                  >
+                </p>
+              </div>
             {/each}
           </div>
         </div>
@@ -413,97 +286,111 @@
 </div>
 
 <style>
+  .accordion-button .value {
+    flex: 0 0 150px;
+  }
+
+  .fixedWidth {
+    width: 205px;
+  }
+
   .oggettoValutazione {
     font-size: 18px !important ;
     font-weight: 600 !important ;
     color: #1a1a1a !important ;
   }
 
-  .periodoValutazione {
-    font-size: 18px !important ;
-    font-weight: 400 !important ;
-    color: #1a1a1a !important ;
-  }
-
   .totaleValutazione {
     font-size: 24px !important ;
-    font-weight: 600 !important ;
+    font-weight: 700 !important ;
     color: #0066cc !important ;
-  }
-
-  .dettaglioText {
-    font-size: 18px !important ;
-    font-weight: 400 !important ;
-    color: #0066cc !important ;
-    text-decoration: underline !important ;
   }
 
   .accordion-header .accordion-button:after {
     margin-left: 8px !important;
   }
 
-  .fakeTable {
-    border-width: 0 1px 1px 1px !important;
-    border: 1px solid #c5c7c9;
-    padding: 16px;
-    display: flex;
-    justify-content: space-between;
-  }
-
-  .fakeTable:first-child {
-    border-top: 1px solid #c5c7c9 !important;
-  }
-
-  .blueBox {
-    background-color: #f2f7fc;
-    border-left: 2px solid #0066cc;
-    border-right: 2px solid #0066cc;
-    text-align: center;
-    padding-top: 16px;
-    width: 25%;
-  }
-
-  .blueItaText {
-    font-size: 18px !important ;
-    font-weight: 600 !important ;
-    color: #06c !important;
-  }
-
-  .totAnnoText {
-    font-size: 20px !important ;
-    font-weight: 700 !important ;
-    color: #000 !important;
-    margin-left: 24px !important;
-  }
-
-  .accordionBorders {
-    border: 1px solid #c5c7c9 !important;
-    border-top: none !important;
-  }
-
-  .accordionBorders:first-child {
-    border-top: 1px solid #c5c7c9 !important;
-  }
-
   :global(.nav-tabs) {
     overflow-x: hidden !important;
   }
 
-  @media (max-width: 991.98px) {
-    .blueBox {
-      width: 100% !important;
+  .accordion-body {
+    padding: 1rem 1.25rem;
+  }
+
+  @media (min-width: 1200px) {
+    .accordion-body {
+      padding: 1rem 2.5rem;
+    }
+  }
+
+  @media (max-width: 419.98px) {
+    .fixedWidth {
+      width: 120px;
     }
 
+    .accordion-button .value {
+      margin-bottom: 36px !important;
+      margin-top: -52px !important;
+    }
+  }
+
+  @media (max-width: 991.98px) {
     :global(button.nav-link.text-uppercase) {
       padding: 12px 4px !important;
     }
 
-    .accordion-header .accordion-button {
-      padding: 24px 4px;
+    .accordion-body {
+      padding: 0 1.25rem;
     }
 
-    .accordion-body {
-      padding: 1rem 0.75rem;
+    .accordion-header .accordion-button {
+      flex-direction: column !important;
+      align-items: flex-start !important;
+      gap: 0;
+      padding: 24px 4px 24px 4px;
+      position: relative;
+    }
+
+    .accordion-button .oggettoValutazione {
+      order: 1;
+      margin-bottom: 0 !important;
+    }
+    .accordion-button .value {
+      order: 2;
+      flex: none;
+      align-self: flex-end !important;
+      margin-left: auto !important;
+      margin-bottom: 16px;
+      margin-top: -22px;
+    }
+    .accordion-button .ms-auto {
+      order: 3;
+      width: 100%;
+      display: flex;
+      font-size: 18px !important;
+      align-items: center;
+      padding: 0 !important;
+      position: relative;
+    }
+    .accordion-header .accordion-button:after {
+      position: static !important;
+      margin-left: 8px !important;
+      vertical-align: middle;
+      order: 4;
+    }
+    .accordion-header .accordion-button:after {
+      display: none !important;
+    }
+    .accordion-button .ms-auto::after {
+      content: "";
+      display: inline-block;
+      vertical-align: middle;
+      border: solid #0066cc;
+      border-width: 0 2px 2px 0;
+      padding: 3px;
+      margin-left: 8px;
+      transform: rotate(45deg);
     }
   }
 </style>

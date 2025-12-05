@@ -6,13 +6,19 @@
   import type { IconaErrori } from "../../../model/IconeErrori";
   import Icon from "../Icon.svelte";
 
-  let response;
-  let loading = true;
-  let appRef;
-  let innerWidth;
-  let columns;
-  let slicedResp;
-  let dataPeriodo;
+  let response = $state({
+    intestazione: {
+      anno_monitoraggio: 0,
+      dat_ultimo_aggiornamento: "",
+    },
+    data: [],
+  });
+  let loading = $state(true);
+  let appRef = $state<HTMLElement>();
+  let innerWidth = $state(0);
+  let columns = $state([]);
+  let slicedResp = $state([]);
+  let dataPeriodo = $state();
 
   let linksArray: Array<IconaErrori> = [
     {
@@ -543,8 +549,6 @@
     return response;
   });
 
-  $: innerWidth < 768 ? (columns = smallColumns) : (columns = bigColumns);
-
   const bigColumns = [
     {
       field: `des_success_criteria_${$locale}`,
@@ -581,10 +585,13 @@
       align: "right",
     },
   ];
+  $effect(() => {
+    innerWidth < 768 ? (columns = smallColumns) : (columns = bigColumns);
+  });
 </script>
 
 <svelte:window bind:innerWidth />
-<div bind:this={appRef} class="my-3">
+<div bind:this={appRef}>
   {#if !loading}
     <DataTable
       {columns}
@@ -594,24 +601,25 @@
       didascalia={true}
       defaultSortBy="num_perc_errori"
       periodoMonitoraggio="{$t('layout.anno')}{dataPeriodo}"
-      tooltipClasses="mx-1"
     >
-      <div slot="didascaliaSlot" class="didascalia">
-        {@html $t("erroriTableApp.descrApp", { break: "<br/>" })}
-        <a
-          title={$t("layout.externalLink")}
-          target="_blank"
-          rel="noreferrer"
-          href={$t("erroriTableApp.WCAGlink")}
-          >{$t("erroriTableApp.linkText")}<Icon
-            name="it it-external-link"
-            variant="primary"
-            size="sm"
-            customClass="ms-1 mb-1"
-          /></a
-        >
-        {@html $t("erroriTableApp.description", { break: "<br/>" })}
-      </div>
+      {#snippet didascaliaSlot()}
+        <div class="didascalia">
+          {@html $t("erroriTableApp.descrApp", { break: "<br/>" })}
+          <a
+            title={$t("layout.externalLink")}
+            target="_blank"
+            rel="noreferrer"
+            href={$t("erroriTableApp.WCAGlink")}
+            >{$t("erroriTableApp.linkText")}<Icon
+              name="it it-external-link"
+              variant="primary"
+              size="sm"
+              customClass="ms-1 mb-1"
+            /></a
+          >
+          {@html $t("erroriTableApp.description", { break: "<br/>" })}
+        </div>
+      {/snippet}
     </DataTable>
   {/if}
 </div>

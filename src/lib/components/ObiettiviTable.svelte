@@ -5,9 +5,17 @@
   import { t } from "../utils/i18n";
   import Icon from "./Icon.svelte";
 
-  let response;
-  let periodoRiferimento;
-  let loading = true;
+  let response = $state({
+    intestazione: {
+      anno_obiettivi: 0,
+      aggior_ultimo_trimestre: "",
+      dat_ult_agg_obiettivi: "",
+    },
+    data: [],
+  });
+
+  let periodoRiferimento = $state("");
+  let loading = $state(true);
   const columns = [
     {
       field: "des_regione",
@@ -51,20 +59,22 @@
     periodoMonitoraggio={periodoRiferimento}
     didascalia={true}
   >
-    <div slot="didascaliaSlot" class="didascalia">
-      {$t("obiTable.description1")}
-      <a
-        title={$t("layout.externalLink")}
-        target="_blank"
-        rel="noreferrer"
-        href="https://www.indicepa.gov.it/ipa-portale/"
-        >{$t("obiTable.description2")}<Icon
-          name="it it-external-link"
-          variant="primary"
-          size="sm"
-          customClass="ms-1 mb-1"
-        /></a
-      >{$t("obiTable.description3")}
-    </div>
+    {#snippet didascaliaSlot()}
+      <div class="didascalia">
+        {$t("obiTable.description1")}
+        <a
+          title={$t("layout.externalLink")}
+          target="_blank"
+          rel="noreferrer"
+          href="https://www.indicepa.gov.it/ipa-portale/"
+          >{$t("obiTable.description2")}<Icon
+            name="it it-external-link"
+            variant="primary"
+            size="sm"
+            customClass="ms-1 mb-1"
+          /></a
+        >{$t("obiTable.description3")}
+      </div>
+    {/snippet}
   </DataTable>
 {/if}

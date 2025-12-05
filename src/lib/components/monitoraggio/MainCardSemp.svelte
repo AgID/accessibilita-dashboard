@@ -7,9 +7,9 @@
   import KpiThreeCard from "../KpiThreeCard.svelte";
   import BannerPageUpdated from "../BannerPageUpdated.svelte";
 
-  let item;
-  let innerWidth;
-  let monitoraggioDateFormatted;
+  let item = $state();
+  let innerWidth = $state(0);
+  let monitoraggioDateFormatted = $state();
 
   onMount(async () => {
     const rs = await fetch("/data/monitoraggio_intestazione.json");
@@ -41,7 +41,7 @@
     <h2 class="h3">
       {$t("moniMainCard.subtitleSemp")}
     </h2>
-    <p class="py-3 pe-xl-5 me-xl-5">
+    <p class="py-3 pe-xl-5 me-xl-5 pb-0 mb-0">
       {$t("moniMainCard.descrSemp1")}
       <a
         href="https://mauve-pnrr.isti.cnr.it/about.jsp"

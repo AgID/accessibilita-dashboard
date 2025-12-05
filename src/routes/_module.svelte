@@ -4,22 +4,23 @@
   import Footer from "../lib/components/Footer.svelte";
   import Icon from "../lib/components/Icon.svelte";
   import { visibleTooltip, isFocus } from "../store/tooltip";
-  import { page } from "@roxi/routify";
   import Feedback from "../lib/components/Feedback.svelte";
   import { locale, t } from "../lib/utils/i18n";
-  import { resetValue } from "../store/feedback";
+  import { activeRoute } from "@roxi/routify";
 
-  let innerWidth;
-  let selectedPage = $page.path || "";
-  let innerHeight;
-  let scrollY = 0;
-  let isSticky = false;
-  $: isSticky = scrollY > innerHeight * 0.05;
+  let { children } = $props();
 
-  $: {
-    selectedPage = $page.path || "";
-    resetValue();
-  }
+  let innerWidth = $state(0);
+  let selectedPage = $state("");
+  let innerHeight = $state(0);
+  let scrollY = $state(0);
+  let isSticky = $state(false);
+
+  $effect(() => {
+    selectedPage = $activeRoute.url;
+    isSticky = scrollY > innerHeight * 0.05;
+  });
+
   function onClick(e) {
     const elementId = e.srcElement.id;
     if (
@@ -36,14 +37,14 @@
 
 <svelte:window
   bind:innerWidth
-  on:click={(e) => onClick(e)}
-  on:keydown={(e) => {
+  onclick={(e) => onClick(e)}
+  onkeydown={(e) => {
     if (e.key === "Enter") {
       onClick(e);
     }
   }}
   bind:innerHeight
-  on:scroll={() => {
+  onscroll={() => {
     scrollY = window.scrollY;
   }}
 />
@@ -61,7 +62,7 @@
     {/if}
   </header>
   <main id="main">
-    <!-- svelte-ignore a11y-invalid-attribute -->
+    <!-- svelte-ignore a11y_invalid_attribute -->
     <a
       href="#"
       data-bs-toggle="backtotop"
@@ -76,6 +77,7 @@
         ariaHidden={true}
       />
     </a>
+    <!-- svelte-ignore slot_element_deprecated -->
     {#key $locale}
       <slot />
     {/key}

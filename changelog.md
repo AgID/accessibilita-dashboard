@@ -5,6 +5,21 @@ Tutte le principali modifiche saranno documentate in questo file.
 Il formato del file è basato su [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 e questo progetto aderisce a [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [2.0.0](https://github.com/AgID/accessibilita-dashboard/releases/tag/2.0.0) - 2025-12-05
+
+### Changed
+
+- Aggiornamento a Svelte 5
+- [Issue #40](https://github.com/AgID/accessibilita-monitoraggio/issues/40)
+- [Issue #44](https://github.com/AgID/accessibilita-monitoraggio/issues/44)
+- [Issue #45](https://github.com/AgID/accessibilita-monitoraggio/issues/45)
+- [Issue #46](https://github.com/AgID/accessibilita-monitoraggio/issues/46)
+- Aggiornamento README
+
+### Fix
+
+- [Issue #39](https://github.com/AgID/accessibilita-monitoraggio/issues/39)
+
 ## [1.3.0](https://github.com/AgID/accessibilita-dashboard/releases/tag/1.3.0) - 2025-11-06
 
 ### Changed

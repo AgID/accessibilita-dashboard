@@ -4,8 +4,14 @@
   import DataTable from "../DataTable.svelte";
   import { t } from "../../utils/i18n";
 
-  let response;
-  let loading = true;
+  let response = $state({
+    intestazione: {
+      periodo_monitoraggio: "",
+      dat_ultimo_aggiornamento: "",
+    },
+    data: [],
+  });
+  let loading = $state(true);
   onMount(async () => {
     const rs = await fetch("/data/monitoraggio_per_regione.json");
     response = await rs.json();
@@ -31,19 +37,18 @@
 </script>
 
 {#if !loading}
-  <div class="my-3">
-    <DataTable
-      {columns}
-      rows={response?.data}
-      title={$t("moniRegTable.title")}
-      didascalia={true}
-      defaultSortBy="num_siti"
-      periodoMonitoraggio={pm(response?.intestazione?.periodo_monitoraggio)}
-      tooltipClasses="mx-1"
-    >
-      <div slot="didascaliaSlot" class="didascalia">
+  <DataTable
+    {columns}
+    rows={response?.data}
+    title={$t("moniRegTable.title")}
+    didascalia={true}
+    defaultSortBy="num_siti"
+    periodoMonitoraggio={pm(response?.intestazione?.periodo_monitoraggio)}
+  >
+    {#snippet didascaliaSlot()}
+      <div class="didascalia">
         {$t("moniRegTable.description")}
       </div>
-    </DataTable>
-  </div>
+    {/snippet}
+  </DataTable>
 {/if}

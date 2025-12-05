@@ -21,7 +21,7 @@
   </div>
 </section>
 
-<style lang="scss">
+<style>
   section {
     margin-top: 1.3em;
   }

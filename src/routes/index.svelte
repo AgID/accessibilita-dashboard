@@ -10,22 +10,22 @@
   import HomeMoniDetail from "../lib/components/HomeMoniDetail.svelte";
   import BannerPageUpdated from "../lib/components/BannerPageUpdated.svelte";
 
-  let innerWidth;
-  let pagineValutate;
-  let sitiValutati;
-  let pdfValutati;
-  let dichiarazioniAccessibilita;
-  let obiettiviAccessibilità;
+  let innerWidth = $state(0);
+  let pagineValutate = $state();
+  let sitiValutati = $state();
+  let pdfValutati = $state();
+  let dichiarazioniAccessibilita = $state();
+  let obiettiviAccessibilità = $state();
 
-  let totalerroriConformita;
+  let totalerroriConformita = $state();
 
   let obiettiviDate;
-  let monitoraggioDateFormatted;
+  let monitoraggioDateFormatted = $state();
   let dichiarazioniDateFormatted;
   let obiettiviDateFormatted;
 
   let annoRiferimentoDic;
-  let annoRiferimentoObi;
+  let annoRiferimentoObi = $state();
 
   onMount(async () => {
     const rsMon = await fetch("/data/monitoraggio_intestazione.json");
@@ -76,7 +76,7 @@
 <div class="container mt-4">
   <BannerPageUpdated pageId="home" />
 </div>
-<div class="container mb-4 pb-3">
+<div class="container">
   {#if pagineValutate && pdfValutati}
     <div class="row">
       {#if innerWidth >= 992}
@@ -152,9 +152,7 @@
       {/if}
     </div>
   {/if}
-  <div class="my-5">
-    <HomeMoniDetail></HomeMoniDetail>
-  </div>
+  <HomeMoniDetail></HomeMoniDetail>
 </div>
 <div class="background py-4 px-xxl-5">
   <div class="container mt-4">
@@ -347,41 +345,7 @@
 {/if}
 
 <style>
-  .bannerPageUpdated {
-    background-color: #f2f7fc;
-  }
   .background {
     background-color: #f2f7fc;
-  }
-
-  .a-button {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    padding: 12px 24px;
-    gap: 8px;
-    border: none;
-    width: 210px;
-    height: 52px;
-    background: #0066cc;
-    border-radius: 4px;
-  }
-
-  .a-button:hover,
-  .errButton:hover {
-    background: #004c99;
-  }
-
-  .a-button:active,
-  .errButton:active {
-    background: #003366;
-  }
-
-  .errButton {
-    background: #0066cc;
-    border-radius: 4px;
-    padding: 12px 24px;
-    text-align: center;
   }
 </style>

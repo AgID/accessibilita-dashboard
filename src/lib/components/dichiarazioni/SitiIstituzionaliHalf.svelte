@@ -4,16 +4,16 @@
   import { t } from "../../utils/i18n";
   import KpiSimpleCard from "../KpiSimpleCard.svelte";
 
-  let numIstituzionaliCorrente;
+  let numIstituzionaliCorrente = $state();
   let percentuale;
   let datoXgrafico;
   let restoDelGrafico;
-  let datoVisibile;
-  let totale;
-  let annoRiferimento;
+  let datoVisibile = $state();
+  let totale = $state();
+  let annoRiferimento = $state();
 
   let height = "";
-  $: mainHeight = height ? `height:${height};` : "";
+  let mainHeight = $derived(height ? `height:${height};` : "");
 
   onMount(async () => {
     const rs = await fetch(

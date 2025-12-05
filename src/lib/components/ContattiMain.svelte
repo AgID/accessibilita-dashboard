@@ -21,7 +21,7 @@
       <div class="col-12 col-lg-6">
         <div class="card-wrapper card-space">
           <div class="card card-bg card-big border-bottom-card">
-            <div class="flag-icon" />
+            <div class="flag-icon"></div>
             <div class="card-body">
               <p class="card-title h3">{$t("contacts.info")}</p>
               <p class="card-text">

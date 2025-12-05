@@ -1,6 +1,6 @@
 <script lang="ts">
   import { onMount } from "svelte";
-  import { nf, nf2d, pm } from "../utils";
+  import { nf, pm } from "../utils";
   import { locale, t } from "../utils/i18n";
   import CsvPdfButtons from "./CsvPdfButtons.svelte";
   import DataTable from "./DataTable.svelte";
@@ -13,11 +13,18 @@
   HighchartsVariablePie(Highcharts);
   // ---HIGHCHARTS END---
 
-  let periodoMonitoraggio;
-  let dataRiferimento;
-  let response;
+  let periodoMonitoraggio = $state("");
+  let dataRiferimento = $state(0);
+  let response = $state({
+    intestazione: {
+      anno_obiettivi: 0,
+      aggior_ultimo_trimestre: "",
+      dat_ult_agg_obiettivi: "",
+    },
+    data: [],
+  });
   let response2;
-  let loading = true;
+  let loading = $state(true);
   let linea;
   let numEnti;
 
@@ -102,9 +109,9 @@
 </script>
 
 <div class="container px-0">
-  <div class="card-box mt-2 my-lg-3 hide-mobile pt-3 px-3">
+  <div class="card-box customSpacing hide-mobile pt-3 px-3">
     <div class="d-flex justify-content-between">
-      <h3 class="cardTitle pt-3 ps-2 ps-lg-3 d-inline-flex greyText">
+      <h3 class="cardTitle col-lg-8 pt-3 ps-2 ps-lg-3 d-inline-flex greyText">
         {$t("obiInter.title")}
       </h3>
       <div class="pe-3 my-auto">
@@ -113,12 +120,11 @@
             rows={response?.data}
             {columns}
             title={$t("obiInter.title")}
-            {periodoMonitoraggio}
           />
         {/if}
       </div>
     </div>
-    <div>
+    <div class="col-lg-8">
       {#if periodoMonitoraggio}
         <div class="d-inline-block px-2 px-xl-3">
           <p class="periodoLabel mb-4">
@@ -135,7 +141,7 @@
     </div>
 
     <figure class="highcharts-figure">
-      <div id="pieChartIntervento" style="width:100%; height:450px;" />
+      <div id="pieChartIntervento" style="width:100%; height:450px;"></div>
     </figure>
   </div>
 
@@ -149,15 +155,17 @@
         didascalia={true}
         {periodoMonitoraggio}
       >
-        <div slot="didascaliaSlot" class="didascalia">
-          {$t("obiInter.descriptionTable", { anno: dataRiferimento })}
-        </div>
+        {#snippet didascaliaSlot()}
+          <div class="didascalia">
+            {$t("obiInter.descriptionTable", { anno: dataRiferimento })}
+          </div>
+        {/snippet}
       </DataTable>
     </div>
   {/if}
 </div>
 
-<style lang="scss">
+<style>
   :global(.highcharts-credits) {
     display: none !important;
   }

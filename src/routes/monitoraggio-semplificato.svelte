@@ -23,13 +23,11 @@
   <div class="container">
     <PdfCardSemp />
     <PdfChartSemp />
-    <div class="my-5">
-      <SitiPerRegioneTable />
-    </div>
+    <SitiPerRegioneTable />
   </div>
 </section>
 
-<style lang="scss">
+<style>
   section {
     margin-top: 1.3em;
   }

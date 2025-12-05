@@ -11,9 +11,15 @@
   HighchartsAccessibility(Highcharts);
   // ---HIGHCHARTS END---
 
-  let periodoMonitoraggio;
-  let data;
-  let loading = true;
+  let periodoMonitoraggio = $state();
+  let data = $state({
+    intestazione: {
+      anno_dichiarazione: 0,
+      dat_ult_agg_dichiarazione: "",
+    },
+    data: [],
+  });
+  let loading = $state(true);
   let allData = [];
   let ordineConformita = ["Conforme", "Parzialmente conforme", "Non conforme"];
 
@@ -121,7 +127,8 @@
       },
       tooltip: {
         formatter: function () {
-          return `<span style="color:${this.color}">\u25CF</span> ${this.series.name}<br/>${this.x}: <b>${this.point.display}%</b>`;
+          const pct = (this.point.options as any).display;
+          return `<span style="color:${this.color}">\u25CF</span> ${this.series.name}<br/>${this.x}: <b>${pct}%</b>`;
         },
       },
       plotOptions: {
@@ -159,11 +166,9 @@
   });
 </script>
 
-<div class="card-box mt-2 my-lg-5 hide-mobile pt-3 px-3">
+<div class="card-box customSpacing hide-mobile pt-3 px-3">
   <div class="d-flex justify-content-between">
-    <h3
-      class="col-8 col-xl-10 cardTitle pt-3 ps-2 ps-lg-3 d-inline-flex greyText"
-    >
+    <h3 class="col-lg-8 cardTitle pt-3 ps-2 ps-lg-3 d-inline-flex greyText">
       {$t("dicAutovalConf.title")}
     </h3>
     <div class="col-4 col-xl-2 pe-3 my-auto">
@@ -172,7 +177,6 @@
           rows={data?.data}
           {columns}
           title={$t("dicAutovalConf.title")}
-          periodoMonitoraggio="{$t('layout.anno')}{periodoMonitoraggio}"
         />
       {/if}
     </div>
@@ -189,7 +193,7 @@
   {/if}
 
   <figure class="highcharts-figure">
-    <div id="istVStema" style="width:100%; height:450px;" />
+    <div id="istVStema" style="width:100%; height:450px;"></div>
   </figure>
 </div>
 
@@ -205,7 +209,7 @@
   </div>
 {/if}
 
-<style lang="scss">
+<style>
   :global(.highcharts-credits) {
     display: none !important;
   }

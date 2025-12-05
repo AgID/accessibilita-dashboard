@@ -4,7 +4,7 @@
   import HalfInfoCardApp from "./HalfInfoCardApp.svelte";
 </script>
 
-<div class="col-12">
+<div class="col-12 pt-3">
   <div class="card-start">
     <div class="d-flex flex-wrap justify-content-between">
       <div class="row">

@@ -7,10 +7,10 @@
   import KpiThreeCard from "../KpiThreeCard.svelte";
   import BannerPageUpdated from "../BannerPageUpdated.svelte";
 
-  let annoRiferimento;
-  let totale;
-  let numAttuali;
-  let enti;
+  let annoRiferimento = $state();
+  let totale = $state();
+  let numAttuali = $state();
+  let enti = $state();
   let monitoraggioDateFormatted;
 
   onMount(async () => {
@@ -35,7 +35,7 @@
 
 <Breadcrumb currentPage={$t("breadcrumb.dichiarazioniSiti")}></Breadcrumb>
 <BannerPageUpdated pageId="dichiarazioni_siti" />
-<div class="d-flex flex-wrap justify-content-between mt-3 mb-5">
+<div class="d-flex flex-wrap justify-content-between mt-3">
   <div class="col-12 col-lg-6 flex-wrap">
     <div class="d-flex">
       <div class="col-12 mb-4">
@@ -48,7 +48,7 @@
       </div>
     </div>
 
-    <div class="d-flex inline mb-1 pt-4" />
+    <div class="d-flex inline mb-1 pt-4"></div>
     <p>
       {$t("dicMain.SITI-description1")}
       <a

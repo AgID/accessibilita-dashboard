@@ -4,7 +4,6 @@
   import CriteriTable from "../lib/components/errori/CriteriTableSemp.svelte";
   import PrincipioHalf from "../lib/components/errori/DistribuzionePrincipioHalf.svelte";
   import { t } from "../lib/utils/i18n";
-
 </script>
 
 <svelte:head>
@@ -12,19 +11,19 @@
 </svelte:head>
 
 <section aria-label={$t("errori.section")}>
-  <div class="container mb-5">
+  <div class="container">
     <MainCard />
   </div>
-  <div class="container my-5" style="padding-left: 0 !important; padding-right: 0 !important;">
+  <div class="container">
     <CriteriTable />
   </div>
   <PrincipioHalf />
-  <div class="container my-5" style="padding-left: 0 !important; padding-right: 0 !important;">
+  <div class="container">
     <PdfTable />
   </div>
 </section>
 
-<style lang="scss">
+<style>
   section {
     margin-top: 1.3em;
   }

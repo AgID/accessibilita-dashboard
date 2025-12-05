@@ -4,8 +4,8 @@
   import Icon from "../Icon.svelte";
   import { nf } from "../../utils/index";
 
-  let totaleAPP;
-  let totaleSITI;
+  let totaleAPP = $state();
+  let totaleSITI = $state();
 
   onMount(async () => {
     const rsAPP = await fetch("/data/dichiarazione_app_intestazione.json");

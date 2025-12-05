@@ -1,11 +1,8 @@
-<script>
-  export let selectedPage;
-  export let isSticky;
-
+<script lang="ts">
   function ignoreIndex(path) {
     let correctedPath = path;
     if (correctedPath === "/index") {
-      correctedPath = "/";
+      correctedPath = "";
     }
     if (correctedPath.endsWith("/index")) {
       correctedPath = correctedPath.substring(0, correctedPath.length - 6);
@@ -13,9 +10,12 @@
     return correctedPath;
   }
 
-  $: selectedPage = ignoreIndex(selectedPage);
+  $effect(() => {
+    selectedPage = ignoreIndex(selectedPage);
+  });
 
   import { t } from "../utils/i18n";
+  let { selectedPage = $bindable(), isSticky = $bindable() } = $props();
 </script>
 
 <div class="buttonNav w-100 {isSticky ? 'sticky-top' : ''}">
@@ -39,8 +39,8 @@
             <li class="my-auto">
               <a
                 href="/"
-                class:selected={selectedPage == "/"}
-                aria-current={selectedPage == "/" ? "true" : "false"}
+                class:selected={selectedPage == ""}
+                aria-current={selectedPage == "" ? "true" : "false"}
                 class="pageChoice display6"
                 ><span>{$t("header.tabHome")}</span></a
               >
@@ -278,7 +278,7 @@
   </div>
 </div>
 
-<style lang="scss">
+<style>
   .sticky-top {
     position: fixed;
     top: 0;

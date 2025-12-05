@@ -7,8 +7,8 @@
   import Breadcrumb from "../Breadcrumb.svelte";
   import BannerPageUpdated from "../BannerPageUpdated.svelte";
 
-  let erroriConformita;
-  let totaleErroriConformita;
+  let erroriConformita = $state();
+  let totaleErroriConformita = $state();
 
   onMount(async () => {
     const rsDistribuzioneConformita = await fetch(
