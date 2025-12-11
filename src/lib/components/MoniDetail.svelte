@@ -286,6 +286,9 @@
 </div>
 
 <style>
+  .accordion-header .accordion-button:not(.collapsed) {
+    color: #0066cc !important;
+  }
   .accordion-button .value {
     flex: 0 0 150px;
   }
