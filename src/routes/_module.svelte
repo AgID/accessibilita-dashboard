@@ -4,12 +4,11 @@
   import Footer from "../lib/components/Footer.svelte";
   import Icon from "../lib/components/Icon.svelte";
   import { visibleTooltip, isFocus } from "../store/tooltip";
-  import Feedback from "../lib/components/Feedback.svelte";
   import { locale, t } from "../lib/utils/i18n";
   import { activeRoute } from "@roxi/routify";
 
   let { children } = $props();
-
+  const apiMode = import.meta.env.VITE_FEEDBACK_API_MODE;
   let innerWidth = $state(0);
   let selectedPage = $state("");
   let innerHeight = $state(0);
@@ -84,7 +83,7 @@
   </main>
   <footer>
     <div>
-      <Feedback />
+      <feedback-widget locale={$locale} {apiMode}></feedback-widget>
       <Footer />
     </div>
   </footer>

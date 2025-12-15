@@ -5,6 +5,12 @@ Tutte le principali modifiche saranno documentate in questo file.
 Il formato del file è basato su [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 e questo progetto aderisce a [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [2.1.0](https://github.com/AgID/accessibilita-dashboard/releases/tag/2.1.0) - 2025-12-15
+
+### Added
+
+- Integrazione modulo Feedback
+
 ## [2.0.1](https://github.com/AgID/accessibilita-dashboard/releases/tag/2.0.1) - 2025-12-11
 
 ### Fix
