@@ -83,7 +83,9 @@
   </main>
   <footer>
     <div>
-      <feedback-widget locale={$locale} {apiMode}></feedback-widget>
+      {#key selectedPage}
+        <feedback-widget locale={$locale} {apiMode}></feedback-widget>
+      {/key}
       <Footer />
     </div>
   </footer>
