@@ -1,20 +1,20 @@
 [
     {
-        "valore": 1769,
-        "indicatore": "num pag esaminate",
-        "anno_monitoraggio": 2024,
-        "dat_ultimo_monitoraggio": "2024-12-31"
-    },
-    {
-        "valore": 119,
+        "valore": 101,
         "indicatore": "num siti valutati",
-        "anno_monitoraggio": 2024,
-        "dat_ultimo_monitoraggio": "2024-12-31"
+        "anno_monitoraggio": 2025,
+        "dat_ultimo_monitoraggio": "2025-12-31"
     },
     {
-        "valore": 119,
+        "valore": 1666,
+        "indicatore": "num pag esaminate",
+        "anno_monitoraggio": 2025,
+        "dat_ultimo_monitoraggio": "2025-12-31"
+    },
+    {
+        "valore": 101,
         "indicatore": "num enti valutati",
-        "anno_monitoraggio": 2024,
-        "dat_ultimo_monitoraggio": "2024-12-31"
+        "anno_monitoraggio": 2025,
+        "dat_ultimo_monitoraggio": "2025-12-31"
     }
 ]

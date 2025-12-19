@@ -13,10 +13,18 @@
                 "num_pdf_monitorati": 321,
                 "num_siti_monitorati": 119,
                 "num_pagine_web_monitorate": 1769
+            },
+            {
+                "anno_monitoraggio": 2025,
+                "num_app_monitorate": 65,
+                "num_pdf_monitorati": 292,
+                "num_siti_monitorati": 101,
+                "num_pagine_web_monitorate": 1666
             }
         ],
         "intestazione": {
-            "anno_ult_monitoraggio": 2024,
-            "dat_ult_aggiornamento": "2024-12-31"
+            "anno_ult_monitoraggio": 2025,
+            "dat_ult_aggiornamento": "2025-12-31"
         }
     }
+

@@ -1,17 +1,17 @@
     {
         "data": [
             {
-                "num_tot_app": 37,
+                "num_tot_app": 35,
                 "des_sistema_operativo": "Android"
             },
             {
-                "num_tot_app": 31,
+                "num_tot_app": 30,
                 "des_sistema_operativo": "iOS"
             }
         ],
         "intestazione": {
-            "anno_monitoraggio": 2024,
-            "dat_ultimo_aggiornamento": "2024-12-31"
+            "anno_monitoraggio": 2025,
+            "dat_ultimo_aggiornamento": "2025-12-31"
         }
     }
 

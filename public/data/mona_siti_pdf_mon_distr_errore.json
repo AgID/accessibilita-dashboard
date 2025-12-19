@@ -3,7 +3,7 @@
     {
       "perc_errore_en": "PDF documents with errors",
       "perc_errore_it": "Documenti PDF con errori",
-      "perc_num_pdf_senza_errori": 100.0
+      "perc_num_pdf_senza_errori": 94.863013698630136986
     },
     {
       "perc_errore_en": "PDF documents without errors",
@@ -12,7 +12,7 @@
     }
   ],
   "intestazione": {
-    "anno_monitoraggio": 2024,
-    "dat_ultimo_aggiornamento": "2024-12-31"
+    "anno_monitoraggio": 2025,
+    "dat_ultimo_aggiornamento": "2025-12-31"
   }
 }

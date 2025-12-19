@@ -1,225 +1,285 @@
     {
         "data": [
             {
-                "num_perc_errori": 23.22791712104689203900,
+                "num_perc_errori": 25.37712895377128953800,
                 "cod_livello_conformita": "A",
                 "des_success_criteria_en": "9.1.3.1 Info and Relationships",
                 "des_success_criteria_it": "9.1.3.1 Informazioni e correlazioni"
             },
             {
-                "num_perc_errori": 17.75717920756088695000,
+                "num_perc_errori": 14.98783454987834549900,
                 "cod_livello_conformita": "A",
                 "des_success_criteria_en": "9.4.1.2 Name, Role, Value",
                 "des_success_criteria_it": "9.4.1.2 Nome, ruolo, valore"
             },
             {
-                "num_perc_errori": 11.43220647037440930600,
-                "cod_livello_conformita": "AA",
-                "des_success_criteria_en": "9.1.4.3 Contrast (Minimum)",
-                "des_success_criteria_it": "9.1.4.3 Contrasto (minimo)"
-            },
-            {
-                "num_perc_errori": 11.05052708106143220600,
+                "num_perc_errori": 11.65450121654501216500,
                 "cod_livello_conformita": "A",
                 "des_success_criteria_en": "9.2.4.4 Link Purpose (In Context)",
                 "des_success_criteria_it": "9.2.4.4 Scopo del collegamento (nel contesto)"
             },
             {
-                "num_perc_errori": 6.54307524536532170100,
+                "num_perc_errori": 11.09489051094890510900,
+                "cod_livello_conformita": "AA",
+                "des_success_criteria_en": "9.1.4.3 Contrast (Minimum)",
+                "des_success_criteria_it": "9.1.4.3 Contrasto (minimo)"
+            },
+            {
+                "num_perc_errori": 9.22141119221411192200,
                 "cod_livello_conformita": "A",
                 "des_success_criteria_en": "9.1.1.1 Non-text Content",
                 "des_success_criteria_it": "9.1.1.1 Contenuti non testuali"
             },
             {
-                "num_perc_errori": 6.34314794620138131600,
+                "num_perc_errori": 4.47688564476885644800,
                 "cod_livello_conformita": "A",
                 "des_success_criteria_en": "9.3.3.2 Labels or Instructions",
                 "des_success_criteria_it": "9.3.3.2 Etichette o istruzioni"
             },
             {
-                "num_perc_errori": 5.12540894220283533300,
-                "cod_livello_conformita": "A",
-                "des_success_criteria_en": "9.2.4.1 Bypass Blocks",
-                "des_success_criteria_it": "9.2.4.1 Salto di blocchi"
-            },
-            {
-                "num_perc_errori": 3.47146492184660123600,
+                "num_perc_errori": 4.16058394160583941600,
                 "cod_livello_conformita": "A",
                 "des_success_criteria_en": "9.1.4.1 Use of Color",
                 "des_success_criteria_it": "9.1.4.1 Uso del colore"
             },
             {
-                "num_perc_errori": 3.25336241366775717900,
+                "num_perc_errori": 3.11435523114355231100,
+                "cod_livello_conformita": "A",
+                "des_success_criteria_en": "9.2.4.1 Bypass Blocks",
+                "des_success_criteria_it": "9.2.4.1 Salto di blocchi"
+            },
+            {
+                "num_perc_errori": 2.43309002433090024300,
                 "cod_livello_conformita": "A",
                 "des_success_criteria_en": "9.4.1.1 Parsing",
                 "des_success_criteria_it": "9.4.1.1 Analisi sintattica (parsing)"
             },
             {
-                "num_perc_errori": 2.58087968011632133800,
+                "num_perc_errori": 2.28710462287104622900,
                 "cod_livello_conformita": "AA",
                 "des_success_criteria_en": "9.2.4.7 Focus Visible",
                 "des_success_criteria_it": "9.2.4.7 Focus visibile"
             },
             {
-                "num_perc_errori": 2.12649945474372955300,
+                "num_perc_errori": 1.99513381995133820000,
                 "cod_livello_conformita": "AA",
                 "des_success_criteria_en": "9.2.4.6 Headings and Labels",
                 "des_success_criteria_it": "9.2.4.6 Intestazioni ed etichette"
             },
             {
-                "num_perc_errori": 1.21773900399854598300,
+                "num_perc_errori": 1.07055961070559610700,
                 "cod_livello_conformita": "A",
                 "des_success_criteria_en": "9.3.2.2 On Input",
                 "des_success_criteria_it": "9.3.2.2 All’input"
             },
             {
-                "num_perc_errori": 0.96328607778989458400,
-                "cod_livello_conformita": "A",
-                "des_success_criteria_en": "9.3.1.1 Language of Page",
-                "des_success_criteria_it": "9.3.1.1 Lingua della pagina"
-            },
-            {
-                "num_perc_errori": 0.90876045074518357000,
+                "num_perc_errori": 0.94890510948905109500,
                 "cod_livello_conformita": "A",
                 "des_success_criteria_en": "9.2.1.1 Keyboard",
                 "des_success_criteria_it": "9.2.1.1 Tastiera"
             },
             {
-                "num_perc_errori": 0.79970919665576154100,
-                "cod_livello_conformita": "A",
-                "des_success_criteria_en": "9.2.5.3 Label in Name",
-                "des_success_criteria_it": "9.2.5.3 Etichetta nel nome"
-            },
-            {
-                "num_perc_errori": 0.63613231552162849900,
-                "cod_livello_conformita": "AA",
-                "des_success_criteria_en": "9.1.4.4 Resize text",
-                "des_success_criteria_it": "9.1.4.4 Ridimensionamento del testo"
-            },
-            {
-                "num_perc_errori": 0.50890585241730279900,
-                "cod_livello_conformita": "A",
-                "des_success_criteria_en": "9.3.3.1 Error Identification",
-                "des_success_criteria_it": "9.3.3.1 Identificazione degli errori"
-            },
-            {
-                "num_perc_errori": 0.34532897128316975600,
+                "num_perc_errori": 0.82725060827250608300,
                 "cod_livello_conformita": "AA",
                 "des_success_criteria_en": "9.4.1.3 Status Messages",
                 "des_success_criteria_it": "9.4.1.3 Messaggi di stato"
             },
             {
-                "num_perc_errori": 0.30897855325336241400,
+                "num_perc_errori": 0.82725060827250608300,
                 "cod_livello_conformita": "AA",
                 "des_success_criteria_en": "9.1.4.10 Reflow",
                 "des_success_criteria_it": "9.1.4.10 Ricalcolo del flusso"
             },
             {
-                "num_perc_errori": 0.25445292620865139900,
-                "cod_livello_conformita": "A",
-                "des_success_criteria_en": "9.2.4.2 Page Titled",
-                "des_success_criteria_it": "9.2.4.2 Titolazione della pagina"
-            },
-            {
-                "num_perc_errori": 0.21810250817884405700,
-                "cod_livello_conformita": "A",
-                "des_success_criteria_en": "9.2.4.3 Focus Order",
-                "des_success_criteria_it": "9.2.4.3 Ordine del focus"
-            },
-            {
-                "num_perc_errori": 0.16357688113413304300,
+                "num_perc_errori": 0.65693430656934306600,
                 "cod_livello_conformita": "AA",
-                "des_success_criteria_en": "9.1.4.5 Images of Text",
-                "des_success_criteria_it": "9.1.4.5 Immagini di testo"
+                "des_success_criteria_en": "9.1.4.4 Resize text",
+                "des_success_criteria_it": "9.1.4.4 Ridimensionamento del testo"
             },
             {
-                "num_perc_errori": 0.14540167211922937100,
-                "cod_livello_conformita": "A",
-                "des_success_criteria_en": "9.2.2.2 Pause, Stop, Hide",
-                "des_success_criteria_it": "9.2.2.2 Pausa, stop, nascondi"
-            },
-            {
-                "num_perc_errori": 0.12722646310432570000,
-                "cod_livello_conformita": "A",
-                "des_success_criteria_en": "9.1.2.2 Captions (Prerecorded)",
-                "des_success_criteria_it": "9.1.2.2 Sottotitoli (preregistrati)"
-            },
-            {
-                "num_perc_errori": 0.10905125408942202800,
-                "cod_livello_conformita": "AA",
-                "des_success_criteria_en": "9.1.4.12 Text Spacing",
-                "des_success_criteria_it": "9.1.4.12 Spaziatura del testo"
-            },
-            {
-                "num_perc_errori": 0.10905125408942202800,
+                "num_perc_errori": 0.55961070559610705600,
                 "cod_livello_conformita": "AA",
                 "des_success_criteria_en": "9.3.1.2 Language of Parts",
                 "des_success_criteria_it": "9.3.1.2 Parti in lingua"
             },
             {
-                "num_perc_errori": 0.05452562704471101400,
+                "num_perc_errori": 0.53527980535279805400,
                 "cod_livello_conformita": "AA",
-                "des_success_criteria_en": "9.2.4.5 Multiple Ways",
-                "des_success_criteria_it": "9.2.4.5 Differenti modalità"
+                "des_success_criteria_en": "9.1.4.12 Text Spacing",
+                "des_success_criteria_it": "9.1.4.12 Spaziatura del testo"
             },
             {
-                "num_perc_errori": 0.03635041802980734300,
+                "num_perc_errori": 0.48661800486618004900,
                 "cod_livello_conformita": "A",
-                "des_success_criteria_en": "9.2.1.2 No Keyboard Trap",
-                "des_success_criteria_it": "9.2.1.2 Nessun impedimento all’uso della tastiera"
+                "des_success_criteria_en": "9.3.3.1 Error Identification",
+                "des_success_criteria_it": "9.3.3.1 Identificazione degli errori"
             },
             {
-                "num_perc_errori": 0.03635041802980734300,
-                "cod_livello_conformita": "AA",
-                "des_success_criteria_en": "9.3.2.3 Consistent Navigation",
-                "des_success_criteria_it": "9.3.2.3 Navigazione coerente"
-            },
-            {
-                "num_perc_errori": 0.03635041802980734300,
-                "cod_livello_conformita": "A",
-                "des_success_criteria_en": "9.1.3.2 Meaningful Sequence",
-                "des_success_criteria_it": "9.1.3.2 Sequenza significativa"
-            },
-            {
-                "num_perc_errori": 0.01817520901490367100,
-                "cod_livello_conformita": "A",
-                "des_success_criteria_en": "9.2.5.2 Pointer Cancellation",
-                "des_success_criteria_it": "9.2.5.2 Cancellazione delle azioni del puntatore"
-            },
-            {
-                "num_perc_errori": 0.01817520901490367100,
-                "cod_livello_conformita": "AA",
-                "des_success_criteria_en": "9.1.4.11 Non-text Contrast",
-                "des_success_criteria_it": "9.1.4.11 Contrasto in contenuti non testuali"
-            },
-            {
-                "num_perc_errori": 0.01817520901490367100,
+                "num_perc_errori": 0.36496350364963503600,
                 "cod_livello_conformita": "AA",
                 "des_success_criteria_en": "9.3.3.3 Error Suggestion",
                 "des_success_criteria_it": "9.3.3.3 Suggerimenti per gli errori"
             },
             {
-                "num_perc_errori": 0.01817520901490367100,
+                "num_perc_errori": 0.34063260340632603400,
                 "cod_livello_conformita": "AA",
-                "des_success_criteria_en": "9.1.2.5 Audio Description (Prerecorded)",
-                "des_success_criteria_it": "9.1.2.5 Audiodescrizione (preregistrata)"
+                "des_success_criteria_en": "9.1.4.11 Non-text Contrast",
+                "des_success_criteria_it": "9.1.4.11 Contrasto in contenuti non testuali"
             },
             {
-                "num_perc_errori": 0.01817520901490367100,
+                "num_perc_errori": 0.31630170316301703200,
+                "cod_livello_conformita": "A",
+                "des_success_criteria_en": "9.2.5.3 Label in Name",
+                "des_success_criteria_it": "9.2.5.3 Etichetta nel nome"
+            },
+            {
+                "num_perc_errori": 0.29197080291970802900,
+                "cod_livello_conformita": "A",
+                "des_success_criteria_en": "9.2.4.3 Focus Order",
+                "des_success_criteria_it": "9.2.4.3 Ordine del focus"
+            },
+            {
+                "num_perc_errori": 0.29197080291970802900,
+                "cod_livello_conformita": "AA",
+                "des_success_criteria_en": "9.1.3.5 Identify Input Purpose",
+                "des_success_criteria_it": "9.1.3.5 Identificare lo scopo degli input"
+            },
+            {
+                "num_perc_errori": 0.26763990267639902700,
+                "cod_livello_conformita": "A",
+                "des_success_criteria_en": "9.3.1.1 Language of Page",
+                "des_success_criteria_it": "9.3.1.1 Lingua della pagina"
+            },
+            {
+                "num_perc_errori": 0.24330900243309002400,
+                "cod_livello_conformita": "A",
+                "des_success_criteria_en": "9.2.4.2 Page Titled",
+                "des_success_criteria_it": "9.2.4.2 Titolazione della pagina"
+            },
+            {
+                "num_perc_errori": 0.19464720194647201900,
+                "cod_livello_conformita": "AA",
+                "des_success_criteria_en": "9.1.4.5 Images of Text",
+                "des_success_criteria_it": "9.1.4.5 Immagini di testo"
+            },
+            {
+                "num_perc_errori": 0.14598540145985401500,
                 "cod_livello_conformita": "A",
                 "des_success_criteria_en": "9.1.2.3 Audio Description or Media Alternative (Prerecorded)",
                 "des_success_criteria_it": "9.1.2.3 Audiodescrizione o tipo di media alternativo (preregistrato)"
             },
             {
-                "num_perc_errori": 0.01817520901490367100,
+                "num_perc_errori": 0.12165450121654501200,
+                "cod_livello_conformita": "A",
+                "des_success_criteria_en": "9.1.2.2 Captions (Prerecorded)",
+                "des_success_criteria_it": "9.1.2.2 Sottotitoli (preregistrati)"
+            },
+            {
+                "num_perc_errori": 0.09732360097323601000,
+                "cod_livello_conformita": "A",
+                "des_success_criteria_en": "9.2.1.2 No Keyboard Trap",
+                "des_success_criteria_it": "9.2.1.2 Nessun impedimento all’uso della tastiera"
+            },
+            {
+                "num_perc_errori": 0.07299270072992700700,
+                "cod_livello_conformita": "A",
+                "des_success_criteria_en": "9.3.2.1 On Focus",
+                "des_success_criteria_it": "9.3.2.1 Al focus"
+            },
+            {
+                "num_perc_errori": 0.07299270072992700700,
+                "cod_livello_conformita": "A",
+                "des_success_criteria_en": "9.2.2.2 Pause, Stop, Hide",
+                "des_success_criteria_it": "9.2.2.2 Pausa, stop, nascondi"
+            },
+            {
+                "num_perc_errori": 0.07299270072992700700,
+                "cod_livello_conformita": "A",
+                "des_success_criteria_en": "9.1.3.2 Meaningful Sequence",
+                "des_success_criteria_it": "9.1.3.2 Sequenza significativa"
+            },
+            {
+                "num_perc_errori": 0.04866180048661800500,
+                "cod_livello_conformita": "A",
+                "des_success_criteria_en": "9.1.2.1 Audio-only and Video-only (Prerecorded)",
+                "des_success_criteria_it": "9.1.2.1 Solo audio e solo video (preregistrati)"
+            },
+            {
+                "num_perc_errori": 0.04866180048661800500,
+                "cod_livello_conformita": "AA",
+                "des_success_criteria_en": "9.1.2.5 Audio Description (Prerecorded)",
+                "des_success_criteria_it": "9.1.2.5 Audiodescrizione (preregistrata)"
+            },
+            {
+                "num_perc_errori": 0.04866180048661800500,
+                "cod_livello_conformita": "AA",
+                "des_success_criteria_en": "9.1.3.4 Orientation",
+                "des_success_criteria_it": "9.1.3.4 Orientamento"
+            },
+            {
+                "num_perc_errori": 0.02433090024330900200,
+                "cod_livello_conformita": "A",
+                "des_success_criteria_en": "9.1.3.3 Sensory Characteristics",
+                "des_success_criteria_it": "9.1.3.3 Caratteristiche sensoriali"
+            },
+            {
+                "num_perc_errori": 0.02433090024330900200,
+                "cod_livello_conformita": "AA",
+                "des_success_criteria_en": "9.1.4.13 Content on Hover or Focus",
+                "des_success_criteria_it": "9.1.4.13 Contenuto con Hover o Focus"
+            },
+            {
+                "num_perc_errori": 0.02433090024330900200,
+                "cod_livello_conformita": "A",
+                "des_success_criteria_en": "9.2.1.4 Character Key Shortcuts",
+                "des_success_criteria_it": "9.2.1.4 Tasti di scelta rapida"
+            },
+            {
+                "num_perc_errori": 0.02433090024330900200,
+                "cod_livello_conformita": "A",
+                "des_success_criteria_en": "9.2.2.1 Timing Adjustable",
+                "des_success_criteria_it": "9.2.2.1 Regolazione tempi di esecuzione"
+            },
+            {
+                "num_perc_errori": 0.02433090024330900200,
+                "cod_livello_conformita": "AA",
+                "des_success_criteria_en": "9.2.4.5 Multiple Ways",
+                "des_success_criteria_it": "9.2.4.5 Differenti modalità"
+            },
+            {
+                "num_perc_errori": 0.02433090024330900200,
+                "cod_livello_conformita": "A",
+                "des_success_criteria_en": "9.1.4.2 Audio Control",
+                "des_success_criteria_it": "9.1.4.2 Controllo del sonoro"
+            },
+            {
+                "num_perc_errori": 0.02433090024330900200,
+                "cod_livello_conformita": "A",
+                "des_success_criteria_en": "9.2.5.4 Motion Actuation",
+                "des_success_criteria_it": "9.2.5.4 Azionamento da movimento"
+            },
+            {
+                "num_perc_errori": 0.02433090024330900200,
+                "cod_livello_conformita": "AA",
+                "des_success_criteria_en": "9.3.2.3 Consistent Navigation",
+                "des_success_criteria_it": "9.3.2.3 Navigazione coerente"
+            },
+            {
+                "num_perc_errori": 0.02433090024330900200,
                 "cod_livello_conformita": "AA",
                 "des_success_criteria_en": "9.3.2.4 Consistent Identification",
                 "des_success_criteria_it": "9.3.2.4 Identificazione coerente"
+            },
+            {
+                "num_perc_errori": 0.02433090024330900200,
+                "cod_livello_conformita": "AA",
+                "des_success_criteria_en": "9.3.3.4 Error Prevention (Legal, Financial, Data)",
+                "des_success_criteria_it": "9.3.3.4 Prevenzione degli errori (legali, finanziari, dati)"
             }
         ],
         "intestazione": {
-            "anno_monitoraggio": 2024,
-            "dat_ultimo_aggiornamento": "2024-12-31"
+            "anno_monitoraggio": 2025,
+            "dat_ultimo_aggiornamento": "2025-12-31"
         }
     }
 
