@@ -1,22 +1,22 @@
-year,des_region,num_entities_tot,num_entities_objectives
-2025,Lazio,1864,781
-2025,Campania,1975,970
-2025,Piemonte,2316,1221
-2025,Provincia autonoma di Trento,503,200
-2025,Abruzzo,728,255
-2025,Puglia,1264,671
-2025,Toscana,1204,643
-2025,Marche,701,384
-2025,Lombardia,3395,2180
-2025,Emilia-Romagna,1356,859
-2025,Veneto,1697,1049
-2025,Liguria,624,269
-2025,Molise,288,113
-2025,Sicilia,1860,798
-2025,Provincia autonoma di Bolzano,495,56
-2025,Calabria,974,393
-2025,Valle d'Aosta/Vallée d'Aoste,172,113
-2025,Friuli-Venezia Giulia,585,361
-2025,Umbria,354,169
-2025,Basilicata,352,167
-2025,Sardegna,932,493
+"year","des_region","num_entities_tot","num_entities_objectives"
+"2025","Sicilia","1863","808"
+"2025","Provincia autonoma di Bolzano","495","58"
+"2025","Provincia autonoma di Trento","503","203"
+"2025","Valle d'Aosta/Vallée d'Aoste","172","113"
+"2025","Umbria","352","173"
+"2025","Calabria","973","400"
+"2025","Emilia-Romagna","1354","869"
+"2025","Liguria","622","275"
+"2025","Lazio","1869","787"
+"2025","Basilicata","353","169"
+"2025","Lombardia","3398","2198"
+"2025","Sardegna","934","505"
+"2025","Abruzzo","728","260"
+"2025","Molise","288","113"
+"2025","Marche","701","388"
+"2025","Friuli-Venezia Giulia","585","368"
+"2025","Veneto","1695","1056"
+"2025","Piemonte","2317","1230"
+"2025","Toscana","1205","648"
+"2025","Campania","1982","974"
+"2025","Puglia","1263","674"

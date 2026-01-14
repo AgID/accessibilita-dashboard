@@ -1,24 +1,23 @@
+{
+  "data": [
     {
-        "data": [
-            {
-                "num_enti_valutati": 94,
-                "des_tipologia_ente_en": "Other Entities",
-                "des_tipologia_ente_it": "Altri Enti"
-            },
-            {
-                "num_enti_valutati": 5,
-                "des_tipologia_ente_en": "Schools and Universities",
-                "des_tipologia_ente_it": "Scuole e Università"
-            },
-            {
-                "num_enti_valutati": 2,
-                "des_tipologia_ente_en": "Municipalities and their Consortia and Associations",
-                "des_tipologia_ente_it": "Comuni e loro Consorzi e Associazioni"
-            }
-        ],
-        "intestazione": {
-            "anno_monitoraggio": 2025,
-            "dat_ultimo_aggiornamento": "2025-12-31"
-        }
+      "num_enti_valutati": 94,
+      "des_tipologia_ente_en": "Other Entities",
+      "des_tipologia_ente_it": "Altri Enti"
+    },
+    {
+      "num_enti_valutati": 5,
+      "des_tipologia_ente_en": "Schools and Universities",
+      "des_tipologia_ente_it": "Scuole e Università"
+    },
+    {
+      "num_enti_valutati": 2,
+      "des_tipologia_ente_en": "Municipalities and their Consortia and Associations",
+      "des_tipologia_ente_it": "Comuni e loro Consorzi e Associazioni"
     }
-
+  ],
+  "intestazione": {
+    "anno_monitoraggio": 2025,
+    "dat_ultimo_aggiornamento": "2025-12-31"
+  }
+}

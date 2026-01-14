@@ -1,20 +1,20 @@
 [
-    {
-        "valore": 101,
-        "indicatore": "num siti valutati",
-        "anno_monitoraggio": 2025,
-        "dat_ultimo_monitoraggio": "2025-12-31"
-    },
-    {
-        "valore": 1666,
-        "indicatore": "num pag esaminate",
-        "anno_monitoraggio": 2025,
-        "dat_ultimo_monitoraggio": "2025-12-31"
-    },
-    {
-        "valore": 101,
-        "indicatore": "num enti valutati",
-        "anno_monitoraggio": 2025,
-        "dat_ultimo_monitoraggio": "2025-12-31"
-    }
+  {
+    "valore": 101,
+    "indicatore": "num siti valutati",
+    "anno_monitoraggio": 2025,
+    "dat_ultimo_monitoraggio": "2025-12-31"
+  },
+  {
+    "valore": 1666,
+    "indicatore": "num pag esaminate",
+    "anno_monitoraggio": 2025,
+    "dat_ultimo_monitoraggio": "2025-12-31"
+  },
+  {
+    "valore": 101,
+    "indicatore": "num enti valutati",
+    "anno_monitoraggio": 2025,
+    "dat_ultimo_monitoraggio": "2025-12-31"
+  }
 ]

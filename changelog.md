@@ -5,6 +5,13 @@ Tutte le principali modifiche saranno documentate in questo file.
 Il formato del file è basato su [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 e questo progetto aderisce a [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [2.3.0](https://github.com/AgID/accessibilita-dashboard/releases/tag/2.3.0) - 2025-01-14
+
+### Changed
+
+- Aggiornamento dati obiettivi di accessibilità 2025
+- File open data
+
 ## [2.2.0](https://github.com/AgID/accessibilita-dashboard/releases/tag/2.2.0) - 2025-12-19
 
 ### Changed

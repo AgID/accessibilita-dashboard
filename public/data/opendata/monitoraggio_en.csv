@@ -1,64 +1,64 @@
-ipa_category,region,num_websites,last_monitoring_date
-Municipalities and their Consortia and Associations,Abruzzo,354,2025-06-30
-Municipalities and their Consortia and Associations,Basilicata,134,2025-06-30
-Municipalities and their Consortia and Associations,Calabria,432,2025-06-30
-Municipalities and their Consortia and Associations,Campania,605,2025-06-30
-Municipalities and their Consortia and Associations,Emilia-Romagna,501,2025-06-30
-Municipalities and their Consortia and Associations,Friuli-Venezia Giulia,302,2025-06-30
-Municipalities and their Consortia and Associations,Lazio,441,2025-06-30
-Municipalities and their Consortia and Associations,Liguria,336,2025-06-30
-Municipalities and their Consortia and Associations,Lombardia,1809,2025-06-30
-Municipalities and their Consortia and Associations,Marche,270,2025-06-30
-Municipalities and their Consortia and Associations,Molise,137,2025-06-30
-Municipalities and their Consortia and Associations,Piemonte,1406,2025-06-30
-Municipalities and their Consortia and Associations,Provincia autonoma di Bolzano,165,2025-06-30
-Municipalities and their Consortia and Associations,Provincia autonoma di Trento,187,2025-06-30
-Municipalities and their Consortia and Associations,Puglia,328,2025-06-30
-Municipalities and their Consortia and Associations,Sardegna,483,2025-06-30
-Municipalities and their Consortia and Associations,Sicilia,476,2025-06-30
-Municipalities and their Consortia and Associations,Toscana,505,2025-06-30
-Municipalities and their Consortia and Associations,Umbria,110,2025-06-30
-Municipalities and their Consortia and Associations,Valle d'Aosta/Vallée d'Aoste,93,2025-06-30
-Municipalities and their Consortia and Associations,Veneto,814,2025-06-30
-Other Entities,Abruzzo,269,2025-06-30
-Other Entities,Basilicata,119,2025-06-30
-Other Entities,Calabria,255,2025-06-30
-Other Entities,Campania,475,2025-06-30
-Other Entities,Emilia-Romagna,770,2025-06-30
-Other Entities,Friuli-Venezia Giulia,296,2025-06-30
-Other Entities,Lazio,2359,2025-06-30
-Other Entities,Liguria,231,2025-06-30
-Other Entities,Lombardia,1564,2025-06-30
-Other Entities,Marche,295,2025-06-30
-Other Entities,Molise,84,2025-06-30
-Other Entities,Piemonte,944,2025-06-30
-Other Entities,Provincia autonoma di Bolzano,213,2025-06-30
-Other Entities,Provincia autonoma di Trento,314,2025-06-30
-Other Entities,Puglia,427,2025-06-30
-Other Entities,Sardegna,293,2025-06-30
-Other Entities,Sicilia,698,2025-06-30
-Other Entities,Toscana,559,2025-06-30
-Other Entities,Umbria,142,2025-06-30
-Other Entities,Valle d'Aosta/Vallée d'Aoste,101,2025-06-30
-Other Entities,Veneto,704,2025-06-30
-Schools and Universities,Abruzzo,202,2025-06-30
-Schools and Universities,Basilicata,97,2025-06-30
-Schools and Universities,Calabria,304,2025-06-30
-Schools and Universities,Campania,974,2025-06-30
-Schools and Universities,Emilia-Romagna,586,2025-06-30
-Schools and Universities,Friuli-Venezia Giulia,166,2025-06-30
-Schools and Universities,Lazio,761,2025-06-30
-Schools and Universities,Liguria,190,2025-06-30
-Schools and Universities,Lombardia,1203,2025-06-30
-Schools and Universities,Marche,238,2025-06-30
-Schools and Universities,Molise,55,2025-06-30
-Schools and Universities,Piemonte,595,2025-06-30
-Schools and Universities,Provincia autonoma di Bolzano,111,2025-06-30
-Schools and Universities,Provincia autonoma di Trento,74,2025-06-30
-Schools and Universities,Puglia,656,2025-06-30
-Schools and Universities,Sardegna,273,2025-06-30
-Schools and Universities,Sicilia,849,2025-06-30
-Schools and Universities,Toscana,523,2025-06-30
-Schools and Universities,Umbria,138,2025-06-30
-Schools and Universities,Valle d'Aosta/Vallée d'Aoste,41,2025-06-30
-Schools and Universities,Veneto,615,2025-06-30
+"ipa_category","region,num_websites","last_monitoring_date"
+"Municipalities and their Consortia and Associations","Abruzzo","354","2025-06-30"
+"Municipalities and their Consortia and Associations","Basilicata","134","2025-06-30"
+"Municipalities and their Consortia and Associations","Calabria","432","2025-06-30"
+"Municipalities and their Consortia and Associations","Campania","605","2025-06-30"
+"Municipalities and their Consortia and Associations","Emilia-Romagna","501","2025-06-30"
+"Municipalities and their Consortia and Associations","Friuli-Venezia Giulia","302","2025-06-30"
+"Municipalities and their Consortia and Associations","Lazio","441","2025-06-30"
+"Municipalities and their Consortia and Associations","Liguria","336","2025-06-30"
+"Municipalities and their Consortia and Associations","Lombardia","1809","2025-06-30"
+"Municipalities and their Consortia and Associations","Marche","270","2025-06-30"
+"Municipalities and their Consortia and Associations","Molise","137","2025-06-30"
+"Municipalities and their Consortia and Associations","Piemonte","1406","2025-06-30"
+"Municipalities and their Consortia and Associations","Provincia autonoma di Bolzano","165","2025-06-30"
+"Municipalities and their Consortia and Associations","Provincia autonoma di Trento","187","2025-06-30"
+"Municipalities and their Consortia and Associations","Puglia","328","2025-06-30"
+"Municipalities and their Consortia and Associations","Sardegna","483","2025-06-30"
+"Municipalities and their Consortia and Associations","Sicilia","476","2025-06-30"
+"Municipalities and their Consortia and Associations","Toscana","505","2025-06-30"
+"Municipalities and their Consortia and Associations","Umbria","110","2025-06-30"
+"Municipalities and their Consortia and Associations","Valle d'Aosta/Vallée d'Aoste","93","2025-06-30"
+"Municipalities and their Consortia and Associations","Veneto","814","2025-06-30"
+"Other Entities","Abruzzo","269","2025-06-30"
+"Other Entities","Basilicata","119","2025-06-30"
+"Other Entities","Calabria","255","2025-06-30"
+"Other Entities","Campania","475","2025-06-30"
+"Other Entities","Emilia-Romagna","770","2025-06-30"
+"Other Entities","Friuli-Venezia Giulia","296","2025-06-30"
+"Other Entities","Lazio","2359","2025-06-30"
+"Other Entities","Liguria","231","2025-06-30"
+"Other Entities","Lombardia","1564","2025-06-30"
+"Other Entities","Marche","295","2025-06-30"
+"Other Entities","Molise","84","2025-06-30"
+"Other Entities","Piemonte","944","2025-06-30"
+"Other Entities","Provincia autonoma di Bolzano","213","2025-06-30"
+"Other Entities","Provincia autonoma di Trento","314","2025-06-30"
+"Other Entities","Puglia","427","2025-06-30"
+"Other Entities","Sardegna","293","2025-06-30"
+"Other Entities","Sicilia","698","2025-06-30"
+"Other Entities","Toscana","559","2025-06-30"
+"Other Entities","Umbria","142","2025-06-30"
+"Other Entities","Valle d'Aosta/Vallée d'Aoste","101","2025-06-30"
+"Other Entities","Veneto","704","2025-06-30"
+"Schools and Universities","Abruzzo","202","2025-06-30"
+"Schools and Universities","Basilicata","97","2025-06-30"
+"Schools and Universities","Calabria","304","2025-06-30"
+"Schools and Universities","Campania","974","2025-06-30"
+"Schools and Universities","Emilia-Romagna","586","2025-06-30"
+"Schools and Universities","Friuli-Venezia Giulia","166","2025-06-30"
+"Schools and Universities","Lazio","761","2025-06-30"
+"Schools and Universities","Liguria","190","2025-06-30"
+"Schools and Universities","Lombardia","1203","2025-06-30"
+"Schools and Universities","Marche","238","2025-06-30"
+"Schools and Universities","Molise","55","2025-06-30"
+"Schools and Universities","Piemonte","595","2025-06-30"
+"Schools and Universities","Provincia autonoma di Bolzano","111","2025-06-30"
+"Schools and Universities","Provincia autonoma di Trento","74","2025-06-30"
+"Schools and Universities","Puglia","656","2025-06-30"
+"Schools and Universities","Sardegna","273","2025-06-30"
+"Schools and Universities","Sicilia","849","2025-06-30"
+"Schools and Universities","Toscana","523","2025-06-30"
+"Schools and Universities","Umbria","138","2025-06-30"
+"Schools and Universities","Valle d'Aosta/Vallée d'Aoste","41","2025-06-30"
+"Schools and Universities","Veneto","615","2025-06-30"

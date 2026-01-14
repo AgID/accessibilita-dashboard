@@ -1,75 +1,74 @@
+{
+  "data": [
     {
-        "data": [
-            {
-                "num_perc_errori": 34.35828877005347593600,
-                "cod_livello_conformita": "A",
-                "des_success_criteria_en": "10.1.3.1 Info and Relationships",
-                "des_success_criteria_it": "10.1.3.1 Informazioni e correlazioni"
-            },
-            {
-                "num_perc_errori": 25.06684491978609625700,
-                "cod_livello_conformita": "A",
-                "des_success_criteria_en": "10.2.4.2 Page Titled",
-                "des_success_criteria_it": "10.2.4.2 Titolazione del documento"
-            },
-            {
-                "num_perc_errori": 11.02941176470588235300,
-                "cod_livello_conformita": "A",
-                "des_success_criteria_en": "10.1.1.1 Non-text Content",
-                "des_success_criteria_it": "10.1.1.1 Contenuti non testuali"
-            },
-            {
-                "num_perc_errori": 9.15775401069518716600,
-                "cod_livello_conformita": "A",
-                "des_success_criteria_en": "10.3.1.1 Language of Page",
-                "des_success_criteria_it": "10.3.1.1 Lingua del documento"
-            },
-            {
-                "num_perc_errori": 7.08556149732620320900,
-                "cod_livello_conformita": "AA",
-                "des_success_criteria_en": "10.3.1.2 Language of Parts",
-                "des_success_criteria_it": "10.3.1.2 Parti in lingua"
-            },
-            {
-                "num_perc_errori": 5.41443850267379679100,
-                "cod_livello_conformita": "A",
-                "des_success_criteria_en": "10.4.1.1 Parsing",
-                "des_success_criteria_it": "10.4.1.1 Analisi sintattica (parsing)"
-            },
-            {
-                "num_perc_errori": 4.67914438502673796800,
-                "cod_livello_conformita": "AA",
-                "des_success_criteria_en": "10.1.4.3 Contrast (Minimum)",
-                "des_success_criteria_it": "10.1.4.3 Contrasto (minimo)"
-            },
-            {
-                "num_perc_errori": 2.60695187165775401100,
-                "cod_livello_conformita": "A",
-                "des_success_criteria_en": "10.2.4.3 Focus Order",
-                "des_success_criteria_it": "10.2.4.3 Ordine del focus"
-            },
-            {
-                "num_perc_errori": 0.40106951871657754000,
-                "cod_livello_conformita": "AA",
-                "des_success_criteria_en": "10.1.4.10 Reflow",
-                "des_success_criteria_it": "10.1.4.10 Ricalcolo del flusso"
-            },
-            {
-                "num_perc_errori": 0.13368983957219251300,
-                "cod_livello_conformita": "A",
-                "des_success_criteria_en": "10.4.1.2 Name, Role, Value",
-                "des_success_criteria_it": "10.4.1.2 Nome, ruolo, valore"
-            },
-            {
-                "num_perc_errori": 0.06684491978609625700,
-                "cod_livello_conformita": "AA",
-                "des_success_criteria_en": "10.2.4.6 Headings and Labels",
-                "des_success_criteria_it": "10.2.4.6 Intestazioni ed etichette"
-            }
-        ],
-        "intestazione": {
-            "anno_monitoraggio": 2025,
-            "dat_ultimo_aggiornamento": "2025-12-31"
-        }
+      "num_perc_errori": 34.358288770053475936,
+      "cod_livello_conformita": "A",
+      "des_success_criteria_en": "10.1.3.1 Info and Relationships",
+      "des_success_criteria_it": "10.1.3.1 Informazioni e correlazioni"
+    },
+    {
+      "num_perc_errori": 25.066844919786096257,
+      "cod_livello_conformita": "A",
+      "des_success_criteria_en": "10.2.4.2 Page Titled",
+      "des_success_criteria_it": "10.2.4.2 Titolazione del documento"
+    },
+    {
+      "num_perc_errori": 11.029411764705882353,
+      "cod_livello_conformita": "A",
+      "des_success_criteria_en": "10.1.1.1 Non-text Content",
+      "des_success_criteria_it": "10.1.1.1 Contenuti non testuali"
+    },
+    {
+      "num_perc_errori": 9.157754010695187166,
+      "cod_livello_conformita": "A",
+      "des_success_criteria_en": "10.3.1.1 Language of Page",
+      "des_success_criteria_it": "10.3.1.1 Lingua del documento"
+    },
+    {
+      "num_perc_errori": 7.085561497326203209,
+      "cod_livello_conformita": "AA",
+      "des_success_criteria_en": "10.3.1.2 Language of Parts",
+      "des_success_criteria_it": "10.3.1.2 Parti in lingua"
+    },
+    {
+      "num_perc_errori": 5.414438502673796791,
+      "cod_livello_conformita": "A",
+      "des_success_criteria_en": "10.4.1.1 Parsing",
+      "des_success_criteria_it": "10.4.1.1 Analisi sintattica (parsing)"
+    },
+    {
+      "num_perc_errori": 4.679144385026737968,
+      "cod_livello_conformita": "AA",
+      "des_success_criteria_en": "10.1.4.3 Contrast (Minimum)",
+      "des_success_criteria_it": "10.1.4.3 Contrasto (minimo)"
+    },
+    {
+      "num_perc_errori": 2.606951871657754011,
+      "cod_livello_conformita": "A",
+      "des_success_criteria_en": "10.2.4.3 Focus Order",
+      "des_success_criteria_it": "10.2.4.3 Ordine del focus"
+    },
+    {
+      "num_perc_errori": 0.40106951871657754,
+      "cod_livello_conformita": "AA",
+      "des_success_criteria_en": "10.1.4.10 Reflow",
+      "des_success_criteria_it": "10.1.4.10 Ricalcolo del flusso"
+    },
+    {
+      "num_perc_errori": 0.133689839572192513,
+      "cod_livello_conformita": "A",
+      "des_success_criteria_en": "10.4.1.2 Name, Role, Value",
+      "des_success_criteria_it": "10.4.1.2 Nome, ruolo, valore"
+    },
+    {
+      "num_perc_errori": 0.066844919786096257,
+      "cod_livello_conformita": "AA",
+      "des_success_criteria_en": "10.2.4.6 Headings and Labels",
+      "des_success_criteria_it": "10.2.4.6 Intestazioni ed etichette"
     }
-
+  ],
+  "intestazione": {
+    "anno_monitoraggio": 2025,
+    "dat_ultimo_aggiornamento": "2025-12-31"
+  }
+}

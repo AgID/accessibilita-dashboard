@@ -1,13 +1,23 @@
 [
   {
-    "date_en": "January 2026",
-    "date_it": "Gennaio 2026",
-    "title_en": "New in-depth monitoring and updating Accessibility objectives",
-    "title_it": "Nuovo monitoraggio approfondito e aggiornamento Obiettivi di accessibilità",
-    "details_en": "Publication new in-depth monitoring 2025, update 4th quarter 2025 Accessibility objectives.",
-    "details_it": "Pubblicazione nuovo monitoraggio approfondito 2025 e aggiornamento 4° trimestre 2025 Obiettivi di accessibilità.",
+    "date_en": "March 2026",
+    "date_it": "Marzo 2026",
+    "title_en": "Updating Accessibility objectives",
+    "title_it": "Aggiornamento Obiettivi di accessibilità",
+    "details_en": "Publication update 1st quarter 2025 Accessibility objectives.",
+    "details_it": "Pubblicazione aggiornamento 1° trimestre 2026 Obiettivi di accessibilità.",
     "release_en": "Arriving",
     "release_it": "In Arrivo"
+  },
+  {
+    "date_en": "January 2026",
+    "date_it": "Gennaio 2026",
+    "title_en": "New in-depth monitoring and updating Accessibility objectives. Change of the separator in the open data CSV files",
+    "title_it": "Nuovo monitoraggio approfondito e aggiornamento Obiettivi di accessibilità. Modifica del separatore nei csv degli open data",
+    "details_en": "Publication new in-depth monitoring 2025, update 4th quarter 2025 Accessibility objectives. Change of the separator (\",\") in the open data CSV files.",
+    "details_it": "Pubblicazione nuovo monitoraggio approfondito 2025 e aggiornamento 4° trimestre 2025 Obiettivi di accessibilità. Modifica del separatore (\",\") nei csv degli open data.",
+    "release_en": "Actual",
+    "release_it": "Attuale"
   },
   {
     "date_en": "September 2025",
@@ -16,8 +26,8 @@
     "title_it": "Nuovo dataset monitoraggio, aggiornamento Obiettivi e Dichiarazioni di accessibilità",
     "details_en": "Publication of monitoring data 2nd quarter 2025, annual update Accessibility statements and 3rd quarter 2025 update Accessibility objectives.",
     "details_it": "Pubblicazione dati monitoraggio 2° trimestre 2025, aggiornamento annuale Dichiarazione di accessibilità e aggiornamento trimestrale Obiettivi di accessibilità.",
-    "release_en": "Actual",
-    "release_it": "Attuale"
+    "release_en": "Passed",
+    "release_it": "Passata"
   },
   {
     "date_en": "June 2025",
@@ -30,7 +40,7 @@
     "release_it": "Passata"
   },
   {
-    "date_en": "Marzo 2025",
+    "date_en": "March 2025",
     "date_it": "Marzo 2025",
     "title_en": "New dataset monitoring and updating Accessibility objectives",
     "title_it": "Nuovo dataset monitoraggio e aggiornamento Obiettivi di accessibilità",
@@ -40,7 +50,7 @@
     "release_it": "Passata"
   },
   {
-    "date_en": "Gennaio 2025",
+    "date_en": "January 2025",
     "date_it": "Gennaio 2025",
     "title_en": "New dataset monitoring, new in-depth monitoring and updating Accessibility objectives",
     "title_it": "Nuovo dataset monitoraggio, nuovo monitoraggio approfondito e aggiornamento Obiettivi di accessibilità",

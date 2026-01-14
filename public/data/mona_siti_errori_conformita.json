@@ -1,19 +1,18 @@
+{
+  "data": [
     {
-        "data": [
-            {
-                "num_errori": 30,
-                "cod_livello_conformita": "A",
-                "des_paragrafo_principale": "Web"
-            },
-            {
-                "num_errori": 19,
-                "cod_livello_conformita": "AA",
-                "des_paragrafo_principale": "Web"
-            }
-        ],
-        "intestazione": {
-            "anno_monitoraggio": 2025,
-            "dat_ultimo_aggiornamento": "2025-12-31"
-        }
+      "num_errori": 30,
+      "cod_livello_conformita": "A",
+      "des_paragrafo_principale": "Web"
+    },
+    {
+      "num_errori": 19,
+      "cod_livello_conformita": "AA",
+      "des_paragrafo_principale": "Web"
     }
-
+  ],
+  "intestazione": {
+    "anno_monitoraggio": 2025,
+    "dat_ultimo_aggiornamento": "2025-12-31"
+  }
+}

@@ -1,14 +1,14 @@
 {
   "data": [
     {
-      "perc_errore_en": "PDF documents with errors",
+      "perc_errore_en": "PDF Documents with errors",
       "perc_errore_it": "Documenti PDF con errori",
       "perc_num_pdf_senza_errori": 94.863013698630136986
     },
     {
-      "perc_errore_en": "PDF documents without errors",
+      "perc_errore_en": "PDF Documents without errors",
       "perc_errore_it": "Documenti PDF senza errori",
-      "perc_num_pdf_senza_errori": 0.0
+      "perc_num_pdf_senza_errori": 5.136986301369863014
     }
   ],
   "intestazione": {
