@@ -1,0 +1,7 @@
+// Runtime configuration, rendered by the Devops-AWS deploy and published as config.js (no-cache).
+// Values can be overridden in the application vault (feedback_host, feedback_api_mode).
+{% set feedback_default_host = 'feedback.accessibilita.agid.gov.it' if env_name == 'prod' else 'feedback-coll.accessibilita.agid.gov.it' %}
+window.APP_CONFIG = {
+  feedbackHost: {{ (feedback_host | default('https://' ~ feedback_default_host ~ '/widget/feedback-widget.js')) | to_json }},
+  feedbackApiMode: {{ (feedback_api_mode | default('primary' if env_name == 'prod' else 'secondary')) | to_json }},
+};

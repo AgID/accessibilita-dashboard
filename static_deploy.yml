@@ -1,0 +1,8 @@
+# static_deploy.yml — settings for the Devops-AWS "static" deploy
+
+# Vite bundles (content-hashed file names): cached for one year
+immutable_paths:
+  - assets/
+
+# Data, PDFs and images under public/ keep their names across releases: short cache
+cache_control_assets: public, max-age=3600

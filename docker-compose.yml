@@ -1,0 +1,20 @@
+# docker-compose.yml — image build for the Devops-AWS "static" deploy
+services:
+  # Image with the static files under /site, published to S3 and CloudFront by the deploy.
+  site:
+    image: ${IMAGE_REPOSITORY_BASE_URL}/site:${APP_VERSION}
+    build:
+      context: .
+      target: site
+
+  # Local preview with nginx (never built nor pushed by the pipeline: profile "preview" and image
+  # outside IMAGE_REPOSITORY_BASE_URL). Uses the defaults of public/config.js.
+  #   docker compose --profile preview up --build   ->   http://localhost:8080
+  preview:
+    profiles: ["preview"]
+    image: accessibilita-dashboard-preview:local
+    build:
+      context: .
+      target: preview
+    ports:
+      - "8080:80"
