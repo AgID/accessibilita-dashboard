@@ -1,0 +1,11 @@
+.git
+node_modules
+dist
+dist-ssr
+.env
+*.local
+.scannerwork
+test-results
+playwright-report
+blob-report
+playwright/.cache

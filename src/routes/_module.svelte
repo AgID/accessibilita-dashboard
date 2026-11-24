@@ -6,9 +6,10 @@
   import { visibleTooltip, isFocus } from "../store/tooltip";
   import { locale, t } from "../lib/utils/i18n";
   import { activeRoute } from "@roxi/routify";
+  import { appConfig } from "../lib/utils/runtimeConfig";
 
   let { children } = $props();
-  const apiMode = import.meta.env.VITE_FEEDBACK_API_MODE;
+  const apiMode = appConfig.feedbackApiMode;
   let innerWidth = $state(0);
   let selectedPage = $state("");
   let innerHeight = $state(0);
