@@ -30,3 +30,5 @@ node_modules
 /playwright-report/
 /blob-report/
 /playwright/.cache/
+# Ansible vault values (Devops-AWS deploy): never commit
+/vault/

@@ -6,3 +6,12 @@ immutable_paths:
 
 # Data, PDFs and images under public/ keep their names across releases: short cache
 cache_control_assets: public, max-age=3600
+
+# Collaudo: accesso dalla rete autorizzata OPPURE con la credenziale
+# (valori nel vault coll: static_access_username, static_access_password,
+# static_access_allowed_cidrs)
+access:
+  environments: [coll]
+  basic_auth: true
+  ip_allowlist: true
+  combine: any
