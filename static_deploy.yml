@@ -15,3 +15,12 @@ access:
   basic_auth: true
   ip_allowlist: true
   combine: any
+
+not_found_paths:
+  - /assets/
+  - /bootstrap-italia/
+  - /data/
+  - /pdf/
+  - /images/
+  - /icons/
+  - /logo/
