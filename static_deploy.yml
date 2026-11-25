@@ -17,6 +17,7 @@ access:
   combine: any
 
 not_found_paths:
+  - /favicon.ico
   - /assets/
   - /bootstrap-italia/
   - /data/
